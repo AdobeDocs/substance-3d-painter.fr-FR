@@ -72,7 +72,7 @@ Sinon, si vous souhaitez copier les paramètres d’un seul maillage mappé vers
 
 ![](../../assets/baking/copy-ao-settings.gif)
 
-*Dans l’exemple ci-dessus, chaque ensemble de textures commence par des paramètres différents pour l’IA. Sans définir la texture de maillage AO à synchroniser, nous utilisons **Appliquer les paramètres d&#39;occlusion ambiante à d&#39;autres ensembles de textures...**afin de pouvoir commencer à modifier les paramètres AO pour le nouvel ensemble de textures à partir de la même ligne de base.*
+*Dans l’exemple ci-dessus, chaque ensemble de textures commence par des paramètres différents pour l’IA. Sans définir la texture de maillage AO à synchroniser, nous utilisons **Appliquer les paramètres d&#39;occlusion ambiante à d&#39;autres ensembles de textures...**&#x200B;afin de pouvoir commencer à modifier les paramètres AO pour le nouvel ensemble de textures à partir de la même ligne de base.*
 
 ### Gestion de l’état de vérification des cartes de maillage
 
@@ -90,10 +90,10 @@ L’option Vérifier l’état détermine si une carte donnée est incluse lorsq
 
 ![](../../assets/baking/invert-checked.gif)
 
-*Dans l&#39;exemple ci-dessus, nous utilisons **Inverser les cartes de maillage vérifiées**pour changer rapidement de sélection, puis cuire les cartes de maillage qui n&#39;ont pas encore été cuites.*
+*Dans l&#39;exemple ci-dessus, nous utilisons **Inverser les cartes de maillage vérifiées**&#x200B;pour changer rapidement de sélection, puis cuire les cartes de maillage qui n&#39;ont pas encore été cuites.*
 
 Lorsque vous travaillez avec plusieurs ensembles de textures, vous pouvez également copier l&#39;état coché des mappages vers d&#39;autres ensembles de textures en sélectionnant **Appliquer l&#39;état coché à d&#39;autres ensembles de textures...**, ou copier l&#39;état coché vers tous les ensembles de textures avec l&#39;option **Appliquer l&#39;état coché à tous les ensembles de textures**.
 
 ![](../../assets/baking/copy-checked-status.gif)
 
-*Dans l&#39;exemple ci-dessus, nous n&#39;avons pas encore cuit l&#39;Height, les normales courbées ou l&#39;opacité dans le jeu de textures **Matériau.001**. Ces cartes de maillage sont déjà sélectionnées dans l&#39;ensemble de textures **Matériau**. Nous utilisons donc **Appliquer coché à d&#39;autres ensembles de textures...**et sélectionnons **Matériau.001**pour copier l&#39;état coché. Nous faisons ensuite cuire les cartes. Notez que la visualisation passe par les cartes de maillage deux fois lors de la cuisson des cartes. En effet, ces cartes sont cuites pour les deux ensembles de textures.*
+*Dans l&#39;exemple ci-dessus, nous n&#39;avons pas encore cuit l&#39;Height, les normales courbées ou l&#39;opacité dans le jeu de textures **Matériau.001**. Ces cartes de maillage sont déjà sélectionnées dans l&#39;ensemble de textures **Matériau**. Nous utilisons donc **Appliquer coché à d&#39;autres ensembles de textures...**&#x200B;et sélectionnons **Matériau.001**&#x200B;pour copier l&#39;état coché. Nous faisons ensuite cuire les cartes. Notez que la visualisation passe par les cartes de maillage deux fois lors de la cuisson des cartes. En effet, ces cartes sont cuites pour les deux ensembles de textures.*

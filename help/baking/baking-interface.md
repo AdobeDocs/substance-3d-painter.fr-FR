@@ -13,7 +13,7 @@ ht-degree: 3%
 
 Le **mode de cuisson** permet d&#39;accéder à tous les outils et paramètres dont vous avez besoin pour créer des pâtisseries de grande qualité.
 
-Pour accéder au **mode Cuisson**, cliquez sur le bouton Croissant (cuit) en haut à droite de la clôture. Vous pouvez également utiliser le [raccourci clavier ](../interface/settings/shortcuts.md)**F8** ou sélectionner **Mode > Mappages de maillage de cuisson**
+Pour accéder au **mode Cuisson**, cliquez sur le bouton Croissant (cuit) en haut à droite de la clôture. Vous pouvez également utiliser le [raccourci clavier &#x200B;](../interface/settings/shortcuts.md)**F8** ou sélectionner **Mode > Mappages de maillage de cuisson**
 
 ![](../assets/baking/mode_select_buttons.png)
 

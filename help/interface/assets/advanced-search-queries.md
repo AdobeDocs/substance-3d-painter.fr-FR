@@ -49,10 +49,10 @@ La requête de texte prend en charge plusieurs types de filtrage, certains étan
 Ils peuvent être activés en saisissant les bons mots-clés.
 
 * **Types de recherche disponibles** :
-  *  » **n:** «  : name
-  *  » **s:** «  : tiroir/bibliothèque (comprend « session » et « projet »)
-  *  » **p:** «  : path
-  *  » **u:** «  : utilisation
+  * » **n:** «  : name
+  * » **s:** «  : tiroir/bibliothèque (comprend « session » et « projet »)
+  * » **p:** «  : path
+  * » **u:** «  : utilisation
 * **Échappement** : il est possible d&#39;utiliser « **\** » avant le caractère qui doit être placé en échap ou d&#39;utiliser des guillemets à la place, par exemple :
   * **a\ name\ avec\ spaces**
   * **« un nom avec des espaces »**
