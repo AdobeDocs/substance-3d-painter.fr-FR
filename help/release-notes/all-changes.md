@@ -123,7 +123,7 @@ Résumé : <b>Cette mise à jour est une version majeure. Elle contient des amé
 * [Cage automatique] Charge infinie lorsque le chemin d’accès au fichier poly élevé n’est pas valide
 * [Linux][Windows] Le sélecteur de couleurs peut parfois être entièrement noir ou ne pas apparaître
 * [Outil Remplissage polygonal] L’outil ne fonctionne pas avec les fichiers non PBR
-* [[Paint] La suppression de la couche de couleur de base ne supprime pas la couleur précédemment peinte
+* &lbrack;[Paint] La suppression de la couche de couleur de base ne supprime pas la couleur précédemment peinte
 * [USD] Les instances de nuanceur ne sont pas toutes correctement détectées
 * [Substance] Seule la première utilisation d&#39;un nœud d&#39;entrée/sortie est prise en compte
 * [Shader] L’Occlusion ambiante est appliquée deux fois avec les ensembles de textures en utilisant différentes méthodes de mélange

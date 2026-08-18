@@ -22,7 +22,7 @@ ht-degree: 0%
 
 La couche d’occlusion ambiante permet de peindre les détails dans les ombres ambiantes d’un objet. Il peut être utilisé pour ajouter des détails d’AOP provenant de Matières, ou simplement corriger manuellement des erreurs d’étuvage si nécessaire.
 
->> 
+&#x200B;>> 
 
 Dans le domaine de l’infographie, l’occlusion ambiante est un ombrage de rendu utilisé pour calculer l’exposition de chaque point d’une scène à l’éclairage ambiant. L&#39;intérieur d&#39;un tube est généralement plus occulté (et donc plus sombre) que les surfaces extérieures exposées, et plus vous vous éloignez de l&#39;intérieur du tube, plus l&#39;éclairage devient occulté (et plus sombre). L&#39;occlusion ambiante peut être considérée comme une valeur d&#39;accessibilité calculée pour chaque point de surface.\
 Source : &lt;https://en.wikipedia.org/wiki/Ambient_occlusion>

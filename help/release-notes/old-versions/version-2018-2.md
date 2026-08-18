@@ -190,7 +190,7 @@ Pour trouver le projet, utilisez l&#39;entrée de menu **Fichier** > **Ouvrir l&
 
 (Publié le 25 septembre 2018)
 
-****Fixe :****
+**&#x200B;**&#x200B;Fixe :**&#x200B;**
 
 * [Vue 2D] La vue 2D est rompue avec certains maillages lors de la création d’un nouveau projet
 * [Crash] Le passage de la Projection UV à la projection triplanaire entraîne un crash
