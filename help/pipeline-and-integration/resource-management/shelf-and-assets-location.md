@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/pipeline-and-integration/resource-management/shelf-and-assets-location.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/resource-management/shelf-and-assets-location.html"
 breadcrumb-title: ''
 description: Découvrez comment configurer l’étagère et l’emplacement des ressources dans Substance 3D Painter pour organiser votre bibliothèque de ressources et y accéder.
 helpx_creative_field: ""
