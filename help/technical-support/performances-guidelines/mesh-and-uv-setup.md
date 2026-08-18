@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/performances-guidelines/mesh-and-uv-setup.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/performances-guidelines/mesh-and-uv-setup.html"
 breadcrumb-title: ''
 description: Découvrez les bonnes pratiques de configuration des filets et des UV dans Substance 3D Painter pour optimiser les performances et la qualité de la texture.
 helpx_creative_field: ""

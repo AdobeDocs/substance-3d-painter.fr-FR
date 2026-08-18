@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-env-shader-api.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-env-shader-api.html"
 breadcrumb-title: ''
 description: Accédez à la référence du API de shader Env Lib pour Substance 3D Painter afin d’utiliser les cartes d’environnement et l’éclairage dans des nuanceurs personnalisés.
 helpx_creative_field: ""

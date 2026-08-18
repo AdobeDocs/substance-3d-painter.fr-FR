@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/assets-or-shelf-previews-are-empty.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/assets-or-shelf-previews-are-empty.html"
 breadcrumb-title: ''
 description: Découvrez comment corriger les aperçus de fichier et d’étagère vides dans Substance 3D Painter pour restaurer la fonctionnalité d’affichage des vignettes.
 helpx_creative_field: ""

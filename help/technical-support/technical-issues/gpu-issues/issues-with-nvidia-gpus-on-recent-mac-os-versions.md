@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/issues-with-nvidia-gpus-on-recent-mac-os-versions.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/technical-issues/gpu-issues/issues-with-nvidia-gpus-on-recent-mac-os-versions.html"
 breadcrumb-title: ''
 description: Découvrez comment résoudre les problèmes de compatibilité du GPU Nvidia sur les versions récentes de macOS dans Substance 3D Painter pour des performances stables.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sparse-shader-api.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sparse-shader-api.html"
 breadcrumb-title: ''
 description: Accédez à la référence Lib Sparse API de shader pour Substance 3D Painter afin d’utiliser l’échantillonnage de texture dispersée dans des nuanceurs personnalisés.
 helpx_creative_field: ""

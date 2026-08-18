@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-when-opening-or-saving-a-file.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-when-opening-or-saving-a-file.html"
 breadcrumb-title: ''
 description: Découvrez comment corriger les blocages de Substance 3D Painter lors de l’ouverture ou de l’enregistrement de fichiers pour une gestion de projet fiable.
 helpx_creative_field: ""

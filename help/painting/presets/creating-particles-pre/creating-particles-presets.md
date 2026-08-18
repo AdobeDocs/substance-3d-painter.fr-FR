@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/creating-particles-presets.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting/presets/creating-particles-presets.html"
 breadcrumb-title: ''
 description: Apprenez à créer des pinceaux à particules prédéfinis dans Substance 3D Painter pour ajouter des effets dynamiques de peinture de textures à votre workflow.
 helpx_creative_field: ""
@@ -26,6 +26,6 @@ Les brosses à particules sont composées de deux parties : l&#39;**émetteur** 
 
 Pour plus d’informations, consultez les pages dédiées :
 
-* [Installation de l’éditeur de particules](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/installation-of-the-editor-67403780.html)
-* [Présentation de l’éditeur de particules](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/overview-of-popcornfx-particle-editor-67796996.html)
+* [Installation de l’éditeur de particules](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/installation-of-the-editor-67403780.html)
+* [Présentation de l’éditeur de particules](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/overview-of-popcornfx-particle-editor-67796996.html)
 * [Création D&#39;Un Script De Particule](creating-a-new-particle-script.md)

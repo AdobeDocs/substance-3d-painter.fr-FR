@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/tools-issues/paint-tool-bleeds-on-other-uv-islands.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/workflow-issues/tools-issues/paint-tool-bleeds-on-other-uv-islands.html"
 breadcrumb-title: ''
 description: Apprenez à corriger les défauts de l’outil de peinture sur tous les Îlots UV dans Substance 3D Painter afin de conserver des limites de texture nettes.
 helpx_creative_field: ""

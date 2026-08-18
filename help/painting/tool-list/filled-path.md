@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/filled-path.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting/tool-list/filled-path.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser l’outil Tracé avec fond dans Substance 3D Painter pour créer des formes et des tracés avec fond pour la peinture de textures.
 helpx_creative_field: ""

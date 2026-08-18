@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/impossible-to-use-the-alt-keyboard-shortcut-on-linux.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/impossible-to-use-the-alt-keyboard-shortcut-on-linux.html"
 breadcrumb-title: ''
 description: Découvrez comment résoudre les problèmes de raccourci clavier ALT sous Linux dans Substance 3D Painter pour une navigation correcte sur le clavier.
 helpx_creative_field: ""

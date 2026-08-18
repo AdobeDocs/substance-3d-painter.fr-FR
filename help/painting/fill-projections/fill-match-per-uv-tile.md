@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/fill-match-per-uv-tile.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting/fill-projections/fill-match-per-uv-tile.html"
 breadcrumb-title: ''
 description: Utilisez la correspondance de remplissage par carreau UV dans Substance 3D Painter pour faire correspondre les motifs de texture sur les carreaux UV afin de créer un carrelage transparent.
 helpx_creative_field: ""

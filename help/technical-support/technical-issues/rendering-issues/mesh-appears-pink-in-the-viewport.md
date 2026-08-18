@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/rendering-issues/mesh-appears-pink-in-the-viewport.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/technical-issues/rendering-issues/mesh-appears-pink-in-the-viewport.html"
 breadcrumb-title: ''
 description: Apprenez à corriger l'apparence des filets roses dans la fenêtre d'affichage de Substance 3D Painter pour restaurer un rendu de matière correct.
 helpx_creative_field: ""
@@ -27,4 +27,4 @@ Le maillage peut apparaître **rose** dans la fenêtre d&#39;affichage, car l&#3
 Voici comment résoudre le problème :
 
 * Pour les **nuanceurs par défaut** : suivez la procédure étape par étape de la page [Mise à jour d&#39;un nuanceur](../../../interface/shader-settings/updating-a-shader.md).
-* Pour **shader personnalisé** : examinez le message d&#39;erreur dans la fenêtre du journal ainsi que la page [API de shader](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html).
+* Pour **shader personnalisé** : examinez le message d&#39;erreur dans la fenêtre du journal ainsi que la page [API de shader](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html).

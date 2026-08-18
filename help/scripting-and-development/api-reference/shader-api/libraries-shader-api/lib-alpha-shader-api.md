@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-alpha-shader-api.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-alpha-shader-api.html"
 breadcrumb-title: ''
 description: Accédez à la référence API de shader de l’Alpha de bibliothèque pour Substance 3D Painter afin de travailler avec les couches alpha et la transparence dans les ombrages personnalisés.
 helpx_creative_field: ""

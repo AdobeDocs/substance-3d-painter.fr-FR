@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/startup-issues/crash-or-freeze-during-startup.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/technical-issues/startup-issues/crash-or-freeze-during-startup.html"
 breadcrumb-title: ''
 description: Découvrez comment corriger les blocages au démarrage de Substance 3D Painter pour un lancement stable de l’application.
 helpx_creative_field: ""
@@ -41,7 +41,7 @@ Si l’application se bloque correctement au démarrage sous Windows (ce qui ent
 * Une application externe crée un conflit. Reportez-vous à la section [Conflits de logiciels](software-conflicts.md) pour savoir lesquels.
 * Certaines fenêtres de l’application ont été ouvertes sur un autre moniteur. Restaurer l&#39;interface à sa disposition par défaut permet de démarrer l&#39;application normalement :
   1. Ouvrez l&#39;éditeur du registre (**regedit** à partir du menu Démarrer)
-  1. Accédez aux préférences de l&#39;application (voir : [Préférences et emplacement des données de l&#39;application](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html)).
+  1. Accédez aux préférences de l&#39;application (voir : [Préférences et emplacement des données de l&#39;application](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html)).
   1. Développez la clé **Adobe Substance 3D Painter**
   1. Sélectionnez la touche **Fenêtre principale 2018** et supprimez-la
   1. Redémarrage de l’application

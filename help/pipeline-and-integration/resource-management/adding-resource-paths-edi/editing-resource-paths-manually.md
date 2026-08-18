@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/resource-management/adding-resource-paths-by-editing-preferences-manually/editing-resource-paths-manually.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/pipeline-and-integration/resource-management/adding-resource-paths-by-editing-preferences-manually/editing-resource-paths-manually.html"
 breadcrumb-title: ''
 description: Découvrez comment modifier manuellement les chemins d’accès aux ressources dans les préférences de Substance 3D Painter pour personnaliser les emplacements de vos ressources d’étagère.
 helpx_creative_field: ""
