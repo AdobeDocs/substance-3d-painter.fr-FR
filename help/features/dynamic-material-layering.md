@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/dynamic-material-layering.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/features/dynamic-material-layering.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser la superposition dynamique de matériaux dans Substance 3D Painter pour fusionner et associer des matériaux avec des masques de procédure.
 helpx_creative_field: ""

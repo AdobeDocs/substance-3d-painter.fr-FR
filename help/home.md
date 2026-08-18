@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/home.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/home.html"
 breadcrumb-title: ''
 description: Commencez avec Substance 3D Painter pour peindre des textures directement sur des modèles 3D et créer des surfaces matérielles réalistes.
 helpx_creative_field: ""
@@ -28,7 +28,7 @@ Substance 3D Painter est un logiciel de peinture 3D qui vous permet de texturer 
 
 Cette documentation est conçue pour vous aider à apprendre à utiliser ce logiciel, des techniques de base aux techniques avancées.
 
-Si vous avez une question à laquelle il n&#39;y a pas de réponse dans ce manuel, n&#39;hésitez pas à la poser sur notre [Forum](https://community.adobe.com/t5/substance-3d-painter/bd-p/substance-3d-painter). Vous pouvez également télécharger notre [guide Rendu physique réaliste](https://helpx.adobe.com/substance-3d/unlisted/tutorials.html) si vous souhaitez en savoir plus sur le PBR.
+Si vous avez une question à laquelle il n&#39;y a pas de réponse dans ce manuel, n&#39;hésitez pas à la poser sur notre [Forum](https://community.adobe.com/t5/substance-3d-painter/bd-p/substance-3d-painter). Vous pouvez également télécharger notre [guide Rendu physique réaliste](https://helpx.adobe.com/fr/substance-3d/unlisted/tutorials.html) si vous souhaitez en savoir plus sur le PBR.
 
 </td>
 <td width="58.30%" style="border: 0;" valign="top">
@@ -83,7 +83,7 @@ Si vous avez une question à laquelle il n&#39;y a pas de réponse dans ce manue
 ### Contenu
 
 * [Création d’effets personnalisés](content/creating-custom-effects/creating-custom-effects.md)
-* [Importation d’actifs](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
+* [Importation d’actifs](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
 
 ### Fonctionnalité
 
@@ -112,7 +112,7 @@ Si vous avez une question à laquelle il n&#39;y a pas de réponse dans ce manue
 
 ### Scripts et développement
 
-* [Scripts et plug-ins](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/script-and-plugins-197427392.html)
+* [Scripts et plug-ins](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/script-and-plugins-197427392.html)
 
 ### Support technique
 

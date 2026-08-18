@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/dynamic-strokes.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting/dynamic-strokes.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser des traits dynamiques dans Substance 3D Painter pour créer des coups de pinceau réactifs qui s’adaptent à la vitesse et à la pression de peinture.
 helpx_creative_field: ""

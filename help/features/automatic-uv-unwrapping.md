@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/automatic-uv-unwrapping.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/features/automatic-uv-unwrapping.html"
 breadcrumb-title: ''
 description: Découvrez comment utiliser le déballage UV automatique dans Substance 3D Painter pour générer automatiquement des mises en page UV pour vos modèles 3D.
 helpx_creative_field: ""

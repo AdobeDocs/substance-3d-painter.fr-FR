@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/miscellaneous/log.html'
+helpx_url: 'https://helpx.adobe.com/fr/substance-3d-painter/interface/miscellaneous/log.html'
 breadcrumb-title: ''
 description: Découvrez comment accéder à la fenêtre du journal de Substance 3D Painter et l’utiliser pour afficher les messages d’application et les informations de débogage.
 helpx_creative_field: ''

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/iray-renderer/viewer-and-mdl-settings.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/features/iray-renderer/viewer-and-mdl-settings.html"
 breadcrumb-title: ''
 description: Découvrez comment configurer les paramètres de la visionneuse et de MDL pour le rendu Iray dans Substance 3D Painter afin de personnaliser le rendu des matériaux.
 helpx_creative_field: ""

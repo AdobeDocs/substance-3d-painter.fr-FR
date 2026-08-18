@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/project-creation.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/getting-started/project-creation.html"
 breadcrumb-title: ''
 description: Apprenez à créer un projet dans Substance 3D Painter pour peindre des textures sur vos modèles 3D.
 helpx_creative_field: ""

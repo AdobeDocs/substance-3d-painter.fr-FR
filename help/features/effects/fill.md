@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/fill.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/features/effects/fill.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser l’effet Remplissage de Substance 3D Painter pour remplir des calques avec des couleurs unies, des textures ou des matières.
 helpx_creative_field: ""

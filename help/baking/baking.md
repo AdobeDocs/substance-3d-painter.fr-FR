@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/baking.html'
+helpx_url: 'https://helpx.adobe.com/fr/substance-3d-painter/baking.html'
 breadcrumb-title: ''
 description: Apprenez à créer des cartes de maillage dans Substance 3D Painter pour générer une occlusion ambiante, une courbure et d’autres textures basées sur la géométrie.
 helpx_creative_field: ''

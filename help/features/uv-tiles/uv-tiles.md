@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/uv-tiles.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/features/uv-tiles.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser les tuiles UV dans Substance 3D Painter pour travailler avec des mises en page UV en mosaïque et plusieurs ensembles de textures.
 helpx_creative_field: ""

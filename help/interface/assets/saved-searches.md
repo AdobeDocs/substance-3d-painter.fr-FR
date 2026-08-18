@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/saved-searches.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/assets/saved-searches.html"
 breadcrumb-title: ''
 description: Découvrez comment créer et utiliser des recherches enregistrées dans Substance 3D Painter pour accéder rapidement aux filtres de ressources fréquemment utilisés.
 helpx_creative_field: ""

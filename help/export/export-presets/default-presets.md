@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-presets/default-presets.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/getting-started/export/export-presets/default-presets.html"
 breadcrumb-title: ''
 description: Découvrez les modèles de sortie par défaut dans Substance 3D Painter pour comprendre les configurations et les formats d’exportation standard.
 helpx_creative_field: ""

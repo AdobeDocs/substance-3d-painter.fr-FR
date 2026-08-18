@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/color-profile.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/features/post-processing/color-profile.html"
 breadcrumb-title: ''
 description: Découvrez comment utiliser le post-traitement des profils colorimétriques dans Substance 3D Painter pour appliquer l’étalonnage des couleurs et les transformations LUT.
 helpx_creative_field: ""
@@ -84,4 +84,4 @@ ociolutimage --generate --cubesize 64 --config nuke-default/config.ocio --colorc
 
 Ouvrez simplement la fenêtre d’importation (ou glissez-déposez le LUT dans l’étagère). Lors de l’importation de la texture LUT dans Substance 3D Painter, veillez à attribuer la « **colorlut** » **utilisation** à la nouvelle ressource. Sinon, la ressource ne sera pas correctement visible dans l&#39;étagère.
 
-Pour plus d&#39;informations, consultez la documentation sur l&#39;importation de nouvelles ressources : [Ajout de ressources via la fenêtre d&#39;importation](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)
+Pour plus d&#39;informations, consultez la documentation sur l&#39;importation de nouvelles ressources : [Ajout de ressources via la fenêtre d&#39;importation](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)

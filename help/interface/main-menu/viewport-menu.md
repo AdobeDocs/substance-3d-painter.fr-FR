@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu/viewport-menu.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/main-menu/viewport-menu.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser le menu Fenêtre d’affichage de Substance 3D Painter pour accéder aux paramètres et aux options d’affichage de la fenêtre d’affichage.
 helpx_creative_field: ""

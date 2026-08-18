@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/advanced-search-queries.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/assets/advanced-search-queries.html"
 breadcrumb-title: ''
 description: Découvrez comment créer des requêtes de recherche avancées dans Substance 3D Painter pour rechercher des ressources spécifiques à l’aide de critères de recherche complexes.
 helpx_creative_field: ""

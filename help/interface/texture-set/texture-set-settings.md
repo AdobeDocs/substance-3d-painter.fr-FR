@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/texture-set/texture-set-settings.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/texture-set/texture-set-settings.html"
 breadcrumb-title: ''
 description: Découvrez comment configurer les paramètres d’ensemble de textures dans Substance 3D Painter pour contrôler la résolution des textures et les propriétés des couches.
 helpx_creative_field: ""

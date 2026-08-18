@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/miscellaneous/update-checker.html'
+helpx_url: 'https://helpx.adobe.com/fr/substance-3d-painter/interface/miscellaneous/update-checker.html'
 breadcrumb-title: ''
 description: Découvrez comment utiliser le vérificateur de mises à jour dans Substance 3D Painter pour rester informé des nouvelles versions et fonctionnalités.
 helpx_creative_field: ''

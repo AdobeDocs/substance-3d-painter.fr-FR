@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/texture-set/texture-set-reassignment.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/texture-set/texture-set-reassignment.html"
 breadcrumb-title: ''
 description: Découvrez comment réattribuer des ensembles de textures dans Substance 3D Painter pour réorganiser les affectations de maillage et le mappage de textures.
 helpx_creative_field: ""

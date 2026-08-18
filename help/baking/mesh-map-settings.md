@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/baking/mesh-map-settings.html'
+helpx_url: 'https://helpx.adobe.com/fr/substance-3d-painter/baking/mesh-map-settings.html'
 breadcrumb-title: ''
 description: Découvrez comment configurer les paramètres de maillage dans Substance 3D Painter pour contrôler les paramètres de boulonnage et la qualité de sortie.
 helpx_creative_field: ''

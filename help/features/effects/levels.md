@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/levels.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/features/effects/levels.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser l’effet Niveaux dans Substance 3D Painter pour régler la luminosité, le contraste et la gamme de tons des textures.
 helpx_creative_field: ""

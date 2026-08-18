@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/vignette.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/features/post-processing/vignette.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser l'effet de post-traitement de vignette dans Substance 3D Painter pour obscurcir les bords de la fenêtre d'affichage.
 helpx_creative_field: ""

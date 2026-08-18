@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/settings/libraries-configuration.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/settings/libraries-configuration.html"
 breadcrumb-title: ''
 description: Découvrez comment configurer les bibliothèques dans les paramètres Substance 3D Painter pour gérer les chemins d’accès aux ressources et l’organisation des ressources.
 helpx_creative_field: ""
@@ -45,5 +45,5 @@ La case d&#39;option **par défaut** est utilisée pour définir le chemin d&#39
 | --- | --- |
 | **Nom** | Le nom qui sera utilisé pour référencer le chemin dans l&#39;interface (en cliquant avec le bouton droit sur une ressource par exemple). Ce nom définit également le nom de l&#39;emplacement interne pour les ressources à suivre si elles sont à jour ou non, par conséquent, il est conseillé de ne pas modifier ce nom une fois défini. |
 | **Chemin** | Emplacement réel où se trouvent (ou seront) les ressources sur le disque. |
-| Bouton **Plus**  <div><img data-preserve-html="true" src="../../assets/shelf-button.png" width="30"/></div> | En cliquant sur ce bouton, le chemin défini par le nom et les paramètres de chemin sera ajouté à la liste ci-dessous.L’ajout d’un nouveau chemin crée automatiquement la structure de sous-dossiers nécessaire à l’organisation des données et des ressources. Pour savoir où placer les ressources, voir : [Ajout de contenu dans l&#39;étagère](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html). |
+| Bouton **Plus**  <div><img data-preserve-html="true" src="../../assets/shelf-button.png" width="30"/></div> | En cliquant sur ce bouton, le chemin défini par le nom et les paramètres de chemin sera ajouté à la liste ci-dessous.L’ajout d’un nouveau chemin crée automatiquement la structure de sous-dossiers nécessaire à l’organisation des données et des ressources. Pour savoir où placer les ressources, voir : [Ajout de contenu dans l&#39;étagère](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html). |
 | **Bouton Moins**   <div><img data-preserve-html="true" src="../../assets/shelf-remove.png" width="30"/></div> | Cliquer sur ce bouton devant un chemin le supprimera de la liste. Les ressources ne seront plus répertoriées dans l&#39;interface [Actifs](../assets/assets.md).  **Remarque :** les chemins par défaut ne peuvent pas être supprimés, mais ils seront désactivés et leurs ressources seront masquées à la place. |

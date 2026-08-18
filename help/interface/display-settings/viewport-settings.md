@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/display-settings/viewport-settings.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/display-settings/viewport-settings.html"
 breadcrumb-title: ''
 description: Découvrez comment configurer les paramètres de la fenêtre d’affichage dans Substance 3D Painter pour personnaliser les options d’affichage et la qualité de rendu.
 helpx_creative_field: ""

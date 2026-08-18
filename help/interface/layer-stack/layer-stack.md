@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/layer-stack.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser la pile de calques dans Substance 3D Painter pour organiser et gérer plusieurs calques de peinture de texture.
 helpx_creative_field: ""

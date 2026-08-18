@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/tone-mapping.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/features/post-processing/tone-mapping.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser le post-traitement du mappage des tonalités dans Substance 3D Painter pour régler l’exposition et l’étalonnage des couleurs dans la clôture.
 helpx_creative_field: ""

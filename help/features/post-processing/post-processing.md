@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/features/post-processing.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser les effets de post-traitement dans Substance 3D Painter pour améliorer le rendu de la fenêtre d’affichage avec l’étalonnage des couleurs et les effets visuels.
 helpx_creative_field: ""

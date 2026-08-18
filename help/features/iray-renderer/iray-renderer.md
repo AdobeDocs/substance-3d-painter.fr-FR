@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/iray-renderer.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/features/iray-renderer.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser le rendu Iray dans Substance 3D Painter pour créer des rendus et des aperçus de matériau photoréalistes.
 helpx_creative_field: ""

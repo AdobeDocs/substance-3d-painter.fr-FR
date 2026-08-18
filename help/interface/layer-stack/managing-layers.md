@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/managing-layers.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/layer-stack/managing-layers.html"
 breadcrumb-title: ''
 description: Découvrez comment gérer les calques dans Substance 3D Painter pour organiser, réorganiser et contrôler votre workflow de peinture de texture.
 helpx_creative_field: ""
