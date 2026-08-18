@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting/presets.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser et à gérer les pinceaux prédéfinis dans Substance 3D Painter pour simplifier votre workflow de peinture de texture.
 helpx_creative_field: ""
@@ -30,6 +30,6 @@ Les paramètres prédéfinis sont enregistrés sur le disque dans le dossier [Ac
 
 Pour gérer vos paramètres prédéfinis, voir :
 
-* [Création et enregistrement de paramètres prédéfinis](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/creating-and-saving-a-preset-180191514.html)
+* [Création et enregistrement de paramètres prédéfinis](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/creating-and-saving-a-preset-180191514.html)
 * [Création de paramètres prédéfinis de particules](../../painting/presets/creating-particles-pre/creating-particles-presets.md)
 * [Paramètres prédéfinis de pinceau Photoshop (ABR)](../../painting/presets/photoshop-brush-presets/photoshop-brush-presets-abr.md)

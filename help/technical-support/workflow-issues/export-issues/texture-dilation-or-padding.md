@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/export-issues/texture-dilation-or-padding.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/workflow-issues/export-issues/texture-dilation-or-padding.html"
 breadcrumb-title: ''
 description: Découvrez comment utiliser la dilatation et le remplissage des textures dans Substance 3D Painter pour éviter les artefacts de contour dans les textures exportées.
 helpx_creative_field: ""

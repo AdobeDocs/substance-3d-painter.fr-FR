@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/rendering-issues/broken-viewport-ubuntu.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/technical-issues/rendering-issues/broken-viewport-ubuntu.html"
 breadcrumb-title: ''
 description: Découvrez comment résoudre les problèmes d’aire d’affichage rompue ou ne répondant pas dans Ubuntu dans Substance 3D Painter pour un rendu 3D correct.
 helpx_creative_field: ""

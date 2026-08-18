@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-normal-shader-api.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-normal-shader-api.html"
 breadcrumb-title: ''
 description: Accédez à la référence de API de shader Normal Lib pour Substance 3D Painter afin de travailler avec des cartes de normales et des normales de surface dans des ombrages personnalisés.
 helpx_creative_field: ""

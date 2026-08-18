@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-emissive-shader-api.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-emissive-shader-api.html"
 breadcrumb-title: ''
 description: Accédez à la référence Lib Emissive API de shader pour Substance 3D Painter afin de créer des matériaux émissifs et des effets lumineux.
 helpx_creative_field: ""

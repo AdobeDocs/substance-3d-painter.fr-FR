@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/plugins/autosave.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/features/plugins/autosave.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser le module externe Enregistrement automatique de Substance 3D Painter pour enregistrer automatiquement vos projets à intervalles réguliers.
 helpx_creative_field: ""

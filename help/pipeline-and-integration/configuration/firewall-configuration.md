@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/configuration/firewall-configuration.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/pipeline-and-integration/configuration/firewall-configuration.html"
 breadcrumb-title: ''
 description: Découvrez comment configurer les paramètres de pare-feu pour Substance 3D Painter afin d’activer les fonctionnalités réseau et l’accès à distance.
 helpx_creative_field: ""

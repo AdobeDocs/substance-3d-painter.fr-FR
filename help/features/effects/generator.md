@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/features/effects/generator.html'
+helpx_url: 'https://helpx.adobe.com/fr/substance-3d-painter/features/effects/generator.html'
 breadcrumb-title: ''
 description: Apprenez à utiliser les effets de générateur dans Substance 3D Painter pour créer automatiquement des textures et des motifs procéduraux.
 helpx_creative_field: ''
@@ -47,7 +47,7 @@ Pour ajouter un générateur à un calque :
 ![](../../assets/generators/generator_spectrum.png)
 
 Chaque générateur dispose d’un ensemble de paramètres vous permettant d’affiner le masque obtenu.\
-Pour ajouter des générateurs personnalisés dans le tiroir, voir : [Ajout de contenu au tiroir](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
+Pour ajouter des générateurs personnalisés dans le tiroir, voir : [Ajout de contenu au tiroir](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
 
 >[!NOTE]
 >

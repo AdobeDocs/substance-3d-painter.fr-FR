@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/shader-settings.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/shader-settings.html"
 breadcrumb-title: ''
 description: Découvrez comment configurer les paramètres de l’ombrage dans Substance 3D Painter pour personnaliser le rendu de la matière et l’apparence visuelle.
 helpx_creative_field: ""

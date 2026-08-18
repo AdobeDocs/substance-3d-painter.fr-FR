@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/performances-guidelines.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/performances-guidelines.html"
 breadcrumb-title: ''
 description: Accédez aux directives d’optimisation des performances de Substance 3D Painter pour améliorer la vitesse et l’efficacité des applications.
 helpx_creative_field: ""

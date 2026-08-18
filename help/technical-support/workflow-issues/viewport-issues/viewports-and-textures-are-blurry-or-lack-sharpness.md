@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/viewport-issues/viewports-and-textures-are-blurry-or-lack-sharpness.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/workflow-issues/viewport-issues/viewports-and-textures-are-blurry-or-lack-sharpness.html"
 breadcrumb-title: ''
 description: Découvrez comment corriger les fenêtres et les textures floues dans Substance 3D Painter pour garantir une qualité visuelle nette et claire.
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ Les fenêtres peuvent apparaître floues pour différentes raisons.
 
 Par défaut, Substance 3D Painter réduit la résolution de la fenêtre d’affichage sur les écrans haute résolution/Retina pour améliorer les performances.
 
-Ce comportement peut être modifié dans les [paramètres principaux](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html) en modifiant le paramètre **Mise à l&#39;échelle de la fenêtre d&#39;affichage**.
+Ce comportement peut être modifié dans les [paramètres principaux](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/general-71008262.html) en modifiant le paramètre **Mise à l&#39;échelle de la fenêtre d&#39;affichage**.
 
 ## Filtrage de texture
 

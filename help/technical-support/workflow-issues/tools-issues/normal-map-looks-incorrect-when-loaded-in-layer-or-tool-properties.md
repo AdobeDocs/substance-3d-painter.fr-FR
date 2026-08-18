@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/tools-issues/normal-map-looks-incorrect-when-loaded-in-layer-or-tool-properties.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/workflow-issues/tools-issues/normal-map-looks-incorrect-when-loaded-in-layer-or-tool-properties.html"
 breadcrumb-title: ''
 description: Découvrez comment résoudre les problèmes d’affichage de la carte normale dans les propriétés de calque et d’outil de Substance 3D Painter pour obtenir des détails de surface précis.
 helpx_creative_field: ""

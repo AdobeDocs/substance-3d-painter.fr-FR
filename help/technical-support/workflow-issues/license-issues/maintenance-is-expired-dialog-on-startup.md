@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/license-issues/maintenance-is-expired-dialog-on-startup.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/workflow-issues/license-issues/maintenance-is-expired-dialog-on-startup.html"
 breadcrumb-title: ''
 description: Découvrez comment résoudre le problème d’affichage de la boîte de dialogue Maintenance expirée au démarrage de Substance 3D Painter pour la gestion des licences.
 helpx_creative_field: ""

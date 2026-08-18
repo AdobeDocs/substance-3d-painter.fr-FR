@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/ribbon-tool.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting/tool-list/ribbon-tool.html"
 breadcrumb-title: ''
 description: Utilisez l’outil Ruban de Substance 3D Painter pour tracer des textures décoratives à l’aide de traits de peinture en ruban.
 helpx_creative_field: ""

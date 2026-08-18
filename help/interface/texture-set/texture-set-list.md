@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/texture-set/texture-set-list.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/texture-set/texture-set-list.html"
 breadcrumb-title: ''
 description: Découvrez comment utiliser la liste des ensembles de textures dans Substance 3D Painter pour gérer et organiser plusieurs ensembles de textures dans votre projet.
 helpx_creative_field: ""

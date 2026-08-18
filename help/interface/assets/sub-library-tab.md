@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/sub-library-tab.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/assets/sub-library-tab.html"
 breadcrumb-title: ''
 description: Découvrez comment utiliser l’onglet Sous-bibliothèque dans Substance 3D Painter pour organiser les bibliothèques de ressources imbriquées et y accéder.
 helpx_creative_field: ""

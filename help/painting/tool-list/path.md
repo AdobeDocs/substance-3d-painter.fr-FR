@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/path.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting/tool-list/path.html"
 breadcrumb-title: ''
 description: Utilisez l’outil Tracé de Substance 3D Painter pour créer et modifier des tracés afin de peindre une texture et de positionner les contours avec précision.
 helpx_creative_field: ""

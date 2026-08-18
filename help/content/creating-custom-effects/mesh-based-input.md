@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/mesh-based-input.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/content/creating-custom-effects/mesh-based-input.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser des entrées basées sur un filet dans les effets personnalisés de Substance 3D Painter pour créer des effets de texture prenant en compte la géométrie.
 helpx_creative_field: ""

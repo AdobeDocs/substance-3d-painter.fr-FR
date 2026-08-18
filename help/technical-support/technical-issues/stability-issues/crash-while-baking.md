@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-while-baking.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-while-baking.html"
 breadcrumb-title: ''
 description: Découvrez comment corriger les blocages de Substance 3D Painter lors des opérations de boulangerie pour des workflows de boulangerie de texture fiables.
 helpx_creative_field: ""

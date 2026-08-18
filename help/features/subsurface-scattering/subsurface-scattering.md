@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/subsurface-scattering.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/features/subsurface-scattering.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser la diffusion souterraine dans Substance 3D Painter pour créer des matériaux translucides réalistes tels que la peau et la cire.
 helpx_creative_field: ""

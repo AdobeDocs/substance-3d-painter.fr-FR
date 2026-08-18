@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/advanced-channel-painting/flow-map-painting.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting/advanced-channel-painting/flow-map-painting.html"
 breadcrumb-title: ''
 description: Apprenez à peindre des cartes d’écoulement dans Substance 3D Painter pour contrôler la direction de l’écoulement de la matière et les effets anisotropes.
 helpx_creative_field: ""

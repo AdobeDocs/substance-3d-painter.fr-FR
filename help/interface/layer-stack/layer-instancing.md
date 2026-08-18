@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/layer-instancing.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/layer-stack/layer-instancing.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser instanciation de calques dans Substance 3D Painter pour réutiliser efficacement des calques sur plusieurs ensembles de textures.
 helpx_creative_field: ""

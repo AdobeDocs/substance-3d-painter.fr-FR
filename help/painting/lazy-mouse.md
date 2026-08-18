@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/lazy-mouse.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting/lazy-mouse.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser la souris dans Substance 3D Painter pour créer des coups de pinceau fluides et lisses avec un curseur lent.
 helpx_creative_field: ""

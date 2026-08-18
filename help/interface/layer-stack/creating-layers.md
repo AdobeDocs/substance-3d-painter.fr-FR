@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/creating-layers.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/layer-stack/creating-layers.html"
 breadcrumb-title: ''
 description: Apprenez à créer des calques dans Substance 3D Painter pour créer des textures complexes à partir de plusieurs calques de peinture.
 helpx_creative_field: ""

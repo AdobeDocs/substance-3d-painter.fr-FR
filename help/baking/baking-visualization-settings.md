@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/baking/baking-visualization-settings.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/baking/baking-visualization-settings.html"
 breadcrumb-title: ''
 description: Apprenez à configurer les paramètres de visualisation de la cuisson dans Substance 3D Painter pour prévisualiser et déboguer les résultats de la cuisson des cartes maillées.
 helpx_creative_field: ""

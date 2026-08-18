@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/creating-and-saving-presets.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting/presets/creating-and-saving-presets.html"
 breadcrumb-title: ''
 description: Apprenez à créer et enregistrer des pinceaux prédéfinis dans Substance 3D Painter pour créer une bibliothèque réutilisable d’outils de peinture personnalisés.
 helpx_creative_field: ""

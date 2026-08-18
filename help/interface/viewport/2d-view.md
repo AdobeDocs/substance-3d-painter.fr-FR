@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/viewport/2d-view.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/viewport/2d-view.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser la vue 2D dans Substance 3D Painter pour visualiser et modifier des textures dans l’espace UV afin de peindre des textures avec précision.
 helpx_creative_field: ""

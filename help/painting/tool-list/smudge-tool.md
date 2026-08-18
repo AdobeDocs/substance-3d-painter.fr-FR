@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/smudge-tool.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting/tool-list/smudge-tool.html"
 breadcrumb-title: ''
 description: Utilisez l’outil Doigt de Substance 3D Painter pour mélanger et étaler les traits de peinture afin de créer des transitions de texture lisses.
 helpx_creative_field: ""

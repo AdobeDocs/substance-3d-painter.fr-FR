@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/dynamic-strokes/dynamic-stroke-performances.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting/dynamic-strokes/dynamic-stroke-performances.html"
 breadcrumb-title: ''
 description: Découvrez les considérations de performances de contour dynamique dans Substance 3D Painter pour optimiser le rendu et la réactivité des contours.
 helpx_creative_field: ""

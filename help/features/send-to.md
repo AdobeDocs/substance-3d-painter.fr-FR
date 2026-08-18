@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/send-to.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/features/send-to.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser la fonction Envoyer vers de Substance 3D Painter pour transférer des projets et des ressources vers d’autres applications Substance 3D.
 helpx_creative_field: ""

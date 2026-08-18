@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/display-settings.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/display-settings.html"
 breadcrumb-title: ''
 description: Découvrez comment configurer les paramètres d’affichage dans Substance 3D Painter pour personnaliser le rendu de la fenêtre d’affichage et la qualité visuelle.
 helpx_creative_field: ""

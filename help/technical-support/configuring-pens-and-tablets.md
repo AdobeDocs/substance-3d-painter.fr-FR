@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/configuring-pens-and-tablets.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/configuring-pens-and-tablets.html"
 breadcrumb-title: ''
 description: Apprenez à configurer les stylos et les tablettes dans Substance 3D Painter pour une sensibilité à la pression et une expérience de dessin optimales.
 helpx_creative_field: ""

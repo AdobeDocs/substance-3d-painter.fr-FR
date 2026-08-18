@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/viewport-issues/mesh-faces-disappear-when-looking-at-them-from-behind.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/workflow-issues/viewport-issues/mesh-faces-disappear-when-looking-at-them-from-behind.html"
 breadcrumb-title: ''
 description: Apprenez à corriger la disparition des faces maillées lorsqu’elles sont affichées en arrière-plan dans la fenêtre d’affichage de Substance 3D Painter pour une visibilité correcte des filets.
 helpx_creative_field: ""

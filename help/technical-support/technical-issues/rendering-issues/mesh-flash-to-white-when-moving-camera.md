@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/rendering-issues/mesh-flash-to-white-when-moving-camera.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/technical-issues/rendering-issues/mesh-flash-to-white-when-moving-camera.html"
 breadcrumb-title: ''
 description: Découvrez comment corriger le clignotement du filet sur le blanc lors du déplacement de la caméra dans la fenêtre Substance 3D Painter pour un rendu stable.
 helpx_creative_field: ""
@@ -27,4 +27,4 @@ Les anciens projets se déplaçant autour de la caméra dans la clôture peuvent
 Pour vous débarrasser du flash blanc, il vous suffit de **mettre à jour** le **nuanceur de projet** :
 
 * Pour les **nuanceurs par défaut** : suivez la procédure étape par étape de la page [Mise à jour d&#39;un nuanceur](../../../interface/shader-settings/updating-a-shader.md).
-* Pour les **nuanceurs personnalisés** : examinez les messages d&#39;erreur dans le journal ainsi que la page [API de shader](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html).
+* Pour les **nuanceurs personnalisés** : examinez les messages d&#39;erreur dans le journal ainsi que la page [API de shader](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html).

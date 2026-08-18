@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/advanced-channel-painting/ambient-occlusion-painting.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting/advanced-channel-painting/ambient-occlusion-painting.html"
 breadcrumb-title: ''
 description: Apprenez à peindre des cartes d’occlusion ambiante directement dans Substance 3D Painter pour ajouter des ombres et une profondeur réalistes aux textures.
 helpx_creative_field: ""

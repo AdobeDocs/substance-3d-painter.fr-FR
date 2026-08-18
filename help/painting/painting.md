@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting.html"
 breadcrumb-title: ''
 description: Apprenez à peindre des textures directement sur des modèles 3D dans Substance 3D Painter à l’aide de divers pinceaux, outils et techniques.
 helpx_creative_field: ""
