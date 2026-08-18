@@ -27,7 +27,7 @@ Cette page regroupe des informations sur la façon de récupérer le chemin d’
 ### Application pour poste de travail Creative Cloud
 
 1. Ouvrez l&#39;éditeur de registre Windows (**regedit**).
-1. Accédez à la clé de registre : ** HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\**
+1. Accédez à la clé de registre : **&#x200B; HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\**
 1. Ouvrez la sous-clé nommée **Adobe Substance 3D Painter.exe**
 1. La valeur de la clé contient le chemin d’accès à l’exécutable de l’application sur lequel elle est installée
 
