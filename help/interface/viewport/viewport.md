@@ -1,11 +1,11 @@
 ---
-helpx_url: 'https://helpx.adobe.com/fr/substance-3d-painter/interface/viewport.html'
+helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/viewport.html'
 description: Apprenez à utiliser l’aire d’affichage de Substance 3D Painter pour visualiser les textures et modèles 3D pendant le processus de peinture.
 helpx_description: Painter > Interface > Viewport
 title: Viewport
-source-git-commit: 7b5f6e6c9623cb51253b6e49c8dbcbb22856418c
+source-git-commit: 307c4f1121ae6841d68f8ea5dc597790e0d18a14
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '475'
 ht-degree: 2%
 
 ---
@@ -74,19 +74,19 @@ La disposition par défaut place la vue 3D à gauche et la vue 2D à droite. Que
     <th><em>Description</em></th>
   </tr>
   <tr>
-    <td><strong>Mode fenêtre d'affichage</strong><br> ![](../../assets/viewport-viewmode.png)</td>
+    <td><strong>Mode fenêtre d’affichage</strong><br><img src="../../assets/viewport-viewmode.png"/></td>
     <td>Ces paramètres contrôlent la disposition de la clôture :<br><ul><li><strong>3D/2D</strong> (par défaut) : affichez les vues 3D et 2D dans la clôture</li><li><strong>3D uniquement</strong> : agrandissez la vue 3D et masquez la vue 2D.</li><li><strong>2D uniquement</strong> : agrandissez la vue 2D et masquez la vue 3D.</li><li><strong>Permuter les vues 3D/2D</strong> : exchange de l'ordre dans lequel les vues sont affichées. Si la vue 3D était à gauche, elle sera à droite après avoir choisi cette action.</li></ul></td>
   </tr>
   <tr>
-    <td><strong>Mode Perspective</strong><br> ![](../../assets/viewport-camera-projection.png)</td>
+    <td><strong>Mode Perspective</strong><br><img src="../../assets/viewport-camera-projection.png"/></td>
     <td>Ces paramètres contrôlent la façon dont le filet 3D apparaîtra dans la vue 3D :<br><ul><li><strong>Vue en perspective</strong> (par défaut) : affiche le maillage 3D tel qu’il serait vu par l’œil humain ou par une caméra.</li><li><strong>Vue orthographique</strong> : affiche le maillage 3D car chaque direction mesure la même longueur.</li></ul></td>
   </tr>
   <tr>
-    <td><strong>Mode de rotation de l'appareil photo</strong><br> ![](../../assets/viewport-camera-axis.png)</td>
+    <td><strong>Mode de rotation de la caméra</strong><br><img src="../../assets/viewport-camera-axis.png"/></td>
     <td>Ces paramètres contrôlent le nombre d’axes de rotation de la caméra de la fenêtre d’affichage.<br><ul><li><strong>Rotation libre</strong> : la caméra pivote sur les axes X, Y et Z.</li><li><strong>Rotation contrainte</strong> (par défaut) : la caméra pivote uniquement sur les axes X et Y (pas de rotation).</li></ul></td>
   </tr>
   <tr>
-    <td><strong>Mode de rendu</strong><br> ![](../../assets/viewport-rendering.png)</td>
+    <td><strong>Mode de rendu</strong><br><img src="../../assets/viewport-rendering.png"/></td>
     <td>Passez en <a href="../../features/iray-renderer/iray-renderer.md">mode de rendu</a>.</td>
   </tr>
 </table>
