@@ -196,10 +196,10 @@ Maintenant, les mailles sont coupées en Îlots UV séparés en utilisant une m�
 * [Gestion des couleurs] Permet d’entrer des valeurs de couleur linéaires dans le sélecteur de couleurs avec le mode hérité
 * [Gestion des couleurs] Permet de spécifier le profil colorimétrique utilisé pour sélectionner une couleur en dehors de l’interface utilisateur
 * [Gestion des couleurs] Mémoriser la dernière valeur Affichage choisie dans la clôture
-* [Gestion des couleurs][Substance] Faites fonctionner correctement les générateurs/filtres avec la gestion des couleurs
-* [Gestion des couleurs][Substance] Ajouter de nouveaux mots-clés de remplacement d’espace colorimétrique $working et $standardsrgb
-* [Taille physique][Moteur] Extraire les informations de taille physique du maillage
-* [Taille physique][Moteur] Calcul de la Taille physique
+* [Gestion des couleurs]&#x200B;[Substance] Faites fonctionner correctement les générateurs/filtres avec la gestion des couleurs
+* [Gestion des couleurs]&#x200B;[Substance] Ajouter de nouveaux mots-clés de remplacement d’espace colorimétrique $working et $standardsrgb
+* [Taille physique]&#x200B;[Moteur] Extraire les informations de taille physique du maillage
+* [Taille physique]&#x200B;[Moteur] Calcul de la Taille physique
 * [Taille physique] Exposer les options pour utiliser la taille physique dans l’interface utilisateur
 * [Taille physique] Ajout d’assistants visuels dans la clôture
 * [Cuisson] Ajouter un boulanger d&#39;Heights
@@ -235,13 +235,13 @@ Maintenant, les mailles sont coupées en Îlots UV séparés en utilisant une m�
 
 * [glTF] Impossible d&#39;ouvrir glTF avec un caractère spécial
 * [Moteur] Artefacts avec anisotropie et SVT désactivés
-* [MacOS][M1] Les matériaux intelligents ne s’affichent pas correctement
+* [MacOS]&#x200B;[M1] Les matériaux intelligents ne s’affichent pas correctement
 * [Traitement des filets] Impossible d’importer des filets à partir de Modeler
 * [UI] Barre de défilement horizontale dans la nouvelle fenêtre de projet avec la gestion des couleurs activée
 * [Gestion des couleurs] Valeur de l’espace de travail manquante dans le sélecteur de couleurs avec certaines configurations OCIO
 * [Gestion des couleurs] L’aperçu du pinceau dans la clôture ne prend pas en charge la gestion des couleurs
 * [SpaceMouse] Le pivot n’est pas immédiatement mis à jour avec le changement de focus et se trouve parfois en dehors du modèle
-* [Export][USD] Les fichiers USD exportés ont une structure incorrecte
+* [Export]&#x200B;[USD] Les fichiers USD exportés ont une structure incorrecte
 * [USD] Problème d’Occlusion ambiante lors de l’exportation
 * [Contenu] Mise à jour du maillage de la vignette pour qu’il corresponde à l’exemple de projet Preview Sphere
 

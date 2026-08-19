@@ -247,21 +247,21 @@ Résumé : <b>version majeure introduisant la prise en charge du SVG et de la tr
 <b>Ajouté :</b>
 
 * [SVG] Autoriser l’importation de fichiers vectoriels (SVG)
-* [SVG][Interface utilisateur] Ajout de la prise en charge des propriétés spécifiques au SVG
+* [SVG]&#x200B;[Interface utilisateur] Ajout de la prise en charge des propriétés spécifiques au SVG
 * [SVG] Ajoutez une option pour conserver facilement les proportions de l’image originale
 * [SVG] Autoriser à utiliser automatiquement l’alpha du SVG avec transparence
 * [Interop] Autoriser l’envoi d’un filet texturé à After Effects (Ae 24.1 Beta)
 * [Interop] Ajout de paramètres pour Envoyer vers After Effects
-* [Qualité de service][Ressources][Interface utilisateur] Importer automatiquement les ressources en les faisant glisser dans l’emplacement de l’interface utilisateur
+* [Qualité de service]&#x200B;[Ressources]&#x200B;[Interface utilisateur] Importer automatiquement les ressources en les faisant glisser dans l’emplacement de l’interface utilisateur
 * [QoL] Autoriser le glisser-déposer de ressources externes dans la pile de calques
-* [QoL][Pile de calques] Faites glisser et déposez les textures du panneau Actifs dans la pile de calques
-* [QoL][Fenêtre] Autoriser à faire glisser et déposer le générateur, les filtres sur le filet
-* [QoL][Fenêtre] Autoriser à déposer des ressources externes sur le filet
-* [QoL][Projection] Ajouter un nouveau jeu UV au mode de projection du jeu UV
+* [QoL]&#x200B;[Pile de calques] Faites glisser et déposez les textures du panneau Actifs dans la pile de calques
+* [QoL]&#x200B;[Fenêtre] Autoriser à faire glisser et déposer le générateur, les filtres sur le filet
+* [QoL]&#x200B;[Fenêtre] Autoriser à déposer des ressources externes sur le filet
+* [QoL]&#x200B;[Projection] Ajouter un nouveau jeu UV au mode de projection du jeu UV
 * [QoL] Glissez-déposez les masques dynamiques en tant que nouveaux calques dans la clôture et la pile de calques
 * [QoL] Ajouter un sélecteur pour les générateurs avec plusieurs sorties lorsqu’ils sont utilisés dans un masque
 * [QoL] Autoriser le glisser-déposer d’images monocouche sur un effet de remplissage
-* [QoL][Pile de calques] Utilisez les modificateurs CTRL/ALT par glisser-déposer pour spécifier où/comment créer des effets/calque
+* [QoL]&#x200B;[Pile de calques] Utilisez les modificateurs CTRL/ALT par glisser-déposer pour spécifier où/comment créer des effets/calque
 * [Tracé] Active/désactive la visibilité des tracés individuellement dans le panneau des tracés
 * [Tracé] Permet d’utiliser des manipulateurs de transformation pour les points de tracé
 * [Tracé] Permet de contrôler manuellement les tangentes par sommet
@@ -281,7 +281,7 @@ Résumé : <b>version majeure introduisant la prise en charge du SVG et de la tr
 * [Performance] Appliquez une compression sans perte sur les images 16 bits pour réduire l’empreinte du projet
 * [Python] Autoriser à manipuler la caméra par défaut dans la vue 3D
 * [Python] Possibilité d’exporter un filet via un script
-* [Contenu][Échantillons] Ajouter un nouveau projet d&#39;échantillon « French Restaurant Table »
+* [Contenu]&#x200B;[Échantillons] Ajouter un nouveau projet d&#39;échantillon « French Restaurant Table »
 * [Contenu] Mettre à jour le logo de Substance alpha vers une nouvelle version
 * [Contenu] Ajout de trois filtres de matériau axés sur le SVG (Autocollant personnalisé, Pulvérisation personnalisée et Graphisme au matériau)
 
@@ -296,18 +296,18 @@ Résumé : <b>version majeure introduisant la prise en charge du SVG et de la tr
 * [UI] La flèche contextuelle de la barre d’outils n’apparaît pas dans certains cas
 * [Substance] Le bouton Côte à côte pour les valeurs booléennes n’est pas pris en charge.
 * [Niveau] Libellé de canal incorrect lorsqu’il est utilisé dans le masque
-* [Export][glTF] Les fichiers glTF/GLB exportés depuis Painter ne possèdent pas d’unité de taille physique
+* [Export]&#x200B;[glTF] Les fichiers glTF/GLB exportés depuis Painter ne possèdent pas d’unité de taille physique
 * [Contenu] L’intensité du filtre Flou est réglée sur 16
 * [Contenu] La saisie d’image « couleur cible » du filtre Correspondance de couleur n’est pas visible
 
 <b>Problèmes connus :</b>
 
 * [Gestion des couleurs] Les conversions d’espace colorimétrique HDR avec ACE sous Linux produisent des couleurs condensées
-* [Blocage][Linux] avec Linux Wayland sur AMD lors du glisser-déposer de ressources dans la pile de calques
-* [Crash][Mac] Modification de la valeur de filtrage anisotrope sur Monterey OS
+* [Blocage]&#x200B;[Linux] avec Linux Wayland sur AMD lors du glisser-déposer de ressources dans la pile de calques
+* [Crash]&#x200B;[Mac] Modification de la valeur de filtrage anisotrope sur Monterey OS
 * [Crash] Exr utilisé comme entrée d’image
 * [Blocage] Utilisation de la carte d’environnement 16K
 * [Déballage automatique] Problème d’interface utilisateur pour le contrôle de la densité du texte
-* [Régression][Interface utilisateur] Le menu contextuel est trop petit à l’écran
+* [Régression]&#x200B;[Interface utilisateur] Le menu contextuel est trop petit à l’écran
 * [Python] Blocage lors de l’exportation du fichier USD déclenché par TextureStateEvent
 * [QoL] Le glisser-déposer d’Alpha en mode décalcomanie crée une Projection UV dans le masque

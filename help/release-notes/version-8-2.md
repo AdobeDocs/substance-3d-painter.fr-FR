@@ -303,7 +303,7 @@ Résumé : **version majeure avec de nouveaux panneaux d’intégration (nouveau
 * Blocage lors de l’utilisation de 16k exr
 * [Crash] Ctrl Z Après la suppression d’une instance de shader
 * [Iray] L’IoR est bloquée à 1 pour certains shaders
-* [Win][Baking] Certains poly élevés ne se chargent pas
+* [Win]&#x200B;[Baking] Certains poly élevés ne se chargent pas
 * [Gestion des couleurs] Nom d’espace colorimétrique incorrect dans l’interface utilisateur avec les filtres
 * [Python] Les objets de ressource retournés par la fonction d&#39;importation n&#39;ont pas de type
 

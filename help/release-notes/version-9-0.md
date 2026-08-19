@@ -167,9 +167,9 @@ Résumé : <b>version majeure avec l’option Peindre le long du tracé permetta
 * [Traits dynamiques] Ajout d’une propriété de distance pour les traits dynamiques
 * [Traits dynamiques] Ajout de propriétés de taille et d’espacement aux traits dynamiques
 * [Traits dynamiques] Ajout d’une propriété de début/milieu/fin pour les traits dynamiques
-* [Python][USD] Exposer les paramètres de configuration du projet pour le format USD
-* [Python][USD] Exposer les paramètres de création de projet pour le format USD
-* [Export][USD] Ajout d’informations de chemin d’accès au projet dans le fichier USD exporté
+* [Python]&#x200B;[USD] Exposer les paramètres de configuration du projet pour le format USD
+* [Python]&#x200B;[USD] Exposer les paramètres de création de projet pour le format USD
+* [Export]&#x200B;[USD] Ajout d’informations de chemin d’accès au projet dans le fichier USD exporté
 * [GLTF] Mise à jour des textures dans la bibliothèque lors du rechargement d&#39;un fichier GLTF
 * [Shader] Réduire les artefacts de couture pour les Îlots UV avec une orientation différente
 * [Engine] Mise à jour vers la version 9.0 du moteur de Substance

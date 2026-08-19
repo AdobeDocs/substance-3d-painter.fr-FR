@@ -208,10 +208,10 @@ Résumé : **version majeure avec un nouveau mode de création, une nouvelle imp
 * [USD] Importation de maillages avec peau USD à une image spécifique
 
   Lors de la création d’un projet avec un fichier de filet USD contenant une animation, il est possible de sélectionner l’image à l’aide d’un curseur qui reflète la séquence de montage intégrée. L’image peut être modifiée via la configuration du projet.
-* [USD][Exporter] Ajoutez une option pour exporter des fichiers USD
+* [USD]&#x200B;[Exporter] Ajoutez une option pour exporter des fichiers USD
 
   Nouvelle case à cocher Exporter en USD ajoutée à la fenêtre Exporter les textures. Lorsqu’elle est cochée, elle permet d’exporter des fichiers USD ainsi que des textures à l’aide de n’importe quel modèle.
-* [USD][Exporter] Ajoutez un format de fichier USD à l’exportation du maillage
+* [USD]&#x200B;[Exporter] Ajoutez un format de fichier USD à l’exportation du maillage
 * [USD] Renommez le paramètre prédéfini d’exportation « USD PBR Metal Roughness » pour qu’il soit plus explicite
 
   Le modèle d’exportation USD précédemment connu sous le nom de « rugosité du métal USD PBR » est toujours accessible via Exporter des textures > Modèle de sortie > USDz (Apple AR).
@@ -224,13 +224,13 @@ Résumé : **version majeure avec un nouveau mode de création, une nouvelle imp
 * [Taille physique] Exposer la taille physique pour la Projection UV
 
   La mise à l’échelle de taille physique est désormais disponible pour les Projections UV. Elle permet le redimensionnement automatique d’un matériau en fonction de la taille physique d’un filet. Elle peut être sélectionnée via Échelle > Taille physique dans le calque de remplissage ou la fenêtre Propriétés de l’effet.
-* [Scripting][Python] Autoriser à interroger la version de l&#39;application
-* [Scripting][JavaScript] API de mise à jour correspondant aux nouveaux paramètres de création
-* [Scripting][Python] Module Baking : modifier les paramètres de baking
-* [Scripting][Python] Module Baking : launch/cancel baking
-* [Scripting][Python] Module de cuisson : sélectionner la méthode de courbure
-* [Scripting][Python] Module de cuisson : sélection de vignettes bakers/uv
-* [Scripting][Python] Module Baking : synchroniser les paramètres Baker sur tous les ensembles de textures
+* [Scripting]&#x200B;[Python] Autoriser à interroger la version de l&#39;application
+* [Scripting]&#x200B;[JavaScript] API de mise à jour correspondant aux nouveaux paramètres de création
+* [Scripting]&#x200B;[Python] Module Baking : modifier les paramètres de baking
+* [Scripting]&#x200B;[Python] Module Baking : launch/cancel baking
+* [Scripting]&#x200B;[Python] Module de cuisson : sélectionner la méthode de courbure
+* [Scripting]&#x200B;[Python] Module de cuisson : sélection de vignettes bakers/uv
+* [Scripting]&#x200B;[Python] Module Baking : synchroniser les paramètres Baker sur tous les ensembles de textures
 * [SVT] Activer la prise en charge du matériel fragmenté sur les GPU AMD
 
   L’accélération matérielle pour le système Sparse Virtual Textures peut désormais être activée avec les GPU AMD. Ce paramètre est automatiquement activé dans les préférences générales.
@@ -249,10 +249,10 @@ Résumé : **version majeure avec un nouveau mode de création, une nouvelle imp
 **Fixe :**
 
 * [Blocage] Changement de canaux sur le filtre avec une pile spécifique
-* [Mac][M1] Blocage lors de la création d’un calque de remplissage et du fait de quitter la pile de calques
+* [Mac]&#x200B;[M1] Blocage lors de la création d’un calque de remplissage et du fait de quitter la pile de calques
 
   Ce problème peut être résolu en mettant à jour vers Mac OS 13 (Ventura).
-* [Scripting][Python] Blocage lors de l&#39;utilisation de ui.add\_dock\_widget() avec un type incorrect
+* [Scripting]&#x200B;[Python] Blocage lors de l&#39;utilisation de ui.add\_dock\_widget() avec un type incorrect
 * [Baking] Message d’erreur incomplet dans le journal lorsqu’un bake échoue
 * [Cuisson] La mémoire n’est pas libérée à la fin de la cuisson
 * [Moteur] Le cache de texture ne se met pas à jour lors de la modification de la visibilité des effets
