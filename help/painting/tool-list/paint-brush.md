@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting/tool-list/paint-brush.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/paint-brush.html"
 breadcrumb-title: ''
 description: Utilisez l’outil Pinceau de Substance 3D Painter pour peindre des textures directement sur des modèles 3D avec des paramètres de pinceau personnalisables.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pinceau
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+source-git-commit: c20714f4cef21ccca0cdcd45dcdfd5ca6f4b96f2
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 1%
@@ -76,7 +76,7 @@ Les paramètres du pinceau définissent l’aspect et la convivialité du tracé
 | **Variation du flux** | Appliquez une valeur d’enchaînement aléatoire par tampon à l’intérieur du contour. Une valeur de 0 signifie qu’il n’y a pas d’effet aléatoire, une valeur de 1 signifie que tout est aléatoire. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r8-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-flow.png"/></div> |
 | **Variation d’angle** | Appliquez un angle de rotation supplémentaire aléatoire par tampon à l’intérieur du contour. Une valeur de 0 signifie qu’il n’y a pas d’effet aléatoire, une valeur de 1 signifie que tout est aléatoire. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r9-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-rotation.png"/></div> |
 | **Variation de position** | Appliquez un décalage de position aléatoire par tampon à l’intérieur du contour. Une valeur de 0 signifie qu’il n’y a pas d’effet aléatoire, une valeur de 1 signifie que tout est aléatoire. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r10-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-position.png"/></div> |
-| **Alignement** | Détermine comment les tampons à l’intérieur du contour seront projetés/orientés sur la surface du filet 3D. Les valeurs suivantes sont disponibles :<ul data-preserve-html="true"><li data-preserve-html="true"><strong> Caméra </strong> : orienter le tampon vers le point de vue de la fenêtre d&#39;affichage</li><li data-preserve-html="true">Tangente <strong> | Habiller (par défaut) </strong> : Orienter le tampon pour l’aligner avec la surface du filet 3D. Le tampon sera également déformé pour se conformer à la surface.</li><li data-preserve-html="true">Tangente <strong> | Plan </strong> : oriente le tampon pour l’aligner avec la surface du filet 3D. Le tampon estompera sa bordure trop loin de la surface du filet 3D. </li><li data-preserve-html="true"><strong> UV </strong> : oriente le tampon en fonction des UV du filet 3D.</li></ul> |
+| **Alignement** | Détermine comment les tampons à l’intérieur du contour seront projetés/orientés sur la surface du filet 3D. Les valeurs suivantes sont disponibles :<ul data-preserve-html="true"><li data-preserve-html="true"><strong> Caméra </strong> : orienter le tampon vers le point de vue de la fenêtre d&#39;affichage</li><li data-preserve-html="true"><strong> Tangente `\|` Habillage (par défaut) </strong> : Orientez le tampon pour l&#39;aligner avec la surface du filet 3D. Le tampon sera également déformé pour se conformer à la surface.</li><li data-preserve-html="true"><strong> Tangente `\|` Planaire </strong> : Orientez le tampon pour l&#39;aligner avec la surface du filet 3D. Le tampon estompera sa bordure trop loin de la surface du filet 3D. </li><li data-preserve-html="true"><strong> UV </strong> : oriente le tampon en fonction des UV du filet 3D.</li></ul> |
 | **Abattage du dos** | Permet d’ignorer les surfaces du maillage 3D qui ne sont pas alignées avec le tampon. Pour calculer les parties du filet 3D à ignorer, le moteur de peinture examine la normale à la surface du filet 3D et compare son angle par rapport à la valeur définie. |
 | **Taille de l&#39;espace** | Détermine l’espace relatif dans lequel la taille du pinceau est calculée. Les valeurs possibles sont :<ul data-preserve-html="true"><li data-preserve-html="true"><strong> Objet (par défaut) </strong> : l’épaisseur du pinceau est synchronisée avec l’épaisseur du filet 3D. Le déplacement de la caméra dans la clôture affecte la taille pour la conserver par rapport au filet 3D.</li><li data-preserve-html="true">Fenêtre d&#39;affichage <strong> </strong> : l&#39;épaisseur du pinceau est liée à la fenêtre d&#39;affichage. Le redimensionnement de l’interface affecte l’épaisseur du pinceau. Le déplacement de la caméra n’aura aucun effet.</li><li data-preserve-html="true"><strong> Texture </strong> : l&#39;épaisseur du pinceau est liée au niveau d&#39;aire d&#39;affichage 2D du zoom.</li></ul> |
 

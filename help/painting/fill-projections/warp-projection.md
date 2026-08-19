@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting/fill-projections/warp-projection.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/warp-projection.html"
 breadcrumb-title: ''
 description: Utilisez la projection de déformation dans Substance 3D Painter pour projeter des textures avec des effets de distorsion afin de peindre des textures créatives.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Projection de la déformation
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+source-git-commit: 5ab9709e1630071fddf0db0f03a292e92b84b31f
 workflow-type: tm+mt
 source-wordcount: '1859'
 ht-degree: 2%
@@ -41,7 +41,7 @@ Les types de ressources compatibles sont :
 
 | Paramètre | Description |
 | --- | --- |
-| **Filtrage** | Détermine le mode de filtrage de la texture ou de la matière. Ce paramètre peut avoir un impact sur l’aspect de la texture lorsqu’elle est répétée plusieurs fois. Avec des valeurs de mise à l’échelle élevées, l’utilisation d’un filtrage différent du filtre par défaut peut produire un résultat plus esthétique. Paramètres actuels disponibles :<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Bilinéaire | HQ</strong> (par défaut) : filtrage bilinéaire avancé qui tente d&#39;améliorer la qualité de la texture lorsque les valeurs de mosaïque sont élevées.</li><li data-preserve-html="true"><strong>Bilinéaire | Net</strong> : filtrage bilinéaire simple qui lisse légèrement la texture, mais essaie de préserver les détails.</li><li data-preserve-html="true"><strong>Le plus proche</strong> : aucun filtrage. Ceci est utile si le filtrage bilinéaire donne un résultat flou et casse les détails fins. Peut introduire un crénelage dans la texture.</li></ul> |
+| **Filtrage** | Détermine le mode de filtrage de la texture ou de la matière. Ce paramètre peut avoir un impact sur l’aspect de la texture lorsqu’elle est répétée plusieurs fois. Avec des valeurs de mise à l’échelle élevées, l’utilisation d’un filtrage différent du filtre par défaut peut produire un résultat plus esthétique. Paramètres actuels disponibles :<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Quartier général `\|` bilinéaire</strong> (par défaut) : filtrage bilinéaire avancé qui tente d&#39;améliorer la qualité de la texture lorsque les valeurs de mosaïque sont élevées.</li><li data-preserve-html="true"><strong>Bilinéaire `\|` Net</strong> : filtrage bilinéaire simple qui lisse légèrement la texture, mais essaie de préserver les détails.</li><li data-preserve-html="true"><strong>Le plus proche</strong> : aucun filtrage. Ceci est utile si le filtrage bilinéaire donne un résultat flou et casse les détails fins. Peut introduire un crénelage dans la texture.</li></ul> |
 | **Pliage des UV** | Contrôlez la façon dont la texture se répète dans la projection. Les valeurs possibles sont :<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Aucun</strong> : la texture ne se répète pas. Tout ce qui se trouve en dehors de la texture est noir/transparent.</li><li data-preserve-html="true"><strong>Répétition horizontale</strong> : la texture se répète uniquement horizontalement.</li><li data-preserve-html="true"><strong>Répétition verticale</strong> : la texture se répète uniquement verticalement.</li><li data-preserve-html="true"><strong>Répétition</strong> (par défaut) : la texture se répète sur les deux axes.</li></ul> |
 | **Recadrage de forme** | Définissez si la texture projetée doit être visible en dehors de la zone de projection. Les valeurs possibles sont :<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Projet recadré pour prendre une forme</strong> : la projection est confinée dans la zone de projection.</li><li data-preserve-html="true"><strong>La projection s&#39;étend à l&#39;extérieur de la forme</strong> (par défaut) : la projection se poursuit au-delà de la zone de projection.</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/warp-extend.jpg" width="500px"/></div> |
 | **profondeur de projection** | Permet de définir la distance de projection le long de son axe Z. Ce paramètre permet d’atteindre la surface du filet lorsque le point de grille ou le plan de projection est trop éloigné.Les flèches vertes indiquent la direction et la distance de la projection pour chaque point de la grille. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r4-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/warp-depth.gif"/></div> **Alerte :** une valeur élevée peut avoir un impact important sur les performances. Il est recommandé de maintenir ce paramètre aussi bas que possible. |
