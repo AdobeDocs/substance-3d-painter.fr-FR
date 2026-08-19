@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2017-3.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/release-notes/old-versions/version-2017-3.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour de Substance 3D Painter version 2017.3 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""
@@ -30,7 +30,7 @@ Date de publication : *28 septembre 2017*
 
 ![](../../assets/adobe-dimension-meetmat.jpg)
 
-L’un des nouveaux exportateurs inclus dans cette version est la prise en charge des matériaux standard d’Adobe, à utiliser avec Adobe Dimension (auparavant Adobe Project Felix). Nous vous permettons d’exporter le filet de scène et ses textures pour les importer dans Project Felix en un clic. Pour y accéder, il vous suffit de choisir « **Adobe Standard Material** » dans la fenêtre des textures d&#39;exportation. Pour plus d&#39;informations, voir : [http://www.adobe.com/products/dimension.html](https://www.adobe.com/products/dimension.html)
+L’un des nouveaux exportateurs inclus dans cette version est la prise en charge des matériaux standard d’Adobe, à utiliser avec Adobe Dimension (auparavant Adobe Project Felix). Nous vous permettons d’exporter le filet de scène et ses textures pour les importer dans Project Felix en un clic. Pour y accéder, il vous suffit de choisir « **Adobe Standard Material** » dans la fenêtre des textures d&#39;exportation. Pour plus d&#39;informations, voir : [http://www.adobe.com/fr/products/dimension.html](https://www.adobe.com/fr/products/dimension.html)
 
 Vous pouvez également consulter notre article de blog à ce sujet : <https://www.allegorithmic.com/blog/new-dimension-substance-ecosystem>
 
