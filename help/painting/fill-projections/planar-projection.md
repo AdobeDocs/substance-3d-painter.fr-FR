@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/planar-projection.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting/fill-projections/planar-projection.html"
 breadcrumb-title: ''
 description: Utilisez la projection plane dans Substance 3D Painter pour projeter des textures à partir d’un plan plat afin de les appliquer directement à la texture.
 helpx_creative_field: ""
