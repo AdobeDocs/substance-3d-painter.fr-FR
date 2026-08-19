@@ -55,7 +55,7 @@ Si une sauvegarde est créée, mais que le projet n&#39;a pas été enregistré 
 
 ![](../../assets/gradient-rust.jpg)
 
-Le **filtre de dégradé** a été entièrement remanié. Agir d&#39;une manière beaucoup plus similaire au nœud **gradient map** disponible dans **Substance Designer**. Il prend désormais en charge jusqu&#39;à **10 couleurs différentes**, avec la possibilité de spécifier **l&#39;emplacement de la couleur à l&#39;intérieur** du dégradé&#x200B;****, ce qui ouvre de nombreuses nouvelles portes. Cela permet de créer plus de **motifs de couleur avancés**, mais aussi de **remapper les cartes de hauteur**et de créer **nouvelles formes**.
+Le **filtre de dégradé** a été entièrement remanié. Agir d&#39;une manière beaucoup plus similaire au nœud **gradient map** disponible dans **Substance Designer**. Il prend désormais en charge jusqu&#39;à **10 couleurs différentes**, avec la possibilité de spécifier **l&#39;emplacement de la couleur à l&#39;intérieur** du dégradé&#x200B;**&#x200B;**, ce qui ouvre de nombreuses nouvelles portes. Cela permet de créer plus de **motifs de couleur avancés**, mais aussi de **remapper les cartes de hauteur**&#x200B;et de créer **nouvelles formes**.
 
 Le curseur principal (quantité de couleur) définit le nombre total de couleurs utilisées pour créer le dégradé. Le bouton ci-dessous définit le mode de fusion des couleurs (sRVB ou Linéaire). C’est important si vous souhaitez obtenir un mélange approprié entre les couleurs. Par exemple, le mélange d&#39;un rouge pur et d&#39;un vert pur doit donner un joli jaune entre les deux. Ce ne sera pas le cas si le bouton est désactivé (il donnera un marron foncé à la place). Lors du remappage de l’height ou de toute autre couche de niveaux de gris, ce bouton doit être désactivé afin d’éviter la conversion gamma.
 
@@ -130,7 +130,7 @@ Cette version de la Substance Painter inclut également une nouvelle et forte am
 * Blocage lors de la suppression de plusieurs sous-étagères
 * Blocage lors du passage d’un niveau à un autre pendant un calcul du moteur
 * [Mac] Blocage sur le GPU Intel lors des calculs du moteur
-* [Mac][Fenêtre d’affichage] Performances incorrectes lorsque l’interpolation est activée
+* [Mac]&#x200B;[Fenêtre d’affichage] Performances incorrectes lorsque l’interpolation est activée
 * [Mac] MacOS 10.13 est reconnu comme « Version inconnue » dans le fichier journal
 * [Boulanger] Faire cuire avec une cage ne fonctionne plus
 * [Calques] Le raccourci Ctrl + C (action de copie) ne fonctionne plus
