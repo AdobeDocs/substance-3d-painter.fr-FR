@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/fr/substance-3d-painter/release-notes/all-changes.html'
+helpx_url: 'https://helpx.adobe.com/substance-3d-painter/release-notes/all-changes.html'
 breadcrumb-title: ''
 description: Passez en revue toutes les modifications et mises à jour des versions de Substance 3D Painter pour suivre l’évolution des fonctionnalités et les améliorations au fil du temps.
 helpx_creative_field: ''
@@ -123,7 +123,7 @@ Résumé : <b>Cette mise à jour est une version majeure. Elle contient des amé
 * [Cage automatique] Charge infinie lorsque le chemin d’accès au fichier poly élevé n’est pas valide
 * [Linux][Windows] Le sélecteur de couleurs peut parfois être entièrement noir ou ne pas apparaître
 * [Outil Remplissage polygonal] L’outil ne fonctionne pas avec les fichiers non PBR
-* &lbrack;[Paint] La suppression de la couche de couleur de base ne supprime pas la couleur précédemment peinte
+* [[Paint] La suppression de la couche de couleur de base ne supprime pas la couleur précédemment peinte
 * [USD] Les instances de nuanceur ne sont pas toutes correctement détectées
 * [Substance] Seule la première utilisation d&#39;un nœud d&#39;entrée/sortie est prise en compte
 * [Shader] L’Occlusion ambiante est appliquée deux fois avec les ensembles de textures en utilisant différentes méthodes de mélange
