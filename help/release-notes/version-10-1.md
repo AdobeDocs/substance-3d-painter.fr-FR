@@ -156,7 +156,7 @@ Résumé : <b>version majeure, nouveau contenu : masque de zone de remplissage/f
 * [VFX Platform 2024] Mise à jour vers Python 3.11
 * [VFX Platform 2024] Mise à jour vers OpenEXR 3.2
 * [VFX Platform 2024] [USD] Mise à jour OpenSubdiv 3.6.0
-* [VFX Platform 2024][Gestion des couleurs] Mise à jour vers OCIO 2.3.2
+* [VFX Platform 2024]&#x200B;[Gestion des couleurs] Mise à jour vers OCIO 2.3.2
 * [Linux] Migration vers Linux RedHat
 * [Linux] Mise à jour du pilote Nvidia version min vers 535.171.04
 * [Importer] Ajout d’une option pour retourner la carte normale lors de l’importation d’un filet GLTF
@@ -170,10 +170,10 @@ Résumé : <b>version majeure, nouveau contenu : masque de zone de remplissage/f
 <b>Fixe</b> :
 
 * [Illustrator] Blocage lors de l’exportation d’une vignette UV avec un graphique .ai dans des cas spécifiques
-* [Traits dynamiques][Tracé] Un tracé aléatoire ne fonctionne pas sur un tracé
-* [UI][Propriétés] Le verrouillage est activé lorsque la mosaïque n’est pas uniforme
+* [Traits dynamiques]&#x200B;[Tracé] Un tracé aléatoire ne fonctionne pas sur un tracé
+* [UI]&#x200B;[Propriétés] Le verrouillage est activé lorsque la mosaïque n’est pas uniforme
 * &#x200B;Le fichier TXT de débogage est créé lorsque vous double-cliquez sur le projet Painter
-* [USD][Export] Certaines textures peuvent être manquantes
+* [USD]&#x200B;[Export] Certaines textures peuvent être manquantes
 * [ASM] La couche Couleur de diffusion ignore les couleurs métalliques
 * [Contenu] Le filtre Flou ne fonctionne pas dans l’espace colorimétrique de travail
 * Le filtre Ajustement de l’Height [Contenu] modifie également l’alpha du calque
@@ -181,9 +181,9 @@ Résumé : <b>version majeure, nouveau contenu : masque de zone de remplissage/f
 <b>Problèmes connus</b> :
 
 * [Gestion des couleurs] Les conversions d’espace colorimétrique HDR avec ACE sous Linux produisent des couleurs condensées
-* [Win][Blocage] [ACE] N’utilise pas l’espace colorimétrique sRGB ICE pour la transformation d’affichage
-* [Régression][Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
-* [Crash][Python] Exportation USD déclenchée par TextureStateEvent
+* [Win]&#x200B;[Blocage] [ACE] N’utilise pas l’espace colorimétrique sRGB ICE pour la transformation d’affichage
+* [Régression]&#x200B;[Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
+* [Crash]&#x200B;[Python] Exportation USD déclenchée par TextureStateEvent
 * [MacOS Intel] Blocage lors de l’importation de certains paramètres prédéfinis
 * [Blocage] Déplacer la ressource et enregistrer le projet
 * [Moteur] Lorsque vous peignez avec l’outil Dupliquer dans des couleurs de décalage de couche normales, cela ne fonctionne pas correctement

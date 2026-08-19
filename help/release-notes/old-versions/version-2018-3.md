@@ -266,15 +266,15 @@ Nous avons également mis à jour une partie du contenu existant pour l’affine
 
 * Le filet disparaît parfois de la fenêtre d’affichage 3D (appuyez sur F pour réinitialiser la caméra)
 * [glTF] Mise à jour du chargeur de Substances Painter Sketchfab avec les nouveaux types de licences Sketchfab
-* [Importer][glTF] Mauvaise gestion de la modulation de texture d&#39;entrée telle que définie dans les fichiers glTF
-* [Importer][glTF] Le plan au sol s’affiche de manière incorrecte avec l’importation glTF dans certains cas
-* [Export][USD] L’opacité ne fonctionne pas dans Arkit
-* [Export][USD] L’exportation vers USDz se bloque dans certains cas
-* [Export][USD] Exporter en USD sans enregistrer entraîne un blocage
-* [Export][USD] Mode de mosaïque incorrect pour les textures, mode de subdivision pour les maillages et types de sortie pour les ombrages
-* [Export][USD] Exportations fragmentées de seulement quelques ensembles de textures avec toute la géométrie
+* [Importer]&#x200B;[glTF] Mauvaise gestion de la modulation de texture d&#39;entrée telle que définie dans les fichiers glTF
+* [Importer]&#x200B;[glTF] Le plan au sol s’affiche de manière incorrecte avec l’importation glTF dans certains cas
+* [Export]&#x200B;[USD] L’opacité ne fonctionne pas dans Arkit
+* [Export]&#x200B;[USD] L’exportation vers USDz se bloque dans certains cas
+* [Export]&#x200B;[USD] Exporter en USD sans enregistrer entraîne un blocage
+* [Export]&#x200B;[USD] Mode de mosaïque incorrect pour les textures, mode de subdivision pour les maillages et types de sortie pour les ombrages
+* [Export]&#x200B;[USD] Exportations fragmentées de seulement quelques ensembles de textures avec toute la géométrie
 * [Instance] Blocage lors de la tentative de suppression d’un calque d’instance rompu
-* [Régression][Exporter] Certaines cartes non exportées dans le nombre de bits par pixel choisi
+* [Régression]&#x200B;[Exporter] Certaines cartes non exportées dans le nombre de bits par pixel choisi
 * [Linux] Problème avec la bibliothèque libtbb.so.2
 
 **Problèmes Connus :**
@@ -324,7 +324,7 @@ Nous avons également mis à jour une partie du contenu existant pour l’affine
 **Ajouté :**
 
 * Résumé : correctif
-* [Symétrie][Fenêtre] La peinture symétrique dans la vue 2D est de retour et dispose désormais d’un aperçu du pinceau de duplication fixe
+* [Symétrie]&#x200B;[Fenêtre] La peinture symétrique dans la vue 2D est de retour et dispose désormais d’un aperçu du pinceau de duplication fixe
 
 **Fixe :**
 
@@ -347,25 +347,25 @@ Nous avons également mis à jour une partie du contenu existant pour l’affine
 <b><b>Ajouté :</b></b>
 
 * Résumé : mises à niveau de l’aire d’affichage, exportation correcte de la vue 2D, nouveaux assistants d’interface utilisateur, outil de symétrie amélioré, nouveau contenu et amélioration considérable des performances
-* [Lissage][Fenêtre d’affichage] Nouveau filtrage antialiasing temporel pour la fenêtre d’affichage 3D (via les paramètres d’affichage)
+* [Lissage]&#x200B;[Fenêtre d’affichage] Nouveau filtrage antialiasing temporel pour la fenêtre d’affichage 3D (via les paramètres d’affichage)
 * [Exporter] Exportez le contenu de la clôture 2D sous la forme d’une texture unique
-* [Exportation][Tramage] Exposer le tramage à l’exportation
+* [Exportation]&#x200B;[Tramage] Exposer le tramage à l’exportation
 * [Pile de calques] Couleurs sur les calques et les dossiers
 * [Pile de calques] Activation et désactivation rapides de plusieurs calques et effets
 * [Pile de calques] Navigation plus facile pour les modes de fusion avec les touches Haut et Bas et le défilement de la souris
-* [Proj][UI] Manipulateur de rotation supplémentaire sur les trois axes pour triplanar
-* [Proj][Raccourcis] - et + pour modifier la taille du manipulateur de Projection UV
+* [Proj]&#x200B;[UI] Manipulateur de rotation supplémentaire sur les trois axes pour triplanar
+* [Proj]&#x200B;[Raccourcis] - et + pour modifier la taille du manipulateur de Projection UV
 * [Shader] Contrôle des paramètres de couche revêtue avec des canaux dans le shader revêtu PBR
 * [Substance] Afficher les nouvelles entrées de texture basées sur le maillage pour les filtres et les générateurs
-* [Symétrie][Fenêtre][Interface utilisateur] Contrôle le décalage de symétrie avec les manipulateurs
-* [Symétrie][Barre d’outils contextuelle][Interface utilisateur] Nouveau panneau de symétrie avec des options
+* [Symétrie]&#x200B;[Fenêtre]&#x200B;[Interface utilisateur] Contrôle le décalage de symétrie avec les manipulateurs
+* [Symétrie]&#x200B;[Barre d’outils contextuelle]&#x200B;[Interface utilisateur] Nouveau panneau de symétrie avec des options
 * [Symétrie] Nouveau mode d&#39;intersection des lignes de symétrie
 * [Symétrie] Nouveau curseur de duplication de symétrie
-* [Symétrie][Raccourcis] Q pour masquer et -, + pour modifier la taille et Maj pour accrocher
+* [Symétrie]&#x200B;[Raccourcis] Q pour masquer et -, + pour modifier la taille et Maj pour accrocher
 * [Log] Amélioration des messages d’erreur en cas d’incapacité à exporter les textures
 * [Scripts] Autoriser à modifier ou à mettre à jour les ressources dans les paramètres d’affichage
 * [Scripts] Autoriser la création ou la suppression de couches dans les ensembles de textures
-* [Contenu][Shaders] Ajout de la prise en charge de l’anisotropie avec un shader dédié (pbr-metal-ough-anisotropie-angle)
+* [Contenu]&#x200B;[Shaders] Ajout de la prise en charge de l’anisotropie avec un shader dédié (pbr-metal-ough-anisotropie-angle)
 * [Contenu] Mise à jour de la sphère de prévisualisation avec anisotropie et angle modifié
 * [Contenu] Mise à jour de la ligne d’arrêt matFx
 * [Contenu] Nouvelle numérisation du visage transparente Texturing.XYZ
@@ -374,16 +374,16 @@ Nous avons également mis à jour une partie du contenu existant pour l’affine
 * [Contenu] Nouvelle carte de l&#39;environnement : studio automobile neutre
 * [Contenu] Nouveau modèle de projet : PBR - angle d’Anisotropie de la rugosité métallique (avec canaux d’anisotropie)
 * [Contenu] Nouveau modèle de projet : PBR - Rugosité métallique Revêtu
-* [SVT][Engine] Textures virtuelles fragmentées (SVT)
-* [SVT][Préférences][Interface utilisateur] Option d’accélération de la prise en charge matérielle SVT
-* [SVT][Journal] Informations supplémentaires sur la fonction de texturation virtuelle dispersée (par exemple, taille du disque)
-* [SVT][UI] Fenêtre de message au début si la taille du disque est trop faible pour le cache
-* [SVT][Préférences][UI] Emplacement du cache global de la Substance Painter de données
+* [SVT]&#x200B;[Engine] Textures virtuelles fragmentées (SVT)
+* [SVT]&#x200B;[Préférences]&#x200B;[Interface utilisateur] Option d’accélération de la prise en charge matérielle SVT
+* [SVT]&#x200B;[Journal] Informations supplémentaires sur la fonction de texturation virtuelle dispersée (par exemple, taille du disque)
+* [SVT]&#x200B;[UI] Fenêtre de message au début si la taille du disque est trop faible pour le cache
+* [SVT]&#x200B;[Préférences]&#x200B;[UI] Emplacement du cache global de la Substance Painter de données
 * [SVT] Nouvelle variable d’environnement pour spécifier le chemin du cache de Substance Painter
 * [SVT] Nouvelle variable d’environnement pour activer l’accélération de la prise en charge matérielle SVT
 * [SVT] Détecter la prise en charge fragmentée par le matériel
-* [SVT][Dispersé matériel] Augmenter la version minimale du pilote pour le GPU Nvidia
-* [SVT][Shader][Fenêtre d’affichage][Interface utilisateur] Avertir l’utilisateur si des artefacts sont présents avec une texture virtuelle dispersée à l’ouverture du projet
+* [SVT]&#x200B;[Dispersé matériel] Augmenter la version minimale du pilote pour le GPU Nvidia
+* [SVT]&#x200B;[Shader]&#x200B;[Fenêtre d’affichage]&#x200B;[Interface utilisateur] Avertir l’utilisateur si des artefacts sont présents avec une texture virtuelle dispersée à l’ouverture du projet
 
 <b><b>Fixe :</b>\
 </b>
@@ -391,7 +391,7 @@ Nous avons également mis à jour une partie du contenu existant pour l’affine
 * [Sélecteur de couleurs] Un curseur de peinture apparaît lorsque vous tentez de choisir une couleur
 * Un blocage dû à la sélection ou à la désélection de calques dans un ordre spécifique peut entraîner un blocage
 * Blocage lors du collage en tant qu’instance d’un calque avec un masque
-* [Canal utilisateur][Régression] Blocage lors du changement de nom du canal utilisateur
+* [Canal utilisateur]&#x200B;[Régression] Blocage lors du changement de nom du canal utilisateur
 * [Canal utilisateur] Aperçu du pinceau grisé
 * [Alembic] Une seule texture définie à partir de plusieurs matières après l’importation
 * [Moteur] La texture exportée diffère de la fenêtre d’affichage pour les tampons de pinceau
@@ -401,7 +401,7 @@ Nous avons également mis à jour une partie du contenu existant pour l’affine
 * Les liens de mappage de maillage ne sont pas mis à jour correctement lors du rétablissement ou de l’instanciation des calques
 * [Substance] UserData ColorSpace ne fonctionne pas sur Baked Mesh Normal demandé comme entrée
 * Incompatibilité d&#39;association MDL lors de l&#39;utilisation de plusieurs instances de shaders
-* [Symétrie][Calque de remplissage] Plan de symétrie et son manipulateur actifs dans le calque de remplissage
+* [Symétrie]&#x200B;[Calque de remplissage] Plan de symétrie et son manipulateur actifs dans le calque de remplissage
 * [Fenêtre d’affichage] Le point de pivot de la traduction n’est pas toujours mis à jour après avoir cliqué
 * [UI] Correction des icônes et suppression des espaces réservés pour les moniteurs HDPI
 

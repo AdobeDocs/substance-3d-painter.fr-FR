@@ -299,7 +299,7 @@ Résumé : **Correctif avec mise à niveau vers Iray 2019.3**
 * [Tablette] Mauvaise détection lors du déplacement des curseurs
 * [Raccourcis] Impossible de configurer un raccourci avec « Ctrl+Alt+Clic de souris »
 * [Tablette] Impossible de voir l’info-bulle des ressources lors de l’utilisation d’une tablette
-* [Vue 2D][Exporter] Le paramètre prédéfini Vue 2D ne prend pas en compte les informations normales
+* [Vue 2D]&#x200B;[Exporter] Le paramètre prédéfini Vue 2D ne prend pas en compte les informations normales
 * Blocage lors de la peinture en alignement UV avec certains pinceaux
 * Peindre sous un filtre crée un artefact sur le contour continu
 * [Fenêtre d’affichage] Cache de texture incorrect dans la fenêtre d’affichage après la réimportation d’un filet
@@ -380,28 +380,28 @@ Résumé : **version majeure avec amélioration de l’expérience utilisateur e
 * [Déballage UV] Déballage UV automatique dans la Substance Painter lorsqu&#39;aucun UV n&#39;est présent ou UV partiel
 * [Dépliant UV] Un paramètre global pour l’activer et le désactiver
 * [Dépliant UV] Version consignée dans le fichier journal
-* [Dépliage UV][UI] Indiquer la progression du dépliage UV
+* [Dépliage UV]&#x200B;[UI] Indiquer la progression du dépliage UV
 * [UI] Nouveaux paramètres dans la barre d’outils contextuelle pour sélectionner l’aperçu du pinceau : aperçu complet, contour du pinceau et réticule
 * [Outil] Nouveau mode de fusion avancé dans la section alpha : Éclaircir (maximum) en plus de Normal
 * [Pile de calques] Option de correction gamma par calque pour alpha ou masque (menu contextuel)
-* [Pile de calques][Interface utilisateur] Ajouter une icône « i » lorsqu’un calque alpha est corrigé en gamma
-* [Tablette][Outil] Exposer la pression minimale pour la taille et le débit
-* [Tablette][Interface utilisateur] Nouveau paramètre dans la barre d’outils contextuelle pour sélectionner la pression de la courbe : linéaire, facile à entrer, facile à sortir
-* [Tablette][UX] Ajouter Ctrl+Alt+clic pour faire défiler
+* [Pile de calques]&#x200B;[Interface utilisateur] Ajouter une icône « i » lorsqu’un calque alpha est corrigé en gamma
+* [Tablette]&#x200B;[Outil] Exposer la pression minimale pour la taille et le débit
+* [Tablette]&#x200B;[Interface utilisateur] Nouveau paramètre dans la barre d’outils contextuelle pour sélectionner la pression de la courbe : linéaire, facile à entrer, facile à sortir
+* [Tablette]&#x200B;[UX] Ajouter Ctrl+Alt+clic pour faire défiler
 * Importation de pinceaux prédéfinis Photoshop (format ABR)
 * [ABR] Prise en charge des paramètres de forme
 * [ABR] Prise en charge des paramètres de dynamique de forme
 * [ABR] Prise en charge des paramètres de transfert
 * [ABR] Prise en charge des paramètres de diffusion
-* [ABR][Traits dynamiques] Prise en charge de l’arrondi et de la symétrie
-* [ABR][Étagère] Afficher la structure du dossier des pinceaux dans l’Éditeur de filtres
-* [ABR][Étagère] Ajouter une icône Photoshop dans les vignettes
-* [ABR][Shelf] Ajouter la liste des paramètres non pris en charge dans la vignette détaillée ABR
-* [Outil][Traits dynamiques] Nouveau paramètre de contour dynamique pour contrôler le nombre de valeurs aléatoires à générer
-* [Outil][Interface utilisateur] Ajout de nouveaux paramètres de distribution et d’axe pour la variation de diffusion
+* [ABR]&#x200B;[Traits dynamiques] Prise en charge de l’arrondi et de la symétrie
+* [ABR]&#x200B;[Étagère] Afficher la structure du dossier des pinceaux dans l’Éditeur de filtres
+* [ABR]&#x200B;[Étagère] Ajouter une icône Photoshop dans les vignettes
+* [ABR]&#x200B;[Shelf] Ajouter la liste des paramètres non pris en charge dans la vignette détaillée ABR
+* [Outil]&#x200B;[Traits dynamiques] Nouveau paramètre de contour dynamique pour contrôler le nombre de valeurs aléatoires à générer
+* [Outil]&#x200B;[Interface utilisateur] Ajout de nouveaux paramètres de distribution et d’axe pour la variation de diffusion
 * [Raccourci] Ajoutez Ctrl + Maj + B pour ouvrir la fenêtre Cuisson
-* [UI][Menu] Ajoutez une entrée dans le menu « Modifier » pour ouvrir la fenêtre Cuisson
-* [UI][Paramètres] Amélioration de l’alignement de la liste des raccourcis
+* [UI]&#x200B;[Menu] Ajoutez une entrée dans le menu « Modifier » pour ouvrir la fenêtre Cuisson
+* [UI]&#x200B;[Paramètres] Amélioration de l’alignement de la liste des raccourcis
 * [UI] Remplacement des icônes de contrôle de pression (taille et débit) par des boutons d’activation/de désactivation
 * [Fenêtre d’affichage] Permet de mettre au point les fenêtres 2D et 3D séparément
 * Mise à jour de QT 5.12.5
@@ -432,9 +432,9 @@ Résumé : **version majeure avec amélioration de l’expérience utilisateur e
 * [Tablette] Les raccourcis pour modifier les pinceaux avec le stylet entraînent de rares problèmes de performances
 * [Tablette] Décalage lors de la peinture sur un calque spécifique
 * Des textures floues peuvent apparaître dans de rares cas lors du changement de fenêtre
-* [UI][Substance] Les entrées d’image ne sont pas toujours affichées
+* [UI]&#x200B;[Substance] Les entrées d’image ne sont pas toujours affichées
 * L’option Nettoyer ne supprime pas des tablettes les paramètres prédéfinis importés dans un projet
-* [Outil][Contour dynamique] Problème de performances lors de l’ajustement du nombre de cycles de tampons
+* [Outil]&#x200B;[Contour dynamique] Problème de performances lors de l’ajustement du nombre de cycles de tampons
 * Dans de rares cas, actualisez les problèmes lors de la peinture en mode Fenêtre 3D/2D
 * Peindre un trait très long peut entraîner un gel
 * [Outil] Problème de performances lors de la peinture avec des traits dynamiques spécifiques

@@ -144,7 +144,7 @@ Nous avons également ajouté du nouveau contenu dans cette version :
   La direction peut être définie avec deux positions 3D, qui peuvent être sélectionnées directement sur la carte de position.\
   Exemple :
 
-1. 
+1. &#x200B;
    1. Créez le générateur de masque **3D linear gradient** dans l&#39;un de vos calques
    1. Basculer l&#39;affichage de la fenêtre d&#39;affichage vers « **Position** » (via la liste déroulante de la fenêtre d&#39;affichage ou en utilisant la touche « **B** »)
    1. Cliquez sur le paramètre « **Début de la position 3D** » pour ouvrir le **Sélecteur de couleurs** contextuel
@@ -253,7 +253,7 @@ Un nouveau tutoriel a été ajouté à Substance Academy pour couvrir notre nouv
 * [Pilotes] Mise à jour de la configuration minimale requise
 * [3Dview] Les normales ne sont pas correctement générées sur les maillages UDIM sans informations de normales
 * [Intel] Blocage avec Substance Painter 2018.1.0
-* [Intel][Fenêtre] Problème de remplissage (artefacts noirs)
+* [Intel]&#x200B;[Fenêtre] Problème de remplissage (artefacts noirs)
 
 **Problèmes Connus :**
 

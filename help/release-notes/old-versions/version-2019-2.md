@@ -180,7 +180,7 @@ Résumé : **Correctif**
 **Fixe :**
 
 * [Plugin] La source du plug-in ne fonctionne pas
-* [MacOS][Shader] Mac OS 10.14.5 et AMD : la superposition de matériaux ne fonctionne pas comme prévu
+* [MacOS]&#x200B;[Shader] Mac OS 10.14.5 et AMD : la superposition de matériaux ne fonctionne pas comme prévu
 
 **Problèmes Connus :**
 
@@ -205,7 +205,7 @@ Résumé : **Correctif**
 
 **Fixe :**
 
-* [Mac][USD] Impossible d’ouvrir les fichiers USDZ exportés depuis MacOS
+* [Mac]&#x200B;[USD] Impossible d’ouvrir les fichiers USDZ exportés depuis MacOS
 * [Ensemble de textures] Impossible d’isoler un ensemble de textures avec le modificateur ALT
 * [Tablette] Les paramètres prédéfinis, les matières intelligentes et les masques intelligents sont toujours modifiés à la sortie de l’application
 * [Pile de calques] Impossible de sélectionner l’effet après avoir supprimé un autre effet
@@ -229,13 +229,13 @@ Résumé : **version majeure avec mises à jour des boulangers en termes de perf
 
 * [Bakers] Ajout de la prise en charge des GPU raytracings avec DXR et OptiX (Occlusion ambiante, Thickness)
 * [Bakers] Optimisations et accélérations pour le lancer de rayon CPU
-* [Bakers][Mode Visuel][UI] Nouveau mode de visualisation baking dans la clôture
-* [Boulangers][Préférences][Interface utilisateur] Nouvelle option de boulangerie pour activer/désactiver les GPU raytracings
-* [Boulangers][Interface utilisateur] Modification de la boîte de dialogue de la barre de progression
+* [Bakers]&#x200B;[Mode Visuel]&#x200B;[UI] Nouveau mode de visualisation baking dans la clôture
+* [Boulangers]&#x200B;[Préférences]&#x200B;[Interface utilisateur] Nouvelle option de boulangerie pour activer/désactiver les GPU raytracings
+* [Boulangers]&#x200B;[Interface utilisateur] Modification de la boîte de dialogue de la barre de progression
 * [Boulangers] Amélioration des messages d&#39;avertissement et d&#39;erreur
 * [Boulangers] Permet une annulation plus réactive du processus de cuisson
 * [Boulangers] Rouvrir la fenêtre de cuisson après avoir cliqué sur Annuler
-* [Proj][UX] Amélioration de la convivialité du manipulateur de rotation
+* [Proj]&#x200B;[UX] Amélioration de la convivialité du manipulateur de rotation
 * [Paramètres] Option permettant d’améliorer les performances en réduisant la résolution de fenêtre pour les écrans HDPI
 * [Scripts] Modification de la résolution du jeu de textures
 * [Scripts] Obtenir le jeu de textures sélectionné
