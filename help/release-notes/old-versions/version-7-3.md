@@ -129,18 +129,18 @@ Résumé : **version majeure. Il contient une nouvelle projection de déformatio
 
 **Ajouté :**
 
-* [Projection][Déformation] Présenter la déformation 3D comme un nouveau mode de projection
-* [Projection][Déformation] Autoriser le mode décalcomanie pour les Alpha, les textures et les procédures avec glisser-déposer dans la clôture
-* [Projection][Déformation] Utiliser la projection de déformation avec le raccourci de décalcomanie (ALT)
-* [Projection][Déformation][Barre d’outils] Transformer la déformation en entier ou par sommets
-* [Projection][Déformation][Barre d’outils] Ajouter des points de grille avec des options de déformation fractionnée en diagonale, horizontalement ou verticalement
-* [Projection][Déformation][Barre d’outils] Menu dédié aux actions de réinitialisation
-* Option [Projection][Déformation][Barre d’outils] pour ajuster automatiquement les tangentes lors du déplacement de points
-* [Projection][Déformation][Barre d’outils] Menu dédié à l’édition de grille (taille, réinitialisation, couleur et taille de la poignée)
-* [Projection][Déformation] Nouveau raccourci clavier pour changer le mode d’édition de déformation de sommets entiers (MAJ+V)
-* [Projection][Déformation] Cliquer + Ctrl permet de basculer entre l’outil Surface et d’autres outils
-* [Projection][Cylindrique] Exposer le mode de projection cylindrique
-* [Projection][Barre d’outils] Paramètres du manipulateur de groupe (taille, pas de grille, pas d’angle)
+* [Projection]&#x200B;[Déformation] Présenter la déformation 3D comme un nouveau mode de projection
+* [Projection]&#x200B;[Déformation] Autoriser le mode décalcomanie pour les Alpha, les textures et les procédures avec glisser-déposer dans la clôture
+* [Projection]&#x200B;[Déformation] Utiliser la projection de déformation avec le raccourci de décalcomanie (ALT)
+* [Projection]&#x200B;[Déformation]&#x200B;[Barre d’outils] Transformer la déformation en entier ou par sommets
+* [Projection]&#x200B;[Déformation]&#x200B;[Barre d’outils] Ajouter des points de grille avec des options de déformation fractionnée en diagonale, horizontalement ou verticalement
+* [Projection]&#x200B;[Déformation]&#x200B;[Barre d’outils] Menu dédié aux actions de réinitialisation
+* Option [Projection]&#x200B;[Déformation]&#x200B;[Barre d’outils] pour ajuster automatiquement les tangentes lors du déplacement de points
+* [Projection]&#x200B;[Déformation]&#x200B;[Barre d’outils] Menu dédié à l’édition de grille (taille, réinitialisation, couleur et taille de la poignée)
+* [Projection]&#x200B;[Déformation] Nouveau raccourci clavier pour changer le mode d’édition de déformation de sommets entiers (MAJ+V)
+* [Projection]&#x200B;[Déformation] Cliquer + Ctrl permet de basculer entre l’outil Surface et d’autres outils
+* [Projection]&#x200B;[Cylindrique] Exposer le mode de projection cylindrique
+* [Projection]&#x200B;[Barre d’outils] Paramètres du manipulateur de groupe (taille, pas de grille, pas d’angle)
 * [Sélecteur de couleurs] Nouvelle interface utilisateur du sélecteur de couleurs
 * [Sélecteur de couleurs] Utiliser les valeurs sRVB dans les widgets du sélecteur de couleurs
 * [Sélecteur de couleurs] Autoriser l’enregistrement et la suppression d’échantillons de couleurs
@@ -151,9 +151,9 @@ Résumé : **version majeure. Il contient une nouvelle projection de déformatio
 * [Sélecteur de couleurs] Appuyez sur Echap pour fermer la fenêtre du sélecteur de couleurs
 * Amélioration des performances pour l’interaction avec l’interface utilisateur et la peinture
 * [Engine] Mise à jour vers la nouvelle version du moteur de Substance (8.3.0)
-* [Scripting][Python] Autoriser à recharger le maillage du projet actuel
-* [Scripting][Python] Autoriser la mise à jour des ressources dans les projets
-* [Scripting][Python] Autoriser à définir et interroger la résolution des tuiles UV
+* [Scripting]&#x200B;[Python] Autoriser à recharger le maillage du projet actuel
+* [Scripting]&#x200B;[Python] Autoriser la mise à jour des ressources dans les projets
+* [Scripting]&#x200B;[Python] Autoriser à définir et interroger la résolution des tuiles UV
 * [Interopérabilité] Non disponible pour les éditions Steam et Substance
 * [Interopérabilité] Recevoir plusieurs ressources de Bridge
 
@@ -168,9 +168,9 @@ Résumé : **version majeure. Il contient une nouvelle projection de déformatio
 
 **Problèmes Connus :**
 
-* [Projection][Déformation] L’option Fractionner reste sélectionnée une fois le fractionnement effectué
-* [Projection][Déformation] La symétrie ne fonctionne pas lorsque la transformation est définie sur l’espace univers
-* [Projection][Déformation] Lignes d’artefact entre les correctifs dans de rares cas
-* [Projection][UV] Le point de pivot est réinitialisé lors de l’inversion de la projection
+* [Projection]&#x200B;[Déformation] L’option Fractionner reste sélectionnée une fois le fractionnement effectué
+* [Projection]&#x200B;[Déformation] La symétrie ne fonctionne pas lorsque la transformation est définie sur l’espace univers
+* [Projection]&#x200B;[Déformation] Lignes d’artefact entre les correctifs dans de rares cas
+* [Projection]&#x200B;[UV] Le point de pivot est réinitialisé lors de l’inversion de la projection
 * [Mac M1] Les matériaux intelligents ne s’affichent pas correctement
-* [M1][Régression] La superposition de matériaux ne fonctionne pas
+* [M1]&#x200B;[Régression] La superposition de matériaux ne fonctionne pas

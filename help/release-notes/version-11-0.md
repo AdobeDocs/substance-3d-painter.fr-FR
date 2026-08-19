@@ -271,9 +271,9 @@ Résumé : <b>version majeure, nouvelle fonctionnalité de mise à jour automati
 * [Mise à jour automatique] Désactiver la mise à jour automatique par défaut
 * [Mise à jour automatique] Rendre la mise à jour facultative si les paramètres de ressource ne correspondent pas (.sbsar, .glsl, .ai, .svg)
 * [Mise à jour automatique] Ajouter une variable d’environnement pour désactiver la fonction de mise à jour automatique
-* [Mise à jour automatique][SBSAR] Rendre la mise à jour facultative si les paramètres de la ressource ne correspondent pas
+* [Mise à jour automatique]&#x200B;[SBSAR] Rendre la mise à jour facultative si les paramètres de la ressource ne correspondent pas
 * Tracé plein
-* [Tracé][Remplissage] Ajouter un nouvel outil pour créer des tracés remplis
+* [Tracé]&#x200B;[Remplissage] Ajouter un nouvel outil pour créer des tracés remplis
 * Améliorations des tracés
 * [Tracé] Créer un tracé qui s’accroche aux polygones
 * [Chemin] Permettre de changer de type de chemin
@@ -283,7 +283,7 @@ Résumé : <b>version majeure, nouvelle fonctionnalité de mise à jour automati
 * [Tracé] Fermer la forme en un seul clic
 * [Chemin] Afficher les informations de chemin
 * [Tracé] Permet de mettre à l’échelle et de faire pivoter les sommets du tracé
-* [Chemin][UX] Faciliter l’accès aux gadgets de transformation
+* [Chemin]&#x200B;[UX] Faciliter l’accès aux gadgets de transformation
 * [Chemin] Ajouter un aperçu du chemin
 * [Tracé] Désactiver l’aperçu du tracé avec les touches Maj + P
 * [Tracé] Amélioration de l’édition de tangente à partir de la vue latérale
@@ -291,7 +291,7 @@ Résumé : <b>version majeure, nouvelle fonctionnalité de mise à jour automati
 * [Chemin] Les sommets doivent conserver l’état de sélection lors de l’activation et de la désactivation de l’interface utilisateur
 * [Chemin] Autoriser à supprimer le chemin à l’aide de la touche Retour arrière
 * [Chemin] Garder la liste des chemins ouverte si l’utilisateur la développe
-* [Chemin][Pile de calques] Renommer correctement les doublons lors du copier/coller
+* [Chemin]&#x200B;[Pile de calques] Renommer correctement les doublons lors du copier/coller
 * Améliorations de l’interface utilisateur et de l’info-bulle de [Path]
 * Performance
 * [Performances] Amélioration des performances de l’aire d’affichage lors de l’utilisation de niveaux de facettisation élevés
@@ -305,11 +305,11 @@ Résumé : <b>version majeure, nouvelle fonctionnalité de mise à jour automati
 * [Content] Ajouter 3 nouveaux générateurs de textures (Tile Random, Triangle Grid, Scratches Generator)
 * [Contenu] Renommer le modèle Unreal Engine et les paramètres prédéfinis d’exportation
 * Python
-* [Shelf][Python] Enregistrer la matière intelligente ou le masque intelligent sur le disque depuis Python
+* [Shelf]&#x200B;[Python] Enregistrer la matière intelligente ou le masque intelligent sur le disque depuis Python
 * [Python] Ajout de la cage automatique de cuisson à l’API Python
 * [Python] Autoriser à modifier les noms et les descriptions des ensembles de textures/tuiles UV
 * [Python] Partage des paramètres de résolution sur les sources de vecteurs et de polices
-* [Mise à jour automatique][Python] Exposer les fonctionnalités de mise à jour automatique du projet dans Python
+* [Mise à jour automatique]&#x200B;[Python] Exposer les fonctionnalités de mise à jour automatique du projet dans Python
 * Divers
 * [Exporter] Accédez plus facilement aux options Envoyer vers avec un nouveau panneau
 * [Nvidia] Ajouter un avertissement concernant les derniers pilotes Nvidia (572.16)
@@ -321,7 +321,7 @@ Résumé : <b>version majeure, nouvelle fonctionnalité de mise à jour automati
 
 <b>Fixe</b> :
 
-* [Nvidia][Cuisson] Les résultats de la cuisson occlusion ambiante ont des artefacts
+* [Nvidia]&#x200B;[Cuisson] Les résultats de la cuisson occlusion ambiante ont des artefacts
 * [Blocage] Un clic sur Alt pour activer/désactiver la visibilité d’un ensemble de textures désactivé entraîne un blocage
 * [Cuisson] La cage est prise en compte avec un poly bas comme un poly param élevé
 * [Cuisson] La couleur de la matière pour le créateur de mappage ID ne fonctionne pas avec le format de fichier USD
@@ -338,8 +338,8 @@ Résumé : <b>version majeure, nouvelle fonctionnalité de mise à jour automati
 <b>Problèmes connus</b> :
 
 * [Gestion des couleurs] Les conversions d’espace colorimétrique HDR avec ACE sous Linux produisent des couleurs condensées
-* [Régression][Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
-* [Crash][Python] Exportation USD déclenchée par TextureStateEvent
+* [Régression]&#x200B;[Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
+* [Crash]&#x200B;[Python] Exportation USD déclenchée par TextureStateEvent
 * [Moteur] Lorsque vous peignez avec l’outil Dupliquer dans des couleurs de décalage de couche normales, cela ne fonctionne pas correctement
 * [Python] Le widget Fantôme apparaît supprimé par le script et fonctionne toujours
 * [RedHat] Problèmes de sélecteur de couleurs

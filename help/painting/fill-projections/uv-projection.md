@@ -10,7 +10,7 @@ helpx_tags: ""
 title: UV projection
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+source-git-commit: 2903c7fdf6a9fe0da149b61fa9064033bb88926a
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 4%
@@ -28,7 +28,7 @@ La Projection UV du remplissage est une projection 2D qui ne fonctionne que dans
 
 | *Paramètre* | *Description* |
 | --- | --- |
-| **Filtrage** | Détermine le mode de filtrage de la texture ou de la matière. Ces paramètres peuvent avoir un impact sur l’aspect de la texture lorsqu’elle est répétée plusieurs fois. Avec des valeurs de mise à l’échelle élevées, l’utilisation d’une méthode de filtrage différente de la méthode par défaut peut produire de meilleurs résultats. Paramètres actuellement disponibles :<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Bilinéaire | QG </strong> : (par défaut) Filtrage bilinéaire avancé qui tente d’améliorer la qualité de la texture lorsque les valeurs de mosaïque sont élevées.</li><li data-preserve-html="true"><strong>Bilinéaire | Net </strong> : filtrage bilinéaire simple qui lisse légèrement la texture, mais tente de préserver les détails.</li><li data-preserve-html="true"><strong>Au plus proche </strong> : aucun filtrage, utile si le filtrage bilinéaire donne un résultat flou et casse les détails fins. Peut introduire un crénelage dans la texture.</li></ul> |
+| **Filtrage** | Détermine le mode de filtrage de la texture ou de la matière. Ces paramètres peuvent avoir un impact sur l’aspect de la texture lorsqu’elle est répétée plusieurs fois. Avec des valeurs de mise à l’échelle élevées, l’utilisation d’une méthode de filtrage différente de la méthode par défaut peut produire de meilleurs résultats. Paramètres actuellement disponibles :<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Bilinéaire `\|` HQ </strong> : (par défaut) Filtrage bilinéaire avancé qui tente d&#39;améliorer la qualité de la texture lorsque les valeurs de mosaïque sont élevées.</li><li data-preserve-html="true"><strong>Bilinéaire `\|` Net </strong> : filtrage bilinéaire simple qui lisse légèrement la texture, mais tente de préserver les détails.</li><li data-preserve-html="true"><strong>Au plus proche </strong> : aucun filtrage, utile si le filtrage bilinéaire donne un résultat flou et casse les détails fins. Peut introduire un crénelage dans la texture.</li></ul> |
 | **Pliage des UV** | Contrôle la façon dont la matière/image projetée doit se répéter à l’intérieur de la forme de projection. Les valeurs possibles sont :<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Aucune</strong> : il n&#39;y a pas de répétition de la projection.</li><li data-preserve-html="true"><strong>Répéter horizontalement</strong> : répéter uniquement horizontalement.</li><li data-preserve-html="true"><strong>Répéter verticalement</strong> : répéter uniquement verticalement.</li><li data-preserve-html="true"><strong>Répéter</strong> (par défaut) : répéter à la fois horizontalement et verticalement.</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/2d-repeat.jpg" width="500px"/></div> |
 
 ### transformation UV

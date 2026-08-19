@@ -280,7 +280,7 @@ Résumé : **Correctif avec 2 nouvelles fonctionnalités**
 * [TextureSet] Blocage lors d’un clic entre les masques
 * Le Displacement [SVT] ne s’affiche pas correctement et scintille dans certains cas
 * [Alembic] Blocage avec le filet utilisant des normales de point au lieu de normales de sommet
-* [Alembic][Journal] Signaler une erreur dans le journal si le fichier Alembic n’est pas pris en charge lors de l’importation
+* [Alembic]&#x200B;[Journal] Signaler une erreur dans le journal si le fichier Alembic n’est pas pris en charge lors de l’importation
 
 ### 2019.1.2
 
@@ -303,9 +303,9 @@ Résumé : **Correctif**
 **Fixe :**
 
 * [Substance] Visible Si n&#39;est pas pris en compte pour les images d&#39;entrée
-* [SVT][Moteur] La modification de la résolution du jeu de textures entraîne un blocage dans certains cas
+* [SVT]&#x200B;[Moteur] La modification de la résolution du jeu de textures entraîne un blocage dans certains cas
 * [Engine] Des textures noires aléatoires apparaissent dans certains cas
-* [Pile de calques][Interface utilisateur] Le basculement d’un masque avec la touche MAJ permet de sélectionner plusieurs calques en même temps
+* [Pile de calques]&#x200B;[Interface utilisateur] Le basculement d’un masque avec la touche MAJ permet de sélectionner plusieurs calques en même temps
 * [Pile de calques] L’opacité n’a aucun effet sur l’effet Peinture avec le mode de fusion Transfert
 * [Pile de calques] L’entrée Height à la normale du filtre ne se met pas à jour correctement avec le contour de la gomme
 * [LayersStack] Blocage lors de l’annulation de la dépose d’un masque dynamique
@@ -334,38 +334,38 @@ Résumé : **Contour dynamique avec nouveau contenu dédié, Displacement et fac
 * [Contour dynamique] Tenir compte du paramètre $time
 * [Trait dynamique] Générer un nouveau paramètre $randomseed par trait et par tampon
 * [Contour dynamique] Démarrage d’un index de contour dynamique à partir d’un nombre aléatoire
-* [Contour dynamique][Étagère] Aide à trouver une ressource de contour dynamique avec une nouvelle icône dédiée
+* [Contour dynamique]&#x200B;[Étagère] Aide à trouver une ressource de contour dynamique avec une nouvelle icône dédiée
 * Displacement et facettisation dans la fenêtre d’affichage en temps réel
 * Displacement et pavage en Iray
-* [Paramètres du nuanceur][Interface utilisateur] Nouvel onglet pour contrôler le displacement et la facettisation
+* [Paramètres du nuanceur]&#x200B;[Interface utilisateur] Nouvel onglet pour contrôler le displacement et la facettisation
 * [Pile de calques] Nouvel effet Comparer les masques : génération d’un masque par comparaison de deux couches
-* [Pile de calques][Interface utilisateur] Nouvelle entrée dans le menu contextuel « Ajouter un masque avec une combinaison d’heights » pour insérer un effet CompareMask
+* [Pile de calques]&#x200B;[Interface utilisateur] Nouvelle entrée dans le menu contextuel « Ajouter un masque avec une combinaison d’heights » pour insérer un effet CompareMask
 * [Symétrie] Nouveau mode de symétrie : peinture radiale
 * [Paramètres de symétrie] Développez les sections « Paramètres » et « Affichage »
-* [Paramètres de symétrie][Interface utilisateur] Aperçu pour la peinture radiale
+* [Paramètres de symétrie]&#x200B;[Interface utilisateur] Aperçu pour la peinture radiale
 * Exposez deux nouveaux modes de projection : planaire et sphérique
 * [Proj] Nouveau mode de recadrage de forme pour toutes les projections
 * [Proj] Mode planaire avec nouveau manipulateur : Outil Surface
-* [Proj][Raccourci] Raccourci MAJ+W pour l’outil Surface
+* [Proj]&#x200B;[Raccourci] Raccourci MAJ+W pour l’outil Surface
 * [Proj] Masquage par projection planaire avec culling de profondeur et abattage de la face arrière
 * [Manipulateur] Amélioration du manipulateur de rotation sur les trois axes pour triplanar
-* [Outil][UX] Le fait de cliquer en maintenant la touche Alt enfoncée sur un canal permet de le mettre en avant (l’active ou désactive tous les autres)
+* [Outil]&#x200B;[UX] Le fait de cliquer en maintenant la touche Alt enfoncée sur un canal permet de le mettre en avant (l’active ou désactive tous les autres)
 * [Moteur] Mise à jour vers la dernière version de la Substance Engine
 * [Ensemble de textures] Sélection multiple et modification de la résolution
 * [Ensemble de textures] Activation et désactivation rapides des ensembles de textures
 * [Ensemble de textures] Combinez le mode Solo et toutes les options dans un nouveau menu
-* [Ensemble de textures][Pile de calques] Nouvelle icône pour l’activation et la désactivation
-* [Pile de calques][UX] Insérer des effets au-dessus de ceux déjà sélectionnés
-* [Pile de calques][Interface utilisateur] Retravailler le style de sélection de l’affichage de la pile de calques
+* [Ensemble de textures]&#x200B;[Pile de calques] Nouvelle icône pour l’activation et la désactivation
+* [Pile de calques]&#x200B;[UX] Insérer des effets au-dessus de ceux déjà sélectionnés
+* [Pile de calques]&#x200B;[Interface utilisateur] Retravailler le style de sélection de l’affichage de la pile de calques
 * [Pile de calques] Le mode de fusion des calques d’instance est désormais en mode Transfert par défaut
 * [Exporter] Option pour activer et désactiver l’interpolation
 * [Module externe] Prise en charge du modificateur de précision pour les curseurs (MAJ)
-* [Plug-in][UI] Nouvelle icône pour l’enregistrement automatique
+* [Plug-in]&#x200B;[UI] Nouvelle icône pour l’enregistrement automatique
 * [Scripts] Répertorie le contenu d’un dossier
 * [Scripts] Autoriser la suppression de fichiers
 * [Scripting] Lire toutes les informations de pile, y compris les ressources utilisées
-* [Contenu][Contour dynamique] Nouveaux outils et pinceaux prédéfinis
-* [Contenu][Contour dynamique] Deux nouveaux dégradés procéduraux : Teinte du dégradé et Générateur de dégradé
+* [Contenu]&#x200B;[Contour dynamique] Nouveaux outils et pinceaux prédéfinis
+* [Contenu]&#x200B;[Contour dynamique] Deux nouveaux dégradés procéduraux : Teinte du dégradé et Générateur de dégradé
 * [Contenu] 11 nouveaux filtres : Peinture écaillée MatFx, Gouttes d’eau MatFx et plus encore
 * [Contenu] 7 nouveaux générateurs : Auto Stitcher, UV Random Color, UV Texel Density et plus encore
 * [Contenu] 93 nouveaux alphas : nouveaux textes, flèches et diverses autres formes
@@ -388,4 +388,4 @@ Résumé : **Contour dynamique avec nouveau contenu dédié, Displacement et fac
 **Problèmes Connus :**
 
 * Un double-clic sur le nom du jeu de textures le sélectionne avant de passer en mode de renommage
-* [Pile de calques][Interface utilisateur] Le basculement d’un masque avec la touche MAJ permet de sélectionner plusieurs calques en même temps
+* [Pile de calques]&#x200B;[Interface utilisateur] Le basculement d’un masque avec la touche MAJ permet de sélectionner plusieurs calques en même temps
