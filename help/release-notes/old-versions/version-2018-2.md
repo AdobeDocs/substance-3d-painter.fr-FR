@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/release-notes/old-versions/version-2018-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2018-2.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour de Substance 3D Painter version 2018.2 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""
@@ -190,7 +190,7 @@ Pour trouver le projet, utilisez l&#39;entrée de menu **Fichier** > **Ouvrir l&
 
 (Publié le 25 septembre 2018)
 
-**&#x200B;**&#x200B;Fixe :**&#x200B;**
+****Fixe :****
 
 * [Vue 2D] La vue 2D est rompue avec certains maillages lors de la création d’un nouveau projet
 * [Crash] Le passage de la Projection UV à la projection triplanaire entraîne un crash
