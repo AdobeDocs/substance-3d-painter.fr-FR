@@ -19,6 +19,6 @@ Le **panneau Journal de cuisson** affiche la sortie technique liée à la cuisso
 
 >[!TIP]
 >
-> Des informations sur la façon de faire correspondre les actifs par nom sont disponibles dans [la documentation Bakers](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/matching-by-name).
+> Des informations sur la façon de faire correspondre les actifs par nom sont disponibles dans [la documentation Bakers](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/features/matching-by-name).
 
 ![](../../assets/baking/baking-log-panel.png)
