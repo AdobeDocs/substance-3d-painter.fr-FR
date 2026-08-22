@@ -37,4 +37,4 @@ Pour un aperçu rapide du mode Cuisson, consultez notre tutoriel vidéo :
 
 >[!NOTE]
 >
-> Pour en savoir plus sur la cuisson en général, consultez la [documentation de cuisson](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home) dédiée.
+> Pour en savoir plus sur la cuisson en général, consultez la [documentation de cuisson](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/home) dédiée.
