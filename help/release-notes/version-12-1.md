@@ -2,9 +2,9 @@
 title: Version 12.1
 description: Notes de mise à jour de la version 12.1
 helpx_description: Substance 3D Painter
-source-git-commit: 77c68a586777b200c4d814928c5e93a752e1d355
+source-git-commit: 50df3a58ec4719d302999421774a1c67ce3e0ef1
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1717'
 ht-degree: 0%
 
 ---
@@ -149,6 +149,24 @@ Jetez un œil à notre dernier tutoriel sur Youtube :
 [![](../assets/v12/v12_youtube_tutorial.jpg)](https://www.youtube.com/watch?v=WwyElRpiQgY)
 
 ## Notes de mise à jour
+
+### 12.1.3
+
+Date de publication : **2026/08/25**
+
+Résumé : **version mineure**
+
+**Ajouté :**
+
+* Mettre à jour le moteur de Substance vers la version 9.4.6v
+
+**Fixe :**
+
+* Le sélecteur [Niveaux de gris] reste ouvert après avoir modifié l’outil
+* [Inclinaison] la correction de l’inclinaison casse lorsque vous peignez et annulez
+* L&#39;interaction de l&#39;aire d&#39;affichage de l&#39;[outil de projection] est bloquée par l&#39;outil de projection
+* [Contour dynamique] : paramètres de contour dynamique manquants dans les propriétés du pinceau
+* L’exportation vers un réseau ne fonctionne plus
 
 ### 12.1.2
 

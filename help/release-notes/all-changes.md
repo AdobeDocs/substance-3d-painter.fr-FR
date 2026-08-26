@@ -11,9 +11,9 @@ title: Toutes les modifications
 user-guide-description: ''
 user-guide-title: ''
 hold: false
-source-git-commit: 77c68a586777b200c4d814928c5e93a752e1d355
+source-git-commit: 13343e2966f37d7f9d3af098cf4bca9e3c2aadc1
 workflow-type: tm+mt
-source-wordcount: '33932'
+source-wordcount: '33992'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,24 @@ Cette page contient les notes de mise à jour de toutes les versions précédent
 > Pour afficher les problèmes connus pouvant affecter Painter, consultez la [page de documentation dédiée](known-issues.md).
 
 ## Version 12
+
+### 12.1.3
+
+Date de publication : **2026/08/26**
+
+Résumé : **version mineure**
+
+**Ajouté :**
+
+* Mettre à jour le moteur de Substance vers la version 9.4.6v
+
+**Fixe :**
+
+* Le sélecteur [Niveaux de gris] reste ouvert après avoir modifié l’outil
+* [Inclinaison] la correction de l’inclinaison casse lorsque vous peignez et annulez
+* L&#39;interaction de l&#39;aire d&#39;affichage de l&#39;[outil de projection] est bloquée par l&#39;outil de projection
+* [Contour dynamique] : paramètres de contour dynamique manquants dans les propriétés du pinceau
+* L’exportation vers un réseau ne fonctionne plus
 
 ### 12.1.2
 
