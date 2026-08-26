@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/release-notes/know-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/know-issues.html"
 breadcrumb-title: ''
 description: Passez en revue les problèmes connus pour que Substance 3D Painter reste informé des limitations actuelles et des solutions de contournement dans la dernière version.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Problèmes connus
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 99ba6e8d891dab9cebbf6035a6850bab331e7472
+source-git-commit: 50df3a58ec4719d302999421774a1c67ce3e0ef1
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -20,23 +20,23 @@ ht-degree: 0%
 
 # Problèmes connus
 
-Cette page répertorie tous les problèmes connus actifs présents dans la version 12.1.0 de Substance 3D Painter :
-
-* `[Engine]` Erreur lors de l&#39;utilisation de matériaux intelligents si le jeu de textures ne comporte pas de carreau 1001
-* `[Engine]` Peindre avec l’outil Dupliquer dans des couleurs de décalage de couche normales de manière incorrecte
-* Le masque de géométrie `[Engine]` affiche des artefacts aux bordures UV avec des calques instanciés
-* Le mode de remplissage UV « Voisin de l&#39;espace 3D » `[Engine]` ne fonctionne pas bien sur les triangles fins
-* Le résultat du point d&#39;ancrage `[Engine]` ne s&#39;affiche pas entre un masque et une couche de couleur
+Cette page répertorie tous les problèmes connus actifs présents dans la version 12.1.3 de Substance 3D Painter :
 
 * `[Baking]` AO incorrect sur les cubes simples
 * `[Baking]` L&#39;interprétation du suffixe de correspondance par nom est incorrecte
 * `[Baking]` coutures Uv n&#39;apparaissent pas après la réimportation des coutures
 * `[Baking]` artefacts de type grille avec certains paramètres
+* `[Baking]` L&#39;Occlusion ambiante Ignorer le dos par nom de filet ne fonctionne pas
+* `[Baking]` `[AMD]` Périphérique perdu lors de la cuisson avec un maillage élevé lourd en poly
 
 * `[Substance]` plusieurs fautes d&#39;orthographe dans les ressources
 * `[Substance]` condition d&#39;espace vide pour la visibilité
 * Le chargement des paramètres prédéfinis `[Substance]` pour certains matériaux prend trop de temps
 * `[Substance]` ne peut pas importer une ressource avec des utilisations mixtes
+
+* `[Engine]` Erreur lors de l&#39;utilisation de matériaux intelligents si le jeu de textures ne comporte pas de carreau 1001
+* `[Engine]` Peindre avec l’outil Dupliquer dans des couleurs de décalage de couche normales de manière incorrecte
+* Le masque de géométrie `[Engine]` affiche des artefacts aux bordures UV avec des calques instanciés
 
 * `[Color Management]` liaisons incompatibles avec le générateur non utilisé dans le masque
 * La sortie du filtre `[Color Management]` n&#39;est pas correctement prise en compte
@@ -50,6 +50,9 @@ Cette page répertorie tous les problèmes connus actifs présents dans la versi
 
 * Frappe `[Scripting]` `[Javascript]` « Désactivée » lors de la spécification du paramètre d&#39;interpolation dans les fonctions d&#39;exportation
 * `[Scripting]` `[Python]` diverses fautes de frappe dans le module substance_painter.project
+
+* `[USD]` attribution usda incorrecte dans certains cas
+* La géométrie USD exportée `[USD]` glisse le long des bordures UV
 
 * Le projet `[Single Channel View]` enregistré dans la vue Couleur de base semble plus sombre après la mise à jour de la version de Painter
 * Le projet `[Single Channel View]` enregistré dans la vue Couleur de base semble plus sombre après la mise à jour de la version de Painter
@@ -91,15 +94,10 @@ Cette page répertorie tous les problèmes connus actifs présents dans la versi
 * La sélection de géométrie `[Mask]` est toujours active après le passage en mode de cuisson
 * Les icônes `[Sonoma]` n&#39;apparaissent pas dans les menus
 * L&#39;Height `[Path]` fusionnant de nombreux tracés peut provoquer des artefacts
-* `[USD]` attribution usda incorrecte dans certains cas
 * `[Polygon Fill]` La modification de l&#39;espace colorimétrique de base ne met pas à jour le sélecteur de couleurs
-* `[Paint Skew]` L’outil sélectionné dans l’inclinaison de la peinture reste sélectionné après le passage en mode Peinture
-* Le sélecteur `[Color Picker]` reste ouvert après avoir modifié l’outil
 * `[UV Padding]` artefacts lors de la mise à l’échelle de la texture de 4K à 8K lors de l’exportation
-* `[Baking Common Settings]` Les paramètres Distance cage ne mettent pas à jour la visualisation de la structure filaire cage et de l&#39;ombrage
-* `[Send to Photoshop]` ne parvient pas à exporter le masque du calque
-* `[Skew Baking]` La correction d&#39;inclinaison s&#39;interrompt lorsque vous peignez et annulez
-* L&#39;interaction de la fenêtre d&#39;affichage `[Projection Tool]` est bloquée par l&#39;outil de projection
+* `[Performances]` Painter bloque l&#39;utilisation de la VRAM
+* `[Generator]` Le paramètre « Utiliser la texture » sur false ne désactive pas l&#39;utilisation de l&#39;entrée de texture
 * Les ressources non carrées sont étirées lorsqu’elles sont utilisées dans les emplacements de la couche de pinceau
 * Échec du décodage de la substance
 * Les UV non parfaitement superposés peuvent créer des artefacts
@@ -118,7 +116,8 @@ Cette page répertorie tous les problèmes connus actifs présents dans la versi
 * Les modifications des paramètres de pinceau de la barre d’outils contextuelle n’apparaissent pas dans l’historique
 * Impossible de renommer ou de supprimer les paramètres prédéfinis d’exportation si vous les avez déjà supprimés et recréés lors de cette session
 * Dans certains cas, la correspondance de couches ne fonctionne pas pour l’aperçu de l’outil de projection
-* L’ouverture et l’enregistrement de certains projets peuvent prendre plus de temps que d’habitude
+* Gel de la fenêtre d’affichage lors de l’enregistrement lors de la modification de la projection 3D
+* La résolution de la superposition des matériaux est trop faible
 
 ## Stabilité
 
@@ -130,7 +129,3 @@ Cette page répertorie tous les problèmes connus actifs présents dans la versi
 * `[Crash]` Retour au mode peinture après la perte de l&#39;appareil lors de la cuisson
 * `[Crash]` Quitter Painter après avoir annulé l&#39;exportation des mappages
 * `[Crash]` Exportation du filet avec des symboles spéciaux dans le nom de l&#39;appareil photo
-* `[Crash]` La suppression d&#39;un canal en mode d&#39;affichage de masque entraîne un blocage
-* `[Crash]` Certaines Substances peuvent entraîner un blocage lors du rendu
-* `[Crash]` Réimporter le filet en mode cuisson
-* `[Crash]` Recharger plusieurs maillages peut entraîner un blocage
