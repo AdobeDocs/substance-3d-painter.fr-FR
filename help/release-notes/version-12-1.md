@@ -236,7 +236,7 @@ Résumé : <b>Cette mise à jour est une version majeure. Elle contient des amé
 * [OpenPBR] Exporter des matières et des textures OpenPBR via USD
 * [OpenPBR] Mise à jour de la fenêtre Exporter les textures pour afficher la convention d’OpenPBR
 * [OpenPBR] Ajout de documentation sur les modifications apportées à l’OpenPBR de prise en charge
-* [OpenPBR][Iray] Ajouter une nouvelle MDL pour prendre en charge OpenPBR 1.1 dans Iray
+* [OpenPBR]&#x200B;[Iray] Ajouter une nouvelle MDL pour prendre en charge OpenPBR 1.1 dans Iray
 * Plusieurs améliorations mineures des exportations en dollars américains
 * [UI] Ajout d’un avertissement dans la clôture lorsque vous essayez de peindre sur un autre ensemble de textures
 * [Aplatir] Permet d’aplatir tous les calques d’instance sur les ensembles de textures
@@ -255,14 +255,14 @@ Résumé : <b>Cette mise à jour est une version majeure. Elle contient des amé
 
 <b>Fixe</b> :
 
-* [Blocage][Paramètres de maillage] Appliquer des paramètres à d’autres ensembles de textures
+* [Blocage]&#x200B;[Paramètres de maillage] Appliquer des paramètres à d’autres ensembles de textures
 * [Crash] Lors de la courbure d’une carte sans espace universel normal
-* [Blocage][Baking] La restauration avec cage personnalisée activée, mais aucun fichier sélectionné ne se bloque
+* [Blocage]&#x200B;[Baking] La restauration avec cage personnalisée activée, mais aucun fichier sélectionné ne se bloque
 * [Blocage] Annulation de la cuisson AOP
 * [Cage automatique] Charge infinie lorsque le chemin d’accès au fichier poly élevé n’est pas valide
-* [Linux][Windows] Le sélecteur de couleurs peut parfois être entièrement noir ou ne pas apparaître
+* [Linux]&#x200B;[Windows] Le sélecteur de couleurs peut parfois être entièrement noir ou ne pas apparaître
 * [Outil Remplissage polygonal] L’outil ne fonctionne pas avec les fichiers non PBR
-* [[Paint] La suppression de la couche de couleur de base ne supprime pas la couleur précédemment peinte
+* &lbrack;[Paint] La suppression de la couche de couleur de base ne supprime pas la couleur précédemment peinte
 * [USD] Les instances de nuanceur ne sont pas toutes correctement détectées
 * [Substance] Seule la première utilisation d&#39;un nœud d&#39;entrée/sortie est prise en compte
 * [Shader] L’Occlusion ambiante est appliquée deux fois avec les ensembles de textures en utilisant différentes méthodes de mélange
