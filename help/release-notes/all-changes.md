@@ -11,7 +11,7 @@ title: Toutes les modifications
 user-guide-description: ''
 user-guide-title: ''
 hold: false
-source-git-commit: 13343e2966f37d7f9d3af098cf4bca9e3c2aadc1
+source-git-commit: 9bb3d9d70fb00c8817a11c2938292aa337279b74
 workflow-type: tm+mt
 source-wordcount: '33992'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Résumé : **version mineure**
 
 **Ajouté :**
 
-* Mettre à jour le moteur de Substance vers la version 9.4.6v
+* Mettre à jour le moteur de Substance vers la version 9.4.6
 
 **Fixe :**
 
