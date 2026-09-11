@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/getting-started.html"
 breadcrumb-title: ''
 description: Commencez avec Substance 3D Painter en apprenant les bases des workflows de création de projet, de navigation dans l’interface et de peinture sur texture.
 helpx_creative_field: ""

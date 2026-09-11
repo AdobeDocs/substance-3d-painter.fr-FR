@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/glare.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/features/post-processing/glare.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser l'effet de post-traitement reflet dans Substance 3D Painter pour appliquer des effets de halo et d'éclat aux zones lumineuses.
 helpx_creative_field: ""

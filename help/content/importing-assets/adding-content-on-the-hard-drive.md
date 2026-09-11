@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/importing-assets/adding-content-on-the-hard-drive.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/content/importing-assets/adding-content-on-the-hard-drive.html"
 breadcrumb-title: ''
 description: Découvrez comment ajouter du contenu de votre disque dur à Substance 3D Painter pour étendre votre bibliothèque de ressources avec des fichiers locaux.
 helpx_creative_field: ""
@@ -57,7 +57,7 @@ Vous pouvez importer différents types de fichiers dans votre bibliothèque Subs
 
 >[!NOTE]
 >
-> À partir de la version 7.2.0, les dossiers et catégories personnalisés peuvent être utilisés dans une bibliothèque. Ils seront accessibles dans la fenêtre Ressources via [Filtrer par chemin](../../interface/assets/filter-by-path.md) ou [Chemins de navigation](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html).
+> À partir de la version 7.2.0, les dossiers et catégories personnalisés peuvent être utilisés dans une bibliothèque. Ils seront accessibles dans la fenêtre Ressources via [Filtrer par chemin](../../interface/assets/filter-by-path.md) ou [Chemins de navigation](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html).
 
 >[!WARNING]
 >

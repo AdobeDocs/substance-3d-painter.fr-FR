@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/custom-shaders.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/features/custom-shaders.html"
 breadcrumb-title: ''
 description: Découvrez comment créer et utiliser des nuanceurs personnalisés dans Substance 3D Painter pour étendre les fonctionnalités de rendu de matériau.
 helpx_creative_field: ""
@@ -36,4 +36,4 @@ Impossible d&#39;effectuer le rendu de {children}. Page introuvable : Nuanceurs 
 
 La création de nouveaux shaders personnalisés est possible en créant simplement de nouveaux fichiers **.glsl**.
 
-Un [API de shader](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html) détaillé est disponible. Il fournit des fonctions assistants pour créer de nouveaux effets et les intégrer au workflow existant.
+Un [API de shader](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html) détaillé est disponible. Il fournit des fonctions assistants pour créer de nouveaux effets et les intégrer au workflow existant.

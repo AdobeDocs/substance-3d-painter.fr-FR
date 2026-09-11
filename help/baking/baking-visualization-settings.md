@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/baking/baking-visualization-settings.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/baking/baking-visualization-settings.html"
 breadcrumb-title: ''
 description: Découvrez comment configurer les paramètres de visualisation de baking dans Substance 3D Painter pour prévisualiser et déboguer les bakings de map de maillage.
 helpx_creative_field: ""

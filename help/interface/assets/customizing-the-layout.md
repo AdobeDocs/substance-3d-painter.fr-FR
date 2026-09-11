@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/customizing-the-layout.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/assets/customizing-the-layout.html"
 breadcrumb-title: ''
 description: Découvrez comment personnaliser la mise en page du panneau Actifs dans Substance 3D Painter pour optimiser votre expérience de navigation dans les ressources.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2019-3.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/release-notes/old-versions/version-2019-3.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour de Substance 3D Painter version 2019.3 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""
@@ -34,7 +34,7 @@ Vous pouvez désormais utiliser vos pinceaux Photoshop en Substance Painter. En 
 
 Si vous n’avez pas de fichiers ABR à importer, vous pouvez en trouver un grand nombre en ligne :
 
-* [Les Paramètres prédéfinis de pinceau de Kyle en Adobe](https://www.adobe.com/products/photoshop/brushes.html)
+* [Les Paramètres prédéfinis de pinceau de Kyle en Adobe](https://www.adobe.com/fr/products/photoshop/brushes.html)
 * [Paramètres prédéfinis de pinceau sur ArtStation](https://www.artstation.com/marketplace?q=photoshop%20brush&sort_by=trending)
 * [Paramètres prédéfinis de pinceau sur DeviantArt](https://www.deviantart.com/search?q=photoshop%20brush)
 * [Paramètres prédéfinis de pinceau sur Cubebrush](https://cubebrush.co/marketplace?categories=354,57)
@@ -115,7 +115,7 @@ Outre la prise en charge des paramètres prédéfinis de pinceau Photoshop, de n
 La Substance Painter va désormais déplier automatiquement les maillages dont les coordonnées UV sont manquantes. Cela permet d&#39;importer n&#39;importe quel type de géométrie et de commencer immédiatement à la peinture. Notre système d&#39;UV générera un Îlot UV par sous-maillage tout en suivant l&#39;affectation du matériau pour Déplier les Jeux de textures. Cette fonctionnalité est actuellement en version Beta et évoluera dans les versions futures. Le Déplié automatique sera uniquement appliqué aux projets qui **n&#39;utilisent pas le workflow UDIM**.
 
 * **Déplié automatique**\
-  Par défaut, la Substance Painter génère désormais automatiquement des coordonnées UV pour les maillages qui en sont dépourvus. Cela s’applique à la fois à la création de projet et à la réimportation de maillage. Il est toutefois possible de désactiver ce comportement en accédant aux [paramètres principaux](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html) et en désactivant l&#39;**activation de l&#39;UV automatique** sous **Options d&#39;importation**.
+  Par défaut, la Substance Painter génère désormais automatiquement des coordonnées UV pour les maillages qui en sont dépourvus. Cela s’applique à la fois à la création de projet et à la réimportation de maillage. Il est toutefois possible de désactiver ce comportement en accédant aux [paramètres principaux](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/general-71008262.html) et en désactivant l&#39;**activation de l&#39;UV automatique** sous **Options d&#39;importation**.
 
   ![](../../assets/uv-unwrap-setting.png)
 * **Barre de progression Dépliée**\
@@ -215,7 +215,7 @@ Dans cette version, de nombreux nouveaux contenus ont été ajoutés :
 * **Nouveaux paramètres prédéfinis de pinceau**
 
   * **102 paramètres prédéfinis de pinceau Photoshop**\
-    Avec l’introduction de la prise en charge des pinceaux dans Photoshop, un nouvel ensemble de paramètres prédéfinis a été inclus pour le présenter. Ces paramètres prédéfinis ont été sélectionnés dans les packs de Kyle T. Webster disponibles sur le [site web Adobe](https://www.adobe.com/products/photoshop/brushes.html).
+    Avec l’introduction de la prise en charge des pinceaux dans Photoshop, un nouvel ensemble de paramètres prédéfinis a été inclus pour le présenter. Ces paramètres prédéfinis ont été sélectionnés dans les packs de Kyle T. Webster disponibles sur le [site web Adobe](https://www.adobe.com/fr/products/photoshop/brushes.html).
 
     ![](../../assets/shelf-abr-demo.jpg){width="500px"}
   * **18 nouveaux paramètres prédéfinis de pinceau**\

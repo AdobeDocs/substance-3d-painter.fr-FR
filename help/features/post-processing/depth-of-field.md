@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/depth-of-field.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/features/post-processing/depth-of-field.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser la profondeur du post-traitement des champs dans Substance 3D Painter pour créer des effets de flou de caméra réalistes.
 helpx_creative_field: ""

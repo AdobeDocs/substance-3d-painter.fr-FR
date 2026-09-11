@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/texture-set.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/texture-set.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser les jeux de textures dans Substance 3D Painter pour organiser les textures et gérer différentes affectations de matériau.
 helpx_creative_field: ""

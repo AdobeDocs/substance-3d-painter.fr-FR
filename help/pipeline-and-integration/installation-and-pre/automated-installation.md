@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/installation-and-preferences/automated-installation.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/pipeline-and-integration/installation-and-preferences/automated-installation.html"
 breadcrumb-title: ''
 description: Découvrez comment automatiser l’installation de Substance 3D Painter pour les workflows de déploiement et d’intégration de pipeline en entreprise.
 helpx_creative_field: ""

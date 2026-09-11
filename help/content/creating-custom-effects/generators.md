@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/generators.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/content/creating-custom-effects/generators.html"
 breadcrumb-title: ''
 description: Apprenez à créer des effets de générateur pour Substance 3D Painter afin de générer automatiquement des textures et des motifs procéduraux.
 helpx_creative_field: ""

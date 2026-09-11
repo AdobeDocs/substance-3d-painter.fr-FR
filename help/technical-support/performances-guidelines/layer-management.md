@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/performances-guidelines/layer-management.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/performances-guidelines/layer-management.html"
 breadcrumb-title: ''
 description: Découvrez les bonnes pratiques de gestion des calques dans Substance 3D Painter pour optimiser les performances et gérer les projets organisés.
 helpx_creative_field: ""

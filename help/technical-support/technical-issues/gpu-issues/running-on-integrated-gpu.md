@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/running-on-integrated-gpu.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/technical-issues/gpu-issues/running-on-integrated-gpu.html"
 breadcrumb-title: ''
 description: Découvrez comment configurer Substance 3D Painter pour utiliser un GPU dédié au lieu d’une carte graphique intégrée pour de meilleures performances.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/exporting-the-log-file.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/exporting-the-log-file.html"
 breadcrumb-title: ''
 description: Découvrez comment exporter des fichiers journaux à partir de Substance 3D Painter à des fins de dépannage et de support technique.
 helpx_creative_field: ""

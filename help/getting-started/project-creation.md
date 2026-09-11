@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/project-creation.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/getting-started/project-creation.html"
 breadcrumb-title: ''
 description: Apprenez à créer un projet dans Substance 3D Painter pour commencer à peindre des textures sur vos maquettes 3D.
 helpx_creative_field: ""
@@ -36,7 +36,7 @@ Vous trouverez ci-dessous une explication de tous les paramètres disponibles da
 
 | *Paramètre* | *Description* |
 | --- | --- |
-| **Fichier** | Cliquez sur le bouton « Sélectionner » pour spécifier un fichier de modèle 3D à charger. [Une liste des formats de fichiers pris en charge est disponible ici.](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/ecosystem/import-and-export-formats) |
+| **Fichier** | Cliquez sur le bouton « Sélectionner » pour spécifier un fichier de modèle 3D à charger. [Une liste des formats de fichiers pris en charge est disponible ici.](https://experienceleague.adobe.com/fr/docs/substance-3d/general-knowledge/ecosystem/import-and-export-formats) |
 | **Modèle** | Spécifiez un modèle qui définira les paramètres par défaut du projet. Un modèle contient les paramètres suivants :<ul data-preserve-html="true"> <li data-preserve-html="true">paramètres de jeu de textures.</li> <li data-preserve-html="true">Paramètres d’affichage.</li> <li data-preserve-html="true">Paramètres de Baking.</li> <li data-preserve-html="true">Shader (y compris les textures jointes).</li> <li data-preserve-html="true">Fichier de map d&#39;environnement.</li> </ul>  **Remarque :** les modèles sont des fichiers <b>\*.spt</b> créés à partir d’un projet existant via le [menu Fichier](../interface/main-menu/file-menu.md) et enregistrés dans le dossier Actifs pour être facilement partagés avec les membres de l’équipe. |
 | <b>Résolution</b> | Définissez la résolution de texture par défaut du projet pour chaque Jeu de textures. La résolution peut atteindre 4K (4 096 x 4 096 pixels) lorsque vous travaillez dans l’application et 8K (8 192 x 8 192 pixels) lors de l’exportation. La résolution peut être modifiée à tout moment ultérieurement via les [paramètres de Jeu de textures](../interface/texture-set/texture-set-settings.md).  **Remarque :** l&#39;exportation 8K nécessite au moins 2,5 Go de réalité virtuelle sur le GPU pour être disponible. |
 

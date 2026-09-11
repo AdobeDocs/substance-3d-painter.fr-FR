@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/advanced-channel-painting.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting/advanced-channel-painting.html"
 breadcrumb-title: ''
 description: Apprenez les techniques avancées de peinture de couches dans Substance 3D Painter pour réaliser des peintures directement sur des couches de texture spécifiques afin d’obtenir un contrôle précis.
 helpx_creative_field: ""

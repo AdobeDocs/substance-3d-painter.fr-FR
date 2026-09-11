@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/features/effects.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser les effets de Substance 3D Painter pour appliquer des filtres, des générateurs et des réglages aux calques de texture.
 helpx_creative_field: ""

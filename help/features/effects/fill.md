@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/fill.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/features/effects/fill.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser l’effet Fond de Substance 3D Painter pour appliquer des calques de remplissage aux couleurs unies, aux textures ou aux matériaux.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/text-resource.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting/text-resource.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser des ressources de texte dans Substance 3D Painter pour ajouter du texte et des caractères typographiques à vos workflows de peinture sur texture.
 helpx_creative_field: ""

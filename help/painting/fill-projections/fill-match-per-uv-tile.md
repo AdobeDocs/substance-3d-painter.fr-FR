@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/fill-match-per-uv-tile.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting/fill-projections/fill-match-per-uv-tile.html"
 breadcrumb-title: ''
 description: Utilisez la correspondance de remplissage par UV dans Substance 3D Painter pour faire correspondre les motifs de texture entre les UV pour une répétition fluide.
 helpx_creative_field: ""

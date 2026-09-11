@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/shelf-issues/font-import.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/workflow-issues/shelf-issues/font-import.html"
 breadcrumb-title: ''
 description: Découvrez comment résoudre les problèmes d’importation de fichiers de polices dans Substance 3D Painter pour importer et utiliser correctement les ressources de polices.
 helpx_creative_field: ""

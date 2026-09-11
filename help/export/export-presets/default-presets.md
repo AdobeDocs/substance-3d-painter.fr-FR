@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-presets/default-presets.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/getting-started/export/export-presets/default-presets.html"
 breadcrumb-title: ''
 description: Découvrez les modèles de sortie par défaut dans Substance 3D Painter pour comprendre les configurations et les formats d’exportation standard.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ Vous trouverez ci-dessous une liste de Modèles de sortie supplémentaires fourn
 
 >[!NOTE]
 >
-> D&#39;autres logiciels non répertoriés ici peuvent également être pris en charge (tels que **Octane**). Pour plus d&#39;informations, consultez l&#39;[écosystème et les modules externes](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home).
+> D&#39;autres logiciels non répertoriés ici peuvent également être pris en charge (tels que **Octane**). Pour plus d&#39;informations, consultez l&#39;[écosystème et les modules externes](https://experienceleague.adobe.com/fr/docs/substance-3d/ecosystem/home).
 
 | *Paramètre prédéfini* | *Description* |
 | --- | --- |

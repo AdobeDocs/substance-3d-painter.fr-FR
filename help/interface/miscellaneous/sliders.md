@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/miscellaneous/sliders.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/miscellaneous/sliders.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser les curseurs dans Substance 3D Painter pour ajuster les valeurs numériques et les paramètres avec un contrôle de précision.
 helpx_creative_field: ""

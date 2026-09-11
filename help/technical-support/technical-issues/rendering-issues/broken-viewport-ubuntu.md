@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/rendering-issues/broken-viewport-ubuntu.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/technical-issues/rendering-issues/broken-viewport-ubuntu.html"
 breadcrumb-title: ''
 description: Découvrez comment résoudre les problèmes de viewport défectueux ou ne répondant pas sur Ubuntu dans Substance 3D Painter pour un rendu 3D approprié.
 helpx_creative_field: ""

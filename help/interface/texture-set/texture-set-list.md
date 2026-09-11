@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/texture-set/texture-set-list.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/texture-set/texture-set-list.html"
 breadcrumb-title: ''
 description: Découvrez comment utiliser la liste de jeux de textures dans Substance 3D Painter pour gérer et organiser plusieurs jeux de textures dans votre projet.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/symmetry/mirror-symmetry.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting/symmetry/mirror-symmetry.html"
 breadcrumb-title: ''
 description: Utilisez la symétrie en miroir dans Substance 3D Painter pour effectuer une peinture symétrique sur un axe afin de créer des textures équilibrées.
 helpx_creative_field: ""

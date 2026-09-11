@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/viewport-issues/mesh-faces-disappear-when-looking-at-them-from-behind.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/workflow-issues/viewport-issues/mesh-faces-disappear-when-looking-at-them-from-behind.html"
 breadcrumb-title: ''
 description: Découvrez comment corriger les faces de maillage qui disparaissent lorsqu’elles sont affichées en arrière-plan dans Substance 3D Painter viewport pour une visibilité correcte du maillage.
 helpx_creative_field: ""

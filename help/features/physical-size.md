@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/physical-size.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/features/physical-size.html"
 breadcrumb-title: ''
 description: Apprenez à définir la taille physique dans Substance 3D Painter pour définir des dimensions réelles afin d’obtenir une mise à l’échelle précise des textures.
 helpx_creative_field: ""

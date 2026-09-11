@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/assets.html"
 breadcrumb-title: ''
 description: Découvrez comment utiliser le panneau Actifs de Substance 3D Painter pour parcourir, rechercher et gérer votre bibliothèque de ressources.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Ressources
 
-La fenêtre Ressource vous permet d’accéder aux ressources par défaut fournies avec l’application (appelées **Ressources de démarrage**), ainsi qu’aux [ressources importées](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html) (qui se trouvent ensuite sous **Vos ressources**).
+La fenêtre Ressource vous permet d’accéder aux ressources par défaut fournies avec l’application (appelées **Ressources de démarrage**), ainsi qu’aux [ressources importées](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html) (qui se trouvent ensuite sous **Vos ressources**).
 
 * Sur le disque, la bibliothèque **Ressources de démarrage** est stockée dans le dossier d&#39;installation de l&#39;application, tandis que les ressources importées dans **Votre bibliothèque de ressources** par défaut se trouvent dans le dossier Documents.
 * Pour plus d&#39;informations sur l&#39;emplacement de stockage de vos ressources sur le disque, consultez [Ajout de contenu sur le disque dur](../../content/importing-assets/adding-content-on-the-hard-drive.md).
