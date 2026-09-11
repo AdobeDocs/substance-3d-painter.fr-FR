@@ -51,7 +51,7 @@ Vous trouverez ci-dessous une liste du matériel et des systèmes pris en charge
 
 ## Recommandations générales
 
-Pour obtenir de bonnes performances lors de l&#39;utilisation du flux de travail UV Tile, nous vous conseillons d&#39;utiliser :
+Pour obtenir de bonnes performances lors de l&#39;utilisation du flux de Tuile UV, nous vous conseillons d&#39;utiliser :
 
 * 32 Go de RAM
 * GPU avec 8 Go de VRAM
@@ -64,7 +64,7 @@ Divers :
 * L’exportation à <b>8K</b> (8192\*8192 pixels) nécessite un GPU avec <b>plus de</b> 2 Go de réalité virtuelle.
 * Seules les versions 2019.x et ultérieures ont été authentifiées par acte notarié pour s’exécuter sur MacOS 10.15 (Catalina).
 * Pour utiliser le logiciel via RDP (Remote Desktop), consultez la [page de documentation](../pipeline-and-integration/configuration/remote-desktop.md) dédiée.
-* Blocage sur le processeur Ryzen lors de la cuisson, peut être corrigé en mettant à jour le BIOS.
+* Crash sur le processeur Ryzen lors du baking, peut être corrigé en mettant à jour le BIOS.
 
 ## Configurations non prises en charge
 
@@ -105,7 +105,7 @@ Pour télécharger de nouveaux pilotes, voir : [Le GPU a des pilotes obsolètes]
 
 Pour obtenir une liste détaillée des problèmes de pilotes GPU par constructeur, consultez la [page de documentation dédiée](../technical-support/technical-issues/gpu-issues/gpu-drivers-compatibility.md).
 
-## GPU raytracing à cuire
+## GPU raytracing de baking
 
 Pour activer GPU raytracing via Optix ou DXR, les pilotes minimum recommandés ci-dessus doivent être installés.
 
@@ -116,7 +116,7 @@ Pour activer GPU raytracing via Optix ou DXR, les pilotes minimum recommandés c
 
 >[!TIP]
 >
-> GPU raytracing s’exécute de manière optimale sur du matériel de lancer de rayons dédié tel que les GPU NVIDIA GeForce RTX ou NVIDIA Quadro RTX.
+> GPU raytracing s’exécute de manière optimale sur le matériel de raytracing dédié tel que les GPU NVIDIA GeForce RTX ou NVIDIA Quadro RTX.
 
 ## Tablettes graphiques prises en charge
 
@@ -142,7 +142,7 @@ Vous trouverez ci-dessous une liste de tablettes graphiques compatibles qui ont 
 | --- | --- |
 | Windows | XP-PENWin\_3.2.2.211027 |
 | macOS | XP-PENMac\_3.2.3\_211203 |
-| Linux | XP-PEN-pentablet-3.2.1.211019-1 |
+| Linux | XP-STYLET-pentablet-3.2.1.211019-1 |
 
 
 +++
@@ -160,7 +160,7 @@ Vous trouverez ci-dessous une liste de tablettes graphiques compatibles qui ont 
 +++
 
 +++Xencelabs
-<b>Modèle :</b> Stylo Tablette Moyen
+<b>Modèle :</b> Stylet Tablette Medium
 
 
 | SE | Version du pilote |

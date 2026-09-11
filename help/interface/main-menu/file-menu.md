@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/main-menu/file-menu.html"
 breadcrumb-title: ''
-description: Apprenez à utiliser le menu Fichier de Substance 3D Painter pour gérer des projets, importer des actifs et exporter des textures.
+description: Découvrez comment utiliser le menu Fichier de Substance 3D Painter pour gérer des projets, importer des actifs et exporter des textures.
 helpx_creative_field: ""
 helpx_description: Painter > Interface > Main menu > File menu
 helpx_experience_level: ""
@@ -38,8 +38,8 @@ Le menu Fichier contient les actions permettant de créer et d’enregistrer les
 | **Enregistrer comme modèle** | Enregistrez les paramètres du projet en cours dans un fichier modèle pouvant être utilisé pour un nouveau projet. |
 | **Nettoyer** | Supprimez toutes les ressources inutilisées du projet actuel (cette action prendra effet après le **enregistrement** suivant). |
 | **Importer des ressources** | Ouvrez la fenêtre Importer des ressources. |
-| **Exporter le maillage** | Ouvrez la fenêtre d’exportation de filet qui permet d’exporter le projet actuel en tant que fichier de modèle 3D. |
-| **Exporter des textures** | Ouvrez la fenêtre d’exportation de texture qui permet d’exporter le projet actuel en tant que textures bitmap. |
+| **Exporter le maillage** | Ouvrez la fenêtre d’exportation du maillage qui permet d’exporter le projet en cours en tant que fichier de modélisation 3D. |
+| **Exporter les textures** | Ouvrez la fenêtre d’exportation de texture de données qui permet d’exporter le projet actif sous forme de textures bitmap. |
 | **Envoyer à** | Répertoriez toutes les actions **Envoyer à** pour envoyer un projet à une autre application. |
 | **Quitter** | Fermez l’application. Si le projet actuel contient des modifications non enregistrées, un message s’affiche. |
 

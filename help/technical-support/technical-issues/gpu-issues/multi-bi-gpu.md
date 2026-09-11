@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Multi/Bi-GPU
 
-Certaines configurations GPU et/ou certains modèles GPU sont incompatibles avec Substance 3D Painter et entraîneront des instabilités et des blocages. Vous trouverez ci-dessous une liste des configurations incompatibles :
+Certaines configurations GPU et/ou certains modèles GPU sont incompatibles avec Substance 3D Painter et entraîneront des instabilités et des crashs. Vous trouverez ci-dessous une liste des configurations incompatibles :
 
 | ***Configuration*** | ***Solution*** |
 | --- | --- |

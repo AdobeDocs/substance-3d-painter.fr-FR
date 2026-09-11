@@ -14,7 +14,7 @@ ht-degree: 5%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_mask_builder_dark.png" alt=""/><strong>Entrée :</strong> masque, générateur</td>
-    <td style="border: 0;" valign="top"><strong>Description</strong><br>Le générateur du générateur de masque est une version héritée du générateur de l'éditeur de masque. Il s’agit d’un générateur de masques polyvalent qui vous permet de combiner Usure/salissures, AO, Courbure, Dégradé, Normale de l’espace universel, Scratches, Dispersion et Micro-détails dans un seul masque.<br><br>Le générateur de générateur de masque est très flexible, mais en raison de sa complexité, il peut avoir un impact plus important sur les performances que la plupart des générateurs.<br><br>Le générateur du générateur de masque génère une texture monochrome (noir et blanc). Par conséquent, il est utile pour générer des masques en fonction des différentes maps bakées. <br><br>Les cartes de position au four, de courbure, d'occlusion ambiante et de normales d'espace universel sont nécessaires en tant qu'entrées d'image. <a href="../../../baking/baking.md">En savoir plus sur la cuisson ici</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Description</strong><br>Le générateur du générateur de masque est une version héritée du générateur de l'éditeur de masque. Il s’agit d’un générateur de masque polyvalent qui vous permet de combiner Usure/salissures, AO, Courbure, Dégradé, Normale de l'espace monde, Scratches, Dispersion et Micro-détails dans un seul masque.<br><br>Le générateur de générateur de masque est très flexible, mais en raison de sa complexité, il peut avoir un impact plus important sur les performances que la plupart des générateurs.<br><br>Le générateur du générateur de masque génère une texture monochrome (noir et blanc). Par conséquent, il est utile pour générer des masques en fonction des différentes maps bakées. <br><br>Des cartes de position, de courbure, d'ambient occlusion et de normale de l'espace monde Bakées sont requises en tant qu'entrées d'image. <a href="../../../baking/baking.md">En savoir plus sur le baking ici</a>.</td>
   </tr>
 </table>
 
@@ -22,13 +22,13 @@ ht-degree: 5%
 
 | Saisir un nom | Description |
 | --- | --- |
-| Couleur **espace universel normal** | Utilisez la carte des normales de l&#39;espace universel. |
+| Couleur **Normale de l&#39;espace monde** | Utilisez le mappage de Normales des espaces monde baké. |
 | **usure/salissures personnalisée 1** en niveaux de gris | Utilisez une texture personnalisée ou un point d’ancrage. |
 | **usure/salissures personnalisée 2** en niveaux de gris | Utilisez une texture personnalisée ou un point d’ancrage. |
 | **Entrée de Dispersion** en niveaux de gris | Utilisez une texture personnalisée ou un point d’ancrage. |
-| Couleur de **position** | Utilisez le mappage de position ancré. |
-| Niveaux de gris **Courbure** | Utilisez la courbe de courbure corrigée. |
-| **Occlusion ambiante** en niveaux de gris | Utilisez la carte d&#39;Occlusion ambiante cuite. |
+| Couleur de **position** | Utilisez le mappage de position baké. |
+| Niveaux de gris de **Courbure** | Utilisez la Map curvature bakée. |
+| Niveaux de gris **Ambient occlusion** | Utilisez le mappage d’Ambient occlusion baké. |
 | Couleur **Micro Normale** | Utilisez une texture normale personnalisée ou un point d’ancrage. |
 | Couleur **Micro-Height** | Utilisez une texture personnalisée ou un point d’ancrage. |
 
@@ -41,7 +41,7 @@ ht-degree: 5%
   </tr>
   <tr>
     <td><strong>Seed</strong></td>
-    <td>Définissez la valeur de départ utilisée pour générer la texture dirt. <br><ul><li>Cliquez sur Aléatoire pour passer à une autre valeur de départ aléatoire.</li><li>Cliquez sur le crayon pour afficher la valeur de départ actuelle, puis entrez une valeur spécifique si nécessaire.</li></ul></td>
+    <td>Définissez la valeur de départ utilisée pour générer la texture de dirt. <br><ul><li>Cliquez sur Aléatoire pour passer à une autre valeur de départ aléatoire.</li><li>Cliquez sur le crayon pour afficher la valeur de départ actuelle, puis entrez une valeur spécifique si nécessaire.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Niveau</strong></td>
@@ -57,11 +57,11 @@ ht-degree: 5%
   </tr>
   <tr>
     <td><strong>Utiliser triplanaire</strong></td>
-    <td>Lorsque l'option <strong>Utiliser le mode triplanaire </strong> est activée, la texture est projetée à partir de trois directions (axes X, Y, Z) au lieu de dépendre uniquement des UV. <br><ul><li>Sans option triplanaire, la texture suit la disposition UV.</li><li>Lorsque l’option triplanaire est activée, la texture est projetée sous plusieurs angles et fusionnée.</li></ul></td>
+    <td>Lorsque l'option <strong>Utiliser le triplan </strong> est activée, la texture est projetée à partir de trois directions (axes X, Y, Z) au lieu de dépendre uniquement des UV. <br><ul><li>Sans option triplanaire activée, la texture suit la disposition de l’UV.</li><li>Lorsque l’option triplanaire est activée, la texture est projetée sous plusieurs angles et fusionnée.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Contraste de fusion triplanaire</strong></td>
-    <td>Ajustez la fluidité de fusion d’une texture lors de la projection à l’aide du placage triplanaire. Elle ajuste la douceur de la fusion entre les projections de chaque direction.</td>
+    <td>Ajustez la fluidité de fusion d’une texture lors de la projection à l’aide de la cartographie triplanaire. Elle ajuste la douceur de la fusion entre les projections de chaque direction.</td>
   </tr>
   <tr>
     <td><strong>Grunge</strong></td>
@@ -69,11 +69,11 @@ ht-degree: 5%
   </tr>
   <tr>
     <td><strong>Occlusion ambiante</strong></td>
-    <td>Ajustez l’impact des paramètres AO (Occlusion ambiante) sur le résultat final du masque.</td>
+    <td>Réglez l’impact des paramètres AO (Ambient occlusion) sur le résultat final du masque.</td>
   </tr>
   <tr>
     <td><strong>Courbure</strong></td>
-    <td>Réglez l’impact des paramètres Courbure sur le résultat final du masque.</td>
+    <td>Ajustez l’impact des paramètres de Courbure sur le résultat final du masque.</td>
   </tr>
   <tr>
     <td><strong>Dégradé haut/bas</strong></td>
@@ -81,7 +81,7 @@ ht-degree: 5%
   </tr>
   <tr>
     <td><strong>Normale de l’espace monde</strong></td>
-    <td>Réglez l’impact des paramètres Espace universel sur le résultat final du masque.</td>
+    <td>Réglez l’impact des paramètres de Normale de l'espace monde sur le résultat final du masque.</td>
   </tr>
   <tr>
     <td><strong>Rayures</strong></td>
@@ -97,7 +97,7 @@ ht-degree: 5%
 
 | Nom du paramètre | Description |
 | --- | --- |
-| **Échelle** | Ajustez la taille de la texture usure/salissures. |
+| **Échelle** | Ajustez la taille de la texture d’usure/salissures. |
 | **Utiliser l&#39;Usure/salissures personnalisée** | Activer/désactiver l’utilisation d’un mappage Usure/salissures personnalisé. C&#39;est juste la visibilité de l&#39;Usure/salissures personnalisée 1. Pour contrôler la visibilité de l’Usure/salissures personnalisée 2, ajustez le curseur Usure/salissures personnalisée secondaire. |
 | **Usure/salissures personnalisée secondaire** | Ajustez la visibilité de la texture Usure/salissures 2 personnalisée. |
 | **Inverser** | Inversez les cartes usure/salissures. |
@@ -108,7 +108,7 @@ ht-degree: 5%
 | --- | --- |
 | **Plage** | Ajustez la plage du masque AO. |
 | **Contraste** | Réglez le contraste/l’atténuation du masque AOP. |
-| **Bruit** | Ajoutez du bruit au résultat de l&#39;AO, ce qui diminue efficacement la luminosité du masque. |
+| **Bruit** | Ajoutez du bruit au résultat AO, ce qui réduit la luminosité du masque. |
 | **Inverser** | Inversez le masque AOP. |
 
 ### Courbure
@@ -121,13 +121,13 @@ ht-degree: 5%
 | **Plage concave** | Réglez l’angle concave minimum à mettre en surbrillance par le masque. |
 | **Contraste concave** | Réglez le contraste du masque concave. |
 | **Conserver l&#39;inversion** | Inversez le masque concave. |
-| **Smoothness** | Ajustez la fusion entre les zones claires et sombres du masque de courbure. |
+| **Smoothness** | Ajustez la fusion entre les zones claires et sombres du masque de Courbure. |
 | **Amplification de niveau** | Utilisez cette option pour étendre la plage de la zone masquée. Cela agit comme un multiplicateur pour les paramètres de **plage convexe** et de **plage concave**. |
-| **Bruit** | Ajoutez du bruit au résultat de la courbure, ce qui diminue efficacement la luminosité du masque. |
+| **Bruit** | Ajoutez du bruit au résultat de la Courbure, ce qui a pour effet de diminuer sa luminosité. |
 
 ### Dégradé
 
-La position du dégradé est basée sur la courbe de positionnement, qui peut être cuite avec l’échelle de normalisation Scène complète ou Par matériau. Si votre matière n’apparaît que dans une petite zone de votre scène, mais que la carte de position est cuite avec une échelle de normalisation de scène complète, il peut être difficile d’ajuster la gamme de dégradé pour obtenir le résultat souhaité.
+La position du dégradé est basée sur la carte de position qui peut être bakée avec une Scène totale ou une échelle de normalisation par Matériau. Si votre matériau n’apparaît que dans une petite zone de votre scène, mais que la carte de position est bakée avec une échelle de normalisation de Scène complète, il peut être difficile d’ajuster la gamme de dégradé pour obtenir le résultat souhaité.
 
 | Nom du paramètre | Description |
 | --- | --- |
@@ -137,7 +137,7 @@ La position du dégradé est basée sur la courbe de positionnement, qui peut ê
 
 ### Normale de l’espace monde
 
-Les valeurs **avant**, **arrière**, **gauche** et **droite** peuvent ne pas correspondre avec les côtés avant, arrière, gauche et droit de votre filet. Par défaut, **Avant** correspond à l&#39;axe X positif et Droite correspond à l&#39;axe Z positif.
+Les valeurs **avant**, **arrière**, **gauche** et **droite** peuvent ne pas correspondre avec les bords avant, arrière, gauche et droit de votre maillage. Par défaut, **Avant** correspond à l&#39;axe X positif et Droite correspond à l&#39;axe Z positif.
 
 | Nom du paramètre | Description |
 | --- | --- |
@@ -174,30 +174,30 @@ Les valeurs **avant**, **arrière**, **gauche** et **droite** peuvent ne pas cor
   </tr>
   <tr>
     <td><strong>Micro-hauteur</strong></td>
-    <td>Activer/désactiver l'utilisation d'une carte Micro-Height personnalisée.</td>
+    <td>Activez ou désactivez l’utilisation d’une Map height Micro personnalisée.</td>
   </tr>
   <tr>
     <td><strong>Micro-normale</strong></td>
-    <td>Activer/désactiver l'utilisation d'une carte Micro Normal personnalisée.</td>
+    <td>Activez ou désactivez l’utilisation d’une Map normal Micro personnalisée.</td>
   </tr>
   <tr>
     <td><strong>Type de courbure</strong></td>
-    <td>Définissez le type de courbe. <br><ul><li><strong>Standard</strong> : produit un résultat généralement assez net, mais peut manquer de détails plus larges.</li><li><strong>Sobel</strong> : produit des résultats similaires par rapport au standard, mais légèrement plus flous car il évalue la carte normale à l'aide d'un filtre Sobel.</li><li><strong>Lisse</strong> : produit différents niveaux de flou (comme les mipmaps) pour accumuler des informations. Cela permet généralement d’obtenir des courbes plus lisses, mais les détails peuvent se perdre.</li></ul></td>
+    <td>Définissez le type de Courbure. <br><ul><li><strong>Standard</strong> : produit un résultat généralement assez net, mais peut manquer de détails plus larges.</li><li><strong>Sobel</strong> : produit des résultats similaires à ceux de la norme, mais légèrement plus flous, car la map normal est évaluée à l’aide d’un filtre Sobel.</li><li><strong>Lisse</strong> : produit différents niveaux de flou (comme les mipmaps) pour accumuler des informations. Cela permet généralement d’obtenir des courbes plus lisses, mais les détails peuvent se perdre.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Intensité de courbure</strong></td>
-    <td>Réglez l'intensité de la courbure en mode <strong>Courbure standard </strong> et <strong>Courbure sobre </strong>.</td>
+    <td>Réglez l'intensité de la Courbure en mode de Courbure <strong>Standard </strong> et <strong>Sobel </strong>.</td>
   </tr>
   <tr>
     <td><strong>Intensité des détails de hauteur</strong></td>
-    <td>Réglez l'intensité des détails du micro-Height.</td>
+    <td>Réglez la force des détails du micro-Height.</td>
   </tr>
   <tr>
     <td><strong>Rayon de l'occlusion ambiante</strong></td>
-    <td>Réglez le rayon (plage) de l’Occlusion ambiante dans les détails.</td>
+    <td>Ajustez le rayon (plage) de l'Ambient occlusion dans les détails.</td>
   </tr>
   <tr>
     <td><strong>Profondeur de l'occlusion ambiante</strong></td>
-    <td>Réglez la profondeur (intensité) de l'Occlusion ambiante dans les détails.</td>
+    <td>Réglez la profondeur (intensité) de l'Ambient occlusion dans les détails.</td>
   </tr>
 </table>

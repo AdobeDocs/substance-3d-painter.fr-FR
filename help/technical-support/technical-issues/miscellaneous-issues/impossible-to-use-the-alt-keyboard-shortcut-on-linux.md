@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/impossible-to-use-the-alt-keyboard-shortcut-on-linux.html"
 breadcrumb-title: ''
-description: Découvrez comment résoudre les problèmes de raccourci clavier ALT sous Linux dans Substance 3D Painter pour une navigation correcte sur le clavier.
+description: Découvrez comment résoudre les problèmes de raccourci du clavier ALT sous Linux dans Substance 3D Painter pour une navigation correcte sur le clavier.
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > Miscellaneous Issues > Impossible to use the ALT keyboard shortcut on Linux
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Impossible d’utiliser le raccourci clavier ALT sous Linux
+title: Impossible d'utiliser le raccourci du clavier ALT sous Linux
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,9 +18,9 @@ ht-degree: 0%
 ---
 
 
-# Impossible d’utiliser le raccourci clavier ALT sous Linux
+# Impossible d&#39;utiliser le raccourci du clavier ALT sous Linux
 
-Si vous exécutez une distribution Linux (**Ubuntu** ou **CentOS**) qui utilise **Gnome** comme interface utilisateur, vous pouvez désactiver le comportement par défaut de la clé **ALT** pour pouvoir naviguer dans la clôture.
+Si vous exécutez une distribution Linux (**Ubuntu** ou **CentOS**) qui utilise **Gnome** comme interface utilisateur, vous pouvez désactiver le comportement par défaut de la touche **ALT** pour pouvoir naviguer dans le viewport.
 
 ## CentOS
 

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Version 10.1
 
-<b>Substance 3D Painter 10.1</b> ajoute de nouveaux filtres puissants, des fonctionnalités USD améliorées et une prise en charge de la plateforme VFX et de Linux mise à jour.
+<b>Substance 3D Painter 10.1</b> ajoute de nouveaux filtres puissants, des fonctionnalités USD améliorées et une plate-forme VFX et une prise en charge Linux mises à jour.
 
 Date de publication : *17 septembre 2024*
 
@@ -37,7 +37,7 @@ Date de publication : *17 septembre 2024*
 Dans cette version, plusieurs nouveaux filtres ont été ajoutés pour développer considérablement le processus de texturation :
 
 * <b>Nouveau matériau de décalcomanie de broderie</b>\
-  Dans la section Matières de la fenêtre Actifs, vous pouvez trouver une nouvelle décalcomanie de broderie. Faites-le glisser n’importe où sur votre maillage, branchez n’importe quelle ressource (comme une texture ou même une police) et vous pourrez facilement créer de nouveaux détails de tissu.
+  Dans la section matériaux de la fenêtre Actifs, vous trouverez un nouveau matériau de décalcomanie Broderie. Faites-le glisser n’importe où sur votre maillage, branchez n’importe quelle ressource (comme une texture ou même une police) et vous pourrez facilement créer de nouveaux détails de tissu.
 
   ![](../assets/v101_filter_embroidery.jpg)
 * <b>Nouvelle couleur de la zone de remplissage/nouveau filtre de masque</b>\
@@ -45,11 +45,11 @@ Dans cette version, plusieurs nouveaux filtres ont été ajoutés pour développ
 
   ![](../assets/v101_filter_fill_area_demo.gif)
 * <b>Nouveau filtre FXAA</b>\
-  Ce nouveau filtre permet de réduire rapidement le crénelage, en particulier sur les contours nets qui peuvent apparaître après un niveau par exemple ou sur les masques réalisés avec l’effet de sélection de couleur.
+  Ce nouveau filtre permet de réduire rapidement le crénelage, en particulier sur les contours nets qui peuvent apparaître après un niveau par exemple ou sur les masques réalisés avec l’effet choix de couleur.
 
   ![](../assets/v101_filter_fxaa.gif)
 * <b>Nouveau filtre passe-haut</b>\
-  Avec ce filtre générique, vous pouvez générer une texture en niveaux de gris pour l’utiliser pour des effets plus avancés (comme adoucir, flouter ou renforcer la netteté des détails).
+  Avec ce filtre générique, vous pouvez générer une texture de niveaux de gris pour l’utiliser pour des effets plus avancés (comme adoucir, flouter ou renforcer la netteté des détails).
 
   ![](../assets/v101_filter_highpass.jpg)
 * <b>Nouveau filtre pixellisé</b>\
@@ -61,15 +61,15 @@ Dans cette version, plusieurs nouveaux filtres ont été ajoutés pour développ
 
   ![](../assets/v101_filter_posterize.jpg)
 * <b>Nouveau filtre de seuil</b>\
-  Le filtre de seuil permet de créer rapidement des masques binaires en noir et blanc nets à partir d’une entrée en niveaux de gris.
+  Le filtre de seuil permet de créer rapidement des masques blancs binaires nets en noir et blanc à partir d’une entrée en niveaux de gris.
 
   ![](../assets/v101_filter_threshold.gif)
 * <b>Nouveau filtre Smoothstep</b>\
   Le filtre Pas à pas fluide est une autre façon d’effectuer un niveau ou un contraste pour affiner les informations en niveaux de gris. Ce filtre applique également une courbe exponentielle au résultat, ce qui permet de convertir des dégradés linéaires en courbes lisses.
 
   ![](../assets/v101_filter_smoothstep.jpg)
-* <b>Amélioration des filtres de transformation et de mise en miroir</b>\
-  Le filtre de transformation a été mis à jour pour prendre en charge la mise à l’échelle non uniforme, le basculement horizontal ou vertical et des paramètres plus simples à utiliser. Le filtre miroir a également été actualisé avec des paramètres plus simples.
+* <b>Amélioration des filtres de Transformé et de miroir</b>\
+  Le transforme a été mis à jour pour prendre en charge une mise à l’échelle non uniforme, une inversion horizontale ou verticale et des paramètres plus simples à utiliser. Le filtre miroir a également été actualisé avec des paramètres plus simples.
 
   ![](../assets/v101_filter_transform.jpg)
 * <b>Icônes améliorées</b>\
@@ -82,18 +82,18 @@ Dans cette version, plusieurs nouveaux filtres ont été ajoutés pour développ
   * Le filtre d’ajustement de l’height affectait l’alpha d’un calque, ce qui le rendait difficile à utiliser dans certains cas.
   * Le filtre de flou n’utilisait pas d’espace colorimétrique linéaire en mode de gestion des couleurs hérité, ce qui créait des couleurs incorrectes lors de la fusion/mélange de ses entrées.
 
-### Mise à jour de la prise en charge des plateformes USD et VFX
+### Mise à jour de la prise en charge d’USD et de VFX Platform
 
 ![](../assets/v101_banner_usd.jpg)
 
 Dans cette version de Painter, de nombreux composants tiers ont été améliorés et mis à jour :
 
-* <b>Exportation de textures avec Adobe Standard Material en USD\
-  </b>Lors de l’exportation de textures de Painter dans un fichier USD, vous obtiendrez désormais les propriétés de matière Adobe Standard avec elles. Cela rend ces fichiers USD prêts à être utilisés dans des applications qui prennent également en charge ces propriétés.
+* <b>Exportation de textures avec Adobe Standard Material dans USD\
+  </b>Lors de l’exportation de textures de Painter dans un fichier USD, vous obtenez désormais les propriétés d’Adobe Standard Material avec elles. Ces fichiers USD sont ainsi prêts à être utilisés dans des applications prenant également en charge ces propriétés.
 * <b>Importer des textures à partir de fichiers USD</b>\
-  Désormais, l’importation d’un fichier USD permet également d’importer sa texture dans le projet qu’il crée, ce qui facilite les allers-retours entre les applications. Si le fichier USD utilise le matériau Adobe Standard, les paramètres du nuanceur sont également configurés, de sorte que le résultat dans la clôture corresponde à celui de l’autre application source.
+  Désormais, l’importation d’un fichier USD entraîne également celle de sa texture dans le projet créé, ce qui facilite les allers-retours entre les applications. Si le fichier USD utilise l’Adobe Standard Material, les paramètres de shader sont également configurés, de sorte que le résultat du viewport corresponde à celui de l’autre application source.
 * <b>Modifications Gltf\
-  </b>Suite à la mise à jour de USD, un changement de comportement pour le format GLTF a été nécessaire pour assurer la parité. Lors de l’importation d’un fichier gltf, Painter suppose désormais que le mappage normal est au format OpenGL.\
+  </b>Suite à la mise à jour USD, un changement de comportement du format GLTF a été nécessaire pour assurer la parité. Lors de l’importation d’un fichier gltf, Painter suppose désormais que la map normal est au format OpenGL.\
   Certains fichiers gltf peuvent utiliser le format DirectX à la place. Par conséquent, un nouveau paramètre a été ajouté dans la nouvelle fenêtre de projet pour en tenir compte (notez que le format normal peut également être remplacé à partir de la pile de calques).
 
   ![](../assets/v101_import_gltf.png)
@@ -119,10 +119,10 @@ Quelques domaines de l’application ont fait l’objet d’améliorations de pe
   </b>L’ouverture des projets qui utilisaient beaucoup de coups de pinceau devrait désormais être plus rapide dans Painter. Le gain de temps de ces projets devrait également être légèrement amélioré.\
   Dans certains de nos projets de test, nous avons observé une réduction de 50 à seulement 6 heures du temps de chargement lors de l&#39;ouverture d&#39;un projet. La consommation de mémoire lors de l’ouverture d’anciens projets et de leur conversion vers la dernière version a également été améliorée.
 * <b>Amélioration des performances de facettisation\
-  </b>Nous utilisons désormais une optimisation automatique lorsque la tessélation est activée dans les paramètres du nuanceur. Les triangles plus petits qu’un pixel à l’écran ne sont plus recadrés, ce qui réduit le nombre de triangles à dessiner et accélère les temps de rendu.\
+  </b>Nous utilisons désormais une optimisation automatique lorsque la facettisation est activée dans les paramètres de Shader. Les triangles plus petits qu’un pixel à l’écran ne sont plus recadrés, ce qui réduit le nombre de triangles à dessiner et accélère les temps de rendu.\
   Cette modification ne produit aucune différence visuelle et n’affecte pas le processus d’exportation du maillage.
 * <b>Les vignettes simplifiées sont désormais les valeurs par défaut</b>\
-  Dans la version 6.2, nous avons introduit les miniatures simplifiées pour les projets de tuiles UV afin d’améliorer les performances, mais les projets standard pouvaient toujours utiliser l’ancienne façon de calculer les miniatures de calques. Ce comportement a été contrôlé via un paramètre d’application.\
+  Dans la version 6.2, nous avons introduit les miniatures simplifiées pour les projets de Tuile UV afin d’améliorer les performances, mais les projets standard pouvaient toujours utiliser l’ancienne façon de calculer les miniatures de calque. Ce comportement a été contrôlé via un paramètre d’application.\
   Ce paramètre est désormais défini par défaut sur les vignettes optimisées pour améliorer les performances de tous les projets. Il peut être restauré dans les préférences principales si vous le souhaitez.
 
   ![](../assets/v101_perf_icons.png)
@@ -141,15 +141,15 @@ Quelques domaines de l’application ont fait l’objet d’améliorations de pe
 
 Date de publication : <b>2024/09/17</b>
 
-Résumé : <b>version majeure, nouveau contenu : masque de zone de remplissage/filtre coloré, filtre de décalcomanie de broderie et six filtres de Substance génériques, importation de fichiers USD avec propriétés de matière et de nuanceur, amélioration des performances, conformité à la plateforme VFX 2024 et migration vers Linux RedHat</b>
+Résumé : <b>version majeure, nouveau contenu : masque de zone de remplissage/filtre coloré, filtre de décalcomanie de broderie et six filtres de Substance génériques, importation d’USD avec des propriétés de matériau et de shader, amélioration des performances, conformité à la plateforme VFX 2024 et migration vers Linux RedHat</b>
 
 <b>Ajouté</b> :
 
 * [Contenu] Ajouter un nouveau masque de zone de remplissage/filtre coloré
 * [Contenu] Ajouter un nouveau filtre Décalcomanie de broderie
 * [Contenu] Ajout de 6 nouveaux filtres de Substance génériques (FXAA, pixelliser, passe-haut, postérisation, smoothstep, threshold)
-* [USD] Exporter un calque USD avec un matériau ASM défini
-* [USD] Importer des USD avec les propriétés de matière et d’ombrage
+* [USD] Exporter une couche USD avec un matériau ASM défini
+* [USD] Importer un fichier USD avec des propriétés de matériau et de shader
 * [Performances] Activation par défaut des vignettes de pile de calques optimisées
 * [Performances] Réduction du temps d’ouverture des fichiers de projet et de la consommation de mémoire (décodage des données)
 * Compatible VFX platform 2024
@@ -159,33 +159,33 @@ Résumé : <b>version majeure, nouveau contenu : masque de zone de remplissage/f
 * [VFX Platform 2024]&#x200B;[Gestion des couleurs] Mise à jour vers OCIO 2.3.2
 * [Linux] Migration vers Linux RedHat
 * [Linux] Mise à jour du pilote Nvidia version min vers 535.171.04
-* [Importer] Ajout d’une option pour retourner la carte normale lors de l’importation d’un filet GLTF
+* [Importer] Ajout d’une option pour retourner la map normal lors de l’importation d’un maillage GLTF
 * [UI] Utiliser la valeur par défaut du système d’exploitation pour la distance de détection des événements de glissement
 * [Substance Engine] Ajouter une fonction de bande d&#39;appel pour supprimer les symboles de l&#39;exécutable
 * [Écran de démarrage] Mise à jour vers le nouveau format d’écran de démarrage
 * Mettre à jour la Substance Engine à la version 9.1.3
-* [Python] Afficher le lien vers des exemples dans le menu de documentation de la pile de calques
+* [Python] Afficher le lien vers les exemples dans le menu de documentation de la pile de calques
 * [JavaScript] Déplacement des plug-ins JavaScript dans le sous-dossier javascript/plugins
 
 <b>Fixe</b> :
 
-* [Illustrator] Blocage lors de l’exportation d’une vignette UV avec un graphique .ai dans des cas spécifiques
+* [Illustrator] Crash exportant une Tuile UV avec un graphique .ai dans des cas spécifiques
 * [Traits dynamiques]&#x200B;[Tracé] Un tracé aléatoire ne fonctionne pas sur un tracé
-* [UI]&#x200B;[Propriétés] Le verrouillage est activé lorsque la mosaïque n’est pas uniforme
+* [UI]&#x200B;[Propriétés] Le verrouillage est activé lorsque la répétition n’est pas uniforme
 * &#x200B;Le fichier TXT de débogage est créé lorsque vous double-cliquez sur le projet Painter
 * [USD]&#x200B;[Export] Certaines textures peuvent être manquantes
-* [ASM] La couche Couleur de diffusion ignore les couleurs métalliques
+* [ASM] Le canal Scattering ignore le métallique
 * [Contenu] Le filtre Flou ne fonctionne pas dans l’espace colorimétrique de travail
 * Le filtre Ajustement de l’Height [Contenu] modifie également l’alpha du calque
 
 <b>Problèmes connus</b> :
 
-* [Gestion des couleurs] Les conversions d’espace colorimétrique HDR avec ACE sous Linux produisent des couleurs condensées
-* [Win]&#x200B;[Blocage] [ACE] N’utilise pas l’espace colorimétrique sRGB ICE pour la transformation d’affichage
+* [Gestion des couleurs] Les conversions de l’espace colorimétrique HDR avec ACE sous Linux produisent des couleurs condensées
+* [Win]&#x200B;[Crash] [ACE] N’utilise pas l’espace colorimétrique sRGB ICE pour le transforme d’affichage
 * [Régression]&#x200B;[Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
 * [Crash]&#x200B;[Python] Exportation USD déclenchée par TextureStateEvent
-* [MacOS Intel] Blocage lors de l’importation de certains paramètres prédéfinis
-* [Blocage] Déplacer la ressource et enregistrer le projet
-* [Moteur] Lorsque vous peignez avec l’outil Dupliquer dans des couleurs de décalage de couche normales, cela ne fonctionne pas correctement
-* [Python] Le widget Fantôme apparaît supprimé par le script et fonctionne toujours
+* [MacOS Intel] Crash lors de l’importation de certains paramètres prédéfinis
+* [Crash] Redéfinir l&#39;emplacement la ressource et enregistrer le projet
+* [Moteur] Lorsque vous peignez avec l’outil Clone dans des couleurs de décalage de couche normales, cela ne fonctionne pas correctement
+* [Python] Le widget de Fantôme apparaît supprimé par le script et fonctionne toujours
 * [RedHat] Problèmes de sélecteur de couleurs

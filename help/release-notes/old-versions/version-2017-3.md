@@ -26,11 +26,11 @@ Date de publication : *28 septembre 2017*
 
 ## Principales fonctionnalités
 
-### Paramètre prédéfini d’exportation de matériau Adobe Standard
+### Adobe Standard Material du paramètre prédéfini d’exportation
 
 ![](../../assets/adobe-dimension-meetmat.jpg)
 
-L’un des nouveaux exportateurs inclus dans cette version est la prise en charge des matériaux standard d’Adobe, à utiliser avec Adobe Dimension (auparavant Adobe Project Felix). Nous vous permettons d’exporter le filet de scène et ses textures pour les importer dans Project Felix en un clic. Pour y accéder, il vous suffit de choisir « **Adobe Standard Material** » dans la fenêtre des textures d&#39;exportation. Pour plus d&#39;informations, voir : [http://www.adobe.com/fr/products/dimension.html](https://www.adobe.com/fr/products/dimension.html)
+L’un des nouveaux exporteurs inclus dans cette version est le support de l’Adobe Standard Material, à utiliser avec Adobe Dimension (auparavant Adobe Project Felix). Nous vous permettons d&#39;exporter le maillage de scène et ses textures pour les importer dans le projet Felix en un clic. Pour y accéder, il vous suffit de choisir « **Adobe Standard Material** » dans la fenêtre des textures d&#39;exportation. Pour plus d&#39;informations, voir : [http://www.adobe.com/fr/products/dimension.html](https://www.adobe.com/fr/products/dimension.html)
 
 Vous pouvez également consulter notre article de blog à ce sujet : <https://www.allegorithmic.com/blog/new-dimension-substance-ecosystem>
 
@@ -38,7 +38,7 @@ Vous pouvez également consulter notre article de blog à ce sujet : <https://ww
 
 ![](../../assets/gltf-export.jpg)
 
-Nous avons également ajouté la prise en charge du format de fichier **glTF**, avec l&#39;exportation du **filet de scène** et des **textures PBR** (métallique/rugosité). Pour y accéder, il vous suffit de choisir « **glTF PBR Metal Roughness** » dans la fenêtre des textures d’exportation. **glTF** est un format de fichier open source dirigé par le groupe Khronos. Vous pouvez afficher votre fichier glTF sous **Windows 10** ou simplement utiliser une visionneuse WebGL telle que [**Babylon**](http://sandbox.babylonjs.com/).
+Nous avons également ajouté la prise en charge du format de fichier **glTF**, avec l&#39;exportation du **maillage de scènes** et des **textures PBR** (métallique/rugosité). Pour y accéder, il vous suffit de choisir « **glTF PBR Metal Rugosité** » dans la fenêtre des textures d&#39;exportation. **glTF** est un format de fichier open source dirigé par le groupe Khronos. Vous pouvez afficher votre fichier glTF sous **Windows 10** ou simplement utiliser une visionneuse WebGL telle que [**Babylon**](http://sandbox.babylonjs.com/).
 
 Pour plus d&#39;informations, voir : <https://github.com/KhronosGroup/glTF>
 
@@ -59,7 +59,7 @@ Le **filtre de dégradé** a été entièrement remanié. Agir d&#39;une manièr
 
 Le curseur principal (quantité de couleur) définit le nombre total de couleurs utilisées pour créer le dégradé. Le bouton ci-dessous définit le mode de fusion des couleurs (sRVB ou Linéaire). C’est important si vous souhaitez obtenir un mélange approprié entre les couleurs. Par exemple, le mélange d&#39;un rouge pur et d&#39;un vert pur doit donner un joli jaune entre les deux. Ce ne sera pas le cas si le bouton est désactivé (il donnera un marron foncé à la place). Lors du remappage de l’height ou de toute autre couche de niveaux de gris, ce bouton doit être désactivé afin d’éviter la conversion gamma.
 
-Le bouton en haut permet de remplacer le résultat du filtre par le dégradé lui-même, pour visualiser le dégradé dans la vue 2D.
+Le bouton en haut permet de remplacer le résultat du filtre par le dégradé lui-même, pour visualiser le dégradé dans la Vue 2D.
 
 ![](../../assets/gradient-height-demo.jpg)
 
@@ -67,9 +67,9 @@ Le bouton en haut permet de remplacer le résultat du filtre par le dégradé lu
 
 ![](../../assets/tabs-top.png)
 
-Dans cette version, les **onglets** des différents docks de l&#39;application sont désormais situés **en haut et non en bas** de leurs fenêtres respectives. Ce choix a été fait pour favoriser la lisibilité de l&#39;interface mais aussi pour être plus cohérent avec d&#39;autres applications. Après cette modification, la **petite croix** apparaît à côté du titre de l&#39;onglet pour **le fermer facilement**. Il est également possible de **cliquer avec le bouton droit** sur l&#39;onglet pour afficher un **menu contextuel** (qui permet de fermer ou de désancrer la fenêtre). Pour désancrer la fenêtre, il suffit de faire glisser l’onglet en dehors de la zone de la fenêtre.
+Dans cette version, les **onglets** des différents docks de l&#39;application sont désormais situés **en haut et non en bas** de leurs fenêtres respectives. Ce choix a été fait pour favoriser la lisibilité de l&#39;interface mais aussi pour être plus cohérent avec d&#39;autres applications. Après cette modification, la **petite croix** apparaît à côté du titre de l&#39;onglet pour **le fermer facilement**. Il est également possible de **cliquer avec le bouton droit** sur l&#39;onglet pour afficher un **menu contextuel** (qui permet de fermer ou de désancrer la fenêtre). Un raccourci pour désancrer la fenêtre est de simplement faire glisser et déposer l&#39;onglet en dehors de la zone de la fenêtre.
 
-Il est désormais également possible d&#39;**ouvrir des projets** en les faisant simplement glisser **dans la fenêtre d&#39;affichage** à partir de l&#39;explorateur de fichiers. Cela fonctionne également avec les fichiers **maillage** : faire glisser et déposer un fichier maillage dans une **fenêtre vide** ouvrira la **fenêtre du nouveau projet**, mais le faire sur un **projet déjà ouvert** ouvrira la **boîte de dialogue de configuration du projet**, ce qui permettra de **mettre à jour un maillage** rapidement.
+Il est désormais également possible d&#39;**ouvrir des projets** en les faisant simplement glisser **dans le viewport** à partir de l&#39;explorateur de fichiers. Cela fonctionne également avec les fichiers de **maillage** : faire glisser et déposer un fichier de maillage dans un **viewport vide** ouvrira la **fenêtre de nouveau projet**, mais le faire sur un **projet déjà ouvert** ouvrira la **boîte de dialogue de configuration du projet**, ce qui permettra de **mettre à jour un maillage** rapidement.
 
 **Remarque** : si vous rencontrez des problèmes avec le glisser-déposer, n&#39;oubliez pas de[consulter notre FAQ sur le sujet](../../technical-support/technical-issues/miscellaneous-issues/impossible-to-drag-and-drop-files-into-the-shelf.md).
 
@@ -97,19 +97,19 @@ Cette version de la Substance Painter inclut également une nouvelle et forte am
 * [UI] Boîte de dialogue Améliorer la nouvelle version et ajouter le journal des modifications
 * [UI] Indiquez si la maintenance a expiré dans la boîte de dialogue Nouvelle version
 * [Licence] Mettre à jour le système de licences pour gérer les dates de maintenance
-* [Export] Renommer Adobe Standard Material en Adobe Dimension
+* [Export] Renommer l’Adobe Standard Material en Adobe Dimension
 
 **Fixe :**
 
-* [Mac] La peinture conduit à des carrés noirs et à des corruptions de texture
-* [Moteur] Le cache peut parfois disparaître dans la fenêtre d’affichage
-* [Moteur] Des artefacts de bloc apparaissent lorsque le déclencheur de compression de mémoire
-* [Baking] Messages d’erreur étranges lors de la création de maillages spécifiques
+* [Mac] La peinture conduit à des carrés noirs et à la corruption de la texture
+* [Moteur] Le cache peut parfois disparaître dans le Viewport
+* [Moteur] Des artefacts bloqués apparaissent lorsque la compression de mémoire est déclenchée
+* [Baking] Messages d’erreur étranges lors du baking de maillages spécifiques
 * Les PSDS [Export] sont mal écrits et ne sont pas reconnus correctement par Photoshop
 * [Calques] Il ne doit pas être possible de copier/coller un calque dans plusieurs projets.
 * [Substance] L’espace colorimétrique UserData pour l’entrée Normal est inversé dans certains cas.
-* [Tablette] Micro-normal dans les générateurs produit une courbure inversée
-* Le filtre TSL [Shelf] affecte également la couche alpha
+* [Étagère] Micro-normalité dans les générateurs produit une courbure inversée
+* [Étagère] Les filtres TSL affectent également le canal Alpha
 * [Linux] L&#39;installation sur Centos échoue en raison de dépendances manquantes
 * Dans certains cas, le programme d’installation ne supprime pas toutes les ressources de l’installation précédente
 
@@ -119,29 +119,29 @@ Cette version de la Substance Painter inclut également une nouvelle et forte am
 
 **Ajouté :**
 
-* [Exporter] Autoriser à exporter le filet à partir d’un projet
-* [Tablette] Supprimer « Sous-tablette » des titres des onglets
+* [Exporter] Autoriser à exporter le maillage à partir d’un projet
+* [Étagère] Supprimer « Sous-Étagère » des titres des onglets
 * Enregistrement des paramètres post-traitement dans des modèles
 * Rendre le message TDR plus compréhensible
 * Amélioration de la fenêtre Paramètres pour signaler les erreurs
 
 **Fixe :**
 
-* Blocage lors de la suppression de plusieurs sous-étagères
-* Blocage lors du passage d’un niveau à un autre pendant un calcul du moteur
-* [Mac] Blocage sur le GPU Intel lors des calculs du moteur
-* [Mac]&#x200B;[Fenêtre d’affichage] Performances incorrectes lorsque l’interpolation est activée
+* Crash lors de la suppression de plusieurs sous-étagères
+* Crash lors du passage d’un niveau à un autre lors d’un calcul de moteur
+* [Mac] Crash sur le GPU Intel pendant les calculs de moteur
+* [Mac]&#x200B;[Viewport] Performances incorrectes lorsque le dithering est activé
 * [Mac] MacOS 10.13 est reconnu comme « Version inconnue » dans le fichier journal
-* [Boulanger] Faire cuire avec une cage ne fonctionne plus
-* [Calques] Le raccourci Ctrl + C (action de copie) ne fonctionne plus
+* [Baker] Le Baking avec une cage ne fonctionne plus
+* [Calques] Ctrl + C raccourci (action de copie) ne fonctionne plus
 * [Calques] Le collage de calques n’actualise pas l’interface utilisateur avec les références de l’ancre
 * [Ancrage] Dupliquer ou Copier/Coller le calque avec des références rompt les liens
-* [Export] L’exportation 8K peut bloquer l’application dans certains cas
+* [Export] L&#39;exportation 8K peut provoquer un crash ou bloquer l&#39;application dans certains cas
 * [Export] Problèmes multiples dans le format de fichier glTF généré
-* [Importer] La réimportation d’un filet portant le même nom de fichier ne fonctionne plus
+* [Importer] La réimportation d’un maillage portant le même nom de fichier ne fonctionne plus
 * [Plug-in] La fenêtre d’enregistrement automatique apparaît toujours au-dessus de tout
 * [UI] Boucle infinie lorsque vous appuyez sur « Échap » dans la boîte de dialogue TDR
-* [UI] Réinitialiser l’interface utilisateur affiche une deuxième barre de titre dans la fenêtre de l’étagère
+* [UI] Réinitialiser l’interface utilisateur affiche une deuxième barre de titre dans la fenêtre d’étagère
 
 ### 2017.3
 
@@ -149,24 +149,24 @@ Cette version de la Substance Painter inclut également une nouvelle et forte am
 
 **Ajouté :**
 
-* [Exporter] Autoriser l&#39;exportation de maillages et de textures pour le projet Adobe Felix
+* [Export] Autoriser à exporter le maillage et les textures pour le projet Adobe Felix
 * [Exporter] Autoriser l’exportation au format de fichier glTF
 * [Moteur] Optimisation de la taille des textures dans VRAM à l’aide de la compression de bloc
-* [Fenêtre d’affichage] Possibilité de glisser-déposer un filet ou un projet dans la fenêtre d’affichage
+* [Viewport] Possibilité de glisser-déposer un maillage ou un projet dans le viewport
 * [UI] Amélioration du message d’avertissement concernant le TDR
 * [UI] Le journal ne doit être affiché que sur demande
 * [UI] Autoriser à effacer le contenu de la fenêtre du journal
 * [UI] Afficher les avertissements et les erreurs dans la barre d’état
 * [UI] Afficher les onglets en haut comme dans les navigateurs web
-* [UI] Amélioration du contexte et des messages « non peignables »
+* [UI] Amélioration du contexte et des messages « non à peindre »
 * [UI] Ajoutez une action « Enregistrer en tant que copie » dans le menu Fichier
-* [Calque] Par défaut, définissez le paramètre de mosaïque par défaut sur 1
-* [Tablette] Filtre dégradé amélioré pour prendre en charge 10 couleurs dynamiques
-* [Tablette] Ajouter un espace dans la requête par défaut de la mini-tablette
-* [Tablette] Ajouter une action « Ouvrir dans l’explorateur » pour les ressources locales dans la tablette
-* [Shelf] Ajouter un modèle et un shader pour la norme de matière Adobe (Project Felix)
-* [Étagère] Augmentez la valeur de mosaïque maximale à 128 dans les ombrages de calque de matière
-* [Étagère] Courbure sobre ajoutée pour les micro-détails des générateurs de masques
+* [Calque] Définissez le paramètre de répétition par défaut sur 1 par défaut
+* [Étagère] Filtre dégradé amélioré pour prendre en charge 10 couleurs dynamiques
+* [Étagère] Ajoutez un espace dans la requête par défaut de la mini-étagère
+* [Étagère] Ajoutez une action « Ouvrir dans l’explorateur » pour les ressources locales de l’étagère
+* [Étagère] Ajout d’un modèle et d’un shader pour Adobe Matériau Standard (Project Felix)
+* [Étagère] Augmentez la répétition maximale à 128 dans les nuanceurs de calques de Matériau
+* [Étagère] Ajout de la courbure sobel pour les micro-détails des Générateurs de masque
 * [Plug-in] Ajouter un plug-in d’enregistrement automatique avec un intervalle de temps personnalisable
 * [Scripts] Ajout d’une fonction « Enregistrer en tant que copie »
 
@@ -174,20 +174,20 @@ Cette version de la Substance Painter inclut également une nouvelle et forte am
 
 * [UI] La disposition ne fonctionne pas au premier lancement
 * [Export] Le PSD généré lors de l&#39;exportation comporte des erreurs de format
-* [Export] EXR exporte toujours le mappage d&#39;height 8 bits
-* [Export] Blocage lors de l’exportation de mappages supplémentaires corrompus
-* [Importer] Dans certains cas, les bords nets ne sont pas conservés sur les maillages en poly bas
-* [Importer] Amélioration des messages d’erreur lors de l’importation de maillages présentant des problèmes
-* [Bakers] Échec de la conversion de mappage d&#39;ID avec l&#39;option Correspondance par nom activée
-* [Fenêtre d’affichage] L’espace tangent n’est pas synchronisé avec les boulangers
+* [Export] EXR exporte toujours une map height de 8 bits
+* [Export] Crash lors de l&#39;exportation de mappages supplémentaires corrompus
+* [Importer] Dans certains cas, les contours nets ne sont pas conservés sur les maillages en poly bas
+* [Importation] Amélioration des messages d’erreur lors de l’importation de maillages présentant des problèmes
+* [Baker] Le Baking du Map id échoue lorsque l’option Correspondance par nom est activée
+* [Viewport] L’espace de Tangente n’est pas synchronisé avec les bakers
 * [Effet] Le fait de reculer un calque ne restaure pas la référence d’une ancre
 * [Effet] Problème d’actualisation lors de la création d’un lien entre deux masques avec des ancrages
 * [Effet] Les ancrages de masque au-dessus du masque ne doivent pas être répertoriés.
 * [Effet] Le paramètre d’Alpha d’extraction des ancrages ne fonctionne pas
 * [Moteur] Le masque s’inverse après le premier coup de pinceau
-* [Moteur] Blocage lors du basculement du jeu de textures sur un projet spécifique
-* [Shelf] Blocage lors de la suppression d’un paramètre prédéfini dans un projet
-* [Shelf] Frappe dans le filtre Tri-plan avancé
-* [Étagère] L’échelle de bruit AO du créateur de masque MG ne fonctionne pas correctement
-* [Étagère] MG Le créateur de masque a des paramètres de courbure inversée
-* [Tablette] Les caractères alphanumériques importés génèrent un aperçu de sphère de matière au lieu d&#39;un aperçu plat
+* [Moteur] Crash lors du changement de Jeu de textures sur un projet spécifique
+* [Étagère] Crash lors de la suppression d’un paramètre prédéfini dans un projet
+* [Étagère] Faute de frappe dans le filtre Planaire avancé
+* [Étagère] L’échelle de Bruit AO du créateur de masque MG ne fonctionne pas correctement
+* [Étagère] MG Mask Builder a des paramètres de courbure inversés
+* [Étagère] Les caractères alphanumériques importés génèrent un aperçu de sphère de matériau au lieu d’un aperçu plat

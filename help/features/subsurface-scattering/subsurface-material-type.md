@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/features/subsurface-scattering/subsurface-material-type.html"
 breadcrumb-title: ''
-description: Apprenez à utiliser les types de matériaux de sous-surface dans Substance 3D Painter pour créer une peau, une cire et des matériaux organiques réalistes.
+description: Apprenez à utiliser les types de matériaux de sous-surface dans Substance 3D Painter pour créer des matériaux naturels, en cire et en peau.
 helpx_creative_field: ""
 helpx_description: Painter > Features > Subsurface Scattering > Subsurface Material Type
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Type de matériau de sous-surface
+title: Type de Matériau souterrain
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,22 +18,22 @@ ht-degree: 1%
 ---
 
 
-# Type de matériau de sous-surface
+# Type de Matériau souterrain
 
-Cette page répertorie les différents types de matériaux pouvant être créés avec la fonction de diffusion de sous-surface et indique comment configurer Substance 3D Painter pour les créer. Pour chaque type de matériau, une échelle et une couleur sont données, qui peuvent être définies dans les [Paramètres de sous-surface](subsurface-parameters.md).
+Cette page répertorie les différents types de matériaux pouvant être créés avec la fonction de Subsurface scattering de données et indique comment configurer Substance 3D Painter pour les créer. Pour chaque type de matériau, une échelle et une couleur peuvent être définies dans les [paramètres de sous-surface](subsurface-parameters.md).
 
 >[!NOTE]
 >
-> Les valeurs répertoriées sur cette page sont ici pour donner un aperçu de chaque type de matériau. Ce ne sont pas des valeurs exactes et elles doivent être interprétées et/ou ajustées par projet.
+> Les valeurs répertoriées sur cette page vous donnent un aperçu de chaque type de matériau. Ce ne sont pas des valeurs exactes et elles doivent être interprétées et/ou ajustées par projet.
 
 ## Peau humaine
 
 ![](../../assets/mat-skin.jpg)
 
-Pour un bon matériau de peau, il nécessite :
+Pour un bon matériau de la peau, il nécessite :
 
 * Une bonne texture de base : pour un caractère réaliste, cela signifie une bonne quantité de détails et diverses couleurs.
-* Texture height/normale forte : l’effet de sous-surface adoucit les détails de la surface. Les détails forts compensent les défauts.
+* Une texture height/normales forte : l’effet de sous-surface adoucit les détails de la surface. Les détails forts compensent en premier lieu.
 
 | *Paramètre* | *Description* |
 | --- | --- |

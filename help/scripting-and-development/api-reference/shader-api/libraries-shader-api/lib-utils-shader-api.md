@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-utils-shader-api.html"
 breadcrumb-title: ''
-description: Accédez à la référence du API de shader Lib Utils pour Substance 3D Painter afin d’utiliser les fonctions d’utilitaire dans le développement de shader personnalisé.
+description: Accédez à la référence API de shader de Lib Utils pour Substance 3D Painter afin d’utiliser les fonctions d’utilitaire dans le développement de shader personnalisé.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Utils - Shader API
 helpx_experience_level: ""
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## Mappage de tons
 
-Voici des exemples de mappage de tonalité que vous pouvez utiliser dans votre nuanceur. Painter n’applique aucun mappage de tonalité, à l’exception de celui facultatif appliqué par Yebis. Si vous décidez de faire un mappage de tonalité dans votre nuanceur, il sera appliqué avant le mappage de tonalité Yebis.
+Voici des exemples de mappage de tonalité que vous pouvez utiliser dans votre shader. Painter n’applique aucun mappage de tonalité, à l’exception de celui facultatif appliqué par Yebis. Si vous décidez de faire un mappage de ton dans votre shader, il sera appliqué avant le mappage de ton Yebis.
 
 Effectuez le mappage des tonalités de la courbe S en fonction des paramètres sigma et n.
 
@@ -43,7 +43,7 @@ vec3 tonemapSCurve(vec3 value, float sigma, float n)
 
 ## Conversions sRVB
 
-Voici les conversions utilisées dans Painter. Vous pouvez remplacer la conversion automatique linéaire -> sRVB dans la clôture en plaçant cette ligne dans votre ombrage personnalisé :
+Voici les conversions utilisées dans Painter. Vous pouvez remplacer la conversion automatique linéaire -> sRVB dans le viewport en insérant cette ligne dans votre shader personnalisé :
 
 *#define DISABLE\_FRAMEBUFFER\_SRGB\_CONVERSION*
 
@@ -245,9 +245,9 @@ vec4 convertOutput(vec4 rgba)
 
 ## Dithering
 
-Voici quelques aides pour ajouter un tramage aux ombrages.
+Voici quelques assistants pour ajouter du dithering aux shaders.
 
-Utiliser une matrice Bayer 8x8 pour le mode de tramage
+Utiliser une matrice Bayer 8x8 pour le mode dithering
 
 ```
 import lib-bayer.glsl 
@@ -278,7 +278,7 @@ vec4 RGB2Gray(vec4 rgba)
 ```
 
 
-Supprimez les ombres et les points noirs sur les surfaces métalliques brillantes (à proximité des miroirs)
+Suppression de l’AO et des ombres sur les surfaces métalliques brillantes (près des miroirs)
 
 ```
 float specularOcclusionCorrection(float diffuseOcclusion, float metallic, float roughness) 

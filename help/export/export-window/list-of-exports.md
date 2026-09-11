@@ -22,4 +22,4 @@ ht-degree: 0%
 
 ![](../../assets/list-of-export.png){width="550px"}
 
-L&#39;onglet <b>Liste d&#39;exportation </b> de la fenêtre <b>Exportation </b> répertorie les textures exportées de chaque ensemble de textures, avec une console indiquant l&#39;état de l&#39;exportation, y compris les messages d&#39;erreur.
+L&#39;onglet <b>Liste d&#39;exportation </b> de la <b>fenêtre d&#39;exportation </b> répertorie les textures exportées à partir de chaque Jeu de textures, avec une console indiquant l&#39;état de l&#39;exportation, y compris les messages d&#39;erreur.

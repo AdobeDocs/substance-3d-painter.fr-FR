@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/features/effects/filter.html"
 breadcrumb-title: ''
-description: Apprenez à utiliser les effets de filtre dans Substance 3D Painter pour appliquer des filtres de traitement d’image et ajuster la texture.
+description: Apprenez à utiliser les effets de filtre dans Substance 3D Painter pour appliquer des filtres de traitement d’image et des réglages de texture.
 helpx_creative_field: ""
 helpx_description: Painter > Features > Effects > Filter
 helpx_experience_level: ""
@@ -41,17 +41,17 @@ Sélectionnez l&#39;option **ajouter un filtre** dans la liste.
 ### 2 - Sélectionnez le filtre dans la fenêtre des propriétés
 
 Dans la fenêtre des propriétés, les paramètres du filtre sont actuellement vides. Seul le bouton de sélection est disponible.\
-Cliquez sur le bouton pour ouvrir la mini-étagère et sélectionnez le filtre souhaité, ici nous choisissons le filtre flou.
+Cliquez sur le bouton pour ouvrir la mini-étagère et sélectionnez le filtre souhaité. Ici, nous choisissons le filtre flou.
 
 ![](../../assets/filter-select-shelf.gif)
 
-## Glisser-déposer un filtre à partir de la tablette
+## Glisser-déposer un filtre depuis l’Étagère
 
 Cette méthode est uniquement destinée aux filtres qui doivent s’appliquer à toute la pile de calques. Tous les [modes de fusion](../../interface/layer-stack/blending-modes.md) du canal seront automatiquement définis. Cela ne fonctionne pas pour appliquer des filtres à un masque.
 
-### 1 - Ouvrez la zone Filtres de l&#39;étagère
+### 1 - Ouvrez la zone Filtres de l’Étagère
 
-Dans l&#39;étagère, cliquez sur la section « Filtres » à gauche.
+Dans l’Étagère, cliquez sur la section « Filtres » à gauche.
 
 ![](../../assets/shelf-filters.gif)
 
@@ -61,7 +61,7 @@ Sélectionnez le filtre à utiliser dans l’étagère. Glissez-déposez-le dans
 
 ![](../../assets/filter-dragdrop.gif)
 
-Notez que dans l’exemple ci-dessus, le filtre déposé dispose déjà d’un mode de fusion Transfert. Cela est vrai pour tous les canaux du document.
+Notez que dans l’exemple ci-dessus, le filtre déposé dispose déjà d’un mode de fusion Passthrough. Cela est vrai pour tous les canaux du document.
 
 ## Ajout de nouveaux types de filtres
 

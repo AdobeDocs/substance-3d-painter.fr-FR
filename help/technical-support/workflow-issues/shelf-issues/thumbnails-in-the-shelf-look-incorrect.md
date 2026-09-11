@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/workflow-issues/shelf-issues/thumbnails-in-the-shelf-look-incorrect.html"
 breadcrumb-title: ''
-description: Découvrez comment corriger l’affichage incorrect des vignettes dans l’étagère Substance 3D Painter pour garantir des aperçus de ressources précis.
+description: Découvrez comment corriger l’affichage incorrect des vignettes dans Substance 3D Painter étagère pour garantir des aperçus de ressources précis.
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Workflow Issues > Shelf Issues > Thumbnails in the shelf look incorrect
 helpx_experience_level: ""
@@ -32,10 +32,10 @@ Accédez à **Modifier** et cliquez sur **Paramètres** :
 
 ![](../../../assets/pref-menu.png)
 
-## 2 - Supprimer l&#39;ombrage Aperçu de la tablette
+## 2 - Supprimer le shader d’aperçu de l’Étagère
 
-Dans la vue **Général**, faites défiler vers le bas jusqu&#39;à ce que la section « Options d&#39;aperçu » soit visible.\
-Cliquez sur le bouton **croix** devant le « **Shader d&#39;aperçu de matériau** » pour supprimer le nuanceur actuellement spécifié.
+Dans la vue **Général**, faites défiler vers le bas jusqu&#39;à ce que la section « Options de prévisualisation » soit visible.\
+Cliquez sur le bouton **croix** devant le « **Shader d&#39;aperçu de matériau** » pour supprimer le shader actuellement spécifié.
 
 ![](../../../assets/remove-preview-shader.png){width="450px"}
 

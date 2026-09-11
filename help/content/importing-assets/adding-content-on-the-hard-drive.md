@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Il est possible d’ajouter des ressources à vos bibliothèques en plaçant le nouveau contenu directement sur le disque dur au bon emplacement.
 
-Un dossier par défaut pour les ressources utilisateur est fourni par défaut dans lequel vous pouvez ajouter votre nouveau contenu, soit par le biais de l’interface de l’application, soit en le déposant manuellement à l’emplacement suivant. Cette bibliothèque par défaut est également utilisée lors de la création de nouveaux paramètres prédéfinis tels que les pinceaux, les outils, les matériaux intelligents, etc. Pour plus d&#39;informations, consultez la documentation sur les [paramètres prédéfinis](../../painting/presets/presets.md).
+Un dossier par défaut pour les ressources utilisateur est fourni par défaut dans lequel vous pouvez ajouter votre nouveau contenu, soit par le biais de l’interface de l’application, soit en le déposant manuellement à l’emplacement suivant. Cette bibliothèque par défaut est également utilisée lors de la création de nouveaux paramètres prédéfinis tels que les pinceaux, les outils, les matériaux adaptables, etc. Pour plus d&#39;informations, consultez la documentation sur les [paramètres prédéfinis](../../painting/presets/presets.md).
 
 ## Où placer les ressources ?
 
@@ -41,19 +41,19 @@ Vous pouvez importer différents types de fichiers dans votre bibliothèque Subs
 
 | *Format de fichier* | *Utilisation* | *Dossier* |
 | --- | --- | --- |
-| **SBSAR** | Matériau de Substance | ressources/matières |
+| **SBSAR** | Matériau de Substance | actifs/Matériaux |
 | **SBSAR** | Filtres | Ressources/Effets |
 | **SBSAR** | Générateurs | Actifs/Générateurs |
-| **PNG, TGA, JPEG, etc.** | Texture ou Alpha | ressources/textures **ou** étagère/Alpha |
-| **HDR, EXR** | Environnement ou table des couleurs | Actifs/Environnements **ou** Étagère/Colorlut |
+| **PNG, TGA, JPEG, etc.** | Texture ou Alpha | actifs / Textures **ou** Étagère / Alpha |
+| **HDR, EXR** | Environnement ou table des couleurs | Ressources / Environnements **ou** Étagère / Colorlut |
 | **GLSL** | Shader | Actifs/Nuanciers |
-| **SPPR** | Pinceau prédéfini | ressources / Paramètres prédéfinis / Pinceau |
-| **SPPR** | Paramètre prédéfini de particule | ressources / Paramètre prédéfini / Particules |
-| **SPPR** | Paramètre prédéfini de matière | actifs / Paramètres prédéfinis / Matières **ou** actifs / Matières |
-| **SPPR** | Outil prédéfini | ressources / Paramètre prédéfini / Outils |
-| **SPSM** | Matériau adaptable | actifs / Matériaux intelligents |
+| **SPPR** | Paramètre prédéfini de pinceau | ressources / Paramètres prédéfinis / Pinceau |
+| **SPPR** | Particule prédéfinie | ressources / Paramètre prédéfini / Particules |
+| **SPPR** | Paramètre prédéfini de matériau | actifs / Paramètres prédéfinis / Matériaux **ou** actifs / Matériaux |
+| **SPPR** | Paramètre prédéfini d&#39;outil | ressources / Paramètre prédéfini / Outils |
+| **SPSM** | Matériau adaptable | actifs / matériaux intelligents |
 | **SPMSK** | Masque adaptable | actifs / Masques dynamiques |
-| **SPEXP** | Exporter le paramètre prédéfini | Paramètres prédéfinis de tablette/exportation |
+| **SPEXP** | Exporter le paramètre prédéfini | Étagère/Exportation-préréglages |
 
 >[!NOTE]
 >

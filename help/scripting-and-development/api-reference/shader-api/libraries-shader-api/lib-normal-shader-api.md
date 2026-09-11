@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-normal-shader-api.html"
 breadcrumb-title: ''
-description: Accédez à la référence de API de shader Normal Lib pour Substance 3D Painter afin de travailler avec des cartes de normales et des normales de surface dans des ombrages personnalisés.
+description: Accédez à la référence de API de shader Normale de ligne pour que Substance 3D Painter puisse travailler avec des maps normal et des normales de surface dans des ombrages personnalisés.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Normal - Shader API
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ import lib-sparse.glsl
 ```
 
 
-Tous les paramètres du moteur sont utiles pour les opérations centrées sur la normale.
+Tous les paramètres de moteur sont utiles pour les opérations centrées sur la normale.
 
 ```
 //: param auto channel_height 
@@ -54,7 +54,7 @@ uniform int normal_blending_mode;
 ```
 
 
-Utilisé pour inverser l&#39;axe Y de la texture normale
+Utilisé pour inverser l&#39;axe Y de la map normal
 
 ```
 //: param auto normal_y_coeff 
@@ -70,7 +70,7 @@ const float HEIGHT_FACTOR = 400.0;
 ```
 
 
-Effectuer la fusion entre 2 cartes normales
+Fusion entre 2 maps normal
 
 Basé sur la fusion du voile blanc http://blog.selfshadow.com/publications/blending-in-detail/
 
@@ -89,7 +89,7 @@ vec3 normalBlend(vec3 baseNormal, vec3 overNormal)
 ```
 
 
-Effectuer une fusion orientée détail entre 2 cartes normales
+Effectuer une fusion orientée détail entre 2 maps normal
 
 Ce calcul est basé sur la fusion orientée détail http://blog.selfshadow.com/publications/blending-in-detail/
 
@@ -137,7 +137,7 @@ vec3 normalFade(vec3 normal,float attenuation)
 ```
 
 
-Décompression d’une couche alpha normale
+Déballage d’un objet normal avec canal Alpha
 
 ```
 vec3 normalUnpack(vec4 normal_alpha, float y_coeff) 
@@ -172,7 +172,7 @@ vec3 normalUnpack(vec4 normal_alpha, float y_coeff)
 ```
 
 
-Décompression d’une couche alpha normale sans inversion Y
+Déballer une normale avec canal Alpha, pas d&#39;inversion Y
 
 ```
 vec3 normalUnpack(vec4 normal_alpha) 
@@ -185,7 +185,7 @@ vec3 normalUnpack(vec4 normal_alpha)
 ```
 
 
-Calculer la normale de l’espace tangent à partir de la couche d’height du document
+Calcul de l’espace de tangente normal à partir du canal d’height du document
 
 ```
 vec3 normalFromHeight(SparseCoord coord, float height_force) 
@@ -240,7 +240,7 @@ vec3 normalFromHeight(SparseCoord coord, float height_force)
 ```
 
 
-Aide pour calculer la normale de l&#39;espace tangent à partir de la normale de base, d&#39;une valeur d&#39;height et d&#39;une normale de détail facultative.
+Assistant pour calculer la normale de l&#39;espace de tangente à partir de la normale de base, d&#39;une valeur d&#39;height et d&#39;une normale de détail facultative.
 
 ```
 vec3 getTSNormal(SparseCoord coord, vec3 normalFromHeight) 
@@ -279,7 +279,7 @@ vec3 getTSNormal(SparseCoord coord, vec3 normalFromHeight)
 ```
 
 
-Aide pour calculer la normale de l&#39;espace tangent à partir de la normale de base et de l&#39;height, et une normale de détail facultative.
+Assistant pour calculer la normale de l&#39;espace de tangente à partir de la normale de base et de l&#39;height, et une normale de détail facultative.
 
 ```
 vec3 getTSNormal(SparseCoord coord) 
@@ -296,7 +296,7 @@ vec3 getTSNormal(SparseCoord coord)
 ```
 
 
-Aide pour calculer la normale de l&#39;espace universel à partir de la normale de base de l&#39;espace tangent.
+Assistant pour calculer la normale de l&#39;espace monde à partir de l&#39;espace de tangente normal.
 
 ```
 vec3 computeWSBaseNormal(SparseCoord coord, vec3 tangent, vec3 bitangent, vec3 normal) 
@@ -319,7 +319,7 @@ vec3 computeWSBaseNormal(SparseCoord coord, vec3 tangent, vec3 bitangent, vec3 n
 ```
 
 
-Helper pour calculer la normale de l&#39;espace universel à partir de la normale de l&#39;espace tangent donnée par getTSNormal helpers et de l&#39;image locale du maillage.
+Assistant de calcul de la normale de l&#39;espace monde à partir de l&#39;espace de tangente normal fourni par getTSNormal assistants et cadre local du maillage.
 
 ```
 vec3 computeWSNormal(SparseCoord coord, vec3 tangent, vec3 bitangent, vec3 normal) 

@@ -24,14 +24,14 @@ ht-degree: 2%
 
 ## Backface culling
 
-Abaissez les visages :
+Faces de récupération :
 
 ```
 //: state cull_face on
 ```
 
 
-Dessin des faces avant et arrière :
+Dessinez des faces avant et arrière :
 
 ```
 //: state cull_face off
@@ -75,9 +75,9 @@ Mode de fusion multiplicatif :
 ```
 
 
-## Emplacement d’échantillonnage de l’ombrage
+## lieu d&#39;échantillonnage du shader
 
-Par défaut, les canaux du document sont échantillonnés à l’aide des coordonnées de texture non transformée pour le rendu des optimisations pendant la peinture.
+Par défaut, les canaux du document sont échantillonnés à l’aide des coordonnées de texture non transformées pour le rendu des optimisations pendant la peinture.
 
 Si des artefacts apparaissent, définissez l&#39;état *non local* sur *activé* .
 

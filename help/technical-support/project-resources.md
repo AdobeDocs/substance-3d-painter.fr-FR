@@ -23,19 +23,19 @@ ht-degree: 0%
 La gestion des ressources du projet peut aider à établir une base solide pour les performances de votre projet dans Painter.
 
 +++Maps bakées de réduction d’échelle
-Parfois, toutes les maps bakées n&#39;ont pas besoin d&#39;être à des résolutions 2k ou 4k. N&#39;hésitez pas à cuire un lot à 2k, puis à recuire à une résolution plus basse pour voir s&#39;il y a une différence visuelle.
+Parfois, toutes les maps bakées n&#39;ont pas besoin d&#39;être à des résolutions 2k ou 4k. N&#39;hésitez pas à baker un lot à 2k, puis à le refaire à une résolution plus basse pour voir s&#39;il y a une différence visuelle.
 
 +++
 
 +++Gestion des bitmaps importés
-Les images importées peuvent affecter considérablement les performances. Il est donc important de faire attention à ce qui est importé. Si vos ensembles de textures sont réglés sur 2k et ne seront de toute façon pas exportés à une résolution plus élevée, l&#39;utilisation d&#39;une image 8k n&#39;aura aucun impact positif - sa qualité sera limitée à 2k, car il s&#39;agit de la résolution de l&#39;ensemble de textures.
+Les images importées peuvent affecter considérablement les performances. Il est donc important de faire attention à ce qui est importé. Si vos Jeux de textures sont réglés sur 2k et ne seront de toute façon pas exportés à une résolution plus élevée, l&#39;utilisation d&#39;une image 8k n&#39;aura aucun impact positif - sa qualité sera limitée à 2k, car il s&#39;agit de la résolution du Jeu de textures.
 
-Le format est également important : EXR, HDR et même PNG sont beaucoup plus lourds qu’un JPG, et toutes les images peuvent ne pas avoir besoin du niveau de qualité d’un EXR (comme la couleur de base par rapport aux détails de l’Height).
+Le format est également important : EXR, HDR et même PNG sont beaucoup plus lourds qu’un JPG, et toutes les images peuvent ne pas avoir besoin du niveau de qualité d’un EXR (comme la Base color par rapport aux détails de l’Height).
 
 +++
 
-+++Réglage des paramètres du nuanceur
-La qualité du specular à l&#39;Ultra donnera un résultat plus précis, mais le réglage est coûteux. Plus les effets sont activés simultanément dans l’ombrage, plus le calcul est lourd. Dans la mesure du possible, divisez les matériaux complexes en un autre ensemble de textures avec un ombrage distinct. Si le displacement est activé, soyez prudent avec le paramètre de facettisation.
++++Réglage des paramètres de shader
+La qualité du specular à l&#39;Ultra donnera un résultat plus précis, mais le réglage est coûteux. Plus les effets sont activés à la fois dans le shader, plus les calculs sont lourds. Dans la mesure du possible, scindez les matériaux complexes en un autre Jeu de textures à l’aide d’un shader séparé. Si le displacement est activé, soyez prudent avec le paramètre tessellation.
 
 +++
 

@@ -43,4 +43,4 @@ Nous vous recommandons de supprimer le plug-in, car il ne fonctionne plus :
 
 >[!NOTE]
 >
-> La suppression du plug-in n’affectera pas le contenu déjà téléchargé dans la tablette.
+> La suppression du module n’affectera pas le contenu déjà téléchargé dans l’Étagère.

@@ -38,6 +38,6 @@ Pour régler la plage de couleurs de l’image, deux ensembles de commandes sont
 > L&#39;effet Niveaux ne peut être appliqué qu&#39;à un seul canal à la fois, comme sélectionné par l&#39;option *Canal affecté*. Si vous souhaitez appliquer un niveau à plusieurs couches, vous devez créer plusieurs effets de niveaux.
 
 * La liste déroulante Couleurs en haut à droite vous permet de modifier les niveaux sur l’image rvb complète ou sur une seule des couches rouge, vert et bleu.
-* L’option Clamp en bas à droite vous permet de fixer les valeurs des niveaux entre 0 et 1 (0-255). Cette option doit toujours être cochée lorsque vous travaillez sur des canaux non HDR (comme la **couleur de base**).
+* L’option Verrouiller en bas à droite vous permet de fixer les valeurs des niveaux entre 0 et 1 (0-255). Cette option doit toujours être cochée lorsque vous travaillez sur des canaux non HDR (comme la **Base color**).
 
 [Pour mieux comprendre les Niveaux, vous devriez regarder notre cours sur Substance Academy dédié au sujet.](https://academy.substance3d.com/courses/Mastering-Levels-Histogram)

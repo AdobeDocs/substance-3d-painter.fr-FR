@@ -27,5 +27,5 @@ Le menu Fenêtre permet d&#39;afficher une liste des fenêtres et si elles sont 
 | --- | --- |
 | **Vues** | Répertorie les fenêtres disponibles dans l’interface (la case à cocher indique si elle est actuellement visible). |
 | **Barres d&#39;outils** | Répertorie les barres d’outils disponibles dans l’interface (la case à cocher indique si elle est actuellement visible, ce qui permet de les activer/désactiver) : Docks, Plug-ins et outils. |
-| **Masquer l&#39;interface utilisateur** | Masque toutes les fenêtres et tous les docks de l’interface et agrandit la ou les fenêtres. |
+| **Masquer l&#39;interface utilisateur** | Masque toutes les fenêtres et tous les docks de l’interface et agrandit le ou les viewports. |
 | **Réinitialiser l&#39;interface utilisateur** | Réinitialise la disposition de fenêtre actuelle à sa valeur par défaut. |

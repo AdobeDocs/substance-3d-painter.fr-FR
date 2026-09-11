@@ -20,19 +20,19 @@ ht-degree: 0%
 
 # Gestion des calques
 
-Painter calcule la pile de calques de bas en haut. Ainsi, si vous apportez des modifications au calque supérieur de la pile, Painter n’a qu’à calculer les modifications de ce calque. Toutefois, si vous modifiez un calque au bas de la pile, Painter doit calculer tous les calques situés au-dessus de ce calque pour obtenir le résultat final.
+Painter calcule la pile de calques de bas en haut. Ainsi, si vous apportez des modifications au calque supérieur de la pile, Painter doit uniquement calculer les modifications de ce calque. Toutefois, si vous modifiez un calque situé au bas de la pile, Painter doit calculer tous les calques situés au-dessus pour obtenir le résultat final.
 
-Vous pouvez utiliser diverses options pour réduire le coût des performances lors de la modification de calques situés plus bas dans la pile :
+Vous pouvez utiliser différentes options pour réduire le coût des performances lors de la modification de calques plus bas dans la pile :
 
 +++Utiliser des masques de géométrie
-Les masques géométriques sont votre meilleur outil d&#39;optimisation. Chaque fois que vous pouvez isoler une partie de votre maillage sur laquelle travailler, faites-le, soit en masquant les calques, soit en masquant les dossiers. Les masques de géométrie fonctionnent en isolant les zones par UDIM ou par pièce de maillage, de sorte que les zones qui ne sont pas dans le masque ne sont pas traitées, ce qui améliore les performances. Vous pouvez également isoler visuellement ces parties dans la clôture pour faciliter l&#39;application des textures.
+Les masques géométriques sont votre meilleur outil d&#39;optimisation. Chaque fois que vous pouvez isoler une partie de votre maillage sur laquelle travailler, faites-le, soit en masquant les calques, soit en masquant les dossiers. Les masques géométriques fonctionnent en isolant les zones par UDIM ou par pièce de maillage. Ainsi, les zones qui ne se trouvent pas dans le masque ne sont pas traitées, ce qui améliore les performances. Vous pouvez également isoler visuellement ces parties dans le viewport pour faciliter la texturation.
 
 Vous pouvez [en savoir plus sur les masques géométriques avec ce tutoriel](https://www.youtube.com/watch?v=TGASuIGSUns) ou en [vous référant à la documentation](../../interface/layer-stack/geometry-mask.md).
 
 +++
 
 +++Masquer les calques
-Afin d’éviter les ralentissements lors de modifications à un niveau inférieur de la pile de calques, vous pouvez masquer les calques au-dessus du calque modifié jusqu’à ce que vous ayez terminé vos réglages. Painter ne traite pas les calques masqués. Par conséquent, si tous les calques situés au-dessus de votre calque sont masqués, c’est comme si vous modifiiez le calque supérieur dans la pile. Ainsi, les calques au-dessus ne seront calculés qu’une seule fois, lorsque vous les affichez, plutôt qu’après chaque modification que vous apportez.
+Afin d’éviter les ralentissements lors de modifications effectuées à un niveau inférieur de la pile de calques, vous pouvez masquer les calques au-dessus du calque modifié jusqu’à ce que vous ayez terminé vos réglages. Painter ne traite pas les calques masqués. Par conséquent, si tous les calques situés au-dessus de votre calque sont masqués, c’est comme si vous modifiiez le calque supérieur de la pile. Ainsi, les calques au-dessus ne seront calculés qu’une seule fois, lorsque vous les affichez, plutôt qu’après chaque modification que vous apportez.
 
 +++
 
@@ -46,18 +46,18 @@ Si possible, essayez de regrouper les calques, car les dossiers agissent comme u
 
 +++
 
-+++Limiter l’utilisation des filtres en haut de la pile de calques
-Les filtres peuvent être coûteux. S’il est nécessaire d’utiliser un filtre près du haut de la pile de calques, utilisez des masques géométriques pour réduire leur coût de performance.
++++Utilisation limitée des filtres en haut de la pile de calques
+Les filtres peuvent être coûteux. S&#39;il est nécessaire d&#39;utiliser un filtre près du sommet de la pile de calques, utilisez des masques géométriques pour réduire leur coût de performance.
 
 +++
 
 +++Limiter l’utilisation du mode de fusion passthrough
-Le mode Passthrough est fréquemment utilisé avec les filtres ou les calques de contour. Il s’agit d’un mode de fusion coûteux, car il examine tous les calques sous-jacents et transforme leur résultat, au lieu de remplacer le résultat comme un mode de fusion normal. Lors de l&#39;utilisation de passthrough, essayez de le combiner avec des masques et des dossiers Géométrie pour minimiser l&#39;impact sur les performances.
+Le Passthrough est fréquemment utilisé avec les filtres ou les calques de contour. Il s’agit d’un mode de fusion coûteux, car il examine tous les calques sous-jacents et transforme leur résultat, au lieu de le remplacer comme un mode de fusion normal. Lors de l&#39;utilisation de passthrough, essayez de le combiner avec des masques et des dossiers Géométrie pour minimiser l&#39;impact sur les performances.
 
 +++
 
 +++Conserver la profondeur de projection petite
-Avec n’importe quel outil ou mode ayant un paramètre de profondeur de projection (déformation, plan, tracé, etc.), conservez la valeur de profondeur de projection aussi petite que possible. Plus la profondeur Projection s’étend, moins elle est performante.
+Avec n’importe quel outil ou mode ayant un paramètre de profondeur de Projection (déformation, planaire, tracé, etc.), gardez la valeur de profondeur de Projection aussi petite que possible. Plus la profondeur de Projection s&#39;étend, moins elle est performante.
 
 +++
 
@@ -68,12 +68,12 @@ Les pinceaux et les outils dotés d’une étiquette orange possèdent un param�
 
 +++
 
-+++Utilisation d’une résolution de texture inférieure
++++Travailler avec une résolution de texture inférieure
 Réduire la résolution du document est le moyen le plus rapide d’améliorer les performances. Doubler la résolution signifie une carte 4 fois plus grande, donc passer de 1k à 2k signifie jusqu&#39;à 4 fois plus de coûts de performance. Par conséquent, il est souvent utile de travailler à une résolution inférieure aussi longtemps que possible.
 
 +++
 
-+++Définir les décalcomanies sur le mode de projection Planaire
++++Définir les décalcomanies sur le mode projection Planaire
 Le mode de décalcomanie par défaut est Déformation, mais à moins que vous ne déformiez la décalcomanie en déplaçant ses points, le passage en mode Planaire est beaucoup moins coûteux.
 
 +++

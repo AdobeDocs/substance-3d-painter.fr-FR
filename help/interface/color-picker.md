@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/color-picker.html"
 breadcrumb-title: ''
-description: Apprenez à utiliser le sélecteur de couleurs de Substance 3D Painter pour sélectionner des couleurs à partir de vos textures et matières.
+description: Apprenez à utiliser le sélecteur de couleurs de Substance 3D Painter pour sélectionner des couleurs dans vos textures et matériaux.
 helpx_creative_field: ""
 helpx_description: Painter > Interface > Color picker
 helpx_experience_level: ""
@@ -22,13 +22,13 @@ ht-degree: 1%
 
 ![](../assets/color-picker-12.jpg)
 
-Le sélecteur de couleurs permet de définir une couleur à peindre ou à projeter sur le filet. Il peut être utilisé pour sélectionner des couleurs à partir d’images externes ou pour ajuster une image existante dans l’application.
+Le sélecteur de couleurs permet de définir une couleur sur peinture ou projet sur le maillage. Il peut être utilisé pour sélectionner des couleurs à partir d’images externes ou pour ajuster une image existante dans l’application.
 
-La fenêtre du sélecteur de couleurs s’affiche lorsque vous cliquez sur un champ de couleur dans Painter, qui se trouve dans Propriétés ou dans des paramètres ou menus supplémentaires, tels que les paramètres d’affichage ou de nuanceur.
+La fenêtre du sélecteur de couleurs s’affiche lorsque vous cliquez sur un champ de couleur dans Painter. Celui-ci se trouve dans Propriétés ou dans d’autres paramètres ou menus, tels que Affichage ou Paramètres de Shader.
 
 ## Présentation du sélecteur de couleurs
 
-Une fois ouvert, le sélecteur de couleurs est semi-persistant, ce qui signifie qu’il reste ouvert jusqu’à un changement de contexte, par exemple, lors du passage d’un calque de peinture à un calque de remplissage. Il est possible de déplacer la fenêtre et de la placer n&#39;importe où sur l&#39;un des écrans disponibles. Cependant, contrairement à d’autres fenêtres, le sélecteur de couleurs ne peut pas être ancré.
+Une fois ouvert, le sélecteur de couleurs est semi-permanent, ce qui signifie qu’il reste ouvert jusqu’à un changement de contexte, par exemple lors du passage d’un calque de peinture à un calque de remplissage. Il est possible de déplacer la fenêtre et de la placer n&#39;importe où sur l&#39;un des écrans disponibles. Cependant, contrairement à d’autres fenêtres, le sélecteur de couleurs ne peut pas être ancré.
 
 La fenêtre a une disposition verticale et se compose de trois sections :
 
@@ -42,17 +42,17 @@ La fenêtre a une disposition verticale et se compose de trois sections :
 
 | Nom et visuel | Description |
 | --- | --- |
-| **Sélecteur d&#39;affichage** <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../assets/display-selector.png" width="250px"/></div> | Autoriser à choisir l’affichage à utiliser pour modifier les couleurs (spectre et curseurs). La valeur par défaut correspond à l&#39;affichage utilisé par la fenêtre principale.  **Remarque :** ce paramètre est uniquement disponible lorsque la [gestion des couleurs](../features/color-management/color-management.md) est activée. |
-| **Spectre** <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../assets/spectrum.png" width="250px"/></div> | Le curseur vertical correspond à la teinte générale. Cela permet de sélectionner la nuance de couleur à afficher dans le champ de dégradé.Une fois la nuance générale sélectionnée, il est possible de maintenir et de faire glisser le curseur en croix dans le champ de dégradé pour sélectionner la couleur souhaitée.  **Remarque :** lorsque la [gestion des couleurs](../features/color-management/color-management.md) est activée, les couleurs HDR de l’affichage actuel sont bridées (dans l’espace colorimétrique de travail). Cela permet d’éviter la valeur HDR de sortie dans les canaux avec gestion des couleurs. |
+| **Sélecteur d&#39;affichage** <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../assets/display-selector.png" width="250px"/></div> | Autoriser à choisir l’affichage à utiliser pour modifier les couleurs (spectre et curseurs). La valeur par défaut correspond à l’affichage utilisé par le viewport principal.  **Remarque :** ce paramètre est uniquement disponible lorsque la [gestion des couleurs](../features/color-management/color-management.md) est activée. |
+| **Spectre** <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../assets/spectrum.png" width="250px"/></div> | Le curseur vertical correspond à la teinte générale. Cela permet de sélectionner la nuance de couleur à afficher dans le champ de dégradé.Une fois la nuance générale sélectionnée, il est possible de maintenir et de faire glisser le curseur en croix dans le champ de dégradé pour sélectionner la couleur souhaitée.  **Remarque :** lorsque la [gestion des couleurs](../features/color-management/color-management.md) est activée, les couleurs HDR de l&#39;affichage actuel sont bridées (dans l&#39;espace colorimétrique de travail). Cela permet d’éviter une Valeur HDR de sortie dans les couches avec gestion des couleurs. |
 | **Couleur actuelle et précédente** <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../assets/color-preview-current.png"/></div> | Le rectangle de gauche indique la couleur finale qui sortira du sélecteur de couleurs.Le rectangle droit affiche la couleur précédente (à l’ouverture du sélecteur de couleurs). Il est possible de cliquer dessus pour restaurer la couleur précédente et en faire la couleur actuelle. |
 | **Champ hexadécimal** <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r4-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../assets/hexa-field.png"/></div> | Les champs hexadécimaux représentent la couleur actuelle sous forme de valeurs hexadécimales. Les composantes RGB sont représentées par une paire de lettres.Par exemple, #FF0000 représente la couleur rouge.  **Remarque :** lorsque la [gestion des couleurs](../features/color-management/color-management.md) est activée, le champ hexadécimal fonctionne toujours dans l’espace colorimétrique sRVB standard pour faciliter le copier/coller de valeurs entre les logiciels, quel que soit l’espace d’affichage ou de travail actuellement utilisé par le projet. |
-| **Pipette** <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r5-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../assets/picker.png"/></div> | La pipette peut être utilisée pour sélectionner une couleur à partir d’une source externe. Pour l&#39;utiliser, **cliquez** sur l&#39;icône, puis déplacez à nouveau la souris pour copier la couleur souhaitée.  **Remarque :** lors de la sélection d&#39;une couleur dans la fenêtre d&#39;affichage, il est possible d&#39;utiliser le modificateur **Maj** pour choisir la couche actuelle modifiée directement. Cela permet d’éviter la conversion avec perte de couleur entre la texture d’origine et la couleur affichée à l’écran. Cela est également utile pour choisir des couleurs sans avoir à passer du mode d&#39;affichage **Matière**. <div><img data-preserve-html="true" src="../assets/eyedropper-shift.png" width="150"/></div>  **Remarque :** les champs de couleur sont également dotés d&#39;une pipette et peuvent être utilisés pour sélectionner rapidement des couleurs sans avoir à ouvrir le sélecteur de couleurs. <div><img data-preserve-html="true" height="83" src="../assets/eyedropper.jpg"/></div>  **Remarque :** sur le système d&#39;exploitation Mac, il est possible que la pipette ne puisse pas sélectionner de couleurs en dehors de l&#39;interface de l&#39;application en raison des paramètres de confidentialité. Pour résoudre ce problème, attribuez les droits appropriés à l&#39;application dans : `System Preferences > Security & Privacy > Privacy > Screen Recording` |
+| **Pipette** <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r5-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../assets/picker.png"/></div> | La pipette peut être utilisée pour sélectionner une couleur à partir d’une source externe. Pour l&#39;utiliser, **cliquez** sur l&#39;icône, puis déplacez à nouveau la souris pour copier la couleur souhaitée.  **Remarque :** lors de la sélection d&#39;une couleur à l&#39;intérieur du viewport, il est possible d&#39;utiliser le modificateur **Maj** pour choisir la couche en cours modifiée directement. Cela permet d’éviter la conversion avec perte de couleur entre la texture d’origine et la couleur affichée à l’écran. Cela est également utile pour choisir des couleurs sans avoir à passer du mode d&#39;affichage **Matériau**. <div><img data-preserve-html="true" src="../assets/eyedropper-shift.png" width="150"/></div>  **Remarque :** les champs de couleur sont également dotés d&#39;une pipette et peuvent être utilisés pour sélectionner rapidement des couleurs sans avoir à ouvrir le sélecteur de couleurs. <div><img data-preserve-html="true" height="83" src="../assets/eyedropper.jpg"/></div>  **Remarque :** sur le système d&#39;exploitation Mac, il est possible que la pipette ne puisse pas sélectionner de couleurs en dehors de l&#39;interface de l&#39;application en raison des paramètres de confidentialité. Pour résoudre ce problème, attribuez les droits appropriés à l&#39;application dans : `System Preferences > Security & Privacy > Privacy > Screen Recording` |
 
 ### Paramètres de couleurs
 
 | Paramètre | Description |
 | --- | --- |
-| **Espace colorimétrique de la pipette** | Spécifiez l’espace colorimétrique pour la couleur sélectionnée en dehors de la fenêtre d’affichage.Le paramètre **auto** utilise l&#39;espace colorimétrique sRVB standard des paramètres du projet. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../assets/eyedropper-color-space-1.png"/></div> **Remarque :** ce paramètre s&#39;applique également aux pipettes situées à côté des boutons de couleur.  **Remarque :** les couleurs sélectionnées dans la clôture utilisent également ce profil lorsqu&#39;elles n&#39;utilisent pas le modificateur Maj. |
+| **Espace colorimétrique de la pipette** | Spécifiez l’espace colorimétrique pour la couleur sélectionnée en dehors du viewport.Le paramètre **auto** utilise l&#39;espace colorimétrique sRVB standard des paramètres du projet. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../assets/eyedropper-color-space-1.png"/></div> **Remarque :** ce paramètre s&#39;applique également aux pipettes situées à côté des boutons de couleur.  **Remarque :** les couleurs sélectionnées à l&#39;intérieur du viewport utilisent également ce profil lorsqu&#39;elles n&#39;utilisent pas le modificateur Maj. |
 
 ### Curseurs
 
@@ -88,7 +88,7 @@ Exemple : l’image ci-dessous a une couleur qui contient 100 % de rouge, mais 5
 
 ![](../assets/rgb-4.jpg)
 
-Il est plus courant de mesurer les curseurs RGB par le biais de valeurs comprises entre 0 et 255. Pour ce faire, désactivez l&#39;option **Valeurs à virgule flottante**.
+Il est plus courant de mesurer les curseurs RGB par le biais de valeurs comprises entre 0 et 255. Pour ce faire, désactivez l&#39;option **Valeurs de point flottant**.
 
 ![](../assets/255.jpg)
 
@@ -101,7 +101,7 @@ Le menu Paramètres permet de configurer quelques comportements supplémentaires
 | Paramètre | Description |
 | --- | --- |
 | **Curseurs dynamiques** | Si cette option est activée, la couleur d’arrière-plan des curseurs s’ajuste en fonction de la couleur actuelle. |
-| **Valeurs à virgule flottante** | Si cette option est activée, les valeurs des curseurs sont représentées en allant de 0,0 à 1,0. Si elle est désactivée :<ul data-preserve-html="true"> <li data-preserve-html="true"><strong>HSV</strong> : le curseur de teinte est mesuré en degrés (comme une roue chromatique). Saturation et Valeur utilisent des pourcentages. </li> <li data-preserve-html="true"><strong>RGB</strong> : les composants sont représentés sous forme de valeur allant de 0 à 255.</li> </ul> |
+| **Valeurs de point flottant** | Si cette option est activée, les valeurs des curseurs sont représentées en allant de 0,0 à 1,0. Si elle est désactivée :<ul data-preserve-html="true"> <li data-preserve-html="true"><strong>HSV</strong> : le curseur de teinte est mesuré en degrés (comme une roue chromatique). Saturation et Valeur utilisent des pourcentages. </li> <li data-preserve-html="true"><strong>RGB</strong> : les composants sont représentés sous forme de valeur allant de 0 à 255.</li> </ul> |
 
 ## Espace colorimétrique de travail
 
@@ -159,4 +159,4 @@ Utilisez le menu Paramètres pour supprimer toutes les nuances.
 
 >[!NOTE]
 >
-> Les nuances sont enregistrées dans un fichier de configuration disponible dans le dossier Documents de l’utilisateur. Pour plus d&#39;informations, consultez la page [Emplacement du rayon et des actifs](../pipeline-and-integration/resource-management/shelf-and-assets-location.md).
+> Les nuances sont enregistrées dans un fichier de configuration disponible dans le dossier Documents de l’utilisateur. Pour plus d&#39;informations, consultez la page [Étagère et emplacement des actifs](../pipeline-and-integration/resource-management/shelf-and-assets-location.md).

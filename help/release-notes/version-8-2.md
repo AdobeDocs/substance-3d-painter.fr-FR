@@ -30,7 +30,7 @@ Date de publication : *6 octobre 2022*
 
 ![](../assets/banner-blend-mode-copy.jpg)
 
-Plusieurs raccourcis et actions ont été ajoutés pour copier et appliquer rapidement et facilement les modes de fusion et l’opacité sur plusieurs couches dans la pile de calques.
+Plusieurs raccourcis et actions ont été ajoutés pour faciliter et accélérer la copie et l’application des modes de fusion et de l’opacité sur plusieurs couches de la Pile de calques.
 
 * **Cliquez avec le bouton droit de la souris sur un mode de fusion ou un contrôle d&#39;opacité**\
   Lorsque vous cliquez avec le bouton droit de la souris sur un mode de fusion ou une opacité, sélectionnez l&#39;action **Appliquer à toutes les couches** pour utiliser ce mode de fusion sur toutes les autres couches du calque. Cette action est également disponible pour les effets dotés de modes de fusion et d’opacité.
@@ -48,26 +48,26 @@ Plusieurs raccourcis et actions ont été ajoutés pour copier et appliquer rapi
 
   ![](../assets/blending-actions.png)
 
-### Nouveau mode de fusion et nouvelle opacité sur les effets de filtre et de sélection de couleur
+### Nouveau mode de fusion et opacité sur les effets de filtre et de choix de couleur
 
 ![](../assets/banner-blend-color-selection.jpg)
 
-Les effets de filtre et de sélection de couleur peuvent désormais utiliser les modes de fusion et les commandes d’opacité.
+Les effets de filtre et de choix de couleur peuvent désormais utiliser les modes de fusion et les commandes d’opacité.
 
 * **Mode de fusion et opacité sur les filtres**\
   Les filtres peuvent désormais utiliser des modes de fusion et des valeurs d’opacité. Ils utilisent par défaut la valeur **Remplacer** afin de conserver le même comportement qu&#39;auparavant et d&#39;éviter de doubler les informations de composant alpha. Les modes de fusion appliqués aux filtres permettent de calculer les effets et de combiner leurs résultats directement sur les calques, ce qui évite d’avoir à utiliser des points d’ancrage et des effets de remplissage pour obtenir le même résultat. Cela évite également d’avoir à implémenter manuellement les modes de fusion à l’intérieur du filtre lui-même.
 
   ![](../assets/filters-blending-mode.png)
 
-* **Mode de fusion et opacité sur la sélection de couleurs**\
-  L’effet de sélection de couleurs a été modifié pour prendre en charge les modes de fusion et les commandes d’opacité. Auparavant, cet effet produisait un résultat alpha. Afin que les modes de fusion fonctionnent comme prévu, un nouveau paramètre a été ajouté pour spécifier la couleur d’arrière-plan en cours de sortie. Il est défini sur noir au lieu de transparent (ce qui est le comportement hérité).
+* **Mode de fusion et opacité sur le choix de couleur**\
+  L’effet choix de couleur a été modifié pour prendre en charge les modes de fusion et les options d’opacité. Auparavant, cet effet produisait un résultat alpha. Afin que les modes de fusion fonctionnent comme prévu, un nouveau paramètre a été ajouté pour spécifier la couleur d’arrière-plan en cours de sortie. Il est défini sur noir au lieu de transparent (ce qui est le comportement hérité).
 
   ![](../assets/color-selection-blendmode.png)
 
   ![](../assets/color-selection-background.png)
 
-* **Pile d&#39;effets simplifiée**\
-  Auparavant, lorsqu’il était nécessaire de combiner des effets d’une certaine manière (à l’aide des modes de fusion, par exemple), l’utilisation de points d’ancrage et d’effets de remplissage était nécessaire. Désormais, avec les modes de fusion directement sur les filtres, ce n’est plus nécessairement celui qui peut réduire considérablement la complexité de la pile d’effets.
+* **pile d&#39;effet simplifiée**\
+  Auparavant, lorsqu’il était nécessaire de combiner des effets d’une certaine manière (à l’aide des modes de fusion, par exemple), l’utilisation de points d’ancrage et d’effets de remplissage était nécessaire. Désormais, avec les modes de fusion directement sur les filtres, ce n’est plus nécessairement celui qui peut réduire considérablement la complexité de la pile d’effet.
 
   ![](../assets/effect-stack.png){width="400px"}
 
@@ -81,15 +81,15 @@ Le contenu du dossier (la partie couleur d’un calque) peut désormais recevoir
 
 ![](../assets/banner-sbsar.png)
 
-Le format de fichier SBSAR (Substance Archive) est désormais disponible lors de l’exportation de textures. Un SBSAR est un conteneur qui peut être ouvert dans de nombreuses applications avec intégration de Substances, ce qui peut le rendre plus rapide et facile à «plug-and-play» textures personnalisées.
+Le format de fichier SBSAR (Substance Archive) est désormais disponible lors de l’exportation de textures. Un SBSAR est un conteneur qui peut être ouvert dans de nombreuses applications avec intégration de Substances, ce qui peut le rendre plus rapide et facile à «plug-and-play» des textures personnalisées.
 
 * **Exportation d&#39;une archive de Substance (SBSAR)**\
-  Il est désormais possible de spécifier le format de fichier SBSAR dans la liste des formats de fichiers de la fenêtre **Exporter des textures**. Cette opération exportera un seul fichier SBSAR contenant toutes les textures spécifiées. Le nom des nœuds de sortie et leur utilisation sont définis à partir du paramètre prédéfini d’exportation sélectionné et de ses types de canaux.
+  Il est désormais possible de spécifier le format Fichier sbsar dans la liste des formats de fichiers de la fenêtre **Textures d&#39;exportation**. Cette opération exportera un seul Fichier sbsar contenant toutes les textures spécifiées. Le nom des nœuds de sortie et leur utilisation sont définis à partir du paramètre prédéfini d’exportation sélectionné et de ses types de canaux.
 
   ![](../assets/sbsar-export.png)
 
-* **Paramètres prédéfinis d’exportation hybrides avec les formats de fichier PSD et SBSAR**\
-  Les paramètres prédéfinis d’exportation peuvent désormais spécifier des mappages de sortie comme PSD ou SBSAR en plus de tous les autres formats d’image. Les formats PSD et SBSAR sont considérés comme des « conteneurs », ce qui signifie que plusieurs textures peuvent être stockées à l’intérieur. Lorsqu’un paramètre prédéfini d’exportation spécifie à la fois des formats de conteneur et des formats d’image autonomes, chaque sortie du modèle qui cible un fichier SBSAR est regroupée, tandis que les autres sorties sont exportées en tant que fichiers individuels.
+* **Paramètres prédéfinis d’exportation hybrides avec les formats PSD et Fichier sbsar**\
+  Les paramètres prédéfinis d’exportation peuvent désormais spécifier des mappages de sortie comme PSD ou SBSAR en plus de tous les autres formats d’image. Les formats PSD et SBSAR sont considérés comme des « conteneurs », ce qui signifie que plusieurs textures peuvent être stockées à l’intérieur. Lorsqu’un paramètre prédéfini d’exportation spécifie à la fois des formats de conteneur et des formats d’image autonomes, chaque sortie du modèle qui cible un Fichier sbsar est regroupée, tandis que les autres sorties sont exportées en tant que fichiers individuels.
 
   ![](../assets/export-preset-sbsar.png)
 
@@ -97,12 +97,12 @@ Le format de fichier SBSAR (Substance Archive) est désormais disponible lors de
 
 ![](../assets/env-align-lighting2.gif)
 
-Un nouveau paramètre dans les [Paramètres d&#39;affichage](../interface/display-settings/environment-settings.md) permet d&#39;aligner la carte d&#39;environnement sur l&#39;appareil photo, ce qui permet de régler l&#39;angle d&#39;éclairage et d&#39;éclairer les pièces sous le modèle 3D.
+Un nouveau paramètre dans les [Paramètres d&#39;affichage](../interface/display-settings/environment-settings.md) permet d&#39;aligner la map d&#39;environnement sur la caméra, ce qui permet de régler l&#39;angle d&#39;éclairage et d&#39;éclairer les parties sous le modèle 3D.
 
 Pour utiliser ce nouveau paramètre, accédez à [Paramètres d&#39;affichage](../interface/display-settings/environment-settings.md) et modifiez le paramètre **Alignement de l&#39;environnement** :
 
-* **Monde** : la carte d&#39;environnement est alignée sur la scène.
-* **Local** : la carte d&#39;environnement est alignée sur la caméra.
+* **Univers** : la map d&#39;environnement est alignée sur la scène.
+* **Local** : la map d&#39;environnement est alignée sur la caméra.
 
 Les tons foncés s’ajustent automatiquement en fonction de la configuration de ce paramètre.
 
@@ -118,7 +118,7 @@ De nouvelles actions ont été ajoutées à la fenêtre [Actifs](../interface/as
   ![](../assets/favorite-right-click.png){width="350px"}
 
 * **Supprimer et recharger les ressources sur le disque**\
-  Les ressources situées dans les bibliothèques d’utilisateurs peuvent désormais être supprimées, rechargées ou renommées (à l’exception des ressources faisant partie d’un pack, telles que les graphes en Substances ou les pinceaux ABR).
+  Les ressources situées dans les bibliothèques d’utilisateurs peuvent désormais être supprimées, rechargées ou renommées (à l’exception des ressources faisant partie d’un pack, telles que les graphes de Substance ou les pinceaux ABR).
 
 ### Fonctionnalités et améliorations diverses
 
@@ -134,35 +134,35 @@ De nombreuses petites améliorations et fonctionnalités supplémentaires ont é
   ![](../assets/whats-new-4.jpg){width="400px"}
 
 * **Nouvelle action pour réimporter rapidement un modèle 3D**\
-  Un nouveau raccourci clavier (**CTRL+SHIFT+R** par défaut) a été ajouté et permet de réimporter rapidement le modèle 3D du projet actuel. Cela facilite et accélère l’itération d’une ressource. Si le fichier source est introuvable, un message d’erreur s’affiche dans le journal. Une action a également été ajoutée au menu **Modifier**.
+  Un nouveau raccourci clavier (**CTRL+SHIFT+R** par défaut) a été ajouté et permet de réimporter rapidement le modèle 3D du projet actif. Cela facilite et accélère l’itération d’une ressource. Si le fichier source est introuvable, un message d’erreur s’affiche dans le journal. Une action a également été ajoutée au menu **Modifier**.
 
   ![](../assets/reimport-mesh.png)
 
 * **Prise en charge améliorée du HDPI**\
   Plusieurs correctifs ont été apportés concernant les écrans HDPI et la mise à l’échelle du système. Nous prenons désormais en charge les valeurs de mise à l&#39;échelle intermédiaires (ex. 125%) qui devrait éviter que l&#39;interface soit trop grande ou trop petite sur certains écrans. Le déplacement de fenêtres entre des écrans HDPI avec des valeurs de mise à l’échelle différentes doit également se comporter correctement.
 
-* **Réinitialiser les paramètres du graphique de Substance à leur valeur par défaut**\
-  Partout où un graphique de Substance est utilisé (alpha, matières, filtre, etc.) il est désormais possible de réinitialiser ses paramètres par défaut.
+* **Réinitialiser les paramètres par défaut du graphe de Substance**\
+  Partout où un graphe de Substance est utilisé (alpha, matériaux, filtre, etc.) il est désormais possible de réinitialiser ses paramètres par défaut.
 
   * **Réinitialiser tous les paramètres** : utilisez le bouton Restaurer les paramètres par défaut sous la liste des paramètres pour réinitialiser l&#39;ensemble de la ressource de Substance de données.
   * **Clic droit** : cliquez avec le bouton droit de la souris sur un paramètre spécifique pour ouvrir un menu avec une action de réinitialisation spécifique à ce paramètre.
 
   ![](../assets/restore-default.png) ![](../assets/restore-specific.png)
 
-* **Afficher les composants RGBA individuels dans les fenêtres**\
-  Lorsque vous examinez un canal dans les fenêtres, un nouveau paramètre nommé **Couches de couleur** sous **Paramètres d&#39;affichage > Affichage du canal** permet d&#39;examiner les composants RVBA individuellement. Cela peut être utile pour analyser des textures ou isoler des composants spécifiques dans les couches utilisateur.
+* **Afficher les composants RGBA individuels dans les viewports**\
+  Lorsque vous examinez un canal dans les viewports, un nouveau paramètre nommé **Canaux de couleur** sous **Paramètres d&#39;affichage > Affichage du canal** permet d&#39;examiner les composants RGBA individuellement. Cela peut être utile pour analyser des textures ou isoler des composants spécifiques dans les canaux utilisateur.
 
   ![](../assets/channels-display-component.png)
 
   ![](../assets/viewport-channels.jpg){width="450px"}
 
-* **Mosaïque de calques de remplissage et d&#39;effets au-delà de 128**\
-  Le paramètre de mosaïque des calques de remplissage et des effets a été modifié pour avoir une plage floue. Cela permet désormais de saisir n’importe quelle valeur de mosaïque souhaitée. La plage par défaut du curseur a également été réduite de [-128,128] à [-32,32] pour faciliter le glissement.
+* **Effets et calques de remplissage de Répétition au-delà de 128**\
+  Le paramètre de répétition des calques de remplissage et des effets a été modifié pour avoir une plage adoucie. Cela permet maintenant de saisir n&#39;importe quelle valeur de répétition souhaitée. La plage par défaut du curseur a également été réduite de [-128,128] à [-32,32] pour faciliter le glissement.
 
   ![](../assets/fill-tiling.gif)
 
 * **Nouveau paramètre d’exportation de texture EXR 16f et 32f**\
-  Auparavant, l’exportation de textures EXR était forcée à 32 f bits dans l’interface, mais à l’intérieur du fichier réel, elle produisait des données 16 f bits (semi-flottantes). Il a maintenant été corrigé, et il existe une possibilité explicite de choisir entre 16f et 32f bits. Les anciens projets et les paramètres prédéfinis d’exportation utilisant EXR comme format de fichier adoptent par défaut la valeur 16f bits pour respecter l’ancien comportement (principalement pour éviter de produire des fichiers plus lourds qu’auparavant).
+  Auparavant, l’exportation de textures EXR était forcée à 32 f bits dans l’interface, mais à l’intérieur du fichier réel, elle produisait des données 16 f bits (semi-flottantes). Il a maintenant été corrigé, et il existe une possibilité explicite de choisir entre 16f et 32f bits. Les anciens projets et paramètres prédéfinis d’exportation utilisant EXR comme format de fichier adoptent par défaut la valeur 16f bits pour respecter l’ancien comportement (principalement pour éviter de produire des fichiers plus lourds qu’auparavant).
 
   ![](../assets/exr-export.png)
 
@@ -189,16 +189,16 @@ Plusieurs nouvelles fonctionnalités ont été ajoutées à l’API Python. Pour
 
 * **substance\_painter.resource**\
   **substance\_painter.resource.Type** permet désormais d&#39;identifier davantage de types de ressources, notamment les packages de pinceaux Substance et Photoshop.\
-  Les objets de ressource peuvent désormais répertorier leurs parents et enfants, ce qui permet de naviguer entre les packages de Substances et les graphiques de Substances, par exemple.
+  Les objets de Substance peuvent désormais répertorier leur parent et leurs enfants, ce qui permet de naviguer entre les packages de Substance et les graphes de données, par exemple.
 
 * **substance\_painter.textureset**\
-  Deux nouvelles fonctions (et une énumération) ont été ajoutées pour obtenir et définir des mappages de maillage dans les paramètres de l&#39;ensemble de textures : **get\_mesh\_map\_resource()** et **set\_mesh\_map\_resource()**.
+  Deux nouvelles fonctions (et une énumération) ont été ajoutées pour obtenir et définir des maps de maillage dans les paramètres de Jeu de textures : **get\_mesh\_map\_resource()** et **set\_mesh\_map\_resource()**.
 
 * **substance\_painter.ui**\
   Plusieurs fonctions ont été ajoutées pour enregistrer et recharger la disposition de l’interface utilisateur. Notez que la disposition dépend également du mode d’application actuel (Peinture ou Rendu).
 
 * **substance\_painter.event**\
-  Un nouvel **TextureStateEvent** a été ajouté pour faciliter le suivi des modifications apportées à la pile de calques des ensembles de textures, ainsi que d&#39;autres modifications de paramètres. Cet événement se déclenche sur les tracés de peinture ou lors de l’ajout/la suppression de couches.
+  Un nouvel **TextureStateEvent** a été ajouté pour faciliter le suivi des modifications de pile de calques des Jeux de textures et d&#39;autres modifications de paramètres. Cet événement se déclenche sur les tracés de peinture ou l’ajout/la suppression de canaux.
 
 ## Notes de mise à jour
 
@@ -237,81 +237,81 @@ Résumé : **version majeure avec de nouveaux panneaux d’intégration (nouveau
 * Application d’un mode de fusion/opacité à tous les canaux d’un calque
 
   Ajout d’une fonctionnalité de clic droit au mode de fusion et à l’opacité des calques qui permet d’appliquer la configuration sélectionnée à tous les canaux.
-* Recharger le filet à l’aide d’un raccourci clavier (CTRL+MAJ+R)
+* Recharger le maillage à l’aide d’un raccourci clavier (CTRL+MAJ+R)
 
-  Ajout d’un raccourci modifiable pour recharger le fichier de filet avec les derniers paramètres disponibles. Est également accessible via Modifier > Réimporter le maillage.
+  Ajout d’un raccourci modifiable pour recharger le fichier de maillage avec les derniers paramètres disponibles. Est également accessible via Modifier > maillage de réimportation.
 * Rétablir les paramètres de Substance par défaut
 
   Ajout d’un nouveau bouton dans Propriétés en bas des ressources .sbsar qui permet de réinitialiser la ressource par défaut.
-* Rétablir les valeurs par défaut du pinceau
+* Rétablir la valeur par défaut du pinceau de peinture
 
   Ajout d’un nouveau menu à la section Pinceau dans Propriétés qui permet de rétablir le pinceau de base par défaut.
 * Cliquer avec le bouton droit pour réinitialiser les paramètres de Substance individuels par défaut
 
   Ajout de la possibilité de réinitialiser les paramètres individuels dans une ressource .sbsar via un clic droit.
-* [Panneau Actifs] « Épingler » les actifs favoris pour qu’ils apparaissent au-dessus du panneau Actifs
+* [Panneau Actifs] Les actifs favoris « Épingle » doivent apparaître au-dessus du panneau Actifs
 
-  Ajout d’une nouvelle option de clic droit aux actifs de la bibliothèque qui permet de les épingler en tant que favoris en haut du panneau. Vous pouvez également afficher tous vos actifs préférés via les recherches enregistrées.
+  Ajout d’une nouvelle option de clic droit aux actifs de la bibliothèque qui permet de les épingle comme favoris en haut du panneau. Vous pouvez également afficher tous vos actifs préférés via les recherches enregistrées.
 * [Panneau Actifs] Supprimez, rechargez et renommez les actifs
 
   Ajout d’options de menu contextuel pour supprimer, recharger et renommer les actifs de la bibliothèque utilisateur. Ils sont supprimés directement de leur emplacement de bibliothèque sur le disque et rechargés à partir de l’emplacement d’origine. Les actifs qui font partie d’un package comme .abr ou .sbsar ne peuvent pas être modifiés individuellement.
-* [Sélection de couleur] Ajout de modes de fusion à l’effet Sélection de couleur
-* [Pile de calques] Ajout d’un mode de fusion et d’une opacité aux filtres
-* [Pile de calques] Autoriser les valeurs de mosaïque supérieures à 128 pour le calque de remplissage/les effets
-* [Pile de calques] Bouchons cylindriques pour projection cylindrique dans un calque de remplissage/effet
+* [Choix de couleur] Ajout de modes de fusion à l’effet Choix de couleur
+* [Pile de calques] Ajout d’un mode de fusion et d’une opacité sur les filtres
+* [Pile de calques] Autoriser les valeurs de répétition supérieures à 128 pour les calques de remplissage/effets
+* [Pile de calques] Bouchons cylindriques pour projection cylindrique en calque de remplissage/effet
 
-  La projection cylindrique dans les propriétés du calque de remplissage a désormais la possibilité de supprimer les culottes.
-* [Log] Afficher un message d&#39;erreur si les parties du filet se trouvent dans un espace négatif lors de la tentative de création d&#39;un projet de mosaïque UV
+  La projection cylindrique dans les propriétés du Calque de remplissage a désormais la possibilité de supprimer les culasses.
+* [Journal] Affiche un message d’erreur si des parties de maillage sont dans un espace négatif lors de la création d’un projet de Tuile UV
 
-  Ajout d’un message d’erreur plus clair lors de l’échec de la création d’un projet de mosaïque UV, car des pièces UV se trouvent dans les espaces négatifs.
+  Ajout d’un message d’erreur plus clair lors de l’échec de la création d’un projet de Tuile UV, car les UV se trouvent dans des espaces négatifs.
 * [Projet] Indiquer la version dans le message d’erreur « données trop récentes » lors de l’ouverture d’un projet
 
   Lors de l’ouverture d’un projet trop récent pour l’application, le message d’erreur indique désormais la version du projet afin de faciliter l’identification de la bonne version de l’application.
-* [Fenêtre d’affichage] Autoriser à éclairer le filet par le dessous
+* [Viewport] Autoriser à éclairer le maillage par le dessous
 
-  Ajout d’un nouveau paramètre Alignement de l’environnement dans Paramètres d’affichage > Caméra > Paramètres d’environnement pour aligner l’éclairage de la carte d’environnement sur la caméra lorsqu’il est défini sur « Local ».
-* [Fenêtre d’affichage] Affichage R, V, B et Alpha dans la fenêtre d’affichage (mode d’affichage solo)
+  Ajout d’un nouveau paramètre Alignement de l’environnement dans Paramètres d’affichage > Caméra > Paramètres d’environnement pour aligner l’éclairage de la map d&#39;environnement sur la caméra lorsqu’il est défini sur « Local ».
+* [Viewport] Affichage R, V, B et Alpha en mode viewport (affichage solo)
 
-  Sous Paramètres d’affichage > Paramètres de la fenêtre d’affichage > Affichage des couches, un nouveau paramètre Couches de couleur permet d’afficher uniquement les composants R, V, B ou Alpha d’une couche en mode d’affichage unique.
-* [Shader] Autoriser à définir les canaux utilisateur en tant que RVBA dans les shaders de calque de matériau
+  Sous Paramètres d’affichage > Paramètres de Viewport > Affichage des couches, un nouveau paramètre Couches de couleur permet d’afficher uniquement les composants R, V, B ou Alpha d’une couche en mode d’affichage unique.
+* [Shader] Autoriser à définir les canaux utilisateur en tant que RVBA dans les nuanceurs de calques de Matériau
 
-  Lorsque vous réglez la configuration des canaux du jeu de textures dans un shader pour le calque Matériau, il est désormais possible de spécifier le format du canal pour s’écarter de la valeur par défaut. Cela permet notamment de demander des couches utilisateur en couleur au lieu de niveaux de gris uniquement.
-* [Exporter] Autoriser à exporter des textures en tant que SBSAR
+  Lorsque vous configurez la configuration des canaux de Jeu de textures dans un shader pour la superposition de matériau, il est désormais possible de spécifier le format du canal à dévier de la valeur par défaut. Cela permet notamment de demander des couches utilisateur en couleur au lieu de niveaux de gris uniquement.
+* [Export] Autoriser à exporter des textures en tant que SBSAR
 
-  Lorsque vous exportez des textures via la fenêtre Fichier > Exporter des textures, vous pouvez choisir le format de fichier SBSAR (Substance Archive) pour les regrouper. Le contenu du SBSAR dépend du modèle de sortie utilisé.\
-  Le format de fichier SBSAR peut également être défini dans les paramètres prédéfinis d’exportation. Lors de l&#39;utilisation de la configuration hybride (SBSAR + Autre format), les textures qui ciblent un SBSAR sont regroupées tandis que le reste est exporté en parallèle.
+  Lorsque vous exportez des textures via la fenêtre Fichier > Exporter les Textures, vous pouvez choisir le format de fichier SBSAR (Substance Archive) pour les regrouper. Le contenu du SBSAR dépend du modèle de sortie utilisé.\
+  Le format Fichier sbsar peut également être défini dans les paramètres prédéfinis d’exportation. Lors de l&#39;utilisation de la configuration hybride (SBSAR + Autre format), les textures qui ciblent un SBSAR sont regroupées tandis que les autres sont exportées en parallèle.
 * [Export] Option Exposer 16 bits pour le format de fichier EXR
 
-  Lors de l’exportation de fichiers de textures EXR, il est désormais possible de choisir 16 f bits (semi-flottant) ou 32 f bits (flottant) dans la fenêtre Exporter des textures (à la fois pour les paramètres d’exportation et les paramètres prédéfinis d’exportation). Les anciens projets et les anciens paramètres prédéfinis d’exportation adoptent par défaut la valeur 16 f bits pour refléter l’ancien comportement.
-* [Python] Ajouter un événement pour savoir quand les ensembles de textures sont modifiés
+  Lors de l’exportation de fichiers EXR texture, il est désormais possible de choisir 16 f bits (demi-Flottant) ou 32 f bits (Flottant) dans la fenêtre Exporter les Textures (à la fois pour les paramètres d’exportation et les paramètres prédéfinis d’exportation). Les anciens projets et les anciens paramètres prédéfinis d’exportation adoptent par défaut la valeur 16 f bits pour refléter l’ancien comportement.
+* [Python] Ajouter un événement pour savoir quand les Jeux de textures sont modifiés
 
-  Le nouveau « substance\_painter.event.TextureStateEvent » permet de savoir quand un ensemble de textures a été modifié en raison d’un tracé de peinture, d’un nouveau canal ajouté ou d’un canal supprimé.
-* [Python] Autoriser l&#39;obtention et la définition des ressources de maillage dans les paramètres de l&#39;ensemble de textures
+  La nouvelle « substance\_painter.event.TextureStateEvent » permet de savoir quand un Jeu de textures a été modifié en raison d’un trait de peinture, d’un nouveau canal ajouté ou d’un canal supprimé.
+* [Python] Autoriser l&#39;obtention et la définition des ressources de Map de maillage dans les paramètres de Jeu de textures
 
-  De nouvelles fonctions ont été ajoutées dans le module « substance\_painter.project » pour obtenir et définir des ressources de mappages de maillage. Ces fonctions peuvent être utilisées pour mettre à jour les maillages référencés par les paramètres du jeu de textures.
+  De nouvelles fonctions ont été ajoutées dans le module « substance\_painter.project » pour obtenir et définir les ressources de map de maillage. Ces fonctions peuvent être utilisées pour mettre à jour les maps de maillage référencées par les paramètres de Jeu de textures.
 * [Plug-ins] Supprimer l’option pour obtenir d’autres plug-ins JS
 
   Suppression de l’option permettant d’obtenir des plug-ins Javascript car ils étaient hébergés sur le site web de partage obsolète.
 * [Contenu] Ajout d’un nouveau modèle Roblox et d’un paramètre prédéfini d’exportation
 
-  Un nouveau modèle de projet Roblox « Variante de matériau » et « Aspect de surface » et un paramètre prédéfini d’exportation ont été ajoutés pour faciliter l’exportation de la texture PBR vers Roblox. Le modèle est accessible via la fenêtre Fichier > Nouveau projet.
+  Un nouveau modèle de projet Roblox « Variante de Matériau » et « Aspect de surface » et un paramètre prédéfini d’exportation ont été ajoutés pour faciliter l’exportation de la texture PBR vers Roblox. Le modèle est accessible via la fenêtre Fichier > Nouveau projet.
 * Mettre à jour la Substance Engine à la dernière version (8.6.3)
 * [Steam] Version optimisée pour le chipset Apple Silicon (Apple M1/M2)
 
 **Fixe :**
 
-* Blocage lors de l’utilisation de 16k exr
-* [Crash] Ctrl Z Après la suppression d’une instance de shader
-* [Iray] L’IoR est bloquée à 1 pour certains shaders
-* [Win]&#x200B;[Baking] Certains poly élevés ne se chargent pas
+* Crash lors de l’utilisation de 16k exr
+* [Crash] Ctrl Z après la suppression d’une instance de shader
+* [Iray] IoR bloquée à 1 pour certains shaders
+* [Win]&#x200B;[Baker] Certains poly élevés ne se chargent pas
 * [Gestion des couleurs] Nom d’espace colorimétrique incorrect dans l’interface utilisateur avec les filtres
 * [Python] Les objets de ressource retournés par la fonction d&#39;importation n&#39;ont pas de type
 
-  Lors de l&#39;importation d&#39;un package de Substance dans Python, la fonction renvoyait le package au lieu de son ou ses graphiques. Le module de ressources fournit désormais des fonctions et des paramètres pour récupérer le ou les graphiques d&#39;un package de Substances.
+  Lors de l&#39;importation d&#39;un package de Substance dans Python, la fonction renvoyait le package au lieu de son ou ses graphes. Le module de ressources fournit désormais des fonctions et des paramètres pour récupérer le ou les graphes d&#39;un package de Substances.
 
 **Problèmes Connus :**
 
-* [Gestion des couleurs] Les conversions d’espace colorimétrique HDR avec ACE sous Linux produisent des couleurs condensées
+* [Gestion des couleurs] Les conversions de l’espace colorimétrique HDR avec ACE sous Linux produisent des couleurs condensées
 * [Pile de calques] Source d’entrée non enregistrée par calque
 * [Peinture] Dans certains cas, l’anticrénelage temporel provoque des artefacts lors de la peinture
 * [Export] 2DView exporte un mappage aléatoire uniforme

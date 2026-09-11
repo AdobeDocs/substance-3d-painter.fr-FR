@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/features/color-management/color-management-with-adobe-ace-icc.html"
 breadcrumb-title: ''
-description: Découvrez comment utiliser la gestion des couleurs Adobe ACE et ICC dans Substance 3D Painter pour des workflows colorimétriques cohérents.
+description: Apprenez à utiliser la gestion des couleurs Adobe ACE et ICC dans Substance 3D Painter pour des workflows de couleurs cohérents.
 helpx_creative_field: ""
 helpx_description: Painter > Features > Color management > Color management with Adobe ACE - ICC
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Gestion des couleurs avec Adobe ACE - ICC
 
-Cette page répertorie les paramètres de gestion des couleurs associés à l’Adobe Color Engine (ACE) d’utilisation des images avec des profils ICC.
+Cette page répertorie les paramètres de gestion des couleurs associés à l’Adobe Color Engine (ACE) d’utilisation d’une image avec des profils ICC.
 
 ## Paramètres du projet
 
@@ -36,11 +36,11 @@ Les paramètres disponibles sont les suivants :
 
 | Section | Paramètre | Description |
 | --- | --- | --- |
-| **Configuration** | **Gestion des couleurs** | Définissez le moteur à utiliser pour gérer les couleurs.Valeurs possibles :<ul data-preserve-html="true"> <li data-preserve-html="true"><strong>Hérité</strong> (par défaut) : utilisez la correction colorimétrique gamma sRVB/sRVB linéaire prédéfinie.</li> <li data-preserve-html="true"><strong>OpenColorIO</strong> : utilisez l’intégration OCIO.</li> <li data-preserve-html="true"><strong>Adobe ACE</strong> : Adobe Color Engine, pour prendre en charge les profils ICC.</li> </ul> |
+| **Configuration** | **Gestion des couleurs** | Définissez le moteur à utiliser pour gérer les couleurs.Valeurs possibles :<ul data-preserve-html="true"> <li data-preserve-html="true"><strong>Hérité</strong> (par défaut) : utilisez la correction colorimétrique gamma sRVB/sRVB linéaire prédéfinie.</li> <li data-preserve-html="true"><strong>OpenColorIO</strong> : utilisez l&#39;intégration OCIO.</li> <li data-preserve-html="true"><strong>Adobe ACE</strong> : Adobe Color Engine, pour prendre en charge les profils ICC.</li> </ul> |
 |  | **Utiliser un fichier de paramètres prédéfinis** | Si cette option est activée, permet de piloter les paramètres de gestion des couleurs via un fichier de configuration json. |
 |  | **Fichier de paramètre prédéfini** | Chemin d’accès au fichier prédéfini, au format json. Pour plus de détails, voir ci-dessous. |
 |  |  |  |
-| **Paramètres de couleurs** | **Espace colorimétrique de travail** | Espace colorimétrique utilisé par le moteur pour fonctionner dans l’application. Il s’agit de l’espace colorimétrique à partir duquel les textures peuvent être converties (importées) ou exportées. Les valeurs possibles sont les suivantes :<ul data-preserve-html="true"> <li data-preserve-html="true"><strong>SRGB linéaire IEC61966-2.1</strong> (par défaut)</li> <li data-preserve-html="true"><strong>ACEScg ACES Working Space AMPAS S-2014-004</strong></li> <li data-preserve-html="true"><strong>Adobe RGB linéaire (1998)</strong></li> </ul> |
+| **Paramètres de couleurs** | **Espace colorimétrique de travail** | Espace colorimétrique utilisé par le moteur pour travailler dans l’application. Il s’agit de l’espace colorimétrique à partir duquel les textures peuvent être converties (importées) ou exportées. Les valeurs possibles sont les suivantes :<ul data-preserve-html="true"> <li data-preserve-html="true"><strong>SRGB linéaire IEC61966-2.1</strong> (par défaut)</li> <li data-preserve-html="true"><strong>ACEScg ACE Working Space AMPAS S-2014-004</strong></li> <li data-preserve-html="true"><strong>Adobe RGB linéaire (1998)</strong></li> </ul> |
 |  | **Intention de rendu** | Spécifiez la méthode utilisée pour convertir les couleurs entre les espaces colorimétriques.Valeurs possibles :<ul data-preserve-html="true"> <li data-preserve-html="true"><strong>Perception</strong></li> <li data-preserve-html="true"><strong>Saturation</strong> (par défaut)</li> <li data-preserve-html="true"><strong>Chromatique relatif</strong></li> <li data-preserve-html="true"><strong>Chromatique absolu</strong></li> </ul> |
 |  |  |  |
 | **Valeurs par défaut de l&#39;espace colorimétrique d&#39;importation de bitmap** | **Images 8 bits** | Espace colorimétrique à utiliser par défaut lors de l’importation de fichiers image 8 bits. |
@@ -48,7 +48,7 @@ Les paramètres disponibles sont les suivants :
 |  | **Images à virgule flottante** | Espace colorimétrique à utiliser par défaut lors de l’importation de fichiers image HDR/EXR. |
 |  | **Utiliser les profils ICC intégrés le cas échéant (recommandé)** | Si cette option est activée, utilisez les profils ICC depuis le fichier image pour ajuster leurs couleurs. |
 |  |  |  |
-| **Matière en Substance** | **Espace colorimétrique des matériaux par défaut** | Définissez l’espace colorimétrique à utiliser pour les entrées/sorties avec gestion des couleurs des matériaux de Substance. |
+| **matériau de Substance** | **Espace colorimétrique par Matériau** | Définissez l’espace colorimétrique à utiliser pour les matériaux de Substance d’entrée/sortie avec gestion des couleurs. |
 |  |  |  |
 | **Exporter l&#39;espace colorimétrique** | **Images 8 bits** | Espace colorimétrique à utiliser par défaut lors de l’exportation de fichiers image 8 bits. |
 |  | **Images 16 bits** | Espace colorimétrique à utiliser par défaut lors de l’exportation de fichiers image 16 bits. |

@@ -20,11 +20,11 @@ ht-degree: 0%
 
 # Point d’ancrage
 
-Un point d’ancrage permet d’exposer une ressource ou un élément de la pile de calques et de le référencer dans différentes zones de la pile à des fins différentes et avec un ensemble de réglages différent. Elles ouvrent un tout nouvel ensemble de possibilités, vous permettant de lier efficacement des calques ou des masques entre eux et d’avoir un seul point d’ancrage qui affecte plusieurs aspects de votre projet, transformant ainsi Substance 3D Painter en une expérience véritablement non linéaire.
+Un point d’ancrage permet d’exposer à n’importe quelle ressource ou élément de la pile de calques et de la référencer dans différentes zones de la pile de calques à des fins différentes et avec un jeu de réglages différent. Ils offrent un tout nouvel ensemble de possibilités, vous permettant de lier efficacement des calques ou des masques entre eux et d’avoir un seul point d’ancrage qui affecte plusieurs aspects de votre projet, transformant ainsi Substance 3D Painter en une expérience véritablement non linéaire.
 
 >[!NOTE]
 >
-> Un point d’ancrage ne peut être référencé qu’à l’intérieur de la même texture que celle qui a été créée. La création de liens entre un ancrage et sa ou ses références n’est pas possible entre les ensembles de textures.
+> Un point d’ancrage ne peut être référencé qu’à l’intérieur de la même texture qui a été créée. La création de liens entre une ancre et sa ou ses références n’est pas possible entre les Jeux de textures.
 
 ## Ajout d’un point d’ancrage
 
@@ -34,13 +34,13 @@ Les options Point d’ancrage sont disponibles dans le menu Effets. Ils peuvent 
 
 ## Utilisation d’un point d’ancrage comme référence
 
-Un point d’ancrage peut être référencé par un autre calque : le contenu du point d’ancrage est alors instancié dans le calque qui y fait référence.
+Un point d’ancrage peut être référencé par un autre calque : cela instancie le contenu du point d’ancrage dans le calque qui le référence.
 
 Les points d’ancrage peuvent être utilisés comme référence dans les ressources suivantes :
 
 * Calque de remplissage
 * Effet Fond
-* Entrée d’un filtre de substance (Effet, Procédure, Générateur)
+* Entrée d’un filtre Substance (Effet, Procédural, Générateur)
 
 ![](../../assets/anchor-point-resource.png)
 
@@ -57,6 +57,6 @@ Lorsque vous cliquez sur un point d’ancrage, la liste des calques dans lesquel
 
 ## Trouver un point d’ancrage
 
-Lorsque vous êtes un calque de remplissage/effet et que vous utilisez un point d’ancrage comme référence, vous pouvez accéder directement au point d’ancrage.
+Lorsque vous êtes un Calque de remplissage/effet et que vous utilisez un point d’ancrage comme référence, vous pouvez accéder directement au point d’ancrage.
 
 ![](../../assets/jump-to-anchor-point.png)

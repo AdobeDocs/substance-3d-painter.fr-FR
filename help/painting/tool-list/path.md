@@ -86,11 +86,11 @@ Il peut arriver qu’un tracé lisse ne soit pas idéal, soit parce qu’il ne s
 
 Pour basculer entre les tangentes lisses ou linéaires/brisées, double-cliquez simplement sur un vertex (ou utilisez le bouton dédié dans la barre d’outils contextuelle) :
 
-![Grille montrant comment contrôler les tangentes sur un tracé](../../assets/path_break_tangents.gif)
+![Grille montrant comment contrôler les tangentes sur un chemin](../../assets/path_break_tangents.gif)
 
-Pour contrôler plus précisément l’orientation des tangentes, utilisez le bouton Tangentes personnalisées de la barre d’outils contextuelle pour les remplacer manuellement :
+Pour contrôler plus précisément l’orientation des tangentes, utilisez le bouton tangentes personnalisées de la barre d’outils contextuelle pour les remplacer manuellement :
 
-![Grille montrant comment contrôler les tangentes sur un tracé](../../assets/path_control_tangents.gif)
+![Grille montrant comment contrôler les tangentes sur un chemin](../../assets/path_control_tangents.gif)
 
 Utilisez le raccourci du clavier **ALT** pour rompre les tangentes lors du déplacement, si le point n&#39;est pas déjà sélectionné.
 
@@ -137,15 +137,15 @@ La **barre d&#39;outils contextuelle** lorsque l&#39;outil **Chemin** est sélec
   </tr>
   <tr>
     <td><strong>Supprimer le vertex</strong><br><img src="../../assets/path_contextual_toolbar_delete.png" alt="Icône du vertex de suppression de tracé"/></td>
-    <td>Supprimer les sommets actuellement sélectionnés sur un tracé.</td>
+    <td>Supprimer les vertex actuellement sélectionnés sur un tracé.</td>
   </tr>
   <tr>
     <td><strong>Symétrie</strong><br><img src="../../assets/path_contextual_toolbar_symmetry.png" alt="Icône de la fonction symétrie"/></td>
-    <td>Activez ou désactivez la symétrie pour le tracé en cours. Pour plus d'informations, consultez la <a href="../symmetry/symmetry.md">documentation de la symétrie</a>.<br><img src="../../assets/v90_path_symmetry.gif" alt="Gif montrant un tracé dessiné en symétrie"/></td>
+    <td>Activez ou désactivez la symétrie pour le chemin d’accès en cours. Pour plus d'informations, consultez la <a href="../symmetry/symmetry.md">documentation de la symétrie</a>.<br><img src="../../assets/v90_path_symmetry.gif" alt="Gif montrant un tracé dessiné en symétrie"/></td>
   </tr>
   <tr>
     <td><strong>Masquer/ignorer la géométrie exclue</strong><br><img src="../../assets/path_contextual_toolbar_exclude.png" alt="Icône de la fonction d'exclusion de masque de géométrie"/></td>
-    <td>Si cette option est activée, peignez le tracé en cours à travers la géométrie masquée. Pour plus d'informations, consultez la <a href="../../interface/layer-stack/geometry-mask.md">documentation sur les masques de géométrie</a>.</td>
+    <td>Si cette option est activée, faites peinture le tracé actif à travers la géométrie masquée. Pour plus d'informations, consultez la <a href="../../interface/layer-stack/geometry-mask.md">documentation sur les masques de géométrie</a>.</td>
   </tr>
 </table>
 

@@ -28,9 +28,9 @@ Vous trouverez ci-dessous une liste de toutes les barres d’outils disponibles.
 
 ![](../assets/tool-toolbar.png){width="450px"}
 
-La **barre d&#39;outils** est disponible par défaut en haut à gauche de l&#39;interface principale. Elle répertorie tous les [outils de peinture](../painting/painting.md) pouvant être utilisés pour texturer le filet 3D du projet actuellement ouvert. Ces outils sont accessibles uniquement lorsqu’un calque de peinture est sélectionné.
+La **barre d&#39;outils** est disponible par défaut en haut à gauche de l&#39;interface principale. Elle répertorie tous les [outils de peinture](../painting/painting.md) pouvant être utilisés pour mettre en texture le Maillage 3D du projet actuellement ouvert. Ces outils ne sont accessibles que lorsqu’un calque de peinture est sélectionné.
 
-Certains outils ont un deuxième mode appelé « Physique » qui permet la peinture de particules. La peinture particulaire est également accessible en cliquant sur les paramètres prédéfinis Pinceau particule dans la fenêtre [Actifs](assets/assets.md).
+Certains outils ont un deuxième mode appelé « Physique » qui permet la peinture à la particule. La peinture de particule est également accessible en cliquant sur les paramètres prédéfinis de pinceau de Particule dans la fenêtre [Actifs](assets/assets.md).
 
 Cette barre d’outils peut uniquement être ancrée verticalement sur le côté gauche ou droit de l’interface principale.
 
@@ -56,11 +56,11 @@ La **Barre d&#39;outils des plug-ins** répertorie les plug-ins de script instal
 
 ![](../assets/contextual-toolbar.png){width="450px"}
 
-La barre d’outils contextuelle est une barre d’outils dont une partie du contenu change en fonction de l’outil actuellement sélectionné ou d’une autre propriété en cours de modification. Le côté gauche de la barre d&#39;outils peut changer, mais le côté droit est fixe et répertorie les raccourcis pour modifier l&#39;affichage de la [Fenêtre d&#39;affichage](viewport/viewport.md).
+La barre d’outils contextuelle est une barre d’outils dont une partie du contenu change en fonction de l’outil actuellement sélectionné ou d’une autre propriété en cours de modification. Le côté gauche de la barre d&#39;outils peut changer, mais le côté droit est fixe et répertorie les raccourcis pour modifier l&#39;affichage du [Viewport](viewport/viewport.md).
 
 Cette barre d’outils peut répertorier les propriétés des éléments suivants :
 
 * [Peinture](../painting/painting.md)
-* [Manipulateurs pour les projections de la couche de remplissage](../painting/fill-projections/fill-projections.md)
+* [Manipulateurs pour les projections de Calque de remplissage](../painting/fill-projections/fill-projections.md)
 
-Cette barre d&#39;outils ne peut pas être déplacée et se trouve toujours en haut des fenêtres.
+Impossible de déplacer cette barre d’outils. Elle se trouve toujours en haut des viewports.

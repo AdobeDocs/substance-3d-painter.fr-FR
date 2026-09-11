@@ -20,10 +20,10 @@ ht-degree: 0%
 
 # Consignes de performances
 
-Substance 3D Painter peut être très exigeant en fonction des besoins de votre projet (par exemple, lorsque vous travaillez avec des résolutions de texture très élevées ou des maillages polycount très élevés). Chacun des articles ci-dessous contient des conseils et des astuces pour garantir la meilleure expérience :
+Substance 3D Painter peut s’avérer très exigeant en fonction des besoins de votre projet (par exemple, lorsque vous travaillez avec des résolutions de texture très élevées ou des maillages de polycount très élevés). Chacun des articles ci-dessous contient des conseils et des astuces pour garantir la meilleure expérience :
 
 * [Gestion des calques](layer-management.md)
-* [Paramétrage du filet et des UV](mesh-and-uv-setup.md)
+* [Configuration de maillage et d’UV](mesh-and-uv-setup.md)
 * [Ressources et paramètres du projet](../project-resources.md)
 * [Conflit avec les applications en arrière-plan](conflicts-and-background-applications.md)
 * [VRAM et pilotes GPU](gpu-drivers.md)

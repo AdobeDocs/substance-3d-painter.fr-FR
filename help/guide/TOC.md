@@ -53,7 +53,7 @@ ht-degree: 15%
     + [Menu Modifier](/help/interface/main-menu/edit-menu.md)
     + [Menu Mode](/help/interface/main-menu/mode-menu.md)
     + [Menu Fenêtre](/help/interface/main-menu/window-menu.md)
-    + [Menu Fenêtre d’affichage](/help/interface/main-menu/viewport-menu.md)
+    + [menu viewport](/help/interface/main-menu/viewport-menu.md)
     + [Menus JavaScript et Python](/help/interface/main-menu/plugins-menu.md)
     + [Menu Aide](/help/interface/main-menu/help-menu.md)
   + [Configuration du projet](/help/interface/project-configuration.md)
@@ -64,19 +64,19 @@ ht-degree: 15%
     + [Raccourcis](/help/interface/settings/shortcuts.md)
     + [Configuration des bibliothèques](/help/interface/settings/libraries-configuration.md)
   + Paramètres du shader{#shader-settings}
-    + [Présentation des paramètres du nuanceur](/help/interface/shader-settings/shader-settings.md)
+    + [Présentation des paramètres Shader](/help/interface/shader-settings/shader-settings.md)
     + [Mise à jour d’un shader](/help/interface/shader-settings/updating-a-shader.md)
   + Ensemble de textures{#texture-set}
-    + [Présentation du groupe de textures](/help/interface/texture-set/texture-set.md)
-    + [Liste des ensembles de textures](/help/interface/texture-set/texture-set-list.md)
-    + [Paramètres du jeu de textures](/help/interface/texture-set/texture-set-settings.md)
-    + [Réaffectation du jeu de textures](/help/interface/texture-set/texture-set-reassignment.md)
+    + [présentation du jeu de textures](/help/interface/texture-set/texture-set.md)
+    + [liste de jeux de textures](/help/interface/texture-set/texture-set-list.md)
+    + [paramètres de jeu de textures](/help/interface/texture-set/texture-set-settings.md)
+    + [réaffectation de jeu de textures](/help/interface/texture-set/texture-set-reassignment.md)
   + [Barres d&#39;outils](/help/interface/toolbars.md)
   + Viewport{#viewport}
-    + [Présentation de la fenêtre d’affichage](/help/interface/viewport/viewport.md)
+    + [présentation du viewport](/help/interface/viewport/viewport.md)
     + [Vue 2D](/help/interface/viewport/2d-view.md)
     + [Vue 3D](/help/interface/viewport/3d-view.md)
-    + [Gestion de la caméra](/help/interface/viewport/camera-management.md)
+    + [gestion des caméras](/help/interface/viewport/camera-management.md)
   + Divers{#miscellaneous}
     + [Curseurs](/help/interface/miscellaneous/sliders.md)
     + [Journal](/help/interface/miscellaneous/log.md)
@@ -84,13 +84,13 @@ ht-degree: 15%
   + Mode Baking{#baking-mode}
     + [Bakers de map de maillage](/help/interface/baking-panels/mesh-map-bakers.md)
     + [Paramètres communs](/help/interface/baking-panels/common-mesh-map-settings.md)
-    + [Panneau Paramètres de maillage](/help/interface/baking-panels/mesh-map-settings.md)
-    + [Bûche de cuisson](/help/interface/baking-panels/baking-log.md)
+    + [Panneau Paramètres de map de maillage](/help/interface/baking-panels/mesh-map-settings.md)
+    + [journal de Baking](/help/interface/baking-panels/baking-log.md)
 + Peinture{#painting}
   + [Présentation de la peinture](/help/painting/painting.md)
   + Outils de peinture{#paint-tools}
-    + [Présentation de l’outil Peinture](/help/painting/tool-list/tool-list.md)
-    + [Pinceau](/help/painting/tool-list/paint-brush.md)
+    + [Présentation de l’outil peinture](/help/painting/tool-list/tool-list.md)
+    + [pinceau peinture](/help/painting/tool-list/paint-brush.md)
     + [Gomme](/help/painting/tool-list/eraser.md)
     + [Projection](/help/painting/tool-list/projection.md)
     + [Remplissage de polygone](/help/painting/tool-list/polygon-fill.md)
@@ -107,9 +107,9 @@ ht-degree: 15%
     + [Présentation de la symétrie](/help/painting/symmetry/symmetry.md)
     + [Symétrie en miroir](/help/painting/symmetry/mirror-symmetry.md)
     + [Symétrie radiale](/help/painting/symmetry/radial-symmetry.md)
-  + Saillies de remplissage{#fill-projections}
+  + Remplir les projections{#fill-projections}
     + [Présentation des projections de remplissage](/help/painting/fill-projections/fill-projections.md)
-    + [Remplissage - correspondance par tuile UV](/help/painting/fill-projections/fill-match-per-uv-tile.md)
+    + [Remplir - correspondance par Tuile UV](/help/painting/fill-projections/fill-match-per-uv-tile.md)
     + [UV projection](/help/painting/fill-projections/uv-projection.md)
     + [Projection triplanaire](/help/painting/fill-projections/tri-planar-projection.md)
     + [Projection planaire](/help/painting/fill-projections/planar-projection.md)
@@ -119,15 +119,15 @@ ht-degree: 15%
   + Préréglages{#presets}
     + [Présentation des paramètres prédéfinis](/help/painting/presets/presets.md)
     + [Création et enregistrement de paramètres prédéfinis](/help/painting/presets/creating-and-saving-presets.md)
-    + Création de paramètres prédéfinis de particules{#creating-particles-presets}
+    + Création de particules prédéfinies{#creating-particles-presets}
       + [Présentation de la création de particules](/help/painting/presets/creating-particles-pre/creating-particles-presets.md)
-      + [Installation de l’éditeur de particules](/help/painting/presets/creating-particles-pre/installing-the-particle-editor.md)
-      + [Présentation de l’éditeur de particules](/help/painting/presets/creating-particles-pre/overview-of-the-particle-editor.md)
-      + [Création d’un script de particules](/help/painting/presets/creating-particles-pre/creating-a-new-particle-script.md)
-    + Pinceaux prédéfinis Photoshop{#photoshop-brush-presets}
-      + [Présentation des pinceaux prédéfinis Photoshop](/help/painting/presets/photoshop-brush-presets/photoshop-brush-presets-abr.md)
-      + [Exportation de pinceaux prédéfinis depuis Photoshop](/help/painting/presets/photoshop-brush-presets/exporting-brush-presets-from-photoshop.md)
-      + [Importation de pinceaux prédéfinis Photoshop](/help/painting/presets/photoshop-brush-presets/importing-photoshop-brush-presets.md)
+      + [Installation de l’éditeur de particule](/help/painting/presets/creating-particles-pre/installing-the-particle-editor.md)
+      + [Présentation de l’éditeur de particule de données](/help/painting/presets/creating-particles-pre/overview-of-the-particle-editor.md)
+      + [Création d’un script de particule](/help/painting/presets/creating-particles-pre/creating-a-new-particle-script.md)
+    + paramètres prédéfinis de pinceau Photoshop{#photoshop-brush-presets}
+      + [Présentation des paramètres prédéfinis de pinceau Photoshop](/help/painting/presets/photoshop-brush-presets/photoshop-brush-presets-abr.md)
+      + [Exportation de Paramètres prédéfinis de pinceau à partir de Photoshop](/help/painting/presets/photoshop-brush-presets/exporting-brush-presets-from-photoshop.md)
+      + [Importation de Paramètres prédéfinis de pinceau Photoshop](/help/painting/presets/photoshop-brush-presets/importing-photoshop-brush-presets.md)
       + [Compatibilité des paramètres de pinceau Photoshop](/help/painting/presets/photoshop-brush-presets/photoshop-brush-parameters-compatibility.md)
   + Traits dynamiques{#dynamic-strokes}
     + [Présentation des traits dynamiques](/help/painting/dynamic-strokes/dynamic-strokes.md)
@@ -138,7 +138,7 @@ ht-degree: 15%
     + [Présentation de la peinture de couches](/help/painting/advanced-channel-painting/advanced-channel-painting.md)
     + [Occlusion ambiante](/help/painting/advanced-channel-painting/ambient-occlusion-painting.md)
     + [Flow Map](/help/painting/advanced-channel-painting/flow-map-painting.md)
-    + [Carte d’Height](/help/painting/advanced-channel-painting/height-map-painting.md)
+    + [Map height](/help/painting/advanced-channel-painting/height-map-painting.md)
     + [Carte des normales](/help/painting/advanced-channel-painting/normal-map-painting.md)
   + [Image vectorielle - .svg .ai](/help/painting/vector-graphic-svg.md)
   + [Ressources texte](/help/painting/text-resource.md)
@@ -160,11 +160,11 @@ ht-degree: 15%
     + [Éditeur de masque](/help/features/effects/generators/mask-editor.md)
     + [Edge Wear de métal](/help/features/effects/generators/metal-edge-wear.md)
     + [Position](/help/features/effects/generators/position.md)
-    + [Tri-Planar Advanced](/help/features/effects/generators/tri-planar-advanced.md)
+    + [Tri-Planaire avancé](/help/features/effects/generators/tri-planar-advanced.md)
     + [Distance de la bordure UV](/help/features/effects/generators/uv-border-distance.md)
     + [Vérificateur UV](/help/features/effects/generators/uv-checker.md)
     + [Couleur aléatoire UV](/help/features/effects/generators/uv-random-color.md)
-    + [Densité de texture UV](/help/features/effects/generators/uv-texel-density.md)
+    + [Densité UV](/help/features/effects/generators/uv-texel-density.md)
     + [Normales de l&#39;espace monde](/help/features/effects/generators/world-space-normals.md)
   + [Présentation des effets](/help/features/effects/effects.md)
   + [Peinture](/help/features/effects/paint.md)
@@ -174,12 +174,12 @@ ht-degree: 15%
   + [Filtre](/help/features/effects/filter.md)
   + [Point d’ancrage](/help/features/effects/anchor-point.md)
 + Baking{#baking}
-  + [Présentation de la boulangerie](/help/baking/baking.md)
-  + [Interface de cuisson](/help/baking/baking-interface.md)
-  + [Création de cartes de maillage](/help/baking/how-to-bake-mesh-maps.md)
+  + [Présentation du Baking](/help/baking/baking.md)
+  + [interface de Baking](/help/baking/baking-interface.md)
+  + [Comment baker des maps de maillage](/help/baking/how-to-bake-mesh-maps.md)
   + [Correction de la déviation](/help/baking/skew-correction.md)
   + [Réglages de map de maillage](/help/baking/mesh-map-settings.md)
-  + [Paramètres de visualisation d’ancrage](/help/baking/baking-visualization-settings.md)
+  + [paramètres de visualisation du Baking](/help/baking/baking-visualization-settings.md)
 + Contenu{#content}
   + Création d’effets personnalisés{#creating-custom-effects}
     + [Présentation de la création d’effets personnalisés](/help/content/creating-custom-effects/creating-custom-effects.md)
@@ -187,7 +187,7 @@ ht-degree: 15%
     + [Filtre spécifique au canal](/help/content/creating-custom-effects/channel-specific-filter.md)
     + [Générateurs](/help/content/creating-custom-effects/generators.md)
     + [Carte du maillage](/help/content/creating-custom-effects/mesh-map.md)
-    + [Entrée basée sur le maillage](/help/content/creating-custom-effects/mesh-based-input.md)
+    + [saisie par maillage](/help/content/creating-custom-effects/mesh-based-input.md)
     + [Données utilisateur](/help/content/creating-custom-effects/user-data.md)
   + Importation d’actifs{#importing-assets}
     + [Ajout de ressources par glisser-déposer](/help/content/importing-assets/import-drag-and-drop.md)
@@ -196,14 +196,14 @@ ht-degree: 15%
     + [Réception de ressources d’autres applications Substance 3D](/help/content/importing-assets/receiving-assets-from-other-substance-3d-applications.md)
 + Fonctionnalités{#features}
   + [Mise à jour automatique des ressources](/help/features/auto-update.md)
-  + [Déballage UV automatique](/help/features/automatic-uv-unwrapping.md)
+  + [Déplié automatique](/help/features/automatic-uv-unwrapping.md)
   + [Taille physique](/help/features/physical-size.md)
-  + [Matériaux et masques intelligents](/help/features/smart-materials-and-masks.md)
+  + [Matériaux adaptables et masques](/help/features/smart-materials-and-masks.md)
   + Subsurface Scattering{#subsurface-scattering}
-    + [Présentation de la diffusion sous la surface](/help/features/subsurface-scattering/subsurface-scattering.md)
+    + [Présentation de la subsurface scattering](/help/features/subsurface-scattering/subsurface-scattering.md)
     + [Activation de la sous-surface dans un projet](/help/features/subsurface-scattering/enabling-subsurface-in-a-project.md)
     + [Paramètres du sous-sol](/help/features/subsurface-scattering/subsurface-parameters.md)
-    + [Type de matériau de sous-surface](/help/features/subsurface-scattering/subsurface-material-type.md)
+    + [Type de Matériau souterrain](/help/features/subsurface-scattering/subsurface-material-type.md)
   + [Superposition dynamique de matériaux](/help/features/dynamic-material-layering.md)
   + [Reprojection UV](/help/features/uv-reprojection.md)
   + Tuiles UV{#uv-tiles}
@@ -226,16 +226,16 @@ ht-degree: 15%
     + [Mappage de tons](/help/features/post-processing/tone-mapping.md)
     + [Correction colorimétrique](/help/features/post-processing/color-correction.md)
     + [Profil colorimétrique](/help/features/post-processing/color-profile.md)
-  + Système de rendu d’images{#iray-renderer}
-    + [Présentation du moteur de rendu de chemin de fer](/help/features/iray-renderer/iray-renderer.md)
-    + [Paramètres de lecture](/help/features/iray-renderer/iray-settings.md)
+  + Moteur de rendu Iray{#iray-renderer}
+    + [Présentation du moteur de rendu Iray](/help/features/iray-renderer/iray-renderer.md)
+    + [Paramètres d’Iray](/help/features/iray-renderer/iray-settings.md)
     + [Paramètres de la visionneuse et de MDL](/help/features/iray-renderer/viewer-and-mdl-settings.md)
   + Plugins{#plugins}
     + [Présentation des plug-ins](/help/features/plugins/plugins.md)
     + [Enregistrement automatique](/help/features/plugins/autosave.md)
     + [Outil de mise à jour des ressources](/help/features/plugins/resources-updater.md)
     + [Pont ZBrush vers Painter](../features/plugins/zbrush-bridge.md)
-  + [Textures virtuelles fragmentées](/help/features/sparse-virtual-textures.md)
+  + [Sparse Virtual Texture](/help/features/sparse-virtual-textures.md)
   + [Ombrages personnalisés](/help/features/custom-shaders.md)
   + [SpaceMouse® par 3Dconnection](/help/features/spacemouse-by-3dconnexion.md)
   + [UNIVERSAL SCENE DESCRIPTION - USD](/help/features/universal-scene-description-usd.md)
@@ -252,25 +252,25 @@ ht-degree: 15%
     + Modèles de sortie par défaut{#default-output-templates}
       + [Modèles de sortie par défaut](/help/export/export-presets/default-presets.md)
       + [Modèles de sortie prédéfinis](/help/export/export-presets/predefined-presets/predefined-presets.md)
-      + [Paramètre prédéfini de rugosité du métal PBR USD](/help/export/export-presets/predefined-presets/usd-pbr-metal-roughness-preset.md)
+      + [Paramètre prédéfini de Rugosité Metal PBR d’USD](/help/export/export-presets/predefined-presets/usd-pbr-metal-roughness-preset.md)
     + [Création de Modèles de sortie](/help/export/creating-export-presets.md)
 + Support technique{#technical-support}
   + Consignes de performances{#performance-guidelines}
     + [Présentation des directives de performances](/help/technical-support/performances-guidelines/performances-guidelines.md)
-    + [Paramétrage du filet et des UV](/help/technical-support/performances-guidelines/mesh-and-uv-setup.md)
+    + [Configuration de maillage et d’UV](/help/technical-support/performances-guidelines/mesh-and-uv-setup.md)
     + [Gestion des calques](/help/technical-support/performances-guidelines/layer-management.md)
     + [Ressources et paramètres du projet](/help/technical-support/project-resources.md)
     + [Conflit avec les applications en arrière-plan](/help/technical-support/performances-guidelines/conflicts-and-background-applications.md)
     + [VRAM et pilotes GPU](/help/technical-support/performances-guidelines/gpu-drivers.md)
-  + [Configuration des stylos et des tablettes](/help/technical-support/configuring-pens-and-tablets.md)
+  + [Configuration des Stylets et des tablettes](/help/technical-support/configuring-pens-and-tablets.md)
   + [Exportation du fichier journal](/help/technical-support/exporting-the-log-file.md)
   + [Exportation d’un DXDiag](/help/technical-support/exporting-a-dxdiag.md)
   + Problèmes techniques{#technical-issues}
     + Problèmes de GPU{#gpu-issues}
-      + [Blocage lors de l’utilisation du GPU surcadencé](/help/technical-support/technical-issues/gpu-issues/crash-when-working-with-overclocked-gpu.md)
+      + [Crash lors de l’utilisation du GPU surcadencé](/help/technical-support/technical-issues/gpu-issues/crash-when-working-with-overclocked-gpu.md)
       + [Forcer le GPU externe sur le système d’exploitation Mac](/help/technical-support/technical-issues/gpu-issues/forcing-the-external-gpu-on-mac-os.md)
       + [Compatibilité des pilotes GPU](/help/technical-support/technical-issues/gpu-issues/gpu-drivers-compatibility.md)
-      + [Les pilotes GPU se bloquent lors de longs calculs - Blocage TDR](/help/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.md)
+      + [Crash de pilotes GPU avec calculs longs - crash TDR](/help/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.md)
       + [Le GPU a des pilotes obsolètes](/help/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers.md)
       + [Le GPU n’est pas reconnu](/help/technical-support/technical-issues/gpu-issues/gpu-is-not-recognized.md)
       + [Le GPU n’est pas reconnu et est mentionné comme GDI générique](/help/technical-support/technical-issues/gpu-issues/gpu-is-not-recognized-and-is-mentionned-as-gdi-generic.md)
@@ -280,36 +280,36 @@ ht-degree: 15%
       + [Painter ne démarre pas sur le bon GPU](/help/technical-support/technical-issues/gpu-issues/painter-doesn-t-start-on-the-right-gpu.md)
     + Problèmes de démarrage{#startup-issues}
       + [Échec du démarrage de l&#39;application en raison de Qt](/help/technical-support/technical-issues/startup-issues/application-failed-to-start-because-of-qt.md)
-      + [Blocage au démarrage](/help/technical-support/technical-issues/startup-issues/crash-or-freeze-during-startup.md)
+      + [Crash ou blocage au démarrage](/help/technical-support/technical-issues/startup-issues/crash-or-freeze-during-startup.md)
       + [Conflits de logiciels](/help/technical-support/technical-issues/startup-issues/software-conflicts.md)
     + Problèmes de rendu{#rendering-issues}
       + [Artefacts et problèmes sur les systèmes d’exploitation Mac avec des GPU personnalisés](/help/technical-support/technical-issues/rendering-issues/artifacts-and-glitches-on-mac-os-with-custom-gpus.md)
-      + [Les artefacts de bloc apparaissent sur les textures dans la clôture](/help/technical-support/technical-issues/rendering-issues/blocky-artifacts-appear-on-textures-in-the-viewport.md)
-      + [Le filet apparaît en rose dans la fenêtre](/help/technical-support/technical-issues/rendering-issues/mesh-appears-pink-in-the-viewport.md)
-      + [Filet clignotant vers le blanc lors du déplacement de l’appareil photo](/help/technical-support/technical-issues/rendering-issues/mesh-flash-to-white-when-moving-camera.md)
+      + [Des artefacts grossiers apparaissent sur les textures du viewport](/help/technical-support/technical-issues/rendering-issues/blocky-artifacts-appear-on-textures-in-the-viewport.md)
+      + [Maillage rose dans le viewport](/help/technical-support/technical-issues/rendering-issues/mesh-appears-pink-in-the-viewport.md)
+      + [Le maillage clignote en blanc lors du déplacement de la caméra](/help/technical-support/technical-issues/rendering-issues/mesh-flash-to-white-when-moving-camera.md)
       + [Certaines valeurs de mise à l’échelle HDPI ne fonctionnent pas](/help/technical-support/technical-issues/rendering-issues/some-hdpi-scaling-values-are-not-working.md)
-      + [La fenêtre d’affichage est rompue ou ne répond pas sur Ubuntu](/help/technical-support/technical-issues/rendering-issues/broken-viewport-ubuntu.md)
+      + [Le viewport semble cassé ou ne répond pas sur Ubuntu](/help/technical-support/technical-issues/rendering-issues/broken-viewport-ubuntu.md)
     + Problèmes de stabilité{#stability-issues}
-      + [Blocage lors de l’exportation](/help/technical-support/technical-issues/stability-issues/crash-during-export.md)
-      + [Blocage lors de l’ouverture ou de l’enregistrement d’un fichier](/help/technical-support/technical-issues/stability-issues/crash-when-opening-or-saving-a-file.md)
-      + [Blocage lors de la cuisson](/help/technical-support/technical-issues/stability-issues/crash-while-baking.md)
-      + [Blocage avec une mémoire virtuelle insuffisante](/help/technical-support/technical-issues/stability-issues/crash-with-low-virtual-memory.md)
+      + [Crash pendant l’exportation](/help/technical-support/technical-issues/stability-issues/crash-during-export.md)
+      + [Crash lors de l’ouverture ou de l’enregistrement d’un fichier](/help/technical-support/technical-issues/stability-issues/crash-when-opening-or-saving-a-file.md)
+      + [Crash lors du baking](/help/technical-support/technical-issues/stability-issues/crash-while-baking.md)
+      + [Crash à mémoire virtuelle faible](/help/technical-support/technical-issues/stability-issues/crash-with-low-virtual-memory.md)
       + [Écrans bleus Windows](/help/technical-support/technical-issues/stability-issues/windows-blue-screens.md)
     + Problèmes divers{#miscellaneous-issues}
       + [Message d’erreur de texture corrompue](/help/technical-support/technical-issues/miscellaneous-issues/corrupted-texture-error-message.md)
-      + [Les ressources de stockage ont disparu après la mise à jour 7.2](/help/technical-support/technical-issues/miscellaneous-issues/shelf-resources-are-gone-after-7-2-update.md)
+      + [Les ressources d’Étagère ont disparu après la mise à jour 7.2](/help/technical-support/technical-issues/miscellaneous-issues/shelf-resources-are-gone-after-7-2-update.md)
       + [Erreur : le lecteur ne contient aucun disque](/help/technical-support/technical-issues/miscellaneous-issues/error-there-is-no-disk-in-the-drive.md)
       + [Erreur avec dll api-ms-crt manquante](/help/technical-support/technical-issues/miscellaneous-issues/error-with-missing-api-ms-crt-dll.md)
       + [Impossible de glisser-déposer des fichiers dans l’étagère](/help/technical-support/technical-issues/miscellaneous-issues/impossible-to-drag-and-drop-files-into-the-shelf.md)
-      + [Impossible d’utiliser le raccourci clavier ALT sous Linux](/help/technical-support/technical-issues/miscellaneous-issues/impossible-to-use-the-alt-keyboard-shortcut-on-linux.md)
-      + [Actifs : les aperçus d’étagère sont vides.](/help/technical-support/technical-issues/miscellaneous-issues/assets-or-shelf-previews-are-empty.md)
+      + [Impossible d&#39;utiliser le raccourci du clavier ALT sous Linux](/help/technical-support/technical-issues/miscellaneous-issues/impossible-to-use-the-alt-keyboard-shortcut-on-linux.md)
+      + [Actifs : ou les aperçus d’étagère sont vides](/help/technical-support/technical-issues/miscellaneous-issues/assets-or-shelf-previews-are-empty.md)
   + Problèmes de workflow{#workflow-issues}
     + Problèmes d’exportation{#export-issues}
-      + [Mon mappage d’opacité exporté est totalement noir](/help/technical-support/workflow-issues/export-issues/my-exported-opacity-map-is-totally-black.md)
-      + [Dilatation de la texture ou remplissage](/help/technical-support/workflow-issues/export-issues/texture-dilation-or-padding.md)
+      + [Ma map opacity exportée est totalement noire](/help/technical-support/workflow-issues/export-issues/my-exported-opacity-map-is-totally-black.md)
+      + [dilatation ou remplissage de texture](/help/technical-support/workflow-issues/export-issues/texture-dilation-or-padding.md)
     + Problèmes liés aux outils{#tools-issues}
-      + [Le mappage normal semble incorrect](/help/technical-support/workflow-issues/tools-issues/normal-map-looks-incorrect-when-loaded-in-layer-or-tool-properties.md)
-      + [Fonds perdus de l’outil Peinture sur d’autres Îlots UV](/help/technical-support/workflow-issues/tools-issues/paint-tool-bleeds-on-other-uv-islands.md)
+      + [Map normal incorrecte](/help/technical-support/workflow-issues/tools-issues/normal-map-looks-incorrect-when-loaded-in-layer-or-tool-properties.md)
+      + [Fonds perdus de l’outil peinture sur d’autres Îlots UV](/help/technical-support/workflow-issues/tools-issues/paint-tool-bleeds-on-other-uv-islands.md)
     + Problèmes liés au projet{#project-issues}
       + [Fichier de projet corrompu](/help/technical-support/workflow-issues/project-issues/a-project-has-been-processed-as-a-text-file-and-is-now-corrupted.md)
       + [Chargement de fichiers à partir d’un réseau](/help/technical-support/workflow-issues/project-issues/loading-files-from-a-network.md)
@@ -318,9 +318,9 @@ ht-degree: 15%
     + Problèmes de bibliothèque{#library-issues}
       + [Les vignettes de l’étagère semblent incorrectes](/help/technical-support/workflow-issues/shelf-issues/thumbnails-in-the-shelf-look-incorrect.md)
       + [Erreur lors de l’importation d’une police](/help/technical-support/workflow-issues/shelf-issues/font-import.md)
-    + Problèmes d’aire d’affichage{#viewport-issues}
-      + [Les faces maillées disparaissent lorsque vous les regardez par l’arrière](/help/technical-support/workflow-issues/viewport-issues/mesh-faces-disappear-when-looking-at-them-from-behind.md)
-      + [Les fenêtres et les textures sont floues ou manquent de netteté](/help/technical-support/workflow-issues/viewport-issues/viewports-and-textures-are-blurry-or-lack-sharpness.md)
+    + Problèmes de viewport{#viewport-issues}
+      + [Les faces de maillage disparaissent lorsqu’on les regarde par derrière](/help/technical-support/workflow-issues/viewport-issues/mesh-faces-disappear-when-looking-at-them-from-behind.md)
+      + [Les viewports et les textures sont flous ou manquent de netteté](/help/technical-support/workflow-issues/viewport-issues/viewports-and-textures-are-blurry-or-lack-sharpness.md)
     + Problèmes de plug-ins{#plugins-issues}
       + [Le plug-in de Substance Source ne se charge pas](/help/technical-support/workflow-issues/plugins-issues/substance-source-plugin-doesn-t-load.md)
     + Problèmes de licence{#license-issues}
@@ -337,11 +337,11 @@ ht-degree: 15%
     + [Interrogation de la version actuelle du logiciel](/help/pipeline-and-integration/configuration/querying-current-software-version.md)
     + [Bureau à distance](/help/pipeline-and-integration/configuration/remote-desktop.md)
   + Gestion des ressources{#resource-management}
-    + [Emplacement du rayon et des ressources](/help/pipeline-and-integration/resource-management/shelf-and-assets-location.md)
+    + [Emplacement de l’Étagère et des ressources](/help/pipeline-and-integration/resource-management/shelf-and-assets-location.md)
     + Chemins d’accès aux ressources{#resource-paths}
       + [Ajout manuel de chemins d’accès aux ressources](/help/pipeline-and-integration/resource-management/adding-resource-paths-edi/adding-resource-paths-by-editing-preferences-manually.md)
       + [Modification manuelle des chemins d’accès aux ressources](/help/pipeline-and-integration/resource-management/adding-resource-paths-edi/editing-resource-paths-manually.md)
-      + [Modifier les préférences de tablette avec Python](/help/pipeline-and-integration/resource-management/adding-resource-paths-edi/editing-the-shelf-preferences-with-python.md)
+      + [Modification des préférences d’Étagère avec Python](/help/pipeline-and-integration/resource-management/adding-resource-paths-edi/editing-the-shelf-preferences-with-python.md)
     + [Ajout manuel de recherches enregistrées](/help/pipeline-and-integration/resource-management/adding-saved-searches-manually.md)
     + [Préférences et migration du contenu](/help/pipeline-and-integration/resource-management/preferences-and-content-migration.md)
     + [Exclusion de ressources dans un chemin de ressources](/help/pipeline-and-integration/resource-management/excluding-resources-in-a-resource-path.md)
@@ -370,15 +370,15 @@ ht-degree: 15%
       + [Lib Vectors - API de shader](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-vectors-shader-api.md)
     + Paramètres - API de shader{#parameters-shader-api}
       + [Tous les paramètres personnalisés - API de shader](/help/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-custom-params-shader-api.md)
-      + [Tous les paramètres du moteur - API de shader](/help/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-engine-params-shader-api.md)
+      + [Tous les paramètres Moteur - API de shader](/help/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-engine-params-shader-api.md)
       + [Paramètres Tous les états de rendu - API de shader](/help/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-rendering-states-params-shader-api.md)
       + [Matériaux de liaison de calques - API de shader](/help/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-bind-materials-shader-api.md)
-      + [Superposition Déclarer les piles - API de shader](/help/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-declare-stacks-shader-api.md)
+      + [Piles de déclaration de superposition - API de shader](/help/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-declare-stacks-shader-api.md)
     + Shaders - API de shader{#shaders-shader-api}
-      + [Couche de matériau PBR - API de shader](/help/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-material-layering-shader-api.md)
+      + [Couche de Matériau PBR - API de shader](/help/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-material-layering-shader-api.md)
       + [PBR Metal Rough - API de shader](/help/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-metal-rough-shader-api.md)
       + [Pixellisation - API de shader](/help/scripting-and-development/api-reference/shader-api/shaders-shader-api/pixelated-shader-api.md)
-      + [Surface Shader - API de shader](/help/scripting-and-development/api-reference/shader-api/shaders-shader-api/surface-shader-shader-api.md)
+      + [Shader de surface - API de shader](/help/scripting-and-development/api-reference/shader-api/shaders-shader-api/surface-shader-shader-api.md)
       + [Toon - API de shader](/help/scripting-and-development/api-reference/shader-api/shaders-shader-api/toon-shader-api.md)
 + Notes de mise à jour{#release-notes}
   + [Présentation des notes de mise à jour](/help/release-notes/release-notes.md)

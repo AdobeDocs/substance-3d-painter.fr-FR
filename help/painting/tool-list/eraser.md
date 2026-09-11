@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting/tool-list/eraser.html"
 breadcrumb-title: ''
-description: Utilisez l’outil Gomme de Substance 3D Painter pour supprimer la peinture et les textures de vos maquettes 3D avec un contrôle précis.
+description: Utilisez l’outil Gomme de Substance 3D Painter pour supprimer les peintures et les textures de vos maquettes 3D avec un contrôle précis.
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Tool list > Eraser
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 La Gomme est un outil de peinture qui efface/masque ce qui a été peint précédemment par d’autres outils. Cet outil affecte un seul calque à la fois.
 
-La gomme partage des paramètres et des comportements communs avec l’outil Peinture. Pour en savoir plus sur le pinceau, les commandes alpha et le gabarit, consultez la [page de l&#39;outil Peinture](paint-brush.md).
+Les Gommes partagent des paramètres et des comportements communs avec l’outil Peinture. Pour en savoir plus sur le pinceau, les commandes alpha et de pochoir, consultez la [page de l&#39;outil Peinture](paint-brush.md).
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Lors de l&#39;effacement d&#39;informations, il est possible de n&#39;affecter q
 
 >[!NOTE]
 >
-> Contrairement à l’outil Peinture, la gomme permet uniquement de définir les couches qui seront affectées. Il n’est pas possible de charger une ressource à partir du tiroir pour affecter chaque canal.
+> Contrairement à l’outil Peinture, la Gomme permet uniquement de définir les couches qui seront affectées. Il n’est pas possible de charger une ressource à partir de l’Étagère pour affecter chaque canal.
 
 * Si tous les canaux sont activés, la gomme supprime les informations dans tous les canaux :
 

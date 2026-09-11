@@ -70,7 +70,7 @@ uniform int maxPOMSamples;
 ```
 
 
-Calcul du décalage des coordonnées de la texture en fonction de la parallaxe
+Calcul du décalage des coordonnées de texture en fonction de la parallaxe
 
 ```
 vec2 getParallaxOffset(SparseCoord coord, vec3 viewTS) 
@@ -171,7 +171,7 @@ vec2 getParallaxOffset(SparseCoord coord, vec3 viewTS)
 ```
 
 
-Mise à jour des coordonnées de la texture d’entrée avec le décalage de parallaxe
+Mise à jour des coordonnées de texture d’entrée avec décalage de parallaxe
 
 ```
 void applyParallaxOffset(inout V2F inputs, vec3 viewTS) 

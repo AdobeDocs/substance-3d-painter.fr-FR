@@ -25,7 +25,7 @@ Il peut être utile de savoir où sont stockées les préférences au cas où vo
 
 ## Préférences
 
-Ce chemin est l’emplacement des préférences de l’application (raccourcis enregistrés, chemins d’accès aux ressources/tablettes, disposition de l’interface, etc.).
+Ce chemin est l’emplacement des préférences de l’application (raccourcis enregistrés, chemins d’Étagère/d’actif, disposition de l’interface, etc.).
 
 <table data-preserve-html="true"><colgroup> <col/> <col/> <col/> </colgroup><tbody><tr><th>Système</th><th>Version</th><th>Tracé</th></tr><tr><td rowspan="2"><p><strong>Windows</strong></p><p>(registre)</p></td><td><strong>7.2</strong> ou version plus récente</td><td>HKEY_CURRENT_USER\Software\Adobe\Adobe Substance 3D Painter</td></tr><tr><td>Ancien système</td><td>HKEY_CURRENT_USER\Software\Allegorithmic\Substance Painter</td></tr><tr><td rowspan="2"><p><strong>Mac</strong></p><p>(bibliothèque)</p></td><td><strong>7.2</strong> ou version plus récente</td><td>/Users/[nom d’utilisateur]/Library/Preferences/com.adobe.Adobe Substance 3D Painter.plist</td></tr><tr><td>Ancien système</td><td>/Users/[nom d’utilisateur]/Library/Preferences/com.substance3d.Substance Painter.plist</td></tr><tr><td rowspan="2"><strong>Linux</strong></td><td><strong>7.2</strong> ou version plus récente</td><td>/home/[nom d’utilisateur]/.config/Adobe/Adobe Substance 3D Painter.conf</td></tr><tr><td>Ancien système</td><td>/home/[nom d’utilisateur]/.config/Allegorithmic/Substance Painter.conf</td></tr></tbody></table>
 

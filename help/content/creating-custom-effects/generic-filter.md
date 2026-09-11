@@ -25,11 +25,11 @@ Un effet générique sera appliqué sur tous les canaux du document, y compris l
 * **niveaux de gris**, il sera appliqué à chaque composant (R, V, B et A) de chaque couche (couleur de base, métallique, rugosité, etc.)
 * **couleur**, elle sera appliquée sur la couche de couleur telle quelle ou convertie en niveaux de gris en interne pour affecter les couches de niveaux de gris
 
-Le nœud d&#39;entrée de l&#39;effet doit avoir l&#39;**identificateur** ou l&#39;**utilisation** défini **entrée** et son nœud de sortie doit avoir une **sortie**. Notez que les filtres basés sur la **couleur** ne peuvent pas être utilisés sur le masque d&#39;un calque, seuls les filtres en **niveaux de gris** seront compatibles.
+Le noeud d&#39;entrée de l&#39;effet doit avoir l&#39;**identifiant** ou l&#39;**utilisation** défini **entrée** et son nœud de sortie doit avoir une **sortie**. Notez que les filtres basés sur la **couleur** ne peuvent pas être utilisés sur le masque d&#39;un calque, seuls les filtres en **niveaux de gris** seront compatibles.
 
 >[!NOTE]
 >
-> Il est possible d&#39;utiliser l&#39;**utilisation** ou l&#39;**identifiant** dans un nœud d&#39;entrée (l&#39;utilisation a la priorité).
+> Il est possible d&#39;utiliser l&#39;**utilisation** ou l&#39;**identifiant** dans un noeud d&#39;entrée (l&#39;utilisation a la priorité).
 
 Exemple :
 

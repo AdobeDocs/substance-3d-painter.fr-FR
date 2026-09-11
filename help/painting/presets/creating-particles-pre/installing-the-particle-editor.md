@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting/presets/creating-particles-presets/installing-the-particle-editor.html"
 breadcrumb-title: ''
-description: Découvrez comment installer le plug-in éditeur de particules pour Substance 3D Painter afin de créer des pinceaux de particules prédéfinis personnalisés.
+description: Découvrez comment installer le plug-in Éditeur de particules pour Substance 3D Painter afin de créer des paramètres prédéfinis de pinceau de particules personnalisés.
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Presets > Creating particles presets > Installing the particle editor
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Installation de l’éditeur de particules
+title: Installation de l’éditeur de particule
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,9 +18,9 @@ ht-degree: 0%
 ---
 
 
-# Installation de l’éditeur de particules
+# Installation de l’éditeur de particule
 
-Pour créer et modifier le comportement du système de particules, l&#39;éditeur PopcornFX doit être utilisé.\
+Pour créer et modifier le comportement du système de particule, l’éditeur PopcornFX doit être utilisé.\
 Téléchargez l&#39;éditeur à partir de l&#39;un des liens suivants : [Miroir 1](http://downloads.popcornfx.com/updates/1.5.5.20787/PopcornFx-Editor_Setup_v1.5.5.20787.exe), [Miroir 2](https://www.dropbox.com/s/z1vwzvk2ywlug4p/PopcornFx-Editor_Setup_v1.5.5.20787.exe?dl=1).
 
 >[!NOTE]

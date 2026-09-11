@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting/symmetry.html"
 breadcrumb-title: ''
-description: Apprenez à utiliser les outils de symétrie de Substance 3D Painter pour créer des effets de peinture de texture équilibrés et réfléchis.
+description: Apprenez à utiliser les outils de symétrie de Substance 3D Painter pour créer des effets de peinture à la texture équilibrés et réfléchis.
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Symmetry
 helpx_experience_level: ""
@@ -22,33 +22,33 @@ ht-degree: 5%
 
 ![](../../assets/radial-demo.gif)
 
-La symétrie est un paramètre utile que vous pouvez utiliser sur les calques de pinceau et de remplissage pour dupliquer facilement et précisément le contenu en fonction de contraintes géométriques :
+La symétrie est un paramètre utile que vous pouvez utiliser sur le pinceau et les calques de remplissage pour dupliquer facilement et avec précision du contenu en fonction de contraintes géométriques :
 
-* Avec les calques de pinceau, utilisez la symétrie pour dupliquer vos traits de pinceau individuels à d’autres endroits de votre filet en fonction de l’axe de symétrie.
-* Avec les calques de remplissage, utilisez la symétrie pour dupliquer l&#39;intégralité du calque de remplissage autour de l&#39;axe de symétrie.
+* Avec les calques de pinceau, utilisez la symétrie pour dupliquer vos traits de pinceau individuels à d’autres endroits de votre maillage en fonction de l’axe de la symétrie.
+* Avec les Calques de remplissage, utilisez la symétrie pour dupliquer l’ensemble du calque de remplissage autour de l’axe de symétrie.
 
-En savoir plus sur les types de symétrie utilisables dans Painter :
+En savoir plus sur les types de symétries que vous pouvez utiliser dans Painter :
 
 * [Symétrie miroir](mirror-symmetry.md)
 * [Symétrie radiale](radial-symmetry.md)
 
-## Utilisation de la symétrie avec l’outil Peinture
+## Utilisation de la Symétrie avec l’outil Peinture
 
-Vous pouvez activer la symétrie avec le bouton <b> Symétrie</b> dans la barre d&#39;outils contextuelle.
+Vous pouvez activer la symétrie avec le bouton de Symétrie <b></b> dans la barre d&#39;outils contextuelle.
 
 ![](../../assets/SymmetryToggle.png)
 
-Ajustez les options de symétrie à l&#39;aide du bouton <b>Paramètres de symétrie</b> dans la barre d&#39;outils contextuelle.
+Ajustez les options de Symétrie à l&#39;aide du bouton <b>Paramètres de Symétrie</b> dans la barre d&#39;outils contextuelle.
 
 ![](../../assets/BrushSymmetrySettings.png)
 
 >[!NOTE]
 >
-> La projection de peinture et la projection de pochoir dans la vue 2D ne prennent pas en charge la symétrie. Nous vous recommandons d’utiliser la vue 3D à la place si nécessaire.
+> La projection peinture et la projection pochoir dans la Vue 2D ne prennent pas en charge la symétrie. Nous vous recommandons d’utiliser la vue 3D à la place si nécessaire.
 
-## Utilisation de la symétrie avec les calques de remplissage
+## Utiliser la Symétrie avec les Calques de remplissage
 
-Lorsqu&#39;un calque de remplissage est sélectionné, vous pouvez utiliser le <b>bouton Symétrie</b> dans la barre d&#39;outils contextuelle, comme pour la symétrie de l&#39;outil Pinceau. Avec les calques de remplissage, vous pouvez également activer et accéder aux options de symétrie à partir du <b>panneau Propriétés</b>. La symétrie n&#39;est disponible qu&#39;avec les méthodes de projection suivantes :
+Lorsqu&#39;un Calque de remplissage est sélectionné, vous pouvez utiliser le <b>bouton Symétrie</b> dans la barre d&#39;outils contextuelle, comme pour la symétrie de l&#39;outil Pinceau. Avec Calque de remplissage, vous pouvez également activer et accéder aux options de Symétrie à partir du <b>panneau Propriétés</b>. La symétrie n’est disponible qu’avec les méthodes de projection suivantes :
 
 <table>
 <tr style="border: 0;">
@@ -56,18 +56,18 @@ Lorsqu&#39;un calque de remplissage est sélectionné, vous pouvez utiliser le <
 
 * Projection triplanaire
 * Projection planaire
-* Projection de sphère
+* Projection sphère
 * Projection cylindrique
 * Projection de la déformation
 
-Lorsqu&#39;une méthode de projection éligible est sélectionnée, Activez la symétrie dans la section Symétrie du panneau des propriétés pour accéder aux options de symétrie.
+Lorsqu’une méthode de projection éligible est sélectionnée, Activez la symétrie dans la section Symétrie du panneau Propriétés pour accéder aux options de symétrie.
 
-Si une méthode de projection non prise en charge est sélectionnée, l&#39;option <b>Activer la symétrie</b> ne sera pas disponible et le bouton <b>Symétrie</b> de la barre d&#39;outils contextuelle sera grisé.
+Si une méthode de projection non prise en charge est sélectionnée, l&#39;option <b>Activer la symétrie</b> ne sera pas disponible et le <b>bouton Symétrie</b> de la barre d&#39;outils contextuelle sera grisé.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Capture d&#39;écran de la section Symétrie du panneau des propriétés](../../assets/FillSymmetry.png){width="400px"}
+![Capture d&#39;écran de la section Symétrie du panneau Propriétés](../../assets/FillSymmetry.png){width="400px"}
 
 </td>
 </tr>
@@ -75,4 +75,4 @@ Si une méthode de projection non prise en charge est sélectionnée, l&#39;opti
 
 >[!NOTE]
 >
-> Les options d&#39;affichage de la symétrie sont uniquement disponibles à partir du bouton <b>Paramètres de symétrie</b> dans la barre d&#39;outils contextuelle. Vous ne pouvez pas modifier les paramètres d&#39;affichage de la symétrie à partir du <b>panneau Propriétés</b>.
+> Les options d&#39;affichage des symétries sont uniquement disponibles à partir du <b>bouton Paramètres de Symétrie</b> dans la barre d&#39;outils contextuelle. Vous ne pouvez pas modifier les paramètres d&#39;affichage des symétries à partir du <b>panneau Propriétés</b>.

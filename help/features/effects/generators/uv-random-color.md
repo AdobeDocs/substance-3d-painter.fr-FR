@@ -1,6 +1,6 @@
 ---
 title: Couleur aléatoire UV
-description: Découvrez comment utiliser le générateur de couleurs aléatoires UV de Substance 3D Painter.
+description: Découvrez comment utiliser le générateur de couleurs aléatoires Substance 3D Painter UV.
 source-git-commit: b7770a9497f0db047433aec32c31b57f8dc13ae7
 workflow-type: tm+mt
 source-wordcount: '182'
@@ -14,7 +14,7 @@ ht-degree: 2%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top">Utilitaire <img src="../../../assets/generators/icon_uv_random_color.png" alt=""/><br><strong>In:</strong>, masque</td>
-    <td style="border: 0;" valign="top"><strong>Description</strong><br>Le générateur de couleurs aléatoires UV attribue des couleurs unies uniques à chaque Îlot UV. C'est souvent utile comme outil de diagnostic avec des maillages complexes.<br><br>La couleur aléatoire UV peut être utilisée pour créer un masque (sortie noir et blanc) ou directement comme calque de remplissage pour appliquer une variation de couleur à votre maillage en fonction des Îlots UV, par exemple pour randomiser chaque planche d'un plancher en bois.</td>
+    <td style="border: 0;" valign="top"><strong>Description</strong><br>Le générateur de couleurs aléatoires UV attribue des couleurs unies uniques à chaque Îlot UV. C'est souvent utile comme outil de diagnostic avec des maillages complexes.<br><br>La commande Couleur aléatoire peut être utilisée pour créer un UV (sortie noir et blanc) ou directement comme calque de remplissage pour appliquer une variation de couleur à votre maillage en fonction des Îlots UV, par exemple pour randomiser chaque planche d'un plancher en bois.</td>
   </tr>
 </table>
 
@@ -33,7 +33,7 @@ ht-degree: 2%
   </tr>
   <tr>
     <td><strong>Seed</strong></td>
-    <td>Définissez la valeur de départ utilisée pour générer la texture dirt. <br><ul><li>Cliquez sur Aléatoire pour passer à une autre valeur de départ aléatoire.</li><li>Cliquez sur le crayon pour afficher la valeur de départ actuelle, puis entrez une valeur spécifique si nécessaire.</li></ul></td>
+    <td>Définissez la valeur de départ utilisée pour générer la texture de dirt. <br><ul><li>Cliquez sur Aléatoire pour passer à une autre valeur de départ aléatoire.</li><li>Cliquez sur le crayon pour afficher la valeur de départ actuelle, puis entrez une valeur spécifique si nécessaire.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Mode Source de couleur</strong></td>

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting/tool-list/filled-path.html"
 breadcrumb-title: ''
-description: Apprenez à utiliser l’outil Tracé avec fond dans Substance 3D Painter pour créer des formes et des tracés avec fond pour la peinture de textures.
+description: Apprenez à utiliser l’outil Tracé rempli dans Substance 3D Painter pour créer des formes et des tracés remplis à des fins de peinture sur texture.
 helpx_creative_field: ""
 helpx_description: Substance 3D Painter
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 9%
 
 ![](../../assets/banner_filled_path.jpg)
 
-L’outil de tracé rempli est un type d’outil de tracé qui permet de créer des formes sur la surface du modèle 3D remplies d’une couleur uniforme.
+L’outil Tracé rempli est un type d’outil de tracé qui permet de créer des formes sur la surface du modèle 3D rempli d’une couleur uniforme.
 
 ![](../../assets/filled_path_across_gaps.png)
 

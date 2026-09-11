@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/features/spacemouse-by-3dconnexion.html"
 breadcrumb-title: ''
-description: Apprenez à utiliser SpaceMouse by 3D connection avec Substance 3D Painter pour une navigation 3D et un contrôle d’aire d’affichage améliorés.
+description: Apprenez à utiliser SpaceMouse by 3D connection avec Substance 3D Painter pour une navigation 3D et un contrôle de viewport améliorés.
 helpx_creative_field: ""
 helpx_description: Painter > Features > SpaceMouse by 3Dconnexion
 helpx_experience_level: ""
@@ -22,27 +22,27 @@ ht-degree: 2%
 
 ![](../assets/spacemouse-banner.jpg)
 
-SpaceMouse® by 3Dconnection est un appareil qui permet de naviguer facilement en 3D. Il peut être utilisé pour manipuler le modèle de caméra/3D dans la fenêtre d’application.
+SpaceMouse® by 3Dconnection est un appareil qui permet de naviguer facilement en 3D. Il peut être utilisé pour manipuler le modèle caméra/3D dans le viewport d’application.
 
 * SpaceMouse® est pris en charge depuis la version 7.4.2.
 * Pour utiliser correctement cet appareil, assurez-vous d&#39;installer le dernier pilote de [3Dconnection](https://3dconnexion.com/uk/drivers/).
 
 >[!NOTE]
 >
-> Les utilisateurs qui utilisent le modèle compact et doivent fréquemment faire pivoter la carte d&#39;environnement peuvent choisir d&#39;affecter la touche MAJ au bouton gauche.
+> Les utilisateurs qui utilisent le modèle compact et doivent fréquemment faire pivoter la map d&#39;environnement peuvent choisir d’affecter la touche MAJ au bouton gauche.
 
 ## Tutoriel
 
 ## Vue d’ensemble
 
-Le bouton de commande principal ou SpaceMouse® vous permet de faire pivoter, de panoramiser et de zoomer dans la clôture d’une manière qui n’est pas possible avec les commandes normales de la souris/du stylet et du clavier. Le dispositif peut être utilisé en combinaison avec la souris et les tablettes avec le stylet.
+Le bouton de commande principal ou SpaceMouse® vous permet de faire pivoter, de faire un panoramique et de zoomer dans le viewport d’une manière qui n’est pas possible avec les commandes normales de la souris/du stylet et du clavier. Le dispositif peut être utilisé en combinaison avec la souris et les tablettes avec le stylet.
 
 Tous les modèles et toutes les versions doivent être compatibles avec l’application :
 
 | Modèle | Description | Visuel |
 | --- | --- | --- |
 | **Modèle compact** | Modèle de base avec la commande Bouton. | <div><img class="confluence-embedded-image" data-preserve-html="true" src="../assets/3Dconnexion_SpaceMouse-Wireless-400x400.png" width="200"/></div> |
-| **Modèle Pro** | Contrôle des boutons et boutons supplémentaires pour les raccourcis clavier. | <div><img class="confluence-embedded-image" data-preserve-html="true" src="../assets/3Dconnexion_SpaceMouse-Pro-400x400.png" width="200"/></div> |
+| **Modèle Pro** | Commande de bouton et boutons supplémentaires pour le raccourci du clavier. | <div><img class="confluence-embedded-image" data-preserve-html="true" src="../assets/3Dconnexion_SpaceMouse-Pro-400x400.png" width="200"/></div> |
 | **Modèle d&#39;entreprise** | Commande de bouton, boutons supplémentaires et affichage contextuel. | <div><img class="confluence-embedded-image" data-preserve-html="true" src="../assets/3Dconnexion_SpaceMouse-Enterprise-400x400.png" width="200"/></div> |
 
 >[!NOTE]
@@ -85,10 +85,10 @@ Définissez le comportement du bouton en 3D :
 | Paramètre | Description |
 | --- | --- |
 | Mode objet | Le bouton est l’objet 3D lui-même, il est utilisé par défaut. |
-| Mode appareil photo | Contrôlez librement la caméra en 3D. |
-| Mode de la caméra cible | Contrôlez la caméra en ciblant toujours un point dans l’espace 3D. |
+| Mode caméra | Contrôlez librement la caméra en 3D. |
+| Mode de Caméra cible | Contrôlez la caméra en ciblant toujours un point dans l’espace 3D. |
 | Mode hélicoptère | Contrôlez un hélicoptère dans l’espace 3D. |
-| Verrouiller l’horizon | Pour verrouiller la caméra afin que l&#39;horizon soit toujours horizontal. Painter propose déjà une option similaire dans ses paramètres, mais elle peut être contrôlée séparément ici. Il est verrouillé par défaut. |
+| Verrouiller l’horizon | Pour verrouiller la caméra afin que l’horizon soit toujours horizontal. Painter propose déjà une option similaire dans ses paramètres, mais elle peut être contrôlée séparément ici. Il est verrouillé par défaut. |
 
 #### Centre de rotation
 
@@ -98,10 +98,10 @@ Définissez le comportement de la petite icône de pivot :
 
 | Paramètre | Description |
 | --- | --- |
-| Auto | Déplacez automatiquement la cible de pivot ou de caméra. Si cette option est désactivée, elle reste toujours collée au pivot d&#39;origine du maillage. |
-| Toujours afficher | Le point pivot est toujours affiché dans la clôture 3D, même lorsqu’il n’interagit pas avec le périphérique. |
-| Afficher sur le mouvement | Le point pivot s’affiche dans la clôture 3D uniquement lors de l’interaction avec le périphérique. Il s’agit de l’option par défaut. |
-| Masquer | Supprimez complètement le point pivot dans la fenêtre 3D. |
+| Auto | Déplacez automatiquement la cible de pivot ou de caméra. Si cette option est désactivée, elle reste toujours attachée au pivot d&#39;origine du maillage. |
+| Toujours afficher | Le point pivot est toujours affiché dans le viewport 3D, même lorsqu’il n’interagit pas avec l’appareil. |
+| Afficher sur le mouvement | Le point pivot s’affiche dans le viewport 3D uniquement lors de l’interaction avec l’appareil. Il s’agit de l’option par défaut. |
+| Masquer | Supprimez complètement le point pivot dans le viewport 3D. |
 
 >[!NOTE]
 >

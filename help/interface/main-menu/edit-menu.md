@@ -29,4 +29,4 @@ Le menu Modifier permet d’accéder rapidement aux actions Annuler/Rétablir, m
 | **Rétablir** | Allez un peu plus loin dans la pile [Historique](../history.md). |
 | **Configuration du projet** | Ouvrez la fenêtre [paramètres du projet](../project-configuration.md) du projet actuel. |
 | **Paramètres** | Ouvrez la fenêtre générale des [paramètres de l&#39;application](../settings/settings.md). |
-| **Cartes de maillage de cuisson** | Ouvrez la fenêtre [Cuisson](../../baking/baking.md). |
+| **Maps de maillage Baker** | Ouvrez la fenêtre [Baking](../../baking/baking.md). |

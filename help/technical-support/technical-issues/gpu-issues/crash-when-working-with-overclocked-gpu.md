@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/technical-issues/gpu-issues/crash-when-working-with-overclocked-gpu.html"
 breadcrumb-title: ''
-description: Découvrez comment corriger les blocages de Substance 3D Painter lors de l’utilisation de GPU surcadencés pour des performances d’application stables.
+description: Découvrez comment corriger les crashs Substance 3D Painter lorsque vous travaillez avec des GPU surcadencés pour des performances d’application stables.
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > GPU Issues > Crash when working with overclocked GPU
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Blocage lors de l’utilisation du GPU surcadencé
+title: Crash lors de l’utilisation du GPU surcadencé
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Blocage lors de l’utilisation du GPU surcadencé
+# Crash lors de l’utilisation du GPU surcadencé
 
 Les GPU surcadencés peuvent souvent être plus instables car ils fonctionnent à des fréquences qui n’ont pas été initialement conçues par le constructeur GPU. Si votre GPU est surcadencé et que vous rencontrez des problèmes de stabilité, nous vous recommandons de revenir aux fréquences par défaut d’usine pendant un certain temps.
 

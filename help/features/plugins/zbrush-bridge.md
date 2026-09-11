@@ -18,13 +18,13 @@ ht-degree: 2%
 
 ![Image promotionnelle montrant une ressource rendue en étant recouverte par la même ressource dans Zbrush et Painter.](../../assets/zbrush_promotional.png)
 
-Avec le plug-in Substance Bridge, il n’est pas nécessaire de suivre le long processus d’exportation des fichiers à faible et à fort poly, d’importation dans Painter, de configuration et d’exécution des pâtisseries.
+Avec le plug-in Substance Bridge, il n’est pas nécessaire de suivre le long processus d’exportation des fichiers à faible et à fort poly, d’importation dans Painter, de configuration et d’exécution des bakes.
 
 Pour commencer à utiliser le pont Zbrush vers Painter :
 
 1. Assurez-vous que la version 2026.2.0 de ZBrush au moins est installée.
 1. Activez le plug-in dans Painter en vous assurant que **Python > zbrush_painter_plugin** est coché.
-1. Depuis ZBrush, **Envoyer vers Painter** est disponible dans **Texture > Pont de Substance**
+1. Depuis ZBrush, **Envoyer vers Painter** est disponible dans **Texture > Substance Bridge**
 
 ![Image du plug-in Substance Bridge dans ZBrush](../../assets/zbrush_painterSendTo.png)
 
@@ -39,19 +39,19 @@ Vous pouvez configurer les paramètres suivants pour la création automatique de
 | Tout | Envoie chaque outil secondaire, quelle que soit la visibilité. Que l’œil soit allumé ou éteint, tout est envoyé. |
 | visible(s) | Envoie uniquement les sous-outils lorsque l’icône en forme d’œil est activée dans la liste des sous-outils. |
 | Actif | Envoie uniquement le sous-outil sélectionné |
-| Envoyer PolyPaint | Convertit PolyPaint en texture plaquée et l’applique en tant que calque de remplissage dans Substance, où vous pouvez peindre dessus et vous fondre avec lui. |
-| Normales lisses | Lisse les normales tangentes à l’exportation afin que les maillages à facettes apparaissent lisses en Substance, en accord avec leur rendu par les moteurs de jeu. Désactivez cette option pour voir la facettisation réelle de la géométrie. |
-| Cartes de cuisson automatique | Exécute automatiquement les algorithmes de boulonnage de Substance une fois le modèle arrivé, en générant des cartes de normales, d&#39;occlusion ambiante, de courbure et d&#39;autres cartes de détails à partir de la comparaison maillage haut/bas. |
-| Forcer le déballage automatique UV | Déclenche l’algorithme de déballage UV de la Substance sur chaque SubTool qui arrive. Désactivez cette option si votre modèle contient déjà de bons UV, car ils sont écrasés. |
-| Niveau de subdivision | Détermine quels niveaux de subdivision sont envoyés. Le niveau affiché est envoyé uniquement. Faible et élevé envoie les niveaux les plus bas et les plus élevés pour la mise en biscuits et constitue l’option recommandée pour la plupart des workflows. |
-| Jeu de textures | Contrôle la répartition de l&#39;espace UV en Substance : par sous-outil (un ensemble de textures par sous-outil) ou par polygroupe (un ensemble de textures par polygroupe dans chaque sous-outil). |
+| Envoyer PolyPaint | Convertit PolyPaint en un calque de texture et l’applique en tant que calque de remplissage de Substance, avec lequel vous pouvez appliquer une peinture et fusionner. |
+| Normales lisses | Lisse les normales de tangente lors de l’exportation afin que les maillages à facettes apparaissent lisses dans la Substance, en accord avec leur rendu par les moteurs de jeu. Désactivez cette option pour voir la facettisation réelle de la géométrie. |
+| Mappages de Baking automatique | Exécute automatiquement les algorithmes de baking de la Substance une fois celle-ci arrivée, en générant des maps normal, des ambients occlusion, des courbures et d&#39;autres cartes de détails à partir de la comparaison maillage haut/bas. |
+| Forcer l’UV | Déclenche l’algorithme d’déplié de la Substance sur chaque SubTool qui arrive. Désactivez cette option si votre modèle contient déjà de bons UV, car ils sont écrasés. |
+| Niveau de subdivision | Détermine quels niveaux de subdivision sont envoyés. Le niveau affiché est envoyé uniquement. Faible et élevé envoie les niveaux les plus bas et les plus élevés pour le baking et constitue l’option recommandée pour la plupart des workflows. |
+| Jeu de textures | Contrôle la répartition de l&#39;espace UV en Substance : par sous-outil (un jeu de textures par sous-outil) ou par polygroupe (un jeu de textures par polygroupe dans chaque sous-outil). |
 
-Lorsque Painter reçoit le modèle, si l’option Auto-bake est activée, la cuisson est lancée. La subdivision la plus basse du modèle est la maille importée en tant que maille à faible poly, et la subdivision la plus haute est utilisée en tant que maille à fort poly pour cuire les détails. ZBrush peut traiter un nombre beaucoup plus élevé de polygones que Painter, alors assurez-vous que le maillage bas poly a une taille de travail optimale (cela dépendra de la machine, mais moins de 1 million est préférable).
+Lorsque Painter reçoit le modèle, si l’option baking automatique est activée, le baking est lancé. La subdivision la plus basse du modèle est le maillage importé en tant que maillage de faible niveau de polyvalence, tandis que la subdivision la plus élevée est utilisée en tant que polyvalence élevée pour baker les détails. ZBrush peut traiter un nombre de polygones beaucoup plus élevé que Painter, alors assurez-vous que le maillage low poly a une taille de travail optimale (cela dépend de la machine, mais moins de 1 million est préférable).
 
-Les ensembles de textures de Painter représentent des affectations de matériau. Un ensemble de textures équivaut à un espace UV.
+Dans Painter, les jeux de textures représentent des affectations de matériau. Un Jeu de textures équivaut à un espace UV.
 
-* Par outil secondaire crée un ensemble de textures pour chaque outil secondaire (toutes les parties de l’outil secondaire partagent le même espace UV), ce qui constitue l’option la plus simple.
-* Par groupe de polygones crée un ensemble de textures par groupe de polygones dans chaque sous-outil, ce qui vous permet de mieux contrôler les affectations de matériaux.
+* Par outil secondaire, un Jeu de textures est créé pour chaque outil secondaire (toutes les parties de l’outil secondaire partagent le même espace UV), ce qui constitue l’option la plus simple.
+* Par groupe de polices, un Jeu de textures par groupe de polices est créé dans chaque sous-outil, ce qui vous permet de mieux contrôler les affectations de matériaux.
 
 >[!NOTE]
 >

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pbr-shader-api.html"
 breadcrumb-title: ''
-description: Accédez à la référence Lib PBR API de shader pour Substance 3D Painter afin de créer des matériaux de rendu basés physiquement dans des nuanceurs personnalisés.
+description: Accédez à la référence Lib PBR API de shader pour Substance 3D Painter afin de créer des matériaux de rendu physiques dans des nuanceurs personnalisés.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib PBR - Shader API
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ uniform float maxLod;
 ```
 
 
-Un int représentant le nombre d&#39;échantillons effectués pour le calcul de la contribution au specular. Plus la qualité est élevée et plus l&#39;impact sur les performances est important.
+Un int représentant le nombre d&#39;échantillons prélevés pour le calcul de contribution au specular. Plus la qualité est élevée et plus l&#39;impact sur les performances est important.
 
 ```
 //: param custom { 

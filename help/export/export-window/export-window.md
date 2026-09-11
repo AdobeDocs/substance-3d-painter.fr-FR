@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ![](../../assets/export-textures-window.png){width="500px"}
 
-Ouvrez la <b>fenêtre d’exportation </b> avec <b>Fichier > Exporter les textures </b> ou le raccourci clavier <b>Ctrl + Maj + E</b>.
+Ouvrez la <b>fenêtre d’exportation </b> avec <b>Fichier > textures d’exportation </b> ou raccourci du clavier <b>Ctrl + Maj + E</b>.
 
 La fenêtre <b>Exporter</b> est divisée en trois onglets :
 

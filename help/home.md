@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/home.html"
 breadcrumb-title: ''
-description: Commencez avec Substance 3D Painter pour peindre des textures directement sur des modèles 3D et créer des surfaces matérielles réalistes.
+description: Commencez avec Substance 3D Painter pour peinture des textures directement sur des modèles 3D et créer des surfaces de matériau réalistes.
 helpx_creative_field: ""
 helpx_description: Painter > Home
 helpx_experience_level: ""
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-Substance 3D Painter est un logiciel de peinture 3D qui vous permet de texturer et de rendre vos maillages 3D.
+Substance 3D Painter est un logiciel de peinture 3D qui vous permet de réaliser la texture et le rendu de vos maillages 3D.
 
 Cette documentation est conçue pour vous aider à apprendre à utiliser ce logiciel, des techniques de base aux techniques avancées.
 
@@ -68,17 +68,17 @@ Si vous avez une question à laquelle il n&#39;y a pas de réponse dans ce manue
 
 * [Liste d&#39;outils](painting/tool-list/tool-list.md) : cette page détaille tous les outils de peinture disponibles et explique comment les utiliser.
 * [Ligne droite](painting/straight-line.md) : la ligne droite est un moyen facile de tracer une ligne avec n’importe quel outil de peinture, avec moins de clics et plus de précision.
-* [Souris paresseuse](painting/lazy-mouse.md) : la souris paresseuse est un décalage de distance entre le curseur de la souris et la peinture réelle qui permet de peindre des traits plus précis ou lisses.
-* [Symétrie](painting/symmetry/symmetry.md) : la symétrie est l&#39;action de peindre en plusieurs endroits en même temps en fonction de contraintes géométriques.
-* [Projections de remplissage](painting/fill-projections/fill-projections.md) — Les effets de remplissage et de calque de remplissage projettent une texture directement sur le filet en fonction d&#39;un mode spécifique. Ce type de calque/effet évite de peindre manuellement des textures sur le modèle 3D. Les paramètres de la projection peuvent être modifiés via la fenêtre Propriétés.
+* [Retard des souris](painting/lazy-mouse.md) : le Retard des souris est un décalage de distance entre le curseur de la souris et la peinture réelle qui permet de mettre peinture à des traits plus précis ou lisses.
+* [Symétrie](painting/symmetry/symmetry.md) : la Symétrie est l’action de peindre simultanément en plusieurs endroits en fonction de contraintes géométriques.
+* [projections de remplissage](painting/fill-projections/fill-projections.md) : les effets de Calque de remplissage et de remplissage projettent une texture directement sur le maillage en fonction d&#39;un mode spécifique. Ce type de calque/d’effet évite de peinture manuelle des textures sur le modèle 3D. Les paramètres de la projection peuvent être modifiés via la fenêtre Propriétés.
 * [Paramètres prédéfinis](painting/presets/presets.md) : les paramètres prédéfinis sont des configurations enregistrées des outils de peinture. Cette page explique comment et pourquoi les utiliser.
 * [Traits dynamiques](painting/dynamic-strokes/dynamic-strokes.md) — Les Traits dynamiques sont des coups de pinceau réguliers alimentés par des fichiers de Substance qui peuvent être modifiés pour chaque tampon à l’intérieur d’un coup de pinceau.
-* [Peinture de couches avancée](painting/advanced-channel-painting/advanced-channel-painting.md) : vous pouvez peindre sur quelques couches par défaut utilisées dans les nuanceurs pour créer des effets avancés ou complexes. Par exemple, peindre des informations sur l’height qui sont converties en une carte normale.
+* [Peinture de couches avancée](painting/advanced-channel-painting/advanced-channel-painting.md) : vous pouvez peindre sur quelques couches par défaut utilisées dans les nuanceurs pour créer des effets avancés ou complexes. Par exemple, peindre des informations d’height converties en map normal.
 
 ### Baking
 
-* [Création de cartes de maillage](baking/how-to-bake-mesh-maps.md)
-* [Paramètres de visualisation d’ancrage](baking/baking-visualization-settings.md)
+* [Comment baker des maps de maillage](baking/how-to-bake-mesh-maps.md)
+* [paramètres de visualisation du Baking](baking/baking-visualization-settings.md)
 
 ### Contenu
 
@@ -87,19 +87,19 @@ Si vous avez une question à laquelle il n&#39;y a pas de réponse dans ce manue
 
 ### Fonctionnalité
 
-* [Déballage UV automatique](features/automatic-uv-unwrapping.md)
+* [Déplié automatique](features/automatic-uv-unwrapping.md)
 * [Effets](features/effects/effects.md)
 * [Taille physique](features/physical-size.md)
-* [Matériaux et masques intelligents](features/smart-materials-and-masks.md)
+* [Matériaux adaptables et masques](features/smart-materials-and-masks.md)
 * [Subsurface Scattering](features/subsurface-scattering/subsurface-scattering.md)
 * [Superposition dynamique de matériaux](features/dynamic-material-layering.md)
 * [Reprojection UV](features/uv-reprojection.md)
 * [Tuiles UV](features/uv-tiles/uv-tiles.md)
 * [Gestion des couleurs](features/color-management/color-management.md)
 * [Post-traitement](features/post-processing/post-processing.md)
-* [Système de rendu d’images](features/iray-renderer/iray-renderer.md)
+* [Moteur de rendu Iray](features/iray-renderer/iray-renderer.md)
 * [Plugins](features/plugins/plugins.md)
-* [Textures virtuelles fragmentées](features/sparse-virtual-textures.md)
+* [Sparse Virtual Texture](features/sparse-virtual-textures.md)
 * [Ombrages personnalisés](features/custom-shaders.md)
 * [SpaceMouse® par 3Dconnection](features/spacemouse-by-3dconnexion.md)
 * [Universal Scene Description (USD)](features/universal-scene-description-usd.md)
@@ -117,7 +117,7 @@ Si vous avez une question à laquelle il n&#39;y a pas de réponse dans ce manue
 ### Support technique
 
 * [Consignes de performances](technical-support/performances-guidelines/performances-guidelines.md)
-* [Configuration des stylos et des tablettes](technical-support/configuring-pens-and-tablets.md)
+* [Configuration des Stylets et des tablettes](technical-support/configuring-pens-and-tablets.md)
 * [Exportation du fichier journal](technical-support/exporting-the-log-file.md)
 * [Exportation d’un DXDiag](technical-support/exporting-a-dxdiag.md)
 

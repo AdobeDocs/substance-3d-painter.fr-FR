@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-emissive-shader-api.html"
 breadcrumb-title: ''
-description: Accédez à la référence Lib Emissive API de shader pour Substance 3D Painter afin de créer des matériaux émissifs et des effets lumineux.
+description: Accédez à la référence Lib Emissive API de shader pour Substance 3D Painter afin de créer des matériaux emissive et des effets lumineux.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Emissive - Shader API
 helpx_experience_level: ""
@@ -31,7 +31,7 @@ import lib-sparse.glsl
 ```
 
 
-Texture de couche émissive.
+Texture de la couche emissive.
 
 ```
 //: param auto channel_emissive 
@@ -40,7 +40,7 @@ uniform SamplerSparse emissive_tex;
 ```
 
 
-Valeur utilisée pour régler l’intensité d’émission.
+Valeur utilisée pour régler l’intensité emissive.
 
 ```
 //: param custom { 
@@ -61,7 +61,7 @@ uniform float emissive_intensity;
 ```
 
 
-Calculer l&#39;éclat émissif à l&#39;œil de l&#39;observateur
+Calculer l&#39;éclat de l&#39;emissive à l&#39;œil du spectateur
 
 ```
 vec3 pbrComputeEmissive(SamplerSparse emissive, SparseCoord coord) 

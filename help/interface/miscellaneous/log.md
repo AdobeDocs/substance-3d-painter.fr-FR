@@ -26,5 +26,5 @@ Le journal permet à Substance 3D Painter et aux [plug-ins](../../features/plugi
 
 Le journal est divisé en deux onglets.
 
-* L&#39;**onglet Général** affiche des informations relatives à votre projet et à votre scène, y compris des détails d&#39;exportation.
+* L&#39;onglet **Général** affiche des informations relatives à votre projet et à votre scène, y compris des détails d&#39;exportation.
 * L&#39;**onglet Actifs** affiche les erreurs et les journaux spécifiquement liés au **panneau Actifs**.

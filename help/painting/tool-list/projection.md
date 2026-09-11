@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting/tool-list/projection.html"
 breadcrumb-title: ''
-description: Utilisez l’outil Projection de Substance 3D Painter pour projeter des images 2D sur des surfaces 3D dans le cadre de travaux de peinture de textures.
+description: Utilisez l’outil Projection de Substance 3D Painter pour projeter des images 2D sur des surfaces 3D dans le cadre de travaux de peinture sur texture.
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Tool list > Projection
 helpx_experience_level: ""
@@ -22,14 +22,14 @@ ht-degree: 1%
 
 ![](../../assets/image2015-3-19-17-56-54.png){width="50px"}
 
-La projection est un outil qui permet de peindre un matériau en le projetant dans l’espace de l’écran/fenêtre. Il partage des commandes similaires à celles du gabarit.
+La projection est un outil qui permet de mettre en peinture un matériau en le projetant dans l’espace écran/viewport. Il partage des commandes similaires à celles du pochoir.
 
-Il est possible de modifier la transformation de projection en appuyant sur le **raccourci S** :
+Il est possible de modifier la transformation de projection en appuyant sur **raccourci S** :
 
-* Utilisez **S + clic gauche de la souris** pour faire pivoter le gabarit.
-* Utilisez **S + clic gauche de la souris + MAJ** pour aligner/contraindre à la rotation du gabarit.
-* Utilisez **S + clic droit de la souris** pour zoomer/dézoomer sur le gabarit.
-* Utilisez **S + clic du milieu** pour traduire le gabarit.
+* Utilisez **S + clic gauche de la souris** pour faire pivoter le pochoir.
+* Utilisez **S + clic gauche de la souris + MAJ** pour contraindre/limiter la rotation du pochoir.
+* Utilisez **S + clic droit de la souris** pour zoomer/dézoomer sur le pochoir.
+* Utilisez **S + clic du milieu** pour translater le pochoir.
 
 <table>
 <tr style="border: 0;">
@@ -51,5 +51,5 @@ Il est possible de modifier la transformation de projection en appuyant sur le *
 </tr>
 </table>
 
-* **Projection** : outil de peinture basé sur la projection de l’espace d’écran. Cet outil affiche et répète un motif sur la clôture.
-* **Projection physique** : outil de peinture Projection avec des propriétés physiques basées sur des paramètres prédéfinis de particules.
+* **Projection** : outil de Peinture basé sur la projection de l’espace d’écran. Cet outil affiche et répète un motif sur le viewport.
+* **Projection physique** : outil de peinture de Projection avec des propriétés physiques basées sur des paramètres prédéfinis de particules.

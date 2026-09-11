@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting/lazy-mouse.html"
 breadcrumb-title: ''
-description: Apprenez à utiliser la souris dans Substance 3D Painter pour créer des coups de pinceau fluides et lisses avec un curseur lent.
+description: Apprenez à utiliser retard des souris dans Substance 3D Painter pour créer des coups de pinceau fluides et fluides avec un curseur à réponse retardée.
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Lazy mouse
 helpx_experience_level: ""
@@ -22,23 +22,23 @@ ht-degree: 2%
 
 ![](../assets/lazy-mouse-example.png)
 
-La souris Paresseuse est un décalage de distance entre le curseur de la souris et la peinture réelle qui permet de peindre des traits plus précis ou lisses.
+Le Retard des souris est un décalage de distance entre le curseur de la souris et la peinture réelle qui permet de mettre peinture à des traits plus précis ou lisses.
 
 Il peut être activé via la [barre d&#39;outils contextuelle](../interface/toolbars.md). Cela rend la peinture propre et la ligne continue plus facile.
 
-## Activation de la souris relâchée
+## Activation du Retard des souris
 
-Pour activer ou désactiver la souris relâchée, cliquez simplement sur le bouton disponible dans la barre d’outils contextuelle :
+Pour activer ou désactiver le Retard des souris, cliquez simplement sur le bouton disponible dans la barre d’outils contextuelle :
 
 ![](../assets/lazy-mouse-button.png)
 
-Une fois activé, un cercle gris doit être visible autour du curseur du pinceau dans la clôture :
+Une fois activé, un cercle gris doit être visible autour du curseur du pinceau dans le viewport :
 
 ![](../assets/lazy-mouse-radius.png)
 
-## Rayon de la souris paresseuse
+## Rayon du retard des souris
 
-Dans la barre d’outils contextuelle, il est possible de modifier la distance de la souris relâchée. La distance définit le rayon selon lequel les tampons du pinceau seront peints à partir de l’emplacement d’origine. Plus la distance est petite, plus les tampons seront peints tôt, ce qui permet des virages rapides mais réduit le lissage de la ligne peinte.
+Dans la barre d’outils contextuelle, il est possible de modifier la distance du Retard des souris. La distance définit le rayon selon lequel les tampons seront peints à partir de l’emplacement d’origine de la peinture. Plus la distance est petite, plus les tampons seront peints tôt, ce qui permet des virages rapides mais réduit le lissage de la ligne peinte.
 
 * Grande distance :
 

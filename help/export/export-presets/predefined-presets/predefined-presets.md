@@ -30,5 +30,5 @@ Vous trouverez ci-dessous une liste des paramètres prédéfinis non modifiables
 * Sketchfab
 * Substance 3D Stager
 * [USDz (Apple AR)](usd-pbr-metal-roughness-preset.md)
-* cassure métallique glTF PBR
-* glTF PBR Rugosité du métal + texture Displacement (expérimental)
+* glTF PBR Metal Rugosité
+* GlTF PBR Rugosité métallique + texture Displacement (expérimental)

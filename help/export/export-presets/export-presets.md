@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/getting-started/export/export-presets.html"
 breadcrumb-title: ''
-description: Apprenez à utiliser les modèles de sortie dans Substance 3D Painter pour configurer les formats d’exportation de textures et les correspondances de canaux.
+description: Apprenez à utiliser les modèles de sortie dans Substance 3D Painter pour configurer les formats d’exportation de texture de données et les mappages de canaux.
 helpx_creative_field: ""
 helpx_description: Painter > Getting Started > Export > Output templates
 helpx_experience_level: ""

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/pipeline-and-integration/resource-management/excluding-resources-in-a-resource-path.html"
 breadcrumb-title: ''
-description: Découvrez comment exclure des ressources spécifiques des chemins d’accès dans Substance 3D Painter pour une meilleure organisation des rayons.
+description: Découvrez comment exclure des ressources spécifiques des chemins d’accès dans Substance 3D Painter pour une meilleure organisation de l’étagère.
 helpx_creative_field: ""
 helpx_description: Painter > Pipeline and integration > Resource management > Excluding resources in a resource path
 helpx_experience_level: ""

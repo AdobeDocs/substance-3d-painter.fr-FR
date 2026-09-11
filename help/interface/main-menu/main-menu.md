@@ -28,6 +28,6 @@ Situé au-dessus de la barre d’outils, le menu principal vous permet d’accé
 * [Menu Modifier](edit-menu.md)
 * [Menu Mode](mode-menu.md)
 * [Menu Fenêtre](window-menu.md)
-* [Menu Fenêtre d’affichage](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/viewport-170460351.html)
+* [menu viewport](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/viewport-170460351.html)
 * [Menu Plug-ins](plugins-menu.md)
 * [Menu Aide](help-menu.md)

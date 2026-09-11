@@ -1,5 +1,5 @@
 ---
-description: Découvrez comment utiliser le générateur de normales d’espace universel de Substance 3D Painter.
+description: Découvrez comment utiliser le générateur de Normales des espaces monde Substance 3D Painter.
 title: Normales de l'espace monde
 source-git-commit: b7770a9497f0db047433aec32c31b57f8dc13ae7
 workflow-type: tm+mt
@@ -14,7 +14,7 @@ ht-degree: 8%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_world_space_normals.png" alt=""/><br><strong>Entrée :</strong> masque, générateur, niveaux de gris, fusion</td>
-    <td style="border: 0;" valign="top"><strong>Description</strong><br>Le générateur de normales de l'espace universel utilise la carte des normales de l'espace universel pour colorer votre modèle ou appliquer des effets en fonction de la direction de chaque surface dans l'espace 3D. Par exemple, de haut en bas.<br><br>Le générateur de normes de l'espace universel génère une texture monochrome (noir et blanc). Par conséquent, il est utile de générer des masques pour appliquer divers effets, tels que dirt, dust, neige ou rouille, en fonction des directions des faces.<br><br>Les cartes de position ancrée et de normales d'espace universel sont requises en tant qu'entrées d'image. <a href="../../../baking/baking.md">En savoir plus sur la cuisson ici</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Description</strong><br>Le générateur de Normales des espaces monde utilise la map normal bakée de l’espace universel pour colorer votre modèle ou appliquer des effets en fonction de la direction de chaque surface dans l’espace 3D. Par exemple, de haut en bas.<br><br>Le générateur de Normales des espaces monde génère une texture monochrome (noir et blanc). Vous pouvez ainsi générer des masques afin d’appliquer divers effets (dirt, dust, neige ou rouille) en fonction du sens de la face.<br><br>Des cartes de position et de normale de l'espace monde Bakées sont requises en tant qu'entrées d'image. <a href="../../../baking/baking.md">En savoir plus sur le baking ici</a>.</td>
   </tr>
 </table>
 
@@ -22,9 +22,9 @@ ht-degree: 8%
 
 | Saisir un nom | Description |
 | --- | --- |
-| Couleur de la **texture** | Utilisez une texture personnalisée ou un point d’ancrage. |
-| Couleur des **normales de l&#39;espace universel** | Utilisez la carte des normales de l&#39;espace universel. |
-| **Couleur du dégradé de position** | Utilisez le mappage de position ancré. |
+| Couleur **Texture** | Utilisez une texture personnalisée ou un point d’ancrage. |
+| Couleur **Normales des espaces monde** | Utilisez le mappage de Normales des espaces monde baké. |
+| **Couleur du dégradé de position** | Utilisez le mappage de position baké. |
 
 ## Paramètres
 
@@ -34,20 +34,20 @@ ht-degree: 8%
 | **Flou global** | Adoucissez le masque final uniformément une fois tous les effets combinés. |
 | **Balance globale** | Déplacez la balance du masque final une fois que tous les effets sont combinés entre le noir et le blanc, comme dans un réglage de la luminosité. |
 | **Contraste global** | Réglez le contraste du masque final une fois tous les effets combinés. |
-| **Utiliser la texture** | Activez ou désactivez l’utilisation d’une texture plaquée personnalisée. |
+| **Utiliser la Texture** | Activer/désactiver l’utilisation d’un mappage de texture personnalisé. |
 
 ### Normale de l’espace monde
 
 | Nom du paramètre | Description |
 | --- | --- |
-| **Inverser** | Inversez uniquement les normales de l’espace univers. |
-| **Flou** | Lissez uniquement les normales de l’espace univers. |
-| **Balance** | Réglez uniquement la balance des normales de l’espace univers en déplaçant le point médian vers le noir ou le blanc comme un contrôle de luminosité. |
+| **Inverser** | Inversez uniquement les normales des espaces monde. |
+| **Flou** | Lissez uniquement les normales des espaces monde. |
+| **Balance** | Réglez uniquement la balance des normales des espaces monde en déplaçant le milieu vers le noir ou le blanc comme un contrôle de luminosité. |
 | **Contraste** | Réglez uniquement le contraste/l’atténuation des normales de l’espace univers. |
-| **Luminosité** | Réglez la luminosité des normales de l’espace univers uniquement. |
-| **De droite à gauche** | Réglez la façon dont l’effet est appliqué de gauche à droite sur le filet. |
-| **De Haut En Bas** | Réglez la façon dont l’effet est appliqué de haut en bas sur le filet. |
-| **De l&#39;avant vers l&#39;arrière** | Réglez la façon dont l’effet est appliqué d’avant en arrière sur le filet. |
+| **Luminosité** | Réglez la luminosité des normales des espaces monde uniquement. |
+| **De droite à gauche** | Ajustez la façon dont l’effet est appliqué de gauche à droite sur le Maillage. |
+| **De Haut En Bas** | Ajustez la façon dont l’effet est appliqué de haut en bas sur le Maillage. |
+| **De l&#39;avant vers l&#39;arrière** | Ajustez la façon dont l’effet est appliqué d’avant en arrière sur le Maillage. |
 
 #### Normale de l&#39;espace monde/De droite à gauche
 
@@ -87,7 +87,7 @@ ht-degree: 8%
   </tr>
   <tr>
     <td><strong>Conversion en niveaux de gris</strong></td>
-    <td>Définissez la méthode utilisée pour convertir la couleur en niveaux de gris. Le <a href="grayscale-conversion.md">générateur de conversion en niveaux de gris dispose d'informations supplémentaires sur le fonctionnement de chaque méthode</a>.</td>
+    <td>Définissez la méthode utilisée pour convertir la couleur en niveaux de gris. Le <a href="grayscale-conversion.md">générateur de Conversions en niveaux de gris dispose d'informations supplémentaires sur le fonctionnement de chaque méthode</a>.</td>
   </tr>
   <tr>
     <td><strong>Mode de fusion</strong></td>
@@ -107,10 +107,10 @@ ht-degree: 8%
   </tr>
   <tr>
     <td><strong>Triplanaire</strong></td>
-    <td>Lorsque l’option Triplanaire est activée, la texture est projetée à partir de trois directions (axes X, Y, Z) au lieu de dépendre uniquement des UV.<br><ul><li>Sans triplan, la texture suit la disposition UV.</li><li>Avec la texture triplanaire, la texture est projetée à partir de plusieurs angles et mélangée.</li></ul></td>
+    <td>Lorsque l’option Triplanaire est activée, la texture est projetée à partir de trois directions (axes X, Y et Z) au lieu de dépendre uniquement des UV.<br><ul><li>Sans triplan, la texture suit la disposition de l’UV.</li><li>Avec le mode triplanaire, la texture est projetée sous plusieurs angles et fusionnée.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Contraste triplanaire</strong></td>
-    <td>Ajustez la fluidité de fusion d’une texture lors de sa projection à l’aide du placage triplanaire. Cela ajuste la douceur de la fusion entre les projections de chaque direction.</td>
+    <td>Réglez la fluidité de fusion d’une texture lors de sa projection à l’aide de la cartographie triplanaire. Cela ajuste la douceur de la fusion entre les projections de chaque direction.</td>
   </tr>
 </table>

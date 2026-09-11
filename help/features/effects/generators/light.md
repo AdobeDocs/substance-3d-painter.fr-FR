@@ -14,7 +14,7 @@ ht-degree: 3%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_light.webp" alt=""/><br><strong>Entrée :</strong> masque, générateur</td>
-    <td style="border: 0;" valign="top"><strong>Description</strong><br>Le générateur de lumière simule une lumière directionnelle brillant sur votre maillage, en fonction des cartes de la normale de l'espace universel et de position.<br><br>Le générateur de lumière peut être utilisé sur un calque de remplissage ou comme pour créer un masque. Lorsqu’il est utilisé dans un calque de remplissage, le générateur produit des couches de couleur, de métallisation, de rugosité au specular, de normales et heights qui peuvent être utilisées dans diverses combinaisons pour créer différents effets. Nous vous recommandons de parcourir les vues du canal dans la clôture pour comprendre comment chaque canal est affecté par le générateur de lumière.<br><br>Les cartes de position ancrée et de normales d'espace universel sont requises en tant qu'entrées d'image. <a href="../../../baking/baking.md">En savoir plus sur la cuisson ici</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Description</strong><br>Le générateur de lumière simule une lumière directionnelle qui brille sur votre maillage, en fonction des cartes de Normale de l'espace monde et de position.<br><br>Le générateur de lumière peut être utilisé sur un calque de remplissage ou pour créer un masque. Lorsqu’il est utilisé dans un calque de remplissage, le générateur produit des couches de couleur, de métallisation, de rugosité au specular, normales et heights qui peuvent être utilisées dans différentes combinaisons pour créer différents effets. Nous vous recommandons de parcourir les vues des canaux dans le Viewport pour comprendre comment chaque canal est affecté par le générateur de lumière.<br><br>Des cartes de position et de normale de l'espace monde Bakées sont requises en tant qu'entrées d'image. <a href="../../../baking/baking.md">En savoir plus sur le baking ici</a>.</td>
   </tr>
 </table>
 
@@ -22,8 +22,8 @@ ht-degree: 3%
 
 | Saisir un nom | Description |
 | --- | --- |
-| Couleur **Espace universel** | Utilisez la carte des normales de l&#39;espace universel. |
-| Couleur de **position** | Utilisez le mappage de position ancré. |
+| Couleur **Normale de l&#39;espace monde** | Utilisez le mappage de Normales des espaces monde baké. |
+| Couleur de **position** | Utilisez le mappage de position baké. |
 
 ## Paramètres
 
@@ -32,6 +32,6 @@ ht-degree: 3%
 | **Inverser** | Inversez la table des couleurs de sortie. |
 | **Angle Horizontal** | Définissez l’angle horizontal de la fausse lumière. |
 | **Angle vertical** | Définissez l’angle vertical de la fausse lumière. |
-| **Éclat des tons clairs** | Ajustez la planche de retrait de la zone mise en surbrillance. |
+| **Mettre en surbrillance la Brillance** | Ajustez la planche de retrait de la zone mise en surbrillance. |
 | **Niveau de surbrillance** | Réglez le contraste des tons clairs. |
 | **Atténuation de la lumière** | Réglez l’atténuation de la lumière. |

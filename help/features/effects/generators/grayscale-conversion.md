@@ -1,6 +1,6 @@
 ---
 title: Conversion en niveaux de gris
-description: Découvrez comment utiliser le générateur de conversion de niveaux de gris de Substance 3D Painter.
+description: Découvrez comment utiliser le générateur de Conversions en niveaux de gris Substance 3D Painter.
 source-git-commit: b7770a9497f0db047433aec32c31b57f8dc13ae7
 workflow-type: tm+mt
 source-wordcount: '229'
@@ -14,7 +14,7 @@ ht-degree: 7%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_grayscale_conversion.png" alt=""/><br><strong>Dans :</strong> générateur, niveaux de gris, couleur</td>
-    <td style="border: 0;" valign="top"><strong>Description</strong><br>Le générateur de conversion des niveaux de gris convertit une texture ou une texture en valeurs de niveaux de gris.<br><br>Le générateur de conversion des niveaux de gris génère une texture monochrome (noir et blanc). Par conséquent, il est utile pour générer des masques à partir d’un mappage d’entrée de couleur complet.</td>
+    <td style="border: 0;" valign="top"><strong>Description</strong><br>Le générateur de Conversions en niveaux de gris convertit une texture ou un mappage en valeurs de niveaux de gris.<br><br>Le générateur de Conversions en niveaux de gris génère une texture monochrome (noir et blanc). Il est ainsi très utile pour générer des masques à partir d’une map d'entrée de couleurs complète.</td>
   </tr>
 </table>
 
@@ -22,7 +22,7 @@ ht-degree: 7%
 
 | Saisir un nom | Description |
 | --- | --- |
-| Couleur **Source** | Utilisez une texture colorée personnalisée ou un point d’ancrage. |
+| Couleur **Source** | Utilisez une texture de couleur personnalisée ou un point d’ancrage. |
 
 ## Paramètres
 
@@ -49,7 +49,7 @@ ht-degree: 7%
   </tr>
   <tr>
     <td><strong>Mosaïque</strong></td>
-    <td>Définit la juxtaposition de l’image source convertie.</td>
+    <td>Définit la répétition de l’image source convertie.</td>
   </tr>
   <tr>
     <td><strong>Rotation</strong></td>

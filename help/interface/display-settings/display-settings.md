@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/display-settings.html"
 breadcrumb-title: ''
-description: Découvrez comment configurer les paramètres d’affichage dans Substance 3D Painter pour personnaliser le rendu de la fenêtre d’affichage et la qualité visuelle.
+description: Découvrez comment configurer les paramètres d’affichage dans Substance 3D Painter pour personnaliser le rendu des viewports et la qualité visuelle.
 helpx_creative_field: ""
 helpx_description: Painter > Interface > Display settings
 helpx_experience_level: ""
@@ -22,23 +22,23 @@ ht-degree: 7%
 
 ![](../../assets/display-settings-2.png){width="320px"}
 
-La fenêtre **Paramètres d&#39;affichage** regroupe les paramètres d&#39;environnement, de caméra et d&#39;aire d&#39;affichage. Ces paramètres sont globaux pour le projet et peuvent affecter l’aspect de la clôture.
+La fenêtre **Paramètres d&#39;affichage** regroupe les paramètres d&#39;environnement, de caméra et de viewport. Ces paramètres sont globaux pour le projet et peuvent affecter l’aspect du viewport.
 
 ## Mode d’affichage
 
 ![](../../assets/viewmode.png)
 
-Le mode Affichage contrôle l’aspect de la fenêtre d’affichage. La liste déroulante est divisée en trois sections :
+Le mode Affichage contrôle l’aspect du viewport. La liste déroulante est divisée en trois sections :
 
 | Section | Description |
 | --- | --- |
-| **Éclairage** | Affichez le modèle 3D dans la clôture avec un éclairage complet, y compris des ombres si cette option est activée. |
-| **Canal unique** | Également appelé mode solo. Affichez le filet dans la clôture avec une couche ou une texture spécifique uniquement, sans éclairage. |
-| **Mappages de maillage** | Affichez le filet dans la clôture uniquement avec des textures cuites spécifiques, sans éclairage. |
+| **Éclairage** | Affichez le modèle 3D dans le viewport avec un éclairage complet, y compris des ombres si cette option est activée. |
+| **Canal unique** | Également appelé mode solo. Affichez le maillage dans le viewport avec un seul canal ou une seule texture sans éclairage. |
+| **Maps de maillage** | Affichez le maillage dans le viewport uniquement avec des textures bakées spécifiques sans éclairage. |
 
 >[!NOTE]
 >
-> Le mode d&#39;affichage peut également être modifié en utilisant la <b>liste déroulante</b> disponible dans les coins des [fenêtres](../../interface/viewport/viewport.md). Il existe également des [raccourcis](../settings/shortcuts.md) permettant de passer rapidement d&#39;une couche à l&#39;autre, de mailler des cartes et même de revenir au mode Matériau.
+> Le mode d&#39;affichage peut également être modifié en utilisant la <b>liste déroulante</b> disponible dans les coins des [viewports](../../interface/viewport/viewport.md). Il existe également des [raccourcis](../settings/shortcuts.md) permettant de passer rapidement d&#39;un canal à l&#39;autre et d&#39;accéder aux maps de maillage, voire même au mode de matériau.
 
 ## Afficher les sections Paramètres
 

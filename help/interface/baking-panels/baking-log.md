@@ -1,6 +1,6 @@
 ---
-title: Bûche de cuisson
-description: Découvrez le panneau Journal de correction et comment utiliser la sortie du journal pour déboguer les problèmes de correction.
+title: journal de Baking
+description: Découvrez le panneau Journal de baking et comment utiliser la sortie du journal pour déboguer les problèmes de baking.
 source-git-commit: 7b5f6e6c9623cb51253b6e49c8dbcbb22856418c
 workflow-type: tm+mt
 source-wordcount: '113'
@@ -9,16 +9,16 @@ ht-degree: 0%
 ---
 
 
-# Bûche de cuisson
+# journal de Baking
 
-Le **panneau Journal de cuisson** affiche la sortie technique liée à la cuisson. Le panneau contient trois onglets :
+Le **panneau Journal de Baking** affiche la sortie technique liée au baking. Le panneau contient trois onglets :
 
-* **Processus de cuisson** : consultez l’état des tâches de cuisson en cours ou la dernière exécution de cuisson.
+* **Processus de Baking** : consultez l&#39;état des tâches de baking en cours ou la dernière exécution de baking.
 * **Paramètres poly élevés** : recherchez des détails sur les fichiers poly élevés utilisés dans votre projet.
-* **Correspondance par nom** : lorsque **Paramètres poly élevés > Correspondance** est défini sur **Par nom de maillage**, cet onglet affiche des informations sur la façon dont les actifs ont été mis en correspondance.
+* **Correspondance par nom** : lorsque **Paramètres poly élevés > Correspondance** est défini sur **Par nom de maillage**, cet onglet affiche des informations sur la correspondance des actifs.
 
 >[!TIP]
 >
-> Des informations sur la façon de faire correspondre les actifs par nom sont disponibles dans [la documentation Bakers](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/features/matching-by-name).
+> Des informations sur la façon de faire correspondre les actifs par nom sont disponibles dans [la documentation Baker](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/features/matching-by-name).
 
 ![](../../assets/baking/baking-log-panel.png)

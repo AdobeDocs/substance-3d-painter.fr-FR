@@ -15,7 +15,7 @@ ht-degree: 9%
 
 ![](../../assets/v12_post_aberration.jpg)
 
-Simule l’aberration chromatique en décalant les couches de couleur vers l’extérieur à partir du centre de l’image, reproduisant les franges de couleur visibles sur les bords des objectifs d’appareil photo réels.
+Simule l’aberration chromatique en décalant les couches de couleur vers l’extérieur à partir du centre de l’image, reproduisant les franges de couleur visibles sur les contours des objectifs à caméra réelle.
 
 | <b>Paramètre</b> | <b>Description</b> |
 | --- | --- |

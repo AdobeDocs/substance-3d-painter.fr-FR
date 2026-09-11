@@ -1,6 +1,6 @@
 ---
 title: Bakers de map de maillage
-description: Apprenez à utiliser le panneau marqueurs de maillage pour contrôler les maillages réalisés sur des ensembles de textures.
+description: Apprenez à utiliser le panneau bakers de map de maillage pour contrôler les maps de maillage bakées entre les jeux de textures.
 source-git-commit: 987b94e15c1dbe4ddf392ea7878126ecdf989423
 workflow-type: tm+mt
 source-wordcount: '716'
@@ -9,78 +9,78 @@ ht-degree: 0%
 ---
 
 
-# Panneau Pinces de mappage de filet
+# Panneau bakers de map de maillage
 
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../assets/baking/mesh-map-bakers-panel.png" alt=""/></td>
-    <td style="border: 0;" valign="top">Le panneau <strong>Créateurs de cartes maillées</strong> vous permet de sélectionner les cartes à créer et d'accéder aux paramètres pour chaque type de carte.</td>
+    <td style="border: 0;" valign="top">Le panneau <strong>bakers de Map de maillage</strong> vous permet de sélectionner les mappages à baker et d'accéder aux paramètres pour chaque type de mappage.</td>
   </tr>
 </table>
 
 ## Commandes par mappage
 
-Chaque mappage de la liste des mappages de maillage dispose d’une série de commandes :
+Chaque mappage de la liste des maps de maillage dispose d’une série de commandes disponibles :
 
 ![](../../assets/baking/mesh-map-controls.png)
 
-1. **Vérifier** ou **décocher** la vérification de la carte.
-1. **Visualiser** le mappage dans la fenêtre d&#39;affichage.
-1. **Cuisson rapide** uniquement sur cette carte.
-1. Activez le **recréation automatique** pour la carte de maillage sélectionnée. Les cartes **avec effet de rappel automatique** sont automatiquement reconstituées lorsque des modifications sont apportées aux paramètres d&#39;effet de rappel ou à la correction d&#39;inclinaison.
-1. **Synchroniser** les paramètres de ce type de mappage entre les ensembles de textures. Désactivez cette option pour personnaliser les paramètres d’ancrage des cartes individuelles.
+1. **Vérifier** ou **dévérifier** le baking du mappage.
+1. **Visualiser** la carte dans le viewport.
+1. **baker rapidement** uniquement ce mappage.
+1. Activez la **remise en route automatique** pour la map de maillage sélectionnée. Les mappages **avec effet de rappel automatique** seront automatiquement reconstitués lorsque des modifications seront apportées aux paramètres de baking ou à la correction des déviations.
+1. **Synchroniser** les paramètres pour ce type de mappage entre les jeux de textures. Désactivez cette option pour personnaliser les paramètres de baking pour des mappages individuels.
 
-## Gérer les paramètres de mappage de filet
+## Gestion des paramètres de map de maillage
 
-Il existe plusieurs façons de gérer votre projet afin que les paramètres de cuisson soient partagés entre les cartes de maillage ou les ensembles de textures. Pour les projets complexes, comprendre comment partager des paramètres peut aider à simplifier le processus d’ancrage.
+Il existe plusieurs façons de gérer votre projet afin que les paramètres de baking soient partagés entre les maps de maillage ou les jeux de textures. Pour les projets complexes, comprendre comment partager des paramètres peut aider à simplifier le processus de baking.
 
-Il existe deux types de paramètres que vous pouvez partager entre des ensembles de textures :
+Il existe deux types de paramètres que vous pouvez partager entre les jeux de textures :
 
-* Paramètres d&#39;ancrage : il s&#39;agit de paramètres que vous pouvez modifier dans les panneaux **Paramètres communs** et **Paramètres de mappage de maillage**.
-* Vérifier l’état : utilisez ces options pour activer ou désactiver le basculement pour des cartes de maillage spécifiques.
+* Paramètres de Baking : il s&#39;agit de paramètres que vous pouvez modifier dans les **panneaux Paramètres communs** et **Paramètres de Map de maillage**.
+* Vérifier l’état : utilisez ces options pour activer ou désactiver le baking pour des maps de maillage spécifiques.
 
-### Synchronisation des paramètres de cuisson entre les ensembles de textures
+### Synchronisation des paramètres de baking entre les jeux de textures
 
-Lorsque votre projet comporte plusieurs ensembles de textures, les options permettant de synchroniser les ensembles de textures apparaissent dans le **panneau Bakers de maillage**.
+Lorsque votre projet comporte plusieurs jeux de textures, les options de synchronisation entre les jeux de textures apparaissent dans le **panneau bakers de Map de maillage**.
 
 ![](../../assets/baking/synchronize-texture-sets.png)
 
-Cliquez sur le bouton **Synchroniser les paramètres** en haut du **panneau Pinceaux de mappage de maillage** pour ouvrir la **fenêtre de synchronisation des paramètres courants**.
+Cliquez sur le bouton **Synchroniser les paramètres** en haut du **panneau des bakers de Map de maillage** pour ouvrir la **fenêtre de synchronisation des paramètres courants**.
 
 ![](../../assets/baking/synchronize-common-settings.png)
 
-Dans cette fenêtre, vous pouvez sélectionner les ensembles de textures sur lesquels synchroniser les paramètres courants. Si tous les ensembles de textures sont sélectionnés, la modification des paramètres courants dans n’importe quel ensemble de textures aura pour effet de les modifier pour tous les autres ensembles de textures.
+Dans cette fenêtre, vous pouvez sélectionner les jeux de textures sur lesquels synchroniser les paramètres communs. Si tous les jeux de textures sont sélectionnés, la modification des paramètres communs de n’importe quel jeu de textures aura des conséquences sur tous les autres jeux de textures.
 
-De même, si vous utilisez le bouton **Synchroniser les paramètres** en regard d&#39;une texture de maillage individuelle, vous pourrez sélectionner des ensembles de textures pour partager les paramètres spécifiques à cette texture.
+De même, si vous utilisez le bouton **Synchroniser les paramètres** en regard d&#39;une map de maillage individuelle, vous pourrez sélectionner des jeux de textures pour partager les paramètres spécifiques à cette map de maillage.
 
 ![](../../assets/baking/synchronize-ao-settings.png)
 
-#### Partage de paramètres entre des ensembles de textures non synchronisés
+#### Partage de paramètres entre des jeux de textures non synchronisés
 
-Il est parfois souhaitable de désynchroniser les textures maillées d’un ensemble de textures à un autre tout en copiant les paramètres de cuisson d’un ensemble de textures à un autre.
+Vous souhaiterez peut-être parfois conserver des maps de maillage non synchronisées entre les jeux de textures, mais toujours copier les paramètres de baking d’un jeu de textures à un autre.
 
-Pour copier des paramètres courants vers des ensembles de textures spécifiques sans synchronisation, sélectionnez **Synchroniser tous les paramètres avec d&#39;autres ensembles de textures...** dans le **menu déroulant des marqueurs de texture de maillage**.
+Pour copier des paramètres courants vers des jeux de textures spécifiques sans synchronisation, sélectionnez **Synchroniser tous les paramètres vers d&#39;autres Jeux de textures...** dans la liste déroulante **bakers de Map de maillage**.
 
-Vous pouvez également utiliser **Synchroniser tous les paramètres sur tous les ensembles de textures** pour copier les paramètres sur tous les ensembles de textures du projet.
+Vous pouvez également utiliser **Synchroniser tous les paramètres sur tous les Jeux de textures** pour copier les paramètres sur tous les jeux de textures du projet.
 
 ![](../../assets/baking/copy-common-baking-settings.png)
 
-Sinon, si vous souhaitez copier les paramètres d’un seul maillage mappé vers des ensembles de textures spécifiques :
+Sinon, si vous souhaitez copier les paramètres d’une seule map de maillage vers des jeux de textures spécifiques :
 
-1. Cliquez avec le bouton droit sur le maillage.
-1. Sélectionnez **Appliquer les paramètres &lt;mesh map> à d&#39;autres ensembles de textures...**
+1. Cliquez avec le bouton droit sur la map de maillage.
+1. Sélectionnez **Appliquer les paramètres &lt;map de maillage> à d&#39;autres Jeux de textures...**
 
 ![](../../assets/baking/copy-ao-settings.gif)
 
-*Dans l’exemple ci-dessus, chaque ensemble de textures commence par des paramètres différents pour l’IA. Sans définir la texture de maillage AO à synchroniser, nous utilisons **Appliquer les paramètres d&#39;occlusion ambiante à d&#39;autres ensembles de textures...**&#x200B;afin de pouvoir commencer à modifier les paramètres AO pour le nouvel ensemble de textures à partir de la même ligne de base.*
+*Dans l&#39;exemple ci-dessus, chaque jeu de textures commence par des paramètres différents pour l&#39;AO. Sans définir la map de maillage AO à synchroniser, nous utilisons **Appliquer les paramètres d&#39;occlusion ambiante à davantage de Jeux de textures...**&#x200B;afin de pouvoir commencer à modifier les paramètres AO du nouveau jeu de textures à partir de la même ligne de base.*
 
-### Gestion de l’état de vérification des cartes de maillage
+### Gestion de l’état de vérification des maps de maillage
 
-L’option Vérifier l’état détermine si une carte donnée est incluse lorsque vous coupez des cartes de maillage. Il existe de nombreuses façons de gérer l’état de vérification pour l’ensemble de textures actuel :
+Le statut Vérifier détermine si un mappage donné est inclus lorsque vous bakez des maps de maillage. Il existe de nombreuses façons de gérer l’état de vérification pour le jeu de textures actif :
 
 * Cochez ou décochez les mappages individuels.
-* Utilisez **Tout sélectionner** ou **Tout désélectionner** pour vérifier ou décocher toutes les cartes de maillage.
-* Utilisez **Inverser les cartes de maillage vérifiées** à partir de la liste déroulante **Créateurs de cartes de maillage** pour changer l&#39;état de vérification de toutes les cartes.
+* Utilisez **Tout sélectionner** ou **Tout désélectionner** pour sélectionner ou désélectionner toutes les maps de maillage.
+* Utilisez **Inverser les maps de maillage vérifiées** dans la liste déroulante **bakers de Map de maillage** pour changer l&#39;état de vérification de toutes les cartes.
 
 ![](../../assets/baking/click-drag-check.gif)
 
@@ -90,10 +90,10 @@ L’option Vérifier l’état détermine si une carte donnée est incluse lorsq
 
 ![](../../assets/baking/invert-checked.gif)
 
-*Dans l&#39;exemple ci-dessus, nous utilisons **Inverser les cartes de maillage vérifiées**&#x200B;pour changer rapidement de sélection, puis cuire les cartes de maillage qui n&#39;ont pas encore été cuites.*
+*Dans l&#39;exemple ci-dessus, nous utilisons **Inverser les maps de maillage sélectionnées**&#x200B;pour changer rapidement de sélection, puis baker les maps de maillage qui n&#39;ont pas encore été bakées.*
 
-Lorsque vous travaillez avec plusieurs ensembles de textures, vous pouvez également copier l&#39;état coché des mappages vers d&#39;autres ensembles de textures en sélectionnant **Appliquer l&#39;état coché à d&#39;autres ensembles de textures...**, ou copier l&#39;état coché vers tous les ensembles de textures avec l&#39;option **Appliquer l&#39;état coché à tous les ensembles de textures**.
+Lorsque vous travaillez avec plusieurs jeux de textures, vous pouvez également copier l&#39;état coché des mappages vers d&#39;autres jeux de textures en sélectionnant **Appliquer l&#39;état coché à d&#39;autres Jeux de textures...**, ou copier l&#39;état coché vers tous les jeux de textures avec **Appliquer l&#39;état coché à tous les Jeux de textures**.
 
 ![](../../assets/baking/copy-checked-status.gif)
 
-*Dans l&#39;exemple ci-dessus, nous n&#39;avons pas encore cuit l&#39;Height, les normales courbées ou l&#39;opacité dans le jeu de textures **Matériau.001**. Ces cartes de maillage sont déjà sélectionnées dans l&#39;ensemble de textures **Matériau**. Nous utilisons donc **Appliquer coché à d&#39;autres ensembles de textures...**&#x200B;et sélectionnons **Matériau.001**&#x200B;pour copier l&#39;état coché. Nous faisons ensuite cuire les cartes. Notez que la visualisation passe par les cartes de maillage deux fois lors de la cuisson des cartes. En effet, ces cartes sont cuites pour les deux ensembles de textures.*
+*Dans l&#39;exemple ci-dessus, nous n&#39;avons pas encore baké l&#39;Height, les bents normals ou l&#39;opacité dans le jeu de textures **Matériau.001**. Ces maps de maillage sont déjà sélectionnées dans le jeu de textures **Matériau**. Nous allons donc utiliser **Appliquer les vérifications à d&#39;autres Jeux de textures...**&#x200B;et sélectionner **Matériau.001**&#x200B;pour copier l&#39;état vérifié. Nous bakons ensuite les cartes. Notez que la visualisation passe par les maps de maillage deux fois lorsque les cartes sont bakées, car elles sont bakées des deux jeux de textures.*

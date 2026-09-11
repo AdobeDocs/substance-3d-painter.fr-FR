@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-when-opening-or-saving-a-file.html"
 breadcrumb-title: ''
-description: Découvrez comment corriger les blocages de Substance 3D Painter lors de l’ouverture ou de l’enregistrement de fichiers pour une gestion de projet fiable.
+description: Découvrez comment corriger les crashs de Substance 3D Painter lors de l’ouverture ou de l’enregistrement de fichiers pour une gestion de projet fiable.
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > Stability Issues > Crash when opening or saving a file
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Blocage lors de l’ouverture ou de l’enregistrement d’un fichier
+title: Crash lors de l’ouverture ou de l’enregistrement d’un fichier
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,13 +18,13 @@ ht-degree: 0%
 ---
 
 
-# Blocage lors de l’ouverture ou de l’enregistrement d’un fichier
+# Crash lors de l’ouverture ou de l’enregistrement d’un fichier
 
-Il existe plusieurs raisons pour lesquelles Substance 3D Painter se bloque sous Windows lors de l’ouverture d’une boîte de dialogue de fichier. Cette page regroupe les raisons et les solutions à ce problème.
+Il y a quelques raisons pour lesquelles Substance 3D Painter a un crash sous Windows lors de l’ouverture d’une boîte de dialogue de fichier. Cette page regroupe les raisons et les solutions à ce problème.
 
 ## Conflits de logiciels
 
-Certains programmes peuvent ajouter des extensions shell personnalisées qui peuvent entraîner des instabilités ou des blocages. Consultez la liste [Conflits de logiciels](../startup-issues/software-conflicts.md) pour plus d&#39;informations.
+Certains programmes peuvent ajouter des extensions shell personnalisées qui peuvent entraîner des instabilités ou des crashs. Consultez la liste [Conflits de logiciels](../startup-issues/software-conflicts.md) pour plus d&#39;informations.
 
 ## Extensions de l’environnement/Thèmes personnalisés
 

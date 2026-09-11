@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Toon - API de shader
 
-## Nuanceur de tons de base
+## Shader de jeton de base
 
 Importer à partir des bibliothèques.
 
@@ -36,7 +36,7 @@ const vec3 light_pos = vec3(10.0, 10.0, 10.0);
 ```
 
 
-Nous **relions** la position de l&#39;œil du monde de paramétrage automatique à notre **appareil photo\_pos** uniforme.
+Nous **relions** la position de l&#39;œil du monde de paramétrage automatique à notre **caméra\_pos** uniforme.
 
 ```
 //: param auto world_eye_position 
@@ -45,7 +45,7 @@ uniform vec3 camera_pos;
 ```
 
 
-Nous **relions** la couche **couleur de base** du document à notre **couleur de base\_tex** uniforme.
+Nous **relions** la **base color** du canal du document à notre **couleur de base\_tex** uniforme.
 
 ```
 //: param auto channel_basecolor 
@@ -54,7 +54,7 @@ uniform SamplerSparse basecolor_tex;
 ```
 
 
-Nous **lions** la **courbure du maillage** à notre **courbure\_tex** uniforme. Si aucune courbure n’est disponible, une texture transparente est fournie.
+Nous **relions** la **courbure de maillage** à notre **courbure\_tex** uniforme. Si aucune courbure n’est disponible, une texture transparente est fournie.
 
 ```
 //: param auto texture_curvature 
@@ -63,7 +63,7 @@ uniform SamplerSparse curvature_tex;
 ```
 
 
-Nous définissons un nouveau réglage personnalisé pour cet ombrage, ainsi que sa valeur par défaut. Celui-ci est utilisé pour ajuster le thickness du contour, lorsqu’il est ombré.
+Nous définissons un nouveau réglage personnalisé pour ce shader, ainsi que sa valeur par défaut. Celui-ci est utilisé pour ajuster le thickness du contour, lorsqu’il est ombré.
 
 ```
 //: param custom { 
@@ -82,7 +82,7 @@ uniform float unlit_outline_thickness;
 ```
 
 
-Nous définissons un nouveau réglage personnalisé pour cet ombrage, ainsi que sa valeur par défaut. Celui-ci est utilisé pour ajuster le thickness du contour, lorsqu’il est éclairé.
+Nous définissons un nouveau réglage personnalisé pour ce shader, ainsi que sa valeur par défaut. Celui-ci est utilisé pour ajuster le thickness du contour, lorsqu’il est éclairé.
 
 ```
 //: param custom { 
@@ -101,7 +101,7 @@ uniform float lit_outline_thickness;
 ```
 
 
-Si nous préférons utiliser la courbure ou non.
+Que nous préférions utiliser la courbure ou non.
 
 ```
 //: param custom { 
@@ -116,7 +116,7 @@ uniform bool use_curvature;
 ```
 
 
-Point d’entrée de l’ombrage.
+Point d&#39;entrée du shader.
 
 ```
 void shade(V2F inputs) 
@@ -140,7 +140,7 @@ Nous calculons quelques valeurs utiles.
 ```
 
 
-La **priorité** consiste à effectuer la **détection des contours**. Permettre à l’utilisateur de choisir s’il préfère ou non utiliser la courbe de courbure pour la détection des contours.
+La **priorité** consiste à effectuer la **détection des contours**. Autoriser l’utilisateur à choisir s’il préfère ou non utiliser la map curvature pour la détection des contours.
 
 ```
   if (use_curvature) { 

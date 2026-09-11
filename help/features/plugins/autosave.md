@@ -57,7 +57,7 @@ Pour configurer le comportement d&#39;enregistrement automatique, cliquez sur le
 > Le minuteur d’enregistrement automatique s’interrompt si :
 > 
 > * Le moteur fait un calcul
-> * Les textures sont exportées
+> * Textures en cours d’exportation
 > * La fenêtre de configuration est ouverte
 > * Le projet est en cours d’enregistrement
 

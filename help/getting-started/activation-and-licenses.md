@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/getting-started/activation-and-licenses.html"
 breadcrumb-title: ''
-description: Découvrez comment activer Substance 3D Painter et gérer les licences pour commencer à utiliser l’application de peinture de texture.
+description: Découvrez comment activer Substance 3D Painter et gérer les licences pour commencer à utiliser l’application de peinture sur texture.
 helpx_creative_field: ""
 helpx_description: Painter > Getting Started > Activation and licenses
 helpx_experience_level: ""
@@ -50,7 +50,7 @@ L’assistant d’activation dispose de 3 options :
 
 >[!WARNING]
 >
-> Pour installer le fichier de licence avec l’Assistant d’activation, assurez-vous d’exécuter Painter en tant qu’administrateur et de désactiver temporairement votre antivirus.
+> Pour installer le fichier de licence avec l’Assistant d&#39;activation, assurez-vous d’exécuter Painter en tant qu’administrateur et de désactiver temporairement votre antivirus.
 
 ### Activation manuelle
 

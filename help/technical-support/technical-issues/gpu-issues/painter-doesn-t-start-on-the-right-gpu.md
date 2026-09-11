@@ -75,7 +75,7 @@ Il est possible que Windows ait défini un paramètre GPU incorrect pour l’app
 
 ### Désactiver « Préfère un GPU autre que celui par défaut »
 
-Lors de l&#39;exécution de Painter à partir d&#39;un raccourci de bureau ou via Steam, assurez-vous que le paramètre <b>PrefersNonDefaultGPU</b> dans le fichier <b>\*.desktop</b> est défini sur <b>false</b>.
+Lorsque vous exécutez Painter à partir d&#39;un raccourci de bureau ou via Steam, assurez-vous que le paramètre <b>PrefersNonDefaultGPU</b> dans le fichier <b>\*.desktop</b> est défini sur <b>false</b>.
 
 Ce paramètre peut être trompeur et conduire à l’utilisation/au forçage du GPU intégré au lieu du GPU discret et plus puissant. Pour plus d&#39;informations [voir cette discussion](https://github.com/ValveSoftware/steam-for-linux/issues/9940).
 

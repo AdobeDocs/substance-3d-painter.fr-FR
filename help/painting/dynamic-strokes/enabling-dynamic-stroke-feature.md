@@ -29,9 +29,9 @@ Lorsque vous parcourez la fenêtre [Actifs](../../interface/assets/assets.md), u
 | *Icône* | *Description* |
 | --- | --- |
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/icon-dyn.png"/></div> | Cette ressource peut utiliser un ou plusieurs des comportements suivants :<ul data-preserve-html="true"><li data-preserve-html="true">Indice Stamp</li><li data-preserve-html="true">Heure</li><li data-preserve-html="true">Graine aléatoire</li></ul> |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/icon-random.png"/></div> | Cette ressource affiche uniquement le paramètre Générateur aléatoire. |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/icon-random.png"/></div> | Cette ressource expose uniquement le paramètre Générateur aléatoire. |
 
-Il est également possible de rechercher des ressources à l’aide du champ de recherche dans l’étagère avec les mots-clés suivants :
+Il est également possible de rechercher des ressources à l’aide du champ de recherche de l’Étagère avec les mots-clés suivants :
 
 * dynamicstroke
 * générateur aléatoire
@@ -60,8 +60,8 @@ Les paramètres Contour dynamique ne sont disponibles qu’avec les outils et co
 | **Gomme** | <ul data-preserve-html="true"><li data-preserve-html="true">Alpha</li><li data-preserve-html="true">Matériau</li></ul> |
 | **Projection** | <ul data-preserve-html="true"><li data-preserve-html="true">Alpha</li></ul> |
 | **Doigt** | <ul data-preserve-html="true"><li data-preserve-html="true">Alpha</li></ul> |
-| **Cloner** | <ul data-preserve-html="true"><li data-preserve-html="true">Alpha</li></ul> |
+| **Clone** | <ul data-preserve-html="true"><li data-preserve-html="true">Alpha</li></ul> |
 
 >[!NOTE]
 >
-> Les traits dynamiques ne sont pas compatibles avec les **particules**, c&#39;est pourquoi la fonctionnalité est désactivée lors de l&#39;utilisation de tout outil en mode Physique.
+> Les traits dynamiques ne sont pas compatibles avec les **Particules**, c&#39;est pourquoi la fonction est désactivée lors de l&#39;utilisation de tout outil en mode Physique.
