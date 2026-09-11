@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/technical-issues/stability-issues/windows-blue-screens.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/stability-issues/windows-blue-screens.html"
 breadcrumb-title: ''
 description: Découvrez comment éviter les erreurs d’écran bleu Windows lors de l’utilisation de Substance 3D Painter pour un fonctionnement du système stable.
 helpx_creative_field: ""
@@ -54,7 +54,7 @@ Pour plus d&#39;informations sur ce sujet, voir : [Utiliser l&#39;outil Vérific
 
 ### Espace disque insuffisant
 
-Depuis l&#39;introduction des [textures virtuelles dispersées](../../../features/sparse-virtual-textures.md) dans Substance 3D Painter, l&#39;application utilise désormais le disque pour mettre en cache les textures pendant son travail. Si le système manque d’espace, cela peut entraîner des instabilités.
+Depuis l&#39;introduction des [Sparse Virtual Texture](../../../features/sparse-virtual-textures.md) dans Substance 3D Painter, l&#39;application utilise désormais le disque pour mettre en cache des textures pendant son travail. Si le système manque d’espace, cela peut entraîner des instabilités.
 
 Il existe deux solutions simples à ce problème :
 

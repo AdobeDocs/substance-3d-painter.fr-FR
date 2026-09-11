@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pbr-aniso-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pbr-aniso-shader-api.html"
 breadcrumb-title: ''
-description: Accédez à la référence Lib PBR Aniso API de shader pour Substance 3D Painter afin de créer des matériaux anisotropes à base physique.
+description: Accédez à la référence Lib PBR Aniso API de shader pour Substance 3D Painter afin de créer des matériaux anisotropes basés physiquement.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib PBR Aniso - Shader API
 helpx_experience_level: ""

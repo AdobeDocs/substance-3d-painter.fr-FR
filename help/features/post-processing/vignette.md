@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/features/post-processing/vignette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/vignette.html"
 breadcrumb-title: ''
-description: Apprenez à utiliser l'effet de post-traitement de vignette dans Substance 3D Painter pour obscurcir les bords de la fenêtre d'affichage.
+description: Apprenez à utiliser l'effet de post-traitement de vignette dans Substance 3D Painter pour obscurcir les contours du viewport.
 helpx_creative_field: ""
 helpx_description: Painter > Features > Post Processing > Vignette
 helpx_experience_level: ""
@@ -22,6 +22,6 @@ ht-degree: 5%
 
 ![](../../assets/vignette-22.png)
 
-L’effet Vignette permet d’obscurcir les coins de la fenêtre d’affichage pour simuler une ombre de caméra.
+L’effet Vignette assombrit les coins du viewport pour simuler une ombre de caméra.
 
 ![](../../assets/vignette-example-2.jpg)

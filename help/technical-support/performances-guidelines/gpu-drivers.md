@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/performances-guidelines/gpu-drivers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/performances-guidelines/gpu-drivers.html"
 breadcrumb-title: ''
 description: Découvrez la VRAM du GPU et la configuration requise du pilote pour Substance 3D Painter afin d’optimiser les performances de rendu et la stabilité.
 helpx_creative_field: ""
@@ -32,15 +32,15 @@ Certains paramètres NVIDIA par défaut peuvent avoir un impact sur les performa
 
 ## Comment d’autres applications peuvent utiliser le GPU
 
-Substance 3D Painter n’est pas le seul à utiliser le GPU, d’autres applications font de même. Presque toutes les applications 3D utilisent le GPU et la VRAM pour s’exécuter, y compris celles couramment utilisées en parallèle avec Painter, comme Blender, Maya, Unreal Engine, Unity, C4D et autres. Une solution pour assurer de bonnes performances tout en gardant ces applications ouvertes consiste à s’assurer que Substance 3D Painter est lancé en premier afin de demander sa propre allocation de VRAM. Cependant, certains logiciels peuvent acquérir certaines parties de la VRAM de manière dynamique et peuvent toujours entrer en conflit avec Substance 3D Painter, même s’ils sont lancés après Painter.
+Substance 3D Painter n’est pas le seul à utiliser le GPU, d’autres applications font de même. Presque toutes les applications 3D utilisent le GPU et VRAM pour s’exécuter, y compris celles couramment utilisées en parallèle avec Painter, comme Blender, Maya, Unity, C4D, Unreal Moteur et d’autres. Une solution permettant d’assurer de bonnes performances tout en maintenant ces applications ouvertes consiste à s’assurer que Substance 3D Painter est lancé en premier afin de demander sa propre allocation VRAM. Néanmoins, certains logiciels peuvent acquérir certains éléments du VRAM de manière dynamique et rester en conflit avec Substance 3D Painter même s’ils sont lancés après Painter.
 
-En règle générale, plus Painter a accès à VRAM, plus son exécution sera rapide. Par conséquent, essayez de réduire la quantité de VRAM utilisée par les autres applications exécutées simultanément avec Painter.
+En général, plus VRAM Painter a accès à, plus son exécution sera rapide. Il est donc recommandé de réduire la quantité de VRAM utilisée par les autres applications exécutées simultanément avec Painter.
 
-## Quantité de VRAM et bande passante du GPU
+## Quantité de VRAM GPU et bande passante
 
 Substance 3D Painter s’appuie beaucoup sur le GPU pour effectuer la plupart de ses calculs. C&#39;est pourquoi il est important d&#39;avoir un GPU qui respecte la [configuration requise](../../getting-started/system-requirements.md).
 
-Painter fonctionne en transférant des textures dans la mémoire GPU (VRAM) afin d’effectuer les calculs (comme les opérations de fusion pour créer les textures finales). Cependant, si la VRAM commence à être pleine, les textures inutilisées seront retransférées vers la RAM de l’ordinateur pour libérer de l’espace VRAM. Substance 3D Painter écrit et lit les Go de données pendant son travail. Cela signifie que la capacité de la VRAM (quantité) et la vitesse de bande passante lors des transferts sont importantes. Vous pouvez utiliser des outils tels que [MSI AfterBurner](https://www.msi.com/page/afterburner) pour surveiller ce comportement.
+Painter fonctionne en transférant des textures dans la mémoire du GPU (VRAM) afin d’effectuer les calculs (comme les opérations de fusion pour créer les textures finales). Cependant, si le VRAM commence à être plein, les textures inutilisées seront retransférées sur la RAM de l’ordinateur pour libérer de l’espace VRAM. Substance 3D Painter écrit et lit les Go de données pendant son travail. Cela signifie que la capacité du VRAM (quantité) et la vitesse de bande passante lors des transferts sont importantes. Vous pouvez utiliser des outils tels que [MSI AfterBurner](https://www.msi.com/page/afterburner) pour surveiller ce comportement.
 
 >[!NOTE]
 >

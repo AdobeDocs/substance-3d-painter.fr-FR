@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting/presets/creating-and-saving-presets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/creating-and-saving-presets.html"
 breadcrumb-title: ''
-description: Apprenez à créer et enregistrer des pinceaux prédéfinis dans Substance 3D Painter pour créer une bibliothèque réutilisable d’outils de peinture personnalisés.
+description: Apprenez à créer et enregistrer des paramètres prédéfinis de pinceau dans Substance 3D Painter pour créer une bibliothèque réutilisable d’outils de peinture personnalisés.
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Presets > Creating and saving presets
 helpx_experience_level: ""
@@ -30,13 +30,13 @@ Utilisez la [fenêtre Propriétés](../../interface/properties.md) pour ajuster 
 
 ![](../../assets/save-preset-1.png)
 
-Les paramètres prédéfinis peuvent être créés en cliquant avec le bouton droit de la souris dans la fenêtre Propriétés lorsque les propriétés de l’outil sont disponibles (calque ou effet de peinture).
+Les paramètres prédéfinis peuvent être créés en cliquant avec le bouton droit de la souris dans la fenêtre Propriétés lorsque les propriétés de l’outil sont disponibles (effet calque de peinture ou peinture).
 
 Cliquez avec le bouton droit de la souris dans la fenêtre Propriétés pour ouvrir un menu contextuel avec les options suivantes :
 
-* <b>Créer un outil prédéfini</b> : enregistrez les paramètres du pinceau et les matières avec toutes les ressources requises dans le même fichier de préréglage.
-* <b>Créer un paramètre prédéfini de matériau</b> : enregistrez uniquement les propriétés et les ressources de matériau dans un fichier de paramètre prédéfini.
-* <b>Créer un pinceau prédéfini</b> : enregistrez uniquement les paramètres du pinceau et les ressources alpha et de pochoir dans un fichier de préconfiguration.
+* <b>Créer un paramètre prédéfini d&#39;outil</b> : enregistrez les paramètres du pinceau et les matériaux avec toutes les ressources requises dans le même fichier prédéfini.
+* <b>Créer un paramètre prédéfini de matériau</b> : enregistrez uniquement les propriétés de matériau et les ressources de matériau dans un fichier de paramètres prédéfinis.
+* <b>Créer un paramètre prédéfini de pinceau</b> : enregistrez uniquement les paramètres du pinceau et les ressources alpha et de pochoir dans un fichier prédéfini.
 
 ## Mettre à jour un paramètre prédéfini existant
 

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-custom-params-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-custom-params-shader-api.html"
 breadcrumb-title: ''
-description: Accédez à la référence du API de shader Tous les paramètres personnalisés pour Substance 3D Painter afin de définir et de contrôler les paramètres de nuanceur personnalisés.
+description: Accédez à la référence du API de shader Tous les paramètres personnalisés pour Substance 3D Painter afin de définir et de contrôler des paramètres de shader personnalisés.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > All Custom Params - Shader API
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Tous les paramètres personnalisés - API de shader
 
-## Exemple de nuanceur de paramètres personnalisés
+## Exemple de shader de paramètres personnalisés
 
 **Veuillez noter que toutes les modifications personnalisées nécessitent au moins une valeur *par défaut*.**
 
@@ -132,7 +132,7 @@ uniform bool u_bool;
 
 ## paramètres Sampler
 
-La texture est définie par son nom dans l&#39;étagère et doit appartenir à la catégorie *Textures* ou *Environnements*.
+La texture est définie par son nom dans l&#39;étagère et doit être dans la catégorie *Textures* ou *Environnements*.
 
 ```
 //: param custom { "default": "", "default_color": [1.0, 1.0, 0.0, 1.0], "label": "Texture" } 
@@ -180,7 +180,7 @@ uniform int u_combobox;
 ```
 
 
-Point d’entrée de l’ombrage
+point d&#39;entrée du shader
 
 ```
 vec4 shade(V2F inputs) 

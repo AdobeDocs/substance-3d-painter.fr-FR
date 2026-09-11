@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/scripting-and-development/api-reference/shader-api/changelog-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/changelog-shader-api.html"
 breadcrumb-title: ''
 description: Consultez le journal des modifications de Substance 3D Painter API de shader pour suivre les mises à jour, les nouvelles fonctionnalités et les modifications au fil du temps.
 helpx_creative_field: ""
@@ -31,75 +31,75 @@ ht-degree: 3%
 
 * Ajoutez une nouvelle bibliothèque [lib-pbr-aniso.glsl](libraries-shader-api/lib-pbr-aniso-shader-api.md) pour mieux visualiser le specular anisotrope
 * Ajoutez une nouvelle bibliothèque [lib-sparse.glsl](libraries-shader-api/lib-sparse-shader-api.md) pour faciliter l&#39;échantillonnage des canaux en tenant compte de la disponibilité des mipmaps
-* Mettez à jour les interfaces des bibliothèques de nuanceur pour assurer cet échantillonnage sécurisé
+* Mettez à jour les interfaces des bibliothèques shader pour assurer cet échantillonnage sécurisé
 * **Dépréciation** : les fonctions précédentes basées sur les coordonnées de texture vec2 et l’échantillonneur de texture ont été dépréciées (veuillez utiliser de nouvelles signatures)
 * [lib-pom.glsl](libraries-shader-api/lib-pom-shader-api.md) : ajoutez une fonction *applyParallaxOffset* pour simplifier l&#39;utilisation de l&#39;effet d&#39;occlusion de parallaxe
-* [lib-random.glsl](libraries-shader-api/lib-random-shader-api.md) : ajoutez un générateur de valeurs aléatoires Bruit bleu et des alternatives temporelles
-* [lib-sampler.glsl](libraries-shader-api/lib-sampler-shader-api.md) : divisez toutes les aides d&#39;échantillonnage de canal pour avoir à la fois des aides d&#39;interprétation de valeur et d&#39;échantillonnage
+* [lib-random.glsl](libraries-shader-api/lib-random-shader-api.md) : ajout d&#39;un générateur de valeurs aléatoires Bruit bleu et d&#39;alternatives temporelles
+* [lib-sampler.glsl](libraries-shader-api/lib-sampler-shader-api.md) : divisez tous les assistants d&#39;échantillonnage de canal pour avoir à la fois des assistants d&#39;interprétation de valeur et d&#39;échantillonnage
 
 ## 2018.2.0
 
 * **Modification du API de shader de surface** : la signature de la fonction *shade* a changé, voir [surface-shader.glsl](shaders-shader-api/surface-shader-shader-api.md)
 * La fonction *shadeShadow* n&#39;est plus utilisée et peut être supprimée en toute sécurité des ombrages de surface personnalisés
-* Ajoutez la prise en charge de la diffusion Subsurface, voir [surface-shader.glsl](shaders-shader-api/surface-shader-shader-api.md) et [lib-sss.glsl](libraries-shader-api/lib-sss-shader-api.md) pour plus d&#39;informations
+* Ajoutez la prise en charge des Subsurfaces scatterings, voir [surface-shader.glsl](shaders-shader-api/surface-shader-shader-api.md) et [lib-sss.glsl](libraries-shader-api/lib-sss-shader-api.md) pour plus d&#39;informations
 * [lib-pbr.glsl](libraries-shader-api/lib-pbr-shader-api.md) : la fonction *pbrComputeBRDF* a été supprimée. Reportez-vous à l&#39;exemple [pbr-metal-ough.glsl](shaders-shader-api/pbr-metal-rough-shader-api.md) pour savoir comment utiliser la bibliothèque maintenant
-* De nouveaux paramètres de moteur ont été ajoutés : *texture\_blue\_noise*, *aspect\_ratio*, *camera\_vp\_matrix\_inverse*, *environnement\_exposure*, *environnement\_rotation*, *fovy*, *principal\_light* et *taille\_écran*. Voir [all-engine-params.glsl](parameters-shader-api/all-engine-params-shader-api.md) pour plus d&#39;informations
-* Ajoutez les métadonnées *description* pour fournir des info-bulles pour les paramètres de nuanceur personnalisés
+* De nouveaux paramètres de moteur ont été ajoutés : *texture\_bleu\_bruit*, *aspect\_ratio*, *camera\_vp\_matrix\_inverse*, *environnement\_exposition*, *environnement\_rotation*, *fovy*, *lumière\_principale* et *taille\_écran*. Voir [all-moteur-params.glsl](parameters-shader-api/all-engine-params-shader-api.md) pour plus d&#39;informations
+* Ajoutez les métadonnées *description* pour fournir des info-bulles pour les paramètres de shader personnalisés
 
 ## 2017.4.2
 
 * Correction des ombrages manquants dans les échantillons de documentation (ombrages pixellisés et tons directs)
-* Correction du tramage pour une résolution élevée
+* Corriger le dithering pour une résolution élevée
   * [lib-bayer.glsl](libraries-shader-api/lib-bayer-shader-api.md) : **bayerMatrix8()** renvoie des valeurs valides pour coords > 4k
 
 ## 2017.4.1
 
-* Correction d&#39;un shader enduit de pbr
+* Fixe shader recouvert de pbr
   * [lib-vectors.glsl](libraries-shader-api/lib-vectors-shader-api.md) : les sorties **tangentSpaceToWorldSpace()** et **worldSpaceToTangentSpace()** sont désormais normalisées
 
 ## 2017.4.0
 
-* Réflexion du specular incorrecte dans la vue 2D pour certains maillages
+* Réflexion incorrecte du specular dans la Vue 2D pour certains maillages
 
 ## 2017.3.1
 
-* Tramage moins cher
+* Dithering moins cher
 
 ## 2017.2.0
 
-* Supprimer la normalisation tbn interpolée pour correspondre au comportement de la Substance Designer et des boulangers
-* [Fenêtre d’affichage] Remplacer la table Hammersley par une spirale de Fibonacci
+* Supprimer la normalisation tbn interpolée pour correspondre au comportement de la Substance Designer et des bakers
+* [Viewport] Remplacer la table Hammersley par une spirale de Fibonacci
 
 ## 2.6.0
 
 * Correction des modes de fusion et d’élimination des ombrages
-* Retravailler le tramage. Si le rendu est linéaire, nous l’appliquons après le profil colorimétrique
+* Retravailler le dithering. Si nous avons un rendu linéaire, nous l’appliquons après le profil colorimétrique
 
 ## 2.5.0
 
-* Ajout de la prise en charge des profils colorimétriques (LUT) dans les fenêtres (conversion sRVB facultative)
-* Ajout de tramage à l’opacité dans les ombrages
+* Ajout de la prise en charge des Profils colorimétriques (LUT) dans les viewports (conversion sRGB facultative)
+* Ajout de dithering à l’opacité dans les ombrages
 * Ajout d’un mappage d’occlusion parallaxe aux nuanceurs PBR
-* Ajout d’un moyen de masquer les paramètres personnalisés de l’interface utilisateur du nuanceur par défaut
-* Ajout d’un lien vers la liste des balises de canal dans la documentation du nuanceur de calques
+* Ajout d’un moyen de masquer les paramètres personnalisés de l’interface utilisateur de shader par défaut
+* Ajout d’un lien vers la liste des balises de canal dans la documentation de Layering shader
 * Remplacer la balise « channel\_ao » par « channel\_ambientocclusion »
-* [Fenêtre d’affichage] Certaines cartes normales ont des valeurs affichées sous forme d’artefacts
+* [Viewport] Certaines maps normal ont des valeurs serrées qui apparaissent comme des artefacts
 * Corriger les canaux disponibles dans le document Shaders
-* Autoriser à définir une interface utilisateur de nuanceur personnalisée
-* Ajout d’une interface utilisateur de nuanceur personnalisée standard pour les nuanceurs de calque de matériau
-* Les fichiers d’interface utilisateur personnalisés sont désormais recherchés par rapport à un dossier shaders/custom-ui dans les rayons (comme le fichier mdl)
+* Autoriser à définir une interface utilisateur de shader personnalisée
+* Ajout d’une interface utilisateur shader personnalisée standard pour les nuanceurs de calques matériau
+* Les fichiers d’interface utilisateur personnalisés sont désormais recherchés par rapport à un dossier shaders/custom-ui dans les étagères (comme le fichier mdl)
 * Utilisation de la couche specular level dans les nuanciers par défaut
-* Exemple de correction des paramètres du nuanceur vec3
+* Exemple de correction de vec3 shader params
 * Mise à niveau de Painter vers le profil de base OpenGL
 
 ## 2.4.0
 
-* Corrigez la différence sur la carte normale combinée exportée et celle affichée dans la clôture
+* Corrigez la différence entre la map normal combinée exportée et celle affichée dans le viewport
 
 ## 2.2.0
 
-* Ajout de la prise en charge des textures sans reliure dans le matériau générique pour les textures non Document
-* Mise à jour de la documentation des curseurs de nuanceur personnalisés
+* Ajout de la prise en charge des textures sans reliure dans le matériau générique pour les textures sans document
+* Mise à jour de la documentation sur les curseurs de shader personnalisés
 * Permettre de définir la précision des pas pour les curseurs
 * Documentation pour la superposition dynamique de matériaux
 
@@ -109,21 +109,21 @@ ht-degree: 3%
 
 ## 2.1.0
 
-* Permettre de définir des groupes pour les paramètres d&#39;ombrage et les matières/masques
+* Permettre de définir des groupes pour les paramètres de shader et les matériaux/masques
 * Ajout de canaux manquants dans la documentation (&#39;ao&#39;, &#39;diffus&#39;, &#39;specularlevel&#39;)
 
 ## 2.0.4
 
 * Fonction de décompression normale incorrecte avec des valeurs alpha faibles
-* Autoriser à lire les couleurs des sommets du maillage dans l’ombrage personnalisé
-* [Fenêtre d’affichage] Carte d’environnement étendue sur certains ordinateurs
+* Autoriser à lire les couleurs du vertex maillage dans le shader personnalisé
+* [Viewport] map d&#39;environnement Étirée sur certains ordinateurs
 
 ## 2.0.0
 
 * Autoriser à remplacer les mappages supplémentaires Normal/AO par un canal dédié
 * Modification de la fonction Height 2Normal pour utiliser la méthode Sobel
 * Ajout de la possibilité de définir un mdl par shader
-* Ajouter un nouveau dossier mdl dans le tiroir
+* Ajouter un nouveau dossier mdl dans l’étagère
 * Ajout de paramètres prédéfinis de couches de diffusion et de specular level
 * Mise à jour de la documentation pour le mappage de tonalité
 * Correction des reflets en mode orthographique
@@ -132,38 +132,38 @@ ht-degree: 3%
 
 ## 1.7.0
 
-* Autoriser l’échantillonnage des textures externes (à partir de l’étagère)
+* Autoriser à échantillonner des textures externes (à partir de l’étagère)
 
 ## 1.6.0
 
-* Exposer la fonction de mappage gamma/tonalité pour permettre de les remplacer
+* Exposer la fonction de mappage gamma/tonique pour permettre de les remplacer
 * Exposer plusieurs codes texte
 
 ## 1.5.0
 
-* Ajouter un numéro de ligne et un nom de fichier dans le rapport d’erreur du nuanceur
+* Ajouter un numéro de ligne et un nom de fichier dans le rapport d’erreurs shader
 
 ## 1.4.1
 
 * Toutes les conversions sRVB suivent la norme sRVB, à l’exception de celles effectuées dans les nuanceurs qui ont une approximation étroite
-* La couche d’Height de la carte des normales est convertie dans le mauvais espace colorimétrique
+* La couche Height à la Map normal est convertie dans le mauvais espace colorimétrique
 
 ## 1.4.0
 
-* Ajout d’une couche d’occlusion ambiante
+* Ajouter un canal ambient occlusion
 * Ajouter un nouveau workflow pour l’édition normale
 * Ajout d’une syntaxe d’expression « ou » pour les paramètres automatiques liés à la texture
-* Correction du nuanceur pbr pour le processeur graphique Intel sous OSX
+* Correction du shader pbr pour le gpu Intel sous OSX
 
 ## 1.3.4
 
-* Autoriser l&#39;interpolation de binormales dans un nuanceur de fragments
-* Correction de l’espace tangent Mikkt
+* Autoriser l&#39;interpolation de binormales dans le shader de fragment
+* Corriger l’espace de tangente Mikkt
 
 ## 1.3.3
 
 * Correction des harmoniques sphériques produisant une intensité lumineuse négative
-* Le calcul de l’exposition est différent de la Substance Designer (et fixe le curseur d’exposition)
+* Le calcul d’exposition est différent de la Substance Designer (et réglez le curseur d’exposition)
 * Les ombres ne doivent pas être visibles sur une surface métallique à 100 %
 
 ## 1.3.0

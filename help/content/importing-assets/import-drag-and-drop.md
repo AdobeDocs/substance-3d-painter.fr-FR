@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/content/importing-assets/import-drag-and-drop.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/importing-assets/import-drag-and-drop.html"
 breadcrumb-title: ''
 description: Apprenez à ajouter des ressources par glisser-déposer dans Substance 3D Painter pour importer rapidement des ressources dans votre projet.
 helpx_creative_field: ""
@@ -30,19 +30,19 @@ Cela ouvrira la fenêtre Importer la ressource qui permet de contrôler où plac
 
 ![Gif montrant comment faire glisser et déposer une ressource dans la fenêtre Actifs](../../assets/import_dragdrop_assets_window.gif)
 
-### Importation dans la clôture
+### Importation dans le viewport
 
-Pour importer et appliquer directement un matériau dans votre projet, faites-le glisser dans la clôture. Tout en faisant glisser le fichier, il doit mettre en surbrillance le filet pour indiquer à quelle partie du projet il sera appliqué.
+Pour importer et appliquer directement un matériau dans votre projet, faites-le glisser dans le viewport. Tout en faisant glisser le fichier, il doit mettre en surbrillance le maillage pour indiquer à quelle partie du projet il sera appliqué.
 
-![Grille affichant le glisser-déposer d&#39;une ressource dans la fenêtre d&#39;affichage](../../assets/import_dragdrop_material_viewport.gif)
+![Grille affichant le glisser-déposer d&#39;une ressource dans le viewport](../../assets/import_dragdrop_material_viewport.gif)
 
-Il est également possible d’importer un fichier de SVG en le faisant glisser dans la clôture. Ainsi, vous créerez un nouveau calque avec le mode de projection de déformation et la ressource <b>Graphique vers matériau</b>, ce qui le rend pratique pour créer des décalcomanies.
+Il est également possible d’importer un fichier de SVG en le faisant glisser dans le viewport. Vous créez ainsi un calque avec le mode projection de déformation et la ressource <b>Graphique vers Matériau</b>, ce qui rend la création de décalcomanies pratique.
 
-![Grille affichant le glisser-déposer d&#39;une ressource dans la fenêtre d&#39;affichage](../../assets/import_dragdrop_material_svg.gif)
+![Grille affichant le glisser-déposer d&#39;une ressource dans le viewport](../../assets/import_dragdrop_material_svg.gif)
 
 ### Importation dans la pile de calques
 
-Glisser-déposer une ressource dans le calque créera des calques (ou effets) lors de la dépose. Un menu peut s’afficher pour demander dans quel canal placer la ressource s’il ne s’agit pas d’une Substance ou d’un filtre.
+Glisser-déposer une ressource dans le calque créera des calques (ou effets) lors de la dépose. Un menu peut s’afficher pour demander dans quel canal placer la Substance s’il ne s’agit pas d’un matériau ou d’un filtre.
 
 <table>
 <tr style="border: 0;">
@@ -72,6 +72,6 @@ Ajustez ou ajoutez des données audio à votre projet.
 
 ### Importation dans un emplacement de ressource
 
-Glissez et déposez un fichier dans l&#39;un des emplacements de ressources de l&#39;interface, comme par exemple dans un canal à l&#39;intérieur d&#39;un calque de remplissage, importera la ressource et l&#39;appliquera automatiquement.
+Glisser-déposer un fichier dans l&#39;un des emplacements de ressources de l&#39;interface, comme par exemple dans un canal à l&#39;intérieur d&#39;un calque de remplissage, importera la ressource et l&#39;appliquera automatiquement.
 
 ![Grille affichant le glisser-déposer d&#39;une ressource dans un emplacement de ressource](../../assets/import_dragdrop_slot.gif)

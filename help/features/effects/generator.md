@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/fr/substance-3d-painter/features/effects/generator.html'
+helpx_url: 'https://helpx.adobe.com/substance-3d-painter/features/effects/generator.html'
 breadcrumb-title: ''
 description: Apprenez à utiliser les effets de générateur dans Substance 3D Painter pour créer automatiquement des textures et des motifs procéduraux.
 helpx_creative_field: ''
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 # Générateurs
 
-Les générateurs sont des substances qui génèrent un masque ou des textures en fonction de la topologie de maillage [à l&#39;aide de cartes d&#39;utilité ancrées telles que Position, Courbure et Normale de l&#39;espace universel](../../baking/baking.md).
+Les générateurs sont des substances qui génèrent un masque ou des textures en fonction de la topologie de maillage [à l&#39;aide de cartes utilitaires bakées telles que Position, Courbure et Normale de l&#39;espace monde](../../baking/baking.md).
 
 >[!NOTE]
 >
-> La plupart des générateurs produisent des textures monochromes (noir et blanc), ce qui les rend particulièrement utiles pour créer des masques qui contrôlent un calque Matériau. Cependant, rien ne vous empêche d’utiliser un générateur monochrome comme calque de remplissage ou un générateur de couleurs complètes comme masque.
+> La plupart des générateurs produisent des textures monochromes (noir et blanc), ce qui les rend particulièrement utiles pour la création de masques contrôlant un calque de matériau. Cependant, rien ne vous empêche d’utiliser un générateur monochrome comme calque de remplissage ou un générateur de couleurs complètes comme masque.
 
 Pour ajouter un générateur à un masque :
 
@@ -47,7 +47,7 @@ Pour ajouter un générateur à un calque :
 ![](../../assets/generators/generator_spectrum.png)
 
 Chaque générateur dispose d’un ensemble de paramètres vous permettant d’affiner le masque obtenu.\
-Pour ajouter des générateurs personnalisés dans le tiroir, voir : [Ajout de contenu au tiroir](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
+Pour ajouter des générateurs personnalisés dans l&#39;étagère, voir : [Ajout de contenu à l&#39;étagère](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
 
 >[!NOTE]
 >

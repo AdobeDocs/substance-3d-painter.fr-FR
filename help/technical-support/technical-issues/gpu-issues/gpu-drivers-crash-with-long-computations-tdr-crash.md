@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.html"
 breadcrumb-title: ''
-description: Découvrez comment corriger les blocages du pilote GPU lors de longs calculs dans Substance 3D Painter pour éviter les erreurs d’expiration de TDR.
+description: Découvrez comment corriger les crashs du pilote GPU lors de calculs longs dans Substance 3D Painter pour éviter les erreurs d’expiration de TDR.
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > GPU Issues > GPU drivers crash with long computations (TDR crash)
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Les pilotes GPU se bloquent lors de longs calculs (blocage de TDR)
+title: Crash de pilotes GPU avec calculs longs (crash TDR)
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Les pilotes GPU se bloquent lors de longs calculs (blocage de TDR)
+# Crash de pilotes GPU avec calculs longs (crash TDR)
 
 ![Avertissement TDR dans Substance 3D Painter](../../../assets/tdr-window-v2.png "Avertissement TDR dans Substance 3D Painter"){zoomable="yes"}
 
@@ -28,7 +28,7 @@ Sous Windows, cette fenêtre apparaît si Substance 3D Painter détecte que la v
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-## Pourquoi le pilote GPU se bloque-t-il ?
+## Pourquoi le pilote GPU crash-t-il ?
 
 </td>
 <td style="border: 0;" valign="top">
@@ -44,9 +44,9 @@ Sous Windows, cette fenêtre apparaît si Substance 3D Painter détecte que la v
 </tr>
 </table>
 
-## Pourquoi le pilote GPU se bloque-t-il ?
+## Pourquoi le pilote GPU crash-t-il ?
 
-Afin d&#39;empêcher tout rendu ou calcul GPU de **verrouiller le système**, le système d&#39;exploitation Windows **tue le pilote GPU** chaque fois qu&#39;un rendu prend plus de quelques secondes. Lorsque le pilote est arrêté, l’application qui l’utilise se bloque automatiquement. Il n’est pas possible de savoir combien de temps une tâche de rendu ou un calcul peut prendre (cela dépend du GPU, des pilotes, du système d’exploitation, de la taille du maillage, de la taille de la texture, etc.). Il n’est donc pas possible de fixer une limite à la quantité que l’ordinateur doit traiter et d’éviter le blocage au niveau de l’application.
+Afin d&#39;empêcher tout rendu ou calcul GPU de **verrouiller le système**, le système d&#39;exploitation Windows **tue le pilote GPU** chaque fois qu&#39;un rendu prend plus de quelques secondes. Lorsque le pilote est arrêté, l’application qui l’utilise effectue automatiquement un crash. Il n’est pas possible de savoir combien de temps une tâche de rendu ou un calcul peut prendre (cela dépend du GPU, des pilotes, du système d’exploitation, de la taille du maillage, de la taille de la texture, etc.). Il n’est donc pas possible de limiter la quantité que l’ordinateur doit traiter et d’éviter le crash au niveau de l’application.
 
 Sous Windows, une **clé de registre** **clé** spécifie le temps que le système d&#39;exploitation doit attendre avant de tuer le pilote GPU. Les applications ne sont pas autorisées à modifier ce paramètre directement, cette procédure doit être effectuée manuellement (voir ci-dessous).
 
@@ -143,7 +143,7 @@ Le volet de droite doit maintenant se présenter comme suit :
 
 La valeur TdrValue n&#39;est prise en compte qu&#39;au démarrage de l&#39;ordinateur, de sorte que pour forcer une actualisation, un redémarrage est nécessaire.
 
-Si l’application se bloque toujours lors d’un calcul long, essayez d’augmenter le délai (en secondes) de 60 à 120, par exemple.
+Si l’application effectue toujours des crashs lors d’un calcul de longue durée, vous pouvez augmenter le délai (en secondes) de 60 à 120, par exemple.
 
 ## Rétablissement des valeurs TDR par défaut
 

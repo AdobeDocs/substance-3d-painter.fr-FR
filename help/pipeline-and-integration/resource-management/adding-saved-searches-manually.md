@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/pipeline-and-integration/resource-management/adding-saved-searches-manually.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/resource-management/adding-saved-searches-manually.html"
 breadcrumb-title: ''
 description: Découvrez comment ajouter manuellement des recherches enregistrées dans Substance 3D Painter pour accéder rapidement aux filtres de ressources fréquemment utilisés.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ Les requêtes de recherche d’actifs (ou les recherches enregistrées) peuvent 
 
 ## Emplacement du fichier de configuration
 
-Pour ajouter des requêtes enregistrées personnalisées, accédez au dossier Documents de l&#39;utilisateur et ouvrez le fichier **Shelf.ini**.
+Pour ajouter des requêtes personnalisées enregistrées, accédez au dossier Documents de l&#39;utilisateur et ouvrez le fichier **Étagère.ini**.
 
 <table data-preserve-html="true" style="width: 100.0%;"> <colgroup> <col style="width: 15.0%;"/> <col style="width: 15.0%;"/> <col style="width: 70.0%;"/> </colgroup> <tbody> <tr> <th>Plateforme</th> <th>Version</th> <th>Tracé</th> </tr> <tr> <td rowspan="2"><strong>Windows</strong></td> <td><strong>7.2</strong> ou version plus récente</td> <td colspan="1">C:\Users\username\Documents\Adobe\Adobe Substance 3D Painter</td> </tr> <tr> <td colspan="1">Ancien système</td> <td colspan="1">C:\Users\username\Documents\Allegorithmic\Substance Painter</td> </tr> <tr> <td rowspan="2"><strong>Mac</strong></td> <td colspan="1"><strong>7.2</strong> ou version plus récente</td> <td colspan="1">/Users/username/Documents/Adobe/Adobe Substance 3D Painter</td> </tr> <tr> <td colspan="1">Ancien système</td> <td colspan="1">/Users/username/Documents/Allegorithmic/Substance Painter</td> </tr> <tr> <td rowspan="2"><strong>Linux</strong></td> <td colspan="1"><strong>7.2</strong> ou version plus récente</td> <td colspan="1">/home/username/Documents/Adobe/Adobe Substance 3D Painter</td> </tr> <tr> <td>Ancien système</td> <td colspan="1">/home/username/Documents/Allegorithmic/Substance Painter</td> </tr> </tbody> </table>
 

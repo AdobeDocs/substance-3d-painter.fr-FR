@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting/presets/photoshop-brush-presets-abr.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/photoshop-brush-presets-abr.html"
 breadcrumb-title: ''
-description: Découvrez comment utiliser les pinceaux prédéfinis Photoshop (fichiers ABR) dans Substance 3D Painter pour tirer parti de votre collection de pinceaux existante.
+description: Découvrez comment utiliser les paramètres prédéfinis de pinceau Photoshop (fichiers ABR) dans Substance 3D Painter pour tirer parti de votre collection de pinceaux existante.
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Presets > Photoshop Brush Presets (ABR)
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Paramètres prédéfinis de pinceau Photoshop (ABR)
+title: Photoshop Paramètre prédéfini de pinceau (ABR)
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,14 +18,14 @@ ht-degree: 0%
 ---
 
 
-# Paramètres prédéfinis de pinceau Photoshop (ABR)
+# Photoshop Paramètre prédéfini de pinceau (ABR)
 
-Substance 3D Painter peut importer des pinceaux prédéfinis conçus pour Photoshop en important des fichiers ABR. Les fichiers ABR peuvent contenir plusieurs pinceaux et outils prédéfinis.
+Substance 3D Painter peut importer des paramètres prédéfinis de pinceau conçus pour Photoshop en important des fichiers ABR. Les fichiers ABR peuvent contenir plusieurs pinceaux et paramètres prédéfinis d&#39;outil.
 
-Pour en savoir plus sur les pinceaux prédéfinis ABR et leur prise en charge, consultez les pages suivantes :
+Pour en savoir plus sur les Paramètres prédéfinis de pinceau ABR et leur prise en charge, consultez les pages suivantes :
 
-* [Exportation de pinceaux prédéfinis depuis Photoshop](exporting-brush-presets-from-photoshop.md)
-* [Importation de pinceaux prédéfinis Photoshop](importing-photoshop-brush-presets.md)
+* [Exportation de Paramètres prédéfinis de pinceau à partir de Photoshop](exporting-brush-presets-from-photoshop.md)
+* [Importation de Paramètres prédéfinis de pinceau Photoshop](importing-photoshop-brush-presets.md)
 * [Compatibilité des paramètres de pinceau Photoshop](photoshop-brush-parameters-compatibility.md)
 
 Les pinceaux ABR et les packs de pinceaux sont également couramment disponibles sur de nombreux autres sites, notamment ArtStation, DeviantArt et Cubebrush.

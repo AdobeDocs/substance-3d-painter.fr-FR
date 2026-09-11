@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/technical-issues/startup-issues/application-failed-to-start-because-of-qt.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/startup-issues/application-failed-to-start-because-of-qt.html"
 breadcrumb-title: ''
 description: Découvrez comment corriger les erreurs de démarrage de Substance 3D Painter causées par des problèmes de framework Qt pour un lancement correct de l’application.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Le message d’erreur suivant peut s’afficher lors du démarrage de l’application :
 
-&#x200B;>> 
+>> 
 
 Échec du démarrage de cette application car aucun plug-in de plateforme Qt n&#39;a pu être initialisé. Réinstaller l’application peut résoudre ce problème.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/features/plugins/autosave.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/plugins/autosave.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser le module externe Enregistrement automatique de Substance 3D Painter pour enregistrer automatiquement vos projets à intervalles réguliers.
 helpx_creative_field: ""
@@ -57,7 +57,7 @@ Pour configurer le comportement d&#39;enregistrement automatique, cliquez sur le
 > Le minuteur d’enregistrement automatique s’interrompt si :
 > 
 > * Le moteur fait un calcul
-> * Les textures sont exportées
+> * Textures en cours d’exportation
 > * La fenêtre de configuration est ouverte
 > * Le projet est en cours d’enregistrement
 

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sparse-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sparse-shader-api.html"
 breadcrumb-title: ''
-description: Accédez à la référence Lib Sparse API de shader pour Substance 3D Painter afin d’utiliser l’échantillonnage de texture dispersée dans des nuanceurs personnalisés.
+description: Accédez à la référence Lib Sparse API de shader pour Substance 3D Painter afin d’utiliser l’échantillonnage de textures fragmentées dans des shaders personnalisés.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Sparse - Shader API
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## lib-sparse.glsl
 
-Ce fichier fournit des fonctions utiles pour s’assurer que les textures dispersées échantillonnent correctement (ARB\_sparse\_texture). Permet d’échantillonner uniquement une partie des textures réellement présentes dans la mémoire vidéo.
+Ce fichier fournit des fonctions utiles pour s’assurer que les textures fragmentées échantillonnent correctement (ARB\_sparse\_texture). Permet d’échantillonner uniquement une partie des textures réellement présentes dans la mémoire vidéo.
 
 **Fonctions publiques :** *getSparseCoord* *getSparseCoordLod0* *textureSparseQueryLod* *textureSparse*
 
@@ -30,7 +30,7 @@ Ce fichier fournit des fonctions utiles pour s’assurer que les textures disper
 
 La macro *FEATURE\_SPARSE\_TEXTURE* est définie uniquement si l&#39;extension de texture virtuelle fragmentée est activée.
 
-Si cette option est activée, effectuez des vérifications de recherche de texture supplémentaires pour remonter la pyramide mipmap si des textures sont manquantes.
+Si cette option est activée, effectuez des vérifications de recherche de texture supplémentaires pour gravir la pyramide de mipmap si des texels sont manquants.
 
 ```
 ## ifdef FEATURE_SPARSE_TEXTURE
@@ -63,7 +63,7 @@ uniform float uvtile_lod_bias;
 ```
 
 
-Sampler et structure des informations sur les textures éparses
+Sampler et structure des informations sur les textures fragmentées
 
 Utilisé pour interroger tous les uniformes associés à Sampler avec une seule liaison automatique
 
@@ -84,7 +84,7 @@ struct SamplerSparse {
 
 Coordonnées d’échantillonnage éparses
 
-Stocker les coordonnées UV et le masque de LdD dispersé en fonction de la matière
+Stocker les coordonnées UV et le masque de LdD dispersé par matériau
 
 ```
 struct SparseCoord { 
@@ -109,7 +109,7 @@ struct SparseCoord {
 ```
 
 
-Créer une structure de coordonnées de texture utilisée par la fonction d&#39;échantillonnage *textureSparse()* (doit être appelée à partir du nuanceur de fragments)
+Créer la structure des coordonnées de texture utilisée par la fonction d&#39;échantillonnage *textureSparse()* (doit être appelée à partir du shader de fragment)
 
 Exemple : *SparseCoord uv1coord = getSparseCoord(input.multi\_tex\_coord[1]);*
 
@@ -144,7 +144,7 @@ SparseCoord getSparseCoord(vec2 tex_coord) {
 ```
 
 
-Structure des coordonnées de la texture utilisée par la fonction d&#39;échantillonnage *textureSparse()* version d&#39;échantillonnage de niveau de base (peut être utilisée en dehors du nuanceur de fragments)
+Structure des coordonnées de texture de build utilisée par la fonction d&#39;échantillonnage *textureSparse()* Version d&#39;échantillonnage de niveau de base (peut être utilisée si en dehors du shader de fragment)
 
 ```
 SparseCoord getSparseCoordLod0(vec2 tex_coord) { 
@@ -179,9 +179,9 @@ SparseCoord getSparseCoordLod0(vec2 tex_coord) {
 ```
 
 
-Calculez le niveau de détail qui serait utilisé pour prélever un échantillon à partir d’une texture dispersée
+Calcul du niveau de détail qui serait utilisé pour échantillonner à partir d’une texture dispersée
 
-Monter la pyramide mipmap si les texels sont manquants Retourne LdD AVANT LdD biais appliqué
+Monter la pyramide de mipmap si les texels sont manquants Retours LdD AVANT LdD biais appliqué
 
 ```
 float textureSparseQueryLod(SamplerSparse sampler, SparseCoord coord) { 
@@ -210,9 +210,9 @@ float textureSparseQueryLod(SamplerSparse sampler, SparseCoord coord) {
 ```
 
 
-Calculez les dérivées à utiliser pour prélever des échantillons d’une texture dispersée
+Calculer les dérivées qui seraient utilisées pour échantillonner à partir d’une texture dispersée
 
-Monter sur la pyramide mipmap si les texels sont manquants
+Grimper jusqu&#39;à la pyramide de mipmap si les texels manquent
 
 ```
 void textureSparseQueryGrad(out vec2 dfdx, out vec2 dfdy, SamplerSparse sampler, SparseCoord coord) { 
@@ -249,9 +249,9 @@ void textureSparseQueryGrad(out vec2 dfdx, out vec2 dfdy, SamplerSparse sampler,
 ```
 
 
-Effectue une recherche de texture sur une texture dispersée et remonte les niveaux du mipmap si nécessaire
+Effectue une recherche de texture sur une texture fragmentée et remonte les niveaux du mipmap si nécessaire
 
-Cette fonction remplace la *texture(sampler2D, vec2)* standard pour récupérer des texels à partir d&#39;une texture dispersée
+Cette fonction remplace la *texture(sampler2D, vec2)* standard pour récupérer des texels à partir d&#39;une texture fragmentée
 
 ```
 vec4 textureSparse(SamplerSparse sampler, SparseCoord coord) { 

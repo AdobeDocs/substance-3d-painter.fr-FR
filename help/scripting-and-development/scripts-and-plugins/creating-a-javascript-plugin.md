@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/scripting-and-development/scripts-and-plugins/creating-a-javascript-plugin.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/scripts-and-plugins/creating-a-javascript-plugin.html"
 breadcrumb-title: ''
 description: Découvrez comment créer des plug-ins JavaScript pour Substance 3D Painter afin d’étendre les fonctionnalités et d’automatiser les workflows personnalisés.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Ce guide étape par étape décrit comment créer un plug-in simple qui permet d’exporter le masque du calque actuellement sélectionné dans un projet.
 
-Le but du module externe de ce guide est d’exporter tous les canaux de l’ensemble de textures actuel à l’intérieur d’un projet sous forme de textures individuelles.
+Le but du plug-in de ce guide est d’exporter tous les canaux du Jeu de textures actif à l’intérieur d’un projet sous la forme de textures individuelles.
 
 ## 1 - Accès au dossier des plug-ins
 
@@ -36,7 +36,7 @@ Pour accéder au dossier **plug-ins**, accédez à :
 
 Un nom de plug-in est basé sur le nom de son dossier parent.
 
-Pour cet exemple, créez simplement un nouveau dossier nommé **export-textures** dans le dossier des plug-ins.
+Pour cet exemple, il vous suffit de créer un nouveau dossier nommé **export-textures** dans le dossier des plug-ins.
 
 ### 3 - Création des fichiers du plug-in
 
@@ -325,7 +325,7 @@ Une fois terminé, enregistrez et fermez le fichier.
 
 Démarrez Substance 3D Painter. Par défaut, les nouveaux plug-ins sont automatiquement chargés et activés.
 
-Ouvrez un projet, puis cliquez sur le bouton de l’interface utilisateur créé par le plug-in pour exporter les canaux de l’ensemble de textures actuellement sélectionné :
+Ouvrez un projet, puis cliquez sur le bouton UI créé par le plug-in pour exporter les canaux du Jeu de textures actuellement sélectionné :
 
 ![](../../assets/button-plugin.png)
 

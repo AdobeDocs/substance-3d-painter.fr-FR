@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/features/auto-update.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/auto-update.html"
 breadcrumb-title: ''
 description: Découvrez comment utiliser la mise à jour automatique des ressources dans Substance 3D Painter pour que vos bibliothèques de ressources restent synchronisées et à jour.
 helpx_creative_field: ""
@@ -44,8 +44,8 @@ Les paramètres de mise à jour automatique contrôlent la fréquence à laquell
 
 | Paramètre | Description |
 | --- | --- |
-| <b>Panneau Actifs</b> | Si cette option est activée, la mise à jour automatique recherche les actifs à mettre à jour dans toutes les bibliothèques actuellement chargées. Cela inclut le projet en cours. Cependant, il ne mettra pas à jour les ressources utilisées dans la pile de calques, les paramètres d’affichage, les paramètres de nuanceur, etc. |
-| <b>Ressources utilisées dans le projet</b> | Si cette option est activée, la mise à jour automatique recherche les actifs à mettre à jour qui sont actuellement importés et utilisés par le projet en cours. Cela s’applique aux ressources utilisées dans la pile de calques, les paramètres d’affichage, les paramètres de nuanceur, etc. |
+| <b>Panneau Actifs</b> | Si cette option est activée, la mise à jour automatique recherche les actifs à mettre à jour dans toutes les bibliothèques actuellement chargées. Cela inclut le projet en cours. Cependant, il ne mettra pas à jour les ressources utilisées dans la pile de calques, les paramètres d’affichage, les paramètres de shader, etc. |
+| <b>Ressources utilisées dans le projet</b> | Si cette option est activée, la mise à jour automatique recherche les actifs à mettre à jour qui sont actuellement importés et utilisés par le projet en cours. Cela s’applique aux ressources utilisées dans la pile de calques, les paramètres d’affichage, les paramètres de shader, etc. |
 | <b>Mise à jour toutes les x minutes</b> | Contrôlez la fréquence à laquelle l’application recherche une mise à jour des ressources. Un délai de 0 minute déclenche une mise à jour toutes les quelques secondes. Notez qu’un délai aussi court peut entraîner des problèmes de performances. |
 
 >[!NOTE]
@@ -71,7 +71,7 @@ Les paramètres avancés permettent de contrôler le comportement du processus d
 
 | Paramètre | Description |
 | --- | --- |
-| <b>Ignorer les ressources lorsque leurs paramètres ne correspondent pas</b> | Si cette option est activée, le processus de mise à jour automatique évite de mettre à jour les ressources si la nouvelle version ne correspond pas à l’ancienne. Par exemple, si un matériau de Substance a des paramètres qui n&#39;existent plus dans la nouvelle version (parce qu&#39;ils ont été supprimés ou renommés) le processus de mise à jour ignorera la ressource et gardera l&#39;ancienne version à la place. |
+| <b>Ignorer les ressources lorsque leurs paramètres ne correspondent pas</b> | Si cette option est activée, le processus de mise à jour automatique évite de mettre à jour les ressources si la nouvelle version ne correspond pas à l’ancienne. Par exemple, si un matériau de Substance de données contient des paramètres qui n&#39;existent plus dans la nouvelle version (parce qu&#39;ils ont été supprimés ou renommés), le processus de mise à jour ignore la ressource et conserve l&#39;ancienne version à la place. |
 
 >[!NOTE]
 >
@@ -96,7 +96,7 @@ En fonction du processus de mise à jour, plusieurs types de problèmes peuvent 
 | Problème | Description |
 | --- | --- |
 | <b>Impossible de mettre à jour dans le panneau Actifs</b> | Ce message signifie qu’un problème a empêché le système de mise à jour de continuer. Développez le nom de la ressource pour obtenir plus d’informations. |
-| <b>(nom de fichier).(format) n&#39;existe pas. Impossible de recharger (nom de la ressource)</b> | Ce message signifie que le fichier source d&#39;une ressource est introuvable (soit parce qu&#39;il a été déplacé, soit parce qu&#39;il a été supprimé). Une solution simple consiste à réimporter la ressource ou à la relocaliser dans la fenêtre Actifs (via le menu contextuel). |
+| <b>(nom de fichier).(format) n&#39;existe pas. Impossible de recharger (nom de la ressource)</b> | Ce message signifie que le fichier source d&#39;une ressource est introuvable (soit parce qu&#39;il a été déplacé, soit parce qu&#39;il a été supprimé). Une solution simple consiste à réimporter la ressource ou à la redéfinir l&#39;emplacement dans la fenêtre Actifs (via le menu contextuel). |
 
 ## Ancien message de projet
 

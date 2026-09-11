@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/release-notes/old-versions/version-2018-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2018-2.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour de Substance 3D Painter version 2018.2 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Version 2018.2
 
-**Substance Painter 2018.2** ajoute des fonctionnalités attendues depuis longtemps, telles que la peinture par diffusion de sous-surface, qui rendent la texturation encore plus facile qu&#39;auparavant.
+**Substance Painter 2018.2** ajoute des fonctionnalités attendues depuis longtemps, telles que la peinture à la Subsurface scattering, qui facilitent encore plus le texturage.
 
 Date de publication : *2 août 2018*
 
@@ -30,61 +30,61 @@ Date de publication : *2 août 2018*
 
 ![](../../assets/changelog-sss.jpg)
 
-La **diffusion de sous-surface** est désormais prise en charge dans la fenêtre d&#39;affichage **en temps réel** et avec le **rendu Iray**.\
-La diffusion sous la surface est un mécanisme de la lumière qui pénètre dans un objet ou une surface. Au lieu d&#39;être réfléchie, comme avec les surfaces métalliques, une partie de la lumière est absorbée par le matériau, puis **diffusée à l&#39;intérieur**. De nombreux matériaux dans la vie réelle ont une diffusion sous la surface comme la peau ou la cire.
+**La Subsurface scattering** est désormais prise en charge dans le viewport **en temps réel** et avec le **moteur de rendu**.\
+La subsurface scattering est un mécanisme de lumière qui pénètre dans un objet ou une surface. Au lieu d&#39;être réfléchie, comme avec les surfaces métalliques, une partie de la lumière est absorbée par le matériau, puis **diffusée à l&#39;intérieur**. De nombreux matériaux de la vie réelle ont une subsurface scattering telle que la peau ou la cire.
 
-Notre implémentation de l&#39;effet Subsurface est très proche des implémentations en temps réel d&#39;autres moteurs de jeu ainsi que d&#39;autres rendus hors ligne. Cela facilite la création de textures de diffusion à utiliser dans d&#39;autres applications.
+Notre implémentation de l&#39;effet Subsurface est très proche des implémentations en temps réel d&#39;autres moteurs de jeu ainsi que d&#39;autres rendus hors ligne. Cela facilite la création de textures de diffusion à utiliser dans d’autres applications.
 
 ![](../../assets/comparison-1.jpg){width="650px"}
 
 Ci-dessus est un exemple avec le bien connu Digital Emily 2. Merci à l&#39;USC Institute for Creative Technologies et aux membres du projet Wikihuman de nous avoir permis de faire la démonstration de nos rendus avec les ressources Digital Emily 2.\
 (Veuillez noter que cette comparaison a été effectuée dans des conditions d&#39;éclairage similaires mais non exactes, ce qui peut expliquer des différences visuelles.)
 
-Pour ajouter une diffusion de sous-surface dans un projet, procédez comme suit :
+Pour ajouter de la Subsurface scattering dans un projet, procédez comme suit :
 
-1. Accédez à la fenêtre **Paramètres d&#39;affichage** et **activez** le paramètre **Dispersion de sous-surface**.
+1. Accédez à la fenêtre **Paramètres d&#39;affichage** et **activez** le paramètre **Subsurface scattering**.
 1. Ajouter un canal « **Diffusion** » dans le jeu de textures actuel
-1. Utilisez un calque de remplissage ou **peignez en blanc** dans la nouvelle couche pour **révéler** l&#39;effet de sous-surface dans la clôture.
+1. Utilisez un calque de remplissage ou une **peinture en blanc** dans le nouveau canal pour **révéler** l&#39;effet de sous-surface dans le viewport.
 
-Une procédure plus détaillée est disponible dans la [documentation sur la diffusion souterraine](../../features/subsurface-scattering/subsurface-scattering.md).
+Une procédure plus détaillée se trouve dans la [documentation de la Subsurface scattering](../../features/subsurface-scattering/subsurface-scattering.md).
 
 >[!NOTE]
 >
-> Afin de prendre en charge la diffusion souterraine dans la fenêtre d&#39;affichage en temps réel, les **nuanceurs** dans les projets doivent être **mis à jour**.\
+> Afin de prendre en charge la Subsurface scattering dans le viewport en temps réel, les **shaders** dans les projets doivent être **mis à jour**.\
 > Pour les nuanceurs personnalisés, consultez la documentation disponible dans le **menu d&#39;aide** pour savoir ce qui a changé dans le **API de shader**.
 
-### Manipulateurs pour calques de remplissage
+### Manipulateurs pour les calques de remplissage
 
 ![](../../assets/changelog-manipulator.png)
 
-Les commandes Calques de remplissage ont été améliorées pour proposer des manipulateurs. Il est désormais plus facile de placer et de contrôler avec précision les projections de remplissage.
+Les contrôles des calques de remplissage ont été améliorés pour offrir aux manipulateurs. Il est désormais plus facile de placer et de contrôler avec précision les projections de remplissage.
 
 Lors de l&#39;utilisation de la **Projection UV**, un manipulateur apparaîtra dans la **vue 2D** :
 
-* En cliquant sur **à l&#39;extérieur**, le manipulateur **fera pivoter** l&#39;élément.
+* En cliquant sur **en dehors**, le manipulateur **le fera pivoter**.
 * Cliquez sur le **carré** aux **bordures** pour le **redimensionner**.
-* En cliquant sur **à l&#39;intérieur**, le manipulateur le **traduira**.
-* Utilisez **CTRL** pour modifier plusieurs angles de **symétrie**.
-* Utilisez **MAJ** pour **contraindre** une transformation (translation, rotation ou échelle).\
+* En cliquant sur **à l&#39;intérieur**, le manipulateur le **translatera**.
+* Utilisez **CTRL** pour modifier plusieurs angles dans **symétrie**.
+* Utilisez **MAJ** pour **contraindre** une transformation (translate, rotation ou échelle).\
   ![](../../assets/manipulator-uv.gif)
 
-Lors de l&#39;utilisation de la **projection triplanaire**, un manipulateur apparaîtra dans la **vue 3D** :
+Lors de l&#39;utilisation de la **projection Planaire**, un manipulateur apparaîtra dans la **vue 3D** :
 
 * Le cube en pointillés représente la projection globale
-* Utilisez le raccourci clavier **W**, **E** ou **R** pour basculer entre les modes **Traduire**, **Rotation** et **Échelle**.
-* Utilisez le raccourci clavier **T** pour basculer entre les orientations Local et Univers pour le manipulateur.
+* Utilisez le raccourci clavier **W**, **E** ou **R** pour basculer entre les modes **Translater**, **Rotation** et **Échelle**.
+* Utilisez le raccourci clavier **T** pour basculer entre les orientations Local et Mondial du manipulateur.
 * Utilisez **MAJ** pour **contraindre** la transformation.
-* La projection du cube triplan peut également être modifiée dans les propriétés avancées du calque de remplissage :\
+* La projection de cube tri-Planaire peut également être modifiée dans les propriétés de calque de remplissage avancées :\
   ![](../../assets/fill-properties-triplanar.png)\
   ![](../../assets/manipulator-3d-optim.gif)
 
-La barre d&#39;outils contextuelle en haut de la fenêtre s&#39;adaptera également en fonction du mode de projection actuel, offrant des outils et des commandes supplémentaires :
+La barre d’outils contextuelle en haut du viewport s’adaptera également en fonction du mode de projection actif, offrant des outils et des commandes supplémentaires :
 
 ![](../../assets/contextual-toolbar-manipulator.png)
 
-Pour plus de détails, consultez la [documentation Remplir la couche](../../painting/fill-projections/fill-projections.md).
+Pour plus de détails, consultez la [documentation Calque de remplissage](../../painting/fill-projections/fill-projections.md).
 
-### Support non carré et sans labour pour l’outil Pochoir et Projection
+### Support non carré et sans labour pour outil de Pochoir et de Projection
 
 ![](../../assets/non-square-stencil.jpg)
 
@@ -95,67 +95,67 @@ Le paramètre par défaut est désormais défini sur non labour par défaut. Ce 
 
 Le mode de remplissage peut être défini comme suit :
 
-* **Aucun carrelage** (par défaut)
-* **Mosaïque horizontale**
-* **Mosaïque verticale**
-* **Limites H et V** (ancien comportement)
+* **Aucune Répétition** (par défaut)
+* **Répétition horizontale**
+* **Répétition verticale**
+* **Répétition H et V** (ancien comportement)
 
-Ce nouveau paramètre peut être enregistré dans un outil ou un pinceau prédéfini, ce qui facilite son partage avec du contenu personnalisé.
+Ce nouveau paramètre peut être enregistré dans un outil ou un paramètre prédéfini de pinceau, ce qui facilite son partage avec du contenu personnalisé.
 
 >[!NOTE]
 >
-> * Le rapport de projection s’adaptera également aux fichiers de Substance qui produisent des résolutions autres que carrées. Le rapport sera calculé directement à partir du nœud de sortie.
-> * Avec l’outil de projection, si plusieurs canaux ont des rapports différents, le premier rapport trouvé sera appliqué à tous les autres canaux.
+> * Le rapport de projection s’adaptera également aux fichiers de Substance qui génèrent des résolutions autres que carrées. Le rapport sera calculé directement à partir du nœud de sortie.
+> * Avec l’outil projection, si plusieurs canaux ont des proportions différentes, la première proportion trouvée sera appliquée à tous les autres canaux.
 
-### Importation et gestion de la caméra
+### Importation et gestion des caméras
 
 ![](../../assets/camera-import.png)
 
-Il est désormais possible d&#39;**importer des caméras personnalisées** à l&#39;intérieur de la Substance Painter en même temps que l&#39;importation de filet.\
-Les caméras peuvent être sélectionnées **pour être parcourues** dans l&#39;**aire d&#39;affichage 3D** et utilisées **pour le rendu en iray**.
+Il est désormais possible d&#39;**importer des caméras personnalisées** à l&#39;intérieur de la Substance Painter en même temps que l&#39;importation de maillage.\
+Les caméras peuvent être sélectionnées **pour les parcourir** dans le **viewport 3D** et utilisées **pour le rendu en Iray**.
 
-Pour plus de détails, consultez la [documentation sur la gestion de l&#39;appareil photo](../../interface/viewport/camera-management.md).
+Pour plus de détails, consultez la [documentation sur la gestion des Caméras](../../interface/viewport/camera-management.md).
 
 Pour **importer des caméras** dans un projet :
 
-1. Exportez le filet du projet avec les caméras dans le même fichier (avec un format pris en charge tel que FBX, Alembic ou glTF)
-1. Sélectionnez les paramètres « importer des caméras » dans la [fenêtre du nouveau projet](../../getting-started/project-creation.md) (ou la [configuration du projet](../../interface/project-configuration.md)).\
+1. Exportez le maillage du projet avec les caméras dans le même fichier (avec un format pris en charge tel que FBX, Alembic ou glTF)
+1. Sélectionnez les paramètres « importer les caméras » dans la [fenêtre du nouveau projet](../../getting-started/project-creation.md) (ou la [configuration du projet](../../interface/project-configuration.md)).\
    ![](../../assets/new-project-cameras.png)
-1. Basculez vers l&#39;appareil photo souhaité avec la liste déroulante dans la clôture ou en utilisant les paramètres dans les [Paramètres d&#39;affichage](../../interface/display-settings/camera-settings.md).\
+1. Passez à la caméra souhaitée avec la liste déroulante dans le viewport ou en utilisant les paramètres dans les [Paramètres d&#39;affichage](../../interface/display-settings/camera-settings.md).\
    ![](../../assets/cmaera-select-viewport.png)
 
-Les paramètres de l’appareil photo dans la fenêtre Paramètres d’affichage ont été étendus pour contrôler les propriétés de l’appareil photo.\
-Il est possible de **basculer** entre les appareils photo, de voir son **ratio** et de **verrouiller** ses propriétés pour éviter de le modifier. Un bouton de restauration peut être utilisé pour rétablir les valeurs initiales de la caméra.
+Les paramètres de Caméra de la fenêtre Paramètres d’affichage ont été étendus pour contrôler les propriétés de la Caméra.\
+Il est possible de **basculer** entre les caméras, de voir son **ratio** et de **verrouiller** ses propriétés pour éviter de le modifier. Un bouton de restauration peut être utilisé pour rétablir les valeurs initiales de la caméra.
 
 ![](../../assets/camera-properties-2.png)
 
-Le cadre de la caméra (et son portail) est également pris en compte, ce qui permet de visualiser et de peindre via un point de vue très spécifique. L&#39;image et le portail sont affichés sur la fenêtre d&#39;affichage 3D et son opacité peut être contrôlée dans les **Paramètres de la fenêtre d&#39;affichage** à partir de la fenêtre [Paramètres d&#39;affichage](../../interface/display-settings/camera-settings.md) :
+Le cadre de caméra (et sa porte) est également pris en compte, ce qui permet de visualiser et de peinture via un point de vue très spécifique. Le cadre et le portail sont affichés sur le Viewport 3D et son opacité peut être contrôlée dans les **Paramètres de Viewport** à partir de la fenêtre [Paramètres d&#39;affichage](../../interface/display-settings/camera-settings.md) :
 
 ![](../../assets/camera-gate.png)
 
 ### Améliorations du comportement de la pile de calques
 
-* **Glissez-déposez Matières et Matières intelligentes sur la carte d&#39;ID :**\
-  Le glisser-déposer du contenu de l&#39;étagère dans la clôture a été amélioré. En appuyant sur **CTRL** tout en faisant glisser et en déposant un matériau, il est désormais possible de choisir la couleur d&#39;ID qui sera utilisée comme masque.\
-  Un masque noir avec un effet de sélection de couleur sera ajouté au nouveau calque créé dans la pile de calques. Si le même matériau est glissé et déposé sur une autre couleur d’ID, le calque existant est mis à jour et les couleurs d’ID sont combinées.\
+* **Glissez-déposez des Matériaux et des Matériaux adaptables sur le Map id :**\
+  Le glisser-déposer du contenu de l’étagère dans le viewport a été amélioré. En appuyant sur **CTRL** tout en faisant glisser un matériau, il est désormais possible de choisir la couleur d&#39;ID qui sera utilisée comme masque.\
+  Un masque noir avec un effet de choix de couleur sera ajouté au nouveau calque créé dans la pile de calques. Si le même matériau est glissé et déposé sur une autre couleur d’ID, le calque existant est mis à jour et les couleurs d’ID sont combinées.\
   ![](../../assets/id-drop.gif)
-* **Glisser-déposer la pile de calques :**\
-  Le déplacement de calques autour de la pile de calques s’effectue désormais dans une petite fenêtre.\
-  Lorsqu’une ressource ou un calque est déplacé près des bordures de la fenêtre de la pile de calques, il commence automatiquement à faire défiler son contenu.\
+* **Défilement par glisser-déposer de la Pile de calques :**\
+  Le glissement des calques autour de la pile de calques s’effectue désormais dans une petite fenêtre.\
+  Lorsqu’une ressource ou un calque est déplacé près des bordures de la fenêtre de pile de calques, il commence automatiquement à faire défiler son contenu.\
   ![](../../assets/layer-drag.gif)
 
-### Importation de fichiers glTF et de filets alembic
+### Importation de maillages glTF et Alembic
 
 ![](../../assets/logo-mesh-import.png)
 
 De nouveaux formats de fichiers sont désormais pris en charge pour l’importation de maillages et la création de projets :
 
-* **glTF** : ce format était déjà disponible lors de l&#39;exportation de textures et peut désormais être utilisé lors de l&#39;importation. Si un fichier glTF contient des textures, celles-ci sont importées et placées à l’intérieur de la pile de calques (pour le flux de production Métal/Rugosité).
-* **Alembic** : ce format est largement utilisé dans l’industrie des effets visuels et de l’animation pour les maillages de transfert.
+* **glTF** : ce format était déjà disponible lors de l&#39;exportation des textures et peut désormais être utilisé lors de l&#39;importation. Si un fichier glTF contient des textures, celles-ci sont importées et placées à l’intérieur de la pile de calques (pour le workflow métallique/rugosité).
+* **Alembic** : ce format est largement utilisé dans l’industrie des effets visuels/animations pour les maillages de transfert.
 
 >[!NOTE]
 >
-> La Substance Painter ne permet pas de contrôler l’image de l’animation à importer pour le moment.\
+> La Substance Painter ne permet pas de contrôler le cadre d’animation à importer pour le moment.\
 > Cela signifie que lors de l’exportation d’un fichier Alembic, le cadre de référence à utiliser pour peindre sur la ressource doit déjà être défini.
 
 ### Améliorations de l’intégration des Substances
@@ -169,7 +169,7 @@ L’intégration de la Substance à l’intérieur de la Substance Painter a ét
   Cette fonctionnalité fournit une liste plus claire des paramètres et des paramètres contextuels, ce qui donne des matériaux et des filtres globalement plus faciles à utiliser.\
   Pour plus de détails, consultez la [documentation de la Substance Designer](https://experienceleague.adobe.com/en/docs/substance-3d-designer/home).\
   ![](../../assets/visible-if.gif)
-* Les paramètres prédéfinis de Substance **prédéfinis de Substance** constituent un moyen simple d&#39;apporter des ajustements avancés et des variations de matériaux. De nombreux matériaux sur [Substance Source](https://source.allegorithmic.com) ont des préréglages. Essayez-les !\
+* Les **paramètres prédéfinis de Substance** de Substance constituent un moyen simple d&#39;apporter des ajustements avancés et des variations de matériaux. De nombreux matériaux sur la [Substance Source](https://source.allegorithmic.com) ont des paramètres prédéfinis. Essayez-les !\
   Si un fichier de Substance de données contient un ou plusieurs paramètres prédéfinis, une nouvelle liste déroulante dans la liste des paramètres sera disponible. Sélectionnez le paramètre prédéfini à appliquer pour mettre à jour les paramètres.\
   ![](../../assets/presets.png)
 * **Attributs de Substance**\
@@ -181,7 +181,7 @@ L’intégration de la Substance à l’intérieur de la Substance Painter a ét
 
 ![](../../assets/toad-samle.jpg)
 
-Un nouveau projet d&#39;exemple nommé « **JadeToad** » est désormais inclus dans Substance Painter. L&#39;effet **Dispersion de sous-surface** est activé par défaut pour cet exemple de projet.\
+Un nouveau projet d&#39;exemple nommé « **JadeToad** » est désormais inclus dans Substance Painter. L&#39;effet **Subsurface scattering** est activé par défaut pour cet exemple de projet.\
 Pour trouver le projet, utilisez l&#39;entrée de menu **Fichier** > **Ouvrir l&#39;échantillon...**.
 
 ## Notes de mise à jour
@@ -190,17 +190,17 @@ Pour trouver le projet, utilisez l&#39;entrée de menu **Fichier** > **Ouvrir l&
 
 (Publié le 25 septembre 2018)
 
-**&#x200B;**&#x200B;Fixe :**&#x200B;**
+****Fixe :****
 
-* [Vue 2D] La vue 2D est rompue avec certains maillages lors de la création d’un nouveau projet
-* [Crash] Le passage de la Projection UV à la projection triplanaire entraîne un crash
-* [RayCollider] Plusieurs blocages dus à « RayCollider »
+* [vue 2D] vue 2D ne fonctionne pas correctement avec certains maillages lors de la création d’un projet
+* [Crash] Le passage de la Projection UV à la projection tri-planaire conduit à un crash
+* [RayCollider] crashs multiples dus à « RayCollider »
 * [Outil] Le changement de calque entraîne la perte des propriétés de forme modifiées
 * Les paramètres du pinceau sont réinitialisés lors du passage à la gomme
 
 **Problèmes connus :**
 
-* Gel du calcul sur les GPU AMD VEGA
+* Calcul bloqué sur les GPU AMD VEGA
 * Problème de tablette Huion avec les raccourcis sous Windows
 
 ### 2018.2.2
@@ -210,8 +210,8 @@ Pour trouver le projet, utilisez l&#39;entrée de menu **Fichier** > **Ouvrir l&
 **Ajouté :**
 
 * Résumé : correctif avec mise à jour du contenu, nouvelles fonctionnalités de script et possibilité de désactiver la mise à jour automatique
-* [Contenu]&#x200B;[Étagère] Ajouter une préconfiguration d’étagère Peau
-* [Contenu]&#x200B;[étagère] Conversion de 19 normales de peau en matériaux pour la diffusion sous la surface
+* [Contenu][Étagère] Ajouter un paramètre prédéfini étagère de la peau
+* [Contenu][étagère] Conversion de 19 normales de peau en matériaux pour la subsurface scattering
 * [Scripts] Créer un modèle de projet à partir d’un projet ouvert
 * [Scripts] Obtenir/définir les paramètres d’exportation d’un projet ouvert
 * [Mises à jour] Possibilité de désactiver la fenêtre contextuelle de mise à jour automatique à partir des paramètres et des variables d’environnement
@@ -219,22 +219,22 @@ Pour trouver le projet, utilisez l&#39;entrée de menu **Fichier** > **Ouvrir l&
 
 **Fixe :**
 
-* [Caméra] Zoom incorrect en passant de l’orthographique à la perspective
+* [Caméra] Zoom incorrect en passant de orthographique à perspective
 * [Affichage] Certaines cartes sont affichées en sRVB au lieu de sRVB
-* [Fenêtres] Le focus de maillage ne se comporte pas correctement
-* [Vue 2D] Le projet avec caméra cassée a des coques UV qui disparaissent
-* [SSS]&#x200B;[Info-bulle] les info-bulles de diffusion de la sous-surface apparaissent dans le journal
+* [Viewports] le focus de Maillage ne se comporte pas correctement
+* [vue 2D] Le projet avec une caméra cassée a des coques UV qui disparaissent
+* [SSS][Info-bulle] Les info-bulles de la subsurface scattering apparaissent dans le journal
 * Certains projets ne peuvent pas être ouverts dans 2018.2 et le message d’erreur ne peut pas enregistrer un package substance nulle
 * [Masque] La couleur de l’outil Peinture peut être bloquée dans certains cas lorsque vous travaillez dans un masque
-* [Matière] Cartes n&#39;apparaissant pas dans des situations spécifiques
-* [Proj]&#x200B;[Outils] Manipulateur actif avec un générateur
+* [Matériau] Cartes n&#39;apparaissant pas dans des situations spécifiques
+* [Proj][Outils] Manipulateur actif avec un générateur
 * [Substance] Groupes de paramètres de Substance manquants
 * [Scripting] Nom de logiciel incorrect dans la documentation
-* [UDIMs] Aucune information dans le journal sur les coques UV sur plusieurs tuiles UVs
+* [UDIM] Pas d&#39;information dans le journal sur les coques UV sur les tuiles UV multiples
 
 **Problèmes connus :**
 
-* Gel du calcul sur les GPU AMD VEGA
+* Calcul bloqué sur les GPU AMD VEGA
 * Problème de tablette Huion avec les raccourcis sous Windows
 
 ### 2018.2.1
@@ -243,11 +243,11 @@ Pour trouver le projet, utilisez l&#39;entrée de menu **Fichier** > **Ouvrir l&
 
 **Fixe :**
 
-* Paramètres d&#39;ombrage de diffusion de sous-surface manquants dans les projets de mise à niveau
+* Paramètres de shader de subsurface scattering manquants dans la mise à niveau des projets
 
 **Problèmes Connus :**
 
-* Gel du calcul sur les GPU AMD VEGA
+* Calcul bloqué sur les GPU AMD VEGA
 * Problème de tablette Huion avec les raccourcis sous Windows
 
 ### 2018.2
@@ -256,82 +256,82 @@ Pour trouver le projet, utilisez l&#39;entrée de menu **Fichier** > **Ouvrir l&
 
 **Ajouté :**
 
-* Résumé : version estivale, prise en charge de la diffusion sous la surface, améliorations de la projection et du remplissage, importation et sélection de l’appareil photo, prise en charge d’Alembic/glTF, glisser-déposer sur la carte d’identité, prise en charge améliorée du format de Substance et nouveau contenu
-* [SSS]&#x200B;[Fenêtre d&#39;affichage]&#x200B;[Iray] Diffusion sous la surface générique
-* [SSS] Synchronisation des paramètres de diffusion MDL et de subsurface
+* Résumé : version estivale, prise en charge des subsurfaces scatterings, améliorations des projections et du remplissage, importation et sélection de caméras, prise en charge d’Alembic/glTF, glisser-déposer sur le Map id, prise en charge améliorée du format de Substance et nouveau contenu
+* [SSS][Viewport][Iray] subsurface scattering générique
+* [SSS] Synchronisation des paramètres MDL et de subsurface scattering
 * [SSS] Ajout d’une nouvelle couche en niveaux de gris nommée « Diffusion »
-* [SSS]&#x200B;[Paramètres du nuanceur] Paramètre de type Diffusion pour la diffusion sous la surface (peau ou translucide)
-* [SSS]&#x200B;[Shader Settings] Paramètre d&#39;échelle de diffusion pour la diffusion de sous-surface
-* [SSS]&#x200B;[Paramètres de nuanceur] Paramètre de couleur de diffusion pour la diffusion de sous-surface
-* [SSS]&#x200B;[Paramètres d&#39;affichage] Nombre d&#39;échantillons de diffusion pour la diffusion de sous-surface
-* [Shader]&#x200B;[Iray] Intégrer la diffusion sous la surface MDL pour Iray
-* [Shader] Mise à jour du shader via le programme de mise à jour des ressources
+* [SSS][Paramètres de Shader] Paramètre de type Diffusion pour la subsurface scattering (peau ou translucide)
+* [SSS][Paramètres de Shader] Paramètre d’échelle de diffusion pour la subsurface scattering
+* Paramètre de Scattering [SSS][Shader Settings] pour la subsurface scattering
+* [SSS][Paramètres d’affichage] Nombre d’échantillons de diffusion pour la subsurface scattering
+* [Shader][Iray] Intégration de subsurfaces scatterings MDL pour Iray
+* [Shader] Mise à jour de Shader via le programme de mise à jour des ressources
 * [Shader] Mise à jour de l’API et de la documentation du journal des modifications
-* [Propriétés de l&#39;outil]&#x200B;[Proj] Nouveaux paramètres pour la projection triplanaire
-* [Fenêtre d’affichage]&#x200B;[Proj] Contrôle les propriétés du calque de remplissage dans la vue 3D directement avec les manipulateurs (projection triplanaire)
-* [Raccourcis]&#x200B;[Proj] Nouveaux raccourcis Q, W, E, R, T pour les manipulateurs de projection triplanaire
-* [Fenêtre d’affichage]&#x200B;[Proj] Contrôle les propriétés du calque de remplissage dans la vue 2D directement avec les manipulateurs (Projection UV)
-* [Raccourcis]&#x200B;[Proj] Nouveau raccourci Q pour les manipulateurs de Projection UV
-* [Barre d’outils contextuelle]&#x200B;[Proj] Contrôle des manipulateurs de projection triplanaire
-* [Barre d’outils contextuelle]&#x200B;[Proj] Manipulateurs de Projection UV de contrôle
-* [Propriétés de l’outil] Désactiver la juxtaposition de textures avec les outils Projection et Pochoir
-* [Pochoir] Utiliser des images non carrées avec l’outil de projection/le pochoir
-* [Pochoir] Autoriser le contrôle du mode de mosaïque dans la fenêtre Propriétés
-* [Pochoir] Le zoom n’est pas centré sur un pochoir sans mosaïque
-* [Caméras] Importer des caméras depuis Maya, Max, Blender, Modo, DAE
-* [Caméras]&#x200B;[Fenêtre] Sélectionner et contrôler les caméras importées dans la fenêtre
-* [Appareils photo]&#x200B;[Iray] Sélectionnez et contrôlez les appareils photo importés en Iray
-* [Caméras]&#x200B;[Interface utilisateur]&#x200B;[Nouveau projet]&#x200B;[Configuration du projet] La case « Importer des caméras » est cochée par défaut
-* [Appareils photo]&#x200B;[Raccourcis] Ajoutez des raccourcis « &lt; » et « > » pour basculer entre les appareils photo
-* [Caméras]&#x200B;[Fenêtre] Ajouter une image dans la fenêtre
-* [Caméras]&#x200B;[Paramètres de la fenêtre] Contrôle de l’opacité de l’image
-* [Appareils photo]&#x200B;[Paramètres de l’appareil photo] distance focale maximale à 500 mm
-* [Appareils photo]&#x200B;[Paramètres de l’appareil photo] Ratio d’exposition
-* [Caméras]&#x200B;[Paramètres de la caméra] Ajouter une option de verrouillage
-* [Caméras]&#x200B;[Paramètres de la caméra] Ajouter une option de restauration
-* [Caméras]&#x200B;[Paramètres de la caméra] Ajouter l’attribut de distance focale
+* [Propriétés de l&#39;outil][Proj] Nouveaux paramètres pour la projection triplanaire
+* [Viewport][Proj] Contrôle les propriétés du Calque de remplissage dans la vue 3D directement avec manipulateur (projection triplanaire)
+* [Raccourcis][Proj] Nouveaux raccourcis Q, W, E, R, T pour les manipulateurs de projection triplanaire
+* [Viewport][Proj] Contrôle des propriétés de Calque de remplissage dans Vue 2D directement avec manipulateur (Projection UV)
+* [Raccourcis][Proj] Nouveau raccourci Q pour les manipulateurs de Projection UV
+* [Contextual Toolbar][Proj] manipulateurs De projection triplanaire De Contrôle
+* [Contextual Toolbar][Proj] manipulateurs De Projection UV De Contrôle
+* [Propriétés de l’outil] Désactiver la répétition de texture avec l’outil projection et Pochoir
+* [Pochoir] Utilisation d’images non carrées avec l’outil projection/pochoir
+* [Pochoir] Autoriser le contrôle du mode répétition dans la fenêtre Propriétés
+* [Pochoir] Le zoom n’est pas centré sur un pochoir autre qu’un répétition
+* [Caméras] Importation de caméras depuis Maya, Max, Blender, Modo, DAE
+* [Caméras][Viewport] Sélectionner et contrôler les caméras importées dans viewport
+* [Caméras][Iray] Sélectionner et contrôler les caméras importées dans Iray
+* [Caméras][Interface utilisateur][Nouveau projet][Configuration du projet] La case « Importer les caméras » est cochée par défaut
+* [Caméras][Raccourcis] Ajoutez des raccourcis « &lt; » et « > » pour basculer entre les caméras
+* [Caméras][Viewport] Ajouter un cadre dans le viewport
+* [Caméras][Paramètres du Viewport] Contrôle de l’opacité du cadre
+* [Caméras][Paramètres de Caméra] distance focale maximale à 500 mm
+* [Caméras][Paramètres de Caméra] Exposer le rapport
+* [Caméras][Paramètres de Caméra] Ajouter une option de verrouillage
+* [Caméras][Paramètres de Caméra] Ajouter une option de restauration
+* [Caméras][Paramètres de Caméra] Ajouter l&#39;attribut de distance focale
 * [glTF] Importation d’un fichier glTF
-* [glTF] Importer la carte d&#39;occlusion ambiante
-* [Alembic] Importer l’image Alembic 1 avec une géométrie statique
-* [Tablette] Faites glisser et déposez des matières directement sur le filet à l’aide de cartes d’ID avec un modificateur (CTRL/Commande)
-* [Pile de calques] Création automatique d’un masque d’identification par glisser-déposer de matières sur le maillage avec des cartes d’identité
+* [glTF] Importer un mappage d&#39;ambient occlusion
+* [Alembic] Importer le cadre Alembic 1 avec une géométrie statique
+* [Étagère] Faites glisser et déposez des matériaux directement sur le maillage à l’aide des Map id avec un modificateur (CTRL/Commande)
+* [Pile de calques] Création automatique d’un masque d’identification par glisser-déposer des matériaux sur le maillage avec les Map id
 * [Pile de calques] Défilement automatique des calques avec glisser-déposer sur la pile de calques
-* [UI]&#x200B;[Propriétés de l’outil] Exposer le paramètre prédéfini de la Substance
-* [UI]&#x200B;[Menu Aide] Amélioration du menu Aide
-* [UI]&#x200B;[Nouveau projet]&#x200B;[Configuration du projet] Réorganisation de la fenêtre
-* [UI]&#x200B;[Nouveau projet]&#x200B;[Configuration du projet] Remplacer le terme « Filet » par « Fichier »
-* [UI]&#x200B;[Substance] Afficher les attributs de Substance dans l’interface utilisateur
+* [UI][Propriétés de l&#39;outil] Exposer le paramètre prédéfini de la Substance
+* [UI][Menu Aide] Amélioration du menu Aide
+* [UI][Nouveau projet][Configuration du projet] Réorganisation de la fenêtre
+* [UI][Nouveau projet][Configuration du projet] Remplacer le terme « Maillage » par « Fichier »
+* [UI][Substance] Afficher les attributs de Substance dans l’interface utilisateur
 * [Raccourcis] « F4 » passe de la vue 2D à la vue 3D
-* [Raccourcis] Nouveaux raccourcis pour le gabarit à bascule « N » et le masque rapide « U »
+* [Raccourcis] Nouveaux raccourcis pour le pochoir bascule « N » et le masque rapide « U »
 * [Intégration de Substance de données] Tenir compte des instructions « visible if » dans les paramètres de Substance de données
-* [Fenêtre d’affichage] Les ombres ne doivent pas être calculées de manière forcée après le déplacement de la caméra
-* [Contenu] Mise à jour de MeetMat avec des caméras importées
-* [Contenu] Ajouter un échantillon avec la diffusion de sous-surface activée - JadeToad
-* [Content] Ajouter un nouveau modèle de projet PBR avec la diffusion de sous-surface activée
+* [Viewport] Les ombres ne doivent pas être calculées de force après le déplacement de la caméra
+* [Content] Mise à jour de MeetMat avec des caméras importées
+* [Contenu] Ajouter un échantillon avec la subsurface scattering activée - JadeToad
+* [Content] Ajouter un nouveau modèle de projet PBR avec la subsurface scattering activée
 * [Contenu] Mise à jour des paramètres prédéfinis d’exportation pour ajouter un nouveau canal de diffusion
-* [Contenu]&#x200B;[Étagère] Ajout de la prise en charge de la diffusion sous la surface pour : pbr-metal-rugueux, pbr-metal-rugueux-alpha-test, pbr-coated, pbr-spec-gloss
-* [Contenu]&#x200B;[Étagère] Ajout d’un canal de diffusion à 5 matériaux intelligents (marbres et peaux)
-* [Contenu]&#x200B;[Étagère] 1 nouveau matériau en jade
-* [Contenu]&#x200B;[Étagère] 1 nouveau matériau en cire
+* [Contenu][Étagère] Ajout de la prise en charge des subsurfaces scatterings pour : pbr-metal-ough, pbr-metal-ough-alpha-test, pbr-coated, pbr-spec-gloss
+* [Contenu][Étagère] Ajout d’un canal de diffusion à 5 matériaux adaptables (marbres et habillages)
+* [Contenu][Étagère] 1 nouveau Matériau en jade
+* [Contenu][Étagère] 1 nouveau Matériau en cire
 
 **Fixe :**
 
 * [CMD] Résultats différents avec la même ligne de commande et des versions différentes
 * [TDR] Si TdrLevel est configuré, votre journal ne contient aucune erreur
-* [Baker] La carte d’occlusion ambiante est inversée
-* [ID Map] Blocage lors du prélèvement en dehors de la plage 0-1
-* [Iris] Blocage lors du changement de texture et du retour au mode Peinture
-* [Fenêtre d’affichage] Synchronisation des zones de dépôt entre les fenêtres par glisser-déposer
-* [Moteur] Plus d’artefacts lors de la mosaïque de calques de remplissage ou de la peinture au pinceau
+* [Baker] La carte d’Ambient occlusion est inversée
+* [Map id] Blocage lors du prélèvement en dehors de la plage 0-1
+* [Iray] Crash lors du changement de jeu de textures et du retour au mode Peinture
+* [Viewport] Synchronisation des zones de dépôt entre les viewports pour le glisser-déposer
+* [Moteur] Plus d’artefact lorsque la répétition calque de remplissage ou peint avec un petit pinceau
 * [Licence] Vérification de la version du logiciel du service de licence incorrecte
 * [Licence] Retravailler la façon dont nous traitons l’authentification
 * [API] Appeler l&#39;événement d&#39;API de script `onNewProjectCreated` même lors de la création avec un modèle
-* [Shader] Le shader compilé n&#39;est pas chargé du cache lorsque le fichier shader n&#39;est pas compilé
-* [Tablette] L’exportation d’un fichier HDR à partir du tablette génère un fichier avec des valeurs verrouillées
-* [Export] L&#39;export EXR colle des valeurs de couleur RGB comprises entre 0 et 1
-* [Contenu] Le bruit procédural « 3D Perlin Noise Fractal » est pixellisé
+* [Shader] Le shader compilé n’est pas chargé du cache lorsque le fichier shader n’est pas compilé
+* [Étagère] L’exportation d’un fichier HDR à partir de l’étagère génère un fichier avec des valeurs verrouillées
+* [Export] EXR export colle les valeurs de couleur RGB comprises entre 0 et 1
+* [Contenu] Le bruit Procédural « 3D Perlin Bruit Fractal » est pixellisé
 
 **Problèmes Connus :**
 
-* Gel du calcul sur les GPU AMD VEGA
+* Calcul bloqué sur les GPU AMD VEGA
 * Problème de tablette Huion avec les raccourcis sous Windows

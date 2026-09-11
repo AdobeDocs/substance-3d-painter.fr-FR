@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/pipeline-and-integration/resource-management/adding-resource-paths-by-editing-preferences-manually/editing-the-shelf-preferences-with-python.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/resource-management/adding-resource-paths-by-editing-preferences-manually/editing-the-shelf-preferences-with-python.html"
 breadcrumb-title: ''
-description: Apprenez à modifier les préférences d’étagère à l’aide de scripts Python dans Substance 3D Painter pour une gestion automatisée des chemins de ressources.
+description: Découvrez comment modifier les préférences d’étagère à l’aide de scripts Python dans Substance 3D Painter pour une gestion automatisée des chemins de ressources.
 helpx_creative_field: ""
 helpx_description: Painter > Pipeline and integration > Resource management > Adding resource paths by editing preferences manually > Edit Shelf Preferences with Python
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Modifier les préférences de tablette avec Python
+title: Modification des préférences d’Étagère avec Python
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,7 +18,7 @@ ht-degree: 2%
 ---
 
 
-# Modification des préférences de tablette avec Python
+# Modification des préférences d’Étagère avec Python
 
 Vous trouverez ci-dessous des exemples de scripts Python permettant de modifier le registre Windows afin de manipuler les chemins de ressources.
 
@@ -32,11 +32,11 @@ Consultez le tableau ci-dessous pour utiliser le chemin de clé de registre appr
 
 L’ajout d’un chemin de ressource nécessite de vérifier lequel existe déjà afin d’incrémenter la liste avec un nouveau chemin.
 
-Le code suivant ajoute dans la clé de registre un nouveau chemin d&#39;accès au tiroir après avoir vérifié le nombre actuel de chemins déjà définis.
+Le code ci-dessous ajoute dans la clé de registre un nouveau chemin d&#39;étagère après avoir vérifié le nombre actuel de chemins déjà définis.
 
 >[!NOTE]
 >
-> La sous-clé **Shelf** (à côté de **pathInfos**) peut ne pas être présente dans le registre. Pour qu’il s’affiche au démarrage de l’application, ouvrez les préférences (Modifier > Paramètres), puis cliquez sur OK et fermez l’application.
+> La sous-clé **Étagère** (ainsi que **pathInfos**) n&#39;est peut-être pas présente dans le Registre. Pour qu’il s’affiche au démarrage de l’application, ouvrez les préférences (Modifier > Paramètres), puis cliquez sur OK et fermez l’application.
 
 ```
 import winreg 
@@ -123,7 +123,7 @@ Key.Close()
 
 Tout chemin créé peut être supprimé lorsqu’il n’est plus nécessaire, mais également désactivé pour le chemin par défaut qui ne peut pas être supprimé complètement.
 
-Le code suivant analyse le Registre Windows et désactive le tiroir par défaut (appelé « starter\_assets »).
+Le code suivant analyse le Registre Windows et désactive l’étagère par défaut (nommée « starter\_assets »).
 
 ```
 import winreg 

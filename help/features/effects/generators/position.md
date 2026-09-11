@@ -13,8 +13,8 @@ ht-degree: 7%
 
 <table>
   <tr style="border: 0;">
-    <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_position.webp" alt=""/><br><strong>Entrée :</strong> filet, uv, distance</td>
-    <td style="border: 0;" valign="top"><strong>Description</strong><br>Le générateur de position utilise les cartes de position et de normales d’espace universel pour créer un masque de dégradé basé sur la position du matériau dans l’espace 3D (comme de haut en bas ou de côté en côté).<br><br>Le générateur de position génère une texture monochrome (noir et blanc). Par conséquent, il est utile pour générer des masques de dégradé en fonction de la position dans l’espace univers.<br><br>Les cartes de position ancrée et de normales d'espace universel sont requises en tant qu'entrées d'image. <a href="../../../baking/baking.md">En savoir plus sur la cuisson ici</a>.</td>
+    <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_position.webp" alt=""/><br><strong>Entrée :</strong> maillage, uv, distance</td>
+    <td style="border: 0;" valign="top"><strong>Description</strong><br>Le générateur de position utilise les cartes de position et de normale de l'espace monde bakées pour créer un masque de dégradé en fonction de la position du matériau dans l’espace 3D (comme de haut en bas ou de gauche à droite).<br><br>Le générateur de position génère une texture monochrome (noir et blanc). Par conséquent, il est utile pour générer des masques de dégradé en fonction de la position dans l’espace monde.<br><br>Des cartes de position et de normale de l'espace monde Bakées sont requises en tant qu'entrées d'image. <a href="../../../baking/baking.md">En savoir plus sur le baking ici</a>.</td>
   </tr>
 </table>
 
@@ -22,9 +22,9 @@ ht-degree: 7%
 
 | Saisir un nom | Description |
 | --- | --- |
-| Couleur de la **texture** | Utilisez une texture personnalisée ou un point d’ancrage. |
-| **Couleur du dégradé de position** | Utilisez le mappage de position ancré. |
-| Couleur des **normales de l&#39;espace universel** | Utilisez la carte des normales de l&#39;espace universel. |
+| Couleur **Texture** | Utilisez une texture personnalisée ou un point d’ancrage. |
+| **Couleur du dégradé de position** | Utilisez le mappage de position baké. |
+| Couleur **Normales des espaces monde** | Utilisez le mappage de Normales des espaces monde baké. |
 
 ## Paramètres
 
@@ -34,7 +34,7 @@ ht-degree: 7%
 | **Flou global** | Appliquez un flou uniforme au masque final une fois tous les dégradés combinés. |
 | **Balance globale** | Réglez la balance du masque final après avoir combiné tous les dégradés entre le noir et le blanc, comme pour un réglage de la luminosité. |
 | **Contraste global** | Ajustez le contraste du masque final une fois tous les dégradés combinés. |
-| **Utiliser la texture** | Activez ou désactivez l’utilisation d’une texture plaquée personnalisée. |
+| **Utiliser la Texture** | Activer/désactiver l’utilisation d’un mappage de texture personnalisé. |
 
 ### Dégradé de position
 
@@ -44,9 +44,9 @@ ht-degree: 7%
 | **Balance** | Réglez la balance du dégradé de position uniquement, en déplaçant le point médian vers le noir ou le blanc comme un contrôle de luminosité. |
 | **Contraste** | Réglez le contraste/l’atténuation du dégradé de position uniquement. |
 | **Luminosité** | Réglez la luminosité du dégradé de position uniquement. |
-| **De droite à gauche** | Réglez la façon dont l’effet est appliqué de gauche à droite sur le filet. |
-| **De Haut En Bas** | Réglez la façon dont l’effet est appliqué de haut en bas sur le filet. |
-| **De l&#39;avant vers l&#39;arrière** | Réglez la façon dont l’effet est appliqué d’avant en arrière sur le filet. |
+| **De droite à gauche** | Ajustez la façon dont l’effet est appliqué de gauche à droite sur le Maillage. |
+| **De Haut En Bas** | Ajustez la façon dont l’effet est appliqué de haut en bas sur le Maillage. |
+| **De l&#39;avant vers l&#39;arrière** | Ajustez la façon dont l’effet est appliqué d’avant en arrière sur le Maillage. |
 
 #### Dégradé de position/De droite à gauche
 
@@ -82,11 +82,11 @@ ht-degree: 7%
   </tr>
   <tr>
     <td><strong>Inverser</strong></td>
-    <td>Inversez la texture plaquée personnalisée.</td>
+    <td>Inversez le mappage de texture personnalisé.</td>
   </tr>
   <tr>
     <td><strong>Conversion en niveaux de gris</strong></td>
-    <td>Définissez la méthode utilisée pour convertir la couleur en niveaux de gris. Le <a href="grayscale-conversion.md">générateur de conversion en niveaux de gris dispose d'informations supplémentaires sur le fonctionnement de chaque méthode</a>.</td>
+    <td>Définissez la méthode utilisée pour convertir la couleur en niveaux de gris. Le <a href="grayscale-conversion.md">générateur de Conversions en niveaux de gris dispose d'informations supplémentaires sur le fonctionnement de chaque méthode</a>.</td>
   </tr>
   <tr>
     <td><strong>Mode de fusion</strong></td>
@@ -106,10 +106,10 @@ ht-degree: 7%
   </tr>
   <tr>
     <td><strong>Triplanaire</strong></td>
-    <td>Lorsque l'option <strong>Utiliser le mode triplanaire </strong> est activée, la texture est projetée à partir de trois directions (axes X, Y, Z) au lieu de dépendre uniquement des UV. <br><ul><li>Sans option triplanaire, la texture suit la disposition UV.</li><li>Lorsque l’option triplanaire est activée, la texture est projetée sous plusieurs angles et fusionnée.</li></ul></td>
+    <td>Lorsque l'option <strong>Utiliser le triplan </strong> est activée, la texture est projetée à partir de trois directions (axes X, Y, Z) au lieu de dépendre uniquement des UV. <br><ul><li>Sans option triplanaire activée, la texture suit la disposition de l’UV.</li><li>Lorsque l’option triplanaire est activée, la texture est projetée sous plusieurs angles et fusionnée.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Contraste triplanaire</strong></td>
-    <td>Ajustez la fluidité de fusion d’une texture lors de sa projection à l’aide du placage triplanaire. Cela ajuste la douceur de la fusion entre les projections de chaque direction.</td>
+    <td>Réglez la fluidité de fusion d’une texture lors de sa projection à l’aide de la cartographie triplanaire. Cela ajuste la douceur de la fusion entre les projections de chaque direction.</td>
   </tr>
 </table>

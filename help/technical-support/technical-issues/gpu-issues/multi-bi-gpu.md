@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/technical-issues/gpu-issues/multi-bi-gpu.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/multi-bi-gpu.html"
 breadcrumb-title: ''
 description: Découvrez comment configurer Substance 3D Painter pour les systèmes multi-GPU et bi-GPU afin d’optimiser les performances de rendu.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Multi/Bi-GPU
 
-Certaines configurations GPU et/ou certains modèles GPU sont incompatibles avec Substance 3D Painter et entraîneront des instabilités et des blocages. Vous trouverez ci-dessous une liste des configurations incompatibles :
+Certaines configurations GPU et/ou certains modèles GPU sont incompatibles avec Substance 3D Painter et entraîneront des instabilités et des crashs. Vous trouverez ci-dessous une liste des configurations incompatibles :
 
 | ***Configuration*** | ***Solution*** |
 | --- | --- |

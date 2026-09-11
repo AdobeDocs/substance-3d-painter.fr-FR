@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/assets/advanced-search-queries.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/advanced-search-queries.html"
 breadcrumb-title: ''
 description: Découvrez comment créer des requêtes de recherche avancées dans Substance 3D Painter pour rechercher des ressources spécifiques à l’aide de critères de recherche complexes.
 helpx_creative_field: ""
@@ -41,7 +41,7 @@ L’utilisation définit ce qu’est une ressource et comment l’utiliser dans 
 Par exemple.
 
 * **pbr.glsl** : fichier shader : il ne peut être utilisé qu&#39;en tant que shader, et rien d&#39;autre.
-* **effect.sbsar** : fichier substance : il peut s&#39;agir d&#39;un générateur, d&#39;un filtre ou même d&#39;un matériau. Par conséquent, si son utilisation n&#39;est pas définie dans le graphique d&#39;origine (dans Designer), elle devra être indiquée par l&#39;utilisateur dans Painter au moment de l&#39;importation.
+* **effect.sbsar** : fichier substance : il peut s&#39;agir d&#39;un générateur, d&#39;un filtre ou même d&#39;un matériau. Par conséquent, si son utilisation n&#39;est pas définie dans le graphe d&#39;origine (dans Designer), elle devra être indiquée par l&#39;utilisateur dans Painter au moment de l&#39;importation.
 
 ## Texte
 
@@ -49,10 +49,10 @@ La requête de texte prend en charge plusieurs types de filtrage, certains étan
 Ils peuvent être activés en saisissant les bons mots-clés.
 
 * **Types de recherche disponibles** :
-  * » **n:** «  : name
-  * » **s:** «  : tiroir/bibliothèque (comprend « session » et « projet »)
-  * » **p:** «  : path
-  * » **u:** «  : utilisation
+  *  » **n:** «  : name
+  *  » **s:** «  : étagère/bibliothèque (comprend « session » et « projet »)
+  *  » **p:** «  : path
+  *  » **u:** «  : utilisation
 * **Échappement** : il est possible d&#39;utiliser « **\** » avant le caractère qui doit être placé en échap ou d&#39;utiliser des guillemets à la place, par exemple :
   * **a\ name\ avec\ spaces**
   * **« un nom avec des espaces »**

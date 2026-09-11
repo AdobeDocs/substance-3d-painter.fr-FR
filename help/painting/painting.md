@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting.html"
 breadcrumb-title: ''
-description: Apprenez à peindre des textures directement sur des modèles 3D dans Substance 3D Painter à l’aide de divers pinceaux, outils et techniques.
+description: Apprenez à appliquer des peintures directement sur des textures 3D dans Substance 3D Painter à l’aide de divers pinceaux, outils et techniques.
 helpx_creative_field: ""
 helpx_description: Painter > Painting
 helpx_experience_level: ""
@@ -31,9 +31,9 @@ Pour plus d’informations sur chaque outil, consultez leur page dédiée :
 * [Ligne droite](straight-line.md)
 * [Retard de la souris](lazy-mouse.md)
 * [Symétrie](../painting/symmetry/symmetry.md)
-* [Saillies de remplissage](../painting/fill-projections/fill-projections.md)
+* [Remplir les projections](../painting/fill-projections/fill-projections.md)
 * [Préréglages](../painting/presets/presets.md)
 * [Traits dynamiques](../painting/dynamic-strokes/dynamic-strokes.md)
 * [Peinture avancée en couches](../painting/advanced-channel-painting/advanced-channel-painting.md)
-* [Graphique vectoriel (.svg et .ai)](vector-graphic-svg.md)
+* [Image vectorielle (.svg et .ai)](vector-graphic-svg.md)
 * [Ressources texte](text-resource.md)

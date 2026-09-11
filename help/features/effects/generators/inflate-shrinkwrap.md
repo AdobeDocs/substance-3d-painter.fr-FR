@@ -14,7 +14,7 @@ ht-degree: 3%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_inflate_shrinkwrap.webp" alt=""/><br><strong>Entrée :</strong> réduction, dilatation, générateur, générateur, générateur aléatoire</td>
-    <td style="border: 0;" valign="top"><strong>Description</strong><br>Le générateur d'étirement dilaté ajoute des rides qui imitent l'effet d'un matériau mince étiré sur la surface de votre filet.<br><br>Le générateur de réduction dilatée génère une texture monochrome (noir et blanc). Par conséquent, il est utile pour générer des masques qui créent l’effet de réduction. Cependant, il peut également être placé directement sur un calque de remplissage pour ajouter des rides aux canaux heights et normaux.<br><br>Une carte de courbure au four est nécessaire comme entrée d'image. <a href="../../../baking/baking.md">En savoir plus sur la cuisson ici</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Description</strong><br>Le générateur d'enveloppes rétrécissantes gonflées ajoute des rides qui imitent l'effet d'un matériau mince étiré sur la surface de votre maillage.<br><br>Le générateur de réduction dilatée génère une texture monochrome (noir et blanc). Par conséquent, il est utile pour générer des masques qui créent l’effet de réduction. Cependant, il peut également être placé directement sur un calque de remplissage pour ajouter des rides aux canaux heights et normaux.<br><br>Une map curvature bakée est requise comme entrée d'image. <a href="../../../baking/baking.md">En savoir plus sur le baking ici</a>.</td>
   </tr>
 </table>
 
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 | Saisir un nom | Description |
 | --- | --- |
-| Niveaux de gris **Courbure** | Utilisez la courbe de courbure corrigée. |
+| Niveaux de gris de **Courbure** | Utilisez la Map curvature bakée. |
 
 ## Paramètres
 
@@ -37,14 +37,14 @@ ht-degree: 3%
   </tr>
   <tr>
     <td><strong>Seed</strong></td>
-    <td>Définissez la valeur de départ utilisée pour générer la texture dirt. <br><ul><li>Cliquez sur Aléatoire pour passer à une autre valeur de départ aléatoire.</li><li>Cliquez sur le crayon pour afficher la valeur de départ actuelle, puis entrez une valeur spécifique si nécessaire.</li></ul></td>
+    <td>Définissez la valeur de départ utilisée pour générer la texture de dirt. <br><ul><li>Cliquez sur Aléatoire pour passer à une autre valeur de départ aléatoire.</li><li>Cliquez sur le crayon pour afficher la valeur de départ actuelle, puis entrez une valeur spécifique si nécessaire.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Dilatation ou réduction</strong></td>
     <td>Basculez entre les modes Dilatation et Réduction.</td>
   </tr>
   <tr>
-    <td><strong>Intensité de la couture</strong></td>
+    <td><strong>Intensité du seam</strong></td>
     <td>Ajustez la force des contours.</td>
   </tr>
   <tr>
@@ -53,7 +53,7 @@ ht-degree: 3%
   </tr>
   <tr>
     <td><strong>Intensité du contour élevé</strong></td>
-    <td>Réglez l’intensité de l’effet Contour relevé.</td>
+    <td>Réglez la force de l’effet Contour relevé.</td>
   </tr>
   <tr>
     <td><strong>Densité du pli</strong></td>
@@ -61,11 +61,11 @@ ht-degree: 3%
   </tr>
   <tr>
     <td><strong>Étanchéité des plis</strong></td>
-    <td>Ajustez la façon dont les rides sont rapprochées sur les bordures UV.</td>
+    <td>Ajustez la façon dont les rides sont serrées les unes contre les autres sur les bordures de l’UV.</td>
   </tr>
   <tr>
     <td><strong>Plage de plis</strong></td>
-    <td>Ajustez la distance entre les rides et les bordures UV.</td>
+    <td>Ajustez la distance entre les rides et les bordures de l’UV.</td>
   </tr>
   <tr>
     <td><strong>Échelle de plis</strong></td>

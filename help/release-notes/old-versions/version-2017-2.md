@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/release-notes/old-versions/version-2017-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2017-2.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour de Substance 3D Painter version 2017.2 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Version 2017.2
 
-**Substance Painter 2017.2** introduit une nouvelle fonctionnalité puissante via le système de points d&#39;ancrage. Il permet de créer des configurations plus avancées dans la pile de calques, ce qui ouvre de nombreuses nouvelles possibilités.
+**Substance Painter 2017.2** introduit une nouvelle fonctionnalité puissante via le système de points d&#39;ancrage. Il permet de créer des configurations plus avancées dans la pile de calques, ce qui ouvre de nombreuses possibilités nouvelles.
 
 Date de publication : *27 juillet 2017*
 
@@ -40,7 +40,7 @@ Pour plus de détails techniques et d&#39;exemples, consultez la page dédiée :
 
 Parallèlement au nouvel effet de point d’ancrage, nous avons également travaillé sur :
 
-* Possibilité de renommer certains effets, tels que Fond et Peinture
+* Possibilité de renommer certains effets, tels que le fond et la Peinture
 * Nouvelles fonctions de script, permettant de créer un lien en direct avec d’autres applications telles que Unity
 
 ## Tutoriel
@@ -56,20 +56,20 @@ Les nouvelles fonctionnalités sont abordées en détail dans nos dernières vid
 **Ajouté :**
 
 * [Effet] Nouveau point d’ancrage qui permet le référencement des calques et des masques
-* [Calques] Possibilité de renommer les effets de remplissage et de peinture
+* [Calques] Possibilité de renommer les effets de remplissage et de Peinture
 * [Plugin] Plug-in de Substance Source mis à jour
-* [Scripting] Autoriser à interroger la résolution du jeu de textures
+* [Scripting] Autoriser à interroger la résolution du Jeu de textures
 * [Scripts] Autoriser à obtenir l’état du moteur de peinture
 * [Performance] Optimisation améliorée du chargement des projets et de l’estampage des pinceaux
 
 **Fixe :**
 
-* [Outil] Problèmes de performances lors de la modification des paramètres de matière
+* [Outil] Problèmes de performances lors de l’ajustement des paramètres de matériau
 * [Moteur] Suppression des coups de pinceau lors de la modification de la résolution (4K>2K)
-* [Vue 3D] L’espace tangent n’est pas synchronisé avec les boulangers
-* [Tablette] Le chemin de tabulation dans les documents utilisateur n’est pas créé automatiquement
-* [Tablette] Rendre les paramètres prédéfinis compatibles avec les versions précédentes après une mise à jour
+* [vue 3D] L&#39;espace de Tangente n&#39;est pas synchronisé avec les bakers
+* [Étagère] Le chemin d’Étagère dans les documents utilisateur n’est pas créé automatiquement
+* [Étagère] Rendre les paramètres prédéfinis compatibles avec les versions précédentes après une mise à jour
 * [Shader] Le shader non PBR ne fonctionne plus
-* [Bakers] Échec de la conversion de mappage d&#39;ID avec l&#39;option Correspondance par nom activée
-* [Exemple] Les noms des ensembles de textures de l’exemple de projet Meet Mat sont incorrects
+* [Baker] Le Baking du Map id échoue lorsque l’option Correspondance par nom est activée
+* [Exemple] Les noms de Jeu de textures des exemples de projet Meet Mat sont incorrects
 * L’enregistrement d’un projet avant la création d’un modèle renvoie des erreurs d’autorisation d’écriture

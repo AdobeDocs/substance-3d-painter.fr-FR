@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/substance-3d-assets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/substance-3d-assets.html"
 breadcrumb-title: ''
-description: Découvrez comment accéder à Substance 3D Assets et l’utiliser dans Substance 3D Painter pour parcourir et importer des modèles et des matières 3D.
+description: Découvrez comment accéder à Substance 3D Assets et l’utiliser dans Substance 3D Painter pour parcourir et importer des matériaux 3D.
 helpx_creative_field: ""
 helpx_description: Substance 3D Painter
 helpx_experience_level: ""
@@ -60,7 +60,7 @@ Une fois qu&#39;une ressource a été téléchargée avec succès, elle s&#39;af
 
 Le bouton en bas à droite de la fenêtre propose quelques actions :
 
-* <b>Ouvrir l&#39;emplacement du dossier</b> : ouvrez l&#39;explorateur de fichiers à l&#39;emplacement de la bibliothèque actuelle. Cela permet de parcourir sur le disque les ressources téléchargées (y compris les sessions précédentes).
+* <b>Ouvrir l&#39;emplacement du dossier</b> : ouvrez l&#39;explorateur de fichiers à l&#39;emplacement de la bibliothèque active. Cela permet de parcourir sur le disque les ressources téléchargées (y compris les sessions précédentes).
 * <b>Recharger la page</b> : rechargez l&#39;interface dans la fenêtre.
 * <b>Page précédente</b> : accédez à l’interface précédente dans la fenêtre.
 * <b>Page suivante</b> : accédez à l’interface suivante dans la fenêtre.

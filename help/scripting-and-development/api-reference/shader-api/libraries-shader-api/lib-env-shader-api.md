@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-env-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-env-shader-api.html"
 breadcrumb-title: ''
-description: Accédez à la référence du API de shader Env Lib pour Substance 3D Painter afin d’utiliser les cartes d’environnement et l’éclairage dans des nuanceurs personnalisés.
+description: Accédez à la référence du API de shader Env Lib pour Substance 3D Painter afin de travailler avec les maps d'environnement et l’éclairage dans des ombrages personnalisés.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Env - Shader API
 helpx_experience_level: ""
@@ -31,7 +31,7 @@ import lib-defines.glsl
 ```
 
 
-Paramètres du moteur
+paramètres fournis par le moteur
 
 ```
 //: param auto texture_environment 
@@ -60,7 +60,7 @@ uniform mat4 irrad_mat_blue;
 ```
 
 
-Assistant qui permet d’échantillonner l’environnement. La rotation est prise en compte. La carte d&#39;environnement est une carte d&#39;environnement panoramique derrière la scène, c&#39;est pourquoi il y a un calcul supplémentaire à partir du vecteur dir.
+Assistant permettant d’échantillonner l’environnement. La rotation est prise en compte. La map d&#39;environnement est une carte d&#39;env panoramique derrière la scène, c&#39;est pourquoi il y a un calcul supplémentaire du vecteur dir.
 
 ```
 vec3 envSampleLOD(vec3 dir, float lod) 
@@ -87,7 +87,7 @@ vec3 envSampleLOD(vec3 dir, float lod)
 ```
 
 
-Renvoyer l&#39;irradiance pour une direction donnée. Le calcul est basé sur la projection des harmoniques sphériques de l&#39;environnement.
+Renvoyer l&#39;irradiance pour une direction donnée. Le calcul repose sur la projection des harmoniques sphériques de l&#39;environnement.
 
 ```
 vec3 envIrradiance(vec3 dir) 

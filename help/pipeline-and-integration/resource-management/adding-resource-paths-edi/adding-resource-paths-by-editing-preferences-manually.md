@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/pipeline-and-integration/resource-management/adding-resource-paths-by-editing-preferences-manually.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/resource-management/adding-resource-paths-by-editing-preferences-manually.html"
 breadcrumb-title: ''
 description: Découvrez comment ajouter manuellement des chemins de ressources dans Substance 3D Painter en modifiant les préférences pour développer votre bibliothèque de ressources d’étagère.
 helpx_creative_field: ""
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 # Ajouter des chemins de ressources en modifiant manuellement les préférences
 
-Il est possible d’ajouter des tracés de tablette ou d’actifs personnalisés supplémentaires sans ouvrir l’application.
+Il est possible d’ajouter des chemins d’Étagère ou des actifs personnalisés supplémentaires sans ouvrir l’application.
 
-Pour ce faire, il doit modifier les préférences de l’application (qui sont stockées différemment par plate-forme). Une fois ajouté, le nouvel étagère doit apparaître dans la liste des étagères dans les préférences principales. Consultez cette page pour plus de détails : [Configuration des bibliothèques](../../../interface/settings/libraries-configuration.md)
+Pour ce faire, il doit modifier les préférences de l’application (qui sont stockées différemment par plate-forme). Une fois ajoutée, la nouvelle étagère doit apparaître dans la liste des étagères dans les préférences principales. Consultez cette page pour plus de détails : [Configuration des bibliothèques](../../../interface/settings/libraries-configuration.md)
 
 >[!NOTE]
 >

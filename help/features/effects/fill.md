@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/features/effects/fill.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/fill.html"
 breadcrumb-title: ''
-description: Apprenez à utiliser l’effet Remplissage de Substance 3D Painter pour remplir des calques avec des couleurs unies, des textures ou des matières.
+description: Apprenez à utiliser l’effet Fond de Substance 3D Painter pour appliquer des calques de remplissage aux couleurs unies, aux textures ou aux matériaux.
 helpx_creative_field: ""
 helpx_description: Painter > Features > Effects > Fill
 helpx_experience_level: ""
@@ -20,6 +20,6 @@ ht-degree: 3%
 
 # Remplissage
 
-Les effets de remplissage sont identiques à ceux d’un calque de remplissage, mais ils peuvent être appliqués en tant qu’effet sur un calque ou un masque, ce qui permet de créer des matériaux ou des masques plus complexes dans un seul calque.
+Les effets de remplissage sont identiques à ceux d’un Calque de remplissage, mais ils peuvent être appliqués en tant qu’effet sur un calque ou un masque, ce qui permet de créer des matériaux ou des masques plus complexes dans un seul calque.
 
 ![](../../assets/fill-effect.jpg)

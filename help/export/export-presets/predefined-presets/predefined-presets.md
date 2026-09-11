@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/getting-started/export/export-presets/predefined-presets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-presets/predefined-presets.html"
 breadcrumb-title: ''
 description: Découvrez les modèles de sortie prédéfinis dans Substance 3D Painter pour utiliser des configurations d’exportation prêtes à l’emploi pour les workflows courants.
 helpx_creative_field: ""
@@ -30,5 +30,5 @@ Vous trouverez ci-dessous une liste des paramètres prédéfinis non modifiables
 * Sketchfab
 * Substance 3D Stager
 * [USDz (Apple AR)](usd-pbr-metal-roughness-preset.md)
-* cassure métallique glTF PBR
-* glTF PBR Rugosité du métal + texture Displacement (expérimental)
+* glTF PBR Metal Rugosité
+* GlTF PBR Rugosité métallique + texture Displacement (expérimental)

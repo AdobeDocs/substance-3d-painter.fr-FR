@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/getting-started/export/export-window/output-templates.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-window/output-templates.html"
 breadcrumb-title: ''
-description: Apprenez à utiliser les modèles de sortie de la fenêtre d’exportation Substance 3D Painter pour configurer les formats d’exportation et les noms des textures.
+description: Apprenez à utiliser les modèles de sortie de la fenêtre d’exportation de Substance 3D Painter pour configurer les formats d’exportation et les noms de textures.
 helpx_creative_field: ""
 helpx_description: Painter > Getting Started > Export > Export window > Output templates
 helpx_experience_level: ""
@@ -48,7 +48,7 @@ Cette section répertorie toutes les textures qui seront générées par le mod�
 
 ### Types de mappage et mots-clés
 
-La ligne supérieure répertorie tous les types de texture pouvant être réalisés :
+La ligne supérieure répertorie tous les types de texture pouvant être effectués :
 
 | Bouton | Visuel | Description |
 | --- | --- | --- |
@@ -60,7 +60,7 @@ La ligne supérieure répertorie tous les types de texture pouvant être réalis
 
 >[!NOTE]
 >
-> Certains types peuvent être fusionnés/réduits lorsqu’ils sont vides ou partagent le même mappage d’entrée :
+> Certains types peuvent être fusionnés/réduits lorsqu’ils sont vides ou partagent la même map d&#39;entrée :
 > 
 > ![](../../assets/split-collapse.gif)
 
@@ -73,9 +73,9 @@ Chaque texture peut être nommée à l’aide d’une convention de dénominatio
 | Mot-clé | Description |
 | --- | --- |
 | **$project** | Remplacé par le nom du fichier de projet (.spp). |
-| **$mesh** | Remplacé par le nom du fichier de filet (fichier de filet d’entrée, comme .fbx) |
-| **$textureset** | Remplacé par le nom du matériau/ensemble de textures à partir duquel la texture est générée. |
-| **$udim** | Remplacé par le numéro UDIM à partir duquel une texture est générée. |
+| **$maillage** | Remplacé par le nom du fichier de maillage (fichier de maillage d’entrée, comme .fbx) |
+| **$textureset** | Remplacé par le nom du matériau/Jeu de textures à partir duquel la texture est générée. |
+| **$udim** | Remplacé par le numéro de l&#39;UDIM à partir duquel une texture est générée. |
 | **$colorSpace** | Remplacé par le nom de l’espace colorimétrique utilisé pour la couche donnée (RGB ou V, ignore l’Alpha). |
 
 ### Format et nombre de bits par pixel du fichier de mappage
@@ -96,7 +96,7 @@ La deuxième liste déroulante est utilisée pour spécifier le nombre de bits p
 
 ### Maps d&#39;entrée
 
-La liste de mappage d&#39;entrée regroupe tous les canaux qui peuvent être ajoutés via les [paramètres de l&#39;ensemble de textures](../../interface/texture-set/texture-set-settings.md).
+La liste de maps d&#39;entrée regroupe tous les canaux qui peuvent être ajoutés via les [paramètres de Jeu de textures](../../interface/texture-set/texture-set-settings.md).
 
 >[!NOTE]
 >
@@ -104,19 +104,19 @@ La liste de mappage d&#39;entrée regroupe tous les canaux qui peuvent être ajo
 
 ### Maps de maillage
 
-Les textures grillées sont les textures cuites :
+Les maps de maillage sont les textures bakées :
 
 | Nom | Description |
 | --- | --- |
-| **Normal** | Carte normale cuite. |
-| **Espace universel normal** | Un monde baké, un espace normal. |
-| **ID** | ID cuit. |
-| **occlusion ambiante** | Occlusion ambiante cuite |
-| **Courbure** | Courbure cuite. |
-| **Position** | Position de cuisson. |
-| **Thickness** | Thickness cuit. |
-| **Height** | Heights cuits. |
-| **Courbure normale** | Normales courbées au four. |
+| **Normal** | map normal bakée. |
+| **Normale de l&#39;espace monde** | normale de l&#39;espace monde bakée. |
+| **ID** | ID baké. |
+| **Ambient occlusion** | ambient occlusion baké |
+| **Courbure** | courbure bakée. |
+| **Position** | position bakée. |
+| **Thickness** | thickness baké. |
+| **Height** | height baké. |
+| **Bents normals** | bents normals bakés. |
 
 ### Maps converties
 
@@ -124,15 +124,15 @@ Les mappages convertis sont des mappages générés par l’application à parti
 
 | Nom | Description |
 | --- | --- |
-| **OpenGL normal** | Carte des normales combinée au format OpenGL de la normale cuite et du canal normal de l&#39;ensemble de textures. |
-| **DirectX normal** | Carte des normales combinée au format DirectX de la normale cuite et du canal normal de l&#39;ensemble de textures. |
-| **AO mixte** | Occlusion ambiante combinée de l&#39;occlusion ambiante cuite et du canal d&#39;occlusion ambiante du jeu de textures. |
-| **Diffus** | Texture diffuse générée à partir de la couche **Couleur de base** et **Métallique** (les zones métalliques sont remplacées par une couleur noire). |
-| **Specular** | Texture de specular générée à partir de la couche **Couleur de base** et **Métallique**. |
-| **Lustre** | Texture de brillance générée à partir de l’inverse de la couche de rugosité. |
-| **Diffus Unity4** | Obsolète. Texture diffuse générée à partir du canal **Couleur de base** pour correspondre aux nuanceurs Unity 4. |
-| **Gloss Unity4** | Obsolète. Texture brillante générée à partir des canaux **Rugosité** et **Métallique** pour correspondre aux nuanciers Unity 4. |
-| **Réflexion** | Textures où le blanc indique un matériau diélectrique et d&#39;autres couleurs comme des matériaux métalliques. |
+| **Normal OpenGL** | Map normal combinée au format OpenGL de la couche normale bakée et de la couche normale du Jeu de textures. |
+| **Normal DirectX** | Map normal combinée au format DirectX de la couche normale bakée et de la couche normale du Jeu de textures. |
+| **AO mixte** | Ambient occlusion combiné de l&#39;ambient occlusion baké et de la couche d&#39;ambient occlusion du Jeu de textures. |
+| **Diffuse** | Diffuse générée à partir des canaux **Base color** et **Métallique** (les zones métalliques sont remplacées par une couleur noire). |
+| **Specular** | texture de specular générée à partir du canal **Base color** et **Métallique**. |
+| **Brillance** | texture de brillance générée à partir de l’inverse du canal de rugosité. |
+| **Diffuse Unity4** | Obsolète. Diffuse générée à partir du canal **Base color** pour correspondre aux shaders Unity 4. |
+| **Gloss Unity4** | Obsolète. texture de brillance générée à partir du canal **Rugosité** et **Métallique** pour correspondre aux shaders Unity 4. |
+| **Réflexion** | Textures où le blanc indique un matériau diélectrique et d’autres couleurs comme matériaux métalliques. |
 | **1/ior** | Texture contenant 1 divisé par la valeur **IOR**. L&#39;**IOR** est généré à partir de la carte métallique : 1,4 pour les diélectriques, 100 pour les métaux (couleur noire). |
-| **Éclat<sup>2</sup>** | Version carrée du canal **Brillance** (**Brillance** \* **Brillance**) |
-| **f0** | Texture contenant une valeur de réflectance de Fresnel 0 (0,04 pour la diélectrique, 1,0 pour la métallique). |
+| **Brillance<sup>2</sup>** | Version carrée du canal **Brillance** (**Brillance** \* **Brillance**) |
+| **f0** | Texture contenant une valeur de réflectance de type fresnel 0 (0,04 pour la diélectrique, 1,0 pour la métallique). |

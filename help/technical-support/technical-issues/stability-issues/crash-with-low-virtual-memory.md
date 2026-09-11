@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-with-low-virtual-memory.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-with-low-virtual-memory.html"
 breadcrumb-title: ''
-description: Découvrez comment corriger les blocages de Substance 3D Painter causés par une mémoire virtuelle insuffisante pour assurer des performances d’application stables.
+description: Découvrez comment corriger les crashs de Substance 3D Painter causés par une mémoire virtuelle insuffisante pour assurer des performances d’application stables.
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > Stability Issues > Crash with low virtual memory
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Blocage avec une mémoire virtuelle insuffisante
+title: Crash à mémoire virtuelle faible
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Blocage avec une mémoire virtuelle insuffisante
+# Crash à mémoire virtuelle faible
 
 Substance 3D Painter peut être instable si le fichier de **pagination** ( **mémoire swap**/ **mémoire virtuelle**) est défini avec une valeur **trop faible**.\
 Il est conseillé de laisser le système d’exploitation gérer ces paramètres (ce qui est normalement le cas par défaut). Substance 3D Painter nécessite un **minimum** de **16 Go** de mémoire virtuelle pour fonctionner correctement.

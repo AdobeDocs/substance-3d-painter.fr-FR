@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sampler-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sampler-shader-api.html"
 breadcrumb-title: ''
-description: Accédez à la référence Lib Sampler API de shader pour Substance 3D Painter afin d’échantillonner des textures et des données dans le développement de nuanceurs personnalisés.
+description: Accédez à la référence Lib Sampler API de shader pour Substance 3D Painter afin d’échantillonner des textures et des données dans le cadre du développement de shader personnalisé.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Sampler - Shader API
 helpx_experience_level: ""
@@ -77,7 +77,7 @@ uniform SamplerSparse ao_tex;
 ```
 
 
-Valeur utilisée pour régler l’intensité Occlusion ambiante.
+Valeur utilisée pour régler l’intensité de l’Ambient occlusion.
 
 ```
 //: param custom { 
@@ -165,7 +165,7 @@ float getRoughness(SamplerSparse sampler, SparseCoord coord)
 ```
 
 
-Renvoyer une valeur métallique échantillonnée ou une valeur par défaut
+Retour d’un métallique échantillonné ou d’une valeur par défaut
 
 ```
 float getMetallic(vec4 sampledValue) 
@@ -188,7 +188,7 @@ float getMetallic(SamplerSparse sampler, SparseCoord coord)
 ```
 
 
-Renvoyer le niveau d’anisotropie échantillonné ou une valeur par défaut
+Renvoyer l’anisotropy level échantillonnée ou une valeur par défaut
 
 ```
 float getAnisotropyLevel(vec4 sampledValue) 
@@ -211,7 +211,7 @@ float getAnisotropyLevel(SamplerSparse sampler, SparseCoord coord)
 ```
 
 
-Renvoyer l’angle d’anisotropie échantillonné ou une valeur par défaut
+Renvoyer l’anisotropy angle échantillonnée ou une valeur par défaut
 
 ```
 float getAnisotropyAngle(vec4 sampledValue) 
@@ -381,7 +381,7 @@ float getDisplacement(SamplerSparse sampler, SparseCoord coord)
 ```
 
 
-Renvoyer l’occlusion ambiante
+Ambient occlusion de retour
 
 ```
 float getAO(SparseCoord coord, bool is_premult) 
@@ -424,7 +424,7 @@ float getAO(SparseCoord coord, bool is_premult)
 ```
 
 
-Aide pour obtenir l’occlusion ambiante pour l’ombrage
+Assistant pour obtenir un ambient occlusion pour l’ombrage
 
 ```
 float getAO(SparseCoord coord) 
@@ -493,7 +493,7 @@ float getShadowFactor()
 ```
 
 
-Renvoyer la couleur de base échantillonnée ou une valeur par défaut
+Renvoyer la base color échantillonnée ou une valeur par défaut
 
 ```
 vec3 getBaseColor(vec4 sampledValue) 
@@ -566,7 +566,7 @@ vec3 getSpecularColor(SamplerSparse sampler, SparseCoord coord)
 ```
 
 
-Génération d’une rugosité anisotrope à partir de la rugosité et du niveau d’anisotropie
+Générer une rugosité anisotrope à partir de la rugosité et de l&#39;anisotropy level
 
 ```
 vec2 generateAnisotropicRoughness(float roughness, float anisoLevel) 
@@ -579,7 +579,7 @@ vec2 generateAnisotropicRoughness(float roughness, float anisoLevel)
 ```
 
 
-Génération d’une couleur diffuse à partir de la couleur de base et du facteur métallique
+Générer une couleur diffuse à partir de la base color et du facteur métallique
 
 ```
 vec3 generateDiffuseColor(vec3 baseColor, float metallic) 
@@ -592,7 +592,7 @@ vec3 generateDiffuseColor(vec3 baseColor, float metallic)
 ```
 
 
-Générer la couleur du specular à partir du specular level diélectrique, de la couleur de base et du facteur métallique
+Générer la couleur du specular à partir du specular level diélectrique, de la base color et du facteur métallique
 
 ```
 vec3 generateSpecularColor(float specularLevel, vec3 baseColor, float metallic) 
@@ -605,7 +605,7 @@ vec3 generateSpecularColor(float specularLevel, vec3 baseColor, float metallic)
 ```
 
 
-Générez une couleur specular à partir de la couleur de base et du facteur métallique, en utilisant le specular level par défaut (0,04) pour les diélectriques
+Générez la couleur specular à partir de la base color et du facteur métallique, en utilisant le specular level par défaut (0,04) pour les diélectriques
 
 ```
 vec3 generateSpecularColor(vec3 baseColor, float metallic) 

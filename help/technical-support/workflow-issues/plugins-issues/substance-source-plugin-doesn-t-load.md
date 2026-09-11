@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/workflow-issues/plugins-issues/substance-source-plugin-doesn-t-load.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/plugins-issues/substance-source-plugin-doesn-t-load.html"
 breadcrumb-title: ''
 description: Découvrez comment résoudre les problèmes de chargement des plug-ins de Substance Source dans Substance 3D Painter pour accéder à la bibliothèque de ressources.
 helpx_creative_field: ""
@@ -43,4 +43,4 @@ Nous vous recommandons de supprimer le plug-in, car il ne fonctionne plus :
 
 >[!NOTE]
 >
-> La suppression du plug-in n’affectera pas le contenu déjà téléchargé dans la tablette.
+> La suppression du module n’affectera pas le contenu déjà téléchargé dans l’Étagère.

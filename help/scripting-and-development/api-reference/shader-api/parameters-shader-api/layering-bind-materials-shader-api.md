@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-bind-materials-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-bind-materials-shader-api.html"
 breadcrumb-title: ''
-description: Accédez à la référence du API de shader Liaison de calques de matériaux pour Substance 3D Painter afin de lier des matériaux dans des workflows à calques.
+description: Accédez à la référence du API de shader Matériaux de liaison de calque pour Substance 3D Painter afin de lier des matériaux dans des workflows à calques.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > Layering Bind Materials - Shader API
 helpx_experience_level: ""
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 # Matériaux de liaison de calques - API de shader
 
-## Calque de matériau : permet de lier des matériaux en tant que paramètres d’ombrage
+## Matériau, calque : permet de lier des matériaux en tant que paramètres shader
 
 Un matériau est défini par un identifiant unique « id ». Paramètres supplémentaires :
 
-* &#39;default&#39; : nom de la ressource matérielle par défaut à utiliser.
-* &#39;taille&#39; : taille de texture des textures du matériau.
-* &#39;group&#39; : groupe d&#39;interface utilisateur du widget de sélection de matière.
+* &#39;default&#39; : nom de ressource de matériau par défaut à utiliser.
+* &#39;size&#39; : taille de texture des cartes de matériau.
+* « groupe » : groupe d’interface utilisateur du widget de sélection de matériau.
 
 Exemple :
 
@@ -59,7 +59,7 @@ Exemple :
 ```
 
 
-Pour lier un canal d&#39;un matériau à un échantillonneur, définissez un paramètre automatique avec l&#39;id du matériau suivi de l&#39;étiquette de canal (voir les canaux disponibles dans [all-engine-params.glsl](all-engine-params-shader-api.md)) :
+Pour lier un canal d&#39;un matériau à un échantillonneur, définissez un paramètre automatique avec l&#39;id du matériau suivi de la balise du canal (voir les canaux disponibles dans [all-moteur-params.glsl](all-engine-params-shader-api.md)) :
 
 ```
 //: param auto Material1.channel_basecolor 

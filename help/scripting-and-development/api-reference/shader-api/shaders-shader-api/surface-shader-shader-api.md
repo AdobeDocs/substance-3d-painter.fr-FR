@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/surface-shader-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/surface-shader-shader-api.html"
 breadcrumb-title: ''
-description: Accédez à la référence API de shader de surface pour Substance 3D Painter afin de créer des effets d’ombrage de surface et des matières personnalisés.
+description: Accédez à la référence API de shader de surface pour Substance 3D Painter afin de créer des effets et des matériaux de shader de surface personnalisés.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > Surface Shader - Shader API
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Surface Shader - API de shader
+title: Shader de surface - API de shader
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Surface Shader - API de shader
+# Shader de surface - API de shader
 
 ## surface-shader.glsl
 
@@ -56,7 +56,7 @@ struct V2F {
 
 Remarque : pour obtenir un SparseCoord pour uv1-uv7, vous devez appeler explicitement *getSparseCoord(vec2)* défini dans [lib-sparse.glsl](../libraries-shader-api/lib-sparse-shader-api.md)
 
-## Sorties du nuanceur de surface :
+## Sorties Surface shader :
 
 Les fonctions suivantes peuvent être appelées à partir de la fonction *shade* pour décrire les propriétés du fragment :
 

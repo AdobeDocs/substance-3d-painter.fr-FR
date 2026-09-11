@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-vectors-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-vectors-shader-api.html"
 breadcrumb-title: ''
 description: Accédez à la référence du API de shader Vecteurs de bibliothèque pour Substance 3D Painter afin d’utiliser les opérations vectorielles dans des shaders personnalisés.
 helpx_creative_field: ""
@@ -40,7 +40,7 @@ uniform bool is2DView;
 ```
 
 
-Quel type de projection est utilisé ?
+Quel type de projection est utilisé.
 
 ```
 //: param auto is_perspective_projection 
@@ -49,7 +49,7 @@ uniform bool is_perspective;
 ```
 
 
-Position des yeux dans l’espace univers.
+Position des yeux en espace monde.
 
 ```
 //: param auto world_eye_position 
@@ -58,7 +58,7 @@ uniform vec3 camera_pos;
 ```
 
 
-Orientation de l’appareil photo dans l’espace univers.
+Orientation de la caméra dans l’espace monde.
 
 ```
 //: param auto world_camera_direction 
@@ -81,7 +81,7 @@ bool isBackFace() {
 ```
 
 
-Calculer le vecteur de l’œil dans l’espace univers
+Calcul du vecteur de l’œil de l’espace monde
 
 ```
 vec3 getEyeVec(vec3 position) { 
@@ -96,7 +96,7 @@ vec3 getEyeVec(vec3 position) {
 ```
 
 
-Conversion d’un vecteur de l’espace tangent vers l’espace univers
+Conversion d’un vecteur de l’espace tangente en espace monde
 
 ```
 vec3 tangentSpaceToWorldSpace(vec3 vecTS, V2F inputs) { 
@@ -113,7 +113,7 @@ vec3 tangentSpaceToWorldSpace(vec3 vecTS, V2F inputs) {
 ```
 
 
-Conversion d’un vecteur de l’espace univers en espace tangent
+Conversion d’un vecteur d’un espace monde en espace de tangente
 
 ```
 vec3 worldSpaceToTangentSpace(vec3 vecWS, V2F inputs) { 
@@ -126,7 +126,7 @@ vec3 worldSpaceToTangentSpace(vec3 vecWS, V2F inputs) {
 ```
 
 
-Image locale du sommet dans l’espace univers
+Cadre local du vertex en espace monde
 
 ```
 struct LocalVectors { 
@@ -139,7 +139,7 @@ struct LocalVectors {
 ```
 
 
-Calcul de l’image locale à partir de l’espace univers normal et de l’angle d’anisotropie personnalisés
+Calculer le cadre local à partir d&#39;une normale de l&#39;espace monde et d&#39;une anisotropy angle personnalisées
 
 ```
 LocalVectors computeLocalFrame(V2F inputs, vec3 normal, float anisoAngle) { 
@@ -222,7 +222,7 @@ LocalVectors computeLocalFrame(V2F inputs, vec3 normal, float anisoAngle) {
 ```
 
 
-Calcul de l’image locale à partir du maillage, de l’height du document et des normales
+Calculer le cadre local à partir du maillage, de l’height du document et des normales
 
 ```
 LocalVectors computeLocalFrame(V2F inputs) { 

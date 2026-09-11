@@ -1,6 +1,6 @@
 ---
-title: Tri-Planar Advanced
-description: Découvrez comment utiliser le générateur Substance 3D Painter Tri-Planar Advanced.
+title: Tri-Planaire avancé
+description: Découvrez comment utiliser le générateur Substance 3D Painter Tri-Planaire Advanced.
 source-git-commit: b7770a9497f0db047433aec32c31b57f8dc13ae7
 workflow-type: tm+mt
 source-wordcount: '372'
@@ -9,12 +9,12 @@ ht-degree: 5%
 ---
 
 
-# Tri-Planar Advanced
+# Tri-Planaire avancé
 
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_tri_planar_advanced.png" alt=""/><br><strong>Entrée :</strong> masque, générateur</td>
-    <td style="border: 0;" valign="top"><strong>Description</strong><br>Le générateur triplanaire avancé est une version autonome du mode de fusion triplanaire avec des commandes manuelles pour la projection complète, y compris le contrôle de toutes les valeurs de rotation et de décalage pour chaque axe distinct. Par rapport à la projection de remplissage native, le générateur Tri-Planar Advanced utilise les normales de l’espace universel pour fusionner les trois axes de projection, tandis que la mise en œuvre native ne repose que sur la géométrie à faible polygone. Cela se traduit par un meilleur contrôle et des résultats plus précis.<br><br>Le générateur Tri-Planar Advanced génère une texture monochrome (noir et blanc). Par conséquent, il est utile de générer une fusion triplanaire d’un masque personnalisé ou d’un point d’ancrage à utiliser comme masque.<br><br>Les cartes de position ancrée et de normales d'espace universel sont requises en tant qu'entrées d'image. <a href="../../../baking/baking.md">En savoir plus sur la cuisson ici</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Description</strong><br>Le générateur avancé à trois Planaires est une version autonome du mode de fusion triplanaire avec des commandes manuelles pour toute la projection, y compris le contrôle de toutes les valeurs de rotation et de décalage pour chaque axe séparé. Par rapport à la projection de remplissage natif, le générateur Tri-Planaire Advanced utilise les normales de l'espace universel pour fusionner les trois axes de projection, tandis que la mise en œuvre native ne s'appuie que sur la géométrie à faible poly. Cela se traduit par un meilleur contrôle et des résultats plus précis.<br><br>Le générateur Tri-Planaire Advanced génère une texture monochrome (noir et blanc). Par conséquent, il est utile de générer une fusion tri-planaire d’un masque personnalisé ou d’un point d’ancrage à utiliser comme masque.<br><br>Des cartes de position et de normale de l'espace monde Bakées sont requises en tant qu'entrées d'image. <a href="../../../baking/baking.md">En savoir plus sur le baking ici</a>.</td>
   </tr>
 </table>
 
@@ -22,8 +22,8 @@ ht-degree: 5%
 
 | Saisir un nom | Description |
 | --- | --- |
-| Couleur **Espace universel** | Utilisez la carte des normales de l&#39;espace universel. |
-| Couleur de **position** | Utilisez le mappage de position ancré. |
+| Couleur **Normale de l&#39;espace monde** | Utilisez le mappage de Normales des espaces monde baké. |
+| Couleur de **position** | Utilisez le mappage de position baké. |
 | **masque** niveaux de gris | Utilisez une texture personnalisée ou un point d’ancrage. |
 
 ## Paramètres
@@ -35,7 +35,7 @@ ht-degree: 5%
   </tr>
   <tr>
     <td><strong>Projection</strong></td>
-    <td>Choisissez de projeter tous les axes ou un seul axe.</td>
+    <td>Indiquez si vous souhaitez projeter tous les axes ou un seul axe.</td>
   </tr>
   <tr>
     <td><strong>Mode de fusion</strong></td>
@@ -47,7 +47,7 @@ ht-degree: 5%
   </tr>
   <tr>
     <td><strong>Répétition de texture</strong></td>
-    <td>Ajustez la juxtaposition de la texture du masque.</td>
+    <td>Réglez la répétition de la texture du masque.</td>
   </tr>
 </table>
 
@@ -55,22 +55,22 @@ ht-degree: 5%
 
 | Nom du paramètre | Description |
 | --- | --- |
-| **Rotation X** | Faites pivoter la projection de la texture de l&#39;axe X. |
-| **Décalage X X** | Déplacez la projection de la texture de l&#39;axe X vers la gauche ou la droite. |
-| **Décalage X Y** | Déplacez la projection de la texture de l&#39;axe X vers le haut ou vers le bas. |
+| **Rotation X** | Faites pivoter la projection de texture de l’Axe X. |
+| **Décalage X X** | Déplacez la projection de texture de l’Axe X vers la gauche ou la droite. |
+| **Décalage X Y** | Déplacez la projection de texture de l’Axe X vers le haut ou vers le bas. |
 
 ### Axe Y
 
 | Nom du paramètre | Description |
 | --- | --- |
-| **Rotation X** | Faites pivoter la projection de la texture de l&#39;axe Y. |
-| **Décalage Y X** | Déplacez la projection de la texture de l&#39;axe Y vers la gauche ou la droite. |
-| **Décalage Y** | Déplacez la projection de la texture de l&#39;axe Y vers le haut ou vers le bas. |
+| **Rotation X** | Faites pivoter la projection de texture de l’Axe Y. |
+| **Décalage Y X** | Déplacez la projection de texture de l’Axe Y vers la gauche ou la droite. |
+| **Décalage Y** | Déplacez la projection de texture de l’Axe Y vers le haut ou vers le bas. |
 
 ### Axe Z
 
 | Nom du paramètre | Description |
 | --- | --- |
-| **Rotation X** | Faites pivoter la projection de la texture de l&#39;axe Z. |
-| **Décalage Z X** | Déplacez la projection de la texture de l&#39;axe Z vers la gauche ou la droite. |
-| **Décalage Z Y** | Déplacez la projection de la texture de l&#39;axe Z vers le haut ou vers le bas. |
+| **Rotation X** | Faites pivoter la projection de texture de l’Axe Z. |
+| **Décalage Z X** | Déplacez la projection de texture de l’Axe Z vers la gauche ou la droite. |
+| **Décalage Z Y** | Déplacez la projection de texture de l’Axe Z vers le haut ou vers le bas. |

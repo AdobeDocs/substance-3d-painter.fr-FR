@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pom-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pom-shader-api.html"
 breadcrumb-title: ''
 description: Accédez à la référence de API de shader Lib POM pour Substance 3D Painter afin de créer des effets de mappage d’occlusion parallaxe dans des nuanceurs personnalisés.
 helpx_creative_field: ""
@@ -70,7 +70,7 @@ uniform int maxPOMSamples;
 ```
 
 
-Calcul du décalage des coordonnées de la texture en fonction de la parallaxe
+Calcul du décalage des coordonnées de texture en fonction de la parallaxe
 
 ```
 vec2 getParallaxOffset(SparseCoord coord, vec3 viewTS) 
@@ -171,7 +171,7 @@ vec2 getParallaxOffset(SparseCoord coord, vec3 viewTS)
 ```
 
 
-Mise à jour des coordonnées de la texture d’entrée avec le décalage de parallaxe
+Mise à jour des coordonnées de texture d’entrée avec décalage de parallaxe
 
 ```
 void applyParallaxOffset(inout V2F inputs, vec3 viewTS) 

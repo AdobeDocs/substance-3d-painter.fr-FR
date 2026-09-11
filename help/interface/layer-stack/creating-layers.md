@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/layer-stack/creating-layers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/creating-layers.html"
 breadcrumb-title: ''
-description: Apprenez à créer des calques dans Substance 3D Painter pour créer des textures complexes à partir de plusieurs calques de peinture.
+description: Apprenez à créer des calques dans Substance 3D Painter pour créer des textures complexes avec plusieurs calques de peinture.
 helpx_creative_field: ""
 helpx_description: Painter > Interface > Layer stack > Creating layers
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 16%
 
 # Création de calques
 
-Il existe plusieurs façons d’ajouter/de créer des calques dans la pile de calques :
+Il existe plusieurs façons d’ajouter/de créer des calques dans la Pile de calques :
 
 | *Action* | *Démonstration* |
 | --- | --- |
@@ -32,12 +32,12 @@ Il existe plusieurs façons d’ajouter/de créer des calques dans la pile de ca
 
 >[!NOTE]
 >
-> Certaines de ces actions ont un raccourci clavier associé qui peut être consulté sur la [page dédiée](../settings/shortcuts.md).
+> Certaines de ces actions ont un raccourci de clavier associé qui peut être consulté sur la [page dédiée](../settings/shortcuts.md).
 
-Glisser-déposer des ressources de l’étagère peut également être un moyen de créer des calques :
+Glisser-déposer des ressources depuis l’étagère peut également être un moyen de créer des calques :
 
 | *Action* | *Démonstration* |
 | --- | --- |
-| Glissez-déposez un **matériau** à partir des [actifs](../assets/assets.md) dans la pile de calques | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/dragdrop-material.gif"/></div> |
-| Glissez-déposez un **matériau dynamique** à partir des [actifs](../assets/assets.md) dans la pile de calques | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/dragdrop-smartmaterial.gif"/></div> |
-| Glissez-déposez un **effet** à partir des [actifs](../assets/assets.md) dans la pile de calques | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/dragdrop-filter.gif"/></div> |
+| Glissez-déposez un **Matériau** des [actifs](../assets/assets.md) dans la Pile de calques | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/dragdrop-material.gif"/></div> |
+| Glissez-déposez un **Matériau adaptable** des [actifs](../assets/assets.md) dans la Pile de calques | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/dragdrop-smartmaterial.gif"/></div> |
+| Glissez-déposez un **effet** à partir des [actifs](../assets/assets.md) dans la Pile de calques | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/dragdrop-filter.gif"/></div> |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/pipeline-and-integration/configuration/remote-desktop.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/configuration/remote-desktop.html"
 breadcrumb-title: ''
 description: Découvrez comment configurer l’accès Bureau à distance à Substance 3D Painter pour activer les workflows et la collaboration à distance.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Cette page décrit les solutions et alternatives permettant d’exécuter Substance 3D Painter via le Bureau à distance (RDP) sous Windows.
 
-Par défaut, RDP sous Windows s’exécute dans un contexte OpenGL inexistant ou trop faible, ce qui empêche l’application de fonctionner correctement ou provoque un blocage. Substance 3D Painter nécessite un contexte OpenGL 3.3. Vous trouverez ci-dessous des solutions pour atténuer le problème, mais il n’y a aucune garantie qu’elles fonctionneront, car le problème initial dépend de Windows et de certains pilotes GPU.
+Par défaut, RDP sous Windows s’exécute dans un contexte OpenGL inexistant ou trop faible, ce qui empêche l’application de fonctionner correctement ou par crash. Substance 3D Painter nécessite un contexte OpenGL 3.3. Vous trouverez ci-dessous des solutions pour atténuer le problème, mais il n’y a aucune garantie qu’elles fonctionneront, car le problème initial dépend de Windows et de certains pilotes GPU.
 
 >[!NOTE]
 >

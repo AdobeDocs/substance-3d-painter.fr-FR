@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-material-layering-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-material-layering-shader-api.html"
 breadcrumb-title: ''
-description: Accédez à la référence du API de shader de calque de matériau PBR pour Substance 3D Painter afin de créer des effets de matériau à calques.
+description: Accédez à la référence du API de shader de calque de Matériau PBR pour Substance 3D Painter afin de créer des effets de calque de matériau.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > PBR Material Layering - Shader API
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Couche de matériau PBR - API de shader
+title: Couche de Matériau PBR - API de shader
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Couche de matériau PBR - API de shader
+# Couche de Matériau PBR - API de shader
 
 Importer à partir des bibliothèques.
 

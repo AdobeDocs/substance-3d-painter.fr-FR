@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/content/creating-custom-effects/generators.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/generators.html"
 breadcrumb-title: ''
 description: Apprenez à créer des effets de générateur pour Substance 3D Painter afin de générer automatiquement des textures et des motifs procéduraux.
 helpx_creative_field: ""
@@ -20,6 +20,6 @@ ht-degree: 3%
 
 # Générateurs
 
-Un générateur se comporte comme un filtre, la différence est qu&#39;il n&#39;y a pas de nœud d&#39;entrée autre que les cartes supplémentaires. Si vous devez lire une couche à partir de l’ensemble de textures, vous pouvez créer un filtre.
+Un générateur se comporte comme un filtre, la différence est qu&#39;il n&#39;y a pas d&#39;autre noeud d&#39;entrée que les cartes supplémentaires. Si vous devez lire un canal à partir du jeu de textures, vous devez créer un filtre.
 
 ![](../../assets/generator.png)

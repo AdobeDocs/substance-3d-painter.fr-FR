@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-compatibility.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-compatibility.html"
 breadcrumb-title: ''
 description: Découvrez les exigences de compatibilité du pilote GPU pour Substance 3D Painter afin d’assurer un rendu et des performances stables.
 helpx_creative_field: ""
@@ -29,18 +29,18 @@ Le tableau ci-dessous répertorie toutes les versions de pilotes connues pour cr
 | *Version du pilote* | *Description du problème* |
 | --- | --- |
 | <b> 425.xx </b> | artefacts de GPU raytracing. |
-| <b> 429.xx ou version antérieure </b> | Artefacts de bloc de texture noire. |
+| <b> 429.xx ou version antérieure </b> | Artefacts de blocs de texture noire. |
 | <b> 435.xx ou version antérieure </b> | Problèmes de couleur sRVB lors du calcul des textures. |
-| <b> 439.xx </b> | Textures endommagées. |
-| <b> 441.08 </b> | Problèmes de blocage ou de stabilité. |
-| <b> 442.19 </b> | Problèmes de blocage ou de stabilité. |
+| <b> 439.xx </b> | Textures de corruption. |
+| <b> 441.08 </b> | problèmes de crash ou de stabilité. |
+| <b> 442.19 </b> | problèmes de crash ou de stabilité. |
 | <b>528.09</b> | Blocage du système d&#39;exploitation. |
-| <b>572.16 à 572.42</b> | Artefacts ou blocage lors de la cuisson de textures. |
+| <b>572.16 à 572.42</b> | Artefacts ou crash lors du baking des textures. |
 
 ### AMD
 
 | *Version du pilote* | *Description du problème* |
 | --- | --- |
-| **20.7.x** à **20.11.2** | Les textures présentent des défauts ou une corruption. |
-| **20.11.3** à **21.2.1** | Défauts ou corruption des textures, ainsi que problèmes de blocage ou de stabilité. |
-| **21.2.3** à **21.6.1** | Problèmes de blocage ou de stabilité. |
+| **20.7.x** à **20.11.2** | Défauts de textures ou corruption. |
+| **20.11.3** à **21.2.1** | Défauts de textures ou corruption, plus problèmes de crash ou de stabilité. |
+| **21.2.3** à **21.6.1** | problèmes de crash ou de stabilité. |

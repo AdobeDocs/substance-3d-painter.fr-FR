@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sss-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sss-shader-api.html"
 breadcrumb-title: ''
-description: Accédez à la référence Lib SSS API de shader pour Substance 3D Painter afin de créer des effets de diffusion de sous-surface dans des nuanceurs personnalisés.
+description: Accédez à la référence Lib SSS API de shader pour Substance 3D Painter afin de créer des effets de subsurface scattering dans des nuanciers personnalisés.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib SSS - Shader API
 helpx_experience_level: ""
@@ -31,7 +31,7 @@ import lib-sampler.glsl
 ```
 
 
-Texture du coefficient SSS scalaire
+Texture du coefficient de SSS scalaire
 
 ```
 //: param auto channel_scattering 
@@ -91,7 +91,7 @@ uniform int sssType;
 ```
 
 
-Echelle globale à l&#39;effet de diffusion de la sous-surface
+Échelle globale jusqu’à l’effet subsurface scattering
 
 ```
 //: param custom { 

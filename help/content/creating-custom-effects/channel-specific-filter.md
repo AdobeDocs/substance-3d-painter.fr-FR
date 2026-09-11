@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/content/creating-custom-effects/channel-specific-filter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/channel-specific-filter.html"
 breadcrumb-title: ''
 description: Apprenez à créer des effets de filtre spécifiques à une couche pour que Substance 3D Painter puisse traiter les couches de texture individuelles.
 helpx_creative_field: ""
@@ -32,12 +32,12 @@ Exemple de filtre affectant uniquement le canal **basecolor** :
 
 ## gestion des composants Alpha
 
-Les couches stockées au format RVBA prennent en charge les couches alpha (couleur de base, par exemple). Pour ces couches, l’entrée/sortie alpha peut être stockée directement dans la sortie de la couleur de Substance. Cependant, le moteur de Substance de données ne prend pas en charge l’Alpha pour les images en niveaux de gris : il doit être géré à l’aide d’un mappage secondaire. Pour obtenir la composante alpha d’une couche spécifique dans un graphique Substance, créez une entrée en niveaux de gris nommée « **nom\_Alpha** », par exemple : **couleur\_Alpha**, **rugosité\_Alpha**, etc.\
+Les couches stockées au format RVBA prennent en charge les couches alpha (couleur de base, par exemple). Pour ces couches, l’entrée/sortie alpha peut être stockée directement dans la sortie de la couleur de Substance. Cependant, le moteur de Substance ne prend pas en charge l&#39;Alpha pour les images en niveaux de gris : il doit être géré à l&#39;aide d&#39;un mappage secondaire. Pour obtenir le composant alpha d&#39;une couche spécifique dans un graphe Substance, créez une entrée en niveaux de gris nommée &#39;**nomcanal\_Alpha**&#39;, par exemple : **basecolor\_Alpha**, **rugosité\_Alpha**, etc.\
 Pour générer ce composant alpha, créez un nœud de sortie avec la même convention de noms.
 
 >[!NOTE]
 >
-> La sortie « **\_Alpha** » spécifique par canal ne fonctionne pas avec les **matières** normales. Pour masquer un canal à l’aide d’un masque, une sortie spécifique doit être créée avec la convention de dénomination suivante :
+> La sortie « **\_Alpha** » spécifique par canal ne fonctionne pas avec les **matériaux** ordinaires. Pour masquer un canal à l’aide d’un masque, une sortie spécifique doit être créée avec la convention de dénomination suivante :
 > 
 > * Identifiant : **canaux\_Alpha**
 > * Utilisation : **canaux\_Alpha**
@@ -46,30 +46,30 @@ Pour générer ce composant alpha, créez un nœud de sortie avec la même conve
 
 >[!NOTE]
 >
-> Il est possible d&#39;utiliser l&#39;**utilisation** ou l&#39;**identifiant** dans un nœud d&#39;entrée (l&#39;utilisation a la priorité).
+> Il est possible d&#39;utiliser l&#39;**utilisation** ou l&#39;**identifiant** dans un noeud d&#39;entrée (l&#39;utilisation a la priorité).
 
-| Nom du canal | Utilisation | Identifiant/Alpha de l’identifiant |
+| Nom du canal | Utilisation | Identifiant/Alpha Identifiant |
 | --- | --- | --- |
-| *Occlusion ambiante* | **ambianteOcclusion** | **ambianteOcclusion / ambianteOcclusion\_Alpha** |
-| *Angle d&#39;Anisotropie* | **anisotropyangle** | **anisotropyAngle / anisotropyAngle\_Alpha** |
-| *Niveau d&#39;Anisotropie* | **anisotropylevel** | **anisotropyLevel / anisotropyLevel\_Alpha** |
-| *Couleur de base* | **basecolor** | **baseColor / baseColor\_Alpha** |
-| *Masque de fusion* | **blendingmask** | **blendingmask / blendingmask\_Alpha** |
-| *Diffus* | **diffusion** | **Alpha de diffusion/diffusion\_diffusion** |
+| *Ambient occlusion* | **ambianteOcclusion** | **ambianteOcclusion / ambianteOcclusion\_Alpha** |
+| *Anisotropy angle* | **anisotropyangle** | **anisotropyAngle / anisotropyAngle\_Alpha** |
+| *Anisotropy level* | **anisotropylevel** | **anisotropyLevel / anisotropyLevel\_Alpha** |
+| *Base color* | **basecolor** | **baseColor / baseColor\_Alpha** |
+| *Blending mask* | **blendingmask** | **blendingmask / blendingmask\_Alpha** |
+| *Diffuse* | **diffusion** | **Alpha de diffusion/diffusion\_diffusion** |
 | *Displacement* | **displacement** | **displacement/displacement\_Alpha** |
-| *Émissif* | **émissif** | **émissif / émissif\_Alpha** |
-| *Lustre* | **brillance** | **brillance / brillance\_Alpha** |
+| *Emissive* | **emissive** | **emissive/emissive\_Alpha** |
+| *Brillance* | **brillance** | **brillance/brillance\_Alpha** |
 | *Height* | **height** | **height/height\_Alpha** |
 | *IOR* | **ior** | **ior / ior\_Alpha** |
-| *Métallique* | **métallique** | **métallique / métallique\_Alpha** |
+| *Métallique* | **métallique** | **métallique/métallique\_Alpha** |
 | *Normal* | **normal** | **normal / normal\_Alpha** |
 | *Opacité* | **opacité** | **opacité/opacité\_Alpha** |
 | *Réflexion* | **réflexion** | **réflexion / réflexion\_Alpha** |
-| *Rugosité* | **rugosité** | **rugosité / rugosité\_Alpha** |
+| *Rugosité* | **rugosité** | **rugosité/rugosité\_Alpha** |
 | *Diffusion* | **diffusion** | **diffusion/diffusion\_Alpha** |
 | *Specular* | **specular** | **specular / specular\_Alpha** |
 | *Specular level* | **niveau spéculaire** | **specularLevel / specularLevel\_Alpha** |
-| *Transmissif* | **transmissif** | **transmissif / transmissif\_Alpha** |
+| *Transmissive* | **transmissive** | **transmissive / transmissive\_Alpha** |
 | *Utilisateur 0* | **user0** | **user0 / user0\_Alpha** |
 | *Utilisateur 1* | **utilisateur1** | **utilisateur1 / utilisateur1\_Alpha** |
 | *Utilisateur 2* | **utilisateur2** | **utilisateur2 / utilisateur2\_Alpha** |
@@ -83,8 +83,8 @@ Pour générer ce composant alpha, créez un nœud de sortie avec la même conve
 
 ![](../../assets/single-channel.png){width="650px"}
 
-Dans cet exemple, la couche alpha de la couleur de base est extraite via un nœud en niveaux de gris pour écraser la couche de **rugosité**.
+Dans cet exemple, le canal Alpha de Base color est extrait via un nœud en niveaux de gris pour écraser le canal **Rugosité**.
 
 ![](../../assets/mix-channel.png){width="650px"}
 
-Dans cet exemple, la couche de **rugosité** est multipliée sur la **couleur de base**.
+Dans cet exemple, le canal **Rugosité** est multiplié sur la **Base color**.

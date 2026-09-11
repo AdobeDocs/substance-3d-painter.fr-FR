@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-rendering-states-params-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-rendering-states-params-shader-api.html"
 breadcrumb-title: ''
 description: Accédez à la référence du API de shader Tous les états de rendu pour que Substance 3D Painter contrôle les paramètres d’état de rendu.
 helpx_creative_field: ""
@@ -24,14 +24,14 @@ ht-degree: 2%
 
 ## Backface culling
 
-Abaissez les visages :
+Faces de récupération :
 
 ```
 //: state cull_face on
 ```
 
 
-Dessin des faces avant et arrière :
+Dessinez des faces avant et arrière :
 
 ```
 //: state cull_face off
@@ -75,9 +75,9 @@ Mode de fusion multiplicatif :
 ```
 
 
-## Emplacement d’échantillonnage de l’ombrage
+## lieu d&#39;échantillonnage du shader
 
-Par défaut, les canaux du document sont échantillonnés à l’aide des coordonnées de texture non transformée pour le rendu des optimisations pendant la peinture.
+Par défaut, les canaux du document sont échantillonnés à l’aide des coordonnées de texture non transformées pour le rendu des optimisations pendant la peinture.
 
 Si des artefacts apparaissent, définissez l&#39;état *non local* sur *activé* .
 

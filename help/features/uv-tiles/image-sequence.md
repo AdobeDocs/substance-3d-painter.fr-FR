@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/features/uv-tiles/image-sequence.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/uv-tiles/image-sequence.html"
 breadcrumb-title: ''
-description: Apprenez à utiliser des séquences d’images avec des tuiles UV dans Substance 3D Painter pour créer des textures animées.
+description: Découvrez comment utiliser des séquences d’images avec des UV dans Substance 3D Painter pour les workflows de texture animée.
 helpx_creative_field: ""
 helpx_description: Painter > Features > UV Tiles > Image Sequence
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Séquence d’images
 
-Les séquences d’images sont un ensemble d’images regroupées en tant que ressource unique dans l’étagère. Les images sont regroupées en fonction d’un modèle spécifique dans leurs noms de fichier.
+Les séquences d’images sont un ensemble d’images regroupées en une seule ressource dans l’Étagère. Les images sont regroupées en fonction d’un modèle spécifique dans leurs noms de fichier.
 
 ## Comment importer des images sous forme de séquence
 
@@ -53,4 +53,4 @@ La correspondance des noms de fichiers est basée sur l’expression régulière
 
 Les séquences d’images peuvent être chargées dans n’importe quel emplacement de ressource de l’interface comme toute autre ressource. Toutefois, dans certains cas, ils peuvent nécessiter des paramètres supplémentaires pour être utilisés correctement.
 
-Dans [Calques de remplissage](../../painting/fill-projections/fill-projections.md) (et effets de remplissage), assurez-vous que le mode de projection est défini sur **Remplissage (correspondance par carreau UV)** pour vous assurer que chaque image de la séquence est affectée au [carreau UV](uv-tiles.md) correct dans le jeu de textures.
+Dans [Calques de remplissage](../../painting/fill-projections/fill-projections.md) (et les effets de remplissage), assurez-vous que le mode de projection est défini sur **Remplissage (correspondance par Tuile UV)** pour vous assurer que chaque image de la séquence est affectée à la [Tuile UV](uv-tiles.md) correcte dans le Jeu de textures.

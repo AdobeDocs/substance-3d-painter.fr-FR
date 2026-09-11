@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pixelated-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pixelated-shader-api.html"
 breadcrumb-title: ''
 description: Accédez à la référence API de shader pixellisé de Substance 3D Painter pour créer des effets de rendu pixellisé personnalisés.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Pixellisation - API de shader
 
-## Nuanceur pixellisant de base
+## Shader pixellisant de base
 
 Importer à partir des bibliothèques.
 
@@ -36,7 +36,7 @@ const vec3 light_pos = vec3(10.0, 10.0, 10.0);
 ```
 
 
-Nous **relions** la position de l&#39;œil du monde de paramétrage automatique à notre **appareil photo\_pos** uniforme.
+Nous **relions** la position de l&#39;œil du monde de paramétrage automatique à notre **caméra\_pos** uniforme.
 
 ```
 //: param auto world_eye_position 
@@ -45,7 +45,7 @@ uniform vec3 camera_pos;
 ```
 
 
-Nous **relions** la couche **couleur de base** du document à notre **couleur de base\_tex** uniforme.
+Nous **relions** la **base color** du canal du document à notre **couleur de base\_tex** uniforme.
 
 ```
 //: param auto channel_basecolor 
@@ -54,7 +54,7 @@ uniform SamplerSparse basecolor_tex;
 ```
 
 
-Nous définissons un nouveau réglage personnalisé pour cet ombrage, ainsi que sa valeur par défaut. Celui-ci est utilisé pour ajuster le thickness du contour, lorsqu’il est ombré.
+Nous définissons un nouveau réglage personnalisé pour ce shader, ainsi que sa valeur par défaut. Celui-ci est utilisé pour ajuster le thickness du contour, lorsqu’il est ombré.
 
 ```
 //: param custom { 
@@ -73,7 +73,7 @@ uniform float unlit_outline_thickness;
 ```
 
 
-Nous définissons un nouveau réglage personnalisé pour cet ombrage, ainsi que sa valeur par défaut. Celui-ci est utilisé pour ajuster le thickness du contour, lorsqu’il est éclairé.
+Nous définissons un nouveau réglage personnalisé pour ce shader, ainsi que sa valeur par défaut. Celui-ci est utilisé pour ajuster le thickness du contour, lorsqu’il est éclairé.
 
 ```
 //: param custom { 
@@ -92,7 +92,7 @@ uniform float lit_outline_thickness;
 ```
 
 
-Point d’entrée de l’ombrage.
+Point d&#39;entrée du shader.
 
 ```
 void shade(V2F inputs) 
@@ -131,21 +131,21 @@ La **priorité** consiste à effectuer la **détection des contours**. Si la con
 ```
 
 
-Ajout d’une variation à la taille du masque, en fonction de la luminance des couleurs de base
+Ajout d’une variation à la taille du masque, en fonction de la luminance de la base color
 
 ```
   float maskRadiusJitter = pow(dot(baseColor, vec3(0.3333)), 0.1);
 ```
 
 
-Calcule une valeur de masque en fonction de la position du fragment dans l’espace de l’écran. Cela créera un motif de type grille.
+Calcule une valeur de masque en fonction de la position du fragment dans l’espace de l’écran. Cela permet de créer un motif de type grille.
 
 ```
   float mask = pow(1.0 - length(fract(gl_FragCoord.xy / 7.0) - vec2(0.5)), maskRadiusJitter * 5.0) * 5.0;
 ```
 
 
-Ici, nous allons échantillonner la couleur de base et appliquer une atténuation diffuse simple
+Ici, nous échantillonnons la base color et appliquons une atténuation diffuse simple
 
 ```
   vec3 color = baseColor * NdL; 

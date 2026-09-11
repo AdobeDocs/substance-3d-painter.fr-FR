@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-alpha-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-alpha-shader-api.html"
 breadcrumb-title: ''
-description: Accédez à la référence API de shader de l’Alpha de bibliothèque pour Substance 3D Painter afin de travailler avec les couches alpha et la transparence dans les ombrages personnalisés.
+description: Accédez à la référence API de shader de l’Alpha de bibliothèque pour Substance 3D Painter afin de travailler avec les canaux Alphas et la transparence dans les nuanceurs personnalisés.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Alpha - Shader API
 helpx_experience_level: ""
@@ -31,7 +31,7 @@ import lib-random.glsl
 ```
 
 
-Carte d’opacité fournie par le moteur.
+Map opacity, fournie par le moteur.
 
 ```
 //: param auto channel_opacity 
@@ -61,7 +61,7 @@ uniform float alpha_threshold;
 ```
 
 
-Tramage de test Alpha.
+dithering Alpha.
 
 ```
 //: param custom { 
@@ -78,7 +78,7 @@ uniform bool alpha_dither;
 ```
 
 
-Test alpha d’émulation : ignore le fragment actif si son opacité est inférieure à un seuil défini par l’utilisateur. Doit être appelé APRÈS les appels d&#39;échantillonnage de texture : il peut casser les dérivées
+Test alpha d’émulation : ignore le fragment actif si son opacité est inférieure à un seuil défini par l’utilisateur. Doit être appelé APRÈS les appels d&#39;échantillonnage de texture : il peut casser les dérivés
 
 ```
 void alphaKill(float alpha) 
