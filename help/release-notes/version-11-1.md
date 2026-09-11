@@ -241,7 +241,7 @@ Résumé : <b>Cette mise à jour est une version majeure. Elle contient le nouve
 * [Ruban] Ajout de modes de fusion pour la couche alpha et certaines couches lorsqu’elles se chevauchent
 * Symétrie de remplissage
 * [Fill] Prise en charge supplémentaire de la symétrie sur les calques de remplissage et les effets
-* [Fond][Interface utilisateur] Exposer les paramètres de symétrie dans la fenêtre des propriétés pour le calque de remplissage et les effets
+* [Fond]&#x200B;[Interface utilisateur] Exposer les paramètres de symétrie dans la fenêtre des propriétés pour le calque de remplissage et les effets
 * [Remplissage] Interface utilisateur des paramètres de symétrie de retouche à la fois dans le menu viewport et la fenêtre des propriétés
 * [Fond] Réorientez correctement les textures normales lors de la projection en mode déformation
 * displacement de taille physique
@@ -256,7 +256,7 @@ Résumé : <b>Cette mise à jour est une version majeure. Elle contient le nouve
 * [Substance] Exposer le remplacement de résolution pour les ressources de Substance dans Outils et remplissages
 * [Exporter] Mettre à jour le paramètre prédéfini d’exportation des Maps de maillage pour exporter des textures en niveaux de gris
 * Python
-* [Baking][Python] Indiquer dans le journal des modifications les modifications de rupture après la mise à jour des bakers
+* [Baking]&#x200B;[Python] Indiquer dans le journal des modifications les modifications de rupture après la mise à jour des bakers
 * [Python] Exposer les paramètres de symétrie de remplissage dans Python
 * Contenu et nouveau contenu
 * [Contenu] Ajoutez 75 nouveaux paramètres prédéfinis d&#39;outil pour l’outil Ruban
@@ -281,12 +281,12 @@ Résumé : <b>Cette mise à jour est une version majeure. Elle contient le nouve
 * [Ruban] Problème de performances avec les Tuiles UV
 * [Ruban] Le tracé peut se chevaucher de manière inattendue après un angle dans certains cas
 * [Ruban] Les Tangentes créent une boucle indésirable lorsque le point est déplacé près des extrémités du tracé
-* [Crash][Ruban] Création de textes très longs dans Ruban can crash
+* [Crash]&#x200B;[Ruban] Création de textes très longs dans Ruban can crash
 * [Outil] L’aperçu du Matériau ne fonctionne pas lorsque la projection est utilisée dans un masque
 * [Baking] Le paramètre AO « Auto-occlusion » est ignoré avec plusieurs Jeux de textures et « correspondance par nom » activé
 * [Baking] AO avec normal présente des artefacts sur les bords en raison d&#39;un remplissage manquant
 * [Gestion des couleurs] Les conversions de l’espace colorimétrique HDR avec ACE sous Linux produisent des couleurs condensées
-* [Régression][Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
-* [Crash][Python] Exportation USD déclenchée par TextureStateEvent
+* [Régression]&#x200B;[Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
+* [Crash]&#x200B;[Python] Exportation USD déclenchée par TextureStateEvent
 * [Moteur] Lorsque vous peignez avec l’outil Clone dans des couleurs de décalage de couche normales, cela ne fonctionne pas correctement
 * [Python] Le widget de Fantôme apparaît supprimé par le script et fonctionne toujours

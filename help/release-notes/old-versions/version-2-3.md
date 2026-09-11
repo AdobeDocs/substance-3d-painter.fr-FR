@@ -48,7 +48,7 @@ Notre dernier tutoriel explique le processus d’exportation avec le nouveau plu
 
 **Ajouté :**
 
-* [Plug-in][Photoshop] Autoriser à spécifier le matériau/la pile/les canaux à exporter
+* [Plug-in]&#x200B;[Photoshop] Autoriser à spécifier le matériau/la pile/les canaux à exporter
 * [Scripting] Les noms de fonctions comportent des incohérences
 
 **Fixe :**

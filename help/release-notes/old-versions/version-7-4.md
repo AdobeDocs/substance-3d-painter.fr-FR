@@ -173,9 +173,9 @@ Pour exécuter une commande Javascript à partir de Python, utilisez la fonction
 
 **Ajouté :**
 
-* [SpaceMouse][Windows] Prise en charge de la souris SpaceMouse 3D connection dans le Viewport 3D pour la navigation
-* [SpaceMouse][Windows] Raccourcis/touches de base pour les modèles Pro et Enterprise SpaceMouse dans le Viewport 3D
-* [Souris spatiale][Windows] Icône de centre de rotation dédié dans le Viewport 3D
+* [SpaceMouse]&#x200B;[Windows] Prise en charge de la souris SpaceMouse 3D connection dans le Viewport 3D pour la navigation
+* [SpaceMouse]&#x200B;[Windows] Raccourcis/touches de base pour les modèles Pro et Enterprise SpaceMouse dans le Viewport 3D
+* [Souris spatiale]&#x200B;[Windows] Icône de centre de rotation dédié dans le Viewport 3D
 * [Gestion des couleurs] Utilisez les rôles de la configuration OCIO pour modifier les paramètres par défaut
 * [Gestion des couleurs] La gestion des couleurs s’affiche dans la fenêtre des propriétés des widgets de couleur
 * [Gestion des couleurs] Gestion des couleurs dans la fenêtre des propriétés pour l’aperçu du matériau
@@ -193,7 +193,7 @@ Pour exécuter une commande Javascript à partir de Python, utilisez la fonction
 * [Gestion des couleurs] Désactiver la liste déroulante Affichage du sélecteur de couleurs pour les canaux de données
 * [Optimisation] La grille de déformation recalcule uniquement les UV couverts
 * [Export] Autoriser l&#39;exportation de projets de Tuile UV pour Sketchfab, USD et glTF
-* [Scripting][Python] Autoriser à modifier la fonction de mappage de tonalité
+* [Scripting]&#x200B;[Python] Autoriser à modifier la fonction de mappage de tonalité
 
 **Fixe :**
 
@@ -209,9 +209,9 @@ Pour exécuter une commande Javascript à partir de Python, utilisez la fonction
 * [Gestion des couleurs] L’outil Remplissage polygonal affiche une couleur incorrecte
 * [Gestion des couleurs] Le mappeur de tonalité ACE est appliqué aux couches en mode solo
 * [Gestion des couleurs] L’éclairage de la sphère d’aperçu de l’outil n’est pas géré par les couleurs
-* [Gestion des couleurs][Exportation] Les mappages convertis appliquent une conversion incorrecte
-* [Scripts][Python][Gestion des couleurs] Les projets créés avec un modèle et une variable d’environnement OCIO sont en mode hérité.
-* [Scripting][Python] Impossible d&#39;utiliser la fonction d&#39;évaluation JavaScript au démarrage
+* [Gestion des couleurs]&#x200B;[Exportation] Les mappages convertis appliquent une conversion incorrecte
+* [Scripts]&#x200B;[Python]&#x200B;[Gestion des couleurs] Les projets créés avec un modèle et une variable d’environnement OCIO sont en mode hérité.
+* [Scripting]&#x200B;[Python] Impossible d&#39;utiliser la fonction d&#39;évaluation JavaScript au démarrage
 * [Offre d’Adobe 3D] Impossible de lancer Painter lors de l’utilisation de paramètres régionaux avec des langues non prises en charge par défaut
 
 **Problèmes Connus :**
@@ -232,15 +232,15 @@ Pour exécuter une commande Javascript à partir de Python, utilisez la fonction
 * [Gestion des couleurs] Développez la section Gestion des couleurs, par défaut, lorsqu’OCIO est sélectionné dans les fenêtres de nouveaux paramètres de projet et de projet
 * [Gestion des couleurs] Ajout du mappeur de tonalité ACE en mode hérité
 * [Gestion des couleurs] Ajustement des paramètres de configuration par défaut
-* [Gestion des couleurs][Exportation] Remplir $colorSpace dans les noms de fichiers pour les canaux de données
+* [Gestion des couleurs]&#x200B;[Exportation] Remplir $colorSpace dans les noms de fichiers pour les canaux de données
 * [Export] Exporter le projet de Tuile UV vers Stager
 * [Interopérabilité] Non disponible pour les éditions Steam et Substance
 * [Interopérabilité] Autoriser l’envoi d’un projet de Tuile UV vers Stager
 
 **Fixe :**
 
-* [MacOS][Crash] Painter ne commence pas par Catalina
-* [Gestion des couleurs][Crash] crash aléatoire lors de la lecture avec la gestion du type de données/des couleurs sur le canal utilisateur
+* [MacOS]&#x200B;[Crash] Painter ne commence pas par Catalina
+* [Gestion des couleurs]&#x200B;[Crash] crash aléatoire lors de la lecture avec la gestion du type de données/des couleurs sur le canal utilisateur
 * [Gestion des couleurs] Les ressources utilisées en tant que niveaux de gris dans le masque affichent l’espace colorimétrique nouveau menu
 * [Gestion des couleurs] La couche utilisateur est plus sombre en viewport en mode hérité + mode Solo.
 * [Gestion des couleurs] La courbe d’env. est toujours linéaire lorsqu’elle est utilisée dans iRay
@@ -272,18 +272,18 @@ Pour exécuter une commande Javascript à partir de Python, utilisez la fonction
 * [Gestion des couleurs] Extraction du nom de l’espace colorimétrique à partir du nom du fichier bitmap importé
 * [Gestion des couleurs] Permet de remplacer l’espace colorimétrique par un espace colorimétrique de la configuration dans la fenêtre Propriétés
 * [Gestion des couleurs] Ajout d’options de gestion des couleurs dans les paramètres du Jeu de textures
-* [Gestion des couleurs][Viewport] Permet de gérer les couleurs séparément pour les vues 2D et 3D
+* [Gestion des couleurs]&#x200B;[Viewport] Permet de gérer les couleurs séparément pour les vues 2D et 3D
 * [Gestion des couleurs] Charger et convertir la map d&#39;environnement dans l’espace colorimétrique de travail
 * [Gestion des couleurs] Ajustez le sélecteur de couleurs et l’éditeur avec l’espace colorimétrique actuel
 * [Gestion des couleurs] Permet de sélectionner l’espace colorimétrique de transforme d’affichage en viewport avec un nouveau menu déroulant
 * [Gestion des couleurs] Application d’un transforme d’affichage avec Iray des résultats de rendu
 * [Gestion des couleurs] Exportation de textures avec différents espaces colorimétriques
-* [Gestion des couleurs][Python] Appliquez les paramètres de gestion des couleurs de la variable d’environnement (OCIO) aux nouveaux projets
+* [Gestion des couleurs]&#x200B;[Python] Appliquez les paramètres de gestion des couleurs de la variable d’environnement (OCIO) aux nouveaux projets
 * [Viewport] Autoriser à désancrer le viewport 2D ou 3D
 * [Déplié automatique] Nouvelle option pour éviter les îlots allongés
 * [Scripting Python] Appeler les fonctions JavaScript à partir de l’API Python
 * [Nouvelle fenêtre de projet] Rendre la section des mappages importés réductible
-* [Projection][Déformation] Option permettant de masquer les normales dans les paramètres de déformation
+* [Projection]&#x200B;[Déformation] Option permettant de masquer les normales dans les paramètres de déformation
 * [Contenu] 11 nouvelles cartes usure/salissures
 * [Contenu] 8 nouveaux paramètres prédéfinis d&#39;outil (fermeture éclair, cordon de serrage, paillettes)
 * [Contenu] 8 nouveaux matériaux (cicatrice, poche, ...)
@@ -292,10 +292,10 @@ Pour exécuter une commande Javascript à partir de Python, utilisez la fonction
 **Problèmes Connus :**
 
 * Les Matériaux adaptables [Mac M1] ne s’affichent pas correctement
-* [Gestion des couleurs][Crash] crash aléatoire lors de la lecture avec la gestion du type de données/des couleurs sur le canal utilisateur
+* [Gestion des couleurs]&#x200B;[Crash] crash aléatoire lors de la lecture avec la gestion du type de données/des couleurs sur le canal utilisateur
 * [Gestion des couleurs] Le sélecteur de couleurs ne sélectionne pas la bonne valeur pour le canal de données en mode hérité.
-* [Gestion des couleurs][Iray] L’enregistrement du rendu en EXR ou en TIFF alors que la gestion des couleurs est activée dans le viewport enregistre toujours de manière linéaire.
+* [Gestion des couleurs]&#x200B;[Iray] L’enregistrement du rendu en EXR ou en TIFF alors que la gestion des couleurs est activée dans le viewport enregistre toujours de manière linéaire.
 * [Gestion des couleurs] Les ressources utilisées comme niveaux de gris dans le masque affichent un menu d’espace colorimétrique incorrect
-* [Gestion des couleurs][Iray] La carte d’environnement est toujours linéaire lorsqu’elle est utilisée dans Iray
-* [Gestion des couleurs][Exportation] Les mappages convertis ne sont pas exportés en tant que canaux avec gestion des couleurs
-* [Gestion des couleurs][Exporter] Ignore si la couche utilisateur est gérée en couleurs ou non avec le mode hérité.
+* [Gestion des couleurs]&#x200B;[Iray] La carte d’environnement est toujours linéaire lorsqu’elle est utilisée dans Iray
+* [Gestion des couleurs]&#x200B;[Exportation] Les mappages convertis ne sont pas exportés en tant que canaux avec gestion des couleurs
+* [Gestion des couleurs]&#x200B;[Exporter] Ignore si la couche utilisateur est gérée en couleurs ou non avec le mode hérité.

@@ -130,7 +130,7 @@ Résumé : <b>Il s&#39;agit d&#39;une version majeure. Cette version contient le
 * [Effets postérieurs] Remplacer les effets de post-traitement par de nouveaux
 * [Post-effects] Mettre à jour le mappeur de tonalité
 * [Post-effects] Ajouter une nouvelle utilisation pour les ressources Post-effects
-* [Contenu][Effets postérieurs] Intégrer les actifs d’effets postérieurs par défaut dans la bibliothèque
+* [Contenu]&#x200B;[Effets postérieurs] Intégrer les actifs d’effets postérieurs par défaut dans la bibliothèque
 * [Nouveau projet] Améliorer l’interface utilisateur pour la création de projets
 * [Nouveau projet] Modifications apportées à la fonctionnalité de réimportation de maillage
 * [Nouveau projet] Autoriser l’ouverture des fichiers \*.geo.usd
@@ -148,5 +148,5 @@ Résumé : <b>Il s&#39;agit d&#39;une version majeure. Cette version contient le
 * [Importation] Les textures EXR sont forcées dans sRVB au lieu d’être linéaires lors de l’importation de fichiers USD
 * [Tuiles UV] Une séquence d’images avec une seule image remplit également d’autres Tuiles UV
 * [Baking] AO est différent entre le baking CPU et GPU
-* [Gestion des couleurs][MacOS] Viewport BaseColor ne correspond pas au sélecteur de couleurs
+* [Gestion des couleurs]&#x200B;[MacOS] Viewport BaseColor ne correspond pas au sélecteur de couleurs
 * [USD] Dans certains cas, les valeurs uniformes ne sont pas importées

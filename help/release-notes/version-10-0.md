@@ -226,16 +226,16 @@ Résumé : <b>version majeure, édition de la pile de calques avec l’API Pytho
 <b>Ajouté</b> :
 
 * [Illustrator] Utilisation de fichiers Illustrator avec des tableaux dans Painter
-* [Illustrator][SVG] Ajout d’aperçus dans la sélection de l’étendue
+* [Illustrator]&#x200B;[SVG] Ajout d’aperçus dans la sélection de l’étendue
 * [Substance 3D Assets] Parcourir, sélectionner et télécharger des ressources 3D directement dans Painter
-* [Substance 3D Assets][UI] Nouveau panneau
+* [Substance 3D Assets]&#x200B;[UI] Nouveau panneau
 * [Substance 3D Assets] maps d&#39;environnement et matériaux de support
 * [Substance 3D Assets] Autoriser le rechargement, la navigation et l’ouverture du dossier d’emplacement dans le nouveau panneau Substance 3D Assets
 * [Substance 3D Assets] Ajout d’un gestionnaire de téléchargement
 * [Ressource de texte] Autoriser l’utilisation de polices incorporables
 * [Text Resource] Autoriser le rendu d’une police/d’un texte sur un maillage
 * [Ressource de texte] Affichez les polices de l’utilisateur et d’autres chemins partagés dans le panneau Actifs avec une nouvelle catégorie
-* [Ressource de texte][Propriétés] Ajout de la prise en charge pour les propriétés de police avancées
+* [Ressource de texte]&#x200B;[Propriétés] Ajout de la prise en charge pour les propriétés de police avancées
 * [Ressource de texte] Permettre de rechercher/afficher des polices dans des mini-étagères
 * [Ressource de texte] Ajouter un message/une boîte de dialogue d’erreur lors de l’importation d’une police incompatible
 * Divers
@@ -298,9 +298,9 @@ Résumé : <b>version majeure, édition de la pile de calques avec l’API Pytho
 <b>Problèmes connus</b> :
 
 * [Gestion des couleurs] Les conversions de l’espace colorimétrique HDR avec ACE sous Linux produisent des couleurs condensées
-* [Crash][Linux][AMD] Glissement et déplacement de ressources dans pile de calques sur le système d’exploitation Wayland
-* [Régression][Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
-* [Crash][Python] Exportation USD déclenchée par TextureStateEvent
+* [Crash]&#x200B;[Linux]&#x200B;[AMD] Glissement et déplacement de ressources dans pile de calques sur le système d’exploitation Wayland
+* [Régression]&#x200B;[Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
+* [Crash]&#x200B;[Python] Exportation USD déclenchée par TextureStateEvent
 * [Enregistrer] Le fichier de projet d’application est perdu lorsque l’option « Enregistrer sous » échoue
 * [MacOS Intel] Crash lors de l’importation de certains paramètres prédéfinis
 * [Illustrator] Impossible d’importer des fichiers Ai après le crash du serveur sans redémarrer Painter

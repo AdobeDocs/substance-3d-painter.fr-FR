@@ -190,7 +190,7 @@ Pour trouver le projet, utilisez l&#39;entrée de menu **Fichier** > **Ouvrir l&
 
 (Publié le 25 septembre 2018)
 
-****Fixe :****
+**&#x200B;**&#x200B;Fixe :**&#x200B;**
 
 * [vue 2D] vue 2D ne fonctionne pas correctement avec certains maillages lors de la création d’un projet
 * [Crash] Le passage de la Projection UV à la projection tri-planaire conduit à un crash
@@ -210,8 +210,8 @@ Pour trouver le projet, utilisez l&#39;entrée de menu **Fichier** > **Ouvrir l&
 **Ajouté :**
 
 * Résumé : correctif avec mise à jour du contenu, nouvelles fonctionnalités de script et possibilité de désactiver la mise à jour automatique
-* [Contenu][Étagère] Ajouter un paramètre prédéfini étagère de la peau
-* [Contenu][étagère] Conversion de 19 normales de peau en matériaux pour la subsurface scattering
+* [Contenu]&#x200B;[Étagère] Ajouter un paramètre prédéfini étagère de la peau
+* [Contenu]&#x200B;[étagère] Conversion de 19 normales de peau en matériaux pour la subsurface scattering
 * [Scripts] Créer un modèle de projet à partir d’un projet ouvert
 * [Scripts] Obtenir/définir les paramètres d’exportation d’un projet ouvert
 * [Mises à jour] Possibilité de désactiver la fenêtre contextuelle de mise à jour automatique à partir des paramètres et des variables d’environnement
@@ -223,11 +223,11 @@ Pour trouver le projet, utilisez l&#39;entrée de menu **Fichier** > **Ouvrir l&
 * [Affichage] Certaines cartes sont affichées en sRVB au lieu de sRVB
 * [Viewports] le focus de Maillage ne se comporte pas correctement
 * [vue 2D] Le projet avec une caméra cassée a des coques UV qui disparaissent
-* [SSS][Info-bulle] Les info-bulles de la subsurface scattering apparaissent dans le journal
+* [SSS]&#x200B;[Info-bulle] Les info-bulles de la subsurface scattering apparaissent dans le journal
 * Certains projets ne peuvent pas être ouverts dans 2018.2 et le message d’erreur ne peut pas enregistrer un package substance nulle
 * [Masque] La couleur de l’outil Peinture peut être bloquée dans certains cas lorsque vous travaillez dans un masque
 * [Matériau] Cartes n&#39;apparaissant pas dans des situations spécifiques
-* [Proj][Outils] Manipulateur actif avec un générateur
+* [Proj]&#x200B;[Outils] Manipulateur actif avec un générateur
 * [Substance] Groupes de paramètres de Substance manquants
 * [Scripting] Nom de logiciel incorrect dans la documentation
 * [UDIM] Pas d&#39;information dans le journal sur les coques UV sur les tuiles UV multiples
@@ -257,50 +257,50 @@ Pour trouver le projet, utilisez l&#39;entrée de menu **Fichier** > **Ouvrir l&
 **Ajouté :**
 
 * Résumé : version estivale, prise en charge des subsurfaces scatterings, améliorations des projections et du remplissage, importation et sélection de caméras, prise en charge d’Alembic/glTF, glisser-déposer sur le Map id, prise en charge améliorée du format de Substance et nouveau contenu
-* [SSS][Viewport][Iray] subsurface scattering générique
+* [SSS]&#x200B;[Viewport]&#x200B;[Iray] subsurface scattering générique
 * [SSS] Synchronisation des paramètres MDL et de subsurface scattering
 * [SSS] Ajout d’une nouvelle couche en niveaux de gris nommée « Diffusion »
-* [SSS][Paramètres de Shader] Paramètre de type Diffusion pour la subsurface scattering (peau ou translucide)
-* [SSS][Paramètres de Shader] Paramètre d’échelle de diffusion pour la subsurface scattering
-* Paramètre de Scattering [SSS][Shader Settings] pour la subsurface scattering
-* [SSS][Paramètres d’affichage] Nombre d’échantillons de diffusion pour la subsurface scattering
-* [Shader][Iray] Intégration de subsurfaces scatterings MDL pour Iray
+* [SSS]&#x200B;[Paramètres de Shader] Paramètre de type Diffusion pour la subsurface scattering (peau ou translucide)
+* [SSS]&#x200B;[Paramètres de Shader] Paramètre d’échelle de diffusion pour la subsurface scattering
+* Paramètre de Scattering [SSS]&#x200B;[Shader Settings] pour la subsurface scattering
+* [SSS]&#x200B;[Paramètres d’affichage] Nombre d’échantillons de diffusion pour la subsurface scattering
+* [Shader]&#x200B;[Iray] Intégration de subsurfaces scatterings MDL pour Iray
 * [Shader] Mise à jour de Shader via le programme de mise à jour des ressources
 * [Shader] Mise à jour de l’API et de la documentation du journal des modifications
-* [Propriétés de l&#39;outil][Proj] Nouveaux paramètres pour la projection triplanaire
-* [Viewport][Proj] Contrôle les propriétés du Calque de remplissage dans la vue 3D directement avec manipulateur (projection triplanaire)
-* [Raccourcis][Proj] Nouveaux raccourcis Q, W, E, R, T pour les manipulateurs de projection triplanaire
-* [Viewport][Proj] Contrôle des propriétés de Calque de remplissage dans Vue 2D directement avec manipulateur (Projection UV)
-* [Raccourcis][Proj] Nouveau raccourci Q pour les manipulateurs de Projection UV
-* [Contextual Toolbar][Proj] manipulateurs De projection triplanaire De Contrôle
-* [Contextual Toolbar][Proj] manipulateurs De Projection UV De Contrôle
+* [Propriétés de l&#39;outil]&#x200B;[Proj] Nouveaux paramètres pour la projection triplanaire
+* [Viewport]&#x200B;[Proj] Contrôle les propriétés du Calque de remplissage dans la vue 3D directement avec manipulateur (projection triplanaire)
+* [Raccourcis]&#x200B;[Proj] Nouveaux raccourcis Q, W, E, R, T pour les manipulateurs de projection triplanaire
+* [Viewport]&#x200B;[Proj] Contrôle des propriétés de Calque de remplissage dans Vue 2D directement avec manipulateur (Projection UV)
+* [Raccourcis]&#x200B;[Proj] Nouveau raccourci Q pour les manipulateurs de Projection UV
+* [Contextual Toolbar]&#x200B;[Proj] manipulateurs De projection triplanaire De Contrôle
+* [Contextual Toolbar]&#x200B;[Proj] manipulateurs De Projection UV De Contrôle
 * [Propriétés de l’outil] Désactiver la répétition de texture avec l’outil projection et Pochoir
 * [Pochoir] Utilisation d’images non carrées avec l’outil projection/pochoir
 * [Pochoir] Autoriser le contrôle du mode répétition dans la fenêtre Propriétés
 * [Pochoir] Le zoom n’est pas centré sur un pochoir autre qu’un répétition
 * [Caméras] Importation de caméras depuis Maya, Max, Blender, Modo, DAE
-* [Caméras][Viewport] Sélectionner et contrôler les caméras importées dans viewport
-* [Caméras][Iray] Sélectionner et contrôler les caméras importées dans Iray
-* [Caméras][Interface utilisateur][Nouveau projet][Configuration du projet] La case « Importer les caméras » est cochée par défaut
-* [Caméras][Raccourcis] Ajoutez des raccourcis « &lt; » et « > » pour basculer entre les caméras
-* [Caméras][Viewport] Ajouter un cadre dans le viewport
-* [Caméras][Paramètres du Viewport] Contrôle de l’opacité du cadre
-* [Caméras][Paramètres de Caméra] distance focale maximale à 500 mm
-* [Caméras][Paramètres de Caméra] Exposer le rapport
-* [Caméras][Paramètres de Caméra] Ajouter une option de verrouillage
-* [Caméras][Paramètres de Caméra] Ajouter une option de restauration
-* [Caméras][Paramètres de Caméra] Ajouter l&#39;attribut de distance focale
+* [Caméras]&#x200B;[Viewport] Sélectionner et contrôler les caméras importées dans viewport
+* [Caméras]&#x200B;[Iray] Sélectionner et contrôler les caméras importées dans Iray
+* [Caméras]&#x200B;[Interface utilisateur]&#x200B;[Nouveau projet]&#x200B;[Configuration du projet] La case « Importer les caméras » est cochée par défaut
+* [Caméras]&#x200B;[Raccourcis] Ajoutez des raccourcis « &lt; » et « > » pour basculer entre les caméras
+* [Caméras]&#x200B;[Viewport] Ajouter un cadre dans le viewport
+* [Caméras]&#x200B;[Paramètres du Viewport] Contrôle de l’opacité du cadre
+* [Caméras]&#x200B;[Paramètres de Caméra] distance focale maximale à 500 mm
+* [Caméras]&#x200B;[Paramètres de Caméra] Exposer le rapport
+* [Caméras]&#x200B;[Paramètres de Caméra] Ajouter une option de verrouillage
+* [Caméras]&#x200B;[Paramètres de Caméra] Ajouter une option de restauration
+* [Caméras]&#x200B;[Paramètres de Caméra] Ajouter l&#39;attribut de distance focale
 * [glTF] Importation d’un fichier glTF
 * [glTF] Importer un mappage d&#39;ambient occlusion
 * [Alembic] Importer le cadre Alembic 1 avec une géométrie statique
 * [Étagère] Faites glisser et déposez des matériaux directement sur le maillage à l’aide des Map id avec un modificateur (CTRL/Commande)
 * [Pile de calques] Création automatique d’un masque d’identification par glisser-déposer des matériaux sur le maillage avec les Map id
 * [Pile de calques] Défilement automatique des calques avec glisser-déposer sur la pile de calques
-* [UI][Propriétés de l&#39;outil] Exposer le paramètre prédéfini de la Substance
-* [UI][Menu Aide] Amélioration du menu Aide
-* [UI][Nouveau projet][Configuration du projet] Réorganisation de la fenêtre
-* [UI][Nouveau projet][Configuration du projet] Remplacer le terme « Maillage » par « Fichier »
-* [UI][Substance] Afficher les attributs de Substance dans l’interface utilisateur
+* [UI]&#x200B;[Propriétés de l&#39;outil] Exposer le paramètre prédéfini de la Substance
+* [UI]&#x200B;[Menu Aide] Amélioration du menu Aide
+* [UI]&#x200B;[Nouveau projet]&#x200B;[Configuration du projet] Réorganisation de la fenêtre
+* [UI]&#x200B;[Nouveau projet]&#x200B;[Configuration du projet] Remplacer le terme « Maillage » par « Fichier »
+* [UI]&#x200B;[Substance] Afficher les attributs de Substance dans l’interface utilisateur
 * [Raccourcis] « F4 » passe de la vue 2D à la vue 3D
 * [Raccourcis] Nouveaux raccourcis pour le pochoir bascule « N » et le masque rapide « U »
 * [Intégration de Substance de données] Tenir compte des instructions « visible if » dans les paramètres de Substance de données
@@ -309,10 +309,10 @@ Pour trouver le projet, utilisez l&#39;entrée de menu **Fichier** > **Ouvrir l&
 * [Contenu] Ajouter un échantillon avec la subsurface scattering activée - JadeToad
 * [Content] Ajouter un nouveau modèle de projet PBR avec la subsurface scattering activée
 * [Contenu] Mise à jour des paramètres prédéfinis d’exportation pour ajouter un nouveau canal de diffusion
-* [Contenu][Étagère] Ajout de la prise en charge des subsurfaces scatterings pour : pbr-metal-ough, pbr-metal-ough-alpha-test, pbr-coated, pbr-spec-gloss
-* [Contenu][Étagère] Ajout d’un canal de diffusion à 5 matériaux adaptables (marbres et habillages)
-* [Contenu][Étagère] 1 nouveau Matériau en jade
-* [Contenu][Étagère] 1 nouveau Matériau en cire
+* [Contenu]&#x200B;[Étagère] Ajout de la prise en charge des subsurfaces scatterings pour : pbr-metal-ough, pbr-metal-ough-alpha-test, pbr-coated, pbr-spec-gloss
+* [Contenu]&#x200B;[Étagère] Ajout d’un canal de diffusion à 5 matériaux adaptables (marbres et habillages)
+* [Contenu]&#x200B;[Étagère] 1 nouveau Matériau en jade
+* [Contenu]&#x200B;[Étagère] 1 nouveau Matériau en cire
 
 **Fixe :**
 

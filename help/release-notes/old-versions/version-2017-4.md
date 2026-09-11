@@ -97,7 +97,7 @@ Les nouvelles fonctionnalités sont abordées en détail dans nos dernières vid
 * [Scripts] Ajout de fonctions de rappel avant/après lors de l’exportation de textures
 * [Iray] Mise à niveau vers SDK 2017.1 (prise en charge des GPU Volta)
 
-****Fixe :****
+**&#x200B;**&#x200B;Fixe :**&#x200B;**
 
 * Crash lors de la fermeture de l’application avant l’affichage de la fenêtre principale
 * [MAC] Crash lors du chargement de cartes en niveaux de gris avec IRAY

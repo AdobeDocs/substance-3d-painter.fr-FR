@@ -13,7 +13,7 @@ ht-degree: 3%
 
 Le **mode Baking** permet d&#39;accéder à tous les outils et paramètres dont vous avez besoin pour créer de superbes bakes de haute qualité.
 
-Pour accéder au **mode de Baking**, cliquez sur le bouton Croissant (baké) en haut à droite du Viewport. Vous pouvez également utiliser le [raccourci clavier ](../interface/settings/shortcuts.md)**F8** ou sélectionner le **Mode > Maps de maillage de Baking**
+Pour accéder au **mode de Baking**, cliquez sur le bouton Croissant (baké) en haut à droite du Viewport. Vous pouvez également utiliser le [raccourci clavier &#x200B;](../interface/settings/shortcuts.md)**F8** ou sélectionner le **Mode > Maps de maillage de Baking**
 
 ![](../assets/baking/mode_select_buttons.png)
 

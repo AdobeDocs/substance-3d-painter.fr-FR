@@ -207,42 +207,42 @@ Résumé : **version majeure, elle fournit une mise à jour du panneau des actif
 **Ajouté :**
 
 * [Bibliothèques] Nouveau panneau Ressource pour remplacer l’étagère
-* [Bibliothèques][Interface utilisateur] Nouvelle disposition du panneau Actifs
-* [Bibliothèques][Interface utilisateur] Modifier l’orientation et l’interface utilisateur par défaut du panneau Actifs
-* [Bibliothèques][Interface utilisateur] Ajout d’une option d’affichage par liste à la bibliothèque
-* [Bibliothèques][Interface utilisateur] Nouvelle navigation dans les chemins de navigation dans le panneau Actifs
-* [Bibliothèques][Interface utilisateur] Sélectionnez « Toutes les bibliothèques » lors de la sélection d’une recherche enregistrée
-* [Bibliothèques][Interface utilisateur] Sélectionnez « Toutes les bibliothèques » lorsque tous les dossiers sont désélectionnés
-* [Bibliothèques][Interface utilisateur] Nouvelle balise pour les pinceaux de particule
-* [Bibliothèques][Interface utilisateur] A remplacé « étagère » par « Toutes les bibliothèques » dans l’ensemble de l’application
-* [Bibliothèques][Interface utilisateur] Autoriser à masquer les dossiers vides
-* [Bibliothèques][Interface utilisateur] La bibliothèque utilisateur par défaut doit être visible même si elle est vide
-* [Bibliothèques][Interface utilisateur] Nouvelle méthode de filtrage via les icônes de type de ressource
+* [Bibliothèques]&#x200B;[Interface utilisateur] Nouvelle disposition du panneau Actifs
+* [Bibliothèques]&#x200B;[Interface utilisateur] Modifier l’orientation et l’interface utilisateur par défaut du panneau Actifs
+* [Bibliothèques]&#x200B;[Interface utilisateur] Ajout d’une option d’affichage par liste à la bibliothèque
+* [Bibliothèques]&#x200B;[Interface utilisateur] Nouvelle navigation dans les chemins de navigation dans le panneau Actifs
+* [Bibliothèques]&#x200B;[Interface utilisateur] Sélectionnez « Toutes les bibliothèques » lors de la sélection d’une recherche enregistrée
+* [Bibliothèques]&#x200B;[Interface utilisateur] Sélectionnez « Toutes les bibliothèques » lorsque tous les dossiers sont désélectionnés
+* [Bibliothèques]&#x200B;[Interface utilisateur] Nouvelle balise pour les pinceaux de particule
+* [Bibliothèques]&#x200B;[Interface utilisateur] A remplacé « étagère » par « Toutes les bibliothèques » dans l’ensemble de l’application
+* [Bibliothèques]&#x200B;[Interface utilisateur] Autoriser à masquer les dossiers vides
+* [Bibliothèques]&#x200B;[Interface utilisateur] La bibliothèque utilisateur par défaut doit être visible même si elle est vide
+* [Bibliothèques]&#x200B;[Interface utilisateur] Nouvelle méthode de filtrage via les icônes de type de ressource
 * [Bibliothèques] Raccourci « CTRL » pour sélectionner plusieurs types d’actifs
 * [Bibliothèques] Nouvelle variable d’environnement pour contrôler le budget de mémoire de l’aperçu des ressources
-* [Bibliothèques][Contenu] Nouvelles maps d&#39;environnement
-* [Bibliothèques][Contenu][Interface utilisateur] displacement de rendu sur les matériaux par défaut
-* [Bibliothèques][Contenu] Définir le shader Adobe Standard Material (ASM) comme valeur par défaut pour la génération des aperçus
-* [Bibliothèques][Contenu][ASM] Nouveaux modèles de projet pour le nouveau shader ASM
-* [Bibliothèques][Vignette] Utiliser la nouvelle map d&#39;environnement Studio 6
-* [Bibliothèques][Vignette] Lire la vignette dans la ressource au lieu de la générer
-* [Bibliothèques][Vignette] Ajouter un displacement à la génération de vignettes
+* [Bibliothèques]&#x200B;[Contenu] Nouvelles maps d&#39;environnement
+* [Bibliothèques]&#x200B;[Contenu]&#x200B;[Interface utilisateur] displacement de rendu sur les matériaux par défaut
+* [Bibliothèques]&#x200B;[Contenu] Définir le shader Adobe Standard Material (ASM) comme valeur par défaut pour la génération des aperçus
+* [Bibliothèques]&#x200B;[Contenu]&#x200B;[ASM] Nouveaux modèles de projet pour le nouveau shader ASM
+* [Bibliothèques]&#x200B;[Vignette] Utiliser la nouvelle map d&#39;environnement Studio 6
+* [Bibliothèques]&#x200B;[Vignette] Lire la vignette dans la ressource au lieu de la générer
+* [Bibliothèques]&#x200B;[Vignette] Ajouter un displacement à la génération de vignettes
 * [Paramètres de Jeu de textures]
-* [Paramètres de Jeu de textures][Interface utilisateur] Exposer un nouvel height à la méthode de conversion normale
-* [Paramètres de Jeu de textures][Interface utilisateur] Refonte de l’organisation de l’interface utilisateur des canaux
+* [Paramètres de Jeu de textures]&#x200B;[Interface utilisateur] Exposer un nouvel height à la méthode de conversion normale
+* [Paramètres de Jeu de textures]&#x200B;[Interface utilisateur] Refonte de l’organisation de l’interface utilisateur des canaux
 * [Paramètres de Jeu de textures] Limite de canaux utilisateur élevée à 16 canaux
-* [Paramètres de Jeu de textures][Interface utilisateur] Indiquez quels canaux sont compatibles avec le shader actuellement sélectionné
-* [Shader][ASM] Nouveau shader d&#39;Adobe Standard Material
-* [Shader][ASM] Ajout de la prise en charge pour l’Anisotropie, le pelage transparent, la Subsurface scattering, le Specular edge color et l’Éclat
-* [Shader][ASM] Modification des valeurs de couleur des couches par défaut
-* [Shader][ASM][Export] Modèle d’exportation mis à jour Adobe Dimension vers Adobe Substance 3D Stager
-* [Shader][ASM] Ajout d’étiquettes et d’info-bulles pour les paramètres shader et MDL
-* [Shader][ASM] Rendre la couleur de Dispersion visible dans vue 2D même si SSS n’est pas pris en charge
-* [Shader][ASM][Iray] Prise en charge du shader ASM en Iray avec la nouvelle MDL
-* [Shader][ASM][Iray] Subsurface scattering mise à jour dans la spécification PBR héritée brillant et recouvert
-* [Shader][ASM][Content] Modification du type SSS par défaut pour les échantillons
-* [Shader][ASM] Ajout de la documentation pour l’API ASM
-* [Shader][ASM] Optimiser les nuanceurs pour ignorer les canaux inutilisés
+* [Paramètres de Jeu de textures]&#x200B;[Interface utilisateur] Indiquez quels canaux sont compatibles avec le shader actuellement sélectionné
+* [Shader]&#x200B;[ASM] Nouveau shader d&#39;Adobe Standard Material
+* [Shader]&#x200B;[ASM] Ajout de la prise en charge pour l’Anisotropie, le pelage transparent, la Subsurface scattering, le Specular edge color et l’Éclat
+* [Shader]&#x200B;[ASM] Modification des valeurs de couleur des couches par défaut
+* [Shader]&#x200B;[ASM]&#x200B;[Export] Modèle d’exportation mis à jour Adobe Dimension vers Adobe Substance 3D Stager
+* [Shader]&#x200B;[ASM] Ajout d’étiquettes et d’info-bulles pour les paramètres shader et MDL
+* [Shader]&#x200B;[ASM] Rendre la couleur de Dispersion visible dans vue 2D même si SSS n’est pas pris en charge
+* [Shader]&#x200B;[ASM]&#x200B;[Iray] Prise en charge du shader ASM en Iray avec la nouvelle MDL
+* [Shader]&#x200B;[ASM]&#x200B;[Iray] Subsurface scattering mise à jour dans la spécification PBR héritée brillant et recouvert
+* [Shader]&#x200B;[ASM]&#x200B;[Content] Modification du type SSS par défaut pour les échantillons
+* [Shader]&#x200B;[ASM] Ajout de la documentation pour l’API ASM
+* [Shader]&#x200B;[ASM] Optimiser les nuanceurs pour ignorer les canaux inutilisés
 * [Shader] Exposer de nouveaux canaux de Jeu de textures
 * [Shader] Subsurface scattering améliorée
 * [Shader] Nouveaux paramètres de shader masqués pour certains shaders
@@ -259,41 +259,41 @@ Résumé : **version majeure, elle fournit une mise à jour du panneau des actif
 * [UI] Actualisation globale de l’interface utilisateur
 * [UI] Modification du menu Aide
 * [UI] Icône Remplacer l’inversion
-* [UI][Plugin] Icône Remplacer pour le lien dcc du plug-in
-* [UI][AMD] Mise à jour de la version minimale requise et du message contextuel
+* [UI]&#x200B;[Plugin] Icône Remplacer pour le lien dcc du plug-in
+* [UI]&#x200B;[AMD] Mise à jour de la version minimale requise et du message contextuel
 * [Pile de calques] Créer un calque dans le dossier vide sélectionné
 * Mise À Jour De La Documentation Python
 * [Branding]
-* [Identité visuelle][Interface utilisateur] Nom de l’application mis à jour vers Adobe Substance 3D Painter
-* [Branding][UI] Mise à jour de la version autonome vers « Substance Edition »
-* [Identité visuelle][Interface utilisateur] Mise à jour du nom du fichier exécutable de l’application, du chemin d’installation, du pack et des icônes
-* [Identité visuelle][Interface utilisateur] Bibliothèque et chemin par défaut renommés
-* [Branding][UI] Fenêtre À propos de mise à jour
-* [Identité visuelle][Interface utilisateur] Mise à jour de l’écran d’accueil
-* [Branding][Interface utilisateur] Numéro de version basé sur l’année supprimé
+* [Identité visuelle]&#x200B;[Interface utilisateur] Nom de l’application mis à jour vers Adobe Substance 3D Painter
+* [Branding]&#x200B;[UI] Mise à jour de la version autonome vers « Substance Edition »
+* [Identité visuelle]&#x200B;[Interface utilisateur] Mise à jour du nom du fichier exécutable de l’application, du chemin d’installation, du pack et des icônes
+* [Identité visuelle]&#x200B;[Interface utilisateur] Bibliothèque et chemin par défaut renommés
+* [Branding]&#x200B;[UI] Fenêtre À propos de mise à jour
+* [Identité visuelle]&#x200B;[Interface utilisateur] Mise à jour de l’écran d’accueil
+* [Branding]&#x200B;[Interface utilisateur] Numéro de version basé sur l’année supprimé
 * [Localisation] Nouvelles traductions en allemand, français et chinois simplifié
 * [Interopérabilité] Non disponible pour les éditions Steam et Substance
 * [Interopérabilité] Interopérabilité avec l’écosystème de l’Adobe : Designer, Sampler, Stager et Bridge
-* [Interopérabilité][Interface utilisateur] Réception et mise à jour des ressources depuis Designer
-* [Interopérabilité][Interface utilisateur] Recevoir la ressource de Sampler
-* [Interopérabilité][Interface utilisateur] Envoyer la ressource vers Stager
-* [Interopérabilité][Interface utilisateur] Afficher dans Adobe Bridge
-* [Interopérabilité][Interface utilisateur] Permettre d’accéder rapidement aux ressources Adobe 3D
+* [Interopérabilité]&#x200B;[Interface utilisateur] Réception et mise à jour des ressources depuis Designer
+* [Interopérabilité]&#x200B;[Interface utilisateur] Recevoir la ressource de Sampler
+* [Interopérabilité]&#x200B;[Interface utilisateur] Envoyer la ressource vers Stager
+* [Interopérabilité]&#x200B;[Interface utilisateur] Afficher dans Adobe Bridge
+* [Interopérabilité]&#x200B;[Interface utilisateur] Permettre d’accéder rapidement aux ressources Adobe 3D
 * [Interopérabilité] Nouvelles balises d&#39;utilisation de sbsar
 * [Interopérabilité] Gestion des types de ressources reçus
 * [Interopérabilité] Les ressources reçues de Adobe Substance 3D Designer ou Adobe Substance 3D Sampler sont stockées dans la bibliothèque choisie par défaut de l’utilisateur
-* [Interopérabilité][Interface utilisateur] Nouvelle icône dans la barre d’outils de gauche à envoyer à Stager ou Photoshop
+* [Interopérabilité]&#x200B;[Interface utilisateur] Nouvelle icône dans la barre d’outils de gauche à envoyer à Stager ou Photoshop
 
 **Fixe :**
 
 * [Tablette] Basse performance lors de la peinture avec pression
 * [Tablette] Problème sur les tablettes dotées de curseurs
 * [Crash] Incompatibilité de nom entre la liste de Jeux de textures et l&#39;Exporteur
-* [Crash][Bibliothèques] Double-cliquez sur une sous-bibliothèque
+* [Crash]&#x200B;[Bibliothèques] Double-cliquez sur une sous-bibliothèque
 * [Bibliothèques] Problème lors de l’analyse des répertoires de bibliothèques
 * [Bibliothèques] La ligne de commande de génération d’aperçu forcé ne fonctionne pas comme prévu
-* Le filtre Environnement lumineux Baké [Bibliothèques][Contenu] est noir par défaut
-* [Linux][MacOS][Maillage d’exportation] Impossible d’importer glTF créé sous Linux/MacOS
+* Le filtre Environnement lumineux Baké [Bibliothèques]&#x200B;[Contenu] est noir par défaut
+* [Linux]&#x200B;[MacOS]&#x200B;[Maillage d’exportation] Impossible d’importer glTF créé sous Linux/MacOS
 * [Linux] Glisser-déposer un fichier dans le panneau Actifs peut entraîner un crash
 * [Dépliage automatique] Dépliage automatique est disponible même si aucun maillage n&#39;a été sélectionné pour le rechargement
 * [Particules] Comportement de particule incorrect avec la gravité
@@ -305,7 +305,7 @@ Résumé : **version majeure, elle fournit une mise à jour du panneau des actif
 * La Map normal [Iray] n’est pas prise en compte dans les nouveaux projets lors du rendu
 * [Enregistrer] Problèmes d’enregistrement sur les lecteurs partagés
 * [Baking] La réinitialisation d’un maillage avec des paramètres modifiés affiche un avertissement
-* [Baking][Régression] Résultat incorrect lorsque le cadre de sélection global des maillages à poly élevé n’inclut pas l’origine de la scène
+* [Baking]&#x200B;[Régression] Résultat incorrect lorsque le cadre de sélection global des maillages à poly élevé n’inclut pas l’origine de la scène
 * [Python] Les bibliothèques utilisateur personnalisées ne sont pas prises en compte
 
 **Problèmes Connus :**

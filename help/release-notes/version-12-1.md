@@ -236,7 +236,7 @@ Résumé : <b>Cette mise à jour est une version majeure. Elle contient des amé
 * [OpenPBR] Exportation d’OpenPBR et de textures via USD
 * [OpenPBR] Mettre à jour la fenêtre Exporter les Textures pour afficher la convention d&#39;OpenPBR
 * [OpenPBR] Ajout de documentation sur les modifications apportées à l’OpenPBR de prise en charge
-* [OpenPBR][Iray] Ajout d’une nouvelle MDL pour prendre en charge OpenPBR 1.1 dans Iray
+* [OpenPBR]&#x200B;[Iray] Ajout d’une nouvelle MDL pour prendre en charge OpenPBR 1.1 dans Iray
 * Plusieurs améliorations mineures apportées aux exportations USD
 * [UI] Ajouter un avertissement dans le viewport lors de la tentative de peinture sur un autre Jeu de textures
 * [Aplatir] Permet d’aplatir tous les calques instanciés sur les Jeux de textures
@@ -255,14 +255,14 @@ Résumé : <b>Cette mise à jour est une version majeure. Elle contient des amé
 
 <b>Fixe</b> :
 
-* [Crash][Paramètres de Maps de maillage] Appliquer des paramètres à d’autres jeux de textures
+* [Crash]&#x200B;[Paramètres de Maps de maillage] Appliquer des paramètres à d’autres jeux de textures
 * [Crash] Lors du baking d’une courbure à partir d’un mappage sans normale de l&#39;espace monde
-* [Crash][Baking] Baking avec cage personnalisée activée mais aucun fichier sélectionné crashs
+* [Crash]&#x200B;[Baking] Baking avec cage personnalisée activée mais aucun fichier sélectionné crashs
 * [Crash] Annulation du baking AO
 * [Cage automatique] Charge infinie lorsque le chemin d’accès au fichier poly élevé n’est pas valide
-* [Linux][Windows] Le sélecteur de couleurs peut parfois être entièrement noir ou ne pas apparaître
+* [Linux]&#x200B;[Windows] Le sélecteur de couleurs peut parfois être entièrement noir ou ne pas apparaître
 * [Outil Remplissage polygonal] L’outil ne fonctionne pas avec les fichiers non PBR
-* [[Peinture] La suppression de la couche de base color ne supprime pas la couleur précédemment peinte
+* &lbrack;[Peinture] La suppression de la couche de base color ne supprime pas la couleur précédemment peinte
 * [USD] Les Instances de shader ne sont pas toutes correctement détectées
 * [Substance] Seule la première utilisation d&#39;un nœud d&#39;entrée/sortie est prise en compte
 * [Shader] L&#39;Ambient occlusion est appliqué deux fois avec des Jeux de textures en utilisant différentes méthodes de mélange

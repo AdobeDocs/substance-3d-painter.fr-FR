@@ -72,7 +72,7 @@ Sinon, si vous souhaitez copier les paramètres d’une seule map de maillage ve
 
 ![](../../assets/baking/copy-ao-settings.gif)
 
-*Dans l&#39;exemple ci-dessus, chaque jeu de textures commence par des paramètres différents pour l&#39;AO. Sans définir la map de maillage AO à synchroniser, nous utilisons **Appliquer les paramètres d&#39;occlusion ambiante à davantage de Jeux de textures...**afin de pouvoir commencer à modifier les paramètres AO du nouveau jeu de textures à partir de la même ligne de base.*
+*Dans l&#39;exemple ci-dessus, chaque jeu de textures commence par des paramètres différents pour l&#39;AO. Sans définir la map de maillage AO à synchroniser, nous utilisons **Appliquer les paramètres d&#39;occlusion ambiante à davantage de Jeux de textures...**&#x200B;afin de pouvoir commencer à modifier les paramètres AO du nouveau jeu de textures à partir de la même ligne de base.*
 
 ### Gestion de l’état de vérification des maps de maillage
 
@@ -90,10 +90,10 @@ Le statut Vérifier détermine si un mappage donné est inclus lorsque vous bake
 
 ![](../../assets/baking/invert-checked.gif)
 
-*Dans l&#39;exemple ci-dessus, nous utilisons **Inverser les maps de maillage sélectionnées**pour changer rapidement de sélection, puis baker les maps de maillage qui n&#39;ont pas encore été bakées.*
+*Dans l&#39;exemple ci-dessus, nous utilisons **Inverser les maps de maillage sélectionnées**&#x200B;pour changer rapidement de sélection, puis baker les maps de maillage qui n&#39;ont pas encore été bakées.*
 
 Lorsque vous travaillez avec plusieurs jeux de textures, vous pouvez également copier l&#39;état coché des mappages vers d&#39;autres jeux de textures en sélectionnant **Appliquer l&#39;état coché à d&#39;autres Jeux de textures...**, ou copier l&#39;état coché vers tous les jeux de textures avec **Appliquer l&#39;état coché à tous les Jeux de textures**.
 
 ![](../../assets/baking/copy-checked-status.gif)
 
-*Dans l&#39;exemple ci-dessus, nous n&#39;avons pas encore baké l&#39;Height, les bents normals ou l&#39;opacité dans le jeu de textures **Matériau.001**. Ces maps de maillage sont déjà sélectionnées dans le jeu de textures **Matériau**. Nous allons donc utiliser **Appliquer les vérifications à d&#39;autres Jeux de textures...**et sélectionner **Matériau.001**pour copier l&#39;état vérifié. Nous bakons ensuite les cartes. Notez que la visualisation passe par les maps de maillage deux fois lorsque les cartes sont bakées, car elles sont bakées des deux jeux de textures.*
+*Dans l&#39;exemple ci-dessus, nous n&#39;avons pas encore baké l&#39;Height, les bents normals ou l&#39;opacité dans le jeu de textures **Matériau.001**. Ces maps de maillage sont déjà sélectionnées dans le jeu de textures **Matériau**. Nous allons donc utiliser **Appliquer les vérifications à d&#39;autres Jeux de textures...**&#x200B;et sélectionner **Matériau.001**&#x200B;pour copier l&#39;état vérifié. Nous bakons ensuite les cartes. Notez que la visualisation passe par les maps de maillage deux fois lorsque les cartes sont bakées, car elles sont bakées des deux jeux de textures.*

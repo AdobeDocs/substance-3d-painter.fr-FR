@@ -96,7 +96,7 @@ Exemple de syntaxe :
 
 Par défaut, les entrées d’image d’un graphe de Substance n’ont pas de remplissage, la zone en dehors de l’Îlot UV est généralement remplie d’une couleur uniforme pour des raisons de performances. Le paramètre de remplissage peut être utilisé pour demander une dilatation infinie, qui peut être utilisée pour les filtres afin d’éviter la création de seams, par exemple.
 
-Exemple de syntaxe : **p****adding=extend**
+Exemple de syntaxe : **p**&#x200B;**adding=extend**
 
 ## Désactiver une sortie par défaut
 

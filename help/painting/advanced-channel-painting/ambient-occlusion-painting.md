@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Le canal ambient occlusion permet de mettre en peinture les détails dans les ombres ambiantes d’un objet. Il peut être utilisé pour ajouter des détails d’AO provenant de Matériaux, ou simplement corriger manuellement des erreurs de baking si nécessaire.
 
->> 
+&#x200B;>> 
 
 Dans le domaine de l’infographie, l’ambient occlusion est une technique d’ombrage et de rendu utilisée pour calculer le degré d’expose de chaque point d’une scène à l’éclairage ambiant. L&#39;intérieur d&#39;un tube est généralement plus occulté (et donc plus sombre) que les surfaces externes exposées, et plus vous vous éloignez de l&#39;intérieur du tube, plus l&#39;éclairage devient occulté (et sombre). L&#39;Ambient occlusion peut être considéré comme une valeur d&#39;accessibilité calculée pour chaque point de surface.\
 Source : &lt;https://en.wikipedia.org/wiki/Ambient_occlusion>

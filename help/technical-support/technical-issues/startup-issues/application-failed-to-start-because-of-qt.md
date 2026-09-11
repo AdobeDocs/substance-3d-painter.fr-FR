@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Le message d’erreur suivant peut s’afficher lors du démarrage de l’application :
 
->> 
+&#x200B;>> 
 
 Échec du démarrage de cette application car aucun plug-in de plateforme Qt n&#39;a pu être initialisé. Réinstaller l’application peut résoudre ce problème.
 

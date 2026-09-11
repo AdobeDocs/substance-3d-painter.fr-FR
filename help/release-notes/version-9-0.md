@@ -167,9 +167,9 @@ Résumé : <b>version majeure avec Peinture le long du chemin permettant les cou
 * [Traits dynamiques] Ajout d’une propriété de distance pour les traits dynamiques
 * [Traits dynamiques] Ajout de propriétés de taille et d’espacement aux traits dynamiques
 * [Traits dynamiques] Ajout d’une propriété de début/milieu/fin pour les traits dynamiques
-* [Python][USD] Exposer les paramètres de configuration du projet pour le format USD
-* [Python][USD] Exposer les paramètres de création de projet pour le format USD
-* [Export][USD] Ajout d’informations sur le chemin d’accès au projet dans le fichier USD exporté
+* [Python]&#x200B;[USD] Exposer les paramètres de configuration du projet pour le format USD
+* [Python]&#x200B;[USD] Exposer les paramètres de création de projet pour le format USD
+* [Export]&#x200B;[USD] Ajout d’informations sur le chemin d’accès au projet dans le fichier USD exporté
 * [GLTF] Mise à jour des textures dans la bibliothèque lors du rechargement d’un fichier GLTF
 * [Shader] Réduction des artefacts de seam pour les Îlots UV avec une orientation différente
 * [Moteur] Mise à jour vers Substance moteur version 9.0
