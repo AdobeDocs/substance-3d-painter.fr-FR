@@ -2,13 +2,11 @@
 title: Version 12.1
 description: Notes de mise à jour de la version 12.1
 helpx_description: Substance 3D Painter
-source-git-commit: 50df3a58ec4719d302999421774a1c67ce3e0ef1
+source-git-commit: a652271a4b12d9c27513ebc4d5974fa87da29580
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1790'
 ht-degree: 0%
-
 ---
-
 
 # Version 12.1
 
@@ -150,6 +148,29 @@ Jetez un œil à notre dernier tutoriel sur Youtube :
 
 ## Notes de mise à jour
 
+### 12.1.5
+
+Date de publication : **2026/09/15**
+
+Résumé : **version mineure**
+
+**Fixe :**
+
+* L’exportation d’une image de l’étagère vers un réseau ne fonctionne plus
+* [Générateur] Le paramètre « utiliser la texture » sur false ne désactive pas l&#39;utilisation de l&#39;entrée de texture
+* Viewport bloqué lors de l’enregistrement lors de la modification de la projection 3d
+* La résolution de calque de matériau est trop faible
+
+### 12.1.4
+
+Date de publication : **2026/09/04**
+
+Résumé : **version mineure**
+
+**Fixe :**
+
+* crash de [Crash] lors de l’importation ou de l’exportation de fichiers dont le nom contient des caractères non ASCII
+
 ### 12.1.3
 
 Date de publication : **2026/08/25**
@@ -236,7 +257,7 @@ Résumé : <b>Cette mise à jour est une version majeure. Elle contient des amé
 * [OpenPBR] Exportation d’OpenPBR et de textures via USD
 * [OpenPBR] Mettre à jour la fenêtre Exporter les Textures pour afficher la convention d&#39;OpenPBR
 * [OpenPBR] Ajout de documentation sur les modifications apportées à l’OpenPBR de prise en charge
-* [OpenPBR]&#x200B;[Iray] Ajout d’une nouvelle MDL pour prendre en charge OpenPBR 1.1 dans Iray
+* [OpenPBR][Iray] Ajout d’une nouvelle MDL pour prendre en charge OpenPBR 1.1 dans Iray
 * Plusieurs améliorations mineures apportées aux exportations USD
 * [UI] Ajouter un avertissement dans le viewport lors de la tentative de peinture sur un autre Jeu de textures
 * [Aplatir] Permet d’aplatir tous les calques instanciés sur les Jeux de textures
@@ -255,14 +276,14 @@ Résumé : <b>Cette mise à jour est une version majeure. Elle contient des amé
 
 <b>Fixe</b> :
 
-* [Crash]&#x200B;[Paramètres de Maps de maillage] Appliquer des paramètres à d’autres jeux de textures
+* [Crash][Paramètres de Maps de maillage] Appliquer des paramètres à d’autres jeux de textures
 * [Crash] Lors du baking d’une courbure à partir d’un mappage sans normale de l&#39;espace monde
-* [Crash]&#x200B;[Baking] Baking avec cage personnalisée activée mais aucun fichier sélectionné crashs
+* [Crash][Baking] Baking avec cage personnalisée activée mais aucun fichier sélectionné crashs
 * [Crash] Annulation du baking AO
 * [Cage automatique] Charge infinie lorsque le chemin d’accès au fichier poly élevé n’est pas valide
-* [Linux]&#x200B;[Windows] Le sélecteur de couleurs peut parfois être entièrement noir ou ne pas apparaître
+* [Linux][Windows] Le sélecteur de couleurs peut parfois être entièrement noir ou ne pas apparaître
 * [Outil Remplissage polygonal] L’outil ne fonctionne pas avec les fichiers non PBR
-* &lbrack;[Peinture] La suppression de la couche de base color ne supprime pas la couleur précédemment peinte
+* [[Peinture] La suppression de la couche de base color ne supprime pas la couleur précédemment peinte
 * [USD] Les Instances de shader ne sont pas toutes correctement détectées
 * [Substance] Seule la première utilisation d&#39;un nœud d&#39;entrée/sortie est prise en compte
 * [Shader] L&#39;Ambient occlusion est appliqué deux fois avec des Jeux de textures en utilisant différentes méthodes de mélange

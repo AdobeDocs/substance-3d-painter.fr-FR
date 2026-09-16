@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/release-notes/know-issues.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/know-issues.html"
+breadcrumb-title: ""
 description: Passez en revue les problèmes connus pour que Substance 3D Painter reste informé des limitations actuelles et des solutions de contournement dans la dernière version.
 helpx_creative_field: ""
 helpx_description: Substance 3D Painter
@@ -8,19 +8,17 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Problèmes connus
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 50df3a58ec4719d302999421774a1c67ce3e0ef1
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: a652271a4b12d9c27513ebc4d5974fa87da29580
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '855'
 ht-degree: 0%
-
 ---
-
 
 # Problèmes connus
 
-Cette page répertorie tous les problèmes connus actifs présents dans la version 12.1.3 de Substance 3D Painter :
+Cette page répertorie tous les problèmes connus actifs présents dans la version 12.1.5 de Substance 3D Painter :
 
 * `[Baking]` AO incorrect sur les cubes simples
 * `[Baking]` L&#39;interprétation du suffixe de correspondance par nom est incorrecte
@@ -42,6 +40,10 @@ Cette page répertorie tous les problèmes connus actifs présents dans la versi
 * La sortie du filtre `[Color Management]` n&#39;est pas correctement prise en compte
 * `[Color Management]` les conversions de l’espace colorimétrique HDR avec ACE sous Linux produisent des couleurs condensées
 
+* `[USD]` attribution usda incorrecte dans certains cas
+* La géométrie USD exportée `[USD]` glisse le long des bordures UV
+* `[USD]` Gel lors du chargement de USDz mal formés
+
 * Les ressources `[Shelf]` sont utilisées de manière incorrecte si elles sont placées dans un dossier portant un nom spécifique
 * `[Shelf]` `[Substance]` Données utilisateur non prises en compte pour la génération des vignettes d&#39;étagère
 
@@ -51,8 +53,8 @@ Cette page répertorie tous les problèmes connus actifs présents dans la versi
 * Faute de frappe `[Scripting]` `[Javascript]` « Désactivé » lors de la spécification du paramètre dithering dans les fonctions d&#39;exportation
 * `[Scripting]` `[Python]` diverses fautes de frappe dans le module substance_painter.project
 
-* `[USD]` attribution usda incorrecte dans certains cas
-* La géométrie USD exportée `[USD]` glisse le long des bordures UV
+* L&#39;Height `[Path]` fusionnant de nombreux tracés peut provoquer des artefacts
+* Problème de visibilité de la sélection carrée bleue `[Path]`
 
 * Le projet `[Single Channel View]` enregistré en mode base color semble plus sombre après la mise à jour de la version de Painter
 * Le projet `[Single Channel View]` enregistré en mode base color semble plus sombre après la mise à jour de la version de Painter
@@ -93,11 +95,12 @@ Cette page répertorie tous les problèmes connus actifs présents dans la versi
 * L&#39;aperçu de l&#39;espace de mélange de couleurs `[User Channels]` est incorrect
 * La sélection de géométrie `[Mask]` est toujours active après le passage en mode baking
 * Les icônes `[Sonoma]` n&#39;apparaissent pas dans les menus
-* L&#39;Height `[Path]` fusionnant de nombreux tracés peut provoquer des artefacts
 * `[Polygon Fill]` La modification de l&#39;espace colorimétrique de la base color ne met pas à jour le sélecteur de couleurs
 * `[UV Padding]` artefacts lors de la mise à l&#39;échelle de la texture de 4k à 8k lors de l&#39;exportation
 * `[Performances]` utilisation de VRAM de Painter
-* `[Generator]` Le paramètre « utiliser la texture » sur false ne désactive pas l&#39;utilisation de l&#39;entrée de texture
+* Problèmes d’échelle `[FBX]`
+* `[Texture set list]` Tuiles UV peuvent être sélectionnées en même temps qu&#39;un jeu de textures
+* Décalage du curseur `[Viewport]` en bas du viewport du mode baking
 * Les ressources non carrées sont étirées lorsqu’elles sont utilisées dans les emplacements de la couche de pinceau
 * Échec du décodage de la substance
 * Les UV non parfaitement superposés peuvent créer des artefacts
@@ -116,8 +119,6 @@ Cette page répertorie tous les problèmes connus actifs présents dans la versi
 * Les modifications des paramètres de pinceau de la barre d’outils contextuelle n’apparaissent pas dans l’historique
 * Impossible de renommer ou de supprimer les paramètres prédéfinis d’exportation si vous les avez déjà supprimés et recréés lors de cette session
 * Dans certains cas, le mappage des canaux ne fonctionne pas pour l’aperçu de l’outil projection
-* Viewport bloqué lors de l’enregistrement lors de la modification de la projection 3d
-* La résolution de calque de matériau est trop faible
 
 ## Stabilité
 
