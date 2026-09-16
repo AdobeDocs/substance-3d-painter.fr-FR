@@ -136,7 +136,7 @@ Résumé : <b>Cette mise à jour est une version majeure. Elle contient des amé
 * [OpenPBR] Exportation d’OpenPBR et de textures via USD
 * [OpenPBR] Mettre à jour la fenêtre Exporter les Textures pour afficher la convention d&#39;OpenPBR
 * [OpenPBR] Ajout de documentation sur les modifications apportées à l’OpenPBR de prise en charge
-* [OpenPBR][Iray] Ajout d’une nouvelle MDL pour prendre en charge OpenPBR 1.1 dans Iray
+* [OpenPBR]&#x200B;[Iray] Ajout d’une nouvelle MDL pour prendre en charge OpenPBR 1.1 dans Iray
 * Plusieurs améliorations mineures apportées aux exportations USD
 * [UI] Ajouter un avertissement dans le viewport lors de la tentative de peinture sur un autre Jeu de textures
 * [Aplatir] Permet d’aplatir tous les calques instanciés sur les Jeux de textures
@@ -155,14 +155,14 @@ Résumé : <b>Cette mise à jour est une version majeure. Elle contient des amé
 
 <b>Fixe</b> :
 
-* [Crash][Paramètres de Maps de maillage] Appliquer des paramètres à d’autres jeux de textures
+* [Crash]&#x200B;[Paramètres de Maps de maillage] Appliquer des paramètres à d’autres jeux de textures
 * [Crash] Lors du baking d’une courbure à partir d’un mappage sans normale de l&#39;espace monde
-* [Crash][Baking] Baking avec cage personnalisée activée mais aucun fichier sélectionné crashs
+* [Crash]&#x200B;[Baking] Baking avec cage personnalisée activée mais aucun fichier sélectionné crashs
 * [Crash] Annulation du baking AO
 * [Cage automatique] Charge infinie lorsque le chemin d’accès au fichier poly élevé n’est pas valide
-* [Linux][Windows] Le sélecteur de couleurs peut parfois être entièrement noir ou ne pas apparaître
+* [Linux]&#x200B;[Windows] Le sélecteur de couleurs peut parfois être entièrement noir ou ne pas apparaître
 * [Outil Remplissage polygonal] L’outil ne fonctionne pas avec les fichiers non PBR
-* [[Peinture] La suppression de la couche de base color ne supprime pas la couleur précédemment peinte
+* &lbrack;[Peinture] La suppression de la couche de base color ne supprime pas la couleur précédemment peinte
 * [USD] Les Instances de shader ne sont pas toutes correctement détectées
 * [Substance] Seule la première utilisation d&#39;un nœud d&#39;entrée/sortie est prise en compte
 * [Shader] L&#39;Ambient occlusion est appliqué deux fois avec des Jeux de textures en utilisant différentes méthodes de mélange
@@ -246,7 +246,7 @@ Résumé : <b>Il s’agit d’une version majeure. Cette version contient les fo
 * [Effets postérieurs] Remplacer les effets de post-traitement par de nouveaux
 * [Post-effects] Mettre à jour le mappeur de tonalité
 * [Post-effects] Ajouter une nouvelle utilisation pour les ressources Post-effects
-* [Contenu][Effets postérieurs] Intégrer les actifs d’effets postérieurs par défaut dans la bibliothèque
+* [Contenu]&#x200B;[Effets postérieurs] Intégrer les actifs d’effets postérieurs par défaut dans la bibliothèque
 * [Nouveau projet] Améliorer l’interface utilisateur pour la création de projets
 * [Nouveau projet] Modifications apportées à la fonctionnalité de réimportation de maillage
 * [Nouveau projet] Autoriser l’ouverture des fichiers \*.geo.usd
@@ -264,7 +264,7 @@ Résumé : <b>Il s’agit d’une version majeure. Cette version contient les fo
 * [Importation] Les textures EXR sont forcées dans sRVB au lieu d’être linéaires lors de l’importation de fichiers USD
 * [Tuiles UV] Une séquence d’images avec une seule image remplit également d’autres Tuiles UV
 * [Baking] AO est différent entre le baking CPU et GPU
-* [Gestion des couleurs][MacOS] Viewport BaseColor ne correspond pas au sélecteur de couleurs
+* [Gestion des couleurs]&#x200B;[MacOS] Viewport BaseColor ne correspond pas au sélecteur de couleurs
 * [USD] Dans certains cas, les valeurs uniformes ne sont pas importées
 
 ## Version 11
@@ -302,10 +302,10 @@ Résumé : <b>version mineure</b>
 * [UI] Les paramètres de Caméra restent désactivés en mode de rendu (Iray)
 * [Ruban] Le tracé peut se chevaucher de manière inattendue après un angle dans certains cas
 * [Ruban] Problème de performances avec les Tuiles UV
-* [Substance][UI] Les entrées d’image disparaissent lorsqu’elles sont réduites
-* [Substance][UI] Les groupes imbriqués peuvent rester même s’ils sont visibles si les masque.
-* [Baking][UI] Impossible de définir le rayon d’échantillonnage de la Courbure au-delà de 0,01
-* [Baking][UI] Impossible de définir une Distance d&#39;occlusion maximale supérieure à 1
+* [Substance]&#x200B;[UI] Les entrées d’image disparaissent lorsqu’elles sont réduites
+* [Substance]&#x200B;[UI] Les groupes imbriqués peuvent rester même s’ils sont visibles si les masque.
+* [Baking]&#x200B;[UI] Impossible de définir le rayon d’échantillonnage de la Courbure au-delà de 0,01
+* [Baking]&#x200B;[UI] Impossible de définir une Distance d&#39;occlusion maximale supérieure à 1
 * [Baking] Le paramètre AO « Auto-occlusion » est ignoré avec plusieurs Jeux de textures et Faible comme baking élevé
 * [Baker] Map id ne bake pas les couleurs vertex FBX en mode Faible ou Élevé
 * [Contenu] Le filtre passe-haut entraîne un délavement des couleurs dans les couches avec gestion des couleurs
@@ -322,7 +322,7 @@ Résumé : <b>version mineure</b>
 
 <b>Fixe</b> :
 
-* [Crash][MacOS] L’enregistrement d’un projet à partir d’une version précédente est toujours crash
+* [Crash]&#x200B;[MacOS] L’enregistrement d’un projet à partir d’une version précédente est toujours crash
 * [Crash] La fermeture d’un projet peut parfois entraîner un crash
 * [Projet] Erreur « les membres ne correspondent pas » lors de l’ouverture du projet effectué dans la version précédente
 * Les Tuiles UV [de Baking] ne sont pas associées aux bakings précédents, le cas échéant
@@ -342,10 +342,10 @@ Résumé : <b>version mineure</b>
 
 * [Ruban] Problème de performances avec les Tuiles UV
 * [Ruban] Le tracé peut se chevaucher de manière inattendue après un angle dans certains cas
-* [Crash][Ruban] Création de textes très longs dans Ruban can crash
+* [Crash]&#x200B;[Ruban] Création de textes très longs dans Ruban can crash
 * [Gestion des couleurs] Les conversions de l’espace colorimétrique HDR avec ACE sous Linux produisent des couleurs condensées
-* [Régression][Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
-* [Crash][Python] Exportation USD déclenchée par TextureStateEvent
+* [Régression]&#x200B;[Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
+* [Crash]&#x200B;[Python] Exportation USD déclenchée par TextureStateEvent
 * [Moteur] Lorsque vous peignez avec l’outil Clone dans des couleurs de décalage de couche normales, cela ne fonctionne pas correctement
 * [Python] Le widget de Fantôme apparaît supprimé par le script et fonctionne toujours
 
@@ -366,7 +366,7 @@ Résumé : <b>Cette mise à jour est une version majeure. Elle contient le nouve
 * [Ruban] Ajout de modes de fusion pour la couche alpha et certaines couches lorsqu’elles se chevauchent
 * Symétrie de remplissage
 * [Fill] Prise en charge supplémentaire de la symétrie sur les calques de remplissage et les effets
-* [Fond][Interface utilisateur] Exposer les paramètres de symétrie dans la fenêtre des propriétés pour le calque de remplissage et les effets
+* [Fond]&#x200B;[Interface utilisateur] Exposer les paramètres de symétrie dans la fenêtre des propriétés pour le calque de remplissage et les effets
 * [Remplissage] Interface utilisateur des paramètres de symétrie de retouche à la fois dans le menu viewport et la fenêtre des propriétés
 * [Fond] Réorientez correctement les textures normales lors de la projection en mode déformation
 * displacement de taille physique
@@ -381,7 +381,7 @@ Résumé : <b>Cette mise à jour est une version majeure. Elle contient le nouve
 * [Substance] Exposer le remplacement de résolution pour les ressources de Substance dans Outils et remplissages
 * [Exporter] Mettre à jour le paramètre prédéfini d’exportation des Maps de maillage pour exporter des textures en niveaux de gris
 * Python
-* [Baking][Python] Indiquer dans le journal des modifications les modifications de rupture après la mise à jour des bakers
+* [Baking]&#x200B;[Python] Indiquer dans le journal des modifications les modifications de rupture après la mise à jour des bakers
 * [Python] Exposer les paramètres de symétrie de remplissage dans Python
 * Contenu et nouveau contenu
 * [Contenu] Ajoutez 75 nouveaux paramètres prédéfinis d&#39;outil pour l’outil Ruban
@@ -406,13 +406,13 @@ Résumé : <b>Cette mise à jour est une version majeure. Elle contient le nouve
 * [Ruban] Problème de performances avec les Tuiles UV
 * [Ruban] Le tracé peut se chevaucher de manière inattendue après un angle dans certains cas
 * [Ruban] Les Tangentes créent une boucle indésirable lorsque le point est déplacé près des extrémités du tracé
-* [Crash][Ruban] Création de textes très longs dans Ruban can crash
+* [Crash]&#x200B;[Ruban] Création de textes très longs dans Ruban can crash
 * [Outil] L’aperçu du Matériau ne fonctionne pas lorsque la projection est utilisée dans un masque
 * [Baking] Le paramètre AO « Auto-occlusion » est ignoré avec plusieurs Jeux de textures et « correspondance par nom » activé
 * [Baking] AO avec normal présente des artefacts sur les bords en raison d&#39;un remplissage manquant
 * [Gestion des couleurs] Les conversions de l’espace colorimétrique HDR avec ACE sous Linux produisent des couleurs condensées
-* [Régression][Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
-* [Crash][Python] Exportation USD déclenchée par TextureStateEvent
+* [Régression]&#x200B;[Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
+* [Crash]&#x200B;[Python] Exportation USD déclenchée par TextureStateEvent
 * [Moteur] Lorsque vous peignez avec l’outil Clone dans des couleurs de décalage de couche normales, cela ne fonctionne pas correctement
 * [Python] Le widget de Fantôme apparaît supprimé par le script et fonctionne toujours
 
@@ -437,8 +437,8 @@ Résumé : <b>version mineure</b>
 <b>Problèmes connus</b> :
 
 * [Gestion des couleurs] Les conversions de l’espace colorimétrique HDR avec ACE sous Linux produisent des couleurs condensées
-* [Régression][Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
-* [Crash][Python] Exportation USD déclenchée par TextureStateEvent
+* [Régression]&#x200B;[Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
+* [Crash]&#x200B;[Python] Exportation USD déclenchée par TextureStateEvent
 * [Moteur] Lorsque vous peignez avec l’outil Clone dans des couleurs de décalage de couche normales, cela ne fonctionne pas correctement
 * [Python] Le widget de Fantôme apparaît supprimé par le script et fonctionne toujours
 
@@ -452,13 +452,13 @@ Résumé : <b>version mineure</b>
 * [Mac] Ajout d’un avertissement concernant une version spécifique du système d’exploitation entraînant des artefacts
 * [Mise à jour automatique] Améliorations mineures de l’UX apportées au journal d’erreurs des actifs
 * [Dépliage automatique] Mise à jour vers la version 1.3.2 avec des améliorations de couture
-* [USD][FBX] Prise en charge supplémentaire de plusieurs Ensembles d&#39;UV avec des données fragmentées
+* [USD]&#x200B;[FBX] Prise en charge supplémentaire de plusieurs Ensembles d&#39;UV avec des données fragmentées
 * [Export] Les Maillages exportés en tant que FBX ne disposent pas de leurs Ensembles d&#39;UV supplémentaires s&#39;il en existait lors de l&#39;importation
 
 <b>Fixe</b> :
 
-* crash [MacOS][Linux] lors de l’enregistrement sur un lecteur réseau
-* [Win][Tablette] Scintillement lors du panoramique
+* crash [MacOS]&#x200B;[Linux] lors de l’enregistrement sur un lecteur réseau
+* [Win]&#x200B;[Tablette] Scintillement lors du panoramique
 * [SpaceMouse] Problème lors de l’utilisation de l’outil Chemin
 * [cage automatique] Impossible de baker après un rechargement de maillage
 * [Mise à jour automatique] La séquence d’images n’est pas rechargée lorsque la première vignette est manquante
@@ -477,8 +477,8 @@ Résumé : <b>version mineure</b>
 <b>Problèmes connus</b> :
 
 * [Gestion des couleurs] Les conversions de l’espace colorimétrique HDR avec ACE sous Linux produisent des couleurs condensées
-* [Régression][Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
-* [Crash][Python] Exportation USD déclenchée par TextureStateEvent
+* [Régression]&#x200B;[Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
+* [Crash]&#x200B;[Python] Exportation USD déclenchée par TextureStateEvent
 * [Moteur] Lorsque vous peignez avec l’outil Clone dans des couleurs de décalage de couche normales, cela ne fonctionne pas correctement
 * [Python] Le widget de Fantôme apparaît supprimé par le script et fonctionne toujours
 
@@ -498,7 +498,7 @@ Remarque : la version de <b>Linux CCD sera retardée jusqu’au 29 avril</b>
 <b>Fixe :</b>
 
 * [Crash] Lors du glisser-déposer d’un fichier sbsar avec une utilisation dans un emplacement de canal unique
-* [Crash][Chemin] L’option Modifier le type de chemin n’est pas grisée lorsque vous ne cliquez pas sur un chemin spécifique
+* [Crash]&#x200B;[Chemin] L’option Modifier le type de chemin n’est pas grisée lorsque vous ne cliquez pas sur un chemin spécifique
 * [Chemin de remplissage] Ne doit pas pouvoir sélectionner le matériau Substance
 * [Moteur] Artefacts le long des coups de pinceau
 * [Moteur] Les tracés peuvent être rompus avec des paramètres spécifiques
@@ -510,8 +510,8 @@ Remarque : la version de <b>Linux CCD sera retardée jusqu’au 29 avril</b>
 
 * [SpaceMouse] Problème lors de l’utilisation de l’outil Chemin
 * [Gestion des couleurs] Les conversions de l’espace colorimétrique HDR avec ACE sous Linux produisent des couleurs condensées
-* [Régression][Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
-* [Crash][Python] Exportation USD déclenchée par TextureStateEvent
+* [Régression]&#x200B;[Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
+* [Crash]&#x200B;[Python] Exportation USD déclenchée par TextureStateEvent
 * [Moteur] Lorsque vous peignez avec l’outil Clone dans des couleurs de décalage de couche normales, cela ne fonctionne pas correctement
 * [Python] Le widget de Fantôme apparaît supprimé par le script et fonctionne toujours
 
@@ -528,9 +528,9 @@ Résumé : <b>version majeure, nouvelle fonctionnalité de mise à jour automati
 * [Mise à jour automatique] Désactiver la mise à jour automatique par défaut
 * [Mise à jour automatique] Rendre la mise à jour facultative si les paramètres de ressource ne correspondent pas (.sbsar, .glsl, .ai, .svg)
 * [Mise à jour automatique] Ajouter une variable d’environnement pour désactiver la fonction de mise à jour automatique
-* [Mise à jour automatique][SBSAR] Rendre la mise à jour facultative si les paramètres de la ressource ne correspondent pas
+* [Mise à jour automatique]&#x200B;[SBSAR] Rendre la mise à jour facultative si les paramètres de la ressource ne correspondent pas
 * Tracé plein
-* [Tracé][Remplissage] Ajouter un nouvel outil pour créer des tracés remplis
+* [Tracé]&#x200B;[Remplissage] Ajouter un nouvel outil pour créer des tracés remplis
 * Améliorations des tracés
 * [Tracé] Création d’un tracé contraignant aux polygones
 * [Chemin] Permettre de changer de type de chemin
@@ -540,7 +540,7 @@ Résumé : <b>version majeure, nouvelle fonctionnalité de mise à jour automati
 * [Tracé] Fermer la forme en un seul clic
 * [Chemin] Afficher les informations de chemin
 * [Tracé] Permet de mettre à l’échelle et de faire pivoter les vertex de tracé
-* [Chemin][UX] Faciliter l’accès aux gadgets de transformation
+* [Chemin]&#x200B;[UX] Faciliter l’accès aux gadgets de transformation
 * [Chemin] Ajouter un aperçu du chemin
 * [Tracé] Désactiver l’aperçu du tracé avec les touches Maj + P
 * [Tracé] Amélioration de l’édition de tangente à partir de la vue latérale
@@ -548,7 +548,7 @@ Résumé : <b>version majeure, nouvelle fonctionnalité de mise à jour automati
 * [Chemin] Les Vertex doivent conserver l’état de sélection lorsque l’interface utilisateur est activée et désactivée
 * [Chemin] Autoriser à supprimer le chemin à l’aide de la touche Retour arrière
 * [Chemin] Garder la liste des chemins ouverte si l’utilisateur la développe
-* [Chemin][Pile de calques] Renommer correctement les doublons lors du copier/coller
+* [Chemin]&#x200B;[Pile de calques] Renommer correctement les doublons lors du copier/coller
 * Améliorations de l’interface utilisateur et de l’info-bulle de [Path]
 * Performance
 * [Performances] Amélioration des performances du viewport lors de l’utilisation de niveaux de tessellation élevés
@@ -562,11 +562,11 @@ Résumé : <b>version majeure, nouvelle fonctionnalité de mise à jour automati
 * [Content] Ajouter 3 nouveaux générateurs de textures (Tile Random, Triangle Grid, Scratches Generator)
 * [Contenu] Renommer le modèle de Moteur irréel et les paramètres prédéfinis d’exportation
 * Python
-* [Étagère][Python] Enregistrer le matériau adaptable ou le masque adaptable sur le disque depuis Python
+* [Étagère]&#x200B;[Python] Enregistrer le matériau adaptable ou le masque adaptable sur le disque depuis Python
 * [Python] Ajout de la cage automatique de baking à l’API Python
 * [Python] Autoriser la modification des noms et descriptions des Jeux de textures/Tuiles UV
 * [Python] Partage des paramètres de résolution sur les sources de vecteurs et de polices
-* [Mise à jour automatique][Python] Exposer les fonctionnalités de mise à jour automatique du projet dans Python
+* [Mise à jour automatique]&#x200B;[Python] Exposer les fonctionnalités de mise à jour automatique du projet dans Python
 * Divers
 * [Exporter] Accédez plus facilement aux options Envoyer vers avec un nouveau panneau
 * [Nvidia] Ajouter un avertissement concernant les derniers pilotes Nvidia (572.16)
@@ -585,8 +585,8 @@ Résumé : <b>version majeure, nouvelle fonctionnalité de mise à jour automati
 <b>Problèmes connus</b> :
 
 * [Gestion des couleurs] Les conversions de l’espace colorimétrique HDR avec ACE sous Linux produisent des couleurs condensées
-* [Régression][Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
-* [Crash][Python] Exportation USD déclenchée par TextureStateEvent
+* [Régression]&#x200B;[Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
+* [Crash]&#x200B;[Python] Exportation USD déclenchée par TextureStateEvent
 * [MacOS Intel] Crash lors de l’importation de certains paramètres prédéfinis
 * [Moteur] Lorsque vous peignez avec l’outil Clone dans des couleurs de décalage de couche normales, cela ne fonctionne pas correctement
 * [Python] Le widget de Fantôme apparaît supprimé par le script et fonctionne toujours
@@ -608,8 +608,8 @@ Résumé : <b>version mineure, correctifs de bogues</b>
 <b>Problèmes connus</b> :
 
 * [Gestion des couleurs] Les conversions de l’espace colorimétrique HDR avec ACE sous Linux produisent des couleurs condensées
-* [Régression][Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
-* [Crash][Python] Exportation USD déclenchée par TextureStateEvent
+* [Régression]&#x200B;[Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
+* [Crash]&#x200B;[Python] Exportation USD déclenchée par TextureStateEvent
 * [MacOS Intel] Crash lors de l’importation de certains paramètres prédéfinis
 * [Moteur] Lorsque vous peignez avec l’outil Clone dans des couleurs de décalage de couche normales, cela ne fonctionne pas correctement
 * [Python] Le widget de Fantôme apparaît supprimé par le script et fonctionne toujours
@@ -640,7 +640,7 @@ Résumé : <b>version mineure, correctifs de bogues</b>
 * [UI] L’emplacement des fenêtres et les Nouveautés au démarrage sont modifiés.
 * [Assimp] Maya&#39;s StandardSurface non reconnue dans le baking ID
 * [Python] La bibliothèque SSL manquante génère une erreur
-* [Python][Win] Erreur lors de l’appel de QColorConstants.Transparent
+* [Python]&#x200B;[Win] Erreur lors de l’appel de QColorConstants.Transparent
 * [Python] Les miniatures de calques créées via Python ne sont pas actualisées avant d’avoir cliqué dans la pile de calques
 * [Shader] Lien rompu dans le changelog de API de shader
 * [Ressources 3D] Utiliser les paramètres de proxy du système d’exploitation lors de l’accès aux ressources 3D
@@ -648,8 +648,8 @@ Résumé : <b>version mineure, correctifs de bogues</b>
 <b>Problèmes connus</b> :
 
 * [Gestion des couleurs] Les conversions de l’espace colorimétrique HDR avec ACE sous Linux produisent des couleurs condensées
-* [Régression][Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
-* [Crash][Python] Exportation USD déclenchée par TextureStateEvent
+* [Régression]&#x200B;[Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
+* [Crash]&#x200B;[Python] Exportation USD déclenchée par TextureStateEvent
 * [MacOS Intel] Crash lors de l’importation de certains paramètres prédéfinis
 * [Moteur] Lorsque vous peignez avec l’outil Clone dans des couleurs de décalage de couche normales, cela ne fonctionne pas correctement
 * [Python] Widget qui semble supprimé via le script fonctionne toujours
@@ -673,7 +673,7 @@ Résumé : <b>version majeure, nouveau contenu : masque de zone de remplissage/f
 * [VFX Platform 2024] Mise à jour vers Python 3.11
 * [VFX Platform 2024] Mise à jour vers OpenEXR 3.2
 * [VFX Platform 2024] [USD] Mise à jour OpenSubdiv 3.6.0
-* [VFX Platform 2024][Gestion des couleurs] Mise à jour vers OCIO 2.3.2
+* [VFX Platform 2024]&#x200B;[Gestion des couleurs] Mise à jour vers OCIO 2.3.2
 * [Linux] Migration vers Linux RedHat
 * [Linux] Mise à jour du pilote Nvidia version min vers 535.171.04
 * [Importer] Ajout d’une option pour retourner la map normal lors de l’importation d’un maillage GLTF
@@ -687,10 +687,10 @@ Résumé : <b>version majeure, nouveau contenu : masque de zone de remplissage/f
 <b>Fixe</b> :
 
 * [Illustrator] Crash exportant une Tuile UV avec un graphique .ai dans des cas spécifiques
-* [Traits dynamiques][Tracé] Un tracé aléatoire ne fonctionne pas sur un tracé
-* [UI][Propriétés] Le verrouillage est activé lorsque la répétition n’est pas uniforme
+* [Traits dynamiques]&#x200B;[Tracé] Un tracé aléatoire ne fonctionne pas sur un tracé
+* [UI]&#x200B;[Propriétés] Le verrouillage est activé lorsque la répétition n’est pas uniforme
 * Le fichier TXT de débogage est créé lorsque vous double-cliquez sur le projet Painter
-* [USD][Export] Certaines textures peuvent être manquantes
+* [USD]&#x200B;[Export] Certaines textures peuvent être manquantes
 * [ASM] Le canal Scattering ignore le métallique
 * [Contenu] Le filtre Flou ne fonctionne pas dans l’espace colorimétrique de travail
 * Le filtre Ajustement de l’Height [Contenu] modifie également l’alpha du calque
@@ -698,9 +698,9 @@ Résumé : <b>version majeure, nouveau contenu : masque de zone de remplissage/f
 <b>Problèmes connus</b> :
 
 * [Gestion des couleurs] Les conversions de l’espace colorimétrique HDR avec ACE sous Linux produisent des couleurs condensées
-* [Win][Crash] [ACE] N’utilise pas l’espace colorimétrique sRGB ICE pour le transforme d’affichage
-* [Régression][Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
-* [Crash][Python] Exportation USD déclenchée par TextureStateEvent
+* [Win]&#x200B;[Crash] [ACE] N’utilise pas l’espace colorimétrique sRGB ICE pour le transforme d’affichage
+* [Régression]&#x200B;[Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
+* [Crash]&#x200B;[Python] Exportation USD déclenchée par TextureStateEvent
 * [MacOS Intel] Crash lors de l’importation de certains paramètres prédéfinis
 * [Crash] Redéfinir l&#39;emplacement la ressource et enregistrer le projet
 * [Moteur] Lorsque vous peignez avec l’outil Clone dans des couleurs de décalage de couche normales, cela ne fonctionne pas correctement
@@ -715,7 +715,7 @@ Résumé : <b>version mineure, correctifs de bogues</b>
 <b>Ajouté :</b>
 
 * [Bibliothèque] Conversion de polices de Substance en fichiers de polices standard
-* [Illustrator][SVG] Donner aux vignettes de la sélection de l’étendue un arrière-plan gris clair
+* [Illustrator]&#x200B;[SVG] Donner aux vignettes de la sélection de l’étendue un arrière-plan gris clair
 * [Python] Ajout d’une fonction sur la source bitmap pour répertorier les espaces colorimétriques disponibles
 
 <b>Fixe</b> :
@@ -733,11 +733,11 @@ Résumé : <b>version mineure, correctifs de bogues</b>
 <b>Problèmes connus</b> :
 
 * [Gestion des couleurs] Les conversions de l’espace colorimétrique HDR avec ACE sous Linux produisent des couleurs condensées
-* [Régression][Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
-* [Crash][Python] Exportation USD déclenchée par TextureStateEvent
+* [Régression]&#x200B;[Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
+* [Crash]&#x200B;[Python] Exportation USD déclenchée par TextureStateEvent
 * [MacOS Intel] Crash lors de l’importation de certains paramètres prédéfinis
 * [Illustrator] Crash exportant une Tuile UV avec un graphique .ai dans des cas spécifiques
-* [Traits dynamiques][Tracé] Un tracé aléatoire ne fonctionne pas sur un tracé
+* [Traits dynamiques]&#x200B;[Tracé] Un tracé aléatoire ne fonctionne pas sur un tracé
 
 ### 10.0.0
 
@@ -747,16 +747,16 @@ Résumé : <b>version majeure, édition de la pile de calques avec l’API Pytho
 <b>Ajouté</b> :
 
 * [Illustrator] Utilisation de fichiers Illustrator avec des tableaux dans Painter
-* [Illustrator][SVG] Ajout d’aperçus dans la sélection de l’étendue
+* [Illustrator]&#x200B;[SVG] Ajout d’aperçus dans la sélection de l’étendue
 * [Substance 3D Assets] Parcourir, sélectionner et télécharger des ressources 3D directement dans Painter
-* [Substance 3D Assets][UI] Nouveau panneau
+* [Substance 3D Assets]&#x200B;[UI] Nouveau panneau
 * [Substance 3D Assets] maps d&#39;environnement et matériaux de support
 * [Substance 3D Assets] Autoriser le rechargement, la navigation et l’ouverture du dossier d’emplacement dans le nouveau panneau Substance 3D Assets
 * [Substance 3D Assets] Ajout d’un gestionnaire de téléchargement
 * [Ressource de texte] Autoriser l’utilisation de polices incorporables
 * [Text Resource] Autoriser le rendu d’une police/d’un texte sur un maillage
 * [Ressource de texte] Affichez les polices de l’utilisateur et d’autres chemins partagés dans le panneau Actifs avec une nouvelle catégorie
-* [Ressource de texte][Propriétés] Ajout de la prise en charge pour les propriétés de police avancées
+* [Ressource de texte]&#x200B;[Propriétés] Ajout de la prise en charge pour les propriétés de police avancées
 * [Ressource de texte] Permettre de rechercher/afficher des polices dans des mini-étagères
 * [Ressource de texte] Ajouter un message/une boîte de dialogue d’erreur lors de l’importation d’une police incompatible
 * Divers
@@ -820,9 +820,9 @@ Résumé : <b>version majeure, édition de la pile de calques avec l’API Pytho
 <b>Problèmes connus</b> :
 
 * [Gestion des couleurs] Les conversions de l’espace colorimétrique HDR avec ACE sous Linux produisent des couleurs condensées
-* [Crash][Linux][AMD] Glissement et déplacement de ressources dans pile de calques sur le système d’exploitation Wayland
-* [Régression][Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
-* [Crash][Python] Exportation USD déclenchée par TextureStateEvent
+* [Crash]&#x200B;[Linux]&#x200B;[AMD] Glissement et déplacement de ressources dans pile de calques sur le système d’exploitation Wayland
+* [Régression]&#x200B;[Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
+* [Crash]&#x200B;[Python] Exportation USD déclenchée par TextureStateEvent
 * [Enregistrer] Le fichier de projet d’application est perdu lorsque l’option « Enregistrer en tant que copie » échoue dans certains cas
 * [MacOS Intel] Crash lors de l’importation de certains paramètres prédéfinis
 * [Illustrator] Impossible d’importer des fichiers Ai après le crash du serveur sans redémarrer Painter
@@ -858,9 +858,9 @@ Résumé : <b>version mineure, correctifs de bogues</b>
 <b>Problèmes connus</b> :
 
 * [Gestion des couleurs] Les conversions de l’espace colorimétrique HDR avec ACE sous Linux produisent des couleurs condensées
-* [Crash][Linux][AMD] Glissement et déplacement de ressources dans pile de calques sur le système d’exploitation Wayland
-* [Régression][Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
-* [Crash][Python] Exportation USD déclenchée par TextureStateEvent
+* [Crash]&#x200B;[Linux]&#x200B;[AMD] Glissement et déplacement de ressources dans pile de calques sur le système d’exploitation Wayland
+* [Régression]&#x200B;[Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
+* [Crash]&#x200B;[Python] Exportation USD déclenchée par TextureStateEvent
 
 ### 9.1.1
 
@@ -887,9 +887,9 @@ Résumé : <b>version mineure, correctifs de bogues et envoi vers la fonctionnal
 <b>Problèmes Connus :</b>
 
 * [Gestion des couleurs] Les conversions de l’espace colorimétrique HDR avec ACE sous Linux produisent des couleurs condensées
-* [Crash][Linux] avec Linux Wayland sur AMD lors du glisser-déposer de ressources dans la Pile de calques
-* [Crash][Mac] Modification de la valeur de filtrage anisotrope sur Monterey OS
-* [Régression][Interface utilisateur] Le menu contextuel est trop petit à l’écran
+* [Crash]&#x200B;[Linux] avec Linux Wayland sur AMD lors du glisser-déposer de ressources dans la Pile de calques
+* [Crash]&#x200B;[Mac] Modification de la valeur de filtrage anisotrope sur Monterey OS
+* [Régression]&#x200B;[Interface utilisateur] Le menu contextuel est trop petit à l’écran
 * [Python] Crash exportation USD déclenchée par TextureStateEvent
 
 ### 9.1.0
@@ -900,21 +900,21 @@ Résumé : <b>version majeure introduisant la prise en charge du SVG et de la tr
 <b>Ajouté :</b>
 
 * [SVG] Autoriser l’importation de fichiers vectoriels (SVG)
-* [SVG][Interface utilisateur] Ajout de la prise en charge des propriétés spécifiques au SVG
+* [SVG]&#x200B;[Interface utilisateur] Ajout de la prise en charge des propriétés spécifiques au SVG
 * [SVG] Ajoutez une option pour conserver facilement les proportions de l’image originale
 * [SVG] Autoriser à utiliser automatiquement l’alpha du SVG avec transparence
 * [Interop] Autoriser l’envoi d’un maillage texturé à After Effects (Ae 24.1 Beta)
 * [Interop] Ajout de paramètres pour Envoyer vers After Effects
-* [Qualité de service][Ressources][Interface utilisateur] Importer automatiquement les ressources en les faisant glisser dans l’emplacement de l’interface utilisateur
+* [Qualité de service]&#x200B;[Ressources]&#x200B;[Interface utilisateur] Importer automatiquement les ressources en les faisant glisser dans l’emplacement de l’interface utilisateur
 * [QoL] Autoriser le glisser-déposer d’actifs externes dans la pile de calques
-* [QoL][Pile de calques] Glissez-déposez des textures du panneau Actifs dans la Pile de calques
-* [QoL][Viewport] Permet de faire glisser et déposer le générateur, les filtres sur le maillage
-* [QoL][Viewport] Autoriser à déposer des ressources externes sur le maillage
-* [QoL][Projection] Ajouter un nouvel Ensemble d&#39;UV au mode de projection Ensemble d&#39;UV
+* [QoL]&#x200B;[Pile de calques] Glissez-déposez des textures du panneau Actifs dans la Pile de calques
+* [QoL]&#x200B;[Viewport] Permet de faire glisser et déposer le générateur, les filtres sur le maillage
+* [QoL]&#x200B;[Viewport] Autoriser à déposer des ressources externes sur le maillage
+* [QoL]&#x200B;[Projection] Ajouter un nouvel Ensemble d&#39;UV au mode de projection Ensemble d&#39;UV
 * [QoL] Glissez-déposez les Masques adaptables en tant que nouveaux calques dans viewport et Pile de calques
 * [QoL] Ajouter un sélecteur pour les générateurs avec plusieurs sorties lorsqu’ils sont utilisés dans un masque
 * [QoL] Autoriser le glisser-déposer d’images de canal unique sur un effet de remplissage
-* [QoL][Pile de calques] Utilisez les modificateurs CTRL/ALT avec glisser-déposer pour spécifier où/comment créer des effets/calque
+* [QoL]&#x200B;[Pile de calques] Utilisez les modificateurs CTRL/ALT avec glisser-déposer pour spécifier où/comment créer des effets/calque
 * [Tracé] Active/désactive la visibilité des tracés individuellement dans le panneau des tracés
 * [Tracé] Autoriser l’utilisation de manipulateurs de transformation pour les points de tracé
 * [Chemin] Autoriser à contrôler manuellement les tangentes par vertex
@@ -934,7 +934,7 @@ Résumé : <b>version majeure introduisant la prise en charge du SVG et de la tr
 * [Performance] Appliquez une compression sans perte sur les images 16 bits pour réduire l’empreinte du projet
 * [Python] Autoriser à manipuler la Caméra par défaut dans vue 3D
 * [Python] Exposer la possibilité d’exporter du maillage via des scripts
-* [Contenu][Échantillons] Ajouter un nouveau projet d&#39;échantillon « French Restaurant Table »
+* [Contenu]&#x200B;[Échantillons] Ajouter un nouveau projet d&#39;échantillon « French Restaurant Table »
 * [Contenu] Mettre à jour le logo de Substance alpha vers une nouvelle version
 * [Contenu] Ajout de trois filtres de matériau axés sur le SVG (Autocollant personnalisé, Pulvérisation personnalisée et Graphique en Matériau)
 
@@ -949,19 +949,19 @@ Résumé : <b>version majeure introduisant la prise en charge du SVG et de la tr
 * [UI] La flèche contextuelle de la barre d’outils n’apparaît pas dans certains cas
 * [Substance] Le bouton Côte à côte pour les valeurs booléennes n’est pas pris en charge.
 * [Niveau] Libellé de canal incorrect lorsqu’il est utilisé dans le masque
-* [Export][glTF] Les fichiers glTF/GLB exportés depuis Painter ne possèdent pas d’unité de taille physique
+* [Export]&#x200B;[glTF] Les fichiers glTF/GLB exportés depuis Painter ne possèdent pas d’unité de taille physique
 * [Contenu] L’intensité du filtre Flou est réglée sur 16
 * [Contenu] La saisie d’image « couleur cible » du filtre Correspondance de couleur n’est pas visible
 
 <b>Problèmes connus :</b>
 
 * [Gestion des couleurs] Les conversions de l’espace colorimétrique HDR avec ACE sous Linux produisent des couleurs condensées
-* [Crash][Linux] avec Linux Wayland sur AMD lors du glisser-déposer de ressources dans la Pile de calques
-* [Crash][Mac] Modification de la valeur de filtrage anisotrope sur Monterey OS
+* [Crash]&#x200B;[Linux] avec Linux Wayland sur AMD lors du glisser-déposer de ressources dans la Pile de calques
+* [Crash]&#x200B;[Mac] Modification de la valeur de filtrage anisotrope sur Monterey OS
 * [Crash] Exr utilisé comme entrée d’image
 * [Crash] Utilisation de la map d&#39;environnement 16K
 * [Déplié automatique] Problème d’interface utilisateur pour le contrôle de la densité texel
-* [Régression][Interface utilisateur] Le menu contextuel est trop petit à l’écran
+* [Régression]&#x200B;[Interface utilisateur] Le menu contextuel est trop petit à l’écran
 * [Python] Crash exportation USD déclenchée par TextureStateEvent
 * [QoL] Le glisser-déposer d’Alpha en mode décalcomanie crée une Projection UV dans le masque
 
@@ -992,8 +992,8 @@ Résumé : <b>version de correctif mineur avec plusieurs améliorations</b>
 * Flash maillage noir lors du recalcul ou du chargement de la mémoire cache
 * [Propriétés] Le menu contextuel permettant de réinitialiser les paramètres n’apparaît pas dans les listes déroulantes.
 * [Niveau] Curseurs d’entrée verrouillés par le niveau précédent
-* [AMD][Sparse] L’option SVT si elle est activée génère des artefacts
-* [Projection][Déformation] Crash en double-cliquant sur les vertex
+* [AMD]&#x200B;[Sparse] L’option SVT si elle est activée génère des artefacts
+* [Projection]&#x200B;[Déformation] Crash en double-cliquant sur les vertex
 * [Chemin] Interface utilisateur et chemin visible en mode baking
 * [AMD] Texture perdue lors de la lecture avec visibilité
 * [Dispersé] Résolution trop faible lors du retournement du maillage
@@ -1043,9 +1043,9 @@ Résumé : <b>version majeure avec Peinture le long du chemin permettant les cou
 * [Traits dynamiques] Ajout d’une propriété de distance pour les traits dynamiques
 * [Traits dynamiques] Ajout de propriétés de taille et d’espacement aux traits dynamiques
 * [Traits dynamiques] Ajout d’une propriété de début/milieu/fin pour les traits dynamiques
-* [Python][USD] Exposer les paramètres de configuration du projet pour le format USD
-* [Python][USD] Exposer les paramètres de création de projet pour le format USD
-* [Export][USD] Ajout d’informations sur le chemin d’accès au projet dans le fichier USD exporté
+* [Python]&#x200B;[USD] Exposer les paramètres de configuration du projet pour le format USD
+* [Python]&#x200B;[USD] Exposer les paramètres de création de projet pour le format USD
+* [Export]&#x200B;[USD] Ajout d’informations sur le chemin d’accès au projet dans le fichier USD exporté
 * [GLTF] Mise à jour des textures dans la bibliothèque lors du rechargement d’un fichier GLTF
 * [Shader] Réduction des artefacts de seam pour les Îlots UV avec une orientation différente
 * [Moteur] Mise à jour vers Substance moteur version 9.0
@@ -1092,7 +1092,7 @@ Date de publication : <b>2023/04/27</b>
 
 * [Crash] Rare crash lors de la fermeture d’un projet
 * [Crash] [Baking] Activer la synchronisation des maps de maillage avec l’Height ou la courbure sur un projet spécifique
-* [Crash][Script] Crash lors de l’ajout d’un matériau après la création de l’instance de shader
+* [Crash]&#x200B;[Script] Crash lors de l’ajout d’un matériau après la création de l’instance de shader
 * [Mode Baking] L’intensité AO en matériau neutre n’a aucun effet
 * [Mode Baking] Crash lors du passage en mode baking avant le chargement du modèle
 * [Mode de Baking] Message d’erreur manquant dans l’onglet Processus de Baking
@@ -1188,11 +1188,11 @@ Résumé : <b>version majeure avec nouveau mode de baking, nouvelle importation 
 
   Lors de la création d’un projet avec un fichier de maillage USD contenant une animation, il est possible de sélectionner le cadre à l’aide d’un curseur qui reflète la séquence de montage intégrée. Le cadre peut être modifié via la configuration du projet.
 
-* [USD][Exporter] Ajoutez une option pour exporter des fichiers USD
+* [USD]&#x200B;[Exporter] Ajoutez une option pour exporter des fichiers USD
 
   Nouvelle case à cocher Exporter USD ajoutée à la fenêtre Exporter les textures. Lorsqu’elle est cochée, elle permet d’exporter des fichiers USD ainsi que des mappages de texture à l’aide de n’importe quel modèle.
 
-* [USD][Exporter] Ajouter un format de fichier USD à l’exportation maillage
+* [USD]&#x200B;[Exporter] Ajouter un format de fichier USD à l’exportation maillage
 * [USD] Renommez le paramètre prédéfini d’exportation « USD PBR Metal Rugosité » pour qu’il soit plus explicite
 
   Le modèle d’exportation USD, précédemment connu sous le nom de « Rugosité USD PBR Metal », est toujours accessible via textures d’exportation > Modèle de sortie > USDz (Apple AR).
@@ -1209,13 +1209,13 @@ Résumé : <b>version majeure avec nouveau mode de baking, nouvelle importation 
 
   La mise à l’échelle des tailles physiques est désormais disponible pour les Projections UV. Elle permet le redimensionnement automatique d’un matériau en fonction de sa taille physique. Elle peut être sélectionnée via Échelle > Taille physique dans la fenêtre Propriétés du Calque de remplissage ou de l’effet.
 
-* [Scripting][Python] Autoriser à interroger la version de l&#39;application
-* [Scripting][JavaScript] API de mise à jour correspondant aux nouveaux paramètres de baking
-* [Scripting][Python] Module de Baking : modifier les paramètres de baking
-* [Scripting][Python] Module de Baking : lancement/annulation du baking
-* [Scripting][Python] Module de Baking : sélectionner la méthode de courbure
-* [Scripting][Python] Module de Baking : sélection de fichiers bakers/uv
-* [Scripting][Python] Module de Baking : synchroniser les paramètres de baker sur tous les Jeux de textures
+* [Scripting]&#x200B;[Python] Autoriser à interroger la version de l&#39;application
+* [Scripting]&#x200B;[JavaScript] API de mise à jour correspondant aux nouveaux paramètres de baking
+* [Scripting]&#x200B;[Python] Module de Baking : modifier les paramètres de baking
+* [Scripting]&#x200B;[Python] Module de Baking : lancement/annulation du baking
+* [Scripting]&#x200B;[Python] Module de Baking : sélectionner la méthode de courbure
+* [Scripting]&#x200B;[Python] Module de Baking : sélection de fichiers bakers/uv
+* [Scripting]&#x200B;[Python] Module de Baking : synchroniser les paramètres de baker sur tous les Jeux de textures
 * [SVT] Activer la prise en charge du matériel fragmenté sur les GPU AMD
 
   L’accélération matérielle pour le système Sparse Virtual Texture peut désormais être activée avec les GPU AMD. Ce paramètre est automatiquement activé dans les préférences générales.
@@ -1237,11 +1237,11 @@ Résumé : <b>version majeure avec nouveau mode de baking, nouvelle importation 
 <b>Fixe :</b>
 
 * [Crash] Changement de couches sur un filtre avec une pile spécifique
-* crash [Mac][M1] lors de la création d’un calque de remplissage et de la fermeture de la pile de calques
+* crash [Mac]&#x200B;[M1] lors de la création d’un calque de remplissage et de la fermeture de la pile de calques
 
   Ce problème peut être résolu en mettant à jour vers Mac OS 13 (Ventura).
 
-* [Scripting][Python] Crash lors de l&#39;utilisation de ui.add\_dock\_widget() avec un type incorrect
+* [Scripting]&#x200B;[Python] Crash lors de l&#39;utilisation de ui.add\_dock\_widget() avec un type incorrect
 * [Baking] Message d’erreur incomplet dans le journal lorsqu’un baking échoue
 * [Baking] La mémoire n’est pas libérée lorsque le baking est terminé
 * [Moteur] Le cache de Texture de données ne se met pas à jour lors de la modification de la visibilité des effets
@@ -1382,7 +1382,7 @@ Résumé : **version majeure avec de nouveaux panneaux d’intégration (nouveau
 * Crash lors de l’utilisation de 16k exr
 * [Crash] Ctrl Z après la suppression d’une instance de shader
 * [Iray] IoR bloquée à 1 pour certains shaders
-* [Win][Baker] Certains modèles à haut niveau de charge ne se chargent pas
+* [Win]&#x200B;[Baker] Certains modèles à haut niveau de charge ne se chargent pas
 * [Gestion des couleurs] Nom d’espace colorimétrique incorrect dans l’interface utilisateur avec les filtres
 * [Python] Les objets de ressource retournés par la fonction d&#39;importation n&#39;ont pas de type
 
@@ -1426,14 +1426,14 @@ Résumé : **version de correctif mineur**
 * [Déplié automatique] Nouvelle option « Optimiser pour les maillages organiques » pour sélectionner l’algorithme de segmentation
 * [Taille physique] Exposer les options d’unité dans Nouveau projet et Configuration du projet
 * [Gestion des couleurs] Utiliser l’affichage du moniteur par défaut avec ACE
-* [Gestion des couleurs][Python] Tenez compte du fichier de paramètres prédéfinis ACE env-var lors de la création du projet
+* [Gestion des couleurs]&#x200B;[Python] Tenez compte du fichier de paramètres prédéfinis ACE env-var lors de la création du projet
 * [Gestion des couleurs] Réinitialisez les paramètres de gestion des couleurs dans la fenêtre Nouveau projet lorsque la configuration change
 * [Gestion des couleurs] Désactiver l’accès aux paramètres OCIO lorsque env-var est présent
 * [Gestion des couleurs] Mettez à jour les paramètres ACE en toute sécurité lorsqu’un paramètre n’existe plus.
 * Mettre à jour la Substance Engine à la version 8.6.0
 * [Export] Ajout d’un nouveau paramètre prédéfini d’exportation GLTF avec prise en charge par Displacement
-* [Scripts][Python] Récupérer les informations sur les ressources (y compris les métadonnées personnalisées)
-* [Scripting][Python] Ajouter une fonction à la liste de requêtes de noms de maillage par Jeu de textures
+* [Scripts]&#x200B;[Python] Récupérer les informations sur les ressources (y compris les métadonnées personnalisées)
+* [Scripting]&#x200B;[Python] Ajouter une fonction à la liste de requêtes de noms de maillage par Jeu de textures
 * [Contenu] Ajouter un nouveau modèle de mélangeur et un paramètre prédéfini d’exportation
 
 **Fixe :**
@@ -1448,11 +1448,11 @@ Résumé : **version de correctif mineur**
 * [Gestion des couleurs] Le rôle substance\_3d\_painter\_standard\_srgb est manquant dans les configurations OCIO.
 * [Generator] Utilisation incorrecte des données utilisateur « désactivé »
 * [Gestion des couleurs] La liste déroulante Espace colorimétrique non compatible ne doit pas être cliquable
-* [Gestion des couleurs][Shader] La définition de remplacement sRVB ne fonctionne plus
+* [Gestion des couleurs]&#x200B;[Shader] La définition de remplacement sRVB ne fonctionne plus
 * [Generator] Utilisation incorrecte des données utilisateur « désactiver »
 * [Pile de calques] Aperçus rompus avec des projets de Tuiles UV
 * La documentation de l&#39;API [Shader] n&#39;est pas entièrement à jour avec Bent normals
-* [Export][Interopérabilité] Impossible d’envoyer vers Stager avec des caractères spéciaux
+* [Export]&#x200B;[Interopérabilité] Impossible d’envoyer vers Stager avec des caractères spéciaux
 * [Contenu] Certaines vignettes de paramètre prédéfini de pinceau sont vides ou trop sombres
 
 **Problèmes Connus :**
@@ -1498,10 +1498,10 @@ Résumé : **version majeure avec prise en charge ICC, mise à l’échelle des 
 * [Gestion des couleurs] Permet d’entrer des valeurs de couleur linéaires dans le sélecteur de couleurs avec le mode hérité
 * [Gestion des couleurs] Permet de spécifier le profil colorimétrique utilisé pour sélectionner des couleurs en dehors de l’interface utilisateur
 * [Gestion des couleurs] Mémoriser la dernière valeur Affichage choisie dans le viewport
-* [Gestion des couleurs][Substance] Faites fonctionner correctement les générateurs/filtres avec la gestion des couleurs
-* [Gestion des couleurs][Substance] Ajouter de nouveaux mots-clés de remplacement d’espace colorimétrique $working et $standardsrgb
-* [Taille physique][Moteur] Extraire les informations de taille physique du maillage
-* [Taille physique][Moteur] calcul de Taille physique
+* [Gestion des couleurs]&#x200B;[Substance] Faites fonctionner correctement les générateurs/filtres avec la gestion des couleurs
+* [Gestion des couleurs]&#x200B;[Substance] Ajouter de nouveaux mots-clés de remplacement d’espace colorimétrique $working et $standardsrgb
+* [Taille physique]&#x200B;[Moteur] Extraire les informations de taille physique du maillage
+* [Taille physique]&#x200B;[Moteur] calcul de Taille physique
 * [Taille physique] Exposer des options pour utiliser la taille physique dans l’interface utilisateur
 * [Taille physique] Ajout d’assistants visuels dans le viewport
 * [Baking] Ajouter un baker Height
@@ -1537,13 +1537,13 @@ Résumé : **version majeure avec prise en charge ICC, mise à l’échelle des 
 
 * [glTF] Impossible d&#39;ouvrir glTF avec un caractère spécial
 * [Moteur] Artefacts avec anisotropie et SVT désactivés
-* Les Matériaux adaptables [MacOS][M1] ne s’affichent pas correctement
+* Les Matériaux adaptables [MacOS]&#x200B;[M1] ne s’affichent pas correctement
 * [Traitement du Maillage] Impossible d’importer des maillages depuis Modeler
 * [UI] Barre de défilement horizontale dans la nouvelle fenêtre de projet avec la gestion des couleurs activée
 * [Gestion des couleurs] Valeur d’espace de travail manquante dans le sélecteur de couleurs avec certaines configurations OCIO
 * [Gestion des couleurs] L’aperçu du pinceau dans le viewport ne prend pas en charge la gestion des couleurs
 * [SpaceMouse] Le pivot n’est pas immédiatement mis à jour avec le changement de focus et se trouve parfois en dehors du modèle
-* [Export][USD] Les fichiers USD exportés ont une structure incorrecte
+* [Export]&#x200B;[USD] Les fichiers USD exportés ont une structure incorrecte
 * Problème d’Ambient occlusion [USD] lors de l’exportation
 * [Contenu] Mettez à jour le maillage de la vignette pour qu’il corresponde à l’exemple de projet Preview Sphere
 
@@ -1575,10 +1575,10 @@ Problème : **correctif avec prise en charge de la souris SpaceMouse 3D dans le 
 * [SpaceMouse] Lors du chargement d’un projet, le point de pivot est toujours masqué
 * [Bakers] Le paramètre « Normales moyennes » n’a aucun effet dans les projets de Tuile UV
 * [Tuile UV] Les incrustations de carreaux uv inactifs disparaissent lors du rechargement du maillage avec différents carreaux
-* [Scripting][Python] Le script distant est rompu
-* [Scripting][Python] Plusieurs canaux ne peuvent pas être interrogés à partir de l&#39;API et cela génère une erreur
-* [Scripting][Python] Crash lors de l&#39;utilisation de l&#39;événement ProjectEditionEntered
-* [Script][Python] Crash lors de l&#39;appel de get\_active\_pile()
+* [Scripting]&#x200B;[Python] Le script distant est rompu
+* [Scripting]&#x200B;[Python] Plusieurs canaux ne peuvent pas être interrogés à partir de l&#39;API et cela génère une erreur
+* [Scripting]&#x200B;[Python] Crash lors de l&#39;utilisation de l&#39;événement ProjectEditionEntered
+* [Script]&#x200B;[Python] Crash lors de l&#39;appel de get\_active\_pile()
 
 **Problèmes Connus :**
 
@@ -1593,9 +1593,9 @@ Problème : **correctif avec prise en charge des améliorations de 3Dconnection 
 
 **Ajouté :**
 
-* [SpaceMouse][Windows] Prise en charge de la souris SpaceMouse 3D connection dans le Viewport 3D pour la navigation
-* [SpaceMouse][Windows] Raccourcis/touches de base pour les modèles Pro et Enterprise SpaceMouse dans le Viewport 3D
-* [Souris spatiale][Windows] Icône de centre de rotation dédié dans le Viewport 3D
+* [SpaceMouse]&#x200B;[Windows] Prise en charge de la souris SpaceMouse 3D connection dans le Viewport 3D pour la navigation
+* [SpaceMouse]&#x200B;[Windows] Raccourcis/touches de base pour les modèles Pro et Enterprise SpaceMouse dans le Viewport 3D
+* [Souris spatiale]&#x200B;[Windows] Icône de centre de rotation dédié dans le Viewport 3D
 * [Gestion des couleurs] Utilisez les rôles de la configuration OCIO pour modifier les paramètres par défaut
 * [Gestion des couleurs] La gestion des couleurs s’affiche dans la fenêtre des propriétés des widgets de couleur
 * [Gestion des couleurs] Gestion des couleurs dans la fenêtre des propriétés pour l’aperçu du matériau
@@ -1613,7 +1613,7 @@ Problème : **correctif avec prise en charge des améliorations de 3Dconnection 
 * [Gestion des couleurs] Désactiver la liste déroulante Affichage du sélecteur de couleurs pour les canaux de données
 * [Optimisation] La grille de déformation recalcule uniquement les UV couverts
 * [Export] Autoriser l&#39;exportation de projets de Tuile UV pour Sketchfab, USD et glTF
-* [Scripting][Python] Autoriser à modifier la fonction de mappage de tonalité
+* [Scripting]&#x200B;[Python] Autoriser à modifier la fonction de mappage de tonalité
 
 **Fixe :**
 
@@ -1629,9 +1629,9 @@ Problème : **correctif avec prise en charge des améliorations de 3Dconnection 
 * [Gestion des couleurs] L’outil Remplissage polygonal affiche une couleur incorrecte
 * [Gestion des couleurs] Le mappeur de tonalité ACE est appliqué aux couches en mode solo
 * [Gestion des couleurs] L’éclairage de la sphère d’aperçu de l’outil n’est pas géré par les couleurs
-* [Gestion des couleurs][Exportation] Les mappages convertis appliquent une conversion incorrecte
-* [Scripts][Python][Gestion des couleurs] Les projets créés avec un modèle et une variable d’environnement OCIO sont en mode hérité.
-* [Scripting][Python] Impossible d&#39;utiliser la fonction d&#39;évaluation JavaScript au démarrage
+* [Gestion des couleurs]&#x200B;[Exportation] Les mappages convertis appliquent une conversion incorrecte
+* [Scripts]&#x200B;[Python]&#x200B;[Gestion des couleurs] Les projets créés avec un modèle et une variable d’environnement OCIO sont en mode hérité.
+* [Scripting]&#x200B;[Python] Impossible d&#39;utiliser la fonction d&#39;évaluation JavaScript au démarrage
 * [Offre d’Adobe 3D] Impossible de lancer Painter lors de l’utilisation de paramètres régionaux avec des langues non prises en charge par défaut
 
 **Problèmes Connus :**
@@ -1654,15 +1654,15 @@ Résumé : **Correctif avec améliorations de la gestion des couleurs**
 * [Gestion des couleurs] Développez la section Gestion des couleurs, par défaut, lorsqu’OCIO est sélectionné dans les fenêtres de nouveaux paramètres de projet et de projet
 * [Gestion des couleurs] Ajout du mappeur de tonalité ACE en mode hérité
 * [Gestion des couleurs] Ajustement des paramètres de configuration par défaut
-* [Gestion des couleurs][Exportation] Remplir $colorSpace dans les noms de fichiers pour les canaux de données
+* [Gestion des couleurs]&#x200B;[Exportation] Remplir $colorSpace dans les noms de fichiers pour les canaux de données
 * [Export] Exporter le projet de Tuile UV vers Stager
 * [Interopérabilité] Non disponible pour les éditions Steam et Substance
 * [Interopérabilité] Autoriser l’envoi d’un projet de Tuile UV vers Stager
 
 **Fixe :**
 
-* [MacOS][Crash] Painter ne commence pas par Catalina
-* [Gestion des couleurs][Crash] crash aléatoire lors de la lecture avec la gestion du type de données/des couleurs sur le canal utilisateur
+* [MacOS]&#x200B;[Crash] Painter ne commence pas par Catalina
+* [Gestion des couleurs]&#x200B;[Crash] crash aléatoire lors de la lecture avec la gestion du type de données/des couleurs sur le canal utilisateur
 * [Gestion des couleurs] Les ressources utilisées en tant que niveaux de gris dans le masque affichent l’espace colorimétrique nouveau menu
 * [Gestion des couleurs] La couche utilisateur est plus sombre en viewport en mode hérité + mode Solo.
 * [Gestion des couleurs] La courbe d’env. est toujours linéaire lorsqu’elle est utilisée dans iRay
@@ -1695,18 +1695,18 @@ Résumé : **version majeure. Introduction de la 1ère version de la gestion des
 * [Gestion des couleurs] Extraction du nom de l’espace colorimétrique à partir du nom du fichier bitmap importé
 * [Gestion des couleurs] Permet de remplacer l’espace colorimétrique par un espace colorimétrique de la configuration dans la fenêtre Propriétés
 * [Gestion des couleurs] Ajout d’options de gestion des couleurs dans les paramètres du Jeu de textures
-* [Gestion des couleurs][Viewport] Permet de gérer les couleurs séparément pour les vues 2D et 3D
+* [Gestion des couleurs]&#x200B;[Viewport] Permet de gérer les couleurs séparément pour les vues 2D et 3D
 * [Gestion des couleurs] Charger et convertir la map d&#39;environnement dans l’espace colorimétrique de travail
 * [Gestion des couleurs] Ajustez le sélecteur de couleurs et l’éditeur avec l’espace colorimétrique actuel
 * [Gestion des couleurs] Permet de sélectionner l’espace colorimétrique de transforme d’affichage en viewport avec un nouveau menu déroulant
 * [Gestion des couleurs] Application d’un transforme d’affichage avec Iray des résultats de rendu
 * [Gestion des couleurs] Exportation de textures avec différents espaces colorimétriques
-* [Gestion des couleurs][Python] Appliquez les paramètres de gestion des couleurs de la variable d’environnement (OCIO) aux nouveaux projets
+* [Gestion des couleurs]&#x200B;[Python] Appliquez les paramètres de gestion des couleurs de la variable d’environnement (OCIO) aux nouveaux projets
 * [Viewport] Autoriser à désancrer le viewport 2D ou 3D
 * [Déplié automatique] Nouvelle option pour éviter les îlots allongés
 * [Scripting Python] Appeler les fonctions JavaScript à partir de l’API Python
 * [Nouvelle fenêtre de projet] Rendre la section des mappages importés réductible
-* [Projection][Déformation] Option permettant de masquer les normales dans les paramètres de déformation
+* [Projection]&#x200B;[Déformation] Option permettant de masquer les normales dans les paramètres de déformation
 * [Contenu] 11 nouvelles cartes usure/salissures
 * [Contenu] 8 nouveaux paramètres prédéfinis d&#39;outil (fermeture éclair, cordon de serrage, paillettes)
 * [Contenu] 8 nouveaux matériaux (cicatrice, poche, ...)
@@ -1715,13 +1715,13 @@ Résumé : **version majeure. Introduction de la 1ère version de la gestion des
 **Problèmes Connus :**
 
 * Les Matériaux adaptables [Mac M1] ne s’affichent pas correctement
-* [Gestion des couleurs][Crash] crash aléatoire lors de la lecture avec la gestion du type de données/des couleurs sur le canal utilisateur
+* [Gestion des couleurs]&#x200B;[Crash] crash aléatoire lors de la lecture avec la gestion du type de données/des couleurs sur le canal utilisateur
 * [Gestion des couleurs] Le sélecteur de couleurs ne sélectionne pas la bonne valeur pour le canal de données en mode hérité.
-* [Gestion des couleurs][Iray] L’enregistrement du rendu en EXR ou en TIFF alors que la gestion des couleurs est activée dans le viewport enregistre toujours de manière linéaire.
+* [Gestion des couleurs]&#x200B;[Iray] L’enregistrement du rendu en EXR ou en TIFF alors que la gestion des couleurs est activée dans le viewport enregistre toujours de manière linéaire.
 * [Gestion des couleurs] Les ressources utilisées comme niveaux de gris dans le masque affichent un menu d’espace colorimétrique incorrect
-* [Gestion des couleurs][Iray] La carte d’environnement est toujours linéaire lorsqu’elle est utilisée dans Iray
-* [Gestion des couleurs][Exportation] Les mappages convertis ne sont pas exportés en tant que canaux avec gestion des couleurs
-* [Gestion des couleurs][Exporter] Ignore si la couche utilisateur est gérée en couleurs ou non avec le mode hérité.
+* [Gestion des couleurs]&#x200B;[Iray] La carte d’environnement est toujours linéaire lorsqu’elle est utilisée dans Iray
+* [Gestion des couleurs]&#x200B;[Exportation] Les mappages convertis ne sont pas exportés en tant que canaux avec gestion des couleurs
+* [Gestion des couleurs]&#x200B;[Exporter] Ignore si la couche utilisateur est gérée en couleurs ou non avec le mode hérité.
 
 ### 7.3.1
 
@@ -1735,12 +1735,12 @@ Résumé : **Correctif**
 **Fixe :**
 
 * [Mac M1] La superposition de Matériaux ne fonctionne pas
-* [Mac M1][Projection] La déformation ne fonctionne pas
+* [Mac M1]&#x200B;[Projection] La déformation ne fonctionne pas
 * Les micro-détails ne s’affichent pas correctement
-* [Projection][Crash] Passage en mode déformation avec un calque créé avec une version précédente
-* [Projection][Déformation] La symétrie ne fonctionne pas lorsque la transformation est définie sur espace monde
-* [Projection][Déformation] L’option Fractionner reste sélectionnée une fois le fractionnement terminé
-* [Projection][UV] Le point de pivot est réinitialisé lors de la symétrie de la projection
+* [Projection]&#x200B;[Crash] Passage en mode déformation avec un calque créé avec une version précédente
+* [Projection]&#x200B;[Déformation] La symétrie ne fonctionne pas lorsque la transformation est définie sur espace monde
+* [Projection]&#x200B;[Déformation] L’option Fractionner reste sélectionnée une fois le fractionnement terminé
+* [Projection]&#x200B;[UV] Le point de pivot est réinitialisé lors de la symétrie de la projection
 * [Filtre] L&#39;environnement d&#39;éclairage Baker change lors du rechargement ou de la modification d&#39;un paramètre
 * [Interopérabilité] Non disponible pour les éditions Steam et Substance
 * [Interopérabilité] Le bouton « Parcourir les ressources 3D sur Marketplace » doit toujours ouvrir CCD dans l’onglet 3D Stock et Marketplace
@@ -1756,18 +1756,18 @@ Résumé : **version majeure. Il contient une nouvelle projection de déformatio
 
 **Ajouté :**
 
-* [Projection][Déformation] Exposer la déformation 3D comme nouveau mode de projection
-* [Projection][Déformation] Autoriser le mode décalcomanie pour les Alpha, les Textures et les procédures avec glisser-déposer dans le viewport
-* [Projection][Déformation] Utiliser la projection de déformation avec le raccourci de décalcomanie (ALT)
-* [Projection][Déformation][Barre d’outils] Transformer la déformation en entier ou par vertex
-* [Projection][Déformation][Barre d’outils] Ajouter des points de grille avec des options de déformation fractionnée en diagonale, horizontalement ou verticalement
-* [Projection][Déformation][Barre d’outils] Menu dédié aux actions de réinitialisation
-* [Projection][Déformation][Barre d’outils] Option permettant d’ajuster automatiquement les tangentes lors du déplacement de points
-* [Projection][Déformation][Barre d’outils] Menu dédié à l’édition de grille (taille, réinitialisation, couleur et taille de poignée)
-* [Projection][Déformation] Nouveau raccourci du clavier pour changer le mode d’édition de déformation de vertex entiers (MAJ+V)
-* [Projection][Déformation] Cliquer+Ctrl permet de basculer entre l’outil Surface et d’autres outils
-* [Projection][Cylindrique] Exposer le mode de projection cylindrique
-* [Projection][Barre d’outils] Paramètres du manipulateur de groupe (taille, pas de grille, pas d’angle)
+* [Projection]&#x200B;[Déformation] Exposer la déformation 3D comme nouveau mode de projection
+* [Projection]&#x200B;[Déformation] Autoriser le mode décalcomanie pour les Alpha, les Textures et les procédures avec glisser-déposer dans le viewport
+* [Projection]&#x200B;[Déformation] Utiliser la projection de déformation avec le raccourci de décalcomanie (ALT)
+* [Projection]&#x200B;[Déformation]&#x200B;[Barre d’outils] Transformer la déformation en entier ou par vertex
+* [Projection]&#x200B;[Déformation]&#x200B;[Barre d’outils] Ajouter des points de grille avec des options de déformation fractionnée en diagonale, horizontalement ou verticalement
+* [Projection]&#x200B;[Déformation]&#x200B;[Barre d’outils] Menu dédié aux actions de réinitialisation
+* [Projection]&#x200B;[Déformation]&#x200B;[Barre d’outils] Option permettant d’ajuster automatiquement les tangentes lors du déplacement de points
+* [Projection]&#x200B;[Déformation]&#x200B;[Barre d’outils] Menu dédié à l’édition de grille (taille, réinitialisation, couleur et taille de poignée)
+* [Projection]&#x200B;[Déformation] Nouveau raccourci du clavier pour changer le mode d’édition de déformation de vertex entiers (MAJ+V)
+* [Projection]&#x200B;[Déformation] Cliquer+Ctrl permet de basculer entre l’outil Surface et d’autres outils
+* [Projection]&#x200B;[Cylindrique] Exposer le mode de projection cylindrique
+* [Projection]&#x200B;[Barre d’outils] Paramètres du manipulateur de groupe (taille, pas de grille, pas d’angle)
 * [Sélecteur de couleurs] Nouvelle interface utilisateur du sélecteur de couleurs
 * [Sélecteur de couleurs] Utiliser les valeurs sRVB dans les widgets du sélecteur de couleurs
 * [Sélecteur de couleurs] Autoriser l’enregistrement et la suppression d’échantillons de couleurs
@@ -1778,9 +1778,9 @@ Résumé : **version majeure. Il contient une nouvelle projection de déformatio
 * [Sélecteur de couleurs] Appuyez sur Echap pour fermer la fenêtre du sélecteur de couleurs
 * Amélioration des performances pour l’interaction avec l’interface utilisateur et la peinture
 * [Moteur] Mise à jour vers une nouvelle version du moteur de Substance de données (8.3.0)
-* [Scripting][Python] Autoriser à recharger le maillage du projet en cours
-* [Scripting][Python] Autoriser la mise à jour des ressources dans les projets
-* [Scripting][Python] Autoriser à définir et interroger la résolution des Tuiles UV
+* [Scripting]&#x200B;[Python] Autoriser à recharger le maillage du projet en cours
+* [Scripting]&#x200B;[Python] Autoriser la mise à jour des ressources dans les projets
+* [Scripting]&#x200B;[Python] Autoriser à définir et interroger la résolution des Tuiles UV
 * [Interopérabilité] Non disponible pour les éditions Steam et Substance
 * [Interopérabilité] Recevoir plusieurs ressources de Bridge
 
@@ -1795,12 +1795,12 @@ Résumé : **version majeure. Il contient une nouvelle projection de déformatio
 
 **Problèmes Connus :**
 
-* [Projection][Déformation] L’option Fractionner reste sélectionnée une fois le fractionnement terminé
-* [Projection][Déformation] La symétrie ne fonctionne pas lorsque la transformation est définie sur espace monde
-* [Projection][Déformation] Lignes d’artefact entre les correctifs dans de rares cas
-* [Projection][UV] Le point de pivot est réinitialisé lors de la symétrie de la projection
+* [Projection]&#x200B;[Déformation] L’option Fractionner reste sélectionnée une fois le fractionnement terminé
+* [Projection]&#x200B;[Déformation] La symétrie ne fonctionne pas lorsque la transformation est définie sur espace monde
+* [Projection]&#x200B;[Déformation] Lignes d’artefact entre les correctifs dans de rares cas
+* [Projection]&#x200B;[UV] Le point de pivot est réinitialisé lors de la symétrie de la projection
 * Les Matériaux adaptables [Mac M1] ne s’affichent pas correctement
-* [M1][Régression] La superposition de Matériaux ne fonctionne pas
+* [M1]&#x200B;[Régression] La superposition de Matériaux ne fonctionne pas
 
 ### 7.2.3
 
@@ -1814,7 +1814,7 @@ Résumé : **version mineure, correctif**
 **Fixe :**
 
 * [Win] Problèmes de mise en veille et écrans multiples
-* [MacOS][Crash] Changement de shader lors de l’utilisation d’effets
+* [MacOS]&#x200B;[Crash] Changement de shader lors de l’utilisation d’effets
 * [Viewport] Le mode Aperçu complet n’affiche plus le curseur du pinceau sans alpha
 * [UI] Le widget d’angle tourne dans le mauvais sens
 * [Pile de calques] De nombreux sous-dossiers provoquent un gel très long
@@ -1849,14 +1849,14 @@ Résumé : **version mineure, correctif**
 **Ajouté :**
 
 * [Interop] Ajoutez une info-bulle pour indiquer que l’envoi de projets de Tuile UV à Stager n’est pas encore pris en charge
-* [Plug-in][UI] Mise à jour de l’icône Livelink
+* [Plug-in]&#x200B;[UI] Mise à jour de l’icône Livelink
 
 **Fixe :**
 
 * [Nvidia] La version du pilote commençant par 30 est considérée comme obsolète
 * [Bibliothèques] L’état du panneau Actifs n’est pas enregistré sauf si un projet est ouvert
 * [Bibliothèques] La nouvelle recherche enregistrée conserve les mots-clés de l’ancienne recherche enregistrée
-* [Bakers][UVTiles] Les Map id par meshID prennent également en compte les Tuiles UV
+* [Bakers]&#x200B;[UVTiles] Les Map id par meshID prennent également en compte les Tuiles UV
 * [Export] Les fichiers gLTF n’importent pas la couleur du vertex
 * [Iray] Certaines info-bulles sont manquantes
 * [Interop] Envoyer vers Stager n’est pas toujours désactivé lorsque Stager n’est pas détecté
@@ -1871,42 +1871,42 @@ Résumé : **version majeure, elle fournit une mise à jour du panneau des actif
 **Ajouté :**
 
 * [Bibliothèques] Nouveau panneau Ressource pour remplacer l’étagère
-* [Bibliothèques][Interface utilisateur] Nouvelle disposition du panneau Actifs
-* [Bibliothèques][Interface utilisateur] Modifier l’orientation et l’interface utilisateur par défaut du panneau Actifs
-* [Bibliothèques][Interface utilisateur] Ajout d’une option d’affichage par liste à la bibliothèque
-* [Bibliothèques][Interface utilisateur] Nouvelle navigation dans les chemins de navigation dans le panneau Actifs
-* [Bibliothèques][Interface utilisateur] Sélectionnez « Toutes les bibliothèques » lors de la sélection d’une recherche enregistrée
-* [Bibliothèques][Interface utilisateur] Sélectionnez « Toutes les bibliothèques » lorsque tous les dossiers sont désélectionnés
-* [Bibliothèques][Interface utilisateur] Nouvelle balise pour les pinceaux de particule
-* [Bibliothèques][Interface utilisateur] A remplacé « étagère » par « Toutes les bibliothèques » dans l’ensemble de l’application
-* [Bibliothèques][Interface utilisateur] Autoriser à masquer les dossiers vides
-* [Bibliothèques][Interface utilisateur] La bibliothèque utilisateur par défaut doit être visible même si elle est vide
-* [Bibliothèques][Interface utilisateur] Nouvelle méthode de filtrage via les icônes de type de ressource
+* [Bibliothèques]&#x200B;[Interface utilisateur] Nouvelle disposition du panneau Actifs
+* [Bibliothèques]&#x200B;[Interface utilisateur] Modifier l’orientation et l’interface utilisateur par défaut du panneau Actifs
+* [Bibliothèques]&#x200B;[Interface utilisateur] Ajout d’une option d’affichage par liste à la bibliothèque
+* [Bibliothèques]&#x200B;[Interface utilisateur] Nouvelle navigation dans les chemins de navigation dans le panneau Actifs
+* [Bibliothèques]&#x200B;[Interface utilisateur] Sélectionnez « Toutes les bibliothèques » lors de la sélection d’une recherche enregistrée
+* [Bibliothèques]&#x200B;[Interface utilisateur] Sélectionnez « Toutes les bibliothèques » lorsque tous les dossiers sont désélectionnés
+* [Bibliothèques]&#x200B;[Interface utilisateur] Nouvelle balise pour les pinceaux de particule
+* [Bibliothèques]&#x200B;[Interface utilisateur] A remplacé « étagère » par « Toutes les bibliothèques » dans l’ensemble de l’application
+* [Bibliothèques]&#x200B;[Interface utilisateur] Autoriser à masquer les dossiers vides
+* [Bibliothèques]&#x200B;[Interface utilisateur] La bibliothèque utilisateur par défaut doit être visible même si elle est vide
+* [Bibliothèques]&#x200B;[Interface utilisateur] Nouvelle méthode de filtrage via les icônes de type de ressource
 * [Bibliothèques] Raccourci « CTRL » pour sélectionner plusieurs types d’actifs
 * [Bibliothèques] Nouvelle variable d’environnement pour contrôler le budget de mémoire de l’aperçu des ressources
-* [Bibliothèques][Contenu] Nouvelles maps d&#39;environnement
-* [Bibliothèques][Contenu][Interface utilisateur] displacement de rendu sur les matériaux par défaut
-* [Bibliothèques][Contenu] Définir le shader Adobe Standard Material (ASM) comme valeur par défaut pour la génération des aperçus
-* [Bibliothèques][Contenu][ASM] Nouveaux modèles de projet pour le nouveau shader ASM
-* [Bibliothèques][Vignette] Utiliser la nouvelle map d&#39;environnement Studio 6
-* [Bibliothèques][Vignette] Lire la vignette dans la ressource au lieu de la générer
-* [Bibliothèques][Vignette] Ajouter un displacement à la génération de vignettes
+* [Bibliothèques]&#x200B;[Contenu] Nouvelles maps d&#39;environnement
+* [Bibliothèques]&#x200B;[Contenu]&#x200B;[Interface utilisateur] displacement de rendu sur les matériaux par défaut
+* [Bibliothèques]&#x200B;[Contenu] Définir le shader Adobe Standard Material (ASM) comme valeur par défaut pour la génération des aperçus
+* [Bibliothèques]&#x200B;[Contenu]&#x200B;[ASM] Nouveaux modèles de projet pour le nouveau shader ASM
+* [Bibliothèques]&#x200B;[Vignette] Utiliser la nouvelle map d&#39;environnement Studio 6
+* [Bibliothèques]&#x200B;[Vignette] Lire la vignette dans la ressource au lieu de la générer
+* [Bibliothèques]&#x200B;[Vignette] Ajouter un displacement à la génération de vignettes
 * [Paramètres de Jeu de textures]
-* [Paramètres de Jeu de textures][Interface utilisateur] Exposer un nouvel height à la méthode de conversion normale
-* [Paramètres de Jeu de textures][Interface utilisateur] Refonte de l’organisation de l’interface utilisateur des canaux
+* [Paramètres de Jeu de textures]&#x200B;[Interface utilisateur] Exposer un nouvel height à la méthode de conversion normale
+* [Paramètres de Jeu de textures]&#x200B;[Interface utilisateur] Refonte de l’organisation de l’interface utilisateur des canaux
 * [Paramètres de Jeu de textures] Limite de canaux utilisateur élevée à 16 canaux
-* [Paramètres de Jeu de textures][Interface utilisateur] Indiquez quels canaux sont compatibles avec le shader actuellement sélectionné
-* [Shader][ASM] Nouveau shader d&#39;Adobe Standard Material
-* [Shader][ASM] Ajout de la prise en charge pour l’Anisotropie, le pelage transparent, la Subsurface scattering, le Specular edge color et l’Éclat
-* [Shader][ASM] Modification des valeurs de couleur des couches par défaut
-* [Shader][ASM][Export] Modèle d’exportation mis à jour Adobe Dimension vers Adobe Substance 3D Stager
-* [Shader][ASM] Ajout d’étiquettes et d’info-bulles pour les paramètres shader et MDL
-* [Shader][ASM] Rendre la couleur de Dispersion visible dans vue 2D même si SSS n’est pas pris en charge
-* [Shader][ASM][Iray] Prise en charge du shader ASM en Iray avec la nouvelle MDL
-* [Shader][ASM][Iray] Subsurface scattering mise à jour dans la spécification PBR héritée brillant et recouvert
-* [Shader][ASM][Content] Modification du type SSS par défaut pour les échantillons
-* [Shader][ASM] Ajout de la documentation pour l’API ASM
-* [Shader][ASM] Optimiser les nuanceurs pour ignorer les canaux inutilisés
+* [Paramètres de Jeu de textures]&#x200B;[Interface utilisateur] Indiquez quels canaux sont compatibles avec le shader actuellement sélectionné
+* [Shader]&#x200B;[ASM] Nouveau shader d&#39;Adobe Standard Material
+* [Shader]&#x200B;[ASM] Ajout de la prise en charge pour l’Anisotropie, le pelage transparent, la Subsurface scattering, le Specular edge color et l’Éclat
+* [Shader]&#x200B;[ASM] Modification des valeurs de couleur des couches par défaut
+* [Shader]&#x200B;[ASM]&#x200B;[Export] Modèle d’exportation mis à jour Adobe Dimension vers Adobe Substance 3D Stager
+* [Shader]&#x200B;[ASM] Ajout d’étiquettes et d’info-bulles pour les paramètres shader et MDL
+* [Shader]&#x200B;[ASM] Rendre la couleur de Dispersion visible dans vue 2D même si SSS n’est pas pris en charge
+* [Shader]&#x200B;[ASM]&#x200B;[Iray] Prise en charge du shader ASM en Iray avec la nouvelle MDL
+* [Shader]&#x200B;[ASM]&#x200B;[Iray] Subsurface scattering mise à jour dans la spécification PBR héritée brillant et recouvert
+* [Shader]&#x200B;[ASM]&#x200B;[Content] Modification du type SSS par défaut pour les échantillons
+* [Shader]&#x200B;[ASM] Ajout de la documentation pour l’API ASM
+* [Shader]&#x200B;[ASM] Optimiser les nuanceurs pour ignorer les canaux inutilisés
 * [Shader] Exposer de nouveaux canaux de Jeu de textures
 * [Shader] Subsurface scattering améliorée
 * [Shader] Nouveaux paramètres de shader masqués pour certains shaders
@@ -1923,41 +1923,41 @@ Résumé : **version majeure, elle fournit une mise à jour du panneau des actif
 * [UI] Actualisation globale de l’interface utilisateur
 * [UI] Modification du menu Aide
 * [UI] Icône Remplacer l’inversion
-* [UI][Plugin] Icône Remplacer pour le lien dcc du plug-in
-* [UI][AMD] Mise à jour de la version minimale requise et du message contextuel
+* [UI]&#x200B;[Plugin] Icône Remplacer pour le lien dcc du plug-in
+* [UI]&#x200B;[AMD] Mise à jour de la version minimale requise et du message contextuel
 * [Pile de calques] Créer un calque dans le dossier vide sélectionné
 * Mise À Jour De La Documentation Python
 * [Branding]
-* [Identité visuelle][Interface utilisateur] Nom de l’application mis à jour vers Adobe Substance 3D Painter
-* [Branding][UI] Mise à jour de la version autonome vers « Substance Edition »
-* [Identité visuelle][Interface utilisateur] Mise à jour du nom du fichier exécutable de l’application, du chemin d’installation, du pack et des icônes
-* [Identité visuelle][Interface utilisateur] Bibliothèque et chemin par défaut renommés
-* [Branding][UI] Fenêtre À propos de mise à jour
-* [Identité visuelle][Interface utilisateur] Mise à jour de l’écran d’accueil
-* [Branding][Interface utilisateur] Numéro de version basé sur l’année supprimé
+* [Identité visuelle]&#x200B;[Interface utilisateur] Nom de l’application mis à jour vers Adobe Substance 3D Painter
+* [Branding]&#x200B;[UI] Mise à jour de la version autonome vers « Substance Edition »
+* [Identité visuelle]&#x200B;[Interface utilisateur] Mise à jour du nom du fichier exécutable de l’application, du chemin d’installation, du pack et des icônes
+* [Identité visuelle]&#x200B;[Interface utilisateur] Bibliothèque et chemin par défaut renommés
+* [Branding]&#x200B;[UI] Fenêtre À propos de mise à jour
+* [Identité visuelle]&#x200B;[Interface utilisateur] Mise à jour de l’écran d’accueil
+* [Branding]&#x200B;[Interface utilisateur] Numéro de version basé sur l’année supprimé
 * [Localisation] Nouvelles traductions en allemand, français et chinois simplifié
 * [Interopérabilité] Non disponible pour les éditions Steam et Substance
 * [Interopérabilité] Interopérabilité avec l’écosystème de l’Adobe : Designer, Sampler, Stager et Bridge
-* [Interopérabilité][Interface utilisateur] Réception et mise à jour des ressources depuis Designer
-* [Interopérabilité][Interface utilisateur] Recevoir la ressource de Sampler
-* [Interopérabilité][Interface utilisateur] Envoyer la ressource vers Stager
-* [Interopérabilité][Interface utilisateur] Afficher dans Adobe Bridge
-* [Interopérabilité][Interface utilisateur] Permettre d’accéder rapidement aux ressources Adobe 3D
+* [Interopérabilité]&#x200B;[Interface utilisateur] Réception et mise à jour des ressources depuis Designer
+* [Interopérabilité]&#x200B;[Interface utilisateur] Recevoir la ressource de Sampler
+* [Interopérabilité]&#x200B;[Interface utilisateur] Envoyer la ressource vers Stager
+* [Interopérabilité]&#x200B;[Interface utilisateur] Afficher dans Adobe Bridge
+* [Interopérabilité]&#x200B;[Interface utilisateur] Permettre d’accéder rapidement aux ressources Adobe 3D
 * [Interopérabilité] Nouvelles balises d&#39;utilisation de sbsar
 * [Interopérabilité] Gestion des types de ressources reçus
 * [Interopérabilité] Les ressources reçues de Adobe Substance 3D Designer ou Adobe Substance 3D Sampler sont stockées dans la bibliothèque choisie par défaut de l’utilisateur
-* [Interopérabilité][Interface utilisateur] Nouvelle icône dans la barre d’outils de gauche à envoyer à Stager ou Photoshop
+* [Interopérabilité]&#x200B;[Interface utilisateur] Nouvelle icône dans la barre d’outils de gauche à envoyer à Stager ou Photoshop
 
 **Fixe :**
 
 * [Tablette] Basse performance lors de la peinture avec pression
 * [Tablette] Problème sur les tablettes dotées de curseurs
 * [Crash] Incompatibilité de nom entre la liste de Jeux de textures et l&#39;Exporteur
-* [Crash][Bibliothèques] Double-cliquez sur une sous-bibliothèque
+* [Crash]&#x200B;[Bibliothèques] Double-cliquez sur une sous-bibliothèque
 * [Bibliothèques] Problème lors de l’analyse des répertoires de bibliothèques
 * [Bibliothèques] La ligne de commande de génération d’aperçu forcé ne fonctionne pas comme prévu
-* Le filtre Environnement lumineux Baké [Bibliothèques][Contenu] est noir par défaut
-* [Linux][MacOS][Maillage d’exportation] Impossible d’importer glTF créé sous Linux/MacOS
+* Le filtre Environnement lumineux Baké [Bibliothèques]&#x200B;[Contenu] est noir par défaut
+* [Linux]&#x200B;[MacOS]&#x200B;[Maillage d’exportation] Impossible d’importer glTF créé sous Linux/MacOS
 * [Linux] Glisser-déposer un fichier dans le panneau Actifs peut entraîner un crash
 * [Dépliage automatique] Dépliage automatique est disponible même si aucun maillage n&#39;a été sélectionné pour le rechargement
 * [Particules] Comportement de particule incorrect avec la gravité
@@ -1969,7 +1969,7 @@ Résumé : **version majeure, elle fournit une mise à jour du panneau des actif
 * La Map normal [Iray] n’est pas prise en compte dans les nouveaux projets lors du rendu
 * [Enregistrer] Problèmes d’enregistrement sur les lecteurs partagés
 * [Baking] La réinitialisation d’un maillage avec des paramètres modifiés affiche un avertissement
-* [Baking][Régression] Résultat incorrect lorsque le cadre de sélection global des maillages à poly élevé n’inclut pas l’origine de la scène
+* [Baking]&#x200B;[Régression] Résultat incorrect lorsque le cadre de sélection global des maillages à poly élevé n’inclut pas l’origine de la scène
 * [Python] Les bibliothèques utilisateur personnalisées ne sont pas prises en compte
 
 **Problèmes Connus :**
@@ -1993,10 +1993,10 @@ Résumé : **version mineure, correctif avec possibilité de saisir des valeurs 
 * [Masque de géométrie] Un clic Alt sur le nom du maillage peut conduire à un crash
 * [Moteur] La peinture n’actualise pas l’ensemble de la vue si nécessaire
 * [Pile de calques] La sélection est bloquée après avoir modifié le shader
-* [MacOS][Sélecteur de couleurs] La couleur est légèrement différente de celle sélectionnée
+* [MacOS]&#x200B;[Sélecteur de couleurs] La couleur est légèrement différente de celle sélectionnée
 * [Export] L&#39;utilisation d&#39;un format de fichier PSD ne génère pas un fichier par Tuile UV
-* [Scripting][JavaScript] alg.mapexport.getPathsExportDocumentMaps() ne renvoie pas toutes les valeurs
-* [Scripts][Python] Les plug-ins désactivés sont réactivés lors de la réouverture de Painter
+* [Scripting]&#x200B;[JavaScript] alg.mapexport.getPathsExportDocumentMaps() ne renvoie pas toutes les valeurs
+* [Scripts]&#x200B;[Python] Les plug-ins désactivés sont réactivés lors de la réouverture de Painter
 
 ### 7.1.0 (2021.1.0)
 
@@ -2009,19 +2009,19 @@ Résumé : **version majeure, nouveau masque de géométrie qui permet de sélec
 * [Masque de géométrie] Permet de mettre en peinture des parties de géométrie sélectionnées par nom de maillage
 * [Masque de géométrie] Sélection rectangulaire des deux viewports
 * [Masque de géométrie] Permet de masquer/ignorer une géométrie exclue sur un calque
-* [Masque de géométrie][Propriétés] Sélection rapide pour les cases à cocher en cliquant et en faisant glisser
-* [Masque de géométrie][Propriétés][Interface utilisateur] Tout inclure/Exclure avec une liste déroulante dans la fenêtre Propriétés
-* [Masque de géométrie][Propriétés] Permet de sélectionner rapidement un élément dans une liste en appuyant sur ALT+CLIC GAUCHE
-* [Masque de géométrie][Propriétés] Incrustation dans les viewports lors du survol des noms/Tuiles UV de Maillage dans la fenêtre Propriétés
-* [Masque de géométrie][Pile de calques] Ajouter des options de copier/coller au masque de géométrie
+* [Masque de géométrie]&#x200B;[Propriétés] Sélection rapide pour les cases à cocher en cliquant et en faisant glisser
+* [Masque de géométrie]&#x200B;[Propriétés]&#x200B;[Interface utilisateur] Tout inclure/Exclure avec une liste déroulante dans la fenêtre Propriétés
+* [Masque de géométrie]&#x200B;[Propriétés] Permet de sélectionner rapidement un élément dans une liste en appuyant sur ALT+CLIC GAUCHE
+* [Masque de géométrie]&#x200B;[Propriétés] Incrustation dans les viewports lors du survol des noms/Tuiles UV de Maillage dans la fenêtre Propriétés
+* [Masque de géométrie]&#x200B;[Pile de calques] Ajouter des options de copier/coller au masque de géométrie
 * [Masque de géométrie] Nouvelle icône pour le bouton Masquer/ignorer la géométrie exclue
 * [Masque de géométrie] Nouvelle info-bulle pour Masquer/ignorer la géométrie exclue
 * [Masque de géométrie] raccourci du clavier ALT+H pour activer/désactiver le bouton « masquer ignorer la géométrie exclue »
-* [Tuiles UV][Pile de calques] Nouvelle vignette d’aperçu de sphère de Calque de remplissage pour les Tuiles UV et le mode simplifié
-* [Tuiles UV][Pile de calques] Permet de sortir facilement du masque de Tuile UV
-* [Tuiles UV][Liste de Jeux de textures] Autoriser à donner une description par Tuile UV
-* [Tuiles UV][Paramètres du Jeu de textures][Interface utilisateur] Deux nouveaux titres de section dans le menu déroulant pour modifier la résolution de la Tuile UV
-* [Tuiles UV][Viewport] Quitter le masque de Tuile UV lorsque vous faites glisser un matériau dans le viewport
+* [Tuiles UV]&#x200B;[Pile de calques] Nouvelle vignette d’aperçu de sphère de Calque de remplissage pour les Tuiles UV et le mode simplifié
+* [Tuiles UV]&#x200B;[Pile de calques] Permet de sortir facilement du masque de Tuile UV
+* [Tuiles UV]&#x200B;[Liste de Jeux de textures] Autoriser à donner une description par Tuile UV
+* [Tuiles UV]&#x200B;[Paramètres du Jeu de textures]&#x200B;[Interface utilisateur] Deux nouveaux titres de section dans le menu déroulant pour modifier la résolution de la Tuile UV
+* [Tuiles UV]&#x200B;[Viewport] Quitter le masque de Tuile UV lorsque vous faites glisser un matériau dans le viewport
 * [Pile de calques] Ajout d’options de copier/coller pour les effets
 * [Pile de calques] Permet de copier/coller des effets d’un Jeu de textures à un autre
 * [Pile de calques] Autoriser la sélection multiple d’effets
@@ -2034,7 +2034,7 @@ Résumé : **version majeure, nouveau masque de géométrie qui permet de sélec
 * Mettre à jour Iray vers la version 2020.1.0
 * [Baker] Mise à jour des Bakers vers la version 2.5.4
 * [Bakers] Afficher des Tuiles UV individuelles dans la fenêtre de progression du baking
-* [Bakers][UI] Permet de baker rapidement le Jeu de textures actif avec un nouveau bouton
+* [Bakers]&#x200B;[UI] Permet de baker rapidement le Jeu de textures actif avec un nouveau bouton
 * [Bakers] Permettre à l’utilisateur de sélectionner rapidement l’un des bakers avec ALT+CLIC GAUCHE
 * Mettre à jour la Substance Engine à la version 8.0.8
 * [Substance Engine] Prise en charge de la couleur par défaut dans les nouveaux fichiers .sbsar
@@ -2043,15 +2043,15 @@ Résumé : **version majeure, nouveau masque de géométrie qui permet de sélec
 * [Export] Ajouter un facteur de taille de scène dans le fichier json shader exporté
 * [Langue] Ajouter une traduction en japonais
 * [UI] Mise à jour de la fenêtre À propos avec contrôle de version des dépendances internes
-* [Scripting][Python] Autoriser à gérer les ressources d&#39;Étagère
-* [Scripting][Python] Permet de savoir quand un projet est prêt pour le baking et l&#39;exportation
-* [Scripting][Python] Permet de savoir quand une Étagère a terminé d&#39;analyser les ressources sur le disque
-* [Scripting][Python] Autoriser à interroger la liste des UV par Jeu de textures
-* [Scripting][Python] Autoriser à attribuer un aperçu personnalisé aux ressources d&#39;Étagère
-* [Scripting][Python] Autoriser la gestion des étagères personnalisées
-* [Scripting][Python] Ajoutez un index de méthodes dans chaque sous-module de la documentation
-* [Scripting][Python] Nouveau style pour la documentation
-* [Scripting][Python] Amélioration des ressources et de la documentation de l&#39;Étagère
+* [Scripting]&#x200B;[Python] Autoriser à gérer les ressources d&#39;Étagère
+* [Scripting]&#x200B;[Python] Permet de savoir quand un projet est prêt pour le baking et l&#39;exportation
+* [Scripting]&#x200B;[Python] Permet de savoir quand une Étagère a terminé d&#39;analyser les ressources sur le disque
+* [Scripting]&#x200B;[Python] Autoriser à interroger la liste des UV par Jeu de textures
+* [Scripting]&#x200B;[Python] Autoriser à attribuer un aperçu personnalisé aux ressources d&#39;Étagère
+* [Scripting]&#x200B;[Python] Autoriser la gestion des étagères personnalisées
+* [Scripting]&#x200B;[Python] Ajoutez un index de méthodes dans chaque sous-module de la documentation
+* [Scripting]&#x200B;[Python] Nouveau style pour la documentation
+* [Scripting]&#x200B;[Python] Amélioration des ressources et de la documentation de l&#39;Étagère
 * [Contenu] Trois nouveaux paramètres prédéfinis d&#39;outil pour faire des points
 * [Étagère] Supprimez temporairement « Exporter vers la Substance share » lors de la transition vers la nouvelle plateforme de Substance share
 
@@ -2080,17 +2080,17 @@ Résumé : **version mineure, correctif de bug avec certaines fonctions dans l�
 **Ajouté :**
 
 * [Performances] Ne calculez pas toutes les Tuiles UV lors de l’utilisation de la sélection d’ID de couleur
-* [Bakers][UI] Afficher les descriptions de Jeu de textures
+* [Bakers]&#x200B;[UI] Afficher les descriptions de Jeu de textures
 * [Bakers] Autoriser à enregistrer les paramètres de baking
 * [Bakers] Ajout des options Réduire tout/Développer tout à l’onglet Sélection
 * [Liste de Jeux de textures] Masquer la description lorsqu’elle est vide
-* [Tuiles UV][Liste de Jeux de textures] Cliquer sur la Tuile UV doit développer/réduire la liste
-* [Exporter][Interface utilisateur] Autoriser le redimensionnement horizontal du panneau Liste des Jeux de textures
-* [Exporter][Interface utilisateur] Texte d’info-bulle cohérent pour les Tuiles UV et le workflow de Jeu de textures avec des textures non sélectionnées
-* [Scripts][Python] Autoriser l’utilisation de paramètres prédéfinis d’exportation pour exporter des textures
-* [Scripting][Python] Ajout d&#39;un journal des modifications dans la documentation
-* [Scripting][Python] Autoriser à interroger tous les canaux disponibles sur une pile donnée
-* [Scripts][Python] Améliorations de l&#39;interface utilisateur de la console
+* [Tuiles UV]&#x200B;[Liste de Jeux de textures] Cliquer sur la Tuile UV doit développer/réduire la liste
+* [Exporter]&#x200B;[Interface utilisateur] Autoriser le redimensionnement horizontal du panneau Liste des Jeux de textures
+* [Exporter]&#x200B;[Interface utilisateur] Texte d’info-bulle cohérent pour les Tuiles UV et le workflow de Jeu de textures avec des textures non sélectionnées
+* [Scripts]&#x200B;[Python] Autoriser l’utilisation de paramètres prédéfinis d’exportation pour exporter des textures
+* [Scripting]&#x200B;[Python] Ajout d&#39;un journal des modifications dans la documentation
+* [Scripting]&#x200B;[Python] Autoriser à interroger tous les canaux disponibles sur une pile donnée
+* [Scripts]&#x200B;[Python] Améliorations de l&#39;interface utilisateur de la console
 
 **Fixe :**
 
@@ -2098,7 +2098,7 @@ Résumé : **version mineure, correctif de bug avec certaines fonctions dans l�
 * Crash lors de la réimportation d’un maillage avec une disposition de Tuiles UV différente dans certains cas
 * Crash lors de l’utilisation de particules avec des UDIM sur des maillages très lourds
 * [Tuiles UV] Crash lors de l’exportation d’un maillage avec des informations de displacement dans certains cas
-* [Exporter][Crash] L’exportation de Vue 2D au format psd peut provoquer un crash
+* [Exporter]&#x200B;[Crash] L’exportation de Vue 2D au format psd peut provoquer un crash
 * L’importation d’images sous forme de séquences lors de la création d’un projet ne fonctionne pas
 * Moteur bloqué dans une boucle sans fin
 * [Raccourci] La Caméra pivote toujours en mode contraint lors de la modification des raccourcis du mode contraint
@@ -2110,14 +2110,14 @@ Résumé : **version mineure, correctif de bug avec certaines fonctions dans l�
 * [Export] Tout inclure et Tout réinitialiser ne prend pas en compte les Tuiles UV
 * [Bakers] Les bakers désélectionnés apparaissent pendant le processus de baking
 * La mise à jour de la résolution n’est pas prise en compte pour les maps bakées utilisées comme entrée
-* [Tuiles UV][Viewport] Gel du Viewport 3D lors de l’ajout d’un Matériau adaptable après un dossier avec un masque de Tuile UV sélectionné
-* [Tuiles UV][Viewport] Structure filaire est toujours visible pour les mosaïques masquées avec peinture via le mode
-* [Export][Sketchfab] Problèmes avec le type d’abonnement « plus »
+* [Tuiles UV]&#x200B;[Viewport] Gel du Viewport 3D lors de l’ajout d’un Matériau adaptable après un dossier avec un masque de Tuile UV sélectionné
+* [Tuiles UV]&#x200B;[Viewport] Structure filaire est toujours visible pour les mosaïques masquées avec peinture via le mode
+* [Export]&#x200B;[Sketchfab] Problèmes avec le type d’abonnement « plus »
 * [Sketchfab] La case à cocher « Cette ressource est privée » ne s’affiche pas après le changement de compte
-* [Exportation][Contenu] Les paramètres prédéfinis de pinceau de « tremblement » peuvent entraîner des problèmes de performances
+* [Exportation]&#x200B;[Contenu] Les paramètres prédéfinis de pinceau de « tremblement » peuvent entraîner des problèmes de performances
 * [Photoshop du plug-in] Message dans le journal : non compatible avec le workflow de Tuile UV
-* [Scripting][Python] La variable env PYTHONPATH empêche le démarrage de l&#39;application
-* [Scripting][Python] Typo dans la documentation Python
+* [Scripting]&#x200B;[Python] La variable env PYTHONPATH empêche le démarrage de l&#39;application
+* [Scripting]&#x200B;[Python] Typo dans la documentation Python
 
 ### 6.2.1 (2020.2.1)
 
@@ -2127,7 +2127,7 @@ Résumé : **version mineure, correctif**
 **Ajouté :**
 
 * Ajouter la variable d’environnement « SUBSTANCE\_PAINTER\_VRAM\_BUDGET » pour remplacer la quantité VRam du GPU
-* [Tuiles UV][Performances] Ne calculez pas tous les UV lorsque vous utilisez l’outil Remplissage polygonal
+* [Tuiles UV]&#x200B;[Performances] Ne calculez pas tous les UV lorsque vous utilisez l’outil Remplissage polygonal
 
 **Fixe :**
 
@@ -2158,43 +2158,43 @@ Résumé : **version majeure avec un nouveau workflow de Tuiles UV, une peinture
 * [Tuiles UV] Importation d’UDIM/de séquences d’images de Tuile UV en tant que ressource
 * [Tuiles UV] Ajouter une liste de Tuiles UV par Jeu de textures dans la fenêtre Liste de Jeux de textures
 * [Tuiles UV] Permet de modifier la résolution de plusieurs Tuiles UV à la fois dans les paramètres de Jeu de textures
-* [Tuiles UV][vue 2D] Afficher les Tuiles UV sous forme de grille
-* [Tuiles UV][vue 2D] Bouton Nouveau viewport pour afficher ou masquer les informations sur les Tuiles UV
+* [Tuiles UV]&#x200B;[vue 2D] Afficher les Tuiles UV sous forme de grille
+* [Tuiles UV]&#x200B;[vue 2D] Bouton Nouveau viewport pour afficher ou masquer les informations sur les Tuiles UV
 * [Tuiles UV] Basculer l’outil de peinture vers le canal unique par défaut pour les projets de Tuile UV
 * [Tuiles UV] Nouveau bouton dans la barre d’outils contextuelle pour ignorer les Tuiles UV masquées lors de la peinture
-* [Tuiles UV][Pile de calques] Nouvelles icônes de pile de calques pour améliorer les performances
-* [Tuiles UV][Pile de calques] Amélioration des icônes Peinture et Fond dans la barre d’outils
-* [Masque de Tuile UV][vue 2D] Permet d’inclure ou d’exclure plusieurs Tuiles UV à la fois (clic gauche, CTRL+clic gauche)
+* [Tuiles UV]&#x200B;[Pile de calques] Nouvelles icônes de pile de calques pour améliorer les performances
+* [Tuiles UV]&#x200B;[Pile de calques] Amélioration des icônes Peinture et Fond dans la barre d’outils
+* [Masque de Tuile UV]&#x200B;[vue 2D] Permet d’inclure ou d’exclure plusieurs Tuiles UV à la fois (clic gauche, CTRL+clic gauche)
 * [Masque de Tuile UV] Nouveau masque de Tuile UV à inclure, exclure les carreaux par calque avec une nouvelle icône
-* [Masque de Tuile UV][Pile de calques] Affichez le nombre de Tuiles UV dans l’icône du masque de Tuile UV lorsque toutes ne sont pas incluses
-* [Masque de Tuile UV][2D/vue 3D] Ajoutez un effet de survol pour visualiser les Tuiles UV sous le curseur
-* [Tuiles UV][Bakers] Permettre de sélectionner et de baker des Tuiles UV spécifiques
-* [Tuiles UV][Bakers] Ajout d’options de sélection pour les Jeux de textures/Tuiles UV
-* [Tuiles UV][Bakers] Option de menu contextuel permettant de sélectionner des Tuiles UV dans un Jeu de textures
-* [Tuiles UV][Bakers] Permet une sélection rapide dans le Jeu de textures/les Tuiles UV en faisant glisser
-* [Tuiles UV][Bakers] Remplacez les boutons « Tous » et « Aucun » dans les Maps de maillage par des options de sélection plus explicites
-* [Tuiles UV][Bakers] Afficher le nombre de textures à baker
-* [Tuiles UV][Exporter] Autoriser à sélectionner et exporter des Tuiles UV spécifiques
-* [Tuiles UV][Exportation] Permet de sélectionner rapidement des Tuiles UV en les faisant glisser
-* [Tuiles UV][Exportation] Ajouter des options de menu déroulant pour les Tuiles UV
-* [Tuiles UV][Exportation] Rendre certains paramètres prédéfinis d’exportation indisponibles s’ils ne fonctionnent pas avec les Tuiles UV (Adobe Dimension, Sketchfab, glTF, USD)
-* [Tuiles UV][Contenu] Mettez à jour les paramètres prédéfinis d’exportation pour utiliser la nouvelle balise $udim
+* [Masque de Tuile UV]&#x200B;[Pile de calques] Affichez le nombre de Tuiles UV dans l’icône du masque de Tuile UV lorsque toutes ne sont pas incluses
+* [Masque de Tuile UV]&#x200B;[2D/vue 3D] Ajoutez un effet de survol pour visualiser les Tuiles UV sous le curseur
+* [Tuiles UV]&#x200B;[Bakers] Permettre de sélectionner et de baker des Tuiles UV spécifiques
+* [Tuiles UV]&#x200B;[Bakers] Ajout d’options de sélection pour les Jeux de textures/Tuiles UV
+* [Tuiles UV]&#x200B;[Bakers] Option de menu contextuel permettant de sélectionner des Tuiles UV dans un Jeu de textures
+* [Tuiles UV]&#x200B;[Bakers] Permet une sélection rapide dans le Jeu de textures/les Tuiles UV en faisant glisser
+* [Tuiles UV]&#x200B;[Bakers] Remplacez les boutons « Tous » et « Aucun » dans les Maps de maillage par des options de sélection plus explicites
+* [Tuiles UV]&#x200B;[Bakers] Afficher le nombre de textures à baker
+* [Tuiles UV]&#x200B;[Exporter] Autoriser à sélectionner et exporter des Tuiles UV spécifiques
+* [Tuiles UV]&#x200B;[Exportation] Permet de sélectionner rapidement des Tuiles UV en les faisant glisser
+* [Tuiles UV]&#x200B;[Exportation] Ajouter des options de menu déroulant pour les Tuiles UV
+* [Tuiles UV]&#x200B;[Exportation] Rendre certains paramètres prédéfinis d’exportation indisponibles s’ils ne fonctionnent pas avec les Tuiles UV (Adobe Dimension, Sketchfab, glTF, USD)
+* [Tuiles UV]&#x200B;[Contenu] Mettez à jour les paramètres prédéfinis d’exportation pour utiliser la nouvelle balise $udim
 * [Tuiles UV] Amélioration des rapports d’erreurs lors de l’importation de maillages avec des Îlots UV qui se chevauchent
 * [Tuiles UV] Tuiles UV compatibles dans Iray
-* [Tuiles UV][Scripts] Ajout de la documentation d’exportation de Tuile UV de données au document Python
+* [Tuiles UV]&#x200B;[Scripts] Ajout de la documentation d’exportation de Tuile UV de données au document Python
 * Performance
 * [Performances] Nouveau bouton dans la barre d’outils contextuelle pour suspendre le calcul du moteur en cours de travail (MAJ+ECHAP)
 * [Performances] Ouverture plus rapide du projet en retardant le calcul du cache de Jeu de textures
 * [Performance] N’attendez pas que les maps de maillage se chargent lors de l’ouverture du projet
-* [Performances][2D/vue 3D] Ne calculez pas la couche de masque dans viewport lorsqu’elle n’est pas utilisée
+* [Performances]&#x200B;[2D/vue 3D] Ne calculez pas la couche de masque dans viewport lorsqu’elle n’est pas utilisée
 * [Performances] Ne bloquez pas l’application lors du chargement des maps de maillage affichées dans les viewports
 * [Performances] Amélioration de la vitesse d’enregistrement incrémentielle lors de l’enregistrement d’un projet
-* [Performances][Bakers] Modifiez les paramètres de dilatation par défaut pour améliorer le gain de temps et la taille du projet
-* [Performances][Bakers] Passez en niveaux de gris sur des Bakers spécifiques pour améliorer le gain de temps et la taille du projet
-* [Performances][Exportation] Améliorer les performances du moteur pour exporter plus rapidement les textures
-* [Performances][Exportation] Améliorer la réactivité lors de l’ouverture de la boîte de dialogue d’exportation avec de nombreux Jeux de textures
-* [Performances][Exportation] Améliorer les performances lors du passage à l’onglet « Liste des exportations »
-* [Performances][Iray] Réduction du temps de démarrage de l’Iray
+* [Performances]&#x200B;[Bakers] Modifiez les paramètres de dilatation par défaut pour améliorer le gain de temps et la taille du projet
+* [Performances]&#x200B;[Bakers] Passez en niveaux de gris sur des Bakers spécifiques pour améliorer le gain de temps et la taille du projet
+* [Performances]&#x200B;[Exportation] Améliorer les performances du moteur pour exporter plus rapidement les textures
+* [Performances]&#x200B;[Exportation] Améliorer la réactivité lors de l’ouverture de la boîte de dialogue d’exportation avec de nombreux Jeux de textures
+* [Performances]&#x200B;[Exportation] Améliorer les performances lors du passage à l’onglet « Liste des exportations »
+* [Performances]&#x200B;[Iray] Réduction du temps de démarrage de l’Iray
 * Autre
 * [Bakers] Ajouter des options de sélection pour les Jeux de textures
 * Déplacer la gestion de l’instance de shader vers les paramètres de Jeu de textures
@@ -2236,15 +2236,15 @@ Résumé : **Correctif**
 
 **Fixe :**
 
-* [Crash][Moteur] Crash lors de la tentative d’effacement et de remplacement de couches existantes
+* [Crash]&#x200B;[Moteur] Crash lors de la tentative d’effacement et de remplacement de couches existantes
 * [Crash] Modification du shader après avoir peint un masque dans un calque de matériau
-* crashs [Crash][Moteur] avec des projets lourds
+* crashs [Crash]&#x200B;[Moteur] avec des projets lourds
 * [Baker] La correspondance par nom ne fonctionne pas avec OBJ exporté à partir de zBrush
-* Les Textures [Displacement][SVT] ne s’affichent pas à l’ouverture du projet lorsque le displacement est activé
+* Les Textures [Displacement]&#x200B;[SVT] ne s’affichent pas à l’ouverture du projet lorsque le displacement est activé
 * [Export] Certaines textures sont exportées en gris uniforme
 * [Export] Les Jeux de textures désactivés ne doivent pas être exportés pour les paramètres prédéfinis d&#39;exportation Dimension et Sketchfab
-* [Scripting][JavaScript] Crash lors de l’utilisation de l’API JavaScript pour accéder à la configuration d’exportation dans l’événement onProjectOpened
-* [Scripting][JavaScript] onExportFinished() n’est pas appelé après une exportation
+* [Scripting]&#x200B;[JavaScript] Crash lors de l’utilisation de l’API JavaScript pour accéder à la configuration d’exportation dans l’événement onProjectOpened
+* [Scripting]&#x200B;[JavaScript] onExportFinished() n’est pas appelé après une exportation
 
 ### 6.1.2 (2020.1.2)
 
@@ -2256,9 +2256,9 @@ Résumé : **Correctif de bug avec mise à jour des Substances Engine et des Bak
 * [Baker] Mise à jour vers la version la plus récente
 * [Bakers] Nouvelle méthode d&#39;échantillonnage dans les bakers Ambient occlusion, Courbure, Thickness
 * Mise à jour vers la version la plus récente de la Substance Engine
-* [Scripting][Python] Autoriser la création de ResourceID pour les ressources du projet
-* [Scripting][Python] Autoriser l&#39;interrogation des informations de canal
-* [Scripting][Python] Ajout de fonctions dryrun et callback pour simuler l’exportation de textures
+* [Scripting]&#x200B;[Python] Autoriser la création de ResourceID pour les ressources du projet
+* [Scripting]&#x200B;[Python] Autoriser l&#39;interrogation des informations de canal
+* [Scripting]&#x200B;[Python] Ajout de fonctions dryrun et callback pour simuler l’exportation de textures
 
 **Fixe :**
 
@@ -2266,17 +2266,17 @@ Résumé : **Correctif de bug avec mise à jour des Substances Engine et des Bak
 * [Bakers] Erreur lors de l’Ambient occlusion du baking avec Optix en l’absence de poly élevé
 * [Traits dynamiques] Décalage lors du chargement d’un Jeu de textures spécifique
 * [Export] Ne doit pas exporter les jeux de textures désactivés pour USD, glTF
-* [Scripting][JavaScript] Impossible de modifier les nouveaux paramètres de baker de Courbure
-* [Scripting][JavaScript] alg.texturesets.addChannel() ne renvoie pas d’erreur dans certains cas
-* [Script][JavaScript] Erreur typographique dans la documentation de l’API JavaScript pour setProjectExportOptions()
-* [Scripts][JavaScript] Exporte toujours tous les jeux de textures
-* [Scripting][Python] sys.executable renvoie un chemin vers python.exe au lieu de Substance Painter
+* [Scripting]&#x200B;[JavaScript] Impossible de modifier les nouveaux paramètres de baker de Courbure
+* [Scripting]&#x200B;[JavaScript] alg.texturesets.addChannel() ne renvoie pas d’erreur dans certains cas
+* [Script]&#x200B;[JavaScript] Erreur typographique dans la documentation de l’API JavaScript pour setProjectExportOptions()
+* [Scripts]&#x200B;[JavaScript] Exporte toujours tous les jeux de textures
+* [Scripting]&#x200B;[Python] sys.executable renvoie un chemin vers python.exe au lieu de Substance Painter
 * Cache de texture non compatible avec le système d’exploitation Mac et Windows/Linux
 * [Livelink UE4] Seul le dernier matériau est utilisé pour tous les jeux de textures d&#39;un maillage combiné
 
 **Problèmes Connus :**
 
-* [Export][Dimension][Skecthfab] Ne doit pas exporter les jeux de textures désactivés
+* [Export]&#x200B;[Dimension]&#x200B;[Skecthfab] Ne doit pas exporter les jeux de textures désactivés
 * [Crash] Changement de shader après avoir peint un masque dans un calque de matériau
 
 ### 6.1.1 (2020.1.1)
@@ -2296,15 +2296,15 @@ Résumé : **Correctif**
 * [Exportation] L’annulation de l’exportation génère un mappage vide supplémentaire inattendu
 * [Exportation] Correction des paramètres prédéfinis d’exportation virtuelle
 * [Python] La variable env. PYTHONPATH n&#39;est pas prise en compte
-* [Python][Exportation] L’annulation de l’exportation via Python renvoie une erreur d’exception
-* [Python][Export] export\_project\_textures résultat incorrect avec le format de fichier psd
+* [Python]&#x200B;[Exportation] L’annulation de l’exportation via Python renvoie une erreur d’exception
+* [Python]&#x200B;[Export] export\_project\_textures résultat incorrect avec le format de fichier psd
 * [Bakers] Crash sous Linux avec GPU raytracings
 
 **Problèmes Connus :**
 
 * [JavaScript] Impossible de modifier les nouveaux paramètres de baker de Courbure
-* [JavaScript][Exporter] Exporte toujours tous les jeux de textures
-* [Export][USD] Ne doit pas exporter les jeux de textures désactivés
+* [JavaScript]&#x200B;[Exporter] Exporte toujours tous les jeux de textures
+* [Export]&#x200B;[USD] Ne doit pas exporter les jeux de textures désactivés
 * [Crash] Changement de shader après avoir peint un masque dans un calque de matériau
 
 ### 6.1.0 (2020.1.0)
@@ -2316,49 +2316,49 @@ Résumé : **version majeure avec une nouvelle texture et un exporteur de mailla
 
 * Nouvel exporteur de texture et de maillage
 * [Export] Nouvelle interface exporteuse
-* [Exporter][Onglet Exporter] Autoriser la sélection des canaux de mappage exportés par Jeu de textures
-* [Exporter][Onglet Exporter] Permet de modifier la taille de Jeu de textures de tous les Jeux de textures en une seule action
-* [Exporter][Onglet Exporter] Autoriser un modèle différent par Jeu de textures (sauf pour USD, glTF, Sketchfab et Dimension)
-* [Exporter][Onglet Exporter] Activation et désactivation rapides des mappages et des Jeux de textures
-* [Exportation][Onglet Exportation] La résolution d’exportation 8 192 x 8 192 n’est plus expérimentale
-* [Exporter][Onglet Exporter] Autoriser la modification du format de fichier et du nombre de bits par pixel par mappage
-* [Exporter][Onglet Exporter] Autoriser la réinitialisation des valeurs des paramètres par défaut
-* [Exporter][Onglet Exporter] Autoriser l’enregistrement des paramètres sans exportation
-* [Exporter][Onglet Modèles de sortie] Renommez l’onglet Configuration en onglet Modèles de sortie
-* [Exporter][Onglet Modèles de sortie] Autoriser la définition du format de fichier et du nombre de bits par pixel par mappage prédéfini
-* [Exportation][Onglet Liste des exportations] Nouvel onglet Aperçu pour résumer et afficher le processus d’exportation
+* [Exporter]&#x200B;[Onglet Exporter] Autoriser la sélection des canaux de mappage exportés par Jeu de textures
+* [Exporter]&#x200B;[Onglet Exporter] Permet de modifier la taille de Jeu de textures de tous les Jeux de textures en une seule action
+* [Exporter]&#x200B;[Onglet Exporter] Autoriser un modèle différent par Jeu de textures (sauf pour USD, glTF, Sketchfab et Dimension)
+* [Exporter]&#x200B;[Onglet Exporter] Activation et désactivation rapides des mappages et des Jeux de textures
+* [Exportation]&#x200B;[Onglet Exportation] La résolution d’exportation 8 192 x 8 192 n’est plus expérimentale
+* [Exporter]&#x200B;[Onglet Exporter] Autoriser la modification du format de fichier et du nombre de bits par pixel par mappage
+* [Exporter]&#x200B;[Onglet Exporter] Autoriser la réinitialisation des valeurs des paramètres par défaut
+* [Exporter]&#x200B;[Onglet Exporter] Autoriser l’enregistrement des paramètres sans exportation
+* [Exporter]&#x200B;[Onglet Modèles de sortie] Renommez l’onglet Configuration en onglet Modèles de sortie
+* [Exporter]&#x200B;[Onglet Modèles de sortie] Autoriser la définition du format de fichier et du nombre de bits par pixel par mappage prédéfini
+* [Exportation]&#x200B;[Onglet Liste des exportations] Nouvel onglet Aperçu pour résumer et afficher le processus d’exportation
 * [Maillage d’importation/exportation] Optimisation des performances du temps d’importation/exportation
 * [Maillage d’exportation] maillage d’exportation dans FBX
 * [Export Maillage] Export maillage avec displacement et tessellation
-* [Exporter le Maillage][Interface utilisateur] Nouveaux paramètres pour recalculer le vertex normal, appliquer la triangulation
+* [Exporter le Maillage]&#x200B;[Interface utilisateur] Nouveaux paramètres pour recalculer le vertex normal, appliquer la triangulation
 * [Exporter le Maillage] Exporter la topologie de maillage d’origine avec les nouveaux UV générés par le déplié automatique
 * Mise à jour de l’UV automatique avec plus de commandes
-* [UV][Interface utilisateur] Ajouter un paramètre pour activer l’UV automatique dans la fenêtre du nouveau projet
-* [UV][Interface utilisateur] Nouvelles options pour contrôler les étapes de déplié (seams, déplié, packing)
-* [UV][UI] Autoriser la conservation des seams de déplié/déplié/packing existants
-* [UV][Interface utilisateur] Nouvelles options pour recalculer entièrement les étapes de déplié
-* [UV][Interface utilisateur] Nouvelle option pour contrôler la taille de la marge (aucune, petite, moyenne et grande)
+* [UV]&#x200B;[Interface utilisateur] Ajouter un paramètre pour activer l’UV automatique dans la fenêtre du nouveau projet
+* [UV]&#x200B;[Interface utilisateur] Nouvelles options pour contrôler les étapes de déplié (seams, déplié, packing)
+* [UV]&#x200B;[UI] Autoriser la conservation des seams de déplié/déplié/packing existants
+* [UV]&#x200B;[Interface utilisateur] Nouvelles options pour recalculer entièrement les étapes de déplié
+* [UV]&#x200B;[Interface utilisateur] Nouvelle option pour contrôler la taille de la marge (aucune, petite, moyenne et grande)
 * Nouveaux Bakers
 * [Bakers] Remplacer l&#39;ancienne Courbure par une nouvelle Courbure du maillage
 * [Bakers] Option Ajouter la correspondance par nom pour ignorer la face arrière dans le baker « Ambient occlusion »
 * [Baker] Ajouter une option de plan de sol dans le baker « Ambient occlusion »
 * Nouvelle API de script Python (3.7.6)
-* [Python][UI] Nouveau menu de script pour Python
-* [Python][UI] Nouvelle documentation Python dans le menu Aide
+* [Python]&#x200B;[UI] Nouveau menu de script pour Python
+* [Python]&#x200B;[UI] Nouvelle documentation Python dans le menu Aide
 * [Python] Exposer les modules Substance Painter Python : substance\_painter, alg, display, project.setting, project, texturesets, ui
 * [Python] Exposer le nouveau module Python « substance\_painter »
 * [Python] Exposer un nouveau sous-module Python : alg, display, log, project, resource, texturesets, ui
 * [Python] Récepteur des modifications de projet
 * [Python] Nouveaux exemples dans la documentation Python
-* [JavaScript][UI] Menu des plug-ins remplacé par JavaScript
+* [JavaScript]&#x200B;[UI] Menu des plug-ins remplacé par JavaScript
 * [Viewport] Autoriser la création d’une projection de décalcomanie en faisant glisser/déposer + ALT une ressource de l’étagère
 * Nouveau contenu
 * [Contenu] 5 nouveaux matériaux de décalcomanie de la Substance Source
 * [Contenu] Ajout de nouveaux modèles de projet et de paramètres prédéfinis d’exportation pour le rendu Maxwell
 * [Contenu] Ajout d’un modèle de projet pour l’exportation Keyshot 9
 * [Contenu] Mise à jour du paramètre prédéfini d’exportation Keyshot 9 pour prendre en charge le displacement et l’emissive
-* [Contenu][Exporteur] Mise à jour de tous les paramètres prédéfinis d’exportation pour les faire correspondre aux dernières versions des moteurs de jeu et des moteurs de rendu
-* [Contenu][Exporteur] Mise à jour des fichiers de paramètres prédéfinis d’exportation pour utiliser de nouveaux paramètres de format et de dithering
+* [Contenu]&#x200B;[Exporteur] Mise à jour de tous les paramètres prédéfinis d’exportation pour les faire correspondre aux dernières versions des moteurs de jeu et des moteurs de rendu
+* [Contenu]&#x200B;[Exporteur] Mise à jour des fichiers de paramètres prédéfinis d’exportation pour utiliser de nouveaux paramètres de format et de dithering
 * [Contenu] Nouveaux modèles et nuanceurs prenant en charge VRay matériau (VRayMtl)
 * [Pile de calques] Autoriser la suppression des effets de calque à l’aide de l’icône de corbeille ou du raccourci du clavier Supprimer
 * Supprimer la Substance Source du plug-in (utiliser le lanceur avec la fonctionnalité « envoyer à »)
@@ -2370,7 +2370,7 @@ Résumé : **version majeure avec une nouvelle texture et un exporteur de mailla
 * [Bakers] Le paramètre « Enregistrer le fichier de scène prétraité » ne fonctionne plus
 * [Projection Planaire] La Projection ne fonctionne pas sur les maillages avec des UV répétitifs
 * [Décalcomanie] Différence de comportement dans la couche normale lors de l’utilisation de différents modes de projection de calque de remplissage
-* [Doigt][Clone] Un artefact peut apparaître lorsque vous peignez dans le masque
+* [Doigt]&#x200B;[Clone] Un artefact peut apparaître lorsque vous peignez dans le masque
 * [Moteur] Crash avec contenu de calque spécifique
 * [Moteur] crash aléatoire lors de la peinture dans certains cas
 * [Point d’ancrage] La référence à un masque vide renvoie toujours du blanc.
@@ -2381,9 +2381,9 @@ Résumé : **version majeure avec une nouvelle texture et un exporteur de mailla
 
 **Problèmes Connus :**
 
-* [Scripting][JavaScript] Impossible de modifier les nouveaux paramètres de baker de Courbure
+* [Scripting]&#x200B;[JavaScript] Impossible de modifier les nouveaux paramètres de baker de Courbure
 * [Bakers] Crash sous Linux avec GPU raytracings
-* [Export][USD] Ne doit pas exporter les jeux de textures désactivés
+* [Export]&#x200B;[USD] Ne doit pas exporter les jeux de textures désactivés
 * [Crash] Changement de shader après avoir peint un masque dans un calque de matériau
 
 ## Version 5
@@ -2407,7 +2407,7 @@ Résumé : **Correctif avec mise à niveau vers Iray 2019.3**
 * [Tablette] Mauvaise détection lors du déplacement des curseurs
 * [Raccourcis] Impossible de configurer un raccourci avec « Ctrl+Alt+Clic de souris »
 * [Étagère] Impossible de voir l’info-bulle des ressources lors de l’utilisation d’une tablette stylet
-* [vue 2D][Exporter] Le paramètre prédéfini vue 2D ne prend pas en compte les informations normales
+* [vue 2D]&#x200B;[Exporter] Le paramètre prédéfini vue 2D ne prend pas en compte les informations normales
 * Blocage lorsque vous peignez en alignement UV avec certains pinceaux
 * Peindre sous un filtre crée un artefact sur le contour continu
 * [Viewport] Cache de texture incorrect dans le viewport après la réimportation d&#39;un maillage
@@ -2488,28 +2488,28 @@ Résumé : **version majeure avec amélioration de l’expérience utilisateur e
 * [UV] déplié automatique en Substance Painter lorsqu&#39;aucun UV n&#39;est présent ou des UV partiels sont dépliés
 * [UV] Un paramètre global pour l’activer et le désactiver
 * [UV] Version consignée dans le fichier journal
-* [UV][Interface utilisateur] Indiquer la progression de l’UV
+* [UV]&#x200B;[Interface utilisateur] Indiquer la progression de l’UV
 * [UI] Nouveaux paramètres dans la barre d’outils contextuelle pour sélectionner l’aperçu du pinceau : aperçu complet, contour du pinceau et réticule
 * [Outil] Nouveau mode de fusion avancé dans la section alpha : Lighten (maximum) en plus de Normal
 * [Pile de calques] Option de correction gamma par calque pour alpha ou masque (menu contextuel)
-* [Pile de calques][Interface utilisateur] Ajouter une icône « i » lorsque le gamma d’un calque alpha est corrigé
-* [Tablette][Outil] Exposez une pression minimale pour la taille et le débit
-* [Tablette][Interface utilisateur] Nouveau paramètre dans la barre d’outils contextuelle pour sélectionner la pression de la courbe : linéaire, facile à entrer, facile à sortir
-* [Tablette][UX] Ajouter Ctrl+Alt+clic pour faire défiler
+* [Pile de calques]&#x200B;[Interface utilisateur] Ajouter une icône « i » lorsque le gamma d’un calque alpha est corrigé
+* [Tablette]&#x200B;[Outil] Exposez une pression minimale pour la taille et le débit
+* [Tablette]&#x200B;[Interface utilisateur] Nouveau paramètre dans la barre d’outils contextuelle pour sélectionner la pression de la courbe : linéaire, facile à entrer, facile à sortir
+* [Tablette]&#x200B;[UX] Ajouter Ctrl+Alt+clic pour faire défiler
 * Importation de paramètres prédéfinis de pinceau Photoshop (format ABR)
 * [ABR] Prise en charge des paramètres de forme
 * [ABR] Prise en charge des paramètres de dynamique de forme
 * [ABR] Prise en charge des paramètres de transfert
 * [ABR] Prise en charge des paramètres de diffusion
-* [ABR][Traits dynamiques] Prise en charge de l’arrondi et de la symétrie
-* [ABR][Étagère] Exposer la structure du dossier des pinceaux dans l’éditeur de filtres
-* [ABR][Étagère] Icône Ajouter Photoshop dans les vignettes
-* [ABR][Étagère] Ajoutez la liste des paramètres non pris en charge dans la vignette détaillée ABR
-* [Outil][Traits dynamiques] Nouveau paramètre de contour dynamique pour contrôler le nombre de valeurs aléatoires à générer
-* [Outil][Interface utilisateur] Ajouter de nouveaux paramètres de distribution et d’axe pour la variation de diffusion
+* [ABR]&#x200B;[Traits dynamiques] Prise en charge de l’arrondi et de la symétrie
+* [ABR]&#x200B;[Étagère] Exposer la structure du dossier des pinceaux dans l’éditeur de filtres
+* [ABR]&#x200B;[Étagère] Icône Ajouter Photoshop dans les vignettes
+* [ABR]&#x200B;[Étagère] Ajoutez la liste des paramètres non pris en charge dans la vignette détaillée ABR
+* [Outil]&#x200B;[Traits dynamiques] Nouveau paramètre de contour dynamique pour contrôler le nombre de valeurs aléatoires à générer
+* [Outil]&#x200B;[Interface utilisateur] Ajouter de nouveaux paramètres de distribution et d’axe pour la variation de diffusion
 * [Raccourci] Ajouter Ctrl + Maj + B pour ouvrir la fenêtre de Baking
-* [UI][Menu] Ajoutez une entrée dans le menu « Modifier » pour ouvrir la fenêtre de Baking
-* [UI][Paramètres] Amélioration de l’alignement de la liste des raccourcis
+* [UI]&#x200B;[Menu] Ajoutez une entrée dans le menu « Modifier » pour ouvrir la fenêtre de Baking
+* [UI]&#x200B;[Paramètres] Amélioration de l’alignement de la liste des raccourcis
 * [UI] Remplacement des icônes de contrôle de pression (taille et débit) par des boutons d’activation/de désactivation
 * [Viewport] Permettre de mettre au point le viewport 2D et 3D séparément
 * Mise à jour de QT 5.12.5
@@ -2540,9 +2540,9 @@ Résumé : **version majeure avec amélioration de l’expérience utilisateur e
 * [Tablette] Les raccourcis permettant de modifier les pinceaux avec stylet entraînent dans de rares cas des performances réduites
 * [Tablette] Décalage lors de la peinture sur un calque spécifique
 * Des textures floues peuvent survenir dans de rares cas lors du changement de viewport
-* [UI][Substance] Les entrées d’image ne sont pas toujours affichées
+* [UI]&#x200B;[Substance] Les entrées d’image ne sont pas toujours affichées
 * Nettoyer ne supprime pas les paramètres prédéfinis importés dans un projet depuis l’étagère
-* [Outil][Contour dynamique] Problème de performances lors de l’ajustement du nombre de cycles de tampons
+* [Outil]&#x200B;[Contour dynamique] Problème de performances lors de l’ajustement du nombre de cycles de tampons
 * Problèmes d’actualisation lors de la peinture en mode viewport 3D/2D dans de rares cas
 * Peindre un trait très long peut entraîner un gel
 * [Outil] Problème de performances lors de la peinture avec des traits dynamiques spécifiques
@@ -2581,7 +2581,7 @@ Résumé : **version de correctif**
 **Fixe :**
 
 * [Plugin] La source du plug-in ne fonctionne pas
-* [MacOS][Shader] Mac OS 10.14.5 et AMD : la superposition de matériaux ne fonctionne pas comme prévu
+* [MacOS]&#x200B;[Shader] Mac OS 10.14.5 et AMD : la superposition de matériaux ne fonctionne pas comme prévu
 
 **Problèmes Connus :**
 
@@ -2612,7 +2612,7 @@ Résumé : **version de correctif**
 
 **Fixe :**
 
-* [Mac][USD] Impossible d’ouvrir les fichiers USDZ exportés depuis MacOS
+* [Mac]&#x200B;[USD] Impossible d’ouvrir les fichiers USDZ exportés depuis MacOS
 * [Jeu de textures] Impossible d’isoler un jeu de textures avec le modificateur ALT
 * [Étagère] Les paramètres prédéfinis, les Matériaux adaptables et les Masques adaptables sont toujours modifiés à la fermeture de l’application
 * [Pile de calques] Impossible de sélectionner l&#39;effet après avoir supprimé un autre effet
@@ -2636,13 +2636,13 @@ Résumé : **version majeure avec mises à jour des bakers en termes de performa
 
 * [Bakers] Prise en charge supplémentaire des GPU raytracings avec DXR et OptiX (Ambient occlusion, Thickness)
 * [Bakers] Optimisations et accélérations pour le Raytracing CPU
-* [Baker][Mode Vis][UI] Nouveau mode de visualisation de baking dans viewport
-* [Bakers][Préférences][Interface utilisateur] Nouvelle option de baking pour l’activation/la désactivation des GPU raytracings
-* [Bakers][Interface utilisateur] Modification de la boîte de dialogue de la barre de progression
+* [Baker]&#x200B;[Mode Vis]&#x200B;[UI] Nouveau mode de visualisation de baking dans viewport
+* [Bakers]&#x200B;[Préférences]&#x200B;[Interface utilisateur] Nouvelle option de baking pour l’activation/la désactivation des GPU raytracings
+* [Bakers]&#x200B;[Interface utilisateur] Modification de la boîte de dialogue de la barre de progression
 * [Bakers] Amélioration des messages d&#39;avertissement et d&#39;erreur
 * [Bakers] Autoriser une annulation plus réactive du processus de baking
 * [Baker] Rouvrir la fenêtre baker après avoir cliqué sur Annuler
-* [Proj][UX] Amélioration de l&#39;utilisation du manipulateur de rotation
+* [Proj]&#x200B;[UX] Amélioration de l&#39;utilisation du manipulateur de rotation
 * [Paramètres] Option pour améliorer les performances en réduisant la résolution de viewport pour les écrans HDPI
 * [Scripting] Modifier la résolution du jeu de textures
 * [Scripting] Obtenir le jeu de textures sélectionné
@@ -2690,7 +2690,7 @@ Problème : **correctif avec 2 nouvelles fonctionnalités**
 * [TextureSet] Crash lorsque vous cliquez entre les masques
 * Le Displacement [SVT] ne s’affiche pas correctement et scintille dans certains cas
 * [Alembic] Crash avec maillage utilisant des normales de point au lieu des normales de vertex
-* [Alembic][Journal] Signaler une erreur dans le journal si le fichier Alembic n’est pas pris en charge lors de l’importation
+* [Alembic]&#x200B;[Journal] Signaler une erreur dans le journal si le fichier Alembic n’est pas pris en charge lors de l’importation
 
 **Problèmes Connus :**
 
@@ -2718,9 +2718,9 @@ Résumé : **Correctif**
 **Fixe :**
 
 * [Substance] Visible Si n&#39;est pas pris en compte pour les Images d&#39;entrée
-* [SVT][Moteur] La modification de la résolution de jeu de textures entraîne un crash dans certains cas
+* [SVT]&#x200B;[Moteur] La modification de la résolution de jeu de textures entraîne un crash dans certains cas
 * [Moteur] Des textures noires aléatoires apparaissent dans certains cas
-* [Pile de calques][Interface utilisateur] Le basculement d’un masque avec la touche MAJ permet de sélectionner plusieurs calques en même temps
+* [Pile de calques]&#x200B;[Interface utilisateur] Le basculement d’un masque avec la touche MAJ permet de sélectionner plusieurs calques en même temps
 * [Pile de calques] L’opacité n’a aucun effet sur l’effet de Peinture avec le mode de fusion Transfert
 * [Pile de calques] L’entrée Height à la normale du filtre ne se met pas à jour correctement avec le contour de la gomme
 * [LayersStack] Crash lors de l’annulation de la dépose d’un masque adaptable
@@ -2749,38 +2749,38 @@ Résumé : **Contour dynamique avec nouveau contenu dédié, Displacement et Tes
 * [Contour dynamique] Tenir compte du paramètre $time
 * [Trait dynamique] Générer un nouveau paramètre $randomseed par trait et par tampon
 * [Contour dynamique] Démarrage d’un index de contour dynamique à partir d’un nombre aléatoire
-* [Contour dynamique][Étagère] Aide à la recherche d’une ressource de contour dynamique avec une nouvelle icône dédiée
+* [Contour dynamique]&#x200B;[Étagère] Aide à la recherche d’une ressource de contour dynamique avec une nouvelle icône dédiée
 * Displacement et tessellation dans le viewport en temps réel
 * Displacement et tessellation en Iray
-* [Paramètres de Shader][Interface utilisateur] Nouvel onglet pour contrôler le displacement et la tessellation
+* [Paramètres de Shader]&#x200B;[Interface utilisateur] Nouvel onglet pour contrôler le displacement et la tessellation
 * [Pile de calques] Nouvel effet CompareMask : générez un masque en comparant deux couches
-* [Pile de calques][Interface utilisateur] Nouvelle entrée dans le menu contextuel « Ajouter un masque avec une combinaison d’heights » pour insérer un effet CompareMask
+* [Pile de calques]&#x200B;[Interface utilisateur] Nouvelle entrée dans le menu contextuel « Ajouter un masque avec une combinaison d’heights » pour insérer un effet CompareMask
 * [Symétrie] Nouveau mode de symétrie : peinture radiale
 * [Paramètres de Symétrie] Développez les sections « Paramètres » et « Affichage »
-* [Paramètres de Symétrie][Interface utilisateur] Aperçu pour la peinture radiale
+* [Paramètres de Symétrie]&#x200B;[Interface utilisateur] Aperçu pour la peinture radiale
 * Exposez deux nouveaux modes de projection : planaire et sphérique
 * [Proj] Nouveau mode de recadrage de forme pour toutes les projections
 * [Proj] Mode Planaire avec nouveau manipulateur : Outil Surface
-* [Proj][Raccourci] Raccourci MAJ+W pour l’outil Surface
+* [Proj]&#x200B;[Raccourci] Raccourci MAJ+W pour l’outil Surface
 * [Proj] Masquage de projection Planaire avec culling de profondeur et backface culling
 * [Manipulateur] Amélioration du manipulateur de rotation sur les trois axes pour triplanar
-* [Outil][UX] Le fait de cliquer en maintenant la touche Alt enfoncée sur un canal permet de le mettre en avant (l’active ou désactive tous les autres)
+* [Outil]&#x200B;[UX] Le fait de cliquer en maintenant la touche Alt enfoncée sur un canal permet de le mettre en avant (l’active ou désactive tous les autres)
 * [Moteur] Mise à jour vers la dernière version de la Substance Engine
 * [Jeu de textures] Sélection multiple et modification de la résolution
 * [Jeu de textures] Activation et désactivation rapides des jeux de textures
 * [Jeu de textures] Combiner les options Solo et Toutes les options dans un nouveau menu
-* [Jeu de textures][Pile de calques] Nouvelle icône pour l’activation et la désactivation
-* [Pile de calques][UX] Insérer des effets au-dessus de ceux déjà sélectionnés
-* [Pile de calques][UI] Style de sélection de la vue de la pile de calques de reprise
+* [Jeu de textures]&#x200B;[Pile de calques] Nouvelle icône pour l’activation et la désactivation
+* [Pile de calques]&#x200B;[UX] Insérer des effets au-dessus de ceux déjà sélectionnés
+* [Pile de calques]&#x200B;[UI] Style de sélection de la vue de la pile de calques de reprise
 * [Pile de calques] Le mode de fusion des calques d’instance est désormais en mode Transfert par défaut
 * [Export] Option pour activer et désactiver dithering
 * [Module externe] Prise en charge du modificateur de précision pour les curseurs (MAJ)
-* [Plug-in][UI] Nouvelle icône pour l’enregistrement automatique
+* [Plug-in]&#x200B;[UI] Nouvelle icône pour l’enregistrement automatique
 * [Scripts] Répertorie le contenu d’un dossier
 * [Scripts] Autoriser la suppression de fichiers
 * [Scripting] Lire toutes les informations sur les piles, y compris les ressources utilisées
-* [Contenu][Contour dynamique] Nouveaux outils et paramètres prédéfinis de pinceau
-* [Contenu][Contour dynamique] Deux nouveaux dégradés procéduraux : Teinte du dégradé et Générateur de dégradé
+* [Contenu]&#x200B;[Contour dynamique] Nouveaux outils et paramètres prédéfinis de pinceau
+* [Contenu]&#x200B;[Contour dynamique] Deux nouveaux dégradés procéduraux : Teinte du dégradé et Générateur de dégradé
 * [Contenu] 11 nouveaux filtres : Peinture de pelage MatFx, gouttes d&#39;eau MatFx et plus encore
 * [Contenu] 7 nouveaux générateurs : Auto Stitcher, Couleur aléatoire UV, Densité UV et plus encore
 * [Contenu] 93 nouveaux alphas : nouveaux textes, flèches et diverses autres formes
@@ -2803,7 +2803,7 @@ Résumé : **Contour dynamique avec nouveau contenu dédié, Displacement et Tes
 **Problèmes Connus :**
 
 * Un double-clic sur le nom du jeu de textures le sélectionne avant de passer en mode de changement de nom
-* [Pile de calques][Interface utilisateur] Le basculement d’un masque avec la touche MAJ permet de sélectionner plusieurs calques en même temps
+* [Pile de calques]&#x200B;[Interface utilisateur] Le basculement d’un masque avec la touche MAJ permet de sélectionner plusieurs calques en même temps
 
 ## Version 4
 
@@ -2821,15 +2821,15 @@ Résumé : **correctif**
 
 * Le maillage disparaît parfois du viewport 3D (appuyez sur F pour réinitialiser la caméra)
 * Mettez à jour le programme de chargement de Substance Painter Sketchfab avec les nouveaux types de licence Sketchfab
-* [Import][glTF] Mauvaise gestion de la modulation de texture d&#39;entrée telle que définie dans les fichiers glTF
-* Dans certains cas, le plan de Sol [Importer][glTF] ne s&#39;affiche pas correctement lors de l&#39;importation glTF
-* [Export][USD] L’opacité ne fonctionne pas dans Arkit
-* [Export][USD] crashs d&#39;exportation USDz dans certains cas
-* [Export][USD] Exporter vers USD sans enregistrer les pistes vers le crash
-* [Export][USD] Mode de répétition incorrect pour les textures, mode de subdivision pour les maillages et types de sortie pour les nuanceurs
-* [Export][USD] Exportations fragmentées de certains jeux de textures seulement avec toute la géométrie
+* [Import]&#x200B;[glTF] Mauvaise gestion de la modulation de texture d&#39;entrée telle que définie dans les fichiers glTF
+* Dans certains cas, le plan de Sol [Importer]&#x200B;[glTF] ne s&#39;affiche pas correctement lors de l&#39;importation glTF
+* [Export]&#x200B;[USD] L’opacité ne fonctionne pas dans Arkit
+* [Export]&#x200B;[USD] crashs d&#39;exportation USDz dans certains cas
+* [Export]&#x200B;[USD] Exporter vers USD sans enregistrer les pistes vers le crash
+* [Export]&#x200B;[USD] Mode de répétition incorrect pour les textures, mode de subdivision pour les maillages et types de sortie pour les nuanceurs
+* [Export]&#x200B;[USD] Exportations fragmentées de certains jeux de textures seulement avec toute la géométrie
 * crash [Instance] lors de la tentative de suppression d’un calque d’instance rompu
-* [Régression][Exporter] Certaines cartes non exportées dans le nombre de bits par pixel choisi
+* [Régression]&#x200B;[Exporter] Certaines cartes non exportées dans le nombre de bits par pixel choisi
 * [Linux] Problème avec la bibliothèque libtbb.so.2
 
 **Problèmes Connus :**
@@ -2879,7 +2879,7 @@ Résumé : **Correctif**
 
 **Ajouté :**
 
-* [Symétrie][Viewport] La peinture sur Symétrie dans la Vue 2D est de retour et dispose désormais d’un aperçu du pinceau de duplication fixe
+* [Symétrie]&#x200B;[Viewport] La peinture sur Symétrie dans la Vue 2D est de retour et dispose désormais d’un aperçu du pinceau de duplication fixe
 
 **Fixe :**
 
@@ -2902,25 +2902,25 @@ Résumé : <b>mises à niveau du Viewport, exportation correcte de Vue 2D, nouve
 
 <b>Ajouté :</b>
 
-* [Lissage][Viewport] Nouveau filtrage antialiasing temporel pour viewport 3D (via les paramètres d’affichage)
+* [Lissage]&#x200B;[Viewport] Nouveau filtrage antialiasing temporel pour viewport 3D (via les paramètres d’affichage)
 * [Exporter] Exportez le contenu du viewport 2D en une seule texture
-* [Exportation][Dithering] Exposer le dithering à l’exportation
+* [Exportation]&#x200B;[Dithering] Exposer le dithering à l’exportation
 * [Pile de calques] Couleurs sur les calques et les dossiers
 * [Pile de calques] Activation et désactivation rapides de plusieurs calques et effets
 * [Pile de calques] Navigation plus facile pour les modes de fusion avec les touches haut et bas et le défilement de la souris
-* [Proj][UI] manipulateur de rotation supplémentaire sur les trois axes pour triplanar
-* [Proj][Raccourcis] - et + pour modifier la taille du manipulateur de Projection UV
+* [Proj]&#x200B;[UI] manipulateur de rotation supplémentaire sur les trois axes pour triplanar
+* [Proj]&#x200B;[Raccourcis] - et + pour modifier la taille du manipulateur de Projection UV
 * [Shader] Contrôle des paramètres de la couche revêtue avec des canaux dans le shader revêtu de PBR
 * [Substance] Exposer de nouvelles entrées de texture basées sur le maillage pour les filtres et les générateurs
-* [Symétrie][Viewport][Interface utilisateur] Décalage de la symétrie de contrôle avec les manipulateurs
-* [Symétrie][Barre d’outils contextuelle][Interface utilisateur] Nouveau panneau symétrie avec des options
+* [Symétrie]&#x200B;[Viewport]&#x200B;[Interface utilisateur] Décalage de la symétrie de contrôle avec les manipulateurs
+* [Symétrie]&#x200B;[Barre d’outils contextuelle]&#x200B;[Interface utilisateur] Nouveau panneau symétrie avec des options
 * [Symétrie] Nouveau mode d&#39;intersection de lignes de symétrie
 * [Symétrie] Nouveau curseur de duplication de symétrie
-* [Symétrie][Raccourcis] Q pour masquer et -, + pour modifier la taille et Maj pour contraindre
+* [Symétrie]&#x200B;[Raccourcis] Q pour masquer et -, + pour modifier la taille et Maj pour contraindre
 * [Journal] Amélioration des messages d’erreur en cas d’échec de l’exportation des textures
 * [Scripts] Autoriser à modifier ou à mettre à jour les ressources dans les paramètres d’affichage
 * [Scripts] Autoriser la création ou la suppression de canaux dans les Jeux de textures
-* [Contenu][Shaders] Ajoutez la prise en charge de l&#39;anisotropie avec un shader dédié (pbr-metal-rugueux-anisotropie-angle)
+* [Contenu]&#x200B;[Shaders] Ajoutez la prise en charge de l&#39;anisotropie avec un shader dédié (pbr-metal-rugueux-anisotropie-angle)
 * [Contenu] Mise à jour de la sphère de prévisualisation avec anisotropie et angle modifié
 * [Contenu] Mise à jour de la ligne d’arrêt matFx
 * [Contenu] Nouvelle numérisation de face transparente Texturing.XYZ
@@ -2929,23 +2929,23 @@ Résumé : <b>mises à niveau du Viewport, exportation correcte de Vue 2D, nouve
 * [Contenu] Nouvelle map d&#39;environnement : studio automobile neutre
 * [Contenu] Nouveau modèle de projet : PBR - Anisotropy angle de métallique rugosité (avec canaux d’anisotropie)
 * [Content] Nouveau modèle de projet : PBR - métallique rugosité Coated
-* [SVT][Moteur] Sparse Virtual Texture (SVT)
-* [SVT][Préférences][Interface utilisateur] Option d’accélération de la prise en charge matérielle SVT
-* [SVT][Journal] Informations supplémentaires sur la fonction de texturation virtuelle dispersée (par exemple, taille du disque)
-* [SVT][UI] Fenêtre de message au début si la taille du disque est trop faible pour le cache
-* [SVT][Préférences][UI] Emplacement du cache global de la Substance Painter de données
+* [SVT]&#x200B;[Moteur] Sparse Virtual Texture (SVT)
+* [SVT]&#x200B;[Préférences]&#x200B;[Interface utilisateur] Option d’accélération de la prise en charge matérielle SVT
+* [SVT]&#x200B;[Journal] Informations supplémentaires sur la fonction de texturation virtuelle dispersée (par exemple, taille du disque)
+* [SVT]&#x200B;[UI] Fenêtre de message au début si la taille du disque est trop faible pour le cache
+* [SVT]&#x200B;[Préférences]&#x200B;[UI] Emplacement du cache global de la Substance Painter de données
 * [SVT] Nouvelle variable d’environnement pour spécifier le chemin du cache de Substance Painter
 * [SVT] Nouvelle variable d’environnement pour activer l’accélération de la prise en charge matérielle SVT
 * [SVT] Détecter la prise en charge fragmentée par le matériel
-* [SVT][Dispersé matériel] Augmenter la version minimale du pilote pour le GPU Nvidia
-* [SVT][Shader][Viewport][UI] Avertir l’utilisateur si des artefacts sont présents avec une texture virtuelle dispersée à l’ouverture du projet
+* [SVT]&#x200B;[Dispersé matériel] Augmenter la version minimale du pilote pour le GPU Nvidia
+* [SVT]&#x200B;[Shader]&#x200B;[Viewport]&#x200B;[UI] Avertir l’utilisateur si des artefacts sont présents avec une texture virtuelle dispersée à l’ouverture du projet
 
 <b>Fixe :</b>
 
 * [Sélecteur de couleurs] Un curseur de peinture apparaît lorsque vous tentez de choisir une couleur
 * Le crash par sélection ou désélection de calques dans un ordre spécifique peut entraîner un crash
 * Crash lors du collage en tant qu’instance d’un calque avec un masque
-* crash [Canal utilisateur][Régression] lors du changement de nom du canal utilisateur
+* crash [Canal utilisateur]&#x200B;[Régression] lors du changement de nom du canal utilisateur
 * [Canal utilisateur] Aperçu du pinceau grisé
 * [Alembic] Un seul jeu de textures de plusieurs matériaux après l’importation
 * [Moteur] La texture exportée diffère de celle du viewport pour les tampons de pinceau
@@ -2955,7 +2955,7 @@ Résumé : <b>mises à niveau du Viewport, exportation correcte de Vue 2D, nouve
 * Les liens de map de maillage ne sont pas mis à jour correctement lors du rétablissement ou de l’instanciation des calques
 * [Substance] L&#39;espace colorimétrique UserData ne fonctionne pas sur le Maillage Baké Normal demandé comme entrée
 * Incompatibilité d&#39;association MDL lors de l&#39;utilisation de plusieurs instances de shaders
-* [Symétrie][Calque de remplissage] Plan de Symétrie et son manipulateur actif dans le Calque de remplissage
+* [Symétrie]&#x200B;[Calque de remplissage] Plan de Symétrie et son manipulateur actif dans le Calque de remplissage
 * [Viewport] Le point de pivot de la traduction n’est pas toujours mis à jour après avoir cliqué
 * [UI] Correction des icônes et suppression des espaces réservés pour les moniteurs HDPI
 
@@ -2989,8 +2989,8 @@ Résumé : **Correctif logiciel avec mise à jour du contenu, nouvelles fonction
 
 **Ajouté :**
 
-* [Contenu][Étagère] Ajouter un paramètre prédéfini étagère de la peau
-* [Contenu][étagère] Conversion de 19 normales de peau en matériaux pour la subsurface scattering
+* [Contenu]&#x200B;[Étagère] Ajouter un paramètre prédéfini étagère de la peau
+* [Contenu]&#x200B;[étagère] Conversion de 19 normales de peau en matériaux pour la subsurface scattering
 * [Scripts] Créer un modèle de projet à partir d’un projet ouvert
 * [Scripts] Obtenir/définir les paramètres d’exportation d’un projet ouvert
 * [Mises à jour] Possibilité de désactiver la fenêtre contextuelle de mise à jour automatique à partir des paramètres et des variables d’environnement
@@ -3002,11 +3002,11 @@ Résumé : **Correctif logiciel avec mise à jour du contenu, nouvelles fonction
 * [Affichage] Certaines cartes sont affichées en sRVB au lieu de sRVB
 * [Viewports] le focus de Maillage ne se comporte pas correctement
 * [vue 2D] Le projet avec une caméra cassée a des coques UV qui disparaissent
-* [SSS][Info-bulle] Les info-bulles de la subsurface scattering apparaissent dans le journal
+* [SSS]&#x200B;[Info-bulle] Les info-bulles de la subsurface scattering apparaissent dans le journal
 * Certains projets ne peuvent pas être ouverts dans 2018.2 et le message d’erreur ne peut pas enregistrer un package substance nulle
 * [Masque] La couleur de l’outil Peinture peut être bloquée dans certains cas lorsque vous travaillez dans un masque
 * [Matériau] Cartes n&#39;apparaissant pas dans des situations spécifiques
-* [Proj][Outils] Manipulateur actif avec un générateur
+* [Proj]&#x200B;[Outils] Manipulateur actif avec un générateur
 * [Substance] Groupes de paramètres de Substance manquants
 * [Scripting] Nom de logiciel incorrect dans la documentation
 * [UDIM] Pas d&#39;information dans le journal sur les coques UV sur les tuiles UV multiples
@@ -3036,50 +3036,50 @@ Résumé : **version estivale, prise en charge des subsurfaces scatterings, amé
 
 **Ajouté :**
 
-* [SSS][Viewport][Iray] subsurface scattering générique
+* [SSS]&#x200B;[Viewport]&#x200B;[Iray] subsurface scattering générique
 * [SSS] Synchronisation des paramètres MDL et de subsurface scattering
 * [SSS] Ajout d’une nouvelle couche en niveaux de gris nommée Diffusion
-* [SSS][Paramètres de Shader] Paramètre de type Diffusion pour la subsurface scattering (peau ou translucide)
-* [SSS][Paramètres de Shader] Paramètre d’échelle de diffusion pour la subsurface scattering
-* Paramètre de Scattering [SSS][Shader Settings] pour la subsurface scattering
-* [SSS][Paramètres d’affichage] Nombre d’échantillons de diffusion pour la subsurface scattering
-* [Shader][Iray] Intégration de subsurfaces scatterings MDL pour Iray
+* [SSS]&#x200B;[Paramètres de Shader] Paramètre de type Diffusion pour la subsurface scattering (peau ou translucide)
+* [SSS]&#x200B;[Paramètres de Shader] Paramètre d’échelle de diffusion pour la subsurface scattering
+* Paramètre de Scattering [SSS]&#x200B;[Shader Settings] pour la subsurface scattering
+* [SSS]&#x200B;[Paramètres d’affichage] Nombre d’échantillons de diffusion pour la subsurface scattering
+* [Shader]&#x200B;[Iray] Intégration de subsurfaces scatterings MDL pour Iray
 * [Shader] Mise à jour de Shader via le programme de mise à jour des ressources
 * [Shader] Mise à jour de l’API et de la documentation du journal des modifications
-* [Propriétés de l&#39;outil][Proj] Nouveaux paramètres pour la projection triplanaire
-* [Viewport][Proj] Contrôle les propriétés du Calque de remplissage dans la vue 3D directement avec manipulateur (projection triplanaire)
-* [Raccourcis][Proj] Nouveaux raccourcis Q, W, E, R, T pour les manipulateurs de projection triplanaire
-* [Viewport][Proj] Contrôle des propriétés de Calque de remplissage dans Vue 2D directement avec manipulateur (Projection UV)
-* [Raccourcis][Proj] Nouveau raccourci Q pour les manipulateurs de Projection UV
-* [Contextual Toolbar][Proj] manipulateurs De projection triplanaire De Contrôle
-* [Contextual Toolbar][Proj] manipulateurs De Projection UV De Contrôle
+* [Propriétés de l&#39;outil]&#x200B;[Proj] Nouveaux paramètres pour la projection triplanaire
+* [Viewport]&#x200B;[Proj] Contrôle les propriétés du Calque de remplissage dans la vue 3D directement avec manipulateur (projection triplanaire)
+* [Raccourcis]&#x200B;[Proj] Nouveaux raccourcis Q, W, E, R, T pour les manipulateurs de projection triplanaire
+* [Viewport]&#x200B;[Proj] Contrôle des propriétés de Calque de remplissage dans Vue 2D directement avec manipulateur (Projection UV)
+* [Raccourcis]&#x200B;[Proj] Nouveau raccourci Q pour les manipulateurs de Projection UV
+* [Contextual Toolbar]&#x200B;[Proj] manipulateurs De projection triplanaire De Contrôle
+* [Contextual Toolbar]&#x200B;[Proj] manipulateurs De Projection UV De Contrôle
 * [Propriétés de l’outil] Désactiver la répétition de texture avec l’outil projection et Pochoir
 * [Pochoir] Utilisation d’images non carrées avec l’outil projection/pochoir
 * [Pochoir] Autoriser le contrôle du mode répétition dans la fenêtre Propriétés
 * [Pochoir] Le zoom n’est pas centré sur un pochoir autre qu’un répétition
 * [Caméras] Importation de caméras depuis Maya, Max, Blender, Modo, DAE
-* [Caméras][Viewport] Sélectionner et contrôler les caméras importées dans viewport
-* [Caméras][Iray] Sélectionner et contrôler les caméras importées dans Iray
-* [Caméras][Interface utilisateur][Nouveau projet][Configuration du projet] L’option Importer des caméras est cochée par défaut
-* [Caméras][Raccourcis] Ajoutez des raccourcis pour basculer entre les caméras
-* [Caméras][Viewport] Ajouter un cadre dans le viewport
-* [Caméras][Paramètres du Viewport] Contrôle de l’opacité du cadre
-* [Caméras][Paramètres de Caméra] distance focale maximale à 500 mm
-* [Caméras][Paramètres de Caméra] Exposer le rapport
-* [Caméras][Paramètres de Caméra] Ajouter une option de verrouillage
-* [Caméras][Paramètres de Caméra] Ajouter une option de restauration
-* [Caméras][Paramètres de Caméra] Ajouter l&#39;attribut de distance focale
+* [Caméras]&#x200B;[Viewport] Sélectionner et contrôler les caméras importées dans viewport
+* [Caméras]&#x200B;[Iray] Sélectionner et contrôler les caméras importées dans Iray
+* [Caméras]&#x200B;[Interface utilisateur]&#x200B;[Nouveau projet]&#x200B;[Configuration du projet] L’option Importer des caméras est cochée par défaut
+* [Caméras]&#x200B;[Raccourcis] Ajoutez des raccourcis pour basculer entre les caméras
+* [Caméras]&#x200B;[Viewport] Ajouter un cadre dans le viewport
+* [Caméras]&#x200B;[Paramètres du Viewport] Contrôle de l’opacité du cadre
+* [Caméras]&#x200B;[Paramètres de Caméra] distance focale maximale à 500 mm
+* [Caméras]&#x200B;[Paramètres de Caméra] Exposer le rapport
+* [Caméras]&#x200B;[Paramètres de Caméra] Ajouter une option de verrouillage
+* [Caméras]&#x200B;[Paramètres de Caméra] Ajouter une option de restauration
+* [Caméras]&#x200B;[Paramètres de Caméra] Ajouter l&#39;attribut de distance focale
 * [glTF] Importation d’un fichier glTF
 * [glTF] Importer un mappage d&#39;ambient occlusion
 * [Alembic] Importer le cadre Alembic 1 avec une géométrie statique
 * [Étagère] Faites glisser et déposez des matériaux directement sur le maillage à l’aide des Map id avec un modificateur (CTRL/Commande)
 * [Pile de calques] Création automatique d’un masque d’identification par glisser-déposer des matériaux sur le maillage avec les Map id
 * [Pile de calques] Défilement automatique des calques avec glisser-déposer sur la pile de calques
-* [UI][Propriétés de l&#39;outil] Exposer le paramètre prédéfini de la Substance
-* [UI][Menu Aide] Amélioration du menu Aide
-* [UI][Nouveau projet][Configuration du projet] Réorganisation de la fenêtre
-* [UI][Nouveau projet][Configuration du projet] Remplacer le terme Maillage par le fichier
-* [UI][Substance] Afficher les attributs de Substance dans l’interface utilisateur
+* [UI]&#x200B;[Propriétés de l&#39;outil] Exposer le paramètre prédéfini de la Substance
+* [UI]&#x200B;[Menu Aide] Amélioration du menu Aide
+* [UI]&#x200B;[Nouveau projet]&#x200B;[Configuration du projet] Réorganisation de la fenêtre
+* [UI]&#x200B;[Nouveau projet]&#x200B;[Configuration du projet] Remplacer le terme Maillage par le fichier
+* [UI]&#x200B;[Substance] Afficher les attributs de Substance dans l’interface utilisateur
 * [Raccourcis] F4 bascule entre les vues 2D et 3D
 * [Raccourcis] Nouveaux raccourcis pour basculer entre le pochoir N et le masque rapide U
 * [Intégration de Substance de données] Tenir compte des instructions « visible if » dans les paramètres de Substance de données
@@ -3088,10 +3088,10 @@ Résumé : **version estivale, prise en charge des subsurfaces scatterings, amé
 * [Contenu] Ajouter un échantillon avec la subsurface scattering activée - JadeToad
 * [Content] Ajouter un nouveau modèle de projet PBR avec la subsurface scattering activée
 * [Contenu] Mise à jour des paramètres prédéfinis d’exportation pour ajouter un nouveau canal de diffusion
-* [Contenu][Étagère] Ajout de la prise en charge des subsurfaces scatterings pour : pbr-metal-ough, pbr-metal-ough-alpha-test, pbr-coated, pbr-spec-gloss
-* [Contenu][Étagère] Ajout d’un canal de diffusion à 5 matériaux adaptables (marbres et habillages)
-* [Contenu][Étagère] 1 nouveau Matériau en jade
-* [Contenu][Étagère] 1 nouveau Matériau en cire
+* [Contenu]&#x200B;[Étagère] Ajout de la prise en charge des subsurfaces scatterings pour : pbr-metal-ough, pbr-metal-ough-alpha-test, pbr-coated, pbr-spec-gloss
+* [Contenu]&#x200B;[Étagère] Ajout d’un canal de diffusion à 5 matériaux adaptables (marbres et habillages)
+* [Contenu]&#x200B;[Étagère] 1 nouveau Matériau en jade
+* [Contenu]&#x200B;[Étagère] 1 nouveau Matériau en cire
 
 **Fixe :**
 
@@ -3193,7 +3193,7 @@ Résumé : **Amélioration de la vitesse de Baking, amélioration du système d�
 * [Pilotes] Mise à jour de la configuration minimale requise
 * [3Dview] Les normales ne sont pas correctement générées sur les maillages UDIM sans informations de normales
 * [Intel] Crash avec Substance Painter 2018.1.0
-* [Intel][Viewport] Problème de remplissage (artefacts noirs)
+* [Intel]&#x200B;[Viewport] Problème de remplissage (artefacts noirs)
 
 **Problèmes Connus :**
 
@@ -3426,7 +3426,7 @@ Résumé : **Amélioration de la vitesse de Baking, amélioration du système d�
 * Crash lors de la suppression de plusieurs sous-étagères
 * Crash lors du passage d’un niveau à un autre lors d’un calcul de moteur
 * [Mac] Crash sur le GPU Intel pendant les calculs de moteur
-* [Mac][Viewport] Performances incorrectes lorsque le dithering est activé
+* [Mac]&#x200B;[Viewport] Performances incorrectes lorsque le dithering est activé
 * [Mac] MacOS 10.13 est reconnu comme « Version inconnue » dans le fichier journal
 * [Baker] Le Baking avec une cage ne fonctionne plus
 * [Calques] Ctrl + C raccourci (action de copie) ne fonctionne plus
@@ -3825,7 +3825,7 @@ Résumé : **Amélioration de la vitesse de Baking, amélioration du système d�
 
 **Ajouté :**
 
-* [Plug-in][Photoshop] Autoriser à spécifier le matériau/la pile/les canaux à exporter
+* [Plug-in]&#x200B;[Photoshop] Autoriser à spécifier le matériau/la pile/les canaux à exporter
 * [Scripting] Les noms de fonctions comportent des incohérences
 
 **Fixe :**
@@ -3966,10 +3966,10 @@ Résumé : **Amélioration de la vitesse de Baking, amélioration du système d�
 * [Étagère] Les formes alpha supplémentaires sont corrompues et ne se chargent pas
 * [Viewport] Le passage en mode « Mappage supplémentaire » affiche « autre » en premier
 * [Viewport] Le Viewport revient à « autre » lorsqu’il n’existe pas de mappage supplémentaire
-* [Crash][Linux] Le rapport de Crash ne fonctionne pas sur Ubuntu (Steam)
-* [Crash][Linux] Les liens URL web ne fonctionnent pas sur Ubuntu (Steam)
-* [Crash][Windows] Supprimer « crashwatcher » lorsque Substance painter ne fonctionne plus
-* [Crash][Mac] Le système de rapports de Crash ne fonctionne pas correctement
+* [Crash]&#x200B;[Linux] Le rapport de Crash ne fonctionne pas sur Ubuntu (Steam)
+* [Crash]&#x200B;[Linux] Les liens URL web ne fonctionnent pas sur Ubuntu (Steam)
+* [Crash]&#x200B;[Windows] Supprimer « crashwatcher » lorsque Substance painter ne fonctionne plus
+* [Crash]&#x200B;[Mac] Le système de rapports de Crash ne fonctionne pas correctement
 * [Crash] L&#39;importation d&#39;un maillage alors qu&#39;un maillage est déjà importé conduit à un crash
 * Jeu de textures de sélection du raccourci réinitialisé à rien après un redémarrage
 
@@ -4472,7 +4472,7 @@ Résumé : **Amélioration de la vitesse de Baking, amélioration du système d�
 
 **Fixe :**
 
-* [Baker][Mac] Crash avec Normal à partir du baker maillage
+* [Baker]&#x200B;[Mac] Crash avec Normal à partir du baker maillage
 * [Baker] Crash s’il n’y a pas d’UV dans le fichier de cage
 * [Baker] La correspondance par noms ne fonctionne pas avec OBJ exporté à partir de zBrush
 * [Baker] Le Baking avec une cage écrase le baking si vous utilisez plusieurs jeux de textures et des UV qui se chevauchent
@@ -4499,7 +4499,7 @@ Résumé : **Amélioration de la vitesse de Baking, amélioration du système d�
 
 * [Licence] Problème d’activation lorsqu’il existe déjà un fichier de licence
 * [Mac] Crash lors du chargement de fichiers FBX spécifiques
-* [Mac][vue 3D] Reflet incorrect pour le GPU intégré
+* [Mac]&#x200B;[vue 3D] Reflet incorrect pour le GPU intégré
 * [vue 3D] La police du Masque rapide est endommagée
 * [vue 3D] Le sélecteur de Matériau rend le viewport totalement noir
 * Crash après ouverture des projets créés dans la version 1.3.3
@@ -4608,7 +4608,7 @@ Résumé : **Amélioration de la vitesse de Baking, amélioration du système d�
 
 **Ajouté :**
 
-* [Bakers][vue 3D] Utiliser le calcul d&#39;espace de tangente Mikkt si aucune tangente/binormale n&#39;est trouvée
+* [Bakers]&#x200B;[vue 3D] Utiliser le calcul d&#39;espace de tangente Mikkt si aucune tangente/binormale n&#39;est trouvée
 * [Bakers] Nouveaux bakers ajoutés : Normal, ID, Occlusion, Courbure, Thickness, Position
 * [Effets] La pile d’effet est maintenant inversée et affichée de haut en bas (comme les calques).
 * [Effets] Ajout de nouvelles icônes sur la pile de l’effet
