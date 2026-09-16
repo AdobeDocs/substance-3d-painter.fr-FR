@@ -2,13 +2,11 @@
 title: Version 12.1
 description: Notes de mise à jour de la version 12.1
 helpx_description: Substance 3D Painter
-source-git-commit: 50df3a58ec4719d302999421774a1c67ce3e0ef1
+source-git-commit: a652271a4b12d9c27513ebc4d5974fa87da29580
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1790'
 ht-degree: 0%
-
 ---
-
 
 # Version 12.1
 
@@ -149,6 +147,29 @@ Jetez un œil à notre dernier tutoriel sur Youtube :
 [![](../assets/v12/v12_youtube_tutorial.jpg)](https://www.youtube.com/watch?v=WwyElRpiQgY)
 
 ## Notes de mise à jour
+
+### 12.1.5
+
+Date de publication : **2026/09/15**
+
+Résumé : **version mineure**
+
+**Fixe :**
+
+* L’exportation d’une image de l’étagère vers un réseau ne fonctionne plus
+* [Générateur] Le paramètre « utiliser la texture » sur false ne désactive pas l&#39;utilisation de l&#39;entrée de texture
+* Viewport bloqué lors de l’enregistrement lors de la modification de la projection 3d
+* La résolution de calque de matériau est trop faible
+
+### 12.1.4
+
+Date de publication : **2026/09/04**
+
+Résumé : **version mineure**
+
+**Fixe :**
+
+* crash de [Crash] lors de l’importation ou de l’exportation de fichiers dont le nom contient des caractères non ASCII
 
 ### 12.1.3
 
