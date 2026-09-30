@@ -1,10 +1,10 @@
 ---
 title: Éclairage baké stylisé
 description: Découvrez comment utiliser le filtre Baké Éclairage stylisé de Substance 3D Painter.
-source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
+source-git-commit: 5078774d081555f586a50965b91d85f7c340ef13
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 1%
+source-wordcount: '662'
+ht-degree: 2%
 ---
 
 # Éclairage baké stylisé
@@ -65,7 +65,7 @@ Il est utilisé sur un calque de peinture défini sur le mode passthrough et app
 | <b>Couleur du ciel :</b> | Réglez la couleur de la lumière du ciel. |
 | <b>Couleur d&#39;horizon :</b> | Réglez la couleur de la lumière de l’horizon. |
 | <b>Couleur du Sol :</b> | Réglez la couleur de la lumière du sol. |
-| <b>Angle horizontal :</b> | Réglez l’angle horizontal de la lumière supplémentaire. |
+| <b>Angle horizontal :</b> | Réglez l’intensité de la lumière supplémentaire. |
 | <b>Angle vertical :</b> | Réglez l’angle vertical de la lumière supplémentaire. |
 | <b>Intensité :</b> | Réglez l’intensité de la lumière supplémentaire. |
 | <b>Couleur :</b> | Réglez la couleur de la lumière supplémentaire. |
@@ -76,124 +76,46 @@ Il est utilisé sur un calque de peinture défini sur le mode passthrough et app
 
 ### Matériau
 
-<table>
-<tr>
-<td><b>Réflectance diélectrique :</b></td>
-<td>Définissez la quantité de réflectance diélectrique.</td>
-</tr>
-<tr>
-<td><b>DIFFUSE :</b></td>
-<td>Contrôlez la quantité d'ambient occlusion qui affecte les détails diffus.</td>
-</tr>
-<tr>
-<td><b>DIFFUSE :</b></td>
-<td>Contrôlez la quantité de zones de la cavité qui influencent les détails diffus.</td>
-</tr>
-<tr>
-<td><b>SPECULAR AO :</b></td>
-<td>Contrôlez la quantité d’ambient occlusion qui affecte les détails du specular.</td>
-</tr>
-<tr>
-<td><b>Cavité specular :</b></td>
-<td>Ajustez la quantité de zones de cavité qui influencent les détails du specular.</td>
-</tr>
-<tr>
-<td><b>Smoothness de cavité :</b></td>
-<td>Réglez la fluidité des zones de la cavité.</td>
-</tr>
-<tr>
-<td><b>Intensité des contours :</b></td>
-<td>Définissez la force des détails de contour.</td>
-</tr>
-<tr>
-<td><b>Smoothness des contours :</b></td>
-<td>Ajustez le smoothness des zones de contour.</td>
-</tr>
-<tr>
-<td><b>Type de détails normaux :</b></td>
-<td>Sélectionnez les détails à utiliser pour les normales : Maillage uniquement ou Maillage + Height + Normale.</td>
-</tr>
-<tr>
-<td><b>Height à l’intensité normale :</b></td>
-<td>Ajustez la force des détails normaux générés.</td>
-</tr>
-</table>
+| Nom du paramètre | Description |
+| --- | --- |
+| **Réflectance Diélectrique :** | Définissez la quantité de réflectance diélectrique. |
+| **Diffuse :** | Contrôlez la quantité d&#39;ambient occlusion qui affecte les détails diffus. |
+| **Cavité :** | Contrôlez la quantité de zones de la cavité qui influencent les détails diffus. |
+| **Specular AO:** | Contrôlez la quantité d’ambient occlusion qui affecte les détails du specular. |
+| **Cavité du Specular :** | Ajustez la quantité de zones de cavité qui influencent les détails du specular. |
+| **Smoothness de cavité :** | Réglez la fluidité des zones de la cavité. |
+| **Intensité des contours :** | Définissez la force des détails de contour. |
+| **Smoothness des contours :** | Ajustez le smoothness des zones de contour. |
+| **Type de détails normaux :** | Sélectionnez les détails à utiliser pour les normales : Maillage uniquement ou Maillage + Height + Normale. |
+| **Height à l&#39;intensité normale :** | Ajustez la force des détails normaux générés. |
 
 ### Soleil et ciel
 
-<table>
-<tr>
-<td><b>Intensité du soleil :</b></td>
-<td>Contrôlez la force du soleil.</td>
-</tr>
-<tr>
-<td><b>Angle horizontal du soleil :</b></td>
-<td>Ajustez l'angle horizontal du soleil.</td>
-</tr>
-<tr>
-<td><b>Angle vertical du soleil :</b></td>
-<td>Ajustez l'angle vertical du soleil.</td>
-</tr>
-<tr>
-<td><b>Couleur du soleil :</b></td>
-<td>Contrôlez la couleur du soleil.</td>
-</tr>
-<tr>
-<td><b>Intensité du ciel :</b></td>
-<td>Réglez la force du ciel.</td>
-</tr>
-<tr>
-<td><b>Couleur du ciel :</b></td>
-<td>Définissez la couleur du ciel.</td>
-</tr>
-<tr>
-<td><b>Couleur horizontale :</b></td>
-<td>Réglez la couleur de l’horizon.</td>
-</tr>
-<tr>
-<td><b>Couleur du sol :</b></td>
-<td>Définissez la couleur du sol.</td>
-</tr>
-</table>
+| Nom du paramètre | Description |
+| --- | --- |
+| **Intensité du soleil :** | Contrôlez la force du soleil. |
+| **Angle horizontal du soleil :** | Ajustez l&#39;angle horizontal du soleil. |
+| **Angle vertical du soleil :** | Ajustez l&#39;angle vertical du soleil. |
+| **Couleur du soleil :** | Contrôlez la couleur du soleil. |
+| **Intensité du ciel :** | Réglez la force du ciel. |
+| **Couleur du ciel :** | Définissez la couleur du ciel. |
+| **Couleur d&#39;horizon :** | Réglez la couleur de l’horizon. |
+| **Couleur du Sol :** | Définissez la couleur du sol. |
 
 ### Éclairage 1
 
-<table>
-<tr>
-<td><b>Angle horizontal :</b></td>
-<td>Réglez l’angle horizontal de la lumière supplémentaire.</td>
-</tr>
-<tr>
-<td><b>Angle vertical :</b></td>
-<td>Réglez l’angle vertical de la lumière supplémentaire.</td>
-</tr>
-<tr>
-<td><b>Intensité :</b></td>
-<td>Réglez la force de la lumière supplémentaire.</td>
-</tr>
-<tr>
-<td><b>Couleur :</b></td>
-<td>Définissez la couleur de la lumière supplémentaire.</td>
-</tr>
-</table>
+| Nom du paramètre | Description |
+| --- | --- |
+| **Angle horizontal :** | Réglez l’angle horizontal de la lumière supplémentaire. |
+| **Angle vertical :** | Réglez l’angle vertical de la lumière supplémentaire. |
+| **Intensité :** | Réglez la force de la lumière supplémentaire. |
+| **Couleur :** | Définissez la couleur de la lumière supplémentaire. |
 
 ### Éclairage 2
 
-<table>
-<tr>
-<td><b>Angle horizontal :</b></td>
-<td>Réglez l'angle horizontal de la deuxième lumière supplémentaire.</td>
-</tr>
-<tr>
-<td><b>Angle vertical :</b></td>
-<td>Réglez l'angle vertical de la deuxième lumière supplémentaire.</td>
-</tr>
-<tr>
-<td><b>Intensité :</b></td>
-<td>Réglez la force de la deuxième lumière supplémentaire.</td>
-</tr>
-<tr>
-<td><b>Couleur :</b></td>
-<td>Définissez la couleur de la deuxième lumière supplémentaire.</td>
-</tr>
-</table>
+| Nom du paramètre | Description |
+| --- | --- |
+| **Angle horizontal :** | Réglez l&#39;angle horizontal de la deuxième lumière supplémentaire. |
+| **Angle vertical :** | Réglez l&#39;angle vertical de la deuxième lumière supplémentaire. |
+| **Intensité :** | Réglez la force de la deuxième lumière supplémentaire. |
+| **Couleur :** | Définissez la couleur de la deuxième lumière supplémentaire. |

@@ -1,9 +1,9 @@
 ---
 title: Dégradé
 description: Découvrez comment utiliser le filtre Dégradé de Substance 3D Painter.
-source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
+source-git-commit: 5078774d081555f586a50965b91d85f7c340ef13
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '201'
 ht-degree: 3%
 ---
 
@@ -48,25 +48,10 @@ Il peut être utilisé pour ajuster les valeurs d’une image en niveaux de gris
 
 ### Transformation d&#39;entrée
 
-<table>
-<tr>
-<td><b>Mode Niveaux de gris :</b></td>
-<td>Sélectionnez le mode de transformation Niveaux de gris. Vous pouvez choisir entre Désaturation, Luminance, Moyenne, Max et Min.</td>
-</tr>
-<tr>
-<td><b>Intensité du flou :</b></td>
-<td>Réglez le degré de flou de l’entrée.</td>
-</tr>
-<tr>
-<td><b>Balance :</b></td>
-<td>Réglez la balance de l’entrée en déplaçant le point médian vers le noir ou le blanc, comme pour une commande de luminosité.</td>
-</tr>
-<tr>
-<td><b>Contraste :</b></td>
-<td>Réglez le contraste de l’entrée.</td>
-</tr>
-<tr>
-<td><b>Inverser :</b></td>
-<td>Activez/désactivez l’inversion des couleurs d’entrée.</td>
-</tr>
-</table>
+| Nom du paramètre | Description |
+| --- | --- |
+| **Mode Niveaux de gris :** | Sélectionnez le mode de transformation Niveaux de gris. Vous pouvez choisir entre Désaturation, Luminance, Moyenne, Max et Min. |
+| **Intensité du flou :** | Réglez le degré de flou de l’entrée. |
+| **Balance :** | Réglez la balance de l’entrée en déplaçant le point médian vers le noir ou le blanc, comme pour une commande de luminosité. |
+| **Contraste :** | Réglez le contraste de l’entrée. |
+| **Inverser :** | Activez/désactivez l’inversion des couleurs d’entrée. |
