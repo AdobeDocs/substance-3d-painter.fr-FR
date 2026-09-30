@@ -2,13 +2,11 @@
 user-guide-title: Substance 3D Painter
 breadcrumb-title: Substance 3D Painter
 user-guide-description: Substance 3D Painter
-source-git-commit: b7770a9497f0db047433aec32c31b57f8dc13ae7
+source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
 workflow-type: tm+mt
-source-wordcount: '1213'
-ht-degree: 15%
-
+source-wordcount: '1346'
+ht-degree: 14%
 ---
-
 
 # Substance 3D Painter {#using}
 
@@ -166,12 +164,80 @@ ht-degree: 15%
     + [Couleur aléatoire UV](/help/features/effects/generators/uv-random-color.md)
     + [Densité UV](/help/features/effects/generators/uv-texel-density.md)
     + [Normales de l&#39;espace monde](/help/features/effects/generators/world-space-normals.md)
+  + Filtres{#filters}
+    + [Présentation du filtre](/help/features/effects/filter.md)
+    + Standard{#standard-filters}
+      + [Flou](/help/features/effects/filters/standard/blur.md)
+      + [Flou directionnel](/help/features/effects/filters/standard/blur-directional.md)
+      + [Pente du flou](/help/features/effects/filters/standard/blur-slope.md)
+      + [Verrouiller](/help/features/effects/filters/standard/clamp.md)
+      + [Balance des couleurs](/help/features/effects/filters/standard/color-balance.md)
+      + [Correct couleur](/help/features/effects/filters/standard/color-correct.md)
+      + [Luminosité du contraste](/help/features/effects/filters/standard/contrast-luminosity.md)
+      + [Ombre portée](/help/features/effects/filters/standard/drop-shadow.md)
+      + [Couleur de la zone de remplissage](/help/features/effects/filters/standard/fill-area-color.md)
+      + [Masque de zone de remplissage](/help/features/effects/filters/standard/fill-area-mask.md)
+      + [FXAA (anticrénelage)](/help/features/effects/filters/standard/fxaa-anti-aliasing.md)
+      + [Lueur](/help/features/effects/filters/standard/glow.md)
+      + [Dégradé](/help/features/effects/filters/standard/gradient.md)
+      + [Dégradé dynamique](/help/features/effects/filters/standard/gradient-dynamic.md)
+      + [Conversion en niveaux de gris](/help/features/effects/filters/standard/grayscale-conversion.md)
+      + [Passe-haut](/help/features/effects/filters/standard/highpass.md)
+      + [Numérisation de l’histogramme](/help/features/effects/filters/standard/histogram-scan.md)
+      + [Décalage de l’histogramme](/help/features/effects/filters/standard/histogram-shift.md)
+      + [TSL Perceptive](/help/features/effects/filters/standard/hsl-perceptive.md)
+      + [Inverser](/help/features/effects/filters/standard/invert.md)
+      + [Miroir](/help/features/effects/filters/standard/mirror.md)
+      + [Pixellisation](/help/features/effects/filters/standard/pixelate.md)
+      + [Isohélie](/help/features/effects/filters/standard/posterize.md)
+      + [Accentuer](/help/features/effects/filters/standard/sharpen.md)
+      + [Smoothstep](/help/features/effects/filters/standard/smoothstep.md)
+      + [Seuil](/help/features/effects/filters/standard/threshold.md)
+      + [Transformation](/help/features/effects/filters/standard/transform.md)
+      + [Chaîne](/help/features/effects/filters/standard/warp.md)
+    + Finitions{#finish-filters}
+      + [MatFinish Brushed Linear](/help/features/effects/filters/finishes/matfinish-brushed-linear.md)
+      + [MatFinish Galvanisé](/help/features/effects/filters/finishes/matfinish-galvanized.md)
+      + [Finition mate granuleuse](/help/features/effects/filters/finishes/matfinish-grainy.md)
+      + [MatFinish Grinded](/help/features/effects/filters/finishes/matfinish-grinded.md)
+      + [MatFinish Hammered](/help/features/effects/filters/finishes/matfinish-hammered.md)
+      + [Cercles perforés MatFinish](/help/features/effects/filters/finishes/matfinish-perforated-circles.md)
+      + [MatFinish Poudre Enrobé](/help/features/effects/filters/finishes/matfinish-powder-coated.md)
+      + [MatFinish Raw](/help/features/effects/filters/finishes/matfinish-raw.md)
+      + [MatFinish Rough](/help/features/effects/filters/finishes/matfinish-rough.md)
+    + MatFX{#matfx-filters}
+      + [Bande dessinée MatFX](/help/features/effects/filters/matfx/matfx-comic-book.md)
+      + [Edge Wear de détails MatFX](/help/features/effects/filters/matfx/matfx-detail-edge-wear.md)
+      + [Dommages aux contours de MatFX](/help/features/effects/filters/matfx/matfx-edge-damages.md)
+      + [MatFX HBAO](/help/features/effects/filters/matfx/matfx-hbao.md)
+      + [Peinture à huile MatFX](/help/features/effects/filters/matfx/matfx-oil-paint.md)
+      + [Peinture de décollement MatFX](/help/features/effects/filters/matfx/matfx-peeling-paint.md)
+      + [Altération de Rouille MatFX](/help/features/effects/filters/matfx/matfx-rust-weathering.md)
+      + [Ligne de fermeture MatFX](/help/features/effects/filters/matfx/matfx-shut-line.md)
+      + [Aquarelle MatFX](/help/features/effects/filters/matfx/matfx-watercolor.md)
+      + [Gouttes d’eau MatFX](/help/features/effects/filters/matfx/matfx-water-drops.md)
+    + Éclairage{#lighting-filters}
+      + [Environnement d&#39;éclairage baké](/help/features/effects/filters/lighting/baked-lighting-environment.md)
+      + [Éclairage baké stylisé](/help/features/effects/filters/lighting/baked-lighting-stylized.md)
+    + Advanced{#advanced-filters}
+      + [Kuwahara anisotrope](/help/features/effects/filters/advanced/anisotropic-kuwahara.md)
+      + [Biseau](/help/features/effects/filters/advanced/bevel.md)
+      + [Bevel smooth](/help/features/effects/filters/advanced/bevel-smooth.md)
+      + [Correspondance des couleurs](/help/features/effects/filters/advanced/color-match.md)
+      + [Directional distance](/help/features/effects/filters/advanced/directional-distance.md)
+      + [Courbe de dégradé](/help/features/effects/filters/advanced/gradient-curve.md)
+      + [Réglage de l’Height](/help/features/effects/filters/advanced/height-adjustments.md)
+      + [Height à la normale](/help/features/effects/filters/advanced/height-to-normal.md)
+      + [Contour du masque](/help/features/effects/filters/advanced/mask-outline.md)
+      + [Validation PBR](/help/features/effects/filters/advanced/pbr-validate.md)
+      + [Quantifier](/help/features/effects/filters/advanced/quantize.md)
+      + [Stylisation](/help/features/effects/filters/advanced/stylization.md)
+      + [Tri-Planaire avancé](/help/features/effects/filters/advanced/tri-planar-advanced-filter.md)
   + [Présentation des effets](/help/features/effects/effects.md)
   + [Peinture](/help/features/effects/paint.md)
   + [Remplissage](/help/features/effects/fill.md)
   + [Niveaux](/help/features/effects/levels.md)
   + [Masque de comparaison](/help/features/effects/compare-mask.md)
-  + [Filtre](/help/features/effects/filter.md)
   + [Point d’ancrage](/help/features/effects/anchor-point.md)
 + Baking{#baking}
   + [Présentation du Baking](/help/baking/baking.md)
