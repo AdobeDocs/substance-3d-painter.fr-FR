@@ -1,9 +1,9 @@
 ---
 title: Tri-Planaire avancé
 description: Découvrez comment utiliser le filtre Avancé Tri-Planaire de Substance 3D Painter.
-source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
+source-git-commit: 5078774d081555f586a50965b91d85f7c340ef13
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '553'
 ht-degree: 2%
 ---
 
@@ -56,20 +56,11 @@ Il est utilisé sur un calque de texture ou à l’intérieur d’un masque pour
 
 ### Axe X
 
-<table>
-<tr>
-<td><b>Rotation X :</b></td>
-<td>Réglez la rotation de la projection de texture de l’axe X.</td>
-</tr>
-<tr>
-<td><b>Décalage X X :</b></td>
-<td>Réglez le décalage de projection de l’axe X le long de l’axe X.</td>
-</tr>
-<tr>
-<td><b>Décalage X Y :</b></td>
-<td>Ajustez le décalage de projection de l’axe X sur l’axe Y.</td>
-</tr>
-</table>
+| Nom du paramètre | Description |
+| --- | --- |
+| **Rotation X:** | Réglez la rotation de la projection de texture de l’axe X. |
+| **Décalage X X :** | Réglez le décalage de projection de l’axe X le long de l’axe X. |
+| **Décalage X Y:** | Ajustez le décalage de projection de l’axe X sur l’axe Y. |
 
 >[!NOTE]
 >
@@ -79,20 +70,11 @@ Il est utilisé sur un calque de texture ou à l’intérieur d’un masque pour
 
 ### Axe Y
 
-<table>
-<tr>
-<td><b>Rotation X :</b></td>
-<td>Réglez la rotation de la projection de texture de l’axe Y.</td>
-</tr>
-<tr>
-<td><b>Décalage Y X :</b></td>
-<td>Ajustez le décalage de projection de l’axe Y le long de l’axe X.</td>
-</tr>
-<tr>
-<td><b>Décalage Y :</b></td>
-<td>Ajustez le décalage de projection de l’axe Y sur l’axe Y.</td>
-</tr>
-</table>
+| Nom du paramètre | Description |
+| --- | --- |
+| **Rotation X:** | Réglez la rotation de la projection de texture de l’axe Y. |
+| **Décalage Y X:** | Ajustez le décalage de projection de l’axe Y le long de l’axe X. |
+| **Décalage Y :** | Ajustez le décalage de projection de l’axe Y sur l’axe Y. |
 
 >[!NOTE]
 >
@@ -102,20 +84,11 @@ Il est utilisé sur un calque de texture ou à l’intérieur d’un masque pour
 
 ### Axe Z
 
-<table>
-<tr>
-<td><b>Rotation X :</b></td>
-<td>Réglez la rotation de la projection de texture de l’axe Z.</td>
-</tr>
-<tr>
-<td><b>Décalage Z X :</b></td>
-<td>Ajustez le décalage de la projection de l’axe Z le long de l’axe X.</td>
-</tr>
-<tr>
-<td><b>Décalage Z Y :</b></td>
-<td>Ajustez le décalage de projection de l’axe Z sur l’axe Y.</td>
-</tr>
-</table>
+| Nom du paramètre | Description |
+| --- | --- |
+| **Rotation X:** | Réglez la rotation de la projection de texture de l’axe Z. |
+| **Décalage Z X :** | Ajustez le décalage de la projection de l’axe Z le long de l’axe X. |
+| **Décalage Z Y:** | Ajustez le décalage de projection de l’axe Z sur l’axe Y. |
 
 >[!NOTE]
 >

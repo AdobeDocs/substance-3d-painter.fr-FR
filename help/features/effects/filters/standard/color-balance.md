@@ -1,10 +1,10 @@
 ---
 title: Balance des couleurs
 description: Découvrez comment utiliser le filtre Balance des couleurs de Substance 3D Painter.
-source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
+source-git-commit: 5078774d081555f586a50965b91d85f7c340ef13
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 3%
+source-wordcount: '140'
+ht-degree: 5%
 ---
 
 # Balance des couleurs
@@ -36,52 +36,24 @@ Il est utilisé sur un calque de remplissage pour effectuer des réglages de cou
 
 ### Tons clairs
 
-<table>
-<tr>
-<td><b>Cyan &lt;-&gt; Rouge :</b></td>
-<td>Déplacez la couleur vers le cyan ou le rouge.</td>
-</tr>
-<tr>
-<td><b>Magenta &lt;-&gt; Vert :</b></td>
-<td>Déplacez la couleur vers le magenta ou le vert.</td>
-</tr>
-<tr>
-<td><b>Jaune &lt;-&gt; Bleu :</b></td>
-<td>Déplacez la couleur vers le jaune ou le bleu.</td>
-</tr>
-</table>
+| Nom du paramètre | Description |
+| --- | --- |
+| **Cyan &lt;-> Rouge :** | Déplacez la couleur vers le cyan ou le rouge. |
+| **Magenta &lt;-> Vert :** | Déplacez la couleur vers le magenta ou le vert. |
+| **Jaune &lt;-> Bleu :** | Déplacez la couleur vers le jaune ou le bleu. |
 
 ### Tons moyens
 
-<table>
-<tr>
-<td><b>Cyan &lt;-&gt; Rouge :</b></td>
-<td>Déplacez la couleur vers le cyan ou le rouge.</td>
-</tr>
-<tr>
-<td><b>Magenta &lt;-&gt; Vert :</b></td>
-<td>Déplacez la couleur vers le magenta ou le vert.</td>
-</tr>
-<tr>
-<td><b>Jaune &lt;-&gt; Bleu :</b></td>
-<td>Déplacez la couleur vers le jaune ou le bleu.</td>
-</tr>
-</table>
+| Nom du paramètre | Description |
+| --- | --- |
+| **Cyan &lt;-> Rouge :** | Déplacez la couleur vers le cyan ou le rouge. |
+| **Magenta &lt;-> Vert :** | Déplacez la couleur vers le magenta ou le vert. |
+| **Jaune &lt;-> Bleu :** | Déplacez la couleur vers le jaune ou le bleu. |
 
 ### Ombres
 
-<table>
-<tr>
-<td><b>Cyan &lt;-&gt; Rouge :</b></td>
-<td>Déplacez la couleur vers le cyan ou le rouge.</td>
-</tr>
-<tr>
-<td><b>Magenta &lt;-&gt; Vert :</b></td>
-<td>Déplacez la couleur vers le magenta ou le vert.</td>
-</tr>
-<tr>
-<td><b>Jaune &lt;-&gt; Bleu :</b></td>
-<td>Déplacez la couleur vers le jaune ou le bleu.</td>
-</tr>
-</table>
-
+| Nom du paramètre | Description |
+| --- | --- |
+| **Cyan &lt;-> Rouge :** | Déplacez la couleur vers le cyan ou le rouge. |
+| **Magenta &lt;-> Vert :** | Déplacez la couleur vers le magenta ou le vert. |
+| **Jaune &lt;-> Bleu :** | Déplacez la couleur vers le jaune ou le bleu. |
