@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/fr/substance-3d-painter/baking.html'
 breadcrumb-title: ''
 description: Découvrez comment baker des maps de maillage dans Substance 3D Painter pour générer des ambients occlusion, des courbures et d’autres textures basées sur la géométrie.
-helpx_creative_field: ''
-helpx_description: Painter > Baking
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Baking
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 7b5f6e6c9623cb51253b6e49c8dbcbb22856418c
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 2%
-
 ---
-
 
 # Baking
 
@@ -37,4 +29,4 @@ Pour un aperçu rapide du mode de Baking, consultez notre tutoriel vidéo :
 
 >[!NOTE]
 >
-> Pour en savoir plus sur le baking en général, consultez la [Documentation sur le Baking](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/home) dédiée.
+> Pour en savoir plus sur le baking en général, consultez la [Documentation sur le Baking](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home) dédiée.

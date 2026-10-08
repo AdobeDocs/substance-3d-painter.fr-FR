@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/technical-issues/rendering-issues/broken-viewport-ubuntu.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Découvrez comment résoudre les problèmes de viewport défectueux ou ne répondant pas sur Ubuntu dans Substance 3D Painter pour un rendu 3D approprié.
-helpx_creative_field: ""
-helpx_description: Viewport appears broken or unresponsive on Ubuntu
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Le viewport semble cassé ou ne répond pas sur Ubuntu
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
-
 ---
-
 
 # Le viewport semble cassé ou ne répond pas sur Ubuntu
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/home.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Commencez avec Substance 3D Painter pour peinture des textures directement sur des modèles 3D et créer des surfaces de matériau réalistes.
-helpx_creative_field: ""
-helpx_description: Painter > Home
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Substance 3D Painter
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 9%
-
 ---
-
 
 # Substance 3D Painter
 
@@ -28,7 +20,7 @@ Substance 3D Painter est un logiciel de peinture 3D qui vous permet de réaliser
 
 Cette documentation est conçue pour vous aider à apprendre à utiliser ce logiciel, des techniques de base aux techniques avancées.
 
-Si vous avez une question à laquelle il n&#39;y a pas de réponse dans ce manuel, n&#39;hésitez pas à la poser sur notre [Forum](https://community.adobe.com/t5/substance-3d-painter/bd-p/substance-3d-painter). Vous pouvez également télécharger notre [guide Rendu physique réaliste](https://helpx.adobe.com/fr/substance-3d/unlisted/tutorials.html) si vous souhaitez en savoir plus sur le PBR.
+Si vous avez une question à laquelle il n&#39;y a pas de réponse dans ce manuel, n&#39;hésitez pas à la poser sur notre [Forum](https://community.adobe.com/t5/substance-3d-painter/bd-p/substance-3d-painter). Vous pouvez également télécharger notre [guide Rendu physique réaliste](https://helpx.adobe.com/substance-3d/unlisted/tutorials.html) si vous souhaitez en savoir plus sur le PBR.
 
 </td>
 <td width="58.30%" style="border: 0;" valign="top">
@@ -83,7 +75,7 @@ Si vous avez une question à laquelle il n&#39;y a pas de réponse dans ce manue
 ### Contenu
 
 * [Création d’effets personnalisés](content/creating-custom-effects/creating-custom-effects.md)
-* [Importation d’actifs](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
+* [Importation d’actifs](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
 
 ### Fonctionnalité
 
@@ -112,7 +104,7 @@ Si vous avez une question à laquelle il n&#39;y a pas de réponse dans ce manue
 
 ### Scripts et développement
 
-* [Scripts et plug-ins](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/script-and-plugins-197427392.html)
+* [Scripts et plug-ins](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/script-and-plugins-197427392.html)
 
 ### Support technique
 

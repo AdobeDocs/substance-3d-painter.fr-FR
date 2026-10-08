@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/release-notes/old-versions/version-2-4.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consultez les notes de mise à jour de Substance 3D Painter version 2.4 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2.4
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 2.4
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 0%
-
 ---
-
 
 # Version 2.4
 
@@ -40,7 +32,7 @@ Pour créer des requêtes avancées, consultez la partie dédiée de la document
 
 Avec la refonte de l&#39;étagère, nous avons également **amélioré la fenêtre d&#39;importation des ressources**. La fenêtre est désormais plus cohérente et peut être **appelée de trois manières différentes** : via le menu Fichier, via le bouton dans la fenêtre étagère ou tout simplement comme auparavant en faisant glisser une ressource dans la fenêtre étagère. La nouvelle fenêtre permet de **définir rapidement l&#39;utilisation** pour **plusieurs ressources** à la fois, ce qui signifie que vous n&#39;avez plus besoin de faire glisser et de déposer les ressources au bon emplacement. Nous avons également ajouté la possibilité de **spécifier un chemin personnalisé** pour créer des sous-dossiers afin de tirer parti de la nouvelle arborescence.
 
-Pour plus de détails, consultez la partie dédiée de la documentation : [Ajout de ressources via la fenêtre d&#39;importation](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)
+Pour plus de détails, consultez la partie dédiée de la documentation : [Ajout de ressources via la fenêtre d&#39;importation](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)
 
 ### Nouveaux paramètres prédéfinis de particule
 

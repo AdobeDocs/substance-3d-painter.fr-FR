@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/release-notes/old-versions/version-2019-2.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consultez les notes de mise à jour de Substance 3D Painter version 2019.2 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2019.2
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 2019.2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1538'
 ht-degree: 1%
-
 ---
-
 
 # Version 2019.2
 
@@ -180,7 +172,7 @@ Résumé : **Correctif**
 **Fixe :**
 
 * [Plugin] La source du plug-in ne fonctionne pas
-* [MacOS]&#x200B;[Shader] Mac OS 10.14.5 et AMD : la superposition de matériaux ne fonctionne pas comme prévu
+* [MacOS][Shader] Mac OS 10.14.5 et AMD : la superposition de matériaux ne fonctionne pas comme prévu
 
 **Problèmes Connus :**
 
@@ -205,7 +197,7 @@ Résumé : **Correctif**
 
 **Fixe :**
 
-* [Mac]&#x200B;[USD] Impossible d’ouvrir les fichiers USDZ exportés depuis MacOS
+* [Mac][USD] Impossible d’ouvrir les fichiers USDZ exportés depuis MacOS
 * [Jeu de textures] Impossible d’isoler un jeu de textures avec le modificateur ALT
 * [Étagère] Les paramètres prédéfinis, les Matériaux adaptables et les Masques adaptables sont toujours modifiés à la fermeture de l’application
 * [Pile de calques] Impossible de sélectionner l&#39;effet après avoir supprimé un autre effet
@@ -229,13 +221,13 @@ Résumé : **version majeure avec mises à jour des bakers en termes de performa
 
 * [Bakers] Prise en charge supplémentaire des GPU raytracings avec DXR et OptiX (Ambient occlusion, Thickness)
 * [Bakers] Optimisations et accélérations pour le Raytracing CPU
-* [Baker]&#x200B;[Mode Vis]&#x200B;[UI] Nouveau mode de visualisation de baking dans viewport
-* [Bakers]&#x200B;[Préférences]&#x200B;[Interface utilisateur] Nouvelle option de baking pour l’activation/la désactivation des GPU raytracings
-* [Bakers]&#x200B;[Interface utilisateur] Modification de la boîte de dialogue de la barre de progression
+* [Baker][Mode Vis][UI] Nouveau mode de visualisation de baking dans viewport
+* [Bakers][Préférences][Interface utilisateur] Nouvelle option de baking pour l’activation/la désactivation des GPU raytracings
+* [Bakers][Interface utilisateur] Modification de la boîte de dialogue de la barre de progression
 * [Bakers] Amélioration des messages d&#39;avertissement et d&#39;erreur
 * [Bakers] Autoriser une annulation plus réactive du processus de baking
 * [Baker] Rouvrir la fenêtre baker après avoir cliqué sur Annuler
-* [Proj]&#x200B;[UX] Amélioration de l&#39;utilisation du manipulateur de rotation
+* [Proj][UX] Amélioration de l&#39;utilisation du manipulateur de rotation
 * [Paramètres] Option pour améliorer les performances en réduisant la résolution de viewport pour les écrans HDPI
 * [Scripting] Modifier la résolution du jeu de textures
 * [Scripting] Obtenir le jeu de textures sélectionné

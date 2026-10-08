@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/content/creating-custom-effects/user-data.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Découvrez comment utiliser les données utilisateur dans les effets personnalisés pour que Substance 3D Painter transmette des informations personnalisées aux effets shader.
-helpx_creative_field: ""
-helpx_description: Painter > Content > Creating custom effects > User data
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Données utilisateur
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 1%
-
 ---
-
 
 # Données utilisateur
 
@@ -96,7 +88,7 @@ Exemple de syntaxe :
 
 Par défaut, les entrées d’image d’un graphe de Substance n’ont pas de remplissage, la zone en dehors de l’Îlot UV est généralement remplie d’une couleur uniforme pour des raisons de performances. Le paramètre de remplissage peut être utilisé pour demander une dilatation infinie, qui peut être utilisée pour les filtres afin d’éviter la création de seams, par exemple.
 
-Exemple de syntaxe : **p**&#x200B;**adding=extend**
+Exemple de syntaxe : **p****adding=extend**
 
 ## Désactiver une sortie par défaut
 

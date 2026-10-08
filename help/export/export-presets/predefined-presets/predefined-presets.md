@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/getting-started/export/export-presets/predefined-presets.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Découvrez les modèles de sortie prédéfinis dans Substance 3D Painter pour utiliser des configurations d’exportation prêtes à l’emploi pour les workflows courants.
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Export > Export presets > Predefined Output templates
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Modèles de sortie prédéfinis
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 5%
-
 ---
-
 
 # Modèles de sortie prédéfinis
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/release-notes/old-versions/version-2018-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consultez les notes de mise à jour de Substance 3D Painter version 2018.1 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2018.1
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 2018.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2400'
 ht-degree: 0%
-
 ---
-
 
 # Version 2018.1
 
@@ -144,7 +136,7 @@ Nous avons également ajouté du nouveau contenu dans cette version :
   La direction peut être définie avec deux positions 3D, qui peuvent être sélectionnées directement sur la carte de position.\
   Exemple :
 
-1. &#x200B;
+1. 
    1. Créez le générateur de masque **3D linear gradient** dans l&#39;un de vos calques
    1. Basculer l&#39;affichage du viewport vers « **Position** » (via la liste déroulante du viewport ou en utilisant la touche « **B** »)
    1. Cliquez sur le paramètre « **Début de la position 3D** » pour ouvrir le **Sélecteur de couleurs** contextuel
@@ -253,7 +245,7 @@ Un nouveau tutoriel a été ajouté à Substance Academy pour couvrir notre nouv
 * [Pilotes] Mise à jour de la configuration minimale requise
 * [3Dview] Les normales ne sont pas correctement générées sur les maillages UDIM sans informations de normales
 * [Intel] Crash avec Substance Painter 2018.1.0
-* [Intel]&#x200B;[Viewport] Problème de remplissage (artefacts noirs)
+* [Intel][Viewport] Problème de remplissage (artefacts noirs)
 
 **Problèmes Connus :**
 

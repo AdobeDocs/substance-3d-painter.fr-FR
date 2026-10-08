@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/layer-stack/blending-modes.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Apprenez à utiliser les modes de fusion de Substance 3D Painter pour combiner des calques et créer divers effets de fusion de textures.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Layer stack > Blending modes
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Modes de fusion
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1407'
 ht-degree: 2%
-
 ---
-
 
 # Modes de fusion
 
@@ -94,4 +86,4 @@ Vous trouverez ci-dessous la liste de tous les modes de fusion disponibles dans 
 | Normal map detail | Opération Fusion orientée détail (Correspondance normale réorientée), plus précise que Normal map combine. Conservez les maps normal plates et l’intensité des deux sources. Pour obtenir ce résultat, la normale du calque supérieur est réorientée pour suivre la surface du calque inférieur. Voir [Peinture à la Map normal](../../painting/advanced-channel-painting/normal-map-painting.md) pour plus d&#39;informations. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r37-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-normal-detail.jpg"/></div> |
 | Normal map inverse detail | Même comportement que pour l’opération de fusion Normal map detail, mais c’est le calque inférieur qui est transformé pour s’adapter à la surface du calque supérieur. Voir [Peinture à la Map normal](../../painting/advanced-channel-painting/normal-map-painting.md) pour plus d&#39;informations. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r38-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-normal-inverse-detail.jpg"/></div> |
 
-&#x200B;>>
+>>

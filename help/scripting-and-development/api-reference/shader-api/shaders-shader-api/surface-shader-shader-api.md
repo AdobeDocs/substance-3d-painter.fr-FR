@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/surface-shader-shader-api.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Accédez à la référence API de shader de surface pour Substance 3D Painter afin de créer des effets et des matériaux de shader de surface personnalisés.
-helpx_creative_field: ""
-helpx_description: Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > Surface Shader - Shader API
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Shader de surface - API de shader
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
-
 ---
-
 
 # Shader de surface - API de shader
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/release-notes/old-versions/version-2018-3.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consultez les notes de mise à jour de Substance 3D Painter version 2018.3 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2018.3
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 2018.3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2789'
 ht-degree: 0%
-
 ---
-
 
 # Version 2018.3
 
@@ -266,15 +258,15 @@ Nous avons également mis à jour une partie du contenu existant pour l’affine
 
 * Le maillage disparaît parfois du viewport 3D (appuyez sur F pour réinitialiser la caméra)
 * [glTF] Mise à jour du chargeur de Substances Painter Sketchfab avec les nouveaux types de licences Sketchfab
-* [Import]&#x200B;[glTF] Mauvaise gestion de la modulation de texture d&#39;entrée telle que définie dans les fichiers glTF
-* Dans certains cas, le plan de Sol [Importer]&#x200B;[glTF] ne s&#39;affiche pas correctement lors de l&#39;importation glTF
-* [Export]&#x200B;[USD] L’opacité ne fonctionne pas dans Arkit
-* [Export]&#x200B;[USD] crashs d&#39;exportation USDz dans certains cas
-* [Export]&#x200B;[USD] Exporter vers USD sans enregistrer les pistes vers le crash
-* [Export]&#x200B;[USD] Mode de répétition incorrect pour les textures, mode de subdivision pour les maillages et types de sortie pour les nuanceurs
-* [Export]&#x200B;[USD] Exportations fragmentées de certains jeux de textures seulement avec toute la géométrie
+* [Import][glTF] Mauvaise gestion de la modulation de texture d&#39;entrée telle que définie dans les fichiers glTF
+* Dans certains cas, le plan de Sol [Importer][glTF] ne s&#39;affiche pas correctement lors de l&#39;importation glTF
+* [Export][USD] L’opacité ne fonctionne pas dans Arkit
+* [Export][USD] crashs d&#39;exportation USDz dans certains cas
+* [Export][USD] Exporter vers USD sans enregistrer les pistes vers le crash
+* [Export][USD] Mode de répétition incorrect pour les textures, mode de subdivision pour les maillages et types de sortie pour les nuanceurs
+* [Export][USD] Exportations fragmentées de certains jeux de textures seulement avec toute la géométrie
 * crash [Instance] lors de la tentative de suppression d’un calque d’instance rompu
-* [Régression]&#x200B;[Exporter] Certaines cartes non exportées dans le nombre de bits par pixel choisi
+* [Régression][Exporter] Certaines cartes non exportées dans le nombre de bits par pixel choisi
 * [Linux] Problème avec la bibliothèque libtbb.so.2
 
 **Problèmes Connus :**
@@ -324,7 +316,7 @@ Nous avons également mis à jour une partie du contenu existant pour l’affine
 **Ajouté :**
 
 * Résumé : correctif
-* [Symétrie]&#x200B;[Viewport] La peinture sur Symétrie dans la Vue 2D est de retour et dispose désormais d’un aperçu du pinceau de duplication fixe
+* [Symétrie][Viewport] La peinture sur Symétrie dans la Vue 2D est de retour et dispose désormais d’un aperçu du pinceau de duplication fixe
 
 **Fixe :**
 
@@ -347,25 +339,25 @@ Nous avons également mis à jour une partie du contenu existant pour l’affine
 <b><b>Ajouté :</b></b>
 
 * Résumé : mises à niveau du viewport, exportation correcte de Vue 2D, nouveaux assistants d’interface utilisateur, outil de symétrie amélioré, nouveau contenu et amélioration considérable des performances
-* [Lissage]&#x200B;[Viewport] Nouveau filtrage antialiasing temporel pour viewport 3D (via les paramètres d’affichage)
+* [Lissage][Viewport] Nouveau filtrage antialiasing temporel pour viewport 3D (via les paramètres d’affichage)
 * [Exporter] Exportez le contenu du viewport 2D en une seule texture
-* [Exportation]&#x200B;[Dithering] Exposer le dithering à l’exportation
+* [Exportation][Dithering] Exposer le dithering à l’exportation
 * [Pile de calques] Couleurs sur les calques et les dossiers
 * [Pile de calques] Activation et désactivation rapides de plusieurs calques et effets
 * [Pile de calques] Navigation plus facile pour les modes de fusion avec les touches haut et bas et le défilement de la souris
-* [Proj]&#x200B;[UI] manipulateur de rotation supplémentaire sur les trois axes pour triplanar
-* [Proj]&#x200B;[Raccourcis] - et + pour modifier la taille du manipulateur de Projection UV
+* [Proj][UI] manipulateur de rotation supplémentaire sur les trois axes pour triplanar
+* [Proj][Raccourcis] - et + pour modifier la taille du manipulateur de Projection UV
 * [Shader] Contrôle des paramètres de la couche revêtue avec des canaux dans le shader revêtu de PBR
 * [Substance] Exposer de nouvelles entrées de texture basées sur le maillage pour les filtres et les générateurs
-* [Symétrie]&#x200B;[Viewport]&#x200B;[Interface utilisateur] Décalage de la symétrie de contrôle avec les manipulateurs
-* [Symétrie]&#x200B;[Barre d’outils contextuelle]&#x200B;[Interface utilisateur] Nouveau panneau symétrie avec des options
+* [Symétrie][Viewport][Interface utilisateur] Décalage de la symétrie de contrôle avec les manipulateurs
+* [Symétrie][Barre d’outils contextuelle][Interface utilisateur] Nouveau panneau symétrie avec des options
 * [Symétrie] Nouveau mode d&#39;intersection de lignes de symétrie
 * [Symétrie] Nouveau curseur de duplication de symétrie
-* [Symétrie]&#x200B;[Raccourcis] Q pour masquer et -, + pour modifier la taille et Maj pour contraindre
+* [Symétrie][Raccourcis] Q pour masquer et -, + pour modifier la taille et Maj pour contraindre
 * [Journal] Amélioration des messages d’erreur en cas d’échec de l’exportation des textures
 * [Scripts] Autoriser à modifier ou à mettre à jour les ressources dans les paramètres d’affichage
 * [Scripts] Autoriser la création ou la suppression de canaux dans les Jeux de textures
-* [Contenu]&#x200B;[Shaders] Ajoutez la prise en charge de l&#39;anisotropie avec un shader dédié (pbr-metal-rugueux-anisotropie-angle)
+* [Contenu][Shaders] Ajoutez la prise en charge de l&#39;anisotropie avec un shader dédié (pbr-metal-rugueux-anisotropie-angle)
 * [Contenu] Mise à jour de la sphère de prévisualisation avec anisotropie et angle modifié
 * [Contenu] Mise à jour de la ligne d’arrêt matFx
 * [Contenu] Nouvelle numérisation de face transparente Texturing.XYZ
@@ -374,16 +366,16 @@ Nous avons également mis à jour une partie du contenu existant pour l’affine
 * [Contenu] Nouvelle map d&#39;environnement : studio automobile neutre
 * [Contenu] Nouveau modèle de projet : PBR - Anisotropy angle de métallique rugosité (avec canaux d’anisotropie)
 * [Content] Nouveau modèle de projet : PBR - métallique rugosité Coated
-* [SVT]&#x200B;[Moteur] Sparse Virtual Texture (SVT)
-* [SVT]&#x200B;[Préférences]&#x200B;[Interface utilisateur] Option d’accélération de la prise en charge matérielle SVT
-* [SVT]&#x200B;[Journal] Informations supplémentaires sur la fonction de texturation virtuelle dispersée (par exemple, taille du disque)
-* [SVT]&#x200B;[UI] Fenêtre de message au début si la taille du disque est trop faible pour le cache
-* [SVT]&#x200B;[Préférences]&#x200B;[UI] Emplacement du cache global de la Substance Painter de données
+* [SVT][Moteur] Sparse Virtual Texture (SVT)
+* [SVT][Préférences][Interface utilisateur] Option d’accélération de la prise en charge matérielle SVT
+* [SVT][Journal] Informations supplémentaires sur la fonction de texturation virtuelle dispersée (par exemple, taille du disque)
+* [SVT][UI] Fenêtre de message au début si la taille du disque est trop faible pour le cache
+* [SVT][Préférences][UI] Emplacement du cache global de la Substance Painter de données
 * [SVT] Nouvelle variable d’environnement pour spécifier le chemin du cache de Substance Painter
 * [SVT] Nouvelle variable d’environnement pour activer l’accélération de la prise en charge matérielle SVT
 * [SVT] Détecter la prise en charge fragmentée par le matériel
-* [SVT]&#x200B;[Dispersé matériel] Augmenter la version minimale du pilote pour le GPU Nvidia
-* [SVT]&#x200B;[Shader]&#x200B;[Viewport]&#x200B;[UI] Avertir l’utilisateur si des artefacts sont présents avec une texture virtuelle dispersée à l’ouverture du projet
+* [SVT][Dispersé matériel] Augmenter la version minimale du pilote pour le GPU Nvidia
+* [SVT][Shader][Viewport][UI] Avertir l’utilisateur si des artefacts sont présents avec une texture virtuelle dispersée à l’ouverture du projet
 
 <b><b>Fixe :</b>\
 </b>
@@ -391,7 +383,7 @@ Nous avons également mis à jour une partie du contenu existant pour l’affine
 * [Sélecteur de couleurs] Un curseur de peinture apparaît lorsque vous tentez de choisir une couleur
 * Le crash par sélection ou désélection de calques dans un ordre spécifique peut entraîner un crash
 * Crash lors du collage en tant qu’instance d’un calque avec un masque
-* crash [Canal utilisateur]&#x200B;[Régression] lors du changement de nom du canal utilisateur
+* crash [Canal utilisateur][Régression] lors du changement de nom du canal utilisateur
 * [Canal utilisateur] Aperçu du pinceau grisé
 * [Alembic] Un seul jeu de textures de plusieurs matériaux après l’importation
 * [Moteur] La texture exportée diffère de celle du viewport pour les tampons de pinceau
@@ -401,7 +393,7 @@ Nous avons également mis à jour une partie du contenu existant pour l’affine
 * Les liens de map de maillage ne sont pas mis à jour correctement lors du rétablissement ou de l’instanciation des calques
 * [Substance] L&#39;espace colorimétrique UserData ne fonctionne pas sur le Maillage Baké Normal demandé comme entrée
 * Incompatibilité d&#39;association MDL lors de l&#39;utilisation de plusieurs instances de shaders
-* [Symétrie]&#x200B;[Calque de remplissage] Plan de Symétrie et son manipulateur actif dans le Calque de remplissage
+* [Symétrie][Calque de remplissage] Plan de Symétrie et son manipulateur actif dans le Calque de remplissage
 * [Viewport] Le point de pivot de la traduction n’est pas toujours mis à jour après avoir cliqué
 * [UI] Correction des icônes et suppression des espaces réservés pour les moniteurs HDPI
 

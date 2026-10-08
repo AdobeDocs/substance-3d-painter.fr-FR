@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/fr/substance-3d-painter/interface/settings/shortcuts.html'
 breadcrumb-title: ''
 description: Découvrez comment personnaliser les raccourcis clavier dans Substance 3D Painter pour rationaliser votre workflow et améliorer l’efficacité.
-helpx_creative_field: ''
-helpx_description: Painter > Interface > Settings > Shortcuts
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Raccourcis
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 7b5f6e6c9623cb51253b6e49c8dbcbb22856418c
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1369'
 ht-degree: 5%
-
 ---
-
 
 # Raccourcis
 
@@ -26,7 +18,7 @@ Cette page répertorie tous les raccourcis clavier et souris disponibles.
 
 ## Présentation des raccourcis
 
-Pour un aperçu rapide de tous les raccourcis disponibles, consultez notre graphique [disponible dans nos tutoriels](https://helpx.adobe.com/fr/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html) .
+Pour un aperçu rapide de tous les raccourcis disponibles, consultez notre graphique [disponible dans nos tutoriels](https://helpx.adobe.com/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html) .
 
 ## Comment modifier un raccourci
 

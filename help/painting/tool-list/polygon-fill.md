@@ -1,24 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting/tool-list/polygon-fill.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilisez l’outil Remplissage polygonal de Substance 3D Painter pour remplir les polygones sélectionnés avec de la peinture afin d’obtenir une peinture à la texture efficace.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Tool list > Polygon fill
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
-title: Remplissage de polygone
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+title: Remplissage de polygones
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 1%
-
 ---
 
-
-# Remplissage de polygone
+# Remplissage de polygones
 
 L&#39;outil **Remplissage polygonal** (![](../../assets/image2018-6-12-18-15-12.png)) vous permet de dessiner rapidement des masques en transformant les polygones sélectionnés en masque de pixels. Cela peut ressembler à un outil de sélection 3D d’autres applications 3DCC, mais c’est en fait un outil de remplissage de peinture qui génère des données de pixels. Cela signifie sélectionner et désélectionner des œuvres en les utilisant pour mettre en peinture du blanc ou du noir.
 

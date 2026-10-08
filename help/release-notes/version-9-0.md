@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/release-notes/version-9-0.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consultez les notes de mise à jour de Substance 3D Painter version 9.0 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 9.0
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 0%
-
 ---
-
 
 # Version 9.0
 
@@ -167,9 +159,9 @@ Résumé : <b>version majeure avec Peinture le long du chemin permettant les cou
 * [Traits dynamiques] Ajout d’une propriété de distance pour les traits dynamiques
 * [Traits dynamiques] Ajout de propriétés de taille et d’espacement aux traits dynamiques
 * [Traits dynamiques] Ajout d’une propriété de début/milieu/fin pour les traits dynamiques
-* [Python]&#x200B;[USD] Exposer les paramètres de configuration du projet pour le format USD
-* [Python]&#x200B;[USD] Exposer les paramètres de création de projet pour le format USD
-* [Export]&#x200B;[USD] Ajout d’informations sur le chemin d’accès au projet dans le fichier USD exporté
+* [Python][USD] Exposer les paramètres de configuration du projet pour le format USD
+* [Python][USD] Exposer les paramètres de création de projet pour le format USD
+* [Export][USD] Ajout d’informations sur le chemin d’accès au projet dans le fichier USD exporté
 * [GLTF] Mise à jour des textures dans la bibliothèque lors du rechargement d’un fichier GLTF
 * [Shader] Réduction des artefacts de seam pour les Îlots UV avec une orientation différente
 * [Moteur] Mise à jour vers Substance moteur version 9.0

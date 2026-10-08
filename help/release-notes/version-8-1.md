@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/release-notes/version-8-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consultez les notes de mise à jour de Substance 3D Painter version 8.1 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Version 8.1
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 8.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1701'
 ht-degree: 0%
-
 ---
-
 
 # Version 8.1
 
@@ -196,10 +188,10 @@ Maintenant, les maillages sont découpés en Îlots UV séparés à l&#39;aide d
 * [Gestion des couleurs] Permet d’entrer des valeurs de couleur linéaires dans le sélecteur de couleurs avec le mode hérité
 * [Gestion des couleurs] Permet de spécifier le profil colorimétrique utilisé pour sélectionner des couleurs en dehors de l’interface utilisateur
 * [Gestion des couleurs] Mémoriser la dernière valeur Affichage choisie dans le viewport
-* [Gestion des couleurs]&#x200B;[Substance] Faites fonctionner correctement les générateurs/filtres avec la gestion des couleurs
-* [Gestion des couleurs]&#x200B;[Substance] Ajouter de nouveaux mots-clés de remplacement d’espace colorimétrique $working et $standardsrgb
-* [Taille physique]&#x200B;[Moteur] Extraire les informations de taille physique du maillage
-* [Taille physique]&#x200B;[Moteur] calcul de Taille physique
+* [Gestion des couleurs][Substance] Faites fonctionner correctement les générateurs/filtres avec la gestion des couleurs
+* [Gestion des couleurs][Substance] Ajouter de nouveaux mots-clés de remplacement d’espace colorimétrique $working et $standardsrgb
+* [Taille physique][Moteur] Extraire les informations de taille physique du maillage
+* [Taille physique][Moteur] calcul de Taille physique
 * [Taille physique] Exposer des options pour utiliser la taille physique dans l’interface utilisateur
 * [Taille physique] Ajout d’assistants visuels dans le viewport
 * [Baking] Ajouter un baker Height
@@ -235,13 +227,13 @@ Maintenant, les maillages sont découpés en Îlots UV séparés à l&#39;aide d
 
 * [glTF] Impossible d&#39;ouvrir glTF avec un caractère spécial
 * [Moteur] Artefacts avec anisotropie et SVT désactivés
-* Les Matériaux adaptables [MacOS]&#x200B;[M1] ne s’affichent pas correctement
+* Les Matériaux adaptables [MacOS][M1] ne s’affichent pas correctement
 * [Traitement du Maillage] Impossible d’importer des maillages depuis Modeler
 * [UI] Barre de défilement horizontale dans la nouvelle fenêtre de projet avec la gestion des couleurs activée
 * [Gestion des couleurs] Valeur d’espace de travail manquante dans le sélecteur de couleurs avec certaines configurations OCIO
 * [Gestion des couleurs] L’aperçu du pinceau dans le viewport ne prend pas en charge la gestion des couleurs
 * [SpaceMouse] Le pivot n’est pas immédiatement mis à jour avec le changement de focus et se trouve parfois en dehors du modèle
-* [Export]&#x200B;[USD] Les fichiers USD exportés ont une structure incorrecte
+* [Export][USD] Les fichiers USD exportés ont une structure incorrecte
 * Problème d’Ambient occlusion [USD] lors de l’exportation
 * [Contenu] Mettez à jour le maillage de la vignette pour qu’il corresponde à l’exemple de projet Preview Sphere
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/release-notes/version-10-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consultez les notes de mise à jour de Substance 3D Painter version 10.1 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 10.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1436'
 ht-degree: 0%
-
 ---
-
 
 # Version 10.1
 
@@ -156,7 +148,7 @@ Résumé : <b>version majeure, nouveau contenu : masque de zone de remplissage/f
 * [VFX Platform 2024] Mise à jour vers Python 3.11
 * [VFX Platform 2024] Mise à jour vers OpenEXR 3.2
 * [VFX Platform 2024] [USD] Mise à jour OpenSubdiv 3.6.0
-* [VFX Platform 2024]&#x200B;[Gestion des couleurs] Mise à jour vers OCIO 2.3.2
+* [VFX Platform 2024][Gestion des couleurs] Mise à jour vers OCIO 2.3.2
 * [Linux] Migration vers Linux RedHat
 * [Linux] Mise à jour du pilote Nvidia version min vers 535.171.04
 * [Importer] Ajout d’une option pour retourner la map normal lors de l’importation d’un maillage GLTF
@@ -170,10 +162,10 @@ Résumé : <b>version majeure, nouveau contenu : masque de zone de remplissage/f
 <b>Fixe</b> :
 
 * [Illustrator] Crash exportant une Tuile UV avec un graphique .ai dans des cas spécifiques
-* [Traits dynamiques]&#x200B;[Tracé] Un tracé aléatoire ne fonctionne pas sur un tracé
-* [UI]&#x200B;[Propriétés] Le verrouillage est activé lorsque la répétition n’est pas uniforme
+* [Traits dynamiques][Tracé] Un tracé aléatoire ne fonctionne pas sur un tracé
+* [UI][Propriétés] Le verrouillage est activé lorsque la répétition n’est pas uniforme
 * &#x200B;Le fichier TXT de débogage est créé lorsque vous double-cliquez sur le projet Painter
-* [USD]&#x200B;[Export] Certaines textures peuvent être manquantes
+* [USD][Export] Certaines textures peuvent être manquantes
 * [ASM] Le canal Scattering ignore le métallique
 * [Contenu] Le filtre Flou ne fonctionne pas dans l’espace colorimétrique de travail
 * Le filtre Ajustement de l’Height [Contenu] modifie également l’alpha du calque
@@ -181,9 +173,9 @@ Résumé : <b>version majeure, nouveau contenu : masque de zone de remplissage/f
 <b>Problèmes connus</b> :
 
 * [Gestion des couleurs] Les conversions de l’espace colorimétrique HDR avec ACE sous Linux produisent des couleurs condensées
-* [Win]&#x200B;[Crash] [ACE] N’utilise pas l’espace colorimétrique sRGB ICE pour le transforme d’affichage
-* [Régression]&#x200B;[Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
-* [Crash]&#x200B;[Python] Exportation USD déclenchée par TextureStateEvent
+* [Win][Crash] [ACE] N’utilise pas l’espace colorimétrique sRGB ICE pour le transforme d’affichage
+* [Régression][Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
+* [Crash][Python] Exportation USD déclenchée par TextureStateEvent
 * [MacOS Intel] Crash lors de l’importation de certains paramètres prédéfinis
 * [Crash] Redéfinir l&#39;emplacement la ressource et enregistrer le projet
 * [Moteur] Lorsque vous peignez avec l’outil Clone dans des couleurs de décalage de couche normales, cela ne fonctionne pas correctement

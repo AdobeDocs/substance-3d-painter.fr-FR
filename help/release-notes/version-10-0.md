@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/release-notes/version-10-0.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consultez les notes de mise à jour de Substance 3D Painter version 10.0 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter 10.0 brings support of Fonts via Text resources, layer stack functionalities in the Python API, support of Illustrator (.ai) files and several quality of life improvements.
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 10.0
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2328'
 ht-degree: 0%
-
 ---
-
 
 # Version 10.0
 
@@ -226,16 +218,16 @@ Résumé : <b>version majeure, édition de la pile de calques avec l’API Pytho
 <b>Ajouté</b> :
 
 * [Illustrator] Utilisation de fichiers Illustrator avec des tableaux dans Painter
-* [Illustrator]&#x200B;[SVG] Ajout d’aperçus dans la sélection de l’étendue
+* [Illustrator][SVG] Ajout d’aperçus dans la sélection de l’étendue
 * [Substance 3D Assets] Parcourir, sélectionner et télécharger des ressources 3D directement dans Painter
-* [Substance 3D Assets]&#x200B;[UI] Nouveau panneau
+* [Substance 3D Assets][UI] Nouveau panneau
 * [Substance 3D Assets] maps d&#39;environnement et matériaux de support
 * [Substance 3D Assets] Autoriser le rechargement, la navigation et l’ouverture du dossier d’emplacement dans le nouveau panneau Substance 3D Assets
 * [Substance 3D Assets] Ajout d’un gestionnaire de téléchargement
 * [Ressource de texte] Autoriser l’utilisation de polices incorporables
 * [Text Resource] Autoriser le rendu d’une police/d’un texte sur un maillage
 * [Ressource de texte] Affichez les polices de l’utilisateur et d’autres chemins partagés dans le panneau Actifs avec une nouvelle catégorie
-* [Ressource de texte]&#x200B;[Propriétés] Ajout de la prise en charge pour les propriétés de police avancées
+* [Ressource de texte][Propriétés] Ajout de la prise en charge pour les propriétés de police avancées
 * [Ressource de texte] Permettre de rechercher/afficher des polices dans des mini-étagères
 * [Ressource de texte] Ajouter un message/une boîte de dialogue d’erreur lors de l’importation d’une police incompatible
 * Divers
@@ -298,9 +290,9 @@ Résumé : <b>version majeure, édition de la pile de calques avec l’API Pytho
 <b>Problèmes connus</b> :
 
 * [Gestion des couleurs] Les conversions de l’espace colorimétrique HDR avec ACE sous Linux produisent des couleurs condensées
-* [Crash]&#x200B;[Linux]&#x200B;[AMD] Glissement et déplacement de ressources dans pile de calques sur le système d’exploitation Wayland
-* [Régression]&#x200B;[Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
-* [Crash]&#x200B;[Python] Exportation USD déclenchée par TextureStateEvent
+* [Crash][Linux][AMD] Glissement et déplacement de ressources dans pile de calques sur le système d’exploitation Wayland
+* [Régression][Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
+* [Crash][Python] Exportation USD déclenchée par TextureStateEvent
 * [Enregistrer] Le fichier de projet d’application est perdu lorsque l’option « Enregistrer sous » échoue
 * [MacOS Intel] Crash lors de l’importation de certains paramètres prédéfinis
 * [Illustrator] Impossible d’importer des fichiers Ai après le crash du serveur sans redémarrer Painter

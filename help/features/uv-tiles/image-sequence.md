@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/features/uv-tiles/image-sequence.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Découvrez comment utiliser des séquences d’images avec des UV dans Substance 3D Painter pour les workflows de texture animée.
-helpx_creative_field: ""
-helpx_description: Painter > Features > UV Tiles > Image Sequence
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Séquence d’images
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b892d2d6c9d0f1a3b5d9d3ab9b180a7c2770a83
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
-
 ---
-
 
 # Séquence d’images
 

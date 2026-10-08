@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/pipeline-and-integration/resource-management/preferences-and-content-migration.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Découvrez comment migrer les préférences et le contenu dans Substance 3D Painter lors de la mise à niveau ou du passage à un nouveau système.
-helpx_creative_field: ""
-helpx_description: Painter > Pipeline and integration > Resource management > Preferences and content migration
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Préférences et migration du contenu
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 1%
-
 ---
-
 
 # Préférences et migration du contenu
 
@@ -66,4 +58,4 @@ Maintenant que vous redémarrez l’application, les recherches enregistrées do
 
 Nous vous recommandons de réajuster manuellement les paramètres de l’application à partir de l’interface. C’est le moyen le plus sûr de migrer les informations sans introduire de problèmes de compatibilité.
 
-Sinon, consultez la page suivante pour savoir où se trouvent désormais les préférences : [Préférences et emplacement des données de l’application](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html).
+Sinon, consultez la page suivante pour savoir où se trouvent désormais les préférences : [Préférences et emplacement des données de l’application](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html).

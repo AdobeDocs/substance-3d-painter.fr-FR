@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/assets/advanced-search-queries.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Découvrez comment créer des requêtes de recherche avancées dans Substance 3D Painter pour rechercher des ressources spécifiques à l’aide de critères de recherche complexes.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Assets > Advanced search queries
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Requêtes de recherche avancées
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
-
 ---
-
 
 # Requêtes de recherche avancées
 
@@ -49,10 +41,10 @@ La requête de texte prend en charge plusieurs types de filtrage, certains étan
 Ils peuvent être activés en saisissant les bons mots-clés.
 
 * **Types de recherche disponibles** :
-  * » **n:** «  : name
-  * » **s:** «  : étagère/bibliothèque (comprend « session » et « projet »)
-  * » **p:** «  : path
-  * » **u:** «  : utilisation
+  *  » **n:** «  : name
+  *  » **s:** «  : étagère/bibliothèque (comprend « session » et « projet »)
+  *  » **p:** «  : path
+  *  » **u:** «  : utilisation
 * **Échappement** : il est possible d&#39;utiliser « **\** » avant le caractère qui doit être placé en échap ou d&#39;utiliser des guillemets à la place, par exemple :
   * **a\ name\ avec\ spaces**
   * **« un nom avec des espaces »**

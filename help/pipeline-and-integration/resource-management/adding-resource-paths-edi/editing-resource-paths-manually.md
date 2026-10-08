@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/pipeline-and-integration/resource-management/adding-resource-paths-by-editing-preferences-manually/editing-resource-paths-manually.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Découvrez comment modifier manuellement les chemins de ressources dans les préférences de Substance 3D Painter pour personnaliser les emplacements de vos ressources d’étagère.
-helpx_creative_field: ""
-helpx_description: Painter > Pipeline and integration > Resource management > Adding resource paths by editing preferences manually > Editing resource paths manually
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Modification manuelle des chemins d’accès aux ressources
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 1%
-
 ---
-
 
 # Modification manuelle des chemins d’accès aux ressources
 

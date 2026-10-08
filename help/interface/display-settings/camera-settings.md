@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/display-settings/camera-settings.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Découvrez comment configurer les paramètres de caméra dans Substance 3D Painter pour contrôler le comportement et la projection des caméras de viewport.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Display settings > Camera settings
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Paramètres de caméra
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 3%
-
 ---
-
 
 # Paramètres de caméra
 

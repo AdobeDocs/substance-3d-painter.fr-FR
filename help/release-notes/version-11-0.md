@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/release-notes/version-11-0.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consultez les notes de mise à jour de Substance 3D Painter version 11.0 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 11.0
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2707'
 ht-degree: 0%
-
 ---
-
 
 # Version 11.0
 
@@ -271,9 +263,9 @@ Résumé : <b>version majeure, nouvelle fonctionnalité de mise à jour automati
 * [Mise à jour automatique] Désactiver la mise à jour automatique par défaut
 * [Mise à jour automatique] Rendre la mise à jour facultative si les paramètres de ressource ne correspondent pas (.sbsar, .glsl, .ai, .svg)
 * [Mise à jour automatique] Ajouter une variable d’environnement pour désactiver la fonction de mise à jour automatique
-* [Mise à jour automatique]&#x200B;[SBSAR] Rendre la mise à jour facultative si les paramètres de la ressource ne correspondent pas
+* [Mise à jour automatique][SBSAR] Rendre la mise à jour facultative si les paramètres de la ressource ne correspondent pas
 * Tracé plein
-* [Tracé]&#x200B;[Remplissage] Ajouter un nouvel outil pour créer des tracés remplis
+* [Tracé][Remplissage] Ajouter un nouvel outil pour créer des tracés remplis
 * Améliorations des tracés
 * [Tracé] Création d’un tracé contraignant aux polygones
 * [Chemin] Permettre de changer de type de chemin
@@ -283,7 +275,7 @@ Résumé : <b>version majeure, nouvelle fonctionnalité de mise à jour automati
 * [Tracé] Fermer la forme en un seul clic
 * [Chemin] Afficher les informations de chemin
 * [Tracé] Permet de mettre à l’échelle et de faire pivoter les vertex de tracé
-* [Chemin]&#x200B;[UX] Faciliter l’accès aux gadgets de transformation
+* [Chemin][UX] Faciliter l’accès aux gadgets de transformation
 * [Chemin] Ajouter un aperçu du chemin
 * [Tracé] Désactiver l’aperçu du tracé avec les touches Maj + P
 * [Tracé] Amélioration de l’édition de tangente à partir de la vue latérale
@@ -291,7 +283,7 @@ Résumé : <b>version majeure, nouvelle fonctionnalité de mise à jour automati
 * [Chemin] Les Vertex doivent conserver l’état de sélection lorsque l’interface utilisateur est activée et désactivée
 * [Chemin] Autoriser à supprimer le chemin à l’aide de la touche Retour arrière
 * [Chemin] Garder la liste des chemins ouverte si l’utilisateur la développe
-* [Chemin]&#x200B;[Pile de calques] Renommer correctement les doublons lors du copier/coller
+* [Chemin][Pile de calques] Renommer correctement les doublons lors du copier/coller
 * Améliorations de l’interface utilisateur et de l’info-bulle de [Path]
 * Performance
 * [Performances] Amélioration des performances du viewport lors de l’utilisation de niveaux de tessellation élevés
@@ -305,11 +297,11 @@ Résumé : <b>version majeure, nouvelle fonctionnalité de mise à jour automati
 * [Content] Ajouter 3 nouveaux générateurs de textures (Tile Random, Triangle Grid, Scratches Generator)
 * [Contenu] Renommer le modèle de Moteur irréel et les paramètres prédéfinis d’exportation
 * Python
-* [Étagère]&#x200B;[Python] Enregistrer le matériau adaptable ou le masque adaptable sur le disque depuis Python
+* [Étagère][Python] Enregistrer le matériau adaptable ou le masque adaptable sur le disque depuis Python
 * [Python] Ajout de la cage automatique de baking à l’API Python
 * [Python] Autoriser la modification des noms et descriptions des Jeux de textures/Tuiles UV
 * [Python] Partage des paramètres de résolution sur les sources de vecteurs et de polices
-* [Mise à jour automatique]&#x200B;[Python] Exposer les fonctionnalités de mise à jour automatique du projet dans Python
+* [Mise à jour automatique][Python] Exposer les fonctionnalités de mise à jour automatique du projet dans Python
 * Divers
 * [Exporter] Accédez plus facilement aux options Envoyer vers avec un nouveau panneau
 * [Nvidia] Ajouter un avertissement concernant les derniers pilotes Nvidia (572.16)
@@ -321,7 +313,7 @@ Résumé : <b>version majeure, nouvelle fonctionnalité de mise à jour automati
 
 <b>Fixe</b> :
 
-* Les résultats du baker d’Ambient occlusion [Nvidia]&#x200B;[Baker] présentent des artefacts
+* Les résultats du baker d’Ambient occlusion [Nvidia][Baker] présentent des artefacts
 * [Crash] Cliquez sur Alt pour activer/désactiver la visibilité sur les affaires de Jeu de textures désactivées vers un crash
 * [Baking] La Cage est prise en compte avec un poly faible comme un poly param élevé
 * [Baking] La couleur du Matériau pour le baker Map id ne fonctionne pas avec le format de fichier USD
@@ -338,8 +330,8 @@ Résumé : <b>version majeure, nouvelle fonctionnalité de mise à jour automati
 <b>Problèmes connus</b> :
 
 * [Gestion des couleurs] Les conversions de l’espace colorimétrique HDR avec ACE sous Linux produisent des couleurs condensées
-* [Régression]&#x200B;[Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
-* [Crash]&#x200B;[Python] Exportation USD déclenchée par TextureStateEvent
+* [Régression][Interface utilisateur] Le menu contextuel est trop petit sur les écrans HD
+* [Crash][Python] Exportation USD déclenchée par TextureStateEvent
 * [Moteur] Lorsque vous peignez avec l’outil Clone dans des couleurs de décalage de couche normales, cela ne fonctionne pas correctement
 * [Python] Le widget de Fantôme apparaît supprimé par le script et fonctionne toujours
 * [RedHat] Problèmes de sélecteur de couleurs

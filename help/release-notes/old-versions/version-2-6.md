@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/release-notes/old-versions/version-2-6.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consultez les notes de mise à jour de Substance 3D Painter version 2.6 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2.6
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 2.6
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 0%
-
 ---
-
 
 # Version 2.6
 
@@ -48,7 +40,7 @@ Le **plug-in** est disponible sur GitHub. N’hésitez pas à nous aider si vous
 ![](../../assets/texture-set-rename-description.png)
 
 Il est désormais possible de modifier le nom d’un jeu de textures directement dans la Substance Painter. Le fait de renommer un jeu de textures a une incidence sur le nom des textures exportées sur le disque (en fonction du paramètre prédéfini d’exportation utilisé).\
-Pour renommer un jeu de textures, double-cliquez simplement sur son nom pour le modifier ou utilisez le clic droit pour ouvrir le menu contextuel. Il est également possible d’ajouter des descriptions personnalisées pour donner plus d’informations sur les fonctions des jeux de textures. Cela peut être très utile lorsque vous travaillez sur un projet [UDIM](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/uv-tile-udim-legacy-144310352.html). Utilisez le bouton « **paramètres** » pour configurer l&#39;affichage des descriptions dans la liste.
+Pour renommer un jeu de textures, double-cliquez simplement sur son nom pour le modifier ou utilisez le clic droit pour ouvrir le menu contextuel. Il est également possible d’ajouter des descriptions personnalisées pour donner plus d’informations sur les fonctions des jeux de textures. Cela peut être très utile lorsque vous travaillez sur un projet [UDIM](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/uv-tile-udim-legacy-144310352.html). Utilisez le bouton « **paramètres** » pour configurer l&#39;affichage des descriptions dans la liste.
 
 ![](../../assets/reasign-texture-set.png)
 

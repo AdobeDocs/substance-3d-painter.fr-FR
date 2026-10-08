@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/release-notes/old-versions/version-2017-3.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consultez les notes de mise à jour de Substance 3D Painter version 2017.3 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2017.3
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 2017.3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1588'
 ht-degree: 0%
-
 ---
-
 
 # Version 2017.3
 
@@ -30,7 +22,7 @@ Date de publication : *28 septembre 2017*
 
 ![](../../assets/adobe-dimension-meetmat.jpg)
 
-L’un des nouveaux exporteurs inclus dans cette version est le support de l’Adobe Standard Material, à utiliser avec Adobe Dimension (auparavant Adobe Project Felix). Nous vous permettons d&#39;exporter le maillage de scène et ses textures pour les importer dans le projet Felix en un clic. Pour y accéder, il vous suffit de choisir « **Adobe Standard Material** » dans la fenêtre des textures d&#39;exportation. Pour plus d&#39;informations, voir : [http://www.adobe.com/fr/products/dimension.html](https://www.adobe.com/fr/products/dimension.html)
+L’un des nouveaux exporteurs inclus dans cette version est le support de l’Adobe Standard Material, à utiliser avec Adobe Dimension (auparavant Adobe Project Felix). Nous vous permettons d&#39;exporter le maillage de scène et ses textures pour les importer dans le projet Felix en un clic. Pour y accéder, il vous suffit de choisir « **Adobe Standard Material** » dans la fenêtre des textures d&#39;exportation. Pour plus d&#39;informations, voir : [http://www.adobe.com/products/dimension.html](https://www.adobe.com/products/dimension.html)
 
 Vous pouvez également consulter notre article de blog à ce sujet : <https://www.allegorithmic.com/blog/new-dimension-substance-ecosystem>
 
@@ -55,7 +47,7 @@ Si une sauvegarde est créée, mais que le projet n&#39;a pas été enregistré 
 
 ![](../../assets/gradient-rust.jpg)
 
-Le **filtre de dégradé** a été entièrement remanié. Agir d&#39;une manière beaucoup plus similaire au nœud **gradient map** disponible dans **Substance Designer**. Il prend désormais en charge jusqu&#39;à **10 couleurs différentes**, avec la possibilité de spécifier **l&#39;emplacement de la couleur à l&#39;intérieur** du dégradé&#x200B;**&#x200B;**, ce qui ouvre de nombreuses nouvelles portes. Cela permet de créer plus de **motifs de couleur avancés**, mais aussi de **remapper les cartes de hauteur**&#x200B;et de créer **nouvelles formes**.
+Le **filtre de dégradé** a été entièrement remanié. Agir d&#39;une manière beaucoup plus similaire au nœud **gradient map** disponible dans **Substance Designer**. Il prend désormais en charge jusqu&#39;à **10 couleurs différentes**, avec la possibilité de spécifier **l&#39;emplacement de la couleur à l&#39;intérieur** du dégradé&#x200B;****, ce qui ouvre de nombreuses nouvelles portes. Cela permet de créer plus de **motifs de couleur avancés**, mais aussi de **remapper les cartes de hauteur**et de créer **nouvelles formes**.
 
 Le curseur principal (quantité de couleur) définit le nombre total de couleurs utilisées pour créer le dégradé. Le bouton ci-dessous définit le mode de fusion des couleurs (sRVB ou Linéaire). C’est important si vous souhaitez obtenir un mélange approprié entre les couleurs. Par exemple, le mélange d&#39;un rouge pur et d&#39;un vert pur doit donner un joli jaune entre les deux. Ce ne sera pas le cas si le bouton est désactivé (il donnera un marron foncé à la place). Lors du remappage de l’height ou de toute autre couche de niveaux de gris, ce bouton doit être désactivé afin d’éviter la conversion gamma.
 
@@ -130,7 +122,7 @@ Cette version de la Substance Painter inclut également une nouvelle et forte am
 * Crash lors de la suppression de plusieurs sous-étagères
 * Crash lors du passage d’un niveau à un autre lors d’un calcul de moteur
 * [Mac] Crash sur le GPU Intel pendant les calculs de moteur
-* [Mac]&#x200B;[Viewport] Performances incorrectes lorsque le dithering est activé
+* [Mac][Viewport] Performances incorrectes lorsque le dithering est activé
 * [Mac] MacOS 10.13 est reconnu comme « Version inconnue » dans le fichier journal
 * [Baker] Le Baking avec une cage ne fonctionne plus
 * [Calques] Ctrl + C raccourci (action de copie) ne fonctionne plus

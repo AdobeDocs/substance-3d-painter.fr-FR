@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/release-notes/version-8-3.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consultez les notes de mise à jour de Substance 3D Painter version 8.3 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Version 8.3
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 8.3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2607'
 ht-degree: 0%
-
 ---
-
 
 # Version 8.3
 
@@ -208,10 +200,10 @@ Résumé : **version majeure avec nouveau mode de baking, nouvelle importation e
 * [USD] Importation de maillages avec habillage USD dans un cadre spécifique
 
   Lors de la création d’un projet avec un fichier de maillage USD contenant une animation, il est possible de sélectionner le cadre à l’aide d’un curseur qui reflète la séquence de montage intégrée. Le cadre peut être modifié via la configuration du projet.
-* [USD]&#x200B;[Exporter] Ajoutez une option pour exporter des fichiers USD
+* [USD][Exporter] Ajoutez une option pour exporter des fichiers USD
 
   Nouvelle case à cocher Exporter USD ajoutée à la fenêtre Exporter les textures. Lorsqu’elle est cochée, elle permet d’exporter des fichiers USD ainsi que des mappages de texture à l’aide de n’importe quel modèle.
-* [USD]&#x200B;[Exporter] Ajouter un format de fichier USD à l’exportation maillage
+* [USD][Exporter] Ajouter un format de fichier USD à l’exportation maillage
 * [USD] Renommez le paramètre prédéfini d’exportation « USD PBR Metal Rugosité » pour qu’il soit plus explicite
 
   Le modèle d’exportation USD, précédemment connu sous le nom de « Rugosité USD PBR Metal », est toujours accessible via textures d’exportation > Modèle de sortie > USDz (Apple AR).
@@ -224,13 +216,13 @@ Résumé : **version majeure avec nouveau mode de baking, nouvelle importation e
 * [Taille physique] Exposer taille physique pour Projection UV
 
   La mise à l’échelle des tailles physiques est désormais disponible pour les Projections UV. Elle permet le redimensionnement automatique d’un matériau en fonction de sa taille physique. Elle peut être sélectionnée via Échelle > Taille physique dans la fenêtre Propriétés du Calque de remplissage ou de l’effet.
-* [Scripting]&#x200B;[Python] Autoriser à interroger la version de l&#39;application
-* [Scripting]&#x200B;[JavaScript] API de mise à jour correspondant aux nouveaux paramètres de baking
-* [Scripting]&#x200B;[Python] Module de Baking : modifier les paramètres de baking
-* [Scripting]&#x200B;[Python] Module de Baking : lancement/annulation du baking
-* [Scripting]&#x200B;[Python] Module de Baking : sélectionner la méthode de courbure
-* [Scripting]&#x200B;[Python] Module de Baking : sélection de fichiers bakers/uv
-* [Scripting]&#x200B;[Python] Module de Baking : synchroniser les paramètres de baker sur tous les Jeux de textures
+* [Scripting][Python] Autoriser à interroger la version de l&#39;application
+* [Scripting][JavaScript] API de mise à jour correspondant aux nouveaux paramètres de baking
+* [Scripting][Python] Module de Baking : modifier les paramètres de baking
+* [Scripting][Python] Module de Baking : lancement/annulation du baking
+* [Scripting][Python] Module de Baking : sélectionner la méthode de courbure
+* [Scripting][Python] Module de Baking : sélection de fichiers bakers/uv
+* [Scripting][Python] Module de Baking : synchroniser les paramètres de baker sur tous les Jeux de textures
 * [SVT] Activer la prise en charge du matériel fragmenté sur les GPU AMD
 
   L’accélération matérielle pour le système Sparse Virtual Texture peut désormais être activée avec les GPU AMD. Ce paramètre est automatiquement activé dans les préférences générales.
@@ -249,10 +241,10 @@ Résumé : **version majeure avec nouveau mode de baking, nouvelle importation e
 **Fixe :**
 
 * [Crash] Changement de couches sur un filtre avec une pile spécifique
-* crash [Mac]&#x200B;[M1] lors de la création d’un calque de remplissage et de la fermeture de la pile de calques
+* crash [Mac][M1] lors de la création d’un calque de remplissage et de la fermeture de la pile de calques
 
   Ce problème peut être résolu en mettant à jour vers Mac OS 13 (Ventura).
-* [Scripting]&#x200B;[Python] Crash lors de l&#39;utilisation de ui.add\_dock\_widget() avec un type incorrect
+* [Scripting][Python] Crash lors de l&#39;utilisation de ui.add\_dock\_widget() avec un type incorrect
 * [Baking] Message d’erreur incomplet dans le journal lorsqu’un baking échoue
 * [Baking] La mémoire n’est pas libérée lorsque le baking est terminé
 * [Moteur] Le cache de Texture de données ne se met pas à jour lors de la modification de la visibilité des effets

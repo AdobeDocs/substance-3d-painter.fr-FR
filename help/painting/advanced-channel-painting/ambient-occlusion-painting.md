@@ -1,28 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting/advanced-channel-painting/ambient-occlusion-painting.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Apprenez à peinture des cartes d’ambient occlusion directement dans Substance 3D Painter pour ajouter une ombre et une profondeur réalistes aux textures.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Advanced channel painting > Ambient Occlusion Painting
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Peinture d’Ambient occlusion
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
-
 ---
-
 
 # Peinture d’Ambient occlusion
 
 Le canal ambient occlusion permet de mettre en peinture les détails dans les ombres ambiantes d’un objet. Il peut être utilisé pour ajouter des détails d’AO provenant de Matériaux, ou simplement corriger manuellement des erreurs de baking si nécessaire.
 
-&#x200B;>> 
+>> 
 
 Dans le domaine de l’infographie, l’ambient occlusion est une technique d’ombrage et de rendu utilisée pour calculer le degré d’expose de chaque point d’une scène à l’éclairage ambiant. L&#39;intérieur d&#39;un tube est généralement plus occulté (et donc plus sombre) que les surfaces externes exposées, et plus vous vous éloignez de l&#39;intérieur du tube, plus l&#39;éclairage devient occulté (et sombre). L&#39;Ambient occlusion peut être considéré comme une valeur d&#39;accessibilité calculée pour chaque point de surface.\
 Source : &lt;https://en.wikipedia.org/wiki/Ambient_occlusion>

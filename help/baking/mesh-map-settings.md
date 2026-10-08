@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/fr/substance-3d-painter/baking/mesh-map-settings.html'
 breadcrumb-title: ''
 description: Découvrez comment configurer les paramètres de map de maillage dans Substance 3D Painter pour contrôler les paramètres de baking et la qualité de sortie.
-helpx_creative_field: ''
-helpx_description: Substance 3D Painter
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Réglages de map de maillage
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 7b5f6e6c9623cb51253b6e49c8dbcbb22856418c
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 10%
-
 ---
-
 
 # Réglages de map de maillage
 

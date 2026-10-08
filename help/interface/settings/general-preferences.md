@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/settings/general-preferences.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Découvrez comment configurer les préférences générales dans Substance 3D Painter pour personnaliser le comportement de l’application et l’expérience utilisateur.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Settings > General preferences
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Préférences générales
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 3%
-
 ---
-
 
 # Préférences générales
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/performances-guidelines/mesh-and-uv-setup.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Découvrez les bonnes pratiques de configuration des maillages et des UV dans Substance 3D Painter pour optimiser les performances et la qualité des textures.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Performances guidelines > Mesh and UV setup
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Configuration de maillage et d’UV
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
-
 ---
-
 
 # Configuration de maillage et d’UV
 

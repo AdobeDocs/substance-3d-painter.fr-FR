@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/fr/substance-3d-painter/interface/miscellaneous/log.html'
 breadcrumb-title: ''
 description: Découvrez comment accéder à la fenêtre du journal de Substance 3D Painter et l’utiliser pour afficher les messages d’application et les informations de débogage.
-helpx_creative_field: ''
-helpx_description: Painter > Interface > Miscellaneous > Log
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Journal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 3e4ef9bd5897f042b01d6c0819ec06cc21ba208a
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 2%
-
 ---
-
 
 # Journal
 
