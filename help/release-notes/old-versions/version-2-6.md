@@ -40,7 +40,7 @@ Le **plug-in** est disponible sur GitHub. N’hésitez pas à nous aider si vous
 ![](../../assets/texture-set-rename-description.png)
 
 Il est désormais possible de modifier le nom d’un jeu de textures directement dans la Substance Painter. Le fait de renommer un jeu de textures a une incidence sur le nom des textures exportées sur le disque (en fonction du paramètre prédéfini d’exportation utilisé).\
-Pour renommer un jeu de textures, double-cliquez simplement sur son nom pour le modifier ou utilisez le clic droit pour ouvrir le menu contextuel. Il est également possible d’ajouter des descriptions personnalisées pour donner plus d’informations sur les fonctions des jeux de textures. Cela peut être très utile lorsque vous travaillez sur un projet [UDIM](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/uv-tile-udim-legacy-144310352.html). Utilisez le bouton « **paramètres** » pour configurer l&#39;affichage des descriptions dans la liste.
+Pour renommer un jeu de textures, double-cliquez simplement sur son nom pour le modifier ou utilisez le clic droit pour ouvrir le menu contextuel. Il est également possible d’ajouter des descriptions personnalisées pour donner plus d’informations sur les fonctions des jeux de textures. Cela peut être très utile lorsque vous travaillez sur un projet [UDIM](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/uv-tile-udim-legacy-144310352.html). Utilisez le bouton « **paramètres** » pour configurer l&#39;affichage des descriptions dans la liste.
 
 ![](../../assets/reasign-texture-set.png)
 

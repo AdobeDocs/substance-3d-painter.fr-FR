@@ -29,4 +29,4 @@ Pour un aperçu rapide du mode de Baking, consultez notre tutoriel vidéo :
 
 >[!NOTE]
 >
-> Pour en savoir plus sur le baking en général, consultez la [Documentation sur le Baking](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home) dédiée.
+> Pour en savoir plus sur le baking en général, consultez la [Documentation sur le Baking](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/home) dédiée.

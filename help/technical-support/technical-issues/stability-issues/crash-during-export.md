@@ -18,7 +18,7 @@ Dans certains cas spécifiques, Substance 3D Painter peut se bloquer lors de l�
 
 La détection et la récupération du délai d’expiration (TDR) est un mécanisme de sécurité de Microsoft Windows pour empêcher un GPU de verrouiller le système avec un calcul sans fin. Par défaut, ce mécanisme est malheureusement trop restrictif pour Substance 3D Painter.
 
-Pour plus d&#39;informations, voir : [crash des pilotes GPU avec calculs longs (crash TDR)](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/gpu-drivers-crash-with-long-computations-128745489.html).
+Pour plus d&#39;informations, voir : [crash des pilotes GPU avec calculs longs (crash TDR)](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/gpu-drivers-crash-with-long-computations-128745489.html).
 
 ## Mémoire virtuelle insuffisante
 

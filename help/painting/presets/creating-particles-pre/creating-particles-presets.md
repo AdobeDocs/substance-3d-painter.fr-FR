@@ -18,6 +18,6 @@ Les pinceaux de particule se composent de deux parties : l&#39;**Émetteur** et 
 
 Pour plus d’informations, consultez les pages dédiées :
 
-* [Installation de l’éditeur de particule](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/installation-of-the-editor-67403780.html)
-* [Présentation de l’éditeur de particule de données](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/overview-of-popcornfx-particle-editor-67796996.html)
+* [Installation de l’éditeur de particule](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/installation-of-the-editor-67403780.html)
+* [Présentation de l’éditeur de particule de données](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/overview-of-popcornfx-particle-editor-67796996.html)
 * [Création D’Un Script De Particule](creating-a-new-particle-script.md)

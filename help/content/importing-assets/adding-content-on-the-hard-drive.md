@@ -49,7 +49,7 @@ Vous pouvez importer différents types de fichiers dans votre bibliothèque Subs
 
 >[!NOTE]
 >
-> À partir de la version 7.2.0, les dossiers et catégories personnalisés peuvent être utilisés dans une bibliothèque. Ils seront accessibles dans la fenêtre Ressources via [Filtrer par chemin](../../interface/assets/filter-by-path.md) ou [Chemins de navigation](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html).
+> À partir de la version 7.2.0, les dossiers et catégories personnalisés peuvent être utilisés dans une bibliothèque. Ils seront accessibles dans la fenêtre Ressources via [Filtrer par chemin](../../interface/assets/filter-by-path.md) ou [Chemins de navigation](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html).
 
 >[!WARNING]
 >

@@ -28,4 +28,4 @@ Impossible d&#39;effectuer le rendu de {children}. Page introuvable : Nuanceurs 
 
 La création de nouveaux shaders personnalisés est possible en créant simplement de nouveaux fichiers **.glsl**.
 
-Un [API de shader](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html) détaillé est disponible. Il fournit des fonctions assistants pour créer de nouveaux effets et les intégrer au workflow existant.
+Un [API de shader](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html) détaillé est disponible. Il fournit des fonctions assistants pour créer de nouveaux effets et les intégrer au workflow existant.

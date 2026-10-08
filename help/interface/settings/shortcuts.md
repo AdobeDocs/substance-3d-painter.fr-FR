@@ -18,7 +18,7 @@ Cette page répertorie tous les raccourcis clavier et souris disponibles.
 
 ## Présentation des raccourcis
 
-Pour un aperçu rapide de tous les raccourcis disponibles, consultez notre graphique [disponible dans nos tutoriels](https://helpx.adobe.com/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html) .
+Pour un aperçu rapide de tous les raccourcis disponibles, consultez notre graphique [disponible dans nos tutoriels](https://helpx.adobe.com/fr/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html) .
 
 ## Comment modifier un raccourci
 

@@ -14,7 +14,7 @@ ht-degree: 2%
 
 ![](../assets/properties-window.png)
 
-La fenêtre Propriétés permet de modifier les paramètres de l’outil et du pinceau, ainsi que les propriétés du calque. La fenêtre Propriétés est accessible en utilisant la [barre d&#39;outils Ancrer](toolbars.md) ou simplement en **cliquant avec le bouton droit** dans le [menu Viewport](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/viewport-170460351.html).
+La fenêtre Propriétés permet de modifier les paramètres de l’outil et du pinceau, ainsi que les propriétés du calque. La fenêtre Propriétés est accessible en utilisant la [barre d&#39;outils Ancrer](toolbars.md) ou simplement en **cliquant avec le bouton droit** dans le [menu Viewport](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/viewport-170460351.html).
 
 Pour plus d’informations sur les paramètres disponibles et leur fonction, reportez-vous à la documentation de chaque outil et calque :
 

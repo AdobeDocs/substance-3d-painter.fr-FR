@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Version 7.2
 
-**Substance 3D Painter 7.2** offre de nouvelles fonctionnalités de rendu avec le workflow Adobe Standard Material, de nouvelles façons de partager du contenu entre [applications Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) et une fenêtre Ressources remaniée.
+**Substance 3D Painter 7.2** offre de nouvelles fonctionnalités de rendu avec le workflow Adobe Standard Material, de nouvelles façons de partager du contenu entre [applications Substance 3D](https://www.adobe.com/fr/products/substance3d/3d-augmented-reality.html) et une fenêtre Ressources remaniée.
 
 Date de publication : *23 juin 2021*
 

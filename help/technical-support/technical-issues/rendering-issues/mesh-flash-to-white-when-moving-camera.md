@@ -19,4 +19,4 @@ Les anciens projets se déplaçant autour de la caméra du viewport peuvent affi
 Pour se débarrasser du flash blanc, il suffit de **mettre à jour** le **shader du projet** :
 
 * Pour les **nuanceurs par défaut** : suivez la procédure étape par étape de la page [Mise à jour d&#39;un shader](../../../interface/shader-settings/updating-a-shader.md).
-* Pour les **nuanceurs personnalisés** : examinez les messages d&#39;erreur dans le journal ainsi que la page [API de shader](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html).
+* Pour les **nuanceurs personnalisés** : examinez les messages d&#39;erreur dans le journal ainsi que la page [API de shader](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html).

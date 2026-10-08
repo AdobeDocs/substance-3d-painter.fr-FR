@@ -32,7 +32,7 @@ Lorsque vous examinez le fichier ABR, Substance 3D Painter récupère uniquement
 
 ## Paramètres
 
-Pour en savoir plus sur ce que ces paramètres peuvent faire, consultez la [documentation Photoshop](https://helpx.adobe.com/photoshop/using/creating-modifying-brushes.html) officielle.
+Pour en savoir plus sur ce que ces paramètres peuvent faire, consultez la [documentation Photoshop](https://helpx.adobe.com/fr/photoshop/using/creating-modifying-brushes.html) officielle.
 
 Tous les paramètres de pinceau Photoshop ne sont pas pris en charge. Reportez-vous à la légende pour connaître l’état de chaque paramètre décrit ci-dessous :
 

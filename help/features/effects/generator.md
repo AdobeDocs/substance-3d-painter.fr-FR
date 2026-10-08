@@ -39,7 +39,7 @@ Pour ajouter un générateur à un calque :
 ![](../../assets/generators/generator_spectrum.png)
 
 Chaque générateur dispose d’un ensemble de paramètres vous permettant d’affiner le masque obtenu.\
-Pour ajouter des générateurs personnalisés dans l&#39;étagère, voir : [Ajout de contenu à l&#39;étagère](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
+Pour ajouter des générateurs personnalisés dans l&#39;étagère, voir : [Ajout de contenu à l&#39;étagère](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
 
 >[!NOTE]
 >

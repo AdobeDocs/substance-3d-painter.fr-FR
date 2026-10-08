@@ -22,6 +22,6 @@ Les paramètres prédéfinis sont enregistrés sur le disque dans le dossier [Ac
 
 Pour gérer vos paramètres prédéfinis, voir :
 
-* [Création et enregistrement de paramètres prédéfinis](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/creating-and-saving-a-preset-180191514.html)
+* [Création et enregistrement de paramètres prédéfinis](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/creating-and-saving-a-preset-180191514.html)
 * [Création de particules prédéfinies](../../painting/presets/creating-particles-pre/creating-particles-presets.md)
 * [Photoshop Paramètre prédéfini de pinceau (ABR)](../../painting/presets/photoshop-brush-presets/photoshop-brush-presets-abr.md)

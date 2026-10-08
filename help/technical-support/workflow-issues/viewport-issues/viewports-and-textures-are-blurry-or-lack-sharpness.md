@@ -18,7 +18,7 @@ Les viewports peuvent sembler flous pour différentes raisons.
 
 Par défaut, Substance 3D Painter réduit la résolution de viewport sur les écrans haute résolution/Retina pour améliorer les performances.
 
-Ce comportement peut être modifié dans les [paramètres principaux](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html) en modifiant le paramètre **Mise à l&#39;échelle des Viewports**.
+Ce comportement peut être modifié dans les [paramètres principaux](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/general-71008262.html) en modifiant le paramètre **Mise à l&#39;échelle des Viewports**.
 
 ## Filtrage de texture
 

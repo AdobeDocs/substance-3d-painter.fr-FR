@@ -58,4 +58,4 @@ Maintenant que vous redémarrez l’application, les recherches enregistrées do
 
 Nous vous recommandons de réajuster manuellement les paramètres de l’application à partir de l’interface. C’est le moyen le plus sûr de migrer les informations sans introduire de problèmes de compatibilité.
 
-Sinon, consultez la page suivante pour savoir où se trouvent désormais les préférences : [Préférences et emplacement des données de l’application](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html).
+Sinon, consultez la page suivante pour savoir où se trouvent désormais les préférences : [Préférences et emplacement des données de l’application](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html).
