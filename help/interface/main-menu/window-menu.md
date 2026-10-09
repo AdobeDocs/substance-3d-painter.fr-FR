@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/main-menu/window-menu.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Apprenez à utiliser le menu Fenêtre de Substance 3D Painter pour gérer les panneaux d’interface et personnaliser la disposition de votre espace de travail.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Main menu > Window menu
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Menu Fenêtre
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 10%
-
 ---
-
 
 # Menu Fenêtre
 

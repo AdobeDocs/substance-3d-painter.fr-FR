@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/pipeline-and-integration/configuration/command-lines.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Découvrez comment utiliser les arguments de ligne de commande avec Substance 3D Painter pour l’automatisation, la création de scripts et l’intégration de pipelines.
-helpx_creative_field: ""
-helpx_description: Painter > Pipeline and integration > Configuration > Command lines
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Lignes de commande
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 22871eab2f25d09bd82f1292d8b3e5f8c4f1c2cf
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 3%
-
 ---
-
 
 # Lignes de commande
 

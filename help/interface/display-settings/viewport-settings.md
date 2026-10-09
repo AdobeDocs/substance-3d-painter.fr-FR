@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/display-settings/viewport-settings.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Découvrez comment configurer les paramètres de viewport dans Substance 3D Painter pour personnaliser les options d’affichage et la qualité de rendu.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Display settings > Viewport settings
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Paramètres du viewport
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '734'
 ht-degree: 2%
-
 ---
-
 
 # Paramètres du viewport
 

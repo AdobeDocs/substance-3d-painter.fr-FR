@@ -1,17 +1,11 @@
 ---
-helpx_url: 'https://helpx.adobe.com/fr/substance-3d-painter/release-notes/all-changes.html'
 breadcrumb-title: ''
 description: Passez en revue toutes les modifications et mises à jour des versions de Substance 3D Painter pour suivre l’évolution des fonctionnalités et les améliorations au fil du temps.
-helpx_creative_field: ''
-helpx_description: Painter > Release notes > All Changes
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Toutes les modifications
 user-guide-description: ''
 user-guide-title: ''
 hold: false
-source-git-commit: a652271a4b12d9c27513ebc4d5974fa87da29580
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '34065'
 ht-degree: 0%

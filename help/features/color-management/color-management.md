@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/features/color-management.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Apprenez à configurer la gestion des couleurs dans Substance 3D Painter pour garantir la cohérence des couleurs dans l’ensemble de votre workflow.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Color management
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Gestion des couleurs
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 4%
-
 ---
-
 
 # Gestion des couleurs
 

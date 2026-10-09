@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/technical-issues/rendering-issues/some-hdpi-scaling-values-are-not-working.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Découvrez comment résoudre les problèmes de mise à l’échelle HDPI dans Substance 3D Painter pour une prise en charge appropriée de l’affichage haute résolution.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Rendering Issues > Some HDPI scaling values are not working
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Certaines valeurs de mise à l’échelle HDPI ne fonctionnent pas
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
-
 ---
-
 
 # Certaines valeurs de mise à l’échelle HDPI ne fonctionnent pas
 

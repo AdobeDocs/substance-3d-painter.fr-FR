@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/performances-guidelines/conflicts-and-background-applications.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Découvrez comment identifier et résoudre les conflits avec les applications en arrière-plan dans Substance 3D Painter pour des performances optimales.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Performances guidelines > Conflicts and background applications
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Conflits et applications en arrière-plan
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
-
 ---
-
 
 # Conflit avec les applications en arrière-plan
 

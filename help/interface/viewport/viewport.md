@@ -1,15 +1,11 @@
 ---
-helpx_url: 'https://helpx.adobe.com/fr/substance-3d-painter/interface/viewport.html'
 description: Apprenez à utiliser le viewport dans Substance 3D Painter pour visualiser vos textures 3D pendant le processus de peinture.
-helpx_description: Painter > Interface > Viewport
 title: Viewport
-source-git-commit: 307c4f1121ae6841d68f8ea5dc597790e0d18a14
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 2%
-
 ---
-
 
 # Viewport
 

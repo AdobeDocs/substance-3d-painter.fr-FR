@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/workflow-issues/shelf-issues/font-import.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Découvrez comment résoudre les problèmes d’importation de fichiers de polices dans Substance 3D Painter pour importer et utiliser correctement les ressources de polices.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Impossible d’importer le fichier de police
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 0%
-
 ---
-
 
 # Impossible d’importer le fichier de police
 

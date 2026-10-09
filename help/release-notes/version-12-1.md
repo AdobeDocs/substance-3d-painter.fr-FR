@@ -1,8 +1,7 @@
 ---
 title: Version 12.1
 description: Notes de mise à jour de la version 12.1
-helpx_description: Substance 3D Painter
-source-git-commit: a652271a4b12d9c27513ebc4d5974fa87da29580
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1790'
 ht-degree: 0%

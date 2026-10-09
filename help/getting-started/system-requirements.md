@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/getting-started/system-requirements.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Vérifiez la configuration requise pour Substance 3D Painter pour vous assurer que votre ordinateur répond aux spécifications matérielles et logicielles.
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > System requirements
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Configuration requise
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 1%
-
 ---
-
 
 # Systèmes pris en charge
 

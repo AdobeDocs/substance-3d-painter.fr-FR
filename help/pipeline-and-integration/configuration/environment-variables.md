@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/pipeline-and-integration/configuration/environment-variables.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Découvrez comment utiliser des variables d’environnement dans Substance 3D Painter pour configurer le comportement de l’application et l’intégration du pipeline.
-helpx_creative_field: ""
-helpx_description: Painter > Pipeline and integration > Configuration > Environment variables
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Variables d’environnement
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 3%
-
 ---
-
 
 # Variables d’environnement
 

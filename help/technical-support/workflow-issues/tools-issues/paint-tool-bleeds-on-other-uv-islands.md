@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/workflow-issues/tools-issues/paint-tool-bleeds-on-other-uv-islands.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Découvrez comment corriger les saignements de l’outil peinture entre les Îlots UV dans Substance 3D Painter afin de maintenir des limites de texture propres.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Workflow Issues > Tools Issues > Paint Tool bleeds on other UV islands
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Fonds perdus de l’outil peinture sur d’autres Îlots UV
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 0%
-
 ---
-
 
 # Fonds perdus de l’outil peinture sur d’autres Îlots UV
 

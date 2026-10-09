@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-compatibility.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Découvrez les exigences de compatibilité du pilote GPU pour Substance 3D Painter afin d’assurer un rendu et des performances stables.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > GPU Issues > GPU drivers compatibility
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Compatibilité des pilotes GPU
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 2%
-
 ---
-
 
 # Compatibilité des pilotes GPU
 

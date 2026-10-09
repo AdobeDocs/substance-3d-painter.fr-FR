@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/layer-stack/masking-and-effects.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Apprenez à utiliser le masquage et les effets dans Substance 3D Painter pile de calques pour contrôler la visibilité des calques et appliquer des effets de calque.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Layer stack > Masking and effects
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Masquage et effets
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 5%
-
 ---
-
 
 # Masquage et effets
 

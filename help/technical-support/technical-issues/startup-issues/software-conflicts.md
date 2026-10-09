@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/technical-issues/startup-issues/software-conflicts.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Découvrez comment résoudre les conflits logiciels qui empêchent Substance 3D Painter de démarrer correctement sur votre système.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Startup Issues > Software conflicts
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Conflits de logiciels
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 22871eab2f25d09bd82f1292d8b3e5f8c4f1c2cf
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
-
 ---
-
 
 # Conflits de logiciels
 

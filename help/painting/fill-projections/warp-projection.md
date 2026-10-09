@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting/fill-projections/warp-projection.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilisez la projection de déformation dans Substance 3D Painter pour projeter des textures avec des effets de distorsion afin de créer une peinture à la texture.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Fill projections > Warp projection
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Projection de la déformation
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 5ab9709e1630071fddf0db0f03a292e92b84b31f
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1859'
 ht-degree: 2%
-
 ---
-
 
 # Projection de la déformation
 

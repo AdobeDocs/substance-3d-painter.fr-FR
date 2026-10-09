@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting/presets.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Apprenez à utiliser et à gérer les paramètres prédéfinis de pinceau dans Substance 3D Painter pour rationaliser votre workflow de peinture sur texture.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Presets
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Préréglages
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 74302172ee8f5a7da56adf3378ccf5fe2c88ee83
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 1%
-
 ---
-
 
 # Préréglages
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/painting/fill-projections/spherical-projection.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilisez la projection sphérique dans Substance 3D Painter pour projeter des textures à partir d’une sphère afin d’habiller les textures autour des objets.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Fill projections > Spherical projection
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Projection sphérique
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 7e24e45387178db5efa813e64e4b86ac2ae2e5aa
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 2%
-
 ---
-
 
 # Projection sphérique
 

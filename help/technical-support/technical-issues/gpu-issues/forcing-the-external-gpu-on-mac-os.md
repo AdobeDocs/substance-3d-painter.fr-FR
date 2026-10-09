@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/technical-support/technical-issues/gpu-issues/forcing-the-external-gpu-on-mac-os.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Découvrez comment forcer Substance 3D Painter à utiliser un GPU externe sur macOS pour améliorer les performances de rendu.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > GPU Issues > Forcing the external GPU on Mac OS
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Forcer le GPU externe sur le système d’exploitation Mac
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%
-
 ---
-
 
 # Forcer le GPU externe sur le système d’exploitation Mac
 

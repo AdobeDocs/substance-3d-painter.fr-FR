@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/assets/navigation.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Apprenez à naviguer dans le panneau Actifs de Substance 3D Painter pour parcourir et accéder efficacement à votre bibliothèque de ressources.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Assets > Navigation
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Navigation
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 1%
-
 ---
-
 
 # Navigation
 

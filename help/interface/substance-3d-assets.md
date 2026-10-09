@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-painter/interface/substance-3d-assets.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Découvrez comment accéder à Substance 3D Assets et l’utiliser dans Substance 3D Painter pour parcourir et importer des matériaux 3D.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Substance 3D Assets
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 2%
-
 ---
-
 
 # Substance 3D Assets
 
