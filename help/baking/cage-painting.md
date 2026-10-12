@@ -38,7 +38,7 @@ Pour commencer la peinture sur Cage :
 
 1. Passez en [**mode Baking**](baking.md).
 1. Assurez-vous d&#39;avoir sélectionné au moins un fichier de **scène à poly élevé** à partir duquel baker.
-1. Dans le **panneau** Paramètres communs ****, accédez à la **section Cage**.
+1. Dans le **panneau** Paramètres communs **&#x200B;**, accédez à la **section Cage**.
 1. Définissez le **type de Cage** sur **en fonction de la distance**.
 1. Cliquez sur **Peinture de cage**.
 
@@ -85,7 +85,7 @@ L’outil Gomme vous permet de supprimer la peinture de la cage, en rétablissan
 
 ### Remplissage de polygones
 
-En **mode** Cage ****, l&#39;outil Remplissage polygonal comporte une fonctionnalité supplémentaire. Après avoir sélectionné des polygones, un **curseur de Force** apparaît dans le viewport pour vous permettre d&#39;ajuster la force des polygones sélectionnés. Il peut ainsi être plus facile d’affiner la force de l’effet sans avoir à resélectionner constamment les polygones.
+En **mode** Cage **&#x200B;**, l&#39;outil Remplissage polygonal comporte une fonctionnalité supplémentaire. Après avoir sélectionné des polygones, un **curseur de Force** apparaît dans le viewport pour vous permettre d&#39;ajuster la force des polygones sélectionnés. Il peut ainsi être plus facile d’affiner la force de l’effet sans avoir à resélectionner constamment les polygones.
 
 >[!NOTE]
 >
@@ -99,7 +99,7 @@ Il peut souvent être utile d’appliquer la même valeur de remplissage de poly
 1. Collez la valeur dans le curseur **Force** en haut du **Viewport**.
 1. Sélectionnez les jeux de polygones suivants pour la même valeur de force à appliquer à tous.
 
-La vidéo ci-dessous montre ce workflow en action, à l&#39;aide de l&#39;**outil** Remplissage polygonal **** avec l&#39;**remplissage Maillage** sélectionné.
+La vidéo ci-dessous montre ce workflow en action, à l&#39;aide de l&#39;**outil** Remplissage polygonal **&#x200B;**&#x200B;avec l&#39;**remplissage Maillage** sélectionné.
 
 TODO: VIDEO
 
