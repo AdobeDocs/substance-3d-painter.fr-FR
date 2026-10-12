@@ -2,9 +2,9 @@
 user-guide-title: Substance 3D Painter
 breadcrumb-title: Substance 3D Painter
 user-guide-description: Substance 3D Painter
-source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
+source-git-commit: eb0b1c111b0c96a87283785cf702def7305f0aa9
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1348'
 ht-degree: 14%
 ---
 
@@ -91,7 +91,7 @@ ht-degree: 14%
     + [pinceau peinture](/help/painting/tool-list/paint-brush.md)
     + [Gomme](/help/painting/tool-list/eraser.md)
     + [Projection](/help/painting/tool-list/projection.md)
-    + [Remplissage de polygone](/help/painting/tool-list/polygon-fill.md)
+    + [Remplissage de polygones](/help/painting/tool-list/polygon-fill.md)
     + [Outil Doigt](/help/painting/tool-list/smudge-tool.md)
     + [Outil Cloner](/help/painting/tool-list/clone-tool.md)
     + [Masque rapide](/help/painting/tool-list/quick-mask.md)
@@ -244,6 +244,7 @@ ht-degree: 14%
   + [interface de Baking](/help/baking/baking-interface.md)
   + [Comment baker des maps de maillage](/help/baking/how-to-bake-mesh-maps.md)
   + [Correction de la déviation](/help/baking/skew-correction.md)
+  + {hide-from-toc}[Peinture à la Cage](/help/baking/cage-painting.md)
   + [Réglages de map de maillage](/help/baking/mesh-map-settings.md)
   + [paramètres de visualisation du Baking](/help/baking/baking-visualization-settings.md)
 + Contenu{#content}
