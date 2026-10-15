@@ -42,7 +42,7 @@ Pour commencer la peinture sur Cage :
 
 1. Passez en [**mode Baking**](baking.md).
 1. Assurez-vous d&#39;avoir sélectionné au moins un fichier de **scène à poly élevé** à partir duquel baker.
-1. Dans le **panneau** Paramètres communs ****, accédez à la **section Cage**.
+1. Dans le **panneau** Paramètres communs **&#x200B;**, accédez à la **section Cage**.
 1. Définissez le **type de Cage** sur **en fonction de la distance**.
 1. Cliquez sur **Peinture de cage**.
 
@@ -105,7 +105,7 @@ Il est souvent utile d’appliquer la même valeur de peinture cage à plusieurs
 1. Collez la valeur dans le curseur **Force** en haut du **Viewport**.
 1. Sélectionnez les jeux de polygones suivants pour appliquer la même valeur de force.
 
-La vidéo ci-dessous montre ce workflow en action, à l&#39;aide de l&#39;**outil** Remplissage polygonal **** avec l&#39;**remplissage Maillage** sélectionné.
+La vidéo ci-dessous montre ce workflow en action, à l&#39;aide de l&#39;**outil** Remplissage polygonal **&#x200B;**&#x200B;avec l&#39;**remplissage Maillage** sélectionné.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3504621?learn=on)
 
