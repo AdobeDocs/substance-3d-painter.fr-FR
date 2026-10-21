@@ -1,25 +1,29 @@
 ---
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/know-issues.html"
 breadcrumb-title: ""
 description: Passez en revue les problèmes connus pour que Substance 3D Painter reste informé des limitations actuelles et des solutions de contournement dans la dernière version.
+helpx_creative_field: ""
+helpx_description: Substance 3D Painter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
 title: Problèmes connus
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
+source-git-commit: 08fc43babcb6f7a9be61508748c4068b6bd0c8b6
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '932'
 ht-degree: 0%
 ---
 
 # Problèmes connus
 
-Cette page répertorie tous les problèmes connus actifs présents dans la version 12.1.5 de Substance 3D Painter :
+Cette page répertorie tous les problèmes connus actifs présents dans la version 12.2.0 de Substance 3D Painter :
 
 * `[Baking]` AO incorrect sur les cubes simples
 * `[Baking]` L&#39;interprétation du suffixe de correspondance par nom est incorrecte
 * `[Baking]` seams Uv n&#39;apparaissent pas après la réimportation de mes
 * `[Baking]` artefacts de type Grille avec certains paramètres
-* L&#39;Ambient occlusion `[Baking]` Ignorer la face arrière par nom de maillage ne fonctionne pas
-* `[Baking]` `[AMD]` Périphérique perdu lors du baking avec un lourd maillage en poly élevé
 
 * `[Substance]` plusieurs fautes d&#39;orthographe dans les ressources
 * `[Substance]` condition d&#39;espace vide pour la visibilité
@@ -33,10 +37,6 @@ Cette page répertorie tous les problèmes connus actifs présents dans la versi
 * `[Color Management]` liaisons incompatibles avec le générateur non utilisé dans le masque
 * La sortie du filtre `[Color Management]` n&#39;est pas correctement prise en compte
 * `[Color Management]` les conversions de l’espace colorimétrique HDR avec ACE sous Linux produisent des couleurs condensées
-
-* `[USD]` attribution usda incorrecte dans certains cas
-* La géométrie USD exportée `[USD]` glisse le long des bordures UV
-* `[USD]` Gel lors du chargement de USDz mal formés
 
 * Les ressources `[Shelf]` sont utilisées de manière incorrecte si elles sont placées dans un dossier portant un nom spécifique
 * `[Shelf]` `[Substance]` Données utilisateur non prises en compte pour la génération des vignettes d&#39;étagère
@@ -52,6 +52,12 @@ Cette page répertorie tous les problèmes connus actifs présents dans la versi
 
 * Le projet `[Single Channel View]` enregistré en mode base color semble plus sombre après la mise à jour de la version de Painter
 * Le projet `[Single Channel View]` enregistré en mode base color semble plus sombre après la mise à jour de la version de Painter
+
+* Décalage du curseur `[Viewport]` en bas du viewport du mode baking
+* `[Viewport]` Le glissement de la sélection de remplissage polygone d&#39;une fenêtre à une autre peut entraîner des décalages de viewport
+
+* `[Cage Painting]` trous de géométrie de Cage lors de la peinture sur un Îlot UV
+* Problème de performances `[Cage Painting]` dans le viewport du mode baking sur Mac
 
 * `[gltf]` Impossible d&#39;ouvrir les fichiers exportés via Babylon Exporteur
 * `[Displacement]` Problème lors de la peinture
@@ -89,12 +95,17 @@ Cette page répertorie tous les problèmes connus actifs présents dans la versi
 * L&#39;aperçu de l&#39;espace de mélange de couleurs `[User Channels]` est incorrect
 * La sélection de géométrie `[Mask]` est toujours active après le passage en mode baking
 * Les icônes `[Sonoma]` n&#39;apparaissent pas dans les menus
+* `[USD]` attribution usda incorrecte dans certains cas
 * `[Polygon Fill]` La modification de l&#39;espace colorimétrique de la base color ne met pas à jour le sélecteur de couleurs
 * `[UV Padding]` artefacts lors de la mise à l&#39;échelle de la texture de 4k à 8k lors de l&#39;exportation
-* `[Performances]` utilisation de VRAM de Painter
 * Problèmes d’échelle `[FBX]`
 * `[Texture set list]` Tuiles UV peuvent être sélectionnées en même temps qu&#39;un jeu de textures
-* Décalage du curseur `[Viewport]` en bas du viewport du mode baking
+* `[Paint Properties]` Le clic droit dans la fenêtre Propriétés de la peinture n&#39;ouvre pas le menu contextuel des paramètres prédéfinis
+* `[MACOS]` `[Subsurface Scattering]` bruit de mémoire avec certaines valeurs d&#39;échelle de rayon SS
+* Le biais de Mipmap `[Mac]` du filtrage de Texture dans les paramètres d&#39;affichage n&#39;a aucun effet
+* La fenêtre contextuelle Enregistrer `[Project]` apparaît à la fermeture même lorsque le projet n’a pas été modifié
+* `[Library]` Painter peut être bloqué lors de la génération de vignettes de maps d&#39;environnement
+* `[Windows]` `[Nvidia]` La génération d&#39;aperçus de pinceau et de matériau peut entraîner une TDR.
 * Les ressources non carrées sont étirées lorsqu’elles sont utilisées dans les emplacements de la couche de pinceau
 * Échec du décodage de la substance
 * Les UV non parfaitement superposés peuvent créer des artefacts
@@ -113,6 +124,7 @@ Cette page répertorie tous les problèmes connus actifs présents dans la versi
 * Les modifications des paramètres de pinceau de la barre d’outils contextuelle n’apparaissent pas dans l’historique
 * Impossible de renommer ou de supprimer les paramètres prédéfinis d’exportation si vous les avez déjà supprimés et recréés lors de cette session
 * Dans certains cas, le mappage des canaux ne fonctionne pas pour l’aperçu de l’outil projection
+* L’erreur de correspondance de maillage n’ignore pas les autres polys élevés lorsque les options Correspondance par nom et Jeu de textures sélectionné uniquement sont activées
 
 ## Stabilité
 
