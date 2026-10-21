@@ -4,10 +4,10 @@ description: Accédez aux notes de mise à jour de Substance 3D Painter pour res
 title: Notes de mise à jour
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
+source-git-commit: 956741845e5808dd59eda31b0c0915ce463cb87a
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 8%
+source-wordcount: '72'
+ht-degree: 11%
 ---
 
 # Notes de mise à jour
@@ -15,6 +15,7 @@ ht-degree: 8%
 Découvrez tout ce qui a été ajouté, modifié ou corrigé pour chaque version :
 
 * [Toutes les modifications](all-changes.md)
+* [Version 12.2](version-12-2.md)
 * [Version 12.1](version-12-1.md)
 * [Version 12.0](version-12-0.md)
 * [Version 11.1](version-11-1.md)

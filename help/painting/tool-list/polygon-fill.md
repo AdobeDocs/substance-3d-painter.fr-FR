@@ -4,30 +4,101 @@ description: Utilisez l’outil Remplissage polygonal de Substance 3D Painter po
 title: Remplissage de polygones
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
+source-git-commit: 59bb1174767cfb14796c50d372e6b5edaa8c9536
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 1%
+source-wordcount: '684'
+ht-degree: 2%
 ---
 
-# Remplissage de polygones
+# Remplissage de polygone
 
-L&#39;outil **Remplissage polygonal** (![](../../assets/image2018-6-12-18-15-12.png)) vous permet de dessiner rapidement des masques en transformant les polygones sélectionnés en masque de pixels. Cela peut ressembler à un outil de sélection 3D d’autres applications 3DCC, mais c’est en fait un outil de remplissage de peinture qui génère des données de pixels. Cela signifie sélectionner et désélectionner des œuvres en les utilisant pour mettre en peinture du blanc ou du noir.
+![](../../assets/v12-2/v12_banner_polygonfill.jpg)
 
-L&#39;outil de remplissage polygonal fonctionne sur [Calques de peinture](../../interface/layer-stack/layer-stack.md), mais est limité à la couleur de base uniquement et n&#39;est pas conçu à cette fin. [Utilisez-le uniquement pour les masques](../../interface/layer-stack/masking-and-effects.md).
+L&#39;outil **Remplissage polygonal** remplit les polygones avec des valeurs de couche de matériau ou de masque en niveaux de gris. Il peut être utilisé sur les calques de peinture, les effets et les masques pour remplir rapidement les zones du maillage.
 
-Il dispose de 4 modes de sélection :
+Cet outil est davantage un outil de peinture qu’un outil de sélection : c’est pourquoi, après avoir été utilisé, il ne peut être effacé que via l’outil Gomme ou en le remplissant.
 
-* ![](../../assets/image2020-9-30-11-31-53.png) **Remplissage triangulaire** : remplit les traits de maillage individuels.
-* ![](../../assets/image2020-9-30-11-32-12.png) **Remplissage polygonal** : remplit des polygones entiers. Ne fait rien de différent du remplissage triangulaire si votre maillage est déjà triangulé lors de l’exportation.
-* **![](../../assets/image2020-9-30-11-32-42.png)Maillage Fill** - remplit des sous-maillages connectés entiers. Comme le mode « sous-objet » dans les applications 3D, remplit chaque polygone connecté à celui sur lequel vous cliquez.
-* **![](../../assets/image2020-9-30-11-32-54.png)UV de bloc Fill** - remplit un bloc d&#39;UV entier ou « île ». Fonctionne comme un remplissage de Maillage, mais en observant les polygones connectés dans l’espace UV. Le remplissage s’arrête aux bordures de l’UV.
+L’outil est accessible à partir de la barre d’outils :
 
-![](../../assets/polygon-fill.gif)
+![](../../assets/v12-2/doc_polygonfill_toolbar.png)
 
-Ces 4 modes peuvent être combinés et commutés, ce qui signifie qu&#39;une utilisation intelligente vous permet de marquer et de démarquer rapidement des sections dans un masque à l&#39;aide des modes Maillage et UV.
+## Paramètres
 
-Les raccourcis clavier (par défaut) associés à l’outil Remplissage polygonal sont les suivants :
+Vous trouverez ci-dessous la liste des paramètres disponibles avec l&#39;outil **Remplissage polygonal** via la fenêtre **Propriétés**.
 
-* *Touche numérique 4* : sélectionne l&#39;outil Remplissage polygonal.
-* *X* : inverse la couleur actuelle lors de la peinture de masques. Permute rapidement le noir en blanc. En mode Peinture de matériau, ce raccourci n’a aucun effet.
+### Mode de sélection
+
+![](../../assets/v12-2/doc_polygonfill_selection_mode.png)
+
+Le mode de sélection contrôle la sélection des triangles et des quads de la géométrie du maillage.
+
+| **Mode** | **Description** |
+|---|---|
+| ![](../../assets/v12-2/v12_polyfill_icon_marquee.png) **Remplissage rectangulaire** | Dessinez une sélection rectangulaire en cliquant et en faisant glisser. Le **mode de remplissage** définit la géométrie à remplir, tandis que le **test de frappe** définit les polygones inclus. <br data-preserve-html="true"> ![](../../assets/v12-2/doc_polygon_fill_rectangle.gif) |
+| ![](../../assets/v12-2/v12_polyfill_icon_loop.png) **Remplissage en boucle polygone** | Remplissez une boucle complète de quads d&#39;un simple clic. Le déplacement permet de sélectionner plusieurs boucles. <br data-preserve-html="true"> ![](../../assets/v12-2/v12_polygon_fill_loop_mode.gif) |
+| ![](../../assets/v12-2/v12_polyfill_icon_partial_loop.png) **Remplissage partiel en boucle de polygone** | Remplissez une partie d’une boucle en cliquant et en faisant glisser. La sélection peut s’étendre le long de boucles secondaires pour former une plaque de polygones. <br data-preserve-html="true"> ![](../../assets/v12-2/v12_polygon_fill_quad_mode.gif) |
+
+### Mode de remplissage
+
+![](../../assets/v12-2/doc_polygonfill_fill_mode.png)
+
+Le mode de remplissage, qui ne peut être utilisé qu&#39;avec le mode **Remplissage rectangulaire**, contrôle les parties de la géométrie qui sont sélectionnées.
+
+| **Mode** | **Description** |
+|---|---|
+| ![](../../assets/v12-2/v12_polyfill_icon_triangle.png) **Remplissage triangulaire** | Remplissez des triangles de maillage individuels. |
+| ![](../../assets/v12-2/v12_polyfill_icon_polygon.png) **Remplissage polygonal** | Remplissez des polygones entiers. Sur un maillage triangulé avant l&#39;importation, le résultat est identique au **remplissage triangulaire**. |
+| ![](../../assets/v12-2/v12_polyfill_icon_mesh.png) **Remplissage Maillage** | Remplissez chaque polygone connecté à celui sur lequel vous avez cliqué. |
+| ![](../../assets/v12-2/v12_polyfill_icon_uv_chunk.png) **Remplissage UV** | Polygones de remplissage connectés dans l’espace UV. Le remplissage s’arrête aux bordures UV. |
+
+### Test d’impact
+
+![](../../assets/v12-2/doc_polygonfill_hittest.png)
+
+Les paramètres de test de frappe contrôlent la sélection des triangles et des quads selon le mode **Remplissage rectangulaire**.
+
+| **Mode** | **Description** |
+|---|---|
+| ![](../../assets/v12-2/v12_polyfill_icon_intersection.png) **Intersection** | (par défaut) Un polygone est rempli si une partie de sa géométrie se trouve à l’intérieur ou coupe la zone de sélection. |
+| ![](../../assets/v12-2/v12_polyfill_icon_contained_center.png) **Centre contenu** | Un polygone est rempli uniquement si son point central se trouve à l’intérieur de la zone de sélection. |
+| **Polygones visibles uniquement** | Si cette option est activée, le remplissage n&#39;affecte que les polygones visibles depuis la vue de caméra courante. Les polygones occlus et tournés vers l’arrière sont ignorés. Si cette option est désactivée, les polygones peuvent être remplis à travers le maillage. |
+
+### Fusion
+
+![](../../assets/v12-2/v12_polyfill_blending.png)
+
+Ces paramètres contrôlent la façon dont le résultat du remplissage est mélangé aux pixels sous-jacents.
+
+| **Paramètre** | **Description** |
+|---|---|
+| Mode de fusion | Contrôlez la façon dont le remplissage est fusionné avec les valeurs de pixels existantes. En mode **Matériau**, le mode de fusion s&#39;applique à tous les canaux activés dans la section **Matériau**. |
+| Opacité | Contrôlez l’opacité du remplissage. |
+
+>[!NOTE]
+>
+> L’outil prend en charge les mêmes modes de fusion que ceux disponibles dans la pile de calques. Pour plus d&#39;informations, consultez la [page de documentation sur les modes de fusion](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/interface/layer-stack/blending-modes).
+
+### Matériau
+
+![](../../assets/v12-2/v12_polygonfill_material.png)
+
+La section matériau contrôle les canaux sur lesquels l’outil peut activer la peinture.
+
+## Raccourcis
+
+L’outil Remplissage polygonal peut être utilisé efficacement à l’aide de raccourcis clavier spécifiques :
+
+| **Raccourci** | **Description** |
+|---|---|
+| **Alt** | Avec le **remplissage de boucle de polygone** et le **remplissage de boucle de polygone partiel**, ce raccourci étend la sélection de l&#39;autre côté du clic initial tout en faisant glisser. <br data-preserve-html="true"> ![](../../assets/v12-2/doc_polygon_fill_alt.gif) |
+| **Maj** | Avec le **Remplissage partiel de boucle de polygone**, ce raccourci ne remplit que la boucle principale, en ignorant les boucles secondaires. Exemple d&#39;activation/désactivation de **Maj** : <br data-preserve-html="true"> ![](../../assets/v12-2/v12_polyfill_partial_loop_400px_15fps.gif) |
+| **Maj + A** | Ce raccourci bascule temporairement vers le **remplissage en boucle de polygone** à partir de tout autre mode de sélection. Si le raccourci est relâché avant le bouton de la souris, la sélection continue jusqu’à ce que le bouton de la souris soit relâché. |
+| **A** | Si vous appuyez sur ce raccourci tout en le faisant glisser, le résultat obtenu est combiné au résultat précédent. Cela fonctionne entre les modes de fusion et les opacités : <br data-preserve-html="true"> ![](../../assets/v12-2/v12_polygon_fill_resume_a_shortcut.gif) |
+
+## Restrictions
+
+Certaines limitations s’appliquent à l’outil :
+
+* Le **remplissage en boucle de polygone** et le **remplissage en boucle de polygone partiel** fonctionnent uniquement sur les quads, de sorte que les triangles et les n-gons ne peuvent pas être remplis avec ces modes.
+* La prise en charge de la **symétrie radiale** est également limitée et peut ne pas être fiable. Pour utiliser la symétrie, préférez le mode miroir. Consultez la [page de documentation de la symétrie](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/painting/symmetry/symmetry) pour plus d&#39;informations.
+* L&#39;outil remplit la géométrie du **Jeu de textures actif** uniquement. La structure filaire est affichée pour ce Jeu de textures et est mise à jour lorsque le Jeu de textures actif change.
