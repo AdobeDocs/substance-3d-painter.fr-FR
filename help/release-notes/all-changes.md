@@ -81,7 +81,7 @@ Résumé : **version mineure**
 **Fixe :**
 
 * L’exportation d’une image de l’étagère vers un réseau ne fonctionne plus
-* &amp;lbrack;Generator&amp;rbrack ; La définition de « use texture » sur false ne désactive pas l&#39;utilisation de l&#39;entrée de texture
+* &lbrack;Generator&amp;rbrack ; La définition de « use texture » sur false ne désactive pas l&#39;utilisation de l&#39;entrée de texture
 * Viewport bloqué lors de l’enregistrement lors de la modification de la projection 3d
 * La résolution de calque de matériau est trop faible
 
@@ -293,7 +293,7 @@ Date de publication : **2026/03/09** Résumé :**Il s’agit d’une version maj
 * &amp;lbrack ; Content&amp;rbrack ;&amp;lbrack ; Post-effects&amp;rbrack ; Intégrer les ressources post-effets par défaut dans la bibliothèque
 * &amp;lbrack ; New Project&amp;rbrack ; Améliorer l&#39;interface utilisateur pour la création de projets
 * &amp;lbrack ; Nouveau projet&amp;rbrack ; Modifications apportées à la fonctionnalité de réimportation de maillage
-* &amp;lbrack;Nouveau projet&amp;rbrack ; Autoriser l&#39;ouverture des fichiers \*.geo.usd
+* &lbrack;Nouveau projet&amp;rbrack ; Autoriser l&#39;ouverture des fichiers \*.geo.usd
 * &amp;lbrack ; Configuration du projet&amp;rbrack ; Améliorer l&#39;interface utilisateur pour la configuration du projet
 * Mise à jour de la bibliothèque USD vers la version 25.05
 * Mettre à jour la Substance Engine à la version 9.3.4
@@ -1053,7 +1053,7 @@ Date de publication : **2023/06/20** Résumé :**version majeure avec Peinture l
 * &amp;lbrack ; Path&amp;rbrack ; Permet de sélectionner des points de tracé à l’aide d’un rectangle de sélection
 * &amp;lbrack ; Path&amp;rbrack ; Introduisez les raccourcis CTRL-A pour sélectionner tous les points d’un tracé
 * &amp;lbrack ; Path&amp;rbrack ; Autoriser à fermer le chemin
-* &amp;lbrack;Path&amp;rbrack ; Permet de spécifier l&#39;axe du tracé vers le haut dans Propriétés
+* &lbrack;Path&amp;rbrack ; Permet de spécifier l&#39;axe du tracé vers le haut dans Propriétés
 * &amp;lbrack ; Path&amp;rbrack ; Ajouter un menu de contrôle de vertex à la barre d&#39;outils contextuelle
 * &amp;lbrack ; Path&amp;rbrack ; Introduire les modes peinture/effacement/Estompage dans l&#39;outil de tracé
 * &amp;lbrack ;Path&amp;rbrack ; Crée un retour visuel pour les tracés du viewport
@@ -1084,7 +1084,7 @@ Date de publication : **2023/06/20** Résumé :**version majeure avec Peinture l
 * les Textures &amp;lbrack ; Moteur&amp;rbrack ; sont vides à certains endroits lors du changement de mode de fusion
 * &amp;lbrack ; Moteur&amp;rbrack ; Texture/Projection est parfois en mode déformation vide
 * &amp;lbrack ;Iray&amp;rbrack ; Itération réinitialisée à 0 lors de l&#39;enregistrement du rendu
-* &amp;lbrack;Log&amp;rbrack ; message d&#39;erreur USD lors de l&#39;opération Fichier > Nouveau
+* &lbrack;Log&amp;rbrack ; message d&#39;erreur USD lors de l&#39;opération Fichier > Nouveau
 
 **Problèmes Connus :**
 
@@ -1452,7 +1452,7 @@ Date de publication : **2023/04/27**
 
 * &amp;lbrack ; Crash&amp;rbrack ; Ctrl Z Après avoir supprimé une instance de shader
 
-* L&#39;&amp;ioR de lbrack;Iray&amp;rbrack; est bloquée à 1 pour certains shaders
+* L&#39;&amp;ioR de lbrack;Iray&rbrack; est bloquée à 1 pour certains shaders
 
 * &amp;lbrack ; Win&amp;rbrack ;&amp;lbrack ; Baking&amp;rbrack ; Certains modèles à poly élevé ne se chargent pas
 
@@ -1487,7 +1487,7 @@ Date de publication : **2023/04/27**
 * &amp;lbrack ; Color Management&amp;rbrack ; Les conversions de l&#39;espace colorimétrique HDR avec ACE sous Linux produisent des couleurs condensées
 * &amp;lbrack ; Pile de calques&amp;rbrack ; Source d&#39;entrée non enregistrée par calque
 * &amp;lbrack ; Crash&amp;rbrack ; Ctrl Z Après avoir supprimé une instance de shader
-* L&#39;&amp;ioR de lbrack;Iray&amp;rbrack; est bloquée à 1 pour certains ombrages
+* L&#39;&amp;ioR de lbrack;Iray&rbrack; est bloquée à 1 pour certains ombrages
 
 ### 8.1.2
 
@@ -1532,7 +1532,7 @@ Date de publication : **2023/04/27**
 * &amp;lbrack ; Color Management&amp;rbrack ; Les conversions de l&#39;espace colorimétrique HDR avec ACE sous Linux produisent des couleurs condensées
 * La source d&#39;entrée &amp;lbrack ; Pile de calques&amp;rbrack ; n&#39;est pas enregistrée par calque
 * &amp;lbrack ; Crash&amp;rbrack ; Ctrl Z Après avoir supprimé une instance de shader
-* L&#39;&amp;ioR de lbrack;Iray&amp;rbrack; est bloquée à 1 pour certains shaders
+* L&#39;&amp;ioR de lbrack;Iray&rbrack; est bloquée à 1 pour certains shaders
 * &amp;lbrack ; Shader&amp;rbrack ; Crash avec ancien shader défectueux
 
 ### 8.1.1
@@ -1675,7 +1675,7 @@ Date de publication : **2023/04/27**
 * &amp;lbrack ; Color Management&amp;rbrack ; Dessinez des dégradés de sélecteur de couleurs en fonction de l&#39;affichage actuel
 * &amp;lbrack ; Gestion des couleurs&amp;rbrack ; Verrouiller des Valeurs HDR par défaut dans l&#39;éditeur de couleurs
 * &amp;lbrack ; Color Management&amp;rbrack ; Utiliser le mode transparent (sans espace colorimétrique) pour les filtres en mode hérité
-* &amp;lbrack;Gestion des couleurs&amp;rbrack ; Limiter l&#39;affichage des dégradés dans l&#39;éditeur de couleurs à la plage de &amp;lbrack ;0-1&amp;rbrack ;
+* &lbrack;Gestion des couleurs&amp;rbrack ; Limiter l&#39;affichage des dégradés dans l&#39;éditeur de couleurs à la plage de &amp;lbrack ;0-1&amp;rbrack ;
 * &amp;lbrack ; Color Management&amp;rbrack ; Masquer le sélecteur d&#39;affichage dans le sélecteur de couleurs en mode hérité
 * &amp;lbrack ; Gestion des couleurs&amp;rbrack ; Rendre le champ hexadécimal du sélecteur de couleurs toujours dans l&#39;espace colorimétrique sRVB
 * &amp;lbrack ; Color Management&amp;rbrack ; Désactiver la liste déroulante d&#39;affichage du sélecteur de couleurs pour les canaux de données
@@ -1930,7 +1930,7 @@ Date de publication : **2023/04/27**
 
 **Ajouté :**
 
-* &amp;lbrack;Bibliothèques&amp;rbrack ; Nouveau panneau Ressource pour remplacer l&#39;étagère
+* &lbrack;Bibliothèques&amp;rbrack ; Nouveau panneau Ressource pour remplacer l&#39;étagère
 * &amp;lbrack ; Libraries&amp;rbrack ;&amp;lbrack ; UI&amp;rbrack ; Nouvelle disposition du panneau Actifs
 * &amp;lbrack ; Libraries&amp;rbrack ;&amp;lbrack ; UI&amp;rbrack ; Modifier l&#39;orientation et l&#39;interface utilisateur par défaut du panneau Actifs
 * &amp;lbrack ; Libraries&amp;rbrack ;&amp;lbrack ; UI&amp;rbrack ; Introduire une option d&#39;affichage par liste dans la bibliothèque
@@ -2012,7 +2012,7 @@ Date de publication : **2023/04/27**
 
 * &amp;brack ; Tablet&amp;rbrack ; Performances réduites lorsque vous peignez avec de la pression
 * &amp;black ; Tablet&amp;rbrack ; Problème sur les tablettes équipées de curseurs
-* &amp;lbrack;Crash&amp;rbrack ; Incompatibilité de nom entre la liste de Jeux de textures et l&#39;Exporteur
+* &lbrack;Crash&amp;rbrack ; Incompatibilité de nom entre la liste de Jeux de textures et l&#39;Exporteur
 * &amp;lbrack ; Crash&amp;rbrack ;&amp;lbrack ; Bibliothèques&amp;rbrack ; Cliquez deux fois sur une sous-bibliothèque
 * &amp;lbrack ; Libraries&amp;rbrack ; Problème lors de l&#39;analyse des répertoires de bibliothèques
 * La ligne de commande de génération d&#39;aperçu de &amp;lbrack ;Libraries&amp;rbrack ; force ne fonctionne pas comme prévu
@@ -2035,7 +2035,7 @@ Date de publication : **2023/04/27**
 **Problèmes Connus :**
 
 * &amp;lbrack ; Bibliothèques&amp;rbrack ; Recherches enregistrées non enregistrées si aucun projet n&#39;est ouvert
-* &amp;lbrack;NVIDIA&amp;rbrack; Message pour pilote obsolète même si le pilote est à jour
+* &lbrack;NVIDIA&rbrack; Message pour pilote obsolète même si le pilote est à jour
 
 ### 7.1.1 (2021.1.1)
 
@@ -2163,7 +2163,7 @@ Date de publication : **2023/04/27**
 * &amp;lbrack ; Jeu de textures Le champ de texte Liste&amp;rbrack ; Description n&#39;est parfois pas entièrement visible pendant l&#39;édition
 * Le menu déroulant &amp;lbrack ; Liste des Jeux de textures&amp;rbrack ; permettant de masquer/afficher les Jeux de textures n&#39;est pas entièrement visible
 * &amp;lbrack ; Liste des Jeux de textures&amp;rbrack ; Cliquer sur l&#39;icône en forme d&#39;œil ne doit pas entrer le « Modifier le nom du Jeu de textures »
-* &amp;lbrack;Paramètres de Jeu de textures&amp;rbrack ; La suppression d&#39;un canal supprime également le canal en dessous
+* &lbrack;Paramètres de Jeu de textures&amp;rbrack ; La suppression d&#39;un canal supprime également le canal en dessous
 * &amp;lbrack ; Export&amp;rbrack ; Include all and Reset all ne prend pas en compte les Tuiles UV
 * Les bakers désélectionnés &amp;lbrack ; Bakers&amp;rbrack ; apparaissent pendant le processus de baking
 * La mise à jour de la résolution n’est pas prise en compte pour les maps bakées utilisées comme entrée
@@ -2642,7 +2642,7 @@ Date de publication : **2023/04/27**
 **Fixe :**
 
 * L’importation de ressources par script peut entraîner un crash
-* &amp;lbrack;Plugin&amp;rbrack ; Le téléchargement du matériau à partir de la source peut entraîner un crash
+* &lbrack;Plugin&amp;rbrack ; Le téléchargement du matériau à partir de la source peut entraîner un crash
 
 **Problèmes Connus :**
 
@@ -3222,7 +3222,7 @@ Date de publication : **2023/04/27**
 * &amp;lbrack ; Bakers&amp;rbrack ; Crash avec la bibliothèque Assimp
 * &amp;lbrack ; Bakers&amp;rbrack ; Régression des performances avec le mappage A.O.
 * La Distorsion de l&#39;objectif &amp;lbrack ;Iray&amp;rbrack ; n&#39;est pas appliquée au Canal Alpha
-* &amp;lbrack;Pilotes&amp;rbrack; Mise à jour de la configuration minimale requise pour les pilotes
+* &lbrack;Pilotes&rbrack; Mise à jour de la configuration minimale requise pour les pilotes
 * &amp;lbrack ;3Dview&amp;rbrack ; Les normales ne sont pas correctement générées sur les maillages UDIM sans informations sur les normales
 * &amp;lbrack ; Crash Intel&amp;rbrack ; avec Substance Painter 2018.1.0
 * &amp;lbrack ; Intel&amp;rbrack ;&amp;lbrack ; Viewport&amp;rbrack ; Problème de remplissage (artefacts noirs)
@@ -3424,7 +3424,7 @@ Date de publication : **2023/04/27**
 
 * &amp;lbrack ; UI&amp;rbrack ; Améliorer la boîte de dialogue de nouvelle version et ajouter le journal des modifications
 * &amp;lbrack ;UI&amp;rbrack ; Indiquer si la maintenance a expiré dans la boîte de dialogue Nouvelle version
-* &amp;lbrack;Licence&amp;rbrack; Mettre à jour le système de licences pour gérer les dates de maintenance
+* &lbrack;Licence&rbrack; Mettre à jour le système de licences pour gérer les dates de maintenance
 * &amp;lbrack ; Export&amp;rbrack ; Renommer l&#39;Adobe Standard Material en Adobe Dimension
 
 **Fixe :**
@@ -3500,7 +3500,7 @@ Date de publication : **2023/04/27**
 
 **Fixe :**
 
-* La disposition &amp;lbrack;UI&amp;rbrack; est rompue au premier lancement
+* La disposition &lbrack;UI&rbrack; est rompue au premier lancement
 * Le PSD &amp;lbrack ; Export&amp;rbrack ; généré lors de l&#39;exportation comporte des erreurs de format
 * &amp;lbrack ;Export&amp;rbrack ; EXR exporte toujours une map height de 8 bits
 * &amp;lbrack ; Export&amp;rbrack ; Crash lors de l&#39;exportation de mappages supplémentaires corrompus
@@ -3650,7 +3650,7 @@ Date de publication : **2023/04/27**
 * Crash lors de la mise à jour d’un maillage dans des projets spécifiques
 * la couleur interne du plan de Symétrie de &amp;lbrack ; Viewport&amp;rbrack ; n&#39;est plus visible
 * &amp;lbrack ; Viewport&amp;rbrack ; Certains effets post-traitement sont activés lors de l&#39;utilisation de la vue solo
-* La fusion de &amp;lbrack;Shaders&amp;rbrack ; « over_premult » ne fonctionne pas correctement
+* La fusion de &lbrack;Shaders&amp;rbrack ; « over_premult » ne fonctionne pas correctement
 * &amp;lbrack ; Shaders&amp;rbrack ; Avertissement concernant le test alpha avec le shader par défaut
 * &amp;lbrack ; Étagère&amp;rbrack ; Analyse incorrecte des balises des Substances
 * &amp;lbrack ; Étagère&amp;rbrack ; L&#39;Altération de Rouille MatFX ne fonctionne pas correctement
@@ -3686,7 +3686,7 @@ Date de publication : **2023/04/27**
 * &amp;lbrack ; Viewport&amp;rbrack ; problème de Dithering dans vue 3D sur MacOS
 * Les aperçus de Particule &amp;lbrack ; Viewport&amp;rbrack ; ne s&#39;affichent pas correctement lorsque profil colorimétrique est activé
 * &amp;lbrack ; Iray&amp;rbrack ; Crash lors du rebasculement du projet vers OpenGL si Iray ne parvient pas à s’initialiser
-* La Brillance &amp;lbrack;Iray&amp;rbrack; est ignorée lors du rendu de SpecGloss shader/mdl
+* La Brillance &lbrack;Iray&rbrack; est ignorée lors du rendu de SpecGloss shader/mdl
 * &amp;lbrack ; Shader&amp;rbrack ; Spec/Gloss shader ne correspond pas à Iray et SD
 * La conversion sRGB de &amp;lbrack ; Shader&amp;rbrack ; est différente de la conversion linéaire en conversion sRGB LUT
 * &amp;lbrack ; Shader&amp;rbrack ; Rendu incorrect lors du chargement du projet avec des nuanceurs obsolètes
@@ -3716,7 +3716,7 @@ Date de publication : **2023/04/27**
 * &amp;lbrack ; Tool&amp;rbrack ; Clone Brush Alignment ne fonctionne plus
 * &amp;lbrack ;Export&amp;rbrack ; le canal Displacement doit être centré à 0,5 lors de l&#39;exportation dans l&#39;entier
 * &amp;lbrack ; Template&amp;rbrack ; Le chemin absolu est stocké dans Modèles
-* La texture du canal &amp;lbrack;TextureSet&amp;rbrack; persiste après la suppression du canal
+* La texture du canal &lbrack;TextureSet&rbrack; persiste après la suppression du canal
 
 **Problèmes Connus :**
 
@@ -3987,7 +3987,7 @@ Date de publication : **2023/04/27**
 * &amp;lbrack ; UI&amp;rbrack ; La saisie dans les curseurs en niveaux de gris ne fonctionne plus
 * &amp;lbrack ; UI&amp;rbrack ; Impossible de placer des filtres dans les entrées de substance (comme les générateurs)
 * &amp;lbrack ; UI&amp;rbrack ; Certains curseurs ont des comportements étranges
-* L&#39;étape &amp;lbrack;UI&amp;rbrack; DeltaTime +/- pour les particules est trop grande
+* L&#39;étape &lbrack;UI&rbrack; DeltaTime +/- pour les particules est trop grande
 * &amp;lbrack ; Iray&amp;rbrack ; Certains projets bloquent l&#39;application lors du passage à Iray
 * crash &amp;lbrack ; Iray&amp;rbrack ; lors de la détection de matériel
 * La couleur d&#39;aperçu de l&#39;&amp;outil&amp;rbrack ; pinceau est incorrecte en mode Masque
@@ -4064,7 +4064,7 @@ Date de publication : **2023/04/27**
 **Fixe :**
 
 * Crash lors de l’ouverture et de l’enregistrement de certains projets avec des ressources corrompues
-* &amp;lbrack;Viewport&amp;rbrack ; Structure filaire apparaît cassé en Vue 2D
+* &lbrack;Viewport&amp;rbrack ; Structure filaire apparaît cassé en Vue 2D
 * &amp;lbrack ; Étagère&amp;rbrack ; Performances améliorées de certaines maps d&#39;environnement de studio
 * &amp;lbrack ; Étagère&amp;rbrack ; Certaines maps d&#39;environnement studio sont dupliquées
 * &amp;lbrack ; Étagère&amp;rbrack ; « Matériau d&#39;éclairage Baké » manquant
@@ -4380,7 +4380,7 @@ Date de publication : **2023/04/27**
 * &amp;lbrack ; Étagère&amp;rbrack ; Les vignettes sont trop lourdes sur le disque
 * les Matériaux adaptables &amp;lbrack ; Étagère&amp;rbrack ; sont très lents à charger
 * &amp;lbrack ; Windows&amp;rbrack ; Réparer l&#39;installation du service de licence
-* &amp;lbrack;Channels&amp;rbrack ; le mappage Transmissive est défini par défaut sur G8
+* &lbrack;Channels&amp;rbrack ; le mappage Transmissive est défini par défaut sur G8
 
 ### 1.5.5
 
@@ -4407,7 +4407,7 @@ Date de publication : **2023/04/27**
 * &amp;lbrack ; Tool&amp;rbrack ; Trop de couches provoquent le rognage des boutons de couche
 * &amp;lbrack ; Tool&amp;rbrack ; Inverser le raccourci du masque pour le Masque rapide ne fonctionne pas
 * &amp;lbrack ; Export&amp;rbrack ; Sketchfab : le bouton d&#39;annulation n&#39;est pas correctement pris en compte
-* L&#39;activation de &amp;lbrack;License&amp;rbrack; a échoué lorsque la licence ne peut pas être copiée
+* L&#39;activation de &lbrack;License&rbrack; a échoué lorsque la licence ne peut pas être copiée
 * Le limiteur de fréquence d’images ne fonctionne plus sur l’interface utilisateur
 
 ### 1.5.0
@@ -4740,7 +4740,7 @@ Date de publication : **2023/04/27**
 * &amp;lbrack ; Tool&amp;rbrack ; Geometry decal produit des corruptions de mémoire
 * &amp;lbrack ; Brush&amp;rbrack ; Impossible de saisir manuellement des valeurs flottantes inférieures à 1 pour l&#39;épaisseur du pinceau
 * &amp;lbrack ; Layer&amp;rbrack ; La création d&#39;un effet de choix de couleur ne l&#39;ajoute pas dans la pile de calques
-* &amp;lbrack;Layer&amp;rbrack ; Déplacer la souris sur les calques permet à Painter de cliquer dans la barre des tâches
+* &lbrack;Layer&amp;rbrack ; Déplacer la souris sur les calques permet à Painter de cliquer dans la barre des tâches
 * &amp;lbrack ; Layer&amp;rbrack ; L&#39;ajout d&#39;un bitmap comme masque peut entraîner un crash
 * L’interface graphique du mode solo avec le canal Height est incorrecte
 * « Enregistrer le projet » peut échouer et corrompre un projet
