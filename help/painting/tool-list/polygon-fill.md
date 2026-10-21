@@ -76,7 +76,7 @@ Ces paramètres contrôlent la façon dont le résultat du remplissage est méla
 
 >[!NOTE]
 >
-> L’outil prend en charge les mêmes modes de fusion que ceux disponibles dans la pile de calques. Pour plus d&#39;informations, consultez la [page de documentation sur les modes de fusion](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/interface/layer-stack/blending-modes).
+> L’outil prend en charge les mêmes modes de fusion que ceux disponibles dans la pile de calques. Pour plus d&#39;informations, consultez la [page de documentation sur les modes de fusion](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/interface/layer-stack/blending-modes).
 
 ### Matériau
 
@@ -100,5 +100,5 @@ L’outil Remplissage polygonal peut être utilisé efficacement à l’aide de 
 Certaines limitations s’appliquent à l’outil :
 
 * Le **remplissage en boucle de polygone** et le **remplissage en boucle de polygone partiel** fonctionnent uniquement sur les quads, de sorte que les triangles et les n-gons ne peuvent pas être remplis avec ces modes.
-* La prise en charge de la **symétrie radiale** est également limitée et peut ne pas être fiable. Pour utiliser la symétrie, préférez le mode miroir. Consultez la [page de documentation de la symétrie](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/symmetry/symmetry) pour plus d&#39;informations.
+* La prise en charge de la **symétrie radiale** est également limitée et peut ne pas être fiable. Pour utiliser la symétrie, préférez le mode miroir. Consultez la [page de documentation de la symétrie](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/painting/symmetry/symmetry) pour plus d&#39;informations.
 * L&#39;outil remplit la géométrie du **Jeu de textures actif** uniquement. La structure filaire est affichée pour ce Jeu de textures et est mise à jour lorsque le Jeu de textures actif change.
