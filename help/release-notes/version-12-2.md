@@ -94,7 +94,7 @@ L&#39;outil **Remplissage polygonal** a été remanié avec une nouvelle interfa
 
 >[!NOTE]
 >
-> Pour plus d&#39;informations sur l&#39;outil **Remplissage polygonal**, consultez la [page de documentation dédiée](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/paint-tools/polygon-fill).
+> Pour plus d&#39;informations sur l&#39;outil **Remplissage polygonal**, consultez la [page de documentation dédiée](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/painting/paint-tools/polygon-fill).
 
 ### Nouvelle peinture à la cage en mode Baking
 
@@ -158,7 +158,7 @@ Le nouveau **mode de peinture à la cage** est un décalage de cage par pixel qu
 
 >[!NOTE]
 >
-> Pour plus d&#39;informations sur le baking, consultez la [page de documentation dédiée](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/baking/baking).
+> Pour plus d&#39;informations sur le baking, consultez la [page de documentation dédiée](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/baking/baking).
 
 ### Mise en surbrillance du nouveau Jeu de textures dans le viewport
 
@@ -228,7 +228,7 @@ Des fonctionnalités et améliorations supplémentaires ont été ajoutées dans
 
   Une nouvelle entrée de mappage de moteur `mesh_uv_neighbor` est disponible pour les matériaux de Substance de données et les filtres. Il fonctionne comme une texture d&#39;UV advection pour trouver l&#39;autre face d&#39;un seam d&#39;Îlot UV. Ses couches rouge et verte stockent l’UV utilisée pour atteindre le pixel voisin à travers un UV.
 
-  Pour plus d&#39;informations sur ces textures de moteur, consultez la [page de documentation dédiée](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/mesh-based-input).
+  Pour plus d&#39;informations sur ces textures de moteur, consultez la [page de documentation dédiée](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/content/creating-custom-effects/mesh-based-input).
 
 ## Notes de mise à jour
 
