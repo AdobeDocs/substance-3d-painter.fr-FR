@@ -2,10 +2,10 @@
 user-guide-title: Substance 3D Painter
 breadcrumb-title: Substance 3D Painter
 user-guide-description: Substance 3D Painter
-source-git-commit: eb0b1c111b0c96a87283785cf702def7305f0aa9
+source-git-commit: 4fa8be7a1541a441d2476bc10ddddbed39c82366
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 14%
+source-wordcount: '1350'
+ht-degree: 15%
 ---
 
 # Substance 3D Painter {#using}
@@ -244,7 +244,7 @@ ht-degree: 14%
   + [interface de Baking](/help/baking/baking-interface.md)
   + [Comment baker des maps de maillage](/help/baking/how-to-bake-mesh-maps.md)
   + [Correction de la déviation](/help/baking/skew-correction.md)
-  + {hide-from-toc}[Peinture à la Cage](/help/baking/cage-painting.md)
+  + [peinture sur cage](/help/baking/cage-painting.md)
   + [Réglages de map de maillage](/help/baking/mesh-map-settings.md)
   + [paramètres de visualisation du Baking](/help/baking/baking-visualization-settings.md)
 + Contenu{#content}
@@ -450,6 +450,7 @@ ht-degree: 14%
 + Notes de mise à jour{#release-notes}
   + [Présentation des notes de mise à jour](/help/release-notes/release-notes.md)
   + [Toutes les modifications](/help/release-notes/all-changes.md)
+  + [Version 12.2](/help/release-notes/version-12-2.md)
   + [Version 12.1](/help/release-notes/version-12-1.md)
   + [Version 12.0](/help/release-notes/version-12-0.md)
   + [Version 11.1](/help/release-notes/version-11-1.md)
