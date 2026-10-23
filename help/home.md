@@ -4,10 +4,10 @@ description: Commencez avec Substance 3D Painter pour peinture des textures dire
 title: Substance 3D Painter
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
+source-git-commit: 99552782763c4f8313c5f8e7aeeb3a860ecf943d
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 9%
+ht-degree: 10%
 ---
 
 # Substance 3D Painter
@@ -20,7 +20,7 @@ Substance 3D Painter est un logiciel de peinture 3D qui vous permet de réaliser
 
 Cette documentation est conçue pour vous aider à apprendre à utiliser ce logiciel, des techniques de base aux techniques avancées.
 
-Si vous avez une question à laquelle il n&#39;y a pas de réponse dans ce manuel, n&#39;hésitez pas à la poser sur notre [Forum](https://community.adobe.com/t5/substance-3d-painter/bd-p/substance-3d-painter). Vous pouvez également télécharger notre [guide Rendu physique réaliste](https://helpx.adobe.com/fr/substance-3d/unlisted/tutorials.html) si vous souhaitez en savoir plus sur le PBR.
+Si vous avez une question à laquelle il n&#39;y a pas de réponse dans ce manuel, n&#39;hésitez pas à la poser sur notre [Forum](https://community.adobe.com/t5/substance-3d-painter/bd-p/substance-3d-painter). Vous pouvez également télécharger notre [guide Rendu physique réaliste](https://helpx.adobe.com/substance-3d/unlisted/tutorials.html) si vous souhaitez en savoir plus sur le PBR.
 
 </td>
 <td width="58.30%" style="border: 0;" valign="top">
@@ -75,7 +75,7 @@ Si vous avez une question à laquelle il n&#39;y a pas de réponse dans ce manue
 ### Contenu
 
 * [Création d’effets personnalisés](content/creating-custom-effects/creating-custom-effects.md)
-* [Importation d’actifs](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
+* [Importation d’actifs](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
 
 ### Fonctionnalité
 
@@ -104,7 +104,7 @@ Si vous avez une question à laquelle il n&#39;y a pas de réponse dans ce manue
 
 ### Scripts et développement
 
-* [Scripts et plug-ins](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/script-and-plugins-197427392.html)
+* [Scripts et plug-ins](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/script-and-plugins-197427392.html)
 
 ### Support technique
 
@@ -116,7 +116,6 @@ Si vous avez une question à laquelle il n&#39;y a pas de réponse dans ce manue
 ### Notes de mise à jour
 
 * [Toutes les modifications](release-notes/all-changes.md)
-* [Version 11.1](release-notes/version-11-1.md)
-* [Version 11.0](release-notes/version-11-0.md)
-* [Version 10.1](release-notes/version-10-1.md)
-
+* [Version 12.2](release-notes/version-12-2.md)
+* [Version 12.1](release-notes/version-12-1.md)
+* [Version 12.0](release-notes/version-12-0.md)
