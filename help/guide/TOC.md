@@ -2,7 +2,7 @@
 user-guide-title: Substance 3D Painter
 breadcrumb-title: Substance 3D Painter
 user-guide-description: Substance 3D Painter
-source-git-commit: 4fa8be7a1541a441d2476bc10ddddbed39c82366
+source-git-commit: 8b8828624dd415b766eb6d663b6ec175cd3847b1
 workflow-type: tm+mt
 source-wordcount: '1350'
 ht-degree: 15%
@@ -453,10 +453,10 @@ ht-degree: 15%
   + [Version 12.2](/help/release-notes/version-12-2.md)
   + [Version 12.1](/help/release-notes/version-12-1.md)
   + [Version 12.0](/help/release-notes/version-12-0.md)
-  + [Version 11.1](/help/release-notes/version-11-1.md)
   + [Problèmes connus](/help/release-notes/known-issues.md)
   + [Version Beta actuelle](/help/release-notes/beta.md)
   + Anciennes versions{#old-versions}
+    + [Version 11.1](/help/release-notes/version-11-1.md)
     + [Version 11.0](/help/release-notes/version-11-0.md)
     + [Version 10.1](/help/release-notes/version-10-1.md)
     + [Version 10.0](/help/release-notes/version-10-0.md)
