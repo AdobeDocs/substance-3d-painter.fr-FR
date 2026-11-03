@@ -1,7 +1,7 @@
 ---
 description: Découvrez la version Beta de Substance 3D Painter actuelle, notamment les nouvelles fonctionnalités et un journal des modifications complet.
 title: Version Beta
-source-git-commit: 1df909bd0658eac40b726b493e73758e64c01d16
+source-git-commit: d84430d131a0857e981006698faf536d59aa707b
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -15,7 +15,7 @@ Cette version bêta de Substance 3D Painter ajoute la prise en charge native des
 
 ### **Build 2**
 
-Date de publication : **29 octobre 2026**
+Date de publication : **2 novembre 2026**
 
 **Ajouté** :
 
