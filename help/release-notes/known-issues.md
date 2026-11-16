@@ -4,9 +4,9 @@ description: Passez en revue les problèmes connus pour que Substance 3D Painter
 title: Problèmes connus
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 08fc43babcb6f7a9be61508748c4068b6bd0c8b6
+source-git-commit: a03b6eb503f036d0ea991ebffe4996fde2f0ffb9
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '925'
 ht-degree: 0%
 ---
 
@@ -15,7 +15,6 @@ ht-degree: 0%
 Cette page répertorie tous les problèmes connus actifs présents dans la version 12.2.0 de Substance 3D Painter :
 
 * `[Baking]` AO incorrect sur les cubes simples
-* `[Baking]` L&#39;interprétation du suffixe de correspondance par nom est incorrecte
 * `[Baking]` seams Uv n&#39;apparaissent pas après la réimportation de mes
 * `[Baking]` artefacts de type Grille avec certains paramètres
 
